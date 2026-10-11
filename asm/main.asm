@@ -32,6 +32,11 @@ D8_ADV      equ D8_ADV_SITE + 8
 .org ADV_SITE
     j       pk_adv              ; delay slot: original "lw v1,(t6)"
 
+; --- Name entry: the grid shows full-width Latin (fixed 12 px columns for the cursor); the picked unit is
+; converted to the English glyph (0x100+ASCII) before it is stored ("sh v0,(s1)"; delay slot does s1 += 2).
+.org NAME_SEL
+    j       name_map
+
 ; --- VWF: per-glyph advance for codes 0x100-0x1FF (English at 0x100+ASCII), else the font struct's +8 byte.
 .org VWF_SITE
     j       vwf_adv             ; delay slot keeps the original "addiu t3,t3,0x28"
@@ -200,6 +205,20 @@ pk8_adv:
     j       D8_ADV
     nop
 
+name_map:                       ; v0 = picked grid unit; s1 already advanced by 2
+    sltiu   at, v0, 0x57
+    beqz    at, @@store
+    lui     at, hi(name_tab)
+    addu    at, at, v0
+    lbu     at, lo(name_tab)(at)
+    nop
+    beqz    at, @@store
+    nop
+    addiu   v0, at, 0x100
+@@store:
+    j       NAME_SEL + 8
+    sh      v0, -2(s1)
+
 vwf_adv:
     lbu     v0, 8(t5)
     addiu   v1, a3, -0x100
@@ -229,6 +248,8 @@ en_width:
     .incbin WIDTHS
 map8:                           ; 128 bytes: ASCII -> 8x8 font code (build.py MAP8)
     .incbin MAP8_FILE
+name_tab:                       ; 0x57 bytes: JP glyph code -> ASCII (0 = keep), build.py NAME_TAB
+    .incbin NAME_TAB_FILE
 .if . > CAVE2 + 0x200
     .error "data cave overflow"
 .endif

@@ -104,7 +104,7 @@
  {
   "id": "R:480CC",
   "jp": "{face:0015}これはまたひどくやられたものだ{wait}{page}{name}！{n}この薬をのませてやれ{wait}{end}",
-  "en": "{face:0015}My, you've really taken a beating.{wait}{page}{name}! Here, have it take this medicine.{wait}{end}"
+  "en": "{face:0015}My, your partner's taken quite a beating.{wait}{page}{name}! Here, give her this medicine.{wait}{end}"
  },
  {
   "id": "R:48110",

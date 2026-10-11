@@ -128,7 +128,7 @@
  {
   "id": "R:35980",
   "jp": "{ee}{face:003B}ここは仲魔の合体を行う{n}怪しい研究所ネ{wait}{end}",
-  "en": "{ee}{face:003B}This is mysterious laboratory for fusing allies, yes.{wait}{end}"
+  "en": "{ee}{face:003B}This is the Mysterious Lab, where allies get fused, yes!{wait}{end}"
  },
  {
   "id": "R:359B0",
@@ -306,7 +306,7 @@
  {
   "id": "R:36714",
   "jp": "{face:003B}ここは仲魔の合体を行う{n}怪しい研究所ネ{wait}{f0}合体をするかい？{wait}{end}",
-  "en": "{face:003B}This is mysterious laboratory for fusing allies, yes.{wait}{f0}You want to do fusion?{wait}{end}"
+  "en": "{face:003B}This is the Mysterious Lab, where allies get fused, yes!{wait}{f0}You want to do fusion?{wait}{end}"
  },
  {
   "id": "R:36758",
@@ -416,7 +416,7 @@
  {
   "id": "R:36D1C",
   "jp": "{face:0016}これはまたひどくやられたものだ{wait}{page}{name}！{n}この薬をのませてやれ{wait}{end}",
-  "en": "{face:0016}My, you've really taken a beating.{wait}{page}{name}! Here, have it take this medicine.{wait}{end}"
+  "en": "{face:0016}My, your partner's taken quite a beating.{wait}{page}{name}! Here, give her this medicine.{wait}{end}"
  },
  {
   "id": "R:36D60",

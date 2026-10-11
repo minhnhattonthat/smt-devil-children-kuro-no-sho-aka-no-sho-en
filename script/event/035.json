@@ -2,7 +2,7 @@
  {
   "id": "R:3DDF0",
   "jp": "{face:000D}{voice:0628}私はこの世界を{n}次の時代に進めるプログラム{wait}{page}{voice:0629}ラグナロクを起動させるために{n}魔界でどりょくしてきたのだ{wait}{page}{voice:062A}人間とデビルに{n}新しい時代をあたえ{wait}{page}{voice:062B}次の世界を生きて行くすがたを{n}見てみたかったのだ{wait}{end}",
-  "en": "{face:000D}{voice:0628}I have worked for the program that moves this world on to the next age.{wait}{page}{voice:0629}To activate Ragnarok, I have toiled here in Makai.{wait}{page}{voice:062A}I wanted to give humans and Devils a new age{wait}{page}{voice:062B}and see how they would live on in the next world.{wait}{end}"
+  "en": "{face:000D}{voice:0628}There is a program that moves this world on to the next age.{wait}{page}{voice:0629}To activate that program, Ragnarok, I have toiled here in Makai.{wait}{page}{voice:062A}I wanted to give humans and Devils a new age{wait}{page}{voice:062B}and see how they would live on in the next world.{wait}{end}"
  },
  {
   "id": "R:3DEC8",
@@ -355,7 +355,7 @@
  {
   "id": "R:3F444",
   "jp": "ザンネンであります！！{wait}{page}わたくしを登録する場所が{n}ありません{wait}{page}ライザーかヴィネセンターに{n}場所を作って下さい{wait}{end}",
-  "en": "Most regrettable, sir!!{wait}{page}There is no room to register me.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{end}"
+  "en": "Most regrettable, ma'am!!{wait}{page}There is no room to register me.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{end}"
  },
  {
   "id": "R:3F4B8",

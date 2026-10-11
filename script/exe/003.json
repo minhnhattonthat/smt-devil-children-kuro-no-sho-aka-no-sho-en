@@ -2,427 +2,427 @@
  {
   "id": "BM:09EFDA",
   "jp": "通信エラーです{n}　合体できませんでした{wait}{end}",
-  "en": "",
+  "en": "Communication error. The fusion failed.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09F006",
   "jp": "ゲームショウ用で{n}　セーブを行う事はできません{wait}{end}",
-  "en": "",
+  "en": "You can't save in the game show version.{wait}{end}",
   "max": 50
  },
  {
   "id": "BM:09F03A",
   "jp": "何をしますか？{end}",
-  "en": "",
+  "en": "What'll you do?{end}",
   "max": 18
  },
  {
   "id": "BM:09F04E",
   "jp": "後でちゃんと{n}　引き取りに来てくれよ{wait}{end}",
-  "en": "",
+  "en": "Be sure to come back and pick it up later!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09F07A",
   "jp": "本当に引き取るかい？{fb:0000}{end}",
-  "en": "",
+  "en": "Really take it back?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09F096",
   "jp": "答えは{end}",
-  "en": "",
+  "en": "Answer:{end}",
   "max": 10
  },
  {
   "id": "BM:09F0A2",
   "jp": "パートナーに技を{n}　おぼえさせますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Teach your partner{n}a skill?{fb:0000} {end}",
   "max": 46
  },
  {
   "id": "BM:09F0D2",
   "jp": "{partner}は{n}　{f6}をおぼえた！{wait}{end}",
-  "en": "",
+  "en": "{partner} learned {f6}!{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09F0EE",
   "jp": "お金を々{num:FFE0:0000}{n}　手に入れた{wait}{end}",
-  "en": "",
+  "en": "Got {num:FFE0:0000} Macca!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09F112",
   "jp": "MPが足りません{wait}{end}",
-  "en": "",
+  "en": "Not enough MP.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09F12A",
   "jp": "{name}のレベルが{n}　低いので呼ぶ事ができない{wait}{end}",
-  "en": "",
+  "en": "{name}'s level is too low to summon it.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09F15A",
   "jp": "その仲魔はキングクラスです{n}　デビライザーには入れられません！{wait}{end}",
-  "en": "",
+  "en": "That ally is King-class! It can't go in the Deviliser!{wait}{end}",
   "max": 66
  },
  {
   "id": "BM:09F19E",
   "jp": "仲魔がいっぱいになりました{wait}{end}",
-  "en": "",
+  "en": "Your ally slots are full.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09F1BE",
   "jp": "{partner}が{n}　強くなったらまたおいで{wait}{end}",
-  "en": "",
+  "en": "Come back when {partner} is stronger.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09F1E2",
   "jp": "技をおぼえるんだね{n}　仲魔を選んでくれ{wait}{end}",
-  "en": "",
+  "en": "Learning a skill, huh? Pick an ally.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09F20E",
   "jp": "あずかってる仲魔がいるよ{wait}{n}　もう訓練は終わってるけど{f0}　どうするんだい{wait}{end}",
-  "en": "",
+  "en": "I'm looking after an ally of yours.{wait}{n}Its training's already done.{f0}So what'll it be?{wait}{end}",
   "max": 78
  },
  {
   "id": "BM:09F25E",
   "jp": "ステータスを見る{n}　連れて帰る{end}",
-  "en": "",
+  "en": "View Status{n}Take It Back{end}",
   "max": 34
  },
  {
   "id": "BM:09F282",
   "jp": "仲魔がいっぱいです！{n}　仲魔をへらしてから来てください{wait}{end}",
-  "en": "",
+  "en": "Your allies are full! Come back once you have fewer.{wait}{end}",
   "max": 58
  },
  {
   "id": "BM:09F2BE",
   "jp": "まだ訓練は終わってないよ{n}　それでも引き取る？{fb:0001}{end}",
-  "en": "",
+  "en": "Its training isn't done yet.{n}Take it back anyway?{fb:0001} {end}",
   "max": 54
  },
  {
   "id": "BM:09F2F6",
   "jp": "きたえたい者を選んでください{end}",
-  "en": "",
+  "en": "Choose who to train.{end}",
   "max": 30
  },
  {
   "id": "BM:09F316",
   "jp": "仲魔をきたえるんだね{n}　仲魔を選んでくれ{wait}{end}",
-  "en": "",
+  "en": "Training an ally, huh? Pick an ally.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09F346",
   "jp": "{partner}が強くなります{n}　ランクアップする事もあります{wait}{page}　合体します{n}　よろしいかな？{fb:0000}{end}",
-  "en": "",
+  "en": "{partner} will get stronger, and might even rank up.{wait}{page}Shall I fuse them?{fb:0000} {end}",
   "max": 90
  },
  {
   "id": "BM:09F3A2",
   "jp": "HP、MPがあがるか{n}　新しい技をおぼえます{wait}{f0}　ランクアップする事もあります{wait}{page}　合体します{n}　よろしいかな？{fb:0000}{end}",
-  "en": "",
+  "en": "Its HP and MP will rise, or it'll learn a new skill.{wait}{f0}It might even rank up.{wait}{page}Shall I fuse them?{fb:0000} {end}",
   "max": 118
  },
  {
   "id": "BM:09F41A",
   "jp": "新しい仲魔になるか{n}　強さが上がります{wait}{page}　合体します{n}　よろしいかな？{fb:0000}{end}",
-  "en": "",
+  "en": "You'll get a new ally, or it'll grow stronger.{wait}{page}Shall I fuse them?{fb:0000} {end}",
   "max": 78
  },
  {
   "id": "BM:09F46A",
   "jp": "あと{num:FFE0:0000}つおぼえる事ができます{wait}{end}",
-  "en": "",
+  "en": "It can learn {num:FFE0:0000} more.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09F492",
   "jp": "{name}のレベルが{n}　上がりました！{wait}{end}",
-  "en": "",
+  "en": "{name}'s level went up!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09F4B6",
   "jp": "{name}のレベルが{n}　低すぎて合体できません！{wait}{end}",
-  "en": "",
+  "en": "{name}'s level is too low to fuse!{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09F4E4",
   "jp": "{face:003A}それからパートナーは{n}特別な合体だぞ{wait}{f0}パートナーは誰と合体しても{wait}{f0}強くはなるがパートナーのままだぞ{wait}{end}",
-  "en": "",
+  "en": "{face:003A}And your partner's fusion is special.{wait}{f0}No matter who your partner fuses with,{wait}{f0}it gets stronger but stays your partner.{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:09F554",
   "jp": "{ee}{face:003B}コンケツ合体では{n}合体前の２体の仲魔から{wait}{f0}最大３つの魔法が{wait}{f0}けいしょうできるネ{wait}{page}新しい仲魔が{n}生まれなかった時は{wait}{f0}パラメータがアップするネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}In Mixed Fusion, from the two allies you fuse,{wait}{f0}up to three spells{wait}{f0}can be inherited, yes.{wait}{page}And when no new ally is born,{wait}{f0}its parameters go up, yes.{wait}{end}",
   "max": 156
  },
  {
   "id": "BM:09F5F0",
   "jp": "{face:003B}ヒッポウができたネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Bi Fang is made, yes!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09F60C",
   "jp": "{ee}{face:003B}次に２体目の仲魔を選ぶ{n}２体目の仲魔は合体の{wait}{f0}材料になるネ{f0}コンケツ合体なので{wait}{f0}１体目とちがうアンズーを選ぶ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}Next, pick the second ally. The second ally{wait}{f0}is the fusion material, yes.{f0}This is Mixed Fusion, so{wait}{f0}pick Anzu, unlike the first.{wait}{end}",
   "max": 124
  },
  {
   "id": "BM:09F688",
   "jp": "{ee}{face:003B}それからジュンケツ合体では{n}仲魔が魔法や技をおぼえたり{wait}{f0}あるじょうけんをみたすと{wait}{f0}ランクアップするネ{wait}{page}ランクアップでは{n}合体前の２体の仲魔から{wait}{f0}最大３つの魔法が{wait}{f0}けいしょうできるネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}And in Pure Fusion, allies learn spells and skills,{wait}{f0}and when certain conditions are met,{wait}{f0}they rank up, yes.{wait}{page}When they rank up, from the two allies you fuse,{wait}{f0}up to three spells{wait}{f0}can be inherited, yes.{wait}{end}",
   "max": 200
  },
  {
   "id": "BM:09F750",
   "jp": "{face:003B}ネコマタが強くなったネ{wait}{n}MHPが７３に上がった！{wait}{f0}MMPが３０に上がった！{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Nekomata got stronger, yes!{wait}{n}MHP rose to 73!{wait}{f0}MMP rose to 30!{wait}{end}",
   "max": 88
  },
  {
   "id": "BM:09F7A8",
   "jp": "{ee}では合体するぞ{wait}{end}",
-  "en": "",
+  "en": "{ee}Now, let's fuse!{wait}{end}",
   "max": 20
  },
  {
   "id": "BM:09F7BC",
   "jp": "{ee}{face:003B}次に２体目の仲魔を選ぶ{n}２体目の仲魔は合体の{wait}{f0}材料になるネ{f0}ジュンケツ合体なので{wait}{f0}１体目と同じネコマタを選ぶ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}Next, pick the second ally. The second ally{wait}{f0}is the fusion material, yes.{f0}This is Pure Fusion, so{wait}{f0}pick Nekomata, same as the first.{wait}{end}",
   "max": 124
  },
  {
   "id": "BM:09F838",
   "jp": "{face:003B}ジュンケツ合体とは{wait}{n}同じすがたの仲魔を{f0}合体させる事で{wait}{f0}仲魔のHPやMPを{f0}上げる事ができるネ{wait}{page}ではジュンケツ合体を{wait}{n}くわしく見てみるネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Pure Fusion is when you{wait}{n}fuse allies of the same kind{f0}together,{wait}{f0}which raises the ally's{f0}HP and MP, yes.{wait}{page}Now let's look at{wait}{n}Pure Fusion up close, yes.{wait}{end}",
   "max": 152
  },
  {
   "id": "BM:09F8D0",
   "jp": "{face:003B}コンケツ合体は{wait}{n}ちがうすがたの仲魔を{f0}合体させる事で{wait}{f0}仲魔のパラメータを上げたり{f0}新しい仲魔ができたりするネ{wait}{page}ではコンケツ合体を{wait}{n}くわしく見てみるネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Mixed Fusion is when you{wait}{n}fuse allies of different kinds{f0}together,{wait}{f0}which raises the ally's parameters{f0}or makes a new ally, yes.{wait}{page}Now let's look at{wait}{n}Mixed Fusion up close, yes.{wait}{end}",
   "max": 164
  },
  {
   "id": "BM:09F976",
   "jp": "ジュンケツ合体{n}　コンケツ合体{end}",
-  "en": "",
+  "en": "Pure Fusion{n}Mixed Fusion{end}",
   "max": 34
  },
  {
   "id": "BM:09F998",
   "jp": "{ee}{face:003B}まず１体目の仲魔を選ぶ{n}１体目の仲魔は合体の{wait}{f0}モトになるネ{wait}{f0}ネコマタでやってみるネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}First, pick the first ally. The first ally{wait}{f0}is the fusion's base, yes.{wait}{f0}Let's try Nekomata, yes.{wait}{end}",
   "max": 96
  },
  {
   "id": "BM:09F9F8",
   "jp": "合体には２しゅるいある{wait}{n}１つはジュンケツ合体で{wait}{f0}もう１つはコンケツ合体ネ{wait}{f0}どっちの説明を聞くのかな？{wait}{end}",
-  "en": "",
+  "en": "There are two kinds of fusion.{wait}{n}One is Pure Fusion,{wait}{f0}and the other is Mixed Fusion, yes.{wait}{f0}Which one should I explain?{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:09FA6A",
   "jp": "アタックが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "Attack rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FA8A",
   "jp": "ガードが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "Guard rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FAAA",
   "jp": "マジックが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "Magic rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FACA",
   "jp": "Mガードが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "M-Guard rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FAEA",
   "jp": "スピードが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "Speed rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FB0A",
   "jp": "ラックが{num:FFE0:0000}上がった！{wait}{end}",
-  "en": "",
+  "en": "Luck rose by {num:FFE0:0000}!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FB2A",
   "jp": "{name}に{n}　ランクアップしました！{wait}{end}",
-  "en": "",
+  "en": "Ranked up to {name}!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09FB4E",
   "jp": "MMPが{num:FFE0:0000}になりました！{wait}{end}",
-  "en": "",
+  "en": "MMP is now {num:FFE0:0000}!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09FB72",
   "jp": "MHPが{num:FFE0:0000}になりました！{wait}{end}",
-  "en": "",
+  "en": "MHP is now {num:FFE0:0000}!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09FB96",
   "jp": "{name}は{n}　強くなりました！{wait}{end}",
-  "en": "",
+  "en": "{name} got stronger!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FBB6",
   "jp": "{f6}をおぼえました{wait}{end}",
-  "en": "",
+  "en": "Learned {f6}!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09FBCE",
   "jp": "合体します{n}　よろしいかな？{fb:0000}{end}",
-  "en": "",
+  "en": "Fusing now.{n}Is that OK?{fb:0000} {end}",
   "max": 34
  },
  {
   "id": "BM:09FBF2",
   "jp": "まだ合体するかい？{fb:0000}{end}",
-  "en": "",
+  "en": "Fuse some more?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09FC0C",
   "jp": "{face:003A}ウオッチャーができたぞ！{wait}{page}んっ！まだ何か起こるぞ{wait}{end}",
-  "en": "",
+  "en": "{face:003A}We made a Watcher!{wait}{page}Hm!? Something else is happening!{wait}{end}",
   "max": 60
  },
  {
   "id": "BM:09FC48",
   "jp": "{ee}{face:003A}それから、合体でできた仲魔は{n}魔法のけいしょうができるぞ{wait}{page}合体前の２体の仲魔から{n}最大３つの魔法が{wait}{f0}けいしょうできるぞ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003A}Also, allies made by fusion can inherit spells.{wait}{page}From the two allies you fuse, up to three spells{wait}{f0}can be inherited!{wait}{end}",
   "max": 132
  },
  {
   "id": "BM:09FCCC",
   "jp": "{ee}{face:003A}合体事故が起こって{n}メッチーが生まれたぞ{wait}{page}合体事故はたまに起こるんだよ{wait}{page}これでできた仲魔は{n}めずらしい物ばかりだぞ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003A}A fusion accident happened, and a Mechi was born!{wait}{page}Fusion accidents happen now and then.{wait}{page}The allies you get from them are all rare ones!{wait}{end}",
   "max": 128
  },
  {
   "id": "BM:09FD4C",
   "jp": "{ee}{face:003A}ウオッチャーができるみたいだね{n}よし合体しよう{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003A}Looks like we'll get a Watcher. Let's fuse!{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:09FD84",
   "jp": "{ee}{face:003A}そして２体目の仲魔も選ぶ{n}ネクベトにしよう{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003A}Then choose the second ally. Let's go with Nekhbet.{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:09FDB8",
   "jp": "{ee}{face:003A}まず１体目の仲魔を選ぶ{n}ネコマタでいいかな{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003A}First, choose the first ally. Nekomata will do.{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:09FDEC",
   "jp": "{face:003A}合体とは仲魔２体から{n}１体の仲魔をつくる事なのだ{wait}{f0}では、実際にやってみよう{wait}{end}",
-  "en": "",
+  "en": "{face:003A}Fusion means making one ally out of two allies.{wait}{f0}Now, let's actually try it.{wait}{end}",
   "max": 84
  },
  {
   "id": "BM:09FE40",
   "jp": "{face:003A}　説明を聞きたいのか？{fb:0000}{end}",
-  "en": "",
+  "en": "{face:003A}Want an explanation?{fb:0000} {end}",
   "max": 32
  },
  {
   "id": "BM:09FE62",
   "jp": "あと{num:FFE0:0000}つけいしょうできます{wait}{end}",
-  "en": "",
+  "en": "It can inherit {num:FFE0:0000} more.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09FE86",
   "jp": "ここで召喚しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Summon it here?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09FEA0",
   "jp": "{face:00FF}　合体する{n}　合体って何？{end}",
-  "en": "",
+  "en": "{face:00FF}Fuse{n}What's fusion?{end}",
   "max": 32
  },
  {
   "id": "BM:09FEC2",
   "jp": "最初からやり直します{n}　いいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "Restart from the top.{n}Is that OK?{fb:0000} {end}",
   "max": 42
  },
  {
   "id": "BM:09FEEE",
   "jp": "{name}ができました{n}　ニックネームをつけますか？{fb:0001}{end}",
-  "en": "",
+  "en": "You made {name}!{n}Give it a nickname?{fb:0001} {end}",
   "max": 50
  },
  {
   "id": "BM:09FF22",
   "jp": "合体させられる{n}　仲魔がいません！{wait}{end}",
-  "en": "",
+  "en": "No allies can be fused!{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09FF4A",
   "jp": "私は{name}{n}　今後ともよろしく{wait}{end}",
-  "en": "",
+  "en": "I am {name}. I'm yours from now on!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FF6A",
   "jp": "その仲魔は合体できません{wait}{end}",
-  "en": "",
+  "en": "That ally can't be fused.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09FF8A",
   "jp": "これでいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "Is this OK?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09FFA6",
   "jp": "これいじょう持てません！{n}　どれか消してください{wait}{end}",
-  "en": "",
+  "en": "Can't hold any more! Please erase one.{wait}{end}",
   "max": 54
  },
  {
@@ -432,73 +432,73 @@
  {
   "id": "BM:09FFF6",
   "jp": "魔法のけいしょうができます{n}　けいしょうしますか？{end}",
-  "en": "",
+  "en": "Spells can be inherited.{n}Inherit spells?{end}",
   "max": 54
  },
  {
   "id": "BM:0A002E",
   "jp": "合体させる仲魔を{n}　２体選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose two allies to fuse.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A005A",
   "jp": "{name}はひんしのため{n}　合体できません！{wait}{end}",
-  "en": "",
+  "en": "{name} is near death and can't be fused!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A0086",
   "jp": "{name}ができそうです{n}　これでいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "You can make {name}.{n}Is this OK?{fb:0000} {end}",
   "max": 46
  },
  {
   "id": "BM:0A00B6",
   "jp": "２体目は{n}　{name}でいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "Second ally:{n}{name}, okay?{fb:0000} {end}",
   "max": 34
  },
  {
   "id": "BM:0A00DA",
   "jp": "１体目は{n}　{name}でいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "First ally:{n}{name}, okay?{fb:0000} {end}",
   "max": 34
  },
  {
   "id": "BM:0A00FE",
   "jp": "合体事故が起こりました！{n}　{name}が現れた！{wait}{end}",
-  "en": "",
+  "en": "A fusion accident! {name} appeared!{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:0A012E",
   "jp": "その組み合わせでは{n}　合体できません！{wait}{end}",
-  "en": "",
+  "en": "That combination can't be fused!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A015A",
   "jp": "{name}の{n}　レベルが不足してます{wait}{end}",
-  "en": "",
+  "en": "{name}'s level is too low.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A017E",
   "jp": "誰を合体させますか？{end}",
-  "en": "",
+  "en": "Who will you fuse?{end}",
   "max": 22
  },
  {
   "id": "BM:0A0196",
   "jp": "通常合体{n}　じゅんけつ・こんけつ{end}",
-  "en": "",
+  "en": "Normal Fusion{n}Pure / Mixed{end}",
   "max": 34
  },
  {
   "id": "BM:0A01BA",
   "jp": "話し中です{wait}{end}",
-  "en": "",
+  "en": "Line busy.{wait}{end}",
   "max": 14
  },
  {
@@ -512,223 +512,223 @@
  {
   "id": "BM:0A01F4",
   "jp": "アクセスカンリョウ{speed:003C}{end}",
-  "en": "",
+  "en": "Access complete{speed:003C}{end}",
   "max": 24
  },
  {
   "id": "BM:0A020C",
   "jp": "ヴィネセンターに{n}アクセスします{n}{speed:0014}{page}アクセスチュウ{end}",
-  "en": "",
+  "en": "Accessing the{n}Vine Center{n}{speed:0014}{page}Accessing...{end}",
   "max": 56
  },
  {
   "id": "BM:0A0246",
   "jp": "ゲームショウ用では{n}　通信を行えません{wait}{page}　せいひんばんにて{n}　お楽しみください{wait}{end}",
-  "en": "",
+  "en": "The game show version can't connect.{wait}{page}Please enjoy it in the retail version!{wait}{end}",
   "max": 86
  },
  {
   "id": "BM:0A029C",
   "jp": "聞きたい曲を選んでください{end}",
-  "en": "",
+  "en": "Choose a song to hear.{end}",
   "max": 28
  },
  {
   "id": "BM:0A02B8",
   "jp": "見たいマップを選んでください{end}",
-  "en": "",
+  "en": "Choose a map to view.{end}",
   "max": 32
  },
  {
   "id": "BM:0A02D8",
   "jp": "キーワードを選んでください{end}",
-  "en": "",
+  "en": "Choose a keyword.{end}",
   "max": 28
  },
  {
   "id": "BM:0A02F4",
   "jp": "このアイテムは{n}これいじょう持てませんよ{wait}{end}",
-  "en": "",
+  "en": "You can't carry any more of this item.{wait}{end}",
   "max": 44
  },
  {
   "id": "BM:0A0320",
   "jp": "いくつおもとめになりますか？{end}",
-  "en": "",
+  "en": "How many would you like?{end}",
   "max": 32
  },
  {
   "id": "BM:0A0340",
   "jp": "お店{end}",
-  "en": "",
+  "en": "Shop{end}",
   "max": 8
  },
  {
   "id": "BM:0A0348",
   "jp": "いらっしゃいませ！{n}何にしますか？{wait}{end}",
-  "en": "",
+  "en": "Welcome! What'll it be?{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0A0372",
   "jp": "仲魔をほぞん用ディスクに{n}　いどうします{wait}{page}　仲魔をいどうするたびに{n}　データをセーブします{wait}{page}　データをセーブしてもいいですか？{fb:0001}{end}",
-  "en": "",
+  "en": "Your allies will be moved to the storage disc.{wait}{page}Data is saved each time you move an ally.{wait}{page}Is it okay to save?{fb:0001} {end}",
   "max": 138
  },
  {
   "id": "BM:0A0416",
   "jp": "どこにいどうしますか？{speed:000F}{end}",
-  "en": "",
+  "en": "Move it where?{speed:000F}{end}",
   "max": 30
  },
  {
   "id": "BM:0A0436",
   "jp": "そこはいっぱいなので{n}　いどうできません{wait}{end}",
-  "en": "",
+  "en": "That spot is full. Can't move it there.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:0A0466",
   "jp": "ビッグ・アンド・スモールです{n}　やりますか？{fb:0000}{end}",
-  "en": "",
+  "en": "This is Big and Small.{n}Want to play?{fb:0000} {end}",
   "max": 50
  },
  {
   "id": "BM:0A049A",
   "jp": "回目{n}　ビッグ　スモール{n}　です{end}",
-  "en": "",
+  "en": " round{n}Big  Small{n}{end}",
   "max": 34
  },
  {
   "id": "BM:0A04BE",
   "jp": "ゲームするにはメダルがいります{wait}{n}　メダルを買いますか？{fb:0000}{end}",
-  "en": "",
+  "en": "You need medals to play.{wait}{n}Buy some medals?{fb:0000} {end}",
   "max": 62
  },
  {
   "id": "BM:0A04FE",
   "jp": "{num:FFE0:0000}枚買いました{wait}{end}",
-  "en": "",
+  "en": "Bought {num:FFE0:0000}.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:0A0552",
   "jp": "現在　{num:FFE0:0003}連勝中{wait}{page}　数は　{num:FFE0:0002}　です{n}　ビッグ？スモール？{end}",
-  "en": "",
+  "en": "Win streak: {num:FFE0:0003}{wait}{page}The number is {num:FFE0:0002}. Big? Small?{end}",
   "max": 66
  },
  {
   "id": "BM:0A0594",
   "jp": "メダルが足りません{wait}{end}",
-  "en": "",
+  "en": "Not enough medals.{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:0A05AE",
   "jp": "けっかは　{num:FFE0:0002}　です{wait}{end}",
-  "en": "",
+  "en": "The result is {num:FFE0:0002}.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A05CA",
   "jp": "勝ち！{wait}{end}",
-  "en": "",
+  "en": "Win!{wait}{end}",
   "max": 10
  },
  {
   "id": "BM:0A05E6",
   "jp": "引き分けです、やり直します{wait}{end}",
-  "en": "",
+  "en": "A tie! Let's go again.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:0A0606",
   "jp": "続ける？{fb:0000}{end}",
-  "en": "",
+  "en": "Continue?{fb:0000}{end}",
   "max": 14
  },
  {
   "id": "BM:0A0616",
   "jp": "もう１回やりますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Play again?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:0A0632",
   "jp": "なんいどをせんたくしてください{wait}{end}",
-  "en": "",
+  "en": "Choose a difficulty.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A0656",
   "jp": "ゲームのとちゅうですが{n}　やめますか{fb:0000}{end}",
-  "en": "",
+  "en": "The game isn't over.{n}Quit anyway?{fb:0000} {end}",
   "max": 42
  },
  {
   "id": "BM:0A0682",
   "jp": "同じ数字は{n}　入力できません{wait}{end}",
-  "en": "",
+  "en": "Can't enter the same number twice.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A06A6",
   "jp": "まだじゅんび中です{n}　もうしばらくお待ちください{wait}{end}",
-  "en": "",
+  "en": "Still getting ready. Please wait a little longer.{wait}{end}",
   "max": 54
  },
  {
   "id": "BM:0A06DE",
   "jp": "今　{num:FFE0:0004}枚{n}　持っています{end}",
-  "en": "",
+  "en": "You have {num:FFE0:0004}{n}medals.{end}",
   "max": 30
  },
  {
   "id": "BM:0A06FC",
   "jp": "交換所{end}",
-  "en": "",
+  "en": "Prizes{end}",
   "max": 8
  },
  {
   "id": "BM:0A0706",
   "jp": "交換できる物がありません{wait}{end}",
-  "en": "",
+  "en": "Nothing to exchange.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:0A0726",
   "jp": "{name}ですね{n}　メダル　{num:FFE0:0001}枚です{wait}{f0}　これでいいですか{fb:0000}{end}",
-  "en": "",
+  "en": "{name}, then? That's {num:FFE0:0001} medals.{wait}{f0}Is that OK?{fb:0000} {end}",
   "max": 62
  },
  {
   "id": "BM:0A0766",
   "jp": "{f7}ですね{n}　メダル　{num:FFE0:0001}枚です{wait}{f0}　これでいいですか{fb:0000}{end}",
-  "en": "",
+  "en": "{f7}, then? That's {num:FFE0:0001} medals.{wait}{f0}Is that OK?{fb:0000} {end}",
   "max": 62
  },
  {
   "id": "BM:0A07A6",
   "jp": "{f7}を手に入れた！{wait}{end}",
-  "en": "",
+  "en": "Got {f7}!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:0A07BE",
   "jp": "{name}を手に入れた！{n}　ニックネームをつけますか{fb:0001}{end}",
-  "en": "",
+  "en": "Got {name}!{n}Give it a nickname?{fb:0001} {end}",
   "max": 50
  },
  {
   "id": "BM:0A07F2",
   "jp": "入れる場所を選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose where to put it.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:0A0812",
   "jp": "{name}が強くなります{n}　合体しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "{name} will get stronger.{n}Fuse?{fb:0000} {end}",
   "max": 42
  }
 ]

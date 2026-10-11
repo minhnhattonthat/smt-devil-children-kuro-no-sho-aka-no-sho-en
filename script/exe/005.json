@@ -2,721 +2,721 @@
  {
   "id": "BM:0A17E0",
   "jp": "ディープホール：パンデモニウム　B２{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B2{end}",
   "max": 40
  },
  {
   "id": "BM:0A1808",
   "jp": "ディープホール：パンデモニウム　B３{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B3{end}",
   "max": 40
  },
  {
   "id": "BM:0A1830",
   "jp": "ディープホール：パンデモニウム　B４{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B4{end}",
   "max": 40
  },
  {
   "id": "BM:0A1858",
   "jp": "ディープホール：パンデモニウム　B５{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B5{end}",
   "max": 40
  },
  {
   "id": "BM:0A1880",
   "jp": "ディープホール：パンデモニウム　B６{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B6{end}",
   "max": 40
  },
  {
   "id": "BM:0A18A8",
   "jp": "ディープホール：パンデモニウム　B７{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B7{end}",
   "max": 40
  },
  {
   "id": "BM:0A18D0",
   "jp": "ディープホール：パンデモニウム　B８{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B8{end}",
   "max": 40
  },
  {
   "id": "BM:0A18F8",
   "jp": "ディープホール：パンデモニウム　B９{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B9{end}",
   "max": 40
  },
  {
   "id": "BM:0A1922",
   "jp": "サンドランド　：サンドゲート{end}",
-  "en": "",
+  "en": "Sand Land: Sand Gate{end}",
   "max": 30
  },
  {
   "id": "BM:0A1940",
   "jp": "ファイアーランド：ボルケーノロード{end}",
-  "en": "",
+  "en": "Fire Land: Volcano Road{end}",
   "max": 36
  },
  {
   "id": "BM:0A1964",
   "jp": "ファイアーランド：マウントヒル{end}",
-  "en": "",
+  "en": "Fire Land: Mount Hill{end}",
   "max": 32
  },
  {
   "id": "BM:0A1984",
   "jp": "ファイアーランド：ファイアーゲート{end}",
-  "en": "",
+  "en": "Fire Land: Fire Gate{end}",
   "max": 36
  },
  {
   "id": "BM:0A19AA",
   "jp": "サンクチュアリ：オルゴールルーム{end}",
-  "en": "",
+  "en": "Sanctuary: Orgel Room{end}",
   "max": 34
  },
  {
   "id": "BM:0A19CE",
   "jp": "パートナーは選べません{wait}{end}",
-  "en": "",
+  "en": "Can't choose your partner.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A19EA",
   "jp": "その仲魔はライザーにいます{n}　ライザーから出してください{wait}{end}",
-  "en": "",
+  "en": "That ally is in your Deviliser. Take it out first.{wait}{end}",
   "max": 62
  },
  {
   "id": "BM:0A1A28",
   "jp": "電話番号を知らない・・・{wait}{end}",
-  "en": "",
+  "en": "I don't know the number...{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0A1A44",
   "jp": "はんばいき{end}",
-  "en": "",
+  "en": "Vendor{end}",
   "max": 12
  },
  {
   "id": "BM:0A1A50",
   "jp": "{ee}{face:003B}ヒッポウができるみたいネ{n}では合体するネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}Looks like a Bi Fang will be made, yes. Now we fuse!{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0A1A84",
   "jp": "{ee}{face:003B}ネコマタが強くなるみたいネ{n}では合体するネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}Looks like Nekomata gets stronger, yes. Now we fuse!{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0A1AB8",
   "jp": "{ee}{face:003B}まず１体目の仲魔を選ぶ{n}１体目の仲魔は合体の{wait}{f0}モトになるネ{wait}{f0}タタリモッケでやってみるネ{wait}{end}",
-  "en": "",
+  "en": "{ee}{face:003B}First, pick the first ally. The first ally becomes{wait}{f0}the base of the fusion, yes.{wait}{f0}Let's try with Tatari Mokke.{wait}{end}",
   "max": 100
  },
  {
   "id": "BM:0A1B1E",
   "jp": "ダメー！{wait}{end}",
-  "en": "",
+  "en": "Wrong!{wait}{end}",
   "max": 14
  },
  {
   "id": "BM:0A1B2E",
   "jp": "正解！{wait}{end}",
-  "en": "",
+  "en": "Right!{wait}{end}",
   "max": 10
  },
  {
   "id": "BM:0A1B3A",
   "jp": "効果がありません{wait}{end}",
-  "en": "",
+  "en": "No effect.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:0A1B52",
   "jp": "魔法・技がおぼえられます{n}　おぼえさせますか？{end}",
-  "en": "",
+  "en": "It can learn a skill.{n}Teach it?{end}",
   "max": 50
  },
  {
   "id": "BM:0A1B86",
   "jp": "▲▼でデビル切り替え{end}",
-  "en": "",
+  "en": "Up/Down: Swap Devil{end}",
   "max": 22
  },
  {
   "id": "BM:0A1B9C",
   "jp": "{face:00FF}　誰にかけますか？{end}",
-  "en": "",
+  "en": "{face:00FF}Use on whom?{end}",
   "max": 24
  },
  {
   "id": "BM:0A1BB6",
   "jp": "{partner}が復活するまで{n}　使えません{wait}{end}",
-  "en": "",
+  "en": "Can't use until {partner} revives.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A238C",
   "jp": "太陽が落ちた{n}夜空を自由に{n}とびまわるワシ{n}人をおうえんし{n}出世させる{n}ありがたいデビル{end}",
-  "en": "",
+  "en": "An eagle that{n}flies free in the{n}night sky after{n}sunset. A kind{n}Devil who helps{n}people succeed.{end}",
   "max": 92
  },
  {
   "id": "BM:0A23E8",
   "jp": "母親をさがす{n}ために空をとぶ{n}鳥のすがたに{n}変身した{n}あかんぼうの{n}デビル{end}",
-  "en": "",
+  "en": "A baby Devil{n}that turned into{n}a bird to fly{n}the skies looking{n}for its mother.{end}",
   "max": 76
  },
  {
   "id": "BM:0A2434",
   "jp": "さわっただけで{n}全ての物を{n}もやしてしまう{n}１本足の{n}炎をはく鳥{end}",
-  "en": "",
+  "en": "A one-legged,{n}fire-breathing{n}bird. Just one{n}touch burns{n}anything up.{end}",
   "max": 68
  },
  {
   "id": "BM:0A2478",
   "jp": "戦う事で{n}自分の信じる事を{n}ひょうげんする{n}白いデビル{end}",
-  "en": "",
+  "en": "A white Devil{n}that shows what{n}it believes in{n}by fighting.{end}",
   "max": 56
  },
  {
   "id": "BM:0A24B0",
   "jp": "神聖なアイの{n}力をつかって{n}主人を守る{n}ネコの女神{n}一度怒ると{n}手がつけられない{end}",
-  "en": "",
+  "en": "A cat goddess{n}who guards her{n}master with the{n}power of holy{n}love. Once angry,{n}she's unstoppable.{end}",
   "max": 84
  },
  {
   "id": "BM:0A2504",
   "jp": "話した事を{n}本当にする{n}すごい力を{n}持ったデビル{n}ふだんはしずかな{n}森に住んでいる{end}",
-  "en": "",
+  "en": "A Devil with the{n}amazing power to{n}make what it{n}says come true.{n}It usually lives{n}in a quiet forest.{end}",
   "max": 84
  },
  {
   "id": "BM:0A2558",
   "jp": "するどくとがった{n}１本のツノを{n}持つまぼろしの{n}白い馬{n}優しい人間にしか{n}なつかない{end}",
-  "en": "",
+  "en": "A mythical white{n}horse with one{n}sharp, pointed{n}horn. It only{n}warms up to{n}kind people.{end}",
   "max": 88
  },
  {
   "id": "BM:0A25B0",
   "jp": "ゾウを１口で{n}食べる事も{n}できてしまう{n}とてつもなく{n}大きな鳥{end}",
-  "en": "",
+  "en": "A gigantic{n}bird that can{n}eat an{n}elephant in{n}one bite.{end}",
   "max": 64
  },
  {
   "id": "BM:0A25F0",
   "jp": "ユーレイになった{n}人間を{n}とても美しい{n}歌声で{n}天にみちびく{n}赤い鳥{end}",
-  "en": "",
+  "en": "A red bird that{n}guides human{n}ghosts to heaven{n}with its very{n}beautiful song.{end}",
   "max": 72
  },
  {
   "id": "BM:0A2638",
   "jp": "デーバ族の{n}中でも、特に{n}ゆうしゅうな{n}イカズチを{n}操るせんし{end}",
-  "en": "",
+  "en": "Deva tribe's{n}best warrior,{n}who wields{n}lightning.{end}",
   "max": 64
  },
  {
   "id": "BM:0A2678",
   "jp": "悪いデビルを{n}おいはらう{n}ふたごのケモノ{n}神社では{n}魔よけとして{n}せきぞうをおく{end}",
-  "en": "",
+  "en": "Twin beasts{n}that drive away{n}bad Devils.{n}Shrines keep{n}stone statues{n}to ward off evil.{end}",
   "max": 84
  },
  {
   "id": "BM:0A26CC",
   "jp": "呪いによって{n}ネコのすがたに{n}変えられたデビル{n}するどいツメと{n}刀で戦う{end}",
-  "en": "",
+  "en": "A Devil turned{n}into a cat by a{n}curse. It fights{n}with sharp claws{n}and a sword.{end}",
   "max": 76
  },
  {
   "id": "BM:0A2718",
   "jp": "太陽と月の{n}力を持った{n}ヒトミを使って{n}朝と夜を{n}明るくてらす{n}神のハヤブサ{end}",
-  "en": "",
+  "en": "A divine falcon{n}whose eyes hold{n}the might of the{n}sun and moon to{n}light up day{n}and night.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2768",
   "jp": "大きなツバサで{n}空を自由に{n}とびまわる{n}とても美しい{n}ツバサが生えた{n}白い馬{end}",
-  "en": "",
+  "en": "A white horse{n}with very{n}beautiful wings.{n}Its big wings let{n}it fly freely{n}in the sky.{end}",
   "max": 80
  },
  {
   "id": "BM:0A27B8",
   "jp": "高い所から{n}目を光らせて{n}どんな悪事も{n}見逃さない{n}正義の心を{n}持ったライオン{end}",
-  "en": "",
+  "en": "A lion with a{n}heart of justice.{n}It keeps watch{n}from high places{n}and misses no{n}wrongdoing.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2808",
   "jp": "白いふたごの{n}キツネの神様{n}イタズラ好きだが{n}悪いやつは{n}２人できびしく{n}おしおきする{end}",
-  "en": "",
+  "en": "White twin fox{n}gods. They love{n}pranks, but the{n}two team up to{n}punish bad guys{n}harshly.{end}",
   "max": 88
  },
  {
   "id": "BM:0A2860",
   "jp": "４つの方角の{n}南の方を{n}守るセイジュウ{n}美しい赤い体の鳥{end}",
-  "en": "",
+  "en": "Sacred beast{n}guarding the{n}south: a lovely{n}red bird.{end}",
   "max": 60
  },
  {
   "id": "BM:0A289C",
   "jp": "４つの方角の{n}西の方を{n}守るセイジュウ{n}神聖な白いトラ{end}",
-  "en": "",
+  "en": "Sacred beast{n}guarding the{n}west: a holy{n}white tiger.{end}",
   "max": 56
  },
  {
   "id": "BM:0A28D4",
   "jp": "はなればなれの{n}仲間の心を{n}１つにまとめる{n}ふしぎな力を{n}持った犬{end}",
-  "en": "",
+  "en": "A dog with a{n}strange power{n}that brings{n}split-up friends'{n}hearts together.{end}",
   "max": 68
  },
  {
   "id": "BM:0A2918",
   "jp": "全身が太陽の様に{n}まぶしくかがやく{n}とても長生きな{n}イグアナの{n}おじいさん{end}",
-  "en": "",
+  "en": "A very old{n}iguana grandpa{n}whose whole body{n}shines bright{n}like the sun.{end}",
   "max": 76
  },
  {
   "id": "BM:0A2964",
   "jp": "戦う事が嫌いな{n}羽根を持った{n}白いヘビ{n}太陽と風を{n}つかさどる神{end}",
-  "en": "",
+  "en": "A white, winged{n}snake who hates{n}fighting. A god{n}of the sun and{n}the wind.{end}",
   "max": 68
  },
  {
   "id": "BM:0A29A8",
   "jp": "悪いデビルを{n}おいはらう{n}正義のライオン{n}人間のために{n}体をはって{n}戦ってくれる{end}",
-  "en": "",
+  "en": "A lion of justice{n}who drives off{n}bad Devils. It{n}puts its body on{n}the line to fight{n}for humans.{end}",
   "max": 84
  },
  {
   "id": "BM:0A29FC",
   "jp": "太陽の光を{n}ツバサに受けて{n}自分のパワーに{n}変えるかがやく鳥{end}",
-  "en": "",
+  "en": "A shining bird{n}that turns the{n}sunlight on its{n}wings into power.{end}",
   "max": 64
  },
  {
   "id": "BM:0A2A3C",
   "jp": "世界の始まりから{n}生きている{n}風を操る{n}伝説のヘビ{end}",
-  "en": "",
+  "en": "A legendary wind{n}snake alive since{n}time began.{end}",
   "max": 52
  },
  {
   "id": "BM:0A2A70",
   "jp": "たくましいアニキ{n}のマンガでコドモ{n}を悪の道に{n}引きずりこむ{n}ドッキン{n}ばぐばぐアニマル{end}",
-  "en": "",
+  "en": "Lures kids down{n}the path of evil{n}with manga about{n}macho big bros.{n}A Dokkin{n}Bagubagu Animal!{end}",
   "max": 92
  },
  {
   "id": "BM:0A2ACC",
   "jp": "４つの方角の{n}北の方を{n}守るセイジュウ{n}とてもかたい{n}コウラを持つ{n}大きなカメ{end}",
-  "en": "",
+  "en": "Sacred beast{n}guarding the{n}north: a giant{n}turtle with a{n}very hard shell.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2B1C",
   "jp": "悪いユーレイを{n}操って{n}悪い病気を{n}流行らせるデビル{n}魔法を使って{n}人間をだます{end}",
-  "en": "",
+  "en": "A Devil that{n}commands evil{n}ghosts to spread{n}bad diseases. It{n}tricks humans{n}with magic.{end}",
   "max": 84
  },
  {
   "id": "BM:0A2B70",
   "jp": "大空をかける{n}とても神聖な{n}ケモノの王様{n}雷とともに現れる{end}",
-  "en": "",
+  "en": "Holy beast king{n}who runs the sky,{n}arriving with{n}thunder.{end}",
   "max": 60
  },
  {
   "id": "BM:0A2BAC",
   "jp": "せんにんが乗る{n}聖なる牛、だけど{n}魔界に来ては{n}あばれる{n}めいわく者{end}",
-  "en": "",
+  "en": "A holy ox that{n}sages ride, but it{n}comes to Makai{n}and runs wild.{n}What a pest!{end}",
   "max": 72
  },
  {
   "id": "BM:0A2BF4",
   "jp": "不幸な人の{n}前に現れて{n}とても嫌味な{n}わらいを見せる{n}人の顔をした{n}バケイヌ{end}",
-  "en": "",
+  "en": "A human-faced{n}ghost dog. It{n}shows up before{n}unlucky people{n}and gives them{n}a nasty grin.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2C44",
   "jp": "長生きをして{n}怪しい力を{n}手に入れたネコ{n}女の子に{n}化けて人間を{n}トリコにする{end}",
-  "en": "",
+  "en": "A cat that lived{n}so long it gained{n}eerie powers. It{n}turns into a girl{n}to charm people.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2C94",
   "jp": "ワニの頭と{n}カバの足を持つ{n}食いしんぼうな{n}デビル{n}悪い人間の{n}タマシイを食べる{end}",
-  "en": "",
+  "en": "A greedy Devil{n}with a crocodile{n}head and hippo{n}legs. It eats{n}the souls of{n}bad people.{end}",
   "max": 84
  },
  {
   "id": "BM:0A2CE8",
   "jp": "どんなささいな{n}事でも{n}すぐに怒りだす{n}怒りんぼうの{n}赤いデビル{end}",
-  "en": "",
+  "en": "A red Devil with{n}a short temper.{n}Even the tiniest{n}thing makes it{n}mad.{end}",
   "max": 68
  },
  {
   "id": "BM:0A2D2C",
   "jp": "すっごく遠くの{n}小さな物まで{n}見つけてしまう{n}すごい目を持った{n}どうもうな鳥{end}",
-  "en": "",
+  "en": "A fierce bird{n}with amazing eyes{n}that can spot{n}tiny things{n}super far away.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2D7C",
   "jp": "かわいい子ネコの{n}すがたに化けて{n}近づいて来た{n}人間を食べる{n}ヘビの体を{n}持つ化けネコ{end}",
-  "en": "",
+  "en": "A monster cat{n}with a snake's{n}body. It poses as{n}a cute kitten{n}and eats humans{n}who come near.{end}",
   "max": 88
  },
  {
   "id": "BM:0A2DD4",
   "jp": "いつもいそがしく{n}かけまわっている{n}ウサギのデビル{n}人の時計を{n}くるわせる{n}イタズラが好き{end}",
-  "en": "",
+  "en": "A rabbit Devil{n}always rushing{n}busily around. It{n}loves the prank{n}of messing up{n}people's clocks.{end}",
   "max": 92
  },
  {
   "id": "BM:0A2E30",
   "jp": "シュラ族の中でも{n}特にゆうしゅうな{n}炎を操る{n}赤いせんし{end}",
-  "en": "",
+  "en": "Sura tribe's{n}best warrior,{n}a red one who{n}wields fire.{end}",
   "max": 60
  },
  {
   "id": "BM:0A2E6C",
   "jp": "クモの糸と{n}６本の手を{n}上手く使って{n}とても美しい{n}服をつくるクモ女{end}",
-  "en": "",
+  "en": "A spider woman{n}who uses her silk{n}and six hands to{n}make beautiful{n}clothes.{end}",
   "max": 72
  },
  {
   "id": "BM:0A2EB4",
   "jp": "体がキカイで{n}できている{n}大きな鳥{n}地面や空気を{n}よごしながら{n}とびまわる{end}",
-  "en": "",
+  "en": "A big bird{n}whose body{n}is a machine.{n}It flies around{n}polluting the{n}land and air.{end}",
   "max": 76
  },
  {
   "id": "BM:0A2F00",
   "jp": "すごいスピードで{n}とぶ事ができる{n}鳥のデビル{n}そのツバサを{n}広げれば{n}月までも行ける{end}",
-  "en": "",
+  "en": "A bird Devil that{n}can fly at{n}amazing speed.{n}Spreading its{n}wings, it can go{n}even to the moon.{end}",
   "max": 88
  },
  {
   "id": "BM:0A2F58",
   "jp": "てんびんを使って{n}死んだ人間の{n}行いをさばく{n}デビル{end}",
-  "en": "",
+  "en": "A Devil who{n}judges the dead's{n}deeds with a{n}scale.{end}",
   "max": 56
  },
  {
   "id": "BM:0A2F90",
   "jp": "タロットカード{n}うらないで{n}どんななやみでも{n}解決してくれる{n}美しい女デビル{end}",
-  "en": "",
+  "en": "A beautiful{n}female Devil who{n}solves any worry{n}with tarot card{n}readings.{end}",
   "max": 80
  },
  {
   "id": "BM:0A2FE0",
   "jp": "赤いガイコツ{n}がたの乗り物に{n}乗ってとぶように{n}走るデビル{n}時には人を{n}乗せる事もある{end}",
-  "en": "",
+  "en": "A Devil riding a{n}red skull-shaped{n}ride, racing as{n}if flying. It{n}sometimes carries{n}people, too.{end}",
   "max": 88
  },
  {
   "id": "BM:0A3038",
   "jp": "色んなすがたに{n}変身できる{n}力を持った{n}不気味なデビル{n}暗い所に{n}住んでいる{end}",
-  "en": "",
+  "en": "A creepy Devil{n}that can change{n}into all sorts{n}of shapes. It{n}lives in dark{n}places.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3088",
   "jp": "黒雲に乗って{n}空から現れ{n}悪さをして{n}人をこまらせる{n}ヘビのシッポを{n}持つ身軽なトラ{end}",
-  "en": "",
+  "en": "A nimble tiger{n}with a snake tail.{n}It rides black{n}clouds from the{n}sky to cause{n}people trouble.{end}",
   "max": 88
  },
  {
   "id": "BM:0A30E0",
   "jp": "ふれた物を{n}いっしゅんで{n}１８金に変えて{n}しまう力を{n}持ったデビル{end}",
-  "en": "",
+  "en": "A Devil with the{n}power to turn{n}anything it{n}touches into 18K{n}gold instantly.{end}",
   "max": 68
  },
  {
   "id": "BM:0A3124",
   "jp": "デビルの呪いで{n}心を無くした{n}魔界で１番の{n}オノの使い手{end}",
-  "en": "",
+  "en": "Makai's top axe{n}user, his heart{n}lost to a Devil's{n}curse.{end}",
   "max": 60
  },
  {
   "id": "BM:0A3160",
   "jp": "全身が{n}水でできている{n}きょだいなリュウ{n}昔は海の王様{n}だった{end}",
-  "en": "",
+  "en": "A giant dragon{n}made all of{n}water. It was once{n}king of the sea.{end}",
   "max": 64
  },
  {
   "id": "BM:0A31A0",
   "jp": "神様の城や{n}人間の家を{n}たくさんつくった{n}大工さんの{n}きょじん{end}",
-  "en": "",
+  "en": "A giant builder{n}who made many{n}gods' castles and{n}human homes.{end}",
   "max": 64
  },
  {
   "id": "BM:0A31E0",
   "jp": "ギャンブルが{n}大好きで命より{n}お金を大切にする{n}お金に目がない{n}よくばりなデビル{end}",
-  "en": "",
+  "en": "A greedy Devil{n}who loves gambling{n}and money more{n}than life. Can't{n}resist cash!{end}",
   "max": 84
  },
  {
   "id": "BM:0A3234",
   "jp": "夜をしはいし{n}月をつかさどる{n}デビル{n}スサノオとは兄弟{end}",
-  "en": "",
+  "en": "The Devil ruling{n}night and moon.{n}Brother of{n}Susano-o.{end}",
   "max": 56
  },
  {
   "id": "BM:0A326C",
   "jp": "海をしはいし{n}風と雷を{n}つかさどる{n}あらあらしい{n}せいかくの王子様{end}",
-  "en": "",
+  "en": "A wild-tempered{n}prince who rules{n}the sea, and the{n}wind and thunder.{end}",
   "max": 68
  },
  {
   "id": "BM:0A32B0",
   "jp": "美しすぎる{n}すがおを{n}かくすために{n}お面をつけている{n}ナゾのデビル{end}",
-  "en": "",
+  "en": "A mystery Devil{n}who wears a mask{n}to hide a face{n}that's too{n}beautiful.{end}",
   "max": 68
  },
  {
   "id": "BM:0A32F4",
   "jp": "闇のマントを{n}まとった、未来を{n}予言するデビル{n}さまざまなブキを{n}使いこなす{end}",
-  "en": "",
+  "en": "A Devil cloaked{n}in darkness who{n}foretells the{n}future, master{n}of all weapons.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3344",
   "jp": "北の海に住む{n}とてつもなく{n}大きなイカ{n}とらえたエモノを{n}かたいクチバシで{n}かみくだく{end}",
-  "en": "",
+  "en": "An enormous squid{n}living in the{n}northern seas. It{n}crushes its prey{n}with its hard{n}beak.{end}",
   "max": 88
  },
  {
   "id": "BM:0A339C",
   "jp": "お面をつねに{n}つけているため{n}誰もすがおを{n}見た事がない{n}ヴァン族の{n}しはい者{end}",
-  "en": "",
+  "en": "Ruler of the Van{n}tribe. He always{n}has a mask on,{n}so no one's ever{n}seen his face.{end}",
   "max": 80
  },
  {
   "id": "BM:0A33EC",
   "jp": "きゅうきょくの{n}味をもとめる{n}魔界の{n}カリスマ料理人{n}本当は{n}食べる方が好き{end}",
-  "en": "",
+  "en": "Makai's star{n}chef, seeking{n}the ultimate{n}flavor. He really{n}prefers eating.{end}",
   "max": 80
  },
  {
   "id": "BM:0A343C",
   "jp": "とっても目がよく{n}まばたきも{n}しないで{n}世界を見守る{n}みはり番の天使{end}",
-  "en": "",
+  "en": "A lookout angel{n}with great eyes{n}who watches over{n}the world without{n}blinking.{end}",
   "max": 72
  },
  {
   "id": "BM:0A3484",
   "jp": "すきとおる様な{n}美しい声で{n}勝利の歌を{n}うたってくれる{n}天使{end}",
-  "en": "",
+  "en": "An angel who{n}sings songs of{n}victory in a{n}clear, lovely{n}voice.{end}",
   "max": 64
  },
  {
   "id": "BM:0A34C4",
   "jp": "人間たちに{n}こっそり{n}科学のちしきを{n}教えてくれた{n}ちしきをあたえる{n}天使{end}",
-  "en": "",
+  "en": "An angel of{n}knowledge who{n}secretly taught{n}humans about{n}science.{end}",
   "max": 76
  },
  {
   "id": "BM:0A3510",
-  "jp": "こいびとどうしの{n}運命の赤い糸を{n}切ってしまう{n}しんくの鍵の天使{end}",
-  "en": "",
+  "jp": "こいびとどうしの{n}運命の赤い糸を{n}切ってしまう{n}しんくの鎧の天使{end}",
+  "en": "An angel in{n}crimson armor who{n}cuts lovers' red{n}threads of fate.{end}",
   "max": 68
  },
  {
   "id": "BM:0A3554",
   "jp": "神様の{n}アイのめぐみを{n}みんなに{n}ちょっとずつ{n}プレゼントして{n}とびまわる天使{end}",
-  "en": "",
+  "en": "An angel who{n}flies around{n}giving everyone{n}a little gift of{n}God's love.{end}",
   "max": 80
  },
  {
   "id": "BM:0A35A4",
   "jp": "人の心に入りこみ{n}悪い事を{n}すすめるデビル{n}とても気が弱く{n}すぐに逃げ出す{end}",
-  "en": "",
+  "en": "A Devil that{n}sneaks into hearts{n}to urge bad deeds.{n}Very timid, it{n}runs off fast.{end}",
   "max": 76
  },
  {
   "id": "BM:0A35F0",
   "jp": "お気に入りの{n}ボールに乗って{n}追いかけて来る{n}危ないデビル{n}強力な魔法を操る{end}",
-  "en": "",
+  "en": "A dangerous{n}Devil that chases{n}you on its{n}favorite ball. It{n}uses strong magic.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3640",
   "jp": "世界中の{n}だいとうりょうや{n}そうりだいじんや{n}王様などの{n}えらい人を{n}見守る天使{end}",
-  "en": "",
+  "en": "An angel who{n}watches over{n}important people{n}like presidents,{n}prime ministers{n}and kings.{end}",
   "max": 84
  },
  {
   "id": "BM:0A3694",
   "jp": "こうきしんが{n}強すぎて{n}知ってはいけない{n}ヒミツを{n}知ってしまった{n}天使{end}",
-  "en": "",
+  "en": "An angel so{n}curious that it{n}learned secrets{n}it was never{n}meant to know.{end}",
   "max": 76
  },
  {
   "id": "BM:0A36E0",
   "jp": "世界中の{n}えらい人を{n}悪い道へと{n}そそのかす{n}悪い天使{end}",
-  "en": "",
+  "en": "A wicked{n}angel who{n}tempts the{n}world's VIPs{n}to evil.{end}",
   "max": 56
  },
  {
   "id": "BM:0A3718",
   "jp": "戦うために{n}つくりだされた{n}最初の天使{n}こうげきてきな{n}せいかくでとても{n}あばれんぼう{end}",
-  "en": "",
+  "en": "The first angel,{n}made to fight. It{n}is aggressive{n}and really{n}wild.{end}",
   "max": 88
  },
  {
   "id": "BM:0A3770",
   "jp": "世界を守る{n}ためにつくられた{n}戦う天使{n}戦い好きで{n}悪いデビルを{n}探している{end}",
-  "en": "",
+  "en": "A fighting angel{n}made to protect{n}the world. It{n}loves battle and{n}hunts bad Devils.{end}",
   "max": 80
  },
  {
   "id": "BM:0A37C0",
   "jp": "オトメのピンチに{n}かならず現れ{n}キセキを起こして{n}助けてくれる{n}やさしい天使{end}",
-  "en": "",
+  "en": "A kind angel who{n}always shows up{n}for maidens in{n}trouble, saving{n}them by miracle.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3810",
   "jp": "赤いバラを{n}この世界から{n}無くすために{n}見つけしだい{n}にぎりつぶす{n}ひどい天使{end}",
-  "en": "",
+  "en": "A cruel angel{n}who crushes{n}each red rose{n}it finds, to{n}rid the world{n}of them.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3860",
   "jp": "神の言葉を{n}全うちゅうに{n}伝える役目を{n}持つ天使{n}なまけ者が大嫌い{end}",
-  "en": "",
+  "en": "An angel whose{n}job is to carry{n}God's word to the{n}universe. Hates{n}lazybones.{end}",
   "max": 68
  },
  {
   "id": "BM:0A38A4",
   "jp": "大空を走る{n}戦車に乗って{n}悪いデビルや{n}悪い人間を{n}こらしめる天使{end}",
-  "en": "",
+  "en": "An angel riding{n}a sky chariot{n}to punish bad{n}Devils and bad{n}people.{end}",
   "max": 68
  },
  {
   "id": "BM:0A38E8",
   "jp": "息をはくだけで{n}生き物をキゼツ{n}させてしまう{n}力を持つ{n}死神の天使{end}",
-  "en": "",
+  "en": "A death angel{n}whose breath{n}alone can make{n}living things{n}faint.{end}",
   "max": 68
  },
  {
   "id": "BM:0A392C",
   "jp": "地面にもぐれる{n}戦車に乗って{n}人の足元や{n}後ろから{n}おそいかかる{n}戦う天使{end}",
-  "en": "",
+  "en": "A fighting angel{n}on a chariot{n}that burrows.{n}It attacks from{n}below or behind.{end}",
   "max": 76
  },
  {
   "id": "BM:0A3978",
   "jp": "にらんだだけで{n}相手を石に{n}してしまう{n}恐い目をした{n}月の天使{end}",
-  "en": "",
+  "en": "A moon angel{n}with scary eyes{n}that turn foes{n}to stone with{n}just a glare.{end}",
   "max": 64
  },
  {
   "id": "BM:0A39B8",
   "jp": "４つのつばさを{n}持つ天使{n}炎の剣を持ち{n}近づく者を{n}黒こげにする{end}",
-  "en": "",
+  "en": "A four-winged{n}angel. With its{n}flaming sword it{n}chars anyone{n}who comes near.{end}",
   "max": 68
  },
  {
   "id": "BM:0A39FC",
   "jp": "世界のために{n}アイの歌を{n}うたい続ける{n}コーラスたいの{n}やさしい天使{end}",
-  "en": "",
+  "en": "A kind angel of{n}the choir who{n}keeps singing{n}songs of love{n}for the world.{end}",
   "max": 72
  },
  {
   "id": "BM:0A3A44",
   "jp": "悪いちしきを{n}広めるために{n}世界中を{n}かけまわる{n}悪い天使{end}",
-  "en": "",
+  "en": "A bad angel{n}who roams{n}the world{n}spreading evil{n}knowledge.{end}",
   "max": 60
  },
  {
   "id": "BM:0A3A80",
   "jp": "神をえいえんに{n}ねむらせるために{n}うたう天使{n}すがたからは{n}そうぞうできない{n}きれいな歌声{end}",
-  "en": "",
+  "en": "An angel who{n}sings to put God{n}to sleep forever.{n}Its voice is more{n}beautiful than its{n}looks suggest.{end}",
   "max": 92
  },
  {
   "id": "BM:0A3ADC",
   "jp": "光りかがやく{n}正義の心と{n}最強の力を持つ{n}天使のリーダー{end}",
-  "en": "",
+  "en": "Angels' leader,{n}shining with{n}justice and{n}supreme might.{end}",
   "max": 60
  },
  {
   "id": "BM:0A3B18",
   "jp": "世界を大きな{n}闇の力で{n}破壊しようと{n}たくらむ{n}とても悪い天使{end}",
-  "en": "",
+  "en": "An evil angel{n}plotting to ruin{n}the world with{n}great dark{n}power.{end}",
   "max": 64
  },
  {
   "id": "BM:0A3B58",
   "jp": "ダイヤモンドや{n}エメラルドなどの{n}宝をいっぱい{n}かくし持っている{n}土の中に住む{n}小さなデビル{end}",
-  "en": "",
+  "en": "A little Devil{n}living underground{n}who hides lots of{n}treasure, like{n}diamonds and{n}emeralds.{end}",
   "max": 96
  },
  {
   "id": "BM:0A3BB8",
   "jp": "おどりがとくいで{n}イタズラ好きな{n}小さなヨウセイ{n}夜中になると{n}仲間と集まり{n}わになっておどる{end}",
-  "en": "",
+  "en": "A tiny fairy who{n}loves dancing and{n}pranks. At night{n}she meets her{n}friends to dance{n}in a ring.{end}",
   "max": 96
  },
  {
   "id": "BM:0A3C18",
   "jp": "高い雪山で{n}そうなんして{n}ねむってしまった{n}人間をおそう{n}雪のきょじん{end}",
-  "en": "",
+  "en": "A snow giant who{n}attacks people{n}lost on high{n}snowy mountains{n}who fall asleep.{end}",
   "max": 72
  },
  {
   "id": "BM:0A3C60",
   "jp": "しぜんをよごす{n}者をゆるさない{n}森を守る{n}優しいデビル{n}空の上から{n}森を見守る{end}",
-  "en": "",
+  "en": "A kind forest{n}guardian who{n}hates polluters.{n}From the sky, it{n}watches the{n}woods.{end}",
   "max": 80
  },
  {
   "id": "BM:0A3CB0",
   "jp": "手の平に乗る{n}小さな{n}サイズの体に{n}とても大きな{n}ゆうきを持った{n}せんし{end}",
-  "en": "",
+  "en": "A warrior small{n}enough to sit in{n}your palm, but{n}with very big{n}courage.{end}",
   "max": 76
  },
  {
   "id": "BM:0A3CFC",
   "jp": "ムダな戦いを{n}好まない{n}ちえとゆうきで{n}戦う{n}魔法のとくいな{n}黒いデビル{end}",
-  "en": "",
+  "en": "Dislikes useless{n}fights; it fights{n}with wits and{n}courage. A black{n}Devil skilled in{n}magic.{end}",
   "max": 76
  },
  {
   "id": "BM:0A3D48",
   "jp": "おはかが無くて{n}さまよっていた{n}タマシイが{n}カラスに{n}乗りうつった{n}デビル{end}",
-  "en": "",
+  "en": "A Devil born{n}when a lost soul{n}with no grave{n}possessed{n}a crow.{end}",
   "max": 76
  },
  {
   "id": "BM:0A3D94",
   "jp": "魔法と科学の力で{n}つくられた{n}キカイじかけの{n}ロボットデビル{end}",
-  "en": "",
+  "en": "A clockwork robot{n}Devil made by{n}magic and{n}science.{end}",
   "max": 64
  },
  {
   "id": "BM:0A3DD4",
   "jp": "好きな人が{n}コロコロ変わる{n}とても気まぐれな{n}風のセイレイ{end}",
-  "en": "",
+  "en": "A super fickle{n}wind spirit whose{n}crush changes{n}all the time.{end}",
   "max": 60
  },
  {
   "id": "BM:0A3E10",
   "jp": "ラセツ族の中でも{n}特にゆうしゅうな{n}風を操る{n}黒いデビル{end}",
-  "en": "",
+  "en": "Rasetsu tribe's{n}best: a black{n}Devil who{n}wields wind.{end}",
   "max": 60
  },
  {
   "id": "BM:0A3E4C",
   "jp": "全身がホネで{n}できた不死身の{n}がいこつ男{n}ホネがバラバラに{n}なるとしばらく{n}動けなくなる{end}",
-  "en": "",
+  "en": "An undying{n}skeleton man made{n}all of bones. If{n}his bones fall{n}apart, he can't{n}move for a while.{end}",
   "max": 92
  }
 ]

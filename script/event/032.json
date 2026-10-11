@@ -247,7 +247,7 @@
  {
   "id": "R:3845C",
   "jp": "{face:0009}{voice:03DE}そう、パイモンにね！{n}ひどくやられてるわね{wait}{page}{voice:05D8}これじゃあ役に立たないわよ{n}さっさと見すてた方がいいわよ{wait}{end}",
-  "en": "{face:0009}{voice:03DE}I see, Paimon, huh! He really did a number on it.{wait}{page}{voice:05D8}It's useless like this. You'd better just abandon it.{wait}{end}"
+  "en": "{face:0009}{voice:03DE}I see, Paimon, huh! She really did a number on it.{wait}{page}{voice:05D8}It's useless like this. You'd better just abandon it.{wait}{end}"
  },
  {
   "id": "R:384D4",

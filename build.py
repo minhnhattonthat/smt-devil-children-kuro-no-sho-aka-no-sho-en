@@ -91,6 +91,47 @@ def build_font(files):
     (files / 'DEVIL.PAC').write_bytes(pac)
     (BUILD / 'en_width.bin').write_bytes(widths)
     (BUILD / 'map8.bin').write_bytes(map8())
+    (BUILD / 'name_tab.bin').write_bytes(name_tab())
+
+
+NAME_PAGES = (  # name entry: 8 rows x (5 + gap + 5); shown with full-width glyphs, stored as English (asm name_map)
+    ['ABCDE FGHIJ', 'KLMNO PQRST', 'UVWXY Z.!?-', '01234 56789', '+=/:# %()* '] + [' ' * 11] * 3,
+    ['abcde fghij', 'klmno pqrst', 'uvwxy z.!?-', '01234 56789', '+=/:# %()* '] + [' ' * 11] * 3,
+)
+NAME_FW = {'.': '。', '!': '！', '?': '？', '-': '－', '+': '＋', '=': '＝', '/': '／',
+           ':': '：', '#': '＃', '%': '％', '(': '（', ')': '）', '*': '※', ' ': '　'}
+
+
+def name_tab():
+    """JP glyph code (< 0x57) -> ASCII for name entry; inverse of the full-width grid glyphs."""
+    import text
+    m = bytearray(0x57)
+    for row in NAME_PAGES[0] + NAME_PAGES[1]:
+        for c in row:
+            if c != ' ':
+                m[text.JP_ENC[fw(c)]] = ord(c)
+    return bytes(m)
+
+
+def fw(c):
+    """Full-width JP-table character for an ASCII name-grid character."""
+    if c.isdigit():
+        return chr(0xFF10 + int(c))
+    return c if c.isalpha() else NAME_FW[c]
+
+
+def name_grid(path):
+    """Replace the two kana grids (hiragana / katakana pages) in a MAIN EXE with the Latin pages."""
+    import text
+    d = bytearray(path.read_bytes())
+    for jp_first, page in (('あいうえお', NAME_PAGES[0]), ('アイウエオ', NAME_PAGES[1])):
+        off = d.find(text.encode(jp_first + '　はひふへほ' if jp_first[0] == 'あ' else jp_first + '　ハヒフヘホ'))
+        assert off >= 0, jp_first
+        new = text.encode('{n}'.join(''.join(fw(c) for c in row) for row in page) + '{end}')
+        old_len = text.decode(bytes(d), off)[1]
+        assert len(new) == old_len, (len(new), old_len)
+        d[off:off + old_len] = new
+    path.write_bytes(d)
 
 
 def map8():
@@ -111,11 +152,11 @@ def map8():
 
 EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
     'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFCA4,
-                   'CAVE2': 0x800D61FC},
+                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0},
     'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800D0064,
-                   'CAVE2': 0x800D65BC},
+                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94},
     'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCFF0,
-                   'CAVE2': 0x800E3548},
+                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C},
 }
 
 
@@ -162,9 +203,11 @@ def insert_strings(files, name, mode, sub, extract):
 def build_exe(files, name, mode='normal'):
     import exe
     insert_strings(files, name, mode, 'exe', exe.strings)
+    name_grid(files / name)
     eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
-                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin')] + eq, capture_output=True, text=True)
+                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin'),
+                        '-strequ', 'NAME_TAB_FILE', str(BUILD / 'name_tab.bin')] + eq, capture_output=True, text=True)
     if r.returncode:
         sys.exit('armips failed:\n' + r.stdout + r.stderr)
 
