@@ -1,0 +1,58 @@
+[
+ {
+  "id": "BM:0A0516",
+  "jp": "メダルを何枚かけますか？{n}　　　　５　　　１０　　　２０{end}",
+  "en": "How many Medals?{n}[0000][0000][0000][0000][001E][0000][0000][0000][001A][0019][0000][0000][0000][001B][0019]{end}",
+  "max": 58
+ },
+ {
+  "id": "BM:0A05D6",
+  "jp": "負け・・・{wait}{end}",
+  "en": "You lose...{wait}{end}",
+  "max": 14
+ },
+ {
+  "id": "BM:0BF7C0",
+  "jp": "EXP：{num:FFE0:0000}{n}々：　{num:FFE0:0001}　　かくとく！！{wait}{end}",
+  "en": "EXP: {num:FFE0:0000}{n}[0012]: {num:FFE0:0001}  Obtained!!{wait}{end}",
+  "max": 48
+ },
+ {
+  "id": "BM:0BF958",
+  "jp": "{name}のHPが　{num:FFE0:0000}{n}　MPが　{num:FFE0:0001}　回復した！{wait}{end}",
+  "en": "{name} recovered {num:FFE0:0000} HP{n}and {num:FFE0:0001} MP!{wait}{end}",
+  "max": 52
+ },
+ {
+  "id": "RM:0A5656",
+  "same_as": "BM:0A0516"
+ },
+ {
+  "id": "RM:0A5716",
+  "same_as": "BM:0A05D6"
+ },
+ {
+  "id": "RM:0BFB80",
+  "same_as": "BM:0BF7C0"
+ },
+ {
+  "id": "RM:0BFD18",
+  "same_as": "BM:0BF958"
+ },
+ {
+  "id": "NM:0AF9FA",
+  "same_as": "BM:0A0516"
+ },
+ {
+  "id": "NM:0AFABA",
+  "same_as": "BM:0A05D6"
+ },
+ {
+  "id": "NM:0CCB0C",
+  "same_as": "BM:0BF7C0"
+ },
+ {
+  "id": "NM:0CCCA4",
+  "same_as": "BM:0BF958"
+ }
+]

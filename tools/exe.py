@@ -30,6 +30,26 @@ RECORDS = {
 }
 _B_MAIN = None
 
+# Strings the kana-ratio scan misses (Latin / digits / symbols dominate): found by their JP opening, in any file.
+FORCED_JP = ('EXP：', '{name}のHPが', 'メダルを何枚かけますか', '負け・・・', 'Pダウンコンボ', 'Pアップコンボ',
+             '{face:0002}なんか、めんどくさくなっちゃった')
+
+
+def forced(d):
+    """{offset: (bytes, text)} of FORCED_JP strings in d that end in {end}."""
+    out = {}
+    for s in FORCED_JP:
+        sig = text.encode(s)
+        i = d.find(sig)
+        while i >= 0:
+            if i % 2 == 0:
+                t, n = text.decode(d, i)
+                if t.endswith('{end}'):
+                    out[i] = (n, t)
+            i = d.find(sig, i + 1)
+    return out
+
+
 # Not text: name-entry character maps etc. (B_MAIN offsets; matched by JP content in other EXEs)
 NOT_TEXT_PREFIX = ('vwxyz', '・…＝', 'eぁぅ', '・／：（？')
 
@@ -84,6 +104,10 @@ def strings(d, records=True, base=BASE):
             found[off] = (n, t)
     for off in rec:
         t, n = text.decode(d, off)
+        found[off] = (n, t)
+    for off, (n, t) in forced(d).items():
+        for o in [o for o, (m, _) in found.items() if o < off < o + m]:  # a run that swallowed its leading junk
+            del found[o]
         found[off] = (n, t)
     covered = set()
     ends = set()
@@ -158,7 +182,11 @@ BATTLES = (('BB', 'B_BATTLE.BIN'), ('RB', 'R_BATTLE.BIN'))  # overlays at 0x8017
 def battle_strings(d):
     """Battle overlays hold many data runs that decode as kana: keep real-looking text only."""
     out = []
+    force = forced(d)
     for off, n, cap, jp in strings(d, records=False, base=0x80170000):
+        if off in force:
+            out.append((off, n, cap, jp))
+            continue
         units = [struct.unpack_from('<H', d, p)[0] for p in range(off, off + n - 2, 2)]
         glyphs = [u for u in units if u < text.NGLYPH]
         spaced = sum(1 for u in glyphs if u == 0) * 2 >= len(glyphs)  # 'ご　さ　ざ' kana tables

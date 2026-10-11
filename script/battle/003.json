@@ -1,0 +1,32 @@
+[
+ {
+  "id": "BB:02B2B0",
+  "jp": "Pダウンコンボ：{ed}{end}",
+  "en": "Stat Down Combo:{ed}{end}",
+  "max": 20
+ },
+ {
+  "id": "BB:02B2C4",
+  "jp": "Pアップコンボ：{ed}{end}",
+  "en": "Stat Up Combo:{ed}{end}",
+  "max": 20
+ },
+ {
+  "id": "BB:02C514",
+  "jp": "{face:0002}なんか、めんどくさくなっちゃった{n}やーめた{wait}{face:00FF}{end}",
+  "en": "{face:0002}Ugh, this is so annoying...{n}Forget it!{wait}{face:00FF}{end}",
+  "max": 54
+ },
+ {
+  "id": "RB:02B2B0",
+  "same_as": "BB:02B2B0"
+ },
+ {
+  "id": "RB:02B2C4",
+  "same_as": "BB:02B2C4"
+ },
+ {
+  "id": "RB:02C510",
+  "same_as": "BB:02C514"
+ }
+]
