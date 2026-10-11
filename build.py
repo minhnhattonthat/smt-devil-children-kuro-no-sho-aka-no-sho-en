@@ -181,7 +181,8 @@ def exe_marker(mid, jp, cap):
 # Strings that outgrow their slot move to spare bytes at the end of cave 2 (after the data tables) and their
 # pointer slot is repointed: {EXE: {string offset: [pointer slot file offsets]}}. The element/race/status names
 # live in one pointer table (file 0x960); Fire (ヒ) has only a 4-byte slot.
-RELOCATE = {'B_MAIN.EXE': {0xB074C: [0x990]}, 'R_MAIN.EXE': {0xB0AE0: [0x990]}, 'N_MAIN.EXE': {0xBC190: [0x990]}}
+RELOCATE = {'B_MAIN.EXE': {0xB074C: [0x990, 0x5A54]}, 'R_MAIN.EXE': {0xB0AE0: [0x990, 0x5A88]},
+            'N_MAIN.EXE': {0xBC190: [0x990, 0x4F88]}}
 CAVE2_USED = 476  # bytes used by asm/main.asm in cave 2 (pk_pend 4 + widths 256 + map8 128 + name_tab 87, aligned)
 
 

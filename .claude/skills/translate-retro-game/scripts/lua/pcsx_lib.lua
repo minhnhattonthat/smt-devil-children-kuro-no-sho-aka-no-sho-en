@@ -4,6 +4,9 @@
 -- pixels); emu.py converts them to PNG. Files go through Support.File (PCSX-Redux's own file API).
 L = { frame = 0 }
 
+-- QA runs: no audio
+pcall(function() PCSX.settings.spu.Mute = true; PCSX.settings.spu.Speed = 8 end)
+
 local logf = Support.File.open(OUT .. "log.txt", "TRUNCATE")
 function L.log(s) logf:write(tostring(s) .. "\n") end
 function L.shot(name)

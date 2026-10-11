@@ -1,0 +1,32 @@
+# cold boot -> Black Book -> Continue -> load Data 1 from the card given with --memcard (e.g. a copy of the user's dc_en_1.mcd)
+# ends on the field (~9700 frames); run with --shot-every to follow it
+1500 -
+6 start
+400 -
+6 start
+300 -
+6 circle
+3400 -
+900 -
+6 circle
+1200 -
+6 circle
+300 -
+6 circle
+600 -
+6 circle
+600 -
+6 circle
+600 -
+300 -
+# open the field menu
+6 triangle
+120 -
+6 triangle
+150 -
+6 circle
+150 -
+6 circle
+150 -
+6 circle
+150 -

@@ -193,6 +193,8 @@ def run(a):
         cmd += ["-debugger", "-interpreter"] if a.debugger else ["-no-debugger", "-dynarec"]
         if bios:
             cmd += ["-bios", os.path.abspath(bios)]
+        if a.memcard:
+            cmd += ["-memcard1", os.path.abspath(a.memcard)]
         cwd = os.path.dirname(exe)  # -portable keeps settings and memory cards beside the exe
     t0 = time.time()
     stdout = ""
@@ -258,5 +260,6 @@ if __name__ == "__main__":
     ap.add_argument("--debugger", action="store_true", help="PS1: debugger + interpreter, needed for L.on_exec")
     ap.add_argument("--timeout", type=int, default=300)
     ap.add_argument("--sheet", action="store_true")
+    ap.add_argument("--memcard", help="PS1: memory card image for slot 1 (PCSX-Redux -memcard1)")
     ap.add_argument("--smoke", action="store_true")
     sys.exit(run(ap.parse_args()))
