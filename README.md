@@ -6,7 +6,7 @@ The game has seven password words (the same seven in Black Book, Red Book and We
 password screen with the on-screen letter grid. The Japanese originals were kana; they are English now.
 
 - Type letters only, **no spaces**. Upper and lower case both work: whatever you type is stored as capitals.
-- The two grid pages are upper case (first page) and lower case (second page).
+- The password screen only has the upper-case grid page (its page button does nothing).
 
 | # | Type this | Original (JP) | What it is |
 |---|---|---|---|

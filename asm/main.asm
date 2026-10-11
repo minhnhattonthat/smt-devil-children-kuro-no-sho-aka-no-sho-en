@@ -37,6 +37,11 @@ D8_ADV      equ D8_ADV_SITE + 8
 .org NAME_SEL
     j       name_map
 
+; --- Password screen only: the page button ("xori s5,s5,1", B 0x80020CAC) does nothing, so the lowercase
+; page is unreachable (passwords are upper case). The name entry has its own copy of the toggle.
+.org NAME_SEL - 0x1F4
+    nop
+
 ; --- VWF: per-glyph advance for codes 0x100-0x1FF (English at 0x100+ASCII), else the font struct's +8 byte.
 .org VWF_SITE
     j       vwf_adv             ; delay slot keeps the original "addiu t3,t3,0x28"
