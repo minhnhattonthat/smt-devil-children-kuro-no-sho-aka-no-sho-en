@@ -1,0 +1,2962 @@
+[
+ {
+  "id": "BM:0BB7B4",
+  "jp": "ラジエルの書２{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB7CE",
+  "jp": "ラジエルの書３{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB7E8",
+  "jp": "ラジエルの書４{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB802",
+  "jp": "太陽のゆびわ{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB81C",
+  "jp": "月のゆびわ{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB836",
+  "jp": "イニシエの言葉{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB850",
+  "same_as": "BM:09E258"
+ },
+ {
+  "id": "BM:0BB86A",
+  "jp": "ノルンのカギ{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB884",
+  "same_as": "BM:0B03A4"
+ },
+ {
+  "id": "BM:0BB89E",
+  "same_as": "BM:001AB0"
+ },
+ {
+  "id": "BM:0BB8B8",
+  "jp": "メシアのツノ{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB8D2",
+  "jp": "メシアのヒトミ{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB8EC",
+  "same_as": "BM:005C88"
+ },
+ {
+  "id": "BM:0BB906",
+  "same_as": "BM:0B02A8"
+ },
+ {
+  "id": "BM:0BB920",
+  "jp": "ヴィネセンター{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB93A",
+  "jp": "サークルゲート{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0BB954",
+  "same_as": "BM:0B053E"
+ },
+ {
+  "id": "BM:0BB96E",
+  "same_as": "BM:0B0374"
+ },
+ {
+  "id": "BM:0BD610",
+  "same_as": "BM:0AE5DC"
+ },
+ {
+  "id": "BM:0BD618",
+  "jp": "ク－ル{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0BD620",
+  "same_as": "BM:0BD618"
+ },
+ {
+  "id": "BM:0BD7DC",
+  "jp": "{face:0007}やぁ！　ボクはタカジョー・ゼット！{wait}{n}これからボクが{f0}「ウェブネット」について説明するよ{wait}{page}さあ、知りたいところを選んでくれよ{wait}{end}",
+  "en": "",
+  "max": 136
+ },
+ {
+  "id": "BM:0BD864",
+  "jp": "{face:0007}そう、わからないことがあったら{n}いつでも来てね{wait}{f0}ボクが説明するからさ{wait}{page}それじゃあがんばってね！{wait}{end}",
+  "en": "",
+  "max": 108
+ },
+ {
+  "id": "BM:0BD8D0",
+  "jp": "{face:0007}説明が長くなっちゃったけど{wait}{n}最後までつきあってくれて{f0}ありがとう{wait}{page}とちゅうでわからなくなったら{n}いつでもここに来てね{wait}{f0}ボクが説明するからさ{wait}{page}それじゃあがんばってね！{wait}{end}",
+  "en": "",
+  "max": 180
+ },
+ {
+  "id": "BM:0BD984",
+  "jp": "「ウェブネット」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BM:0BD9C4",
+  "jp": "「へんしゅう」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BM:0BDA04",
+  "jp": "「対戦」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BM:0BDA3C",
+  "jp": "「交換」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BM:0BDA74",
+  "jp": "「合体」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BM:0BDAAC",
+  "jp": "わかった、次は？{n}わからない、もう一度{n}他のこうもくは？{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BM:0BDAE8",
+  "jp": "さて、他の説明も聞くかい？{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BDB08",
+  "jp": "・・・一気に話してつかれちゃったね{n}続きを聞くかい？{wait}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BM:0BDB40",
+  "jp": "{face:0007}「ウェブネット」は、メモリーカードの{n}中の２つのデータをロードして{wait}{f0}「対戦」「交換」「合体」をするんだ{wait}{page}一度、黒の書か赤の書を遊んで{wait}{n}データをセーブしないと遊べないから{f0}注意してね{wait}{page}それから、「対戦」をするには{wait}{n}先に「へんしゅう」をしておかないと{f0}いけないんだよ{wait}{page}それと、ウェブネットで{n}セーブするときは{wait}{page}かならずロードしたデータに{n}上書きしてね{wait}{page}そうしないと、仲魔がいなくなることが{n}あるから、気をつけてくれよ{wait}{end}",
+  "en": "",
+  "max": 436
+ },
+ {
+  "id": "BM:0BDCF4",
+  "jp": "{face:0007}「へんしゅう」は対戦に使う仲魔を{n}とうろくするところなんだ{wait}{page}今いる仲魔をネットライザーに{n}コピーして、セーブするんだよ{wait}{page}へんしゅうはコントローラ１しか{n}使えないから注意してね{wait}{page}へんしゅうに入ったら{wait}{n}まず、どのデータをへんしゅうしたいか{f0}選ぶんだ{wait}{page}そのあと、へんしゅうしたいライザーを{n}選んでね{wait}{page}ネットライザーは６本まで使えるよ{wait}{end}",
+  "en": "",
+  "max": 348
+ },
+ {
+  "id": "BM:0BDE50",
+  "jp": "{face:0007}へんしゅうするライザーを選んだら{wait}{n}次は、そのライザーに入れる仲魔を{f0}選ぶんだ{wait}{page}ここでは、「コピー」を選んで{wait}{n}仲魔たちをネットライザーに{f0}コピーするんだ{wait}{page}コピーの元になった仲魔は{n}何回コピーされてもいなくならないんだ{wait}{end}",
+  "en": "",
+  "max": 232
+ },
+ {
+  "id": "BM:0BDF38",
+  "jp": "{face:0007}「しょうきょ」はコピーされた仲魔を{n}消してしまうんだ{wait}{page}消されてしまうのはコピーされた仲魔{n}だから{wait}{page}コピーの元になった仲魔がいれば{wait}{n}もう一度コピーできるから{f0}心配しないでね{wait}{page}「リセット」は、今そのライザーに{wait}{n}コピーされている仲魔全部を{f0}しょうきょしてしまうんだ{wait}{end}",
+  "en": "",
+  "max": 276
+ },
+ {
+  "id": "BM:0BE04C",
+  "jp": "{face:0007}けっていを選んだら、そのライザーに{n}名前をつける事ができるよ{wait}{page}対戦を始める前は{wait}{n}そのライザーにどんな仲魔が{f0}入っているか見ることができないから{wait}{page}自分だけのライザー名をつけると{n}べんりだと思うよ{wait}{page}ライザーのへんしゅうが終わったら{n}セーブをするんだ{wait}{end}",
+  "en": "",
+  "max": 260
+ },
+ {
+  "id": "BM:0BE150",
+  "jp": "{face:0007}「交換」は２つのデータの間で、{n}仲魔を交換するんだ{wait}{page}１対１の交換しかできないから{n}気をつけてね{wait}{page}交換はコントローラが１つでも{n}２つでもできるんだよ{wait}{page}交換を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}ロードが終わったら、交換に出す仲魔を{n}じゅんばんに選ぶんだよ{wait}{end}",
+  "en": "",
+  "max": 288
+ },
+ {
+  "id": "BM:0BE270",
+  "jp": "{face:0007}交換に出す仲魔を選んだら{n}ここで一回セーブするんだ{wait}{page}ここでセーブしないと交換できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ交換だよ{wait}{n}これで１Pと２Pの仲魔が交換されるよ{wait}{page}交換された仲魔はヴィネセンターに{n}送られているからね{wait}{end}",
+  "en": "",
+  "max": 244
+ },
+ {
+  "id": "BM:0BE364",
+  "jp": "{face:0007}交換が終わったら{n}もう一回セーブするんだ{wait}{page}ここでセーブしないと、せっかくもらった{n}仲魔がいなくなっちゃうから気をつけてね{wait}{page}交換についての説明はこれで終わりだよ{wait}{end}",
+  "en": "",
+  "max": 172
+ },
+ {
+  "id": "BM:0BE410",
+  "jp": "{face:0007}「合体」は２つのデータから{wait}{n}仲魔を出しあって、その仲魔を{f0}合体させるんだ{wait}{page}合体はコントローラ１つでも{n}２つでもできるよ{wait}{page}ふつうの合体とちがって{wait}{n}ウェブネットの合体では自分たちの{f0}書のルールで行われるんだ{wait}{end}",
+  "en": "",
+  "max": 220
+ },
+ {
+  "id": "BM:0BE4EC",
+  "jp": "{face:0007}合体を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}デビライザーとキングライザーに{n}合体できる仲魔がいないと{wait}{f0}ロードできないから気をつけてね{wait}{page}ロードが終わったら、合体に出す仲魔を{n}じゅんばんに選ぶんだよ{wait}{end}",
+  "en": "",
+  "max": 228
+ },
+ {
+  "id": "BM:0BE5D0",
+  "jp": "{face:0007}両方合体できる組み合わせだったら{n}合体したあとの予想が見れるんだ{wait}{page}その仲魔でよかったら、はいを選んでね{wait}{page}そうしたら合体前に一回セーブするんだ{wait}{page}ここでセーブしないと合体できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ合体だよ{wait}{page}これで１Pと２Pの仲魔の{n}合体が始まるよ{wait}{page}合体が終わったら、どこに入れるか{n}じゅんばんに選んでね{wait}{end}",
+  "en": "",
+  "max": 344
+ },
+ {
+  "id": "BM:0BE728",
+  "jp": "{face:0007}できた仲魔の入れる場所を決めたら{n}もう一回セーブするんだ{wait}{page}ここでセーブしないと、せっかくできた{n}仲魔がいなくなっちゃうから気をつけてね{wait}{page}ウェブネットの合体でしか{n}できない仲魔もいるから{wait}{f0}いろいろ試してがんばってね{wait}{page}合体についての説明はこれで終わりだよ{wait}{end}",
+  "en": "",
+  "max": 268
+ },
+ {
+  "id": "BM:0BE83C",
+  "jp": "{face:0007}「対戦」は２つのデータを使って{n}仲魔と仲魔を戦わせるんだ{wait}{page}対戦はコントローラが２つないと{n}遊べないから注意してね{wait}{page}それと、対戦をするには{n}先に「へんしゅう」で{wait}{page}ネットライザーを{n}用意しなくちゃいけないんだ{wait}{page}へんしゅうについては{wait}{n}「へんしゅう」のこうもくで{f0}説明を聞いてね{wait}{end}",
+  "en": "",
+  "max": 288
+ },
+ {
+  "id": "BM:0BE95C",
+  "jp": "{face:0007}対戦を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}へんしゅうが終わっていないと{n}ロードできないから気をつけてね{wait}{page}ロードが終わったら、対戦に使う{n}ネットライザーをじゅんばんに{wait}{f0}選ぶんだよ{wait}{page}両方のネットライザーが決まったら{n}一度セーブをするんだ{wait}{page}ここでセーブしないと対戦できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ対戦だよ{wait}{end}",
+  "en": "",
+  "max": 360
+ },
+ {
+  "id": "BM:0BEAC4",
+  "jp": "{face:0007}ウェブネットでのバトルは{wait}{n}ふつうのバトルとちがって{wait}{page}仲魔に細かいメイレイを出すことは{n}できないんだよ{wait}{page}ターンの最初にボタンのマークが{n}でるんだ{wait}{page}「がんばれ」で仲魔たちに戦いを{n}続けさせて{wait}{f0}「コンボ」でコンボが使えるよ{wait}{page}ただし「ホーリーソング」だけは{n}使えないようにルールで決まってるから{wait}{f0}注意してね{wait}{end}",
+  "en": "",
+  "max": 320
+ },
+ {
+  "id": "BM:0BEC04",
+  "jp": "{face:0007}ターンが始まると、仲魔たちは{n}いっしょうけんめい戦うよ{wait}{page}どちらかの仲魔がいなくなるか{wait}{n}どちらかがこうさんするまで{f0}戦いは続くよ{wait}{end}",
+  "en": "",
+  "max": 140
+ },
+ {
+  "id": "BM:0BEC90",
+  "jp": "{face:0007}決着がついたら、もう一回セーブしてね{wait}{page}ここでセーブしないと{wait}{n}さっきの戦いで勝った方も、負けた方も{f0}両方負けたことになっちゃうんだ{wait}{page}いろんな友だちと勝負してみてね{wait}{page}対戦についての説明はこれで終わりだよ{wait}{end}",
+  "en": "",
+  "max": 216
+ },
+ {
+  "id": "BM:0BED68",
+  "jp": "わかった{n}わからない、もう一度{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BED8C",
+  "jp": "それと、ウェブネットで{n}遊んでいるときは{wait}{f0}メモリーカードを抜いたりしないでね{wait}{page}このやくそくを守ってくれないと{n}仲魔がいなくなっちゃうことがあるよ{wait}{end}",
+  "en": "",
+  "max": 152
+ },
+ {
+  "id": "BM:0BEE24",
+  "jp": "{face:0007}しかも、コピーされた仲魔は{wait}{n}コピーの元になった仲魔と{f0}まったく同じ強さなんだよ{wait}{page}ただし、コピーされた仲魔は{n}コピーの元になった仲魔が{wait}{page}キミがぼうけんをすすめることに{n}よって、強くなったり{wait}{f0}いなくなったりしてしまっても{wait}{page}コピーした時とまったく同じ強さで{n}ずっと残り続けるんだ{wait}{page}それと、同じライザーの中には{n}同じ仲魔は１体しかコピーできないから{wait}{f0}気をつけてね{wait}{end}",
+  "en": "",
+  "max": 376
+ },
+ {
+  "id": "BM:0BEF9C",
+  "jp": "{face:0007}しょうきょと同じで{wait}{n}コピーの元になった仲魔がいれば{f0}元に戻すことはできるんだよ{wait}{page}ならびかえは、デビライザーと{wait}{n}同じように戦いに参加する{f0}じゅんばんを変えられるんだ{wait}{page}一番上と、二番目の仲魔が{n}最初に戦うことになるんだよ{wait}{page}そのライザーに入れる仲魔を{n}全部決めたらけっていを選ぶんだ{wait}{end}",
+  "en": "",
+  "max": 296
+ },
+ {
+  "id": "BM:0BF0C4",
+  "jp": "{face:0007}セーブしないと、さっきまでの{n}へんしゅうは意味がなくなっちゃうよ{wait}{page}それから、一度へんしゅうした{n}ネットライザーを{wait}{page}もう一度へんしゅうする時は{n}中身がリセットされてしまうんだ{wait}{page}もし、まちがえてへんしゅうした時は{n}セーブしなければだいじょうぶだよ{wait}{page}へんしゅうについての説明は{n}これで終わりだよ{wait}{end}",
+  "en": "",
+  "max": 304
+ },
+ {
+  "id": "BM:0BF1F4",
+  "jp": "{face:0007}たとえば、１Pが黒の書のデータで{n}２Pは赤の書のデータだったときは{wait}{page}１Pは黒の書のルールで{n}自分の出した仲魔を１体目にして{wait}{page}２Pは赤の書のルールで{n}自分の出した仲魔を１体目にして{wait}{page}それぞれ合体するんだ{wait}{end}",
+  "en": "",
+  "max": 216
+ },
+ {
+  "id": "BM:0BF2CC",
+  "jp": "{face:0007}仲魔が２体決まったら{wait}{n}ウェブネットが合体できるかどうか{f0}調べてくれるんだ{wait}{page}どちらかが合体できないときは{n}けっきょく両方合体できないんだ{wait}{page}いろいろ試して合体できる組み合わせを{n}探してみてね{wait}{end}",
+  "en": "",
+  "max": 200
+ },
+ {
+  "id": "BM:0BF394",
+  "jp": "{face:0007}「コール」は仲魔をコールして、{n}「こうさん」はこうさんしちゃうんだ{wait}{page}それと、コンボはコンボが使える{n}組み合わせじゃないと{wait}{f0}使えないし{wait}{page}コールも仲魔がいないと使えないから{n}注意してね{wait}{page}あと、ボタンは３びょう以内に{n}おしてね{wait}{page}ボタンをおさないと、仲魔たちは{n}自分で考えて戦うよ{wait}{end}",
+  "en": "",
+  "max": 292
+ },
+ {
+  "id": "BM:0BF4B8",
+  "jp": "{face:00FF}何を聞く？{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BF4C8",
+  "jp": "どうする？{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0BF574",
+  "jp": "弱そうな、なぞのデビルが{n}現れた！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BF59C",
+  "jp": "強そうな、なぞのデビルが{n}現れた！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BF5C4",
+  "jp": "弱そうな、{name}が{n}現れた！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF5E0",
+  "jp": "強そうな、{name}が{n}現れた！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF5FC",
+  "jp": "相手はゆだんしている！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF618",
+  "jp": "敵の不意打ちだ！{wait}{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BF62C",
+  "jp": "{name}たちは{n}デビルのむれをやっつけた！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BF654",
+  "jp": "{name}たちは{n}負けてしまった！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BF674",
+  "jp": "{name}たちは逃げ出した{n}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:003C}　　逃げのびた！{wait}{end}",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "BM:0BF6BC",
+  "jp": "{name}たちは逃げ出した{n}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:003C}　　逃げられなかった！！{wait}{end}",
+  "en": "",
+  "max": 80
+ },
+ {
+  "id": "BM:0BF70C",
+  "jp": "どのデビルとこうしょうしますか？{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BF730",
+  "jp": "こうしょう中{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BF740",
+  "jp": "こうしょう・失敗！{wait}{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BF758",
+  "jp": "こうしょう・成功！{wait}{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BF770",
+  "jp": "{name}が{n}　　仲魔になった！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF78C",
+  "jp": "レベルアップ！！{wait}{page}{name}は{n}レベル{num:FFE0:0000}になった！{wait}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BM:0BF7F0",
+  "jp": "{name}は{n}とつぜん、おそいいかかって来た！！{wait}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BM:0BF81C",
+  "jp": "{name}の{n}体力が回復した！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF838",
+  "jp": "々{num:FFE0:0000}を手に入れた！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF854",
+  "same_as": "BM:0A07A6"
+ },
+ {
+  "id": "BM:0BF868",
+  "jp": "{name}は{n}　帰ってしまった！{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0BF884",
+  "same_as": "BM:0A07A6"
+ },
+ {
+  "id": "BM:0BF898",
+  "jp": "{name}たちは{n}戦いから逃れた！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BF8B8",
+  "jp": "アイテム：　{f7}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BF8C8",
+  "jp": "{name}は{n}ヴィネセンターに登録された！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BF8F0",
+  "jp": "！！！{n}仲魔が１人もいない！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BF910",
+  "jp": "{name}のHPが　{num:FFE0:0000}{n}　回復した！{wait}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BF934",
+  "jp": "{name}のMPが　{num:FFE0:0001}{n}　回復した！{wait}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BF98C",
+  "jp": "{name}は復活した！{wait}{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BF9A0",
+  "jp": "{name}のアタックが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BF9C8",
+  "jp": "{name}のガードが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BF9EC",
+  "jp": "{name}のマジックが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BFA14",
+  "jp": "{name}のMガードが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BFA3C",
+  "jp": "{name}のスピードが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:0BFA64",
+  "jp": "{name}のラックが{n}　　１アップした！{wait}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BFA88",
+  "jp": "ニックネームをつけますか？{fb}。{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BFAA8",
+  "jp": "{name}はハッピーになった{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BFAC0",
+  "jp": "{name}は感電した{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BFAD0",
+  "jp": "{name}はこおりついた{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BFAE4",
+  "jp": "{name}はバクダンになった{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BFAFC",
+  "jp": "{name}はチンモクした{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BFB10",
+  "jp": "{name}はこんらんした{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BFB24",
+  "jp": "{name}はゆうわくされた{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0BFB38",
+  "jp": "{name}はねむった{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BFB48",
+  "jp": "{name}はマヒした{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BFB58",
+  "jp": "{name}は毒を受けた{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BFB68",
+  "jp": "{name}はキゼツした{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BFB78",
+  "jp": "全体のHPが{n}回復した！！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BFB98",
+  "jp": "全体のMPが{n}回復した！！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BFBB8",
+  "jp": "全体のHP・MPが{n}回復した！！{wait}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BM:0BFBDC",
+  "jp": "{f5}の{n}なぞのデビルが現れた！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BFBFC",
+  "jp": "{f5}の{n}{name}が現れた！{wait}{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BFC14",
+  "jp": "{f5}たちに{n}勝利した！{wait}{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0BFC2C",
+  "jp": "{f5}たちに{n}負けてしまった！{wait}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BM:0BFC4C",
+  "same_as": "BM:0A1B3A"
+ },
+ {
+  "id": "BM:0C7C7C",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "BM:0C7C84",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "BM:0C7C8C",
+  "jp": "bぞェ　キゼツ{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0C7CA6",
+  "jp": "ク＝：仲魔{end}",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "BM:0C7CB6",
+  "jp": "ぎペ－ジ{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0C7CC0",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0C7D54",
+  "jp": "なぢ　　はい{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0C7D64",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "BM:0C7DAE",
+  "jp": "ぎ訓練{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0C7DB8",
+  "jp": "：ワザ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0C7DC0",
+  "jp": "：魔法{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0C7E78",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0C7E80",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0C7EF8",
+  "jp": "デビル{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0C7F00",
+  "jp": "もゾ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0C7F44",
+  "jp": "ペ－ジ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "RM:000810",
+  "same_as": "BM:000810"
+ },
+ {
+  "id": "RM:000816",
+  "same_as": "BM:000816"
+ },
+ {
+  "id": "RM:00086A",
+  "same_as": "BM:00086A"
+ },
+ {
+  "id": "RM:000898",
+  "same_as": "BM:000898"
+ },
+ {
+  "id": "RM:0008BA",
+  "same_as": "BM:0008BA"
+ },
+ {
+  "id": "RM:0008DC",
+  "same_as": "BM:0008DC"
+ },
+ {
+  "id": "RM:0008FE",
+  "same_as": "BM:0008FE"
+ },
+ {
+  "id": "RM:000920",
+  "same_as": "BM:000920"
+ },
+ {
+  "id": "RM:0009E4",
+  "same_as": "BM:0009E4"
+ },
+ {
+  "id": "RM:000A00",
+  "same_as": "BM:000A00"
+ },
+ {
+  "id": "RM:000A1C",
+  "same_as": "BM:000A1C"
+ },
+ {
+  "id": "RM:000A38",
+  "same_as": "BM:000A38"
+ },
+ {
+  "id": "RM:000AD4",
+  "same_as": "BM:000AD4"
+ },
+ {
+  "id": "RM:000AE4",
+  "same_as": "BM:000AE4"
+ },
+ {
+  "id": "RM:000AF4",
+  "same_as": "BM:000AF4"
+ },
+ {
+  "id": "RM:000BC4",
+  "same_as": "BM:0AE5DC"
+ },
+ {
+  "id": "RM:000BCE",
+  "same_as": "BM:000BCE"
+ },
+ {
+  "id": "RM:000BD8",
+  "same_as": "BM:000BD8"
+ },
+ {
+  "id": "RM:000BE4",
+  "same_as": "BM:000BE4"
+ },
+ {
+  "id": "RM:0018F0",
+  "same_as": "BM:0018F0"
+ },
+ {
+  "id": "RM:0018FC",
+  "same_as": "BM:0018FC"
+ },
+ {
+  "id": "RM:001908",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "RM:001910",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "RM:001918",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "RM:001920",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "RM:0019B0",
+  "same_as": "BM:0019B0"
+ },
+ {
+  "id": "RM:0019C0",
+  "same_as": "BM:0019C0"
+ },
+ {
+  "id": "RM:0019D0",
+  "same_as": "BM:0019D0"
+ },
+ {
+  "id": "RM:0019E0",
+  "same_as": "BM:0019E0"
+ },
+ {
+  "id": "RM:001A40",
+  "same_as": "BM:0019B0"
+ },
+ {
+  "id": "RM:001A50",
+  "same_as": "BM:0019C0"
+ },
+ {
+  "id": "RM:001A60",
+  "same_as": "BM:0019D0"
+ },
+ {
+  "id": "RM:001A70",
+  "same_as": "BM:0019E0"
+ },
+ {
+  "id": "RM:001AB0",
+  "same_as": "BM:001AB0"
+ },
+ {
+  "id": "RM:001AEE",
+  "same_as": "BM:0019C0"
+ },
+ {
+  "id": "RM:001B04",
+  "same_as": "BM:0019D0"
+ },
+ {
+  "id": "RM:001B1A",
+  "same_as": "BM:0019E0"
+ },
+ {
+  "id": "RM:001B30",
+  "same_as": "BM:001B30"
+ },
+ {
+  "id": "RM:001B46",
+  "same_as": "BM:001B46"
+ },
+ {
+  "id": "RM:001BC4",
+  "same_as": "BM:001BC4"
+ },
+ {
+  "id": "RM:001ED4",
+  "same_as": "BM:001ED4"
+ },
+ {
+  "id": "RM:001EEA",
+  "same_as": "BM:001EEA"
+ },
+ {
+  "id": "RM:001F70",
+  "same_as": "BM:001F70"
+ },
+ {
+  "id": "RM:001F7C",
+  "same_as": "BM:001F7C"
+ },
+ {
+  "id": "RM:001F88",
+  "same_as": "BM:001F88"
+ },
+ {
+  "id": "RM:001F94",
+  "same_as": "BM:001F94"
+ },
+ {
+  "id": "RM:001FAC",
+  "same_as": "BM:001FAC"
+ },
+ {
+  "id": "RM:001FC8",
+  "same_as": "BM:001FC8"
+ },
+ {
+  "id": "RM:002000",
+  "same_as": "BM:002000"
+ },
+ {
+  "id": "RM:00204C",
+  "same_as": "BM:00204C"
+ },
+ {
+  "id": "RM:002058",
+  "same_as": "BM:000898"
+ },
+ {
+  "id": "RM:002074",
+  "same_as": "BM:002074"
+ },
+ {
+  "id": "RM:002090",
+  "same_as": "BM:001FC8"
+ },
+ {
+  "id": "RM:0020EC",
+  "same_as": "BM:0020EC"
+ },
+ {
+  "id": "RM:002100",
+  "same_as": "BM:002100"
+ },
+ {
+  "id": "RM:002114",
+  "same_as": "BM:002114"
+ },
+ {
+  "id": "RM:00213C",
+  "same_as": "BM:00213C"
+ },
+ {
+  "id": "RM:002150",
+  "same_as": "BM:002150"
+ },
+ {
+  "id": "RM:002164",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "RM:002178",
+  "same_as": "BM:002178"
+ },
+ {
+  "id": "RM:00218C",
+  "same_as": "BM:00218C"
+ },
+ {
+  "id": "RM:0021A0",
+  "same_as": "BM:0021A0"
+ },
+ {
+  "id": "RM:0021B4",
+  "same_as": "BM:0021B4"
+ },
+ {
+  "id": "RM:0021DC",
+  "same_as": "BM:002074"
+ },
+ {
+  "id": "RM:0021F0",
+  "same_as": "BM:0021F0"
+ },
+ {
+  "id": "RM:0021FC",
+  "same_as": "BM:0021FC"
+ },
+ {
+  "id": "RM:002208",
+  "same_as": "BM:002208"
+ },
+ {
+  "id": "RM:002214",
+  "same_as": "BM:002214"
+ },
+ {
+  "id": "RM:002220",
+  "same_as": "BM:002220"
+ },
+ {
+  "id": "RM:00222C",
+  "same_as": "BM:00222C"
+ },
+ {
+  "id": "RM:00223C",
+  "same_as": "BM:00223C"
+ },
+ {
+  "id": "RM:00224C",
+  "same_as": "BM:00224C"
+ },
+ {
+  "id": "RM:00225C",
+  "same_as": "BM:00225C"
+ },
+ {
+  "id": "RM:002272",
+  "same_as": "BM:002272"
+ },
+ {
+  "id": "RM:00228A",
+  "same_as": "BM:00228A"
+ },
+ {
+  "id": "RM:002298",
+  "same_as": "BM:002298"
+ },
+ {
+  "id": "RM:0022B4",
+  "same_as": "BM:0022B4"
+ },
+ {
+  "id": "RM:0022D8",
+  "same_as": "BM:000816"
+ },
+ {
+  "id": "RM:0022EE",
+  "same_as": "BM:0022EE"
+ },
+ {
+  "id": "RM:002304",
+  "same_as": "BM:002304"
+ },
+ {
+  "id": "RM:00231A",
+  "same_as": "BM:00231A"
+ },
+ {
+  "id": "RM:002330",
+  "same_as": "BM:002330"
+ },
+ {
+  "id": "RM:00235C",
+  "same_as": "BM:00235C"
+ },
+ {
+  "id": "RM:002388",
+  "same_as": "BM:002298"
+ },
+ {
+  "id": "RM:00239E",
+  "same_as": "BM:0022B4"
+ },
+ {
+  "id": "RM:002406",
+  "same_as": "BM:002406"
+ },
+ {
+  "id": "RM:00273C",
+  "same_as": "BM:00273C"
+ },
+ {
+  "id": "RM:0032E0",
+  "same_as": "BM:0032E0"
+ },
+ {
+  "id": "RM:003318",
+  "same_as": "BM:003318"
+ },
+ {
+  "id": "RM:003372",
+  "same_as": "BM:002304"
+ },
+ {
+  "id": "RM:003384",
+  "same_as": "BM:00231A"
+ },
+ {
+  "id": "RM:003396",
+  "same_as": "BM:002330"
+ },
+ {
+  "id": "RM:0033A8",
+  "same_as": "BM:00235C"
+ },
+ {
+  "id": "RM:0033C0",
+  "same_as": "BM:0033C0"
+ },
+ {
+  "id": "RM:00357C",
+  "same_as": "BM:00357C"
+ },
+ {
+  "id": "RM:003588",
+  "same_as": "BM:003588"
+ },
+ {
+  "id": "RM:003596",
+  "same_as": "BM:003596"
+ },
+ {
+  "id": "RM:0035AC",
+  "same_as": "BM:0035AC"
+ },
+ {
+  "id": "RM:0035B8",
+  "same_as": "BM:0035B8"
+ },
+ {
+  "id": "RM:0035C4",
+  "same_as": "BM:0035C4"
+ },
+ {
+  "id": "RM:003610",
+  "jp": "ナガヒサ　　　{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "RM:003640",
+  "same_as": "BM:0AE84C"
+ },
+ {
+  "id": "RM:003660",
+  "same_as": "BM:003654"
+ },
+ {
+  "id": "RM:003680",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "RM:003688",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "RM:003690",
+  "same_as": "BM:003684"
+ },
+ {
+  "id": "RM:003710",
+  "same_as": "BM:003704"
+ },
+ {
+  "id": "RM:00372C",
+  "same_as": "BM:003720"
+ },
+ {
+  "id": "RM:003748",
+  "same_as": "BM:00373C"
+ },
+ {
+  "id": "RM:003764",
+  "same_as": "BM:003758"
+ },
+ {
+  "id": "RM:003780",
+  "same_as": "BM:003774"
+ },
+ {
+  "id": "RM:00379C",
+  "same_as": "BM:003790"
+ },
+ {
+  "id": "RM:0037B8",
+  "same_as": "BM:0037AC"
+ },
+ {
+  "id": "RM:0037D4",
+  "same_as": "BM:0037C8"
+ },
+ {
+  "id": "RM:0037F0",
+  "same_as": "BM:0037E4"
+ },
+ {
+  "id": "RM:00380C",
+  "same_as": "BM:003800"
+ },
+ {
+  "id": "RM:003828",
+  "same_as": "BM:00381C"
+ },
+ {
+  "id": "RM:003844",
+  "same_as": "BM:003838"
+ },
+ {
+  "id": "RM:003860",
+  "same_as": "BM:003854"
+ },
+ {
+  "id": "RM:00387C",
+  "same_as": "BM:003870"
+ },
+ {
+  "id": "RM:003890",
+  "same_as": "BM:003884"
+ },
+ {
+  "id": "RM:0038DC",
+  "same_as": "BM:0038D0"
+ },
+ {
+  "id": "RM:003954",
+  "same_as": "BM:003948"
+ },
+ {
+  "id": "RM:0039C8",
+  "same_as": "BM:0039BC"
+ },
+ {
+  "id": "RM:003A3C",
+  "same_as": "BM:003A30"
+ },
+ {
+  "id": "RM:003AA4",
+  "same_as": "BM:003A98"
+ },
+ {
+  "id": "RM:003AC8",
+  "same_as": "BM:003ABC"
+ },
+ {
+  "id": "RM:003B38",
+  "same_as": "BM:003B2C"
+ },
+ {
+  "id": "RM:003B9C",
+  "same_as": "BM:003B90"
+ },
+ {
+  "id": "RM:003BEC",
+  "same_as": "BM:003BE0"
+ },
+ {
+  "id": "RM:003C28",
+  "same_as": "BM:003C1C"
+ },
+ {
+  "id": "RM:003C4C",
+  "same_as": "BM:003C40"
+ },
+ {
+  "id": "RM:003CB0",
+  "same_as": "BM:003CA4"
+ },
+ {
+  "id": "RM:003CD0",
+  "same_as": "BM:003CC4"
+ },
+ {
+  "id": "RM:003DF8",
+  "same_as": "BM:003DEC"
+ },
+ {
+  "id": "RM:003E3C",
+  "same_as": "BM:003E30"
+ },
+ {
+  "id": "RM:003E78",
+  "same_as": "BM:003E6C"
+ },
+ {
+  "id": "RM:003EBC",
+  "same_as": "BM:003EB0"
+ },
+ {
+  "id": "RM:003EF4",
+  "same_as": "BM:003EE8"
+ },
+ {
+  "id": "RM:003F30",
+  "same_as": "BM:003F24"
+ },
+ {
+  "id": "RM:00404C",
+  "same_as": "BM:004040"
+ },
+ {
+  "id": "RM:00409E",
+  "same_as": "BM:004092"
+ },
+ {
+  "id": "RM:0040EC",
+  "same_as": "BM:0040E0"
+ },
+ {
+  "id": "RM:004134",
+  "same_as": "BM:004128"
+ },
+ {
+  "id": "RM:004180",
+  "same_as": "BM:004174"
+ },
+ {
+  "id": "RM:00418A",
+  "same_as": "BM:00417E"
+ },
+ {
+  "id": "RM:004194",
+  "same_as": "BM:004188"
+ },
+ {
+  "id": "RM:00419E",
+  "same_as": "BM:004192"
+ },
+ {
+  "id": "RM:0041A8",
+  "same_as": "BM:00419C"
+ },
+ {
+  "id": "RM:0041B2",
+  "same_as": "BM:0041A6"
+ },
+ {
+  "id": "RM:0041BC",
+  "same_as": "BM:0041B0"
+ },
+ {
+  "id": "RM:0041C6",
+  "same_as": "BM:0041BA"
+ },
+ {
+  "id": "RM:0041D0",
+  "same_as": "BM:0041C4"
+ },
+ {
+  "id": "RM:0041DA",
+  "same_as": "BM:0041CE"
+ },
+ {
+  "id": "RM:0041E4",
+  "same_as": "BM:0041D8"
+ },
+ {
+  "id": "RM:0041EE",
+  "same_as": "BM:0041E2"
+ },
+ {
+  "id": "RM:0041F8",
+  "same_as": "BM:0041EC"
+ },
+ {
+  "id": "RM:004202",
+  "same_as": "BM:0041F6"
+ },
+ {
+  "id": "RM:00420C",
+  "same_as": "BM:004200"
+ },
+ {
+  "id": "RM:004216",
+  "same_as": "BM:00420A"
+ },
+ {
+  "id": "RM:004220",
+  "same_as": "BM:004214"
+ },
+ {
+  "id": "RM:00422A",
+  "same_as": "BM:00421E"
+ },
+ {
+  "id": "RM:004234",
+  "same_as": "BM:004228"
+ },
+ {
+  "id": "RM:00423E",
+  "same_as": "BM:004232"
+ },
+ {
+  "id": "RM:004248",
+  "same_as": "BM:00423C"
+ },
+ {
+  "id": "RM:004252",
+  "same_as": "BM:004246"
+ },
+ {
+  "id": "RM:00425C",
+  "same_as": "BM:004250"
+ },
+ {
+  "id": "RM:004266",
+  "same_as": "BM:00425A"
+ },
+ {
+  "id": "RM:004270",
+  "same_as": "BM:004264"
+ },
+ {
+  "id": "RM:00427A",
+  "same_as": "BM:00426E"
+ },
+ {
+  "id": "RM:004284",
+  "same_as": "BM:004278"
+ },
+ {
+  "id": "RM:00428E",
+  "same_as": "BM:004282"
+ },
+ {
+  "id": "RM:004298",
+  "same_as": "BM:00428C"
+ },
+ {
+  "id": "RM:0042A2",
+  "same_as": "BM:004296"
+ },
+ {
+  "id": "RM:0042AC",
+  "same_as": "BM:0042A0"
+ },
+ {
+  "id": "RM:0042B6",
+  "same_as": "BM:0042AA"
+ },
+ {
+  "id": "RM:0042CA",
+  "same_as": "BM:0042BE"
+ },
+ {
+  "id": "RM:0042D4",
+  "same_as": "BM:0042C8"
+ },
+ {
+  "id": "RM:0042DE",
+  "same_as": "BM:0042D2"
+ },
+ {
+  "id": "RM:0042E8",
+  "same_as": "BM:0042DC"
+ },
+ {
+  "id": "RM:00442C",
+  "same_as": "BM:0009E4"
+ },
+ {
+  "id": "RM:004450",
+  "same_as": "BM:004444"
+ },
+ {
+  "id": "RM:004474",
+  "same_as": "BM:004468"
+ },
+ {
+  "id": "RM:004590",
+  "same_as": "BM:004584"
+ },
+ {
+  "id": "RM:0045A0",
+  "same_as": "BM:004594"
+ },
+ {
+  "id": "RM:004644",
+  "same_as": "BM:004584"
+ },
+ {
+  "id": "RM:004654",
+  "same_as": "BM:004648"
+ },
+ {
+  "id": "RM:0046E4",
+  "same_as": "BM:0046D8"
+ },
+ {
+  "id": "RM:0047AC",
+  "same_as": "BM:004584"
+ },
+ {
+  "id": "RM:0047BC",
+  "same_as": "BM:004594"
+ },
+ {
+  "id": "RM:0049B4",
+  "same_as": "BM:0049A8"
+ },
+ {
+  "id": "RM:0049C8",
+  "same_as": "BM:0049BC"
+ },
+ {
+  "id": "RM:004B40",
+  "same_as": "BM:004B34"
+ },
+ {
+  "id": "RM:004BE4",
+  "same_as": "BM:004BD8"
+ },
+ {
+  "id": "RM:004C84",
+  "same_as": "BM:004C78"
+ },
+ {
+  "id": "RM:004D4C",
+  "same_as": "BM:004D40"
+ },
+ {
+  "id": "RM:004E10",
+  "same_as": "BM:004E04"
+ },
+ {
+  "id": "RM:004EC4",
+  "same_as": "BM:004E04"
+ },
+ {
+  "id": "RM:00506C",
+  "same_as": "BM:005060"
+ },
+ {
+  "id": "RM:00507C",
+  "same_as": "BM:005070"
+ },
+ {
+  "id": "RM:0050D0",
+  "same_as": "BM:0050C4"
+ },
+ {
+  "id": "RM:005184",
+  "same_as": "BM:005178"
+ },
+ {
+  "id": "RM:005194",
+  "same_as": "BM:005188"
+ },
+ {
+  "id": "RM:005238",
+  "same_as": "BM:00522C"
+ },
+ {
+  "id": "RM:0052FC",
+  "same_as": "BM:0052F0"
+ },
+ {
+  "id": "RM:005508",
+  "same_as": "BM:0054FC"
+ },
+ {
+  "id": "RM:0055BC",
+  "same_as": "BM:004BD8"
+ },
+ {
+  "id": "RM:005670",
+  "same_as": "BM:004584"
+ },
+ {
+  "id": "RM:005680",
+  "same_as": "BM:004594"
+ },
+ {
+  "id": "RM:005710",
+  "same_as": "BM:005704"
+ },
+ {
+  "id": "RM:005722",
+  "same_as": "BM:005716"
+ },
+ {
+  "id": "RM:005734",
+  "same_as": "BM:005728"
+ },
+ {
+  "id": "RM:005742",
+  "same_as": "BM:005736"
+ },
+ {
+  "id": "RM:005750",
+  "same_as": "BM:005744"
+ },
+ {
+  "id": "RM:00575E",
+  "same_as": "BM:005752"
+ },
+ {
+  "id": "RM:00576C",
+  "same_as": "BM:005760"
+ },
+ {
+  "id": "RM:00577A",
+  "same_as": "BM:00576E"
+ },
+ {
+  "id": "RM:005788",
+  "same_as": "BM:00577C"
+ },
+ {
+  "id": "RM:005796",
+  "same_as": "BM:00578A"
+ },
+ {
+  "id": "RM:0057A4",
+  "same_as": "BM:005798"
+ },
+ {
+  "id": "RM:0057B2",
+  "same_as": "BM:0057A6"
+ },
+ {
+  "id": "RM:00584C",
+  "same_as": "BM:005840"
+ },
+ {
+  "id": "RM:005856",
+  "same_as": "BM:00584A"
+ },
+ {
+  "id": "RM:005860",
+  "same_as": "BM:005854"
+ },
+ {
+  "id": "RM:00586A",
+  "same_as": "BM:00585E"
+ },
+ {
+  "id": "RM:005874",
+  "same_as": "BM:005868"
+ },
+ {
+  "id": "RM:005880",
+  "same_as": "BM:005874"
+ },
+ {
+  "id": "RM:00588C",
+  "same_as": "BM:005880"
+ },
+ {
+  "id": "RM:0058B0",
+  "same_as": "BM:0058A4"
+ },
+ {
+  "id": "RM:0058C8",
+  "same_as": "BM:0058BC"
+ },
+ {
+  "id": "RM:005ADC",
+  "same_as": "BM:005AA8"
+ },
+ {
+  "id": "RM:005B3C",
+  "same_as": "BM:005B08"
+ },
+ {
+  "id": "RM:005B54",
+  "same_as": "BM:005B20"
+ },
+ {
+  "id": "RM:005B6C",
+  "same_as": "BM:005B38"
+ },
+ {
+  "id": "RM:005B84",
+  "same_as": "BM:005B50"
+ },
+ {
+  "id": "RM:005B9C",
+  "same_as": "BM:005B68"
+ },
+ {
+  "id": "RM:005BB4",
+  "same_as": "BM:005B80"
+ },
+ {
+  "id": "RM:005BCC",
+  "same_as": "BM:005B98"
+ },
+ {
+  "id": "RM:005BFC",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "RM:005C14",
+  "same_as": "BM:005BE0"
+ },
+ {
+  "id": "RM:005C5C",
+  "same_as": "BM:005C28"
+ },
+ {
+  "id": "RM:005CA4",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "RM:005CBC",
+  "same_as": "BM:005C88"
+ },
+ {
+  "id": "RM:08CA04",
+  "same_as": "BM:08C5D0"
+ },
+ {
+  "id": "RM:090B6C",
+  "same_as": "BM:090738"
+ },
+ {
+  "id": "RM:09A904",
+  "same_as": "BM:09A520"
+ },
+ {
+  "id": "RM:09A9C4",
+  "same_as": "BM:09A5E0"
+ },
+ {
+  "id": "RM:09AA84",
+  "same_as": "BM:09A6A0"
+ },
+ {
+  "id": "RM:09AAB0",
+  "same_as": "BM:09A6CC"
+ },
+ {
+  "id": "RM:09AAC6",
+  "same_as": "BM:09A6E2"
+ },
+ {
+  "id": "RM:09BB44",
+  "same_as": "BM:0A81A4"
+ },
+ {
+  "id": "RM:09BBA4",
+  "same_as": "BM:0A8204"
+ },
+ {
+  "id": "RM:09BC04",
+  "same_as": "BM:0A8264"
+ },
+ {
+  "id": "RM:09BC64",
+  "same_as": "BM:0A82C4"
+ },
+ {
+  "id": "RM:09BC8C",
+  "same_as": "BM:0A82EC"
+ },
+ {
+  "id": "RM:09BCB4",
+  "same_as": "BM:0A8314"
+ },
+ {
+  "id": "RM:09BCDC",
+  "same_as": "BM:0A833C"
+ },
+ {
+  "id": "RM:09BD04",
+  "same_as": "BM:0A8364"
+ },
+ {
+  "id": "RM:09BD2C",
+  "same_as": "BM:0A838C"
+ },
+ {
+  "id": "RM:09BD54",
+  "same_as": "BM:0A83B4"
+ },
+ {
+  "id": "RM:09BD78",
+  "same_as": "BM:0A83D8"
+ },
+ {
+  "id": "RM:09BDA0",
+  "same_as": "BM:0A8400"
+ },
+ {
+  "id": "RM:09BDC8",
+  "same_as": "BM:0A8428"
+ },
+ {
+  "id": "RM:09BDD8",
+  "same_as": "BM:0A8438"
+ },
+ {
+  "id": "RM:09BDF8",
+  "same_as": "BM:0A8458"
+ },
+ {
+  "id": "RM:09BE18",
+  "same_as": "BM:0A8478"
+ },
+ {
+  "id": "RM:09BE3C",
+  "same_as": "BM:0A849C"
+ },
+ {
+  "id": "RM:09BE60",
+  "same_as": "BM:0A84C0"
+ },
+ {
+  "id": "RM:09BE84",
+  "same_as": "BM:0A84E4"
+ },
+ {
+  "id": "RM:09BEA8",
+  "same_as": "BM:0A8508"
+ },
+ {
+  "id": "RM:09BEC8",
+  "same_as": "BM:0A8528"
+ },
+ {
+  "id": "RM:09BF10",
+  "same_as": "BM:0A8570"
+ },
+ {
+  "id": "RM:09BF58",
+  "same_as": "BM:0A85B8"
+ },
+ {
+  "id": "RM:09BF70",
+  "same_as": "BM:0A85D0"
+ },
+ {
+  "id": "RM:09BF90",
+  "same_as": "BM:0A85F0"
+ },
+ {
+  "id": "RM:09BFB0",
+  "same_as": "BM:0A8610"
+ },
+ {
+  "id": "RM:09BFD0",
+  "same_as": "BM:0A8630"
+ },
+ {
+  "id": "RM:09BFF0",
+  "same_as": "BM:0A8650"
+ },
+ {
+  "id": "RM:09C010",
+  "same_as": "BM:0A8670"
+ },
+ {
+  "id": "RM:09C030",
+  "same_as": "BM:0A8690"
+ },
+ {
+  "id": "RM:09C050",
+  "same_as": "BM:0A86B0"
+ },
+ {
+  "id": "RM:09C070",
+  "same_as": "BM:0A86D0"
+ },
+ {
+  "id": "RM:09C090",
+  "same_as": "BM:0A86F0"
+ },
+ {
+  "id": "RM:09C0B0",
+  "same_as": "BM:0A8710"
+ },
+ {
+  "id": "RM:09C0D0",
+  "same_as": "BM:0A8730"
+ },
+ {
+  "id": "RM:09C0F0",
+  "same_as": "BM:0A8750"
+ },
+ {
+  "id": "RM:09C114",
+  "same_as": "BM:0A8774"
+ },
+ {
+  "id": "RM:09C138",
+  "same_as": "BM:0A8798"
+ },
+ {
+  "id": "RM:09C158",
+  "same_as": "BM:0A87B8"
+ },
+ {
+  "id": "RM:09C178",
+  "same_as": "BM:0A87D8"
+ },
+ {
+  "id": "RM:09C198",
+  "same_as": "BM:0A87F8"
+ },
+ {
+  "id": "RM:09C1C0",
+  "same_as": "BM:0A8820"
+ },
+ {
+  "id": "RM:09C228",
+  "same_as": "BM:0A8888"
+ },
+ {
+  "id": "RM:09C294",
+  "same_as": "BM:0A88F4"
+ },
+ {
+  "id": "RM:09C2F0",
+  "same_as": "BM:0A8950"
+ },
+ {
+  "id": "RM:09C34C",
+  "same_as": "BM:0A89AC"
+ },
+ {
+  "id": "RM:09C3A8",
+  "same_as": "BM:0A8A08"
+ },
+ {
+  "id": "RM:09C40C",
+  "same_as": "BM:0A8A6C"
+ },
+ {
+  "id": "RM:09C474",
+  "same_as": "BM:0A8AD4"
+ },
+ {
+  "id": "RM:09C4A0",
+  "same_as": "BM:0A8B00"
+ },
+ {
+  "id": "RM:09C4CC",
+  "same_as": "BM:0A8B2C"
+ },
+ {
+  "id": "RM:09C508",
+  "same_as": "BM:0A8B68"
+ },
+ {
+  "id": "RM:09C51C",
+  "same_as": "BM:0A8B7C"
+ },
+ {
+  "id": "RM:09C530",
+  "same_as": "BM:0A8B90"
+ },
+ {
+  "id": "RM:09C544",
+  "same_as": "BM:0A8BA4"
+ },
+ {
+  "id": "RM:09C560",
+  "same_as": "BM:0A8BC0"
+ },
+ {
+  "id": "RM:09C5A8",
+  "same_as": "BM:0A8C08"
+ },
+ {
+  "id": "RM:09C5D4",
+  "same_as": "BM:0A8C34"
+ },
+ {
+  "id": "RM:09C600",
+  "same_as": "BM:0A8C60"
+ },
+ {
+  "id": "RM:09C61C",
+  "same_as": "BM:0A8C7C"
+ },
+ {
+  "id": "RM:09C638",
+  "same_as": "BM:0A8C98"
+ },
+ {
+  "id": "RM:09C660",
+  "same_as": "BM:0A8CC0"
+ },
+ {
+  "id": "RM:09C6A0",
+  "same_as": "BM:0A8D00"
+ },
+ {
+  "id": "RM:09C6C8",
+  "same_as": "BM:0A8D28"
+ },
+ {
+  "id": "RM:09C6F0",
+  "same_as": "BM:0A8D50"
+ },
+ {
+  "id": "RM:09C718",
+  "same_as": "BM:0A8D78"
+ },
+ {
+  "id": "RM:09C740",
+  "same_as": "BM:0A8DA0"
+ },
+ {
+  "id": "RM:09C768",
+  "same_as": "BM:0A8DC8"
+ },
+ {
+  "id": "RM:09C790",
+  "same_as": "BM:0A8DF0"
+ },
+ {
+  "id": "RM:09C7B8",
+  "same_as": "BM:0A8E18"
+ },
+ {
+  "id": "RM:09C7E0",
+  "same_as": "BM:0A8E40"
+ },
+ {
+  "id": "RM:09C800",
+  "same_as": "BM:0A8E60"
+ },
+ {
+  "id": "RM:09C820",
+  "same_as": "BM:0A8E80"
+ },
+ {
+  "id": "RM:09C840",
+  "same_as": "BM:0A8EA0"
+ },
+ {
+  "id": "RM:09C860",
+  "same_as": "BM:0A8EC0"
+ },
+ {
+  "id": "RM:09C880",
+  "same_as": "BM:0A8EE0"
+ },
+ {
+  "id": "RM:09C8A0",
+  "same_as": "BM:0A8F00"
+ },
+ {
+  "id": "RM:09C8C0",
+  "same_as": "BM:0A8F20"
+ },
+ {
+  "id": "RM:09C8E0",
+  "same_as": "BM:0A8F40"
+ },
+ {
+  "id": "RM:09C900",
+  "same_as": "BM:0A8F60"
+ },
+ {
+  "id": "RM:09C920",
+  "same_as": "BM:0A8F80"
+ },
+ {
+  "id": "RM:09C940",
+  "same_as": "BM:0A8FA0"
+ },
+ {
+  "id": "RM:09C960",
+  "same_as": "BM:0A8FC0"
+ },
+ {
+  "id": "RM:09C980",
+  "same_as": "BM:0A8FE0"
+ },
+ {
+  "id": "RM:09C9A4",
+  "same_as": "BM:0A9004"
+ },
+ {
+  "id": "RM:09C9C8",
+  "same_as": "BM:0A9028"
+ },
+ {
+  "id": "RM:09C9FC",
+  "same_as": "BM:0A905C"
+ },
+ {
+  "id": "RM:09CA30",
+  "same_as": "BM:0A9090"
+ },
+ {
+  "id": "RM:09CA80",
+  "same_as": "BM:0A90E0"
+ },
+ {
+  "id": "RM:09CADC",
+  "same_as": "BM:0A90E0"
+ },
+ {
+  "id": "RM:09CB38",
+  "same_as": "BM:0A9198"
+ },
+ {
+  "id": "RM:09CB88",
+  "same_as": "BM:0A91E8"
+ },
+ {
+  "id": "RM:09CBE4",
+  "same_as": "BM:0A9244"
+ },
+ {
+  "id": "RM:09CC40",
+  "same_as": "BM:0A92A0"
+ },
+ {
+  "id": "RM:09CCA0",
+  "same_as": "BM:0A9300"
+ },
+ {
+  "id": "RM:09CD00",
+  "same_as": "BM:0A9360"
+ },
+ {
+  "id": "RM:09CD4C",
+  "same_as": "BM:0A93AC"
+ },
+ {
+  "id": "RM:09CDB8",
+  "same_as": "BM:0A9418"
+ },
+ {
+  "id": "RM:09CE24",
+  "same_as": "BM:0A9484"
+ },
+ {
+  "id": "RM:09CE40",
+  "same_as": "BM:0A94A0"
+ },
+ {
+  "id": "RM:09CE5C",
+  "same_as": "BM:0A94BC"
+ },
+ {
+  "id": "RM:09CEB4",
+  "same_as": "BM:0A9514"
+ },
+ {
+  "id": "RM:09CF08",
+  "same_as": "BM:0A9568"
+ },
+ {
+  "id": "RM:09CF74",
+  "same_as": "BM:0A95D4"
+ },
+ {
+  "id": "RM:09CFD0",
+  "same_as": "BM:0A9630"
+ },
+ {
+  "id": "RM:09D06C",
+  "same_as": "BM:0A96CC"
+ },
+ {
+  "id": "RM:09D108",
+  "same_as": "BM:0A9768"
+ },
+ {
+  "id": "RM:09D130",
+  "same_as": "BM:0A9790"
+ },
+ {
+  "id": "RM:09D158",
+  "same_as": "BM:0A97B8"
+ },
+ {
+  "id": "RM:09D180",
+  "same_as": "BM:0A97E0"
+ },
+ {
+  "id": "RM:09D1A8",
+  "same_as": "BM:0A9808"
+ },
+ {
+  "id": "RM:09D1D0",
+  "same_as": "BM:0A9830"
+ },
+ {
+  "id": "RM:09D1F8",
+  "same_as": "BM:0A9858"
+ },
+ {
+  "id": "RM:09D21C",
+  "same_as": "BM:0A987C"
+ },
+ {
+  "id": "RM:09D23C",
+  "same_as": "BM:0A989C"
+ },
+ {
+  "id": "RM:09D25C",
+  "same_as": "BM:0A98BC"
+ },
+ {
+  "id": "RM:09D27C",
+  "same_as": "BM:0A98DC"
+ },
+ {
+  "id": "RM:09D29C",
+  "same_as": "BM:0A98FC"
+ },
+ {
+  "id": "RM:09D2BC",
+  "same_as": "BM:0A991C"
+ },
+ {
+  "id": "RM:09D2DC",
+  "same_as": "BM:0A993C"
+ },
+ {
+  "id": "RM:09D2FC",
+  "same_as": "BM:0A995C"
+ },
+ {
+  "id": "RM:09D31C",
+  "same_as": "BM:0A997C"
+ },
+ {
+  "id": "RM:09D33C",
+  "same_as": "BM:0A999C"
+ },
+ {
+  "id": "RM:09D35C",
+  "same_as": "BM:0A99BC"
+ },
+ {
+  "id": "RM:09D37C",
+  "same_as": "BM:0A99DC"
+ },
+ {
+  "id": "RM:09D39C",
+  "same_as": "BM:0A99FC"
+ },
+ {
+  "id": "RM:09D3C0",
+  "same_as": "BM:0A9A20"
+ },
+ {
+  "id": "RM:09D3E4",
+  "same_as": "BM:0A9A44"
+ },
+ {
+  "id": "RM:09D440",
+  "same_as": "BM:0A9AA0"
+ },
+ {
+  "id": "RM:09D49C",
+  "same_as": "BM:0A9AFC"
+ },
+ {
+  "id": "RM:09D4F8",
+  "same_as": "BM:0A9B58"
+ },
+ {
+  "id": "RM:09D55C",
+  "same_as": "BM:0A9BBC"
+ },
+ {
+  "id": "RM:09D584",
+  "same_as": "BM:0A9BE4"
+ },
+ {
+  "id": "RM:09D5AC",
+  "same_as": "BM:0A9C0C"
+ },
+ {
+  "id": "RM:09D5D4",
+  "same_as": "BM:0A9C34"
+ },
+ {
+  "id": "RM:09D5FC",
+  "same_as": "BM:0A9C5C"
+ },
+ {
+  "id": "RM:09D624",
+  "same_as": "BM:0A9C84"
+ },
+ {
+  "id": "RM:09D64C",
+  "same_as": "BM:0A9CAC"
+ },
+ {
+  "id": "RM:09D674",
+  "same_as": "BM:0A9CD4"
+ },
+ {
+  "id": "RM:09D69C",
+  "same_as": "BM:0A9CFC"
+ },
+ {
+  "id": "RM:09D6BC",
+  "same_as": "BM:0A9D1C"
+ },
+ {
+  "id": "RM:09D6DC",
+  "same_as": "BM:0A9D3C"
+ },
+ {
+  "id": "RM:09D6FC",
+  "same_as": "BM:0A9D5C"
+ },
+ {
+  "id": "RM:09D71C",
+  "same_as": "BM:0A9D7C"
+ },
+ {
+  "id": "RM:09D73C",
+  "same_as": "BM:0A9D9C"
+ },
+ {
+  "id": "RM:09D75C",
+  "same_as": "BM:0A9DBC"
+ },
+ {
+  "id": "RM:09D77C",
+  "same_as": "BM:0A9DDC"
+ },
+ {
+  "id": "RM:09D79C",
+  "same_as": "BM:0A9DFC"
+ },
+ {
+  "id": "RM:09D7BC",
+  "same_as": "BM:0A9E1C"
+ },
+ {
+  "id": "RM:09D7DC",
+  "same_as": "BM:0A9E3C"
+ },
+ {
+  "id": "RM:09D7FC",
+  "same_as": "BM:0A9E5C"
+ },
+ {
+  "id": "RM:09D81C",
+  "same_as": "BM:0A9E7C"
+ },
+ {
+  "id": "RM:09D840",
+  "same_as": "BM:0A9EA0"
+ },
+ {
+  "id": "RM:09D864",
+  "same_as": "BM:0A9EC4"
+ },
+ {
+  "id": "RM:09D884",
+  "same_as": "BM:0A9EE4"
+ },
+ {
+  "id": "RM:09D8EC",
+  "same_as": "BM:0A9F4C"
+ },
+ {
+  "id": "RM:09D958",
+  "same_as": "BM:0A9FB8"
+ },
+ {
+  "id": "RM:09D984",
+  "same_as": "BM:0A9FE4"
+ },
+ {
+  "id": "RM:09D9C4",
+  "same_as": "BM:0AA024"
+ },
+ {
+  "id": "RM:09D9DC",
+  "same_as": "BM:0AA03C"
+ },
+ {
+  "id": "RM:09D9F4",
+  "same_as": "BM:0AA054"
+ },
+ {
+  "id": "RM:09DA1C",
+  "same_as": "BM:0AA07C"
+ },
+ {
+  "id": "RM:09DAC8",
+  "same_as": "BM:0AA128"
+ },
+ {
+  "id": "RM:09DB1C",
+  "same_as": "BM:0AA17C"
+ },
+ {
+  "id": "RM:09DB88",
+  "same_as": "BM:0AA1E8"
+ },
+ {
+  "id": "RM:09DBE4",
+  "same_as": "BM:0AA244"
+ },
+ {
+  "id": "RM:09DC80",
+  "same_as": "BM:0AA2E0"
+ },
+ {
+  "id": "RM:09DD1C",
+  "same_as": "BM:0AA37C"
+ },
+ {
+  "id": "RM:09DD34",
+  "same_as": "BM:0AA394"
+ },
+ {
+  "id": "RM:09DD7C",
+  "same_as": "BM:0AA3DC"
+ },
+ {
+  "id": "RM:09DDC4",
+  "same_as": "BM:0AA424"
+ },
+ {
+  "id": "RM:09DE0C",
+  "same_as": "BM:0AA46C"
+ },
+ {
+  "id": "RM:09DE28",
+  "same_as": "BM:0AA488"
+ },
+ {
+  "id": "RM:09DE44",
+  "same_as": "BM:0AA4A4"
+ },
+ {
+  "id": "RM:09DE60",
+  "same_as": "BM:0AA4C0"
+ },
+ {
+  "id": "RM:09DEBC",
+  "same_as": "BM:0AA51C"
+ },
+ {
+  "id": "RM:09DF18",
+  "same_as": "BM:0AA578"
+ },
+ {
+  "id": "RM:09DF40",
+  "same_as": "BM:0AA5A0"
+ },
+ {
+  "id": "RM:09DF64",
+  "same_as": "BM:0AA5C4"
+ },
+ {
+  "id": "RM:09DFA8",
+  "same_as": "BM:0AA608"
+ },
+ {
+  "id": "RM:09DFEC",
+  "same_as": "BM:0AA64C"
+ },
+ {
+  "id": "RM:09E030",
+  "same_as": "BM:0AA690"
+ },
+ {
+  "id": "RM:09E07C",
+  "same_as": "BM:0AA6DC"
+ },
+ {
+  "id": "RM:09E0B8",
+  "same_as": "BM:0AA718"
+ },
+ {
+  "id": "RM:09E0F4",
+  "same_as": "BM:0AA754"
+ },
+ {
+  "id": "RM:09E400",
+  "same_as": "BM:0AA424"
+ },
+ {
+  "id": "RM:09E448",
+  "same_as": "BM:0A8B90"
+ },
+ {
+  "id": "RM:09E45C",
+  "same_as": "BM:0AAABC"
+ },
+ {
+  "id": "RM:09E484",
+  "same_as": "BM:0AAAE4"
+ },
+ {
+  "id": "RM:09E4AC",
+  "same_as": "BM:0AAABC"
+ },
+ {
+  "id": "RM:09E4D4",
+  "same_as": "BM:0AAAE4"
+ },
+ {
+  "id": "RM:09E4FC",
+  "same_as": "BM:0AAB5C"
+ },
+ {
+  "id": "RM:09E514",
+  "same_as": "BM:0AAB74"
+ },
+ {
+  "id": "RM:09E530",
+  "same_as": "BM:0AAB90"
+ },
+ {
+  "id": "RM:09E54C",
+  "same_as": "BM:0AABAC"
+ },
+ {
+  "id": "RM:09E558",
+  "same_as": "BM:0AABB8"
+ },
+ {
+  "id": "RM:09E574",
+  "same_as": "BM:0AABD4"
+ },
+ {
+  "id": "RM:09E590",
+  "same_as": "BM:0AABF0"
+ },
+ {
+  "id": "RM:09E5AC",
+  "same_as": "BM:0AAC0C"
+ },
+ {
+  "id": "RM:09E5C8",
+  "same_as": "BM:0AAC28"
+ },
+ {
+  "id": "RM:09E5E4",
+  "same_as": "BM:0AAC44"
+ },
+ {
+  "id": "RM:09E608",
+  "same_as": "BM:0AAC68"
+ },
+ {
+  "id": "RM:09E62C",
+  "same_as": "BM:0AAC8C"
+ },
+ {
+  "id": "RM:09E658",
+  "same_as": "BM:0AACB8"
+ },
+ {
+  "id": "RM:09E684",
+  "same_as": "BM:0AACE4"
+ },
+ {
+  "id": "RM:09E6A4",
+  "same_as": "BM:0AAD04"
+ },
+ {
+  "id": "RM:09E6C4",
+  "same_as": "BM:0AAD24"
+ },
+ {
+  "id": "RM:09E6E4",
+  "same_as": "BM:0AAD44"
+ },
+ {
+  "id": "RM:09E774",
+  "same_as": "BM:0AADD4"
+ },
+ {
+  "id": "RM:09E794",
+  "same_as": "BM:0AADF4"
+ },
+ {
+  "id": "RM:09E7B4",
+  "same_as": "BM:0AAE14"
+ },
+ {
+  "id": "RM:09E7DC",
+  "same_as": "BM:0AAE3C"
+ },
+ {
+  "id": "RM:09E80C",
+  "same_as": "BM:0AAE6C"
+ },
+ {
+  "id": "RM:09E83C",
+  "same_as": "BM:0AAE9C"
+ },
+ {
+  "id": "RM:09E864",
+  "same_as": "BM:0AAEC4"
+ },
+ {
+  "id": "RM:09E884",
+  "same_as": "BM:0AAEE4"
+ },
+ {
+  "id": "RM:09E8A8",
+  "same_as": "BM:0AAF08"
+ },
+ {
+  "id": "RM:09E8CC",
+  "same_as": "BM:0AAF2C"
+ },
+ {
+  "id": "RM:09E8D8",
+  "same_as": "BM:0AAF38"
+ },
+ {
+  "id": "RM:09E8E4",
+  "same_as": "BM:0AAF44"
+ },
+ {
+  "id": "RM:09E8F0",
+  "same_as": "BM:0AAF50"
+ },
+ {
+  "id": "RM:09E8FC",
+  "same_as": "BM:0AAF5C"
+ },
+ {
+  "id": "RM:09E918",
+  "same_as": "BM:0AAF78"
+ },
+ {
+  "id": "RM:09E948",
+  "same_as": "BM:0AAFA8"
+ },
+ {
+  "id": "RM:09E96C",
+  "same_as": "BM:0AAFCC"
+ },
+ {
+  "id": "RM:09E9A0",
+  "same_as": "BM:0AB000"
+ },
+ {
+  "id": "RM:09E9C4",
+  "same_as": "BM:0AB024"
+ },
+ {
+  "id": "RM:09E9E4",
+  "same_as": "BM:0AB044"
+ },
+ {
+  "id": "RM:09EA08",
+  "same_as": "BM:0AB068"
+ },
+ {
+  "id": "RM:09EA3A",
+  "same_as": "BM:0AB09A"
+ },
+ {
+  "id": "RM:09EA5A",
+  "same_as": "BM:0AB0BA"
+ },
+ {
+  "id": "RM:09EA76",
+  "same_as": "BM:0AB0D6"
+ },
+ {
+  "id": "RM:09EA96",
+  "same_as": "BM:0AB0F6"
+ },
+ {
+  "id": "RM:09EAB6",
+  "same_as": "BM:0AB116"
+ },
+ {
+  "id": "RM:09EAD6",
+  "same_as": "BM:0AB136"
+ },
+ {
+  "id": "RM:09EAF2",
+  "same_as": "BM:0AB152"
+ },
+ {
+  "id": "RM:09EB12",
+  "same_as": "BM:0AB172"
+ },
+ {
+  "id": "RM:09EB30",
+  "same_as": "BM:0AB190"
+ },
+ {
+  "id": "RM:09EB50",
+  "same_as": "BM:0AB1B0"
+ },
+ {
+  "id": "RM:09EB70",
+  "same_as": "BM:0AB1D0"
+ },
+ {
+  "id": "RM:09EB98",
+  "same_as": "BM:0AB1F8"
+ },
+ {
+  "id": "RM:09EBC0",
+  "same_as": "BM:0AB220"
+ },
+ {
+  "id": "RM:09EBD8",
+  "same_as": "BM:0AB238"
+ },
+ {
+  "id": "RM:09EBF4",
+  "same_as": "BM:0AB254"
+ },
+ {
+  "id": "RM:09EC0C",
+  "same_as": "BM:0AB26C"
+ },
+ {
+  "id": "RM:09EC20",
+  "same_as": "BM:0AB280"
+ },
+ {
+  "id": "RM:09EC3E",
+  "same_as": "BM:0AB29E"
+ },
+ {
+  "id": "RM:09EC6C",
+  "same_as": "BM:0AB2CC"
+ },
+ {
+  "id": "RM:09EC88",
+  "same_as": "BM:0AB2E8"
+ },
+ {
+  "id": "RM:09ECA8",
+  "same_as": "BM:0AB308"
+ },
+ {
+  "id": "RM:09ECCA",
+  "same_as": "BM:0AB32A"
+ },
+ {
+  "id": "RM:09ECF4",
+  "same_as": "BM:0AB354"
+ },
+ {
+  "id": "RM:09ED1C",
+  "same_as": "BM:0AB37C"
+ },
+ {
+  "id": "RM:09ED50",
+  "same_as": "BM:0AB3B0"
+ },
+ {
+  "id": "RM:09ED78",
+  "same_as": "BM:0AB3D8"
+ },
+ {
+  "id": "RM:09ED9C",
+  "same_as": "BM:0AB3FC"
+ },
+ {
+  "id": "RM:09EDC0",
+  "same_as": "BM:0AB420"
+ },
+ {
+  "id": "RM:09EDE8",
+  "same_as": "BM:0AB448"
+ },
+ {
+  "id": "RM:09EE28",
+  "same_as": "BM:0AB488"
+ },
+ {
+  "id": "RM:09EE5C",
+  "same_as": "BM:0AB4BC"
+ },
+ {
+  "id": "RM:09EE8C",
+  "same_as": "BM:0AB4EC"
+ },
+ {
+  "id": "RM:09EEC0",
+  "same_as": "BM:0AB520"
+ },
+ {
+  "id": "RM:09EEF0",
+  "same_as": "BM:0AB550"
+ },
+ {
+  "id": "RM:09EF20",
+  "same_as": "BM:0AB580"
+ },
+ {
+  "id": "RM:09EF4C",
+  "same_as": "BM:0AB5AC"
+ },
+ {
+  "id": "RM:09EF7C",
+  "same_as": "BM:0AB5DC"
+ },
+ {
+  "id": "RM:09EFB4",
+  "same_as": "BM:0AB614"
+ },
+ {
+  "id": "RM:09EFE8",
+  "same_as": "BM:0AB648"
+ },
+ {
+  "id": "RM:09F018",
+  "same_as": "BM:0AB678"
+ },
+ {
+  "id": "RM:09F04C",
+  "same_as": "BM:0AB6AC"
+ },
+ {
+  "id": "RM:09F07C",
+  "same_as": "BM:0AB6DC"
+ },
+ {
+  "id": "RM:09F0AC",
+  "same_as": "BM:0AB70C"
+ },
+ {
+  "id": "RM:09F0D8",
+  "same_as": "BM:0AB738"
+ },
+ {
+  "id": "RM:09F108",
+  "same_as": "BM:0AB768"
+ },
+ {
+  "id": "RM:09F140",
+  "same_as": "BM:0AB7A0"
+ },
+ {
+  "id": "RM:09F2DC",
+  "same_as": "BM:0AB93C"
+ },
+ {
+  "id": "RM:09F3B0",
+  "same_as": "BM:0ABA10"
+ },
+ {
+  "id": "RM:09F474",
+  "jp": "{face:005B}くっ、本物はやっぱりちがうわね{wait}{page}いつかあなたを超えてみせるから{n}勝ったからってうかれてないでよ！{wait}{page}それと、決まりだから私の仲魔は{n}ヴィネセンターに送っておくわよ{wait}{end}",
+  "en": "",
+  "max": 172
+ },
+ {
+  "id": "RM:09F520",
+  "same_as": "BM:0ABB7C"
+ },
+ {
+  "id": "RM:09F5AC",
+  "jp": "{face:0003}あーあ、負けちゃったかぁ{wait}{page}オレのお気に入りのデビルを{n}おまえにやるよ{wait}{f0}また今度相手をしてくれよな{wait}{end}",
+  "en": "",
+  "max": 108
+ },
+ {
+  "id": "RM:09F618",
+  "same_as": "BM:0ABC74"
+ },
+ {
+  "id": "RM:09F6D8",
+  "same_as": "BM:0ABD34"
+ },
+ {
+  "id": "RM:09F76C",
+  "same_as": "BM:0ABDC8"
+ },
+ {
+  "id": "RM:09F7EC",
+  "jp": "{face:0001}さすがはアタシがみこんだ{n}パートナーね{wait}{page}妹のヒポグリフを{n}ひそかに特訓しておいたから{wait}{f0}いっしょにつれていってよ{wait}{end}",
+  "en": "",
+  "max": 124
+ },
+ {
+  "id": "RM:09F868",
+  "same_as": "BM:0ABEC4"
+ },
+ {
+  "id": "RM:09F920",
+  "same_as": "BM:0ABF7C"
+ },
+ {
+  "id": "RM:09FA04",
+  "same_as": "BM:0AC060"
+ },
+ {
+  "id": "RM:09FAD0",
+  "same_as": "BM:0AC12C"
+ },
+ {
+  "id": "RM:09FB54",
+  "same_as": "BM:0AC1B0"
+ },
+ {
+  "id": "RM:09FBF8",
+  "same_as": "BM:0AC254"
+ },
+ {
+  "id": "RM:09FC60",
+  "jp": "{face:0063}まいった、まいった{n}キミのような強い女の子がいるとは・・{wait}{page}おまけにかわいいし・・・{n}{speed:0019}い、いや私はイザナミひとすじだよ！{wait}{page}よし！娘をつれていってくれ{n}かわいい子どもには旅をさせろってね{wait}{end}",
+  "en": "",
+  "max": 200
+ },
+ {
+  "id": "RM:09FD28",
+  "same_as": "BM:0AC3D0"
+ },
+ {
+  "id": "RM:09FD78",
+  "same_as": "BM:0AC420"
+ },
+ {
+  "id": "RM:09FDF8",
+  "jp": "{face:005B}なんだ、仲魔がいっぱいじゃない{wait}{page}仲魔をへらしてから{n}もう一度戦ってね{wait}{end}",
+  "en": "",
+  "max": 80
+ },
+ {
+  "id": "RM:09FE48",
+  "same_as": "BM:0AC4F4"
+ },
+ {
+  "id": "RM:09FEA0",
+  "jp": "{face:0003}あれ？　仲魔がいっぱいじゃないか{wait}{page}仲魔をへらしてから{n}もう一度戦ってくれよ{wait}{end}",
+  "en": "",
+  "max": 84
+ },
+ {
+  "id": "RM:09FEF4",
+  "same_as": "BM:0AC59C"
+ },
+ {
+  "id": "RM:09FF44",
+  "same_as": "BM:0AC5EC"
+ },
+ {
+  "id": "RM:09FFF8",
+  "same_as": "BM:0AC6A0"
+ },
+ {
+  "id": "RM:0A0050",
+  "jp": "{face:0001}あれ？　仲魔がいっぱいよ{wait}{page}仲魔をへらしてきてから{n}リベンジね{wait}{page}でも、ワタシと別れるなんて{n}いわないでよ{wait}{end}",
+  "en": "",
+  "max": 116
+ }
+]

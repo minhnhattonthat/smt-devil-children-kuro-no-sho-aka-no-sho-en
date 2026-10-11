@@ -172,6 +172,42 @@ def lint_event(jp, en, box=None):
     return errs
 
 
+def jp_line_px(jp):
+    """Widest JP line in px (12 px per glyph) - the space the UI gave the original."""
+    lines = TOKEN.sub(lambda m: m[0] if m[0] == '{n}' else '', jp).split('{n}')
+    return max(12 * len(ln) for ln in lines)
+
+
+EXE_MIN_PX = 60  # short labels: allow English a little wider than tiny JP labels (QA confirms per screen)
+
+
+def lint_exe(jp, en, cap):
+    """EXE/overlay strings: in-place, so the packed size must fit `cap` bytes; lines no wider than the JP's."""
+    import text
+    errs = []
+    if not en.endswith('{end}'):
+        errs.append('must end with {end}')
+    bad = [c for c in TOKEN.sub('', en) if not 0x20 <= ord(c) < 0x7F]
+    if bad:
+        errs.append('non-ASCII: %r' % ''.join(sorted(set(bad))))
+    if codes(jp) != codes(en):
+        errs.append('control codes differ: jp %s / en %s' % (''.join(codes(jp)), ''.join(codes(en))))
+    if en.count('{n}') > jp.count('{n}'):
+        errs.append('more lines than JP (%d > %d)' % (en.count('{n}') + 1, jp.count('{n}') + 1))
+    if not bad:
+        size = len(text.encode_en(en))
+        if size > cap:
+            errs.append('too long: %d bytes > %d (about %d chars max)' % (size, cap, cap - 2))
+    limit = max(jp_line_px(jp), EXE_MIN_PX)
+    for ln in TOKEN.sub(lambda m: m[0] if m[0] == '{n}' else '', en).split('{n}'):
+        if text_width(ln) > limit:
+            errs.append('line %dpx > %dpx: %s' % (text_width(ln), limit, ln))
+    for a in avoid_terms():
+        if re.search(r'\b%s\b' % re.escape(a), TOKEN.sub('', en)):
+            errs.append('glossary: avoid "%s"' % a)
+    return errs
+
+
 def main():
     import argparse
     import json

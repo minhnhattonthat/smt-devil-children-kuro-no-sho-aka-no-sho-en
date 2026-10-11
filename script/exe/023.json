@@ -1,0 +1,820 @@
+[
+ {
+  "id": "NM:0CB098",
+  "jp": "交換します{n}よろしいですか？{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CB0B8",
+  "jp": "交換をやめます{n}いいですか？{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CB0D8",
+  "jp": "交換前にセーブします{n}ここでセーブした後に{n}メモリーカードを抜いたり{n}でんげんを切ったりすると{n}出した仲魔がいなくなるので{n}注意してください{end}",
+  "en": "",
+  "max": 144
+ },
+ {
+  "id": "NM:0CB168",
+  "jp": "１Pが交換に出す仲魔を選んでください{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "NM:0CB190",
+  "jp": "２Pが交換に出す仲魔を選んでください{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "NM:0CB1B8",
+  "jp": "１Pは{name}を{n}もらいました{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "NM:0CB1D4",
+  "jp": "２Pは{name}を{n}もらいました{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "NM:0CB1F0",
+  "jp": "もう一度交換しますか？{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB238",
+  "jp": "交換前にセーブします{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB250",
+  "jp": "交換けっかをセーブします{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "NM:0CB26C",
+  "jp": "続けて交換しますか？{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB284",
+  "jp": "１Pが対戦に使うネットライザーを{n}選んでください{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "NM:0CB2B8",
+  "jp": "２Pが対戦に使うネットライザーを{n}選んでください{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "NM:0CB2EC",
+  "jp": "でいいですか？{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB2FC",
+  "jp": "対戦を始める前にセーブします{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CB31C",
+  "jp": "※※ネットライザーせんたく※※{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CB33C",
+  "jp": "続けて対戦しますか？{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB354",
+  "jp": "対戦をやめて{n}ウェブネットにもどりますか？{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "NM:0CB380",
+  "jp": "このライザーには{n}仲魔がいません！{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "NM:0CB3AC",
+  "jp": "どれかボタンをおしてください　　{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "NM:0CB3D0",
+  "jp": "{name}の勝利！！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB3E0",
+  "same_as": "BM:0AA46C"
+ },
+ {
+  "id": "NM:0CB42E",
+  "jp": "バトル・{speed:001E}・{speed:001E}・{speed:001E}スタート！{speed:003C}{end}",
+  "en": "",
+  "max": 42
+ },
+ {
+  "id": "NM:0CB46C",
+  "jp": "どれかボタンをおしてください{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CB48E",
+  "jp": "そこは選べません{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "NM:0CB4A2",
+  "jp": "この仲魔はすでにいます{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "NM:0CB4BE",
+  "jp": "この仲魔は訓練中です{end}",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "NM:0CB4D6",
+  "jp": "仲魔がいません{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "NM:0CB4EA",
+  "jp": "キゼツしている　仲魔は{n}　選べません！{end}",
+  "en": "",
+  "max": 42
+ },
+ {
+  "id": "NM:0CB516",
+  "jp": "やめます　いいですか？{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "NM:0CB532",
+  "same_as": "BM:09DFE2"
+ },
+ {
+  "id": "NM:0CB54E",
+  "jp": "パートナーは選べません{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "NM:0CB568",
+  "jp": "このライザーをリセットして{n}へんしゅうし直しますか？{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "NM:0CB5A0",
+  "jp": "スロット１に{n}メモリーカードが{n}正しくさしこまれて{n}いません{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "NM:0CB5E0",
+  "jp": "スロット１の{n}メモリーカードの{n}チェック中に{n}エラーが起きました{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "NM:0CB832",
+  "jp": "登。　常。こうげきコンボ：{ed}{end}",
+  "en": "",
+  "max": 30
+ },
+ {
+  "id": "NM:0CB850",
+  "jp": "変化コンボ：{ed}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB860",
+  "jp": "回復コンボ：{ed}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB870",
+  "jp": "Pダウンコンボ：{ed}{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CB884",
+  "jp": "Pアップコンボ：{ed}{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CB898",
+  "same_as": "NM:0CB860"
+ },
+ {
+  "id": "NM:0CB8A8",
+  "jp": "復活コンボ：{ed}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB8B8",
+  "jp": "ガルルゥーー！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB8D0",
+  "jp": "この一撃を受けてみろ！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB8E8",
+  "jp": "負けませんわよ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CB8FC",
+  "jp": "これでも食らえ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CB910",
+  "jp": "ガツンと行くよ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CB924",
+  "jp": "オラァ！{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CB930",
+  "jp": "このヤロー！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB940",
+  "jp": "クラエ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB960",
+  "jp": "{f6}だ！{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "NM:0CB968",
+  "jp": "{f6}です！{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CB974",
+  "jp": "エイっ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB984",
+  "jp": "イケっ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB994",
+  "jp": "食らえ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB9A4",
+  "jp": "{f6}よ！{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "NM:0CB9AC",
+  "jp": "変化：　{f6}{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CB9B8",
+  "jp": "回復：　{f6}{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CB9C4",
+  "jp": "ダウン：　{f6}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB9D4",
+  "jp": "アップ：　{f6}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB9E4",
+  "jp": "カイフク！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA04",
+  "jp": "回復！{f6}！{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CBA10",
+  "jp": "治って！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA20",
+  "jp": "えいっ、{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA30",
+  "same_as": "NM:0CBA10"
+ },
+ {
+  "id": "NM:0CBA50",
+  "jp": "フッカツ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA70",
+  "jp": "復活せよ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA80",
+  "jp": "復活よ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBA90",
+  "jp": "復活！{f6}！{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CBA9C",
+  "jp": "復活して！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBAAC",
+  "jp": "復活しろ！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBABC",
+  "jp": "復活しな！{f6}！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBACC",
+  "jp": "{name}！全力で行け！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBAE0",
+  "jp": "{name}の力を見せろ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBAF4",
+  "jp": "がんばってくれ、{name}！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CBB0C",
+  "jp": "{name}！オマエがたよりだ！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CBB24",
+  "jp": "{name}、オマエの番だ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBB38",
+  "jp": "まかせたぞ、{name}！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBB4C",
+  "jp": "行け！{name}！{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0CBB58",
+  "jp": "{name}、ゆだんするな！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBB6C",
+  "jp": "{name}が負けるなんて・・・{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CBB84",
+  "jp": "{name}じゃダメなのか？{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "NM:0CBB98",
+  "jp": "しまった！ゆだんしたか・・・{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CBBB8",
+  "jp": "なかなかあなどれないな{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CBBD0",
+  "jp": "・・・オボエテロヨ！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CBBF8",
+  "jp": "・・・今日はかんべんしてやる！{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CBC18",
+  "jp": "・・・おぼえておきなさい！！{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CBC38",
+  "jp": "・・・勝てっこないよ、サヨナラ！{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "NM:0CBC5C",
+  "jp": "・・・また今度ね、バイバイ！{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CBC7C",
+  "jp": "・・・やってらんねーや！んじゃ！{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "NM:0CBCA0",
+  "jp": "・・・アイテにしてらんないわ！{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "NM:0CBCC0",
+  "jp": "ぼうぎょ：　{f6}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CBCD0",
+  "jp": "ほじょ：　{f6}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "NM:0CC8C0",
+  "same_as": "BM:0BF574"
+ },
+ {
+  "id": "NM:0CC8E8",
+  "same_as": "BM:0BF59C"
+ },
+ {
+  "id": "NM:0CC910",
+  "same_as": "BM:0BF5C4"
+ },
+ {
+  "id": "NM:0CC92C",
+  "same_as": "BM:0BF5E0"
+ },
+ {
+  "id": "NM:0CC948",
+  "same_as": "BM:0BF5FC"
+ },
+ {
+  "id": "NM:0CC964",
+  "same_as": "BM:0BF618"
+ },
+ {
+  "id": "NM:0CC978",
+  "same_as": "BM:0BF62C"
+ },
+ {
+  "id": "NM:0CC9A0",
+  "same_as": "BM:0BF654"
+ },
+ {
+  "id": "NM:0CC9C0",
+  "same_as": "BM:0BF674"
+ },
+ {
+  "id": "NM:0CCA08",
+  "same_as": "BM:0BF6BC"
+ },
+ {
+  "id": "NM:0CCA58",
+  "same_as": "BM:0BF70C"
+ },
+ {
+  "id": "NM:0CCA7C",
+  "same_as": "BM:0BF730"
+ },
+ {
+  "id": "NM:0CCA8C",
+  "same_as": "BM:0BF740"
+ },
+ {
+  "id": "NM:0CCAA4",
+  "same_as": "BM:0BF758"
+ },
+ {
+  "id": "NM:0CCABC",
+  "same_as": "BM:0BF770"
+ },
+ {
+  "id": "NM:0CCAD8",
+  "same_as": "BM:0BF78C"
+ },
+ {
+  "id": "NM:0CCB3C",
+  "same_as": "BM:0BF7F0"
+ },
+ {
+  "id": "NM:0CCB68",
+  "same_as": "BM:0BF81C"
+ },
+ {
+  "id": "NM:0CCB84",
+  "same_as": "BM:0BF838"
+ },
+ {
+  "id": "NM:0CCBA0",
+  "same_as": "BM:0A07A6"
+ },
+ {
+  "id": "NM:0CCBB4",
+  "same_as": "BM:0BF868"
+ },
+ {
+  "id": "NM:0CCBD0",
+  "same_as": "BM:0A07A6"
+ },
+ {
+  "id": "NM:0CCBE4",
+  "same_as": "BM:0BF898"
+ },
+ {
+  "id": "NM:0CCC04",
+  "same_as": "BM:0BF8B8"
+ },
+ {
+  "id": "NM:0CCC14",
+  "same_as": "BM:0BF8C8"
+ },
+ {
+  "id": "NM:0CCC3C",
+  "same_as": "BM:0BF8F0"
+ },
+ {
+  "id": "NM:0CCC5C",
+  "same_as": "BM:0BF910"
+ },
+ {
+  "id": "NM:0CCC80",
+  "same_as": "BM:0BF934"
+ },
+ {
+  "id": "NM:0CCCD8",
+  "same_as": "BM:0BF98C"
+ },
+ {
+  "id": "NM:0CCCEC",
+  "same_as": "BM:0BF9A0"
+ },
+ {
+  "id": "NM:0CCD14",
+  "same_as": "BM:0BF9C8"
+ },
+ {
+  "id": "NM:0CCD38",
+  "same_as": "BM:0BF9EC"
+ },
+ {
+  "id": "NM:0CCD60",
+  "same_as": "BM:0BFA14"
+ },
+ {
+  "id": "NM:0CCD88",
+  "same_as": "BM:0BFA3C"
+ },
+ {
+  "id": "NM:0CCDB0",
+  "same_as": "BM:0BFA64"
+ },
+ {
+  "id": "NM:0CCDD4",
+  "same_as": "BM:0BFA88"
+ },
+ {
+  "id": "NM:0CCDF4",
+  "same_as": "BM:0BFAA8"
+ },
+ {
+  "id": "NM:0CCE0C",
+  "same_as": "BM:0BFAC0"
+ },
+ {
+  "id": "NM:0CCE1C",
+  "same_as": "BM:0BFAD0"
+ },
+ {
+  "id": "NM:0CCE30",
+  "same_as": "BM:0BFAE4"
+ },
+ {
+  "id": "NM:0CCE48",
+  "same_as": "BM:0BFAFC"
+ },
+ {
+  "id": "NM:0CCE5C",
+  "same_as": "BM:0BFB10"
+ },
+ {
+  "id": "NM:0CCE70",
+  "same_as": "BM:0BFB24"
+ },
+ {
+  "id": "NM:0CCE84",
+  "same_as": "BM:0BFB38"
+ },
+ {
+  "id": "NM:0CCE94",
+  "same_as": "BM:0BFB48"
+ },
+ {
+  "id": "NM:0CCEA4",
+  "same_as": "BM:0BFB58"
+ },
+ {
+  "id": "NM:0CCEB4",
+  "same_as": "BM:0BFB68"
+ },
+ {
+  "id": "NM:0CCEC4",
+  "same_as": "BM:0BFB78"
+ },
+ {
+  "id": "NM:0CCEE4",
+  "same_as": "BM:0BFB98"
+ },
+ {
+  "id": "NM:0CCF04",
+  "same_as": "BM:0BFBB8"
+ },
+ {
+  "id": "NM:0CCF28",
+  "same_as": "BM:0BFBDC"
+ },
+ {
+  "id": "NM:0CCF48",
+  "same_as": "BM:0BFBFC"
+ },
+ {
+  "id": "NM:0CCF60",
+  "same_as": "BM:0BFC14"
+ },
+ {
+  "id": "NM:0CCF78",
+  "same_as": "BM:0BFC2C"
+ },
+ {
+  "id": "NM:0CCF98",
+  "same_as": "BM:0A1B3A"
+ },
+ {
+  "id": "NM:0D4FC8",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "NM:0D4FD0",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "NM:0D4FD8",
+  "same_as": "BM:0C7C8C"
+ },
+ {
+  "id": "NM:0D4FF2",
+  "same_as": "BM:0C7CA6"
+ },
+ {
+  "id": "NM:0D5002",
+  "same_as": "BM:0C7CB6"
+ },
+ {
+  "id": "NM:0D500C",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "NM:0D50E4",
+  "same_as": "BM:0C7D54"
+ },
+ {
+  "id": "NM:0D50F4",
+  "same_as": "BM:001910"
+ },
+ {
+  "id": "NM:0D5178",
+  "same_as": "BM:0C7F00"
+ },
+ {
+  "id": "NM:0D5180",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "NM:0D5188",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "NM:0D5198",
+  "same_as": "BM:0C7F44"
+ }
+]

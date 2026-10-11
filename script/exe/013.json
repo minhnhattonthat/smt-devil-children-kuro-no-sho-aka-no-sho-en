@@ -1,0 +1,1142 @@
+[
+ {
+  "id": "BM:0AFE0C",
+  "same_as": "BM:0AFDE4"
+ },
+ {
+  "id": "BM:0AFE22",
+  "jp": "きりかえ　{end}",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "BM:0AFE48",
+  "jp": "キングライザ－※※{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0AFE5E",
+  "same_as": "BM:0AFE22"
+ },
+ {
+  "id": "BM:0AFE70",
+  "jp": "ならびかえ{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFE7C",
+  "jp": "別れる{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0AFE84",
+  "jp": "ヴィネセンタ－{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0AFE94",
+  "jp": "よびだす{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFEA4",
+  "jp": "おくる{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0AFEB4",
+  "same_as": "BM:0AFE7C"
+ },
+ {
+  "id": "BM:0AFEC4",
+  "jp": "みる{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0AFED4",
+  "jp": "ディスク{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFEF8",
+  "jp": "ノ－ト{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0AFF04",
+  "same_as": "BM:005B08"
+ },
+ {
+  "id": "BM:0AFF10",
+  "jp": "ガ－ド　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFF1C",
+  "same_as": "BM:005B38"
+ },
+ {
+  "id": "BM:0AFF28",
+  "same_as": "BM:005B50"
+ },
+ {
+  "id": "BM:0AFF34",
+  "same_as": "BM:005B68"
+ },
+ {
+  "id": "BM:0AFF40",
+  "jp": "ラック　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFF6C",
+  "same_as": "BM:0AFEA4"
+ },
+ {
+  "id": "BM:0AFF74",
+  "jp": "ヴィネコン{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFF80",
+  "same_as": "BM:0AFE70"
+ },
+ {
+  "id": "BM:0AFF8C",
+  "same_as": "BM:0AFE7C"
+ },
+ {
+  "id": "BM:0AFF98",
+  "same_as": "BM:005C88"
+ },
+ {
+  "id": "BM:0AFFA4",
+  "jp": "オプション{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFFB0",
+  "jp": "セット{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0AFFBC",
+  "jp": "ステ－タス{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0AFFC8",
+  "jp": "けんさく　こうもく{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0AFFE2",
+  "jp": "しゅぞく　　で　けんさく{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "BM:0AFFFC",
+  "jp": "名前　　　で　けんさく{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0B0016",
+  "jp": "レベル　　　で　けんさく{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "BM:0B0030",
+  "jp": "コンボ　　　で　けんさく{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "BM:0B004A",
+  "jp": "ぞくせい　　で　けんさく{end}",
+  "en": "",
+  "max": 26
+ },
+ {
+  "id": "BM:0B0064",
+  "jp": "※※ヴィネセンタ－※※{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0B007C",
+  "jp": "※※デビダス※※{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0B0090",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "BM:0B009A",
+  "jp": "使う{end}",
+  "en": "",
+  "max": 6
+ },
+ {
+  "id": "BM:0B00A4",
+  "jp": "いれかえ{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0B00AE",
+  "same_as": "BM:0033C0"
+ },
+ {
+  "id": "BM:0B00B8",
+  "jp": "仲魔を{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B00CA",
+  "same_as": "BM:09E4BC"
+ },
+ {
+  "id": "BM:0B00DC",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0B00E4",
+  "jp": "しょうひ　P：{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B00F6",
+  "same_as": "BM:0AFE22"
+ },
+ {
+  "id": "BM:0B0104",
+  "jp": "システム{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B011C",
+  "jp": "今いる世界{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0128",
+  "jp": "最後の場所{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0134",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B0140",
+  "jp": "プレイ時間{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0158",
+  "jp": "セ－ブ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0160",
+  "jp": "せってい：システム{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0B0174",
+  "jp": "メッセ－ジ{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0188",
+  "jp": "はやい{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B019C",
+  "same_as": "BM:0021A0"
+ },
+ {
+  "id": "BM:0B01B0",
+  "jp": "おそい{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B01C4",
+  "jp": "アニメ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B01D8",
+  "jp": "オン／　オフ{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B01FC",
+  "same_as": "BM:0AFE94"
+ },
+ {
+  "id": "BM:0B0208",
+  "same_as": "BM:0AFE94"
+ },
+ {
+  "id": "BM:0B0214",
+  "same_as": "BM:001F7C"
+ },
+ {
+  "id": "BM:0B0220",
+  "same_as": "BM:001F88"
+ },
+ {
+  "id": "BM:0B022C",
+  "same_as": "BM:001F94"
+ },
+ {
+  "id": "BM:0B0238",
+  "jp": "ぎんこう{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0244",
+  "jp": "あずけるきんがく{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0B0258",
+  "same_as": "BM:001EEA"
+ },
+ {
+  "id": "BM:0B026C",
+  "same_as": "BM:0AFF74"
+ },
+ {
+  "id": "BM:0B0278",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "BM:0B0284",
+  "jp": "セ－ブ　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0290",
+  "jp": "せってい{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B029C",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0B02A8",
+  "jp": "デビホン{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B02B4",
+  "same_as": "BM:0AFF74"
+ },
+ {
+  "id": "BM:0B02C0",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "BM:0B02CC",
+  "same_as": "BM:0B0284"
+ },
+ {
+  "id": "BM:0B02D8",
+  "jp": "せってい　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B02E4",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0B02F0",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "BM:0B02FA",
+  "same_as": "BM:0B0284"
+ },
+ {
+  "id": "BM:0B0304",
+  "same_as": "BM:0B02A8"
+ },
+ {
+  "id": "BM:0B0314",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B0324",
+  "jp": "ともだち{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0334",
+  "same_as": "BM:000810"
+ },
+ {
+  "id": "BM:0B033A",
+  "same_as": "BM:000816"
+ },
+ {
+  "id": "BM:0B0340",
+  "same_as": "BM:005C70"
+ },
+ {
+  "id": "BM:0B034C",
+  "jp": "こ：{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0354",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B0364",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B0374",
+  "jp": "ウェブネット{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B0384",
+  "jp": "やめる{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0394",
+  "jp": "ニックネ－ム{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B03A4",
+  "jp": "バトルネット{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B03B4",
+  "jp": "電話{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B03C4",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B03D4",
+  "same_as": "BM:0B0324"
+ },
+ {
+  "id": "BM:0B03E4",
+  "same_as": "BM:00086A"
+ },
+ {
+  "id": "BM:0B03EC",
+  "jp": "くんれん{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B03FE",
+  "same_as": "BM:09E4BC"
+ },
+ {
+  "id": "BM:0B0410",
+  "jp": "場所を選んでください{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0B0428",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B0432",
+  "same_as": "BM:002100"
+ },
+ {
+  "id": "BM:0B043C",
+  "same_as": "BM:00204C"
+ },
+ {
+  "id": "BM:0B0446",
+  "same_as": "BM:0B0384"
+ },
+ {
+  "id": "BM:0B045C",
+  "jp": "ワザ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0464",
+  "jp": "パラメ－タ{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0470",
+  "same_as": "BM:00213C"
+ },
+ {
+  "id": "BM:0B047C",
+  "same_as": "BM:002150"
+ },
+ {
+  "id": "BM:0B0488",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0B0490",
+  "same_as": "BM:002178"
+ },
+ {
+  "id": "BM:0B049C",
+  "same_as": "BM:0B0188"
+ },
+ {
+  "id": "BM:0B04A4",
+  "same_as": "BM:0021A0"
+ },
+ {
+  "id": "BM:0B04AC",
+  "same_as": "BM:0021B4"
+ },
+ {
+  "id": "BM:0B04D0",
+  "jp": "マイ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B04DA",
+  "same_as": "BM:0B04D0"
+ },
+ {
+  "id": "BM:0B04E4",
+  "jp": "ビッグ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B04EE",
+  "jp": "スモ－ル{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0B04F8",
+  "same_as": "BM:000A38"
+ },
+ {
+  "id": "BM:0B0508",
+  "jp": "ひんし　　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0514",
+  "same_as": "BM:0B0374"
+ },
+ {
+  "id": "BM:0B0522",
+  "jp": "たいせん{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0B0530",
+  "jp": "こうかん{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B053E",
+  "jp": "合体{end}",
+  "en": "",
+  "max": 6
+ },
+ {
+  "id": "BM:0B054C",
+  "jp": "※※ウェブネット※※{end}",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "BM:0B0562",
+  "same_as": "BM:0AFE94"
+ },
+ {
+  "id": "BM:0B0578",
+  "same_as": "BM:0AFEA4"
+ },
+ {
+  "id": "BM:0B058E",
+  "same_as": "BM:0AFE70"
+ },
+ {
+  "id": "BM:0B05A4",
+  "same_as": "BM:005880"
+ },
+ {
+  "id": "BM:0B05BA",
+  "jp": "リセット{end}",
+  "en": "",
+  "max": 10
+ },
+ {
+  "id": "BM:0B05D0",
+  "same_as": "BM:0B054C"
+ },
+ {
+  "id": "BM:0B05E8",
+  "same_as": "BM:0B054C"
+ },
+ {
+  "id": "BM:0B05FE",
+  "jp": "どこに入れますか？{end}",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "BM:0B0614",
+  "jp": "クラス　：{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0620",
+  "jp": "ぞくせい：{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B062C",
+  "jp": "しゅぞく：{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0638",
+  "jp": "せいじょう{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0644",
+  "jp": "ハッピ－{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0650",
+  "jp": "かんでん{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B065C",
+  "jp": "とうけつ{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0668",
+  "jp": "バクダン{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0674",
+  "jp": "ちんもく{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0680",
+  "jp": "こんらん{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B068C",
+  "jp": "ゆうわく{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0698",
+  "jp": "すいみん{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B06A4",
+  "jp": "マヒ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06AC",
+  "jp": "どく{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06B4",
+  "same_as": "BM:00086A"
+ },
+ {
+  "id": "BM:0B06BC",
+  "jp": "コモン{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06C4",
+  "jp": "エリ－ト{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B06D0",
+  "jp": "ゼネラル{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B06DC",
+  "jp": "キング{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06E4",
+  "jp": "カミ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06EC",
+  "jp": "アクマ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06F4",
+  "jp": "テンシ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B06FC",
+  "jp": "オニ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0704",
+  "jp": "レイ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B070C",
+  "jp": "リュウ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0714",
+  "jp": "ヨウマ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B071C",
+  "same_as": "BM:0041BA"
+ },
+ {
+  "id": "BM:0B0728",
+  "jp": "ボス{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0730",
+  "same_as": "BM:0041CE"
+ },
+ {
+  "id": "BM:0B073C",
+  "jp": "ニチ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0744",
+  "jp": "ツキ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0750",
+  "jp": "ミズ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0758",
+  "jp": "モク{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0760",
+  "jp": "キン{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0768",
+  "jp": "ツチ{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0770",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B0780",
+  "jp": "デビライザ－{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B0790",
+  "jp": "キングライザ－{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B07A0",
+  "jp": "くんれんじょ{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B07BC",
+  "jp": "※※バトルネット※※{end}",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "BM:0B07D2",
+  "same_as": "BM:0AFE94"
+ },
+ {
+  "id": "BM:0B07E8",
+  "same_as": "BM:0AFEA4"
+ },
+ {
+  "id": "BM:0B07FE",
+  "same_as": "BM:0AFE70"
+ },
+ {
+  "id": "BM:0B0814",
+  "same_as": "BM:005880"
+ },
+ {
+  "id": "BM:0B082A",
+  "same_as": "BM:0B05BA"
+ },
+ {
+  "id": "BM:0B0840",
+  "same_as": "BM:0B07BC"
+ },
+ {
+  "id": "BM:0B0856",
+  "same_as": "BM:0B05FE"
+ },
+ {
+  "id": "BM:0B086C",
+  "same_as": "BM:0B07BC"
+ },
+ {
+  "id": "BM:0B0898",
+  "jp": "かち／　まけ{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B08C4",
+  "same_as": "BM:0B03B4"
+ },
+ {
+  "id": "BM:0B08CC",
+  "same_as": "BM:0B07BC"
+ },
+ {
+  "id": "BM:0B08E4",
+  "jp": "メダル{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B08EC",
+  "same_as": "BM:000810"
+ },
+ {
+  "id": "BM:0B08F4",
+  "same_as": "BM:0B08E4"
+ },
+ {
+  "id": "BM:0B08FC",
+  "jp": "つぎのLVまで{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B090C",
+  "jp": "こ　もっています　{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0B0920",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B0930",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B0940",
+  "same_as": "BM:0B0374"
+ },
+ {
+  "id": "BM:0B0950",
+  "same_as": "BM:0B0384"
+ },
+ {
+  "id": "BM:0B0960",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B0970",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B0980",
+  "same_as": "BM:0B0374"
+ },
+ {
+  "id": "BM:0B0990",
+  "same_as": "BM:0B0384"
+ },
+ {
+  "id": "BM:0B09A0",
+  "same_as": "BM:0B0394"
+ },
+ {
+  "id": "BM:0B09B0",
+  "same_as": "BM:0AFE84"
+ },
+ {
+  "id": "BM:0B09C0",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:0B09D0",
+  "same_as": "BM:0B0374"
+ },
+ {
+  "id": "BM:0B09E0",
+  "same_as": "BM:0B0384"
+ },
+ {
+  "id": "BM:0B09F0",
+  "same_as": "BM:0B03A4"
+ },
+ {
+  "id": "BM:0B0A08",
+  "jp": "つうさんせいせき{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:0B0A1E",
+  "jp": "せん{end}",
+  "en": "",
+  "max": 6
+ },
+ {
+  "id": "BM:0B0A34",
+  "jp": "しょう{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0B0A4A",
+  "same_as": "BM:001908"
+ },
+ {
+  "id": "BM:0B0A60",
+  "jp": "ヴィネセンタ－の仲魔{end}",
+  "en": "",
+  "max": 22
+ },
+ {
+  "id": "BM:0B0A76",
+  "jp": "ディスクの仲魔{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0B0A8C",
+  "same_as": "BM:0B0780"
+ },
+ {
+  "id": "BM:0B0AA4",
+  "jp": "／キングライザ－{end}",
+  "en": "",
+  "max": 18
+ },
+ {
+  "id": "BM:0B0AC8",
+  "same_as": "BM:000898"
+ },
+ {
+  "id": "BM:0B0AE0",
+  "same_as": "BM:002164"
+ },
+ {
+  "id": "BM:0B0AE8",
+  "same_as": "BM:0AFFBC"
+ },
+ {
+  "id": "BM:0B0AF4",
+  "jp": "ばんごう{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B08",
+  "same_as": "BM:0B0064"
+ },
+ {
+  "id": "BM:0B0B20",
+  "jp": "しゅぞく　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B2C",
+  "jp": "名前　　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B38",
+  "jp": "レベル　　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B44",
+  "jp": "コンボ　　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B50",
+  "jp": "てんのしょ{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B5C",
+  "jp": "ちのしょ　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0B68",
+  "same_as": "BM:0B007C"
+ },
+ {
+  "id": "BM:0B0B7C",
+  "same_as": "BM:001FC8"
+ },
+ {
+  "id": "BM:0B0B94",
+  "same_as": "BM:0B009A"
+ },
+ {
+  "id": "BM:0B0B9C",
+  "same_as": "BM:0B00A4"
+ },
+ {
+  "id": "BM:0B0BA8",
+  "same_as": "BM:0033C0"
+ },
+ {
+  "id": "BM:0B0BB4",
+  "jp": "すてる{end}",
+  "en": "",
+  "max": 8
+ }
+]

@@ -20,10 +20,15 @@ TREE = ROOT / 'work' / 'orig' / 'tree'
 EXES = (('BM', 'B_MAIN.EXE'), ('RM', 'R_MAIN.EXE'), ('NM', 'N_MAIN.EXE'))
 BASE = 0x8000F800  # all three load at 0x80010000 (file offset 0x800)
 
-# Fixed-size records whose text field may be filled completely: (JP of first entry, stride, count, field bytes)
+# Fixed-size records, name at +0 in an 18-byte field (data from +18): (B_MAIN RAM base, stride, count).
+# Bases are the expander's name tables (docs/re); other EXEs: found by matching B's first two records.
 RECORDS = {
-    'demon': ('ネクベト', 46, 277, 20),   # 0x800C6030 in B_MAIN; name at +0
+    'demon': (0x800C6030, 46, 277, 18),   # FFF8 / names
+    'skill': (0x800C91C8, 30, 163, 18),   # FFF6
+    'item': (0x800CA488, 26, 128, 18),    # FFF7
+    'combo': (0x800BC780, 28, 128, 18),   # FFED
 }
+_B_MAIN = None
 
 # Not text: name-entry character maps etc. (B_MAIN offsets; matched by JP content in other EXEs)
 NOT_TEXT_PREFIX = ('vwxyz', '・…＝', 'eぁぅ', '・／：（？')
@@ -31,9 +36,14 @@ NOT_TEXT_PREFIX = ('vwxyz', '・…＝', 'eぁぅ', '・／：（？')
 
 def record_slots(d):
     """{offset: field bytes} for every record name."""
+    global _B_MAIN
+    if _B_MAIN is None:
+        _B_MAIN = (TREE / 'B_MAIN.EXE').read_bytes()
     out = {}
-    for jp, stride, count, field in RECORDS.values():
-        base = d.find(text.encode(jp + '{end}'))
+    for ram, stride, count, field in RECORDS.values():
+        sig = _B_MAIN[ram - BASE: ram - BASE + 2 * stride]
+        base = d.find(sig)
+        assert base >= 0 and d.find(sig, base + 1) < 0, 'record table not unique: %X' % ram
         for i in range(count):
             out[base + i * stride] = field
     return out
@@ -42,9 +52,13 @@ def record_slots(d):
 def strings(d):
     """[(offset, length, capacity, jp)] for text strings in an EXE image."""
     rec = record_slots(d)
+    in_rec = set()
+    for off, field in rec.items():
+        in_rec.update(range(off, off + field))
     found = {}
     for off, n, t in text.scan(d, minlen=2):
-        found[off] = (n, t)
+        if not in_rec.intersection(range(off, off + n)):  # stat bytes glued onto a record name
+            found[off] = (n, t)
     for off in rec:
         t, n = text.decode(d, off)
         found[off] = (n, t)
