@@ -476,7 +476,7 @@
  {
   "id": "BM:0A7ED0",
   "jp": "兄弟をしたがえて、深き{n}闇のそこに立ち、呪文の{n}言葉をとなえれば、別れた{n}兄弟がそこに集う{n}ホーリーチルドレン{end}",
-  "en": "With your brother, stand{n}in deep darkness and{n}chant the spell: parted{n}brothers gather there.{n}Holy Children.{end}",
+  "en": "With your brother, stand{n}in deep darkness and{n}chant the spell: parted{n}brothers gather there.{n}HolyChildren.{end}",
   "max": 112
  },
  {
@@ -488,7 +488,7 @@
  {
   "id": "BM:0A7FC0",
   "jp": "まいおりたメシア{end}",
-  "en": "Messiah Descended{end}",
+  "en": "MessiahDescended{end}",
   "max": 20
  },
  {

@@ -130,7 +130,7 @@ def name_tab():
     for row in NAME_PAGES[0] + NAME_PAGES[1]:
         for c in row:
             if c != ' ':
-                m[text.JP_ENC[fw(c)]] = ord(c)
+                m[text.JP_ENC[fw(c)]] = ord(c.upper())  # passwords are upper case (this table is only used there)
     return bytes(m)
 
 
@@ -139,6 +139,24 @@ def fw(c):
     if c.isdigit():
         return chr(0xFF10 + int(c))
     return c if c.isalpha() else NAME_FW[c]
+
+
+PASSWORDS = ('HOLYCHILDREN', 'MESSIAHDESCENDED', 'BEHEMOTH', 'LEVIATHAN', 'IKKAKUDRAGON', 'GABRIEL', 'METATRON')
+
+
+def password_words(path):
+    """Vine Center password screen: 7 answers (length table + 0x48-byte slots) become English, stored as
+    0x100+ASCII like the typed units (asm name_map upper-cases what is typed)."""
+    import text
+    d = bytearray(path.read_bytes())
+    tab = d.find(bytes([9, 8, 4, 6, 8, 5, 5, 0]))
+    assert tab >= 0 and d.find(bytes([9, 8, 4, 6, 8, 5, 5, 0]), tab + 1) < 0
+    assert d[tab + 12:tab + 12 + 4] == text.encode('ホー'), path
+    for i, w in enumerate(PASSWORDS):
+        d[tab + i] = len(w)
+        at = tab + 12 + 0x48 * i
+        d[at:at + 0x48] = b''.join(struct.pack('<H', 0x100 + ord(c)) for c in w).ljust(0x48, b'\0')
+    path.write_bytes(d)
 
 
 def name_grid(path):
@@ -276,6 +294,7 @@ def build_exe(files, name, mode='normal'):
     import exe
     insert_strings(files, name, mode, 'exe', exe.strings)
     name_grid(files / name)
+    password_words(files / name)
     eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
                         '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin'),
