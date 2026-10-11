@@ -54,6 +54,23 @@ D8_ADV      equ D8_ADV_SITE + 8
 ; stores one byte per name unit, so packed English must become JP codes (full-width Latin, like typed names).
 NAME_DEF_RET equ NAME_DEF + 0xD4   ; the function's epilogue
 NAME_SAVE_RET equ NAME_DEF + 0x564 ; epilogue of the name-store function (B 0x8002158C)
+; The name entry and password screens draw their grid with full-width Latin (12 px cells): while they run,
+; name_flag = 1 and jp_map leaves the glyphs alone. Everywhere else names (saved as JP codes) draw in the
+; dialogue font.
+NAME_ENT     equ NAME_DEF + 0x5E0  ; B 0x800218D4 entry screen: "addiu sp,sp,-0x90"
+NAME_ENT_OUT equ NAME_DEF + 0xE68  ; B 0x8002215C "lw s0,0x68(sp)" (before "sb zero,0x72b(gp)", jr ra)
+NAME_PW      equ NAME_SEL - 0x418  ; B 0x80020A88 password screen: "addiu sp,sp,-0x58"
+NAME_PW_OUT  equ NAME_SEL + 0x228  ; B 0x800210C8 "lw ra,0x54(sp)"
+.org NAME_ENT
+    j       ne_enter
+    addiu   sp, sp, -0x90
+.org NAME_ENT_OUT
+    j       ne_leave
+.org NAME_PW
+    j       pw_enter
+    addiu   sp, sp, -0x58
+.org NAME_PW_OUT
+    j       pw_leave
 .org NAME_DEF                   ; label copy: v0 = label, a2 = buffer, a0 = mode (0 = hero)
     j       def_a
     sltiu   v1, a0, 1
@@ -87,7 +104,7 @@ pk_head:                        ; 16x16 loop: glyph out in a3; free: at, v0, v1
     beqz    v1, @@pair          ; 0x4000-0x7FFF
     nop
     srl     v1, a3, 15
-    beqz    v1, @@out           ; < 0x4000: JP glyph
+    beqz    v1, jp_map          ; < 0x4000: JP glyph (full-width Latin of saved names -> English glyph)
     nop
     ori     v1, zero, 0xCCE3
     sltu    v1, a3, v1
@@ -263,6 +280,49 @@ vwf_adv:
 .endif
 
 .org CAVE3                      ; third cave (B 0x800D1BA4, 668 bytes, zero in the image and in RAM during play)
+jp_map:                         ; a3 = JP glyph (< 0x4000); free: at, v1. 0x19-0x22 digits, 0x23-0x3C A-Z, 0x3D-0x56 a-z
+    lui     at, hi(name_flag)
+    lbu     v1, lo(name_flag)(at)
+    nop
+    bnez    v1, @@done
+    addiu   v1, a3, -0x19
+    sltiu   at, v1, 62
+    beqz    at, @@done
+    sltiu   at, v1, 10
+    bnez    at, @@set
+    addiu   a3, v1, 0x130       ; digit: 0x100 + '0' + n
+    sltiu   at, v1, 36
+    bnez    at, @@set
+    addiu   a3, v1, 0x137       ; upper: 0x100 + 'A' + n
+    addiu   a3, v1, 0x13D       ; lower: 0x100 + 'a' + n
+@@set:
+@@done:
+    j       DRAW_HEAD2
+    ori     v0, zero, 0xFFFD
+ne_enter:
+    lui     at, hi(name_flag)
+    ori     v1, zero, 1
+    sb      v1, lo(name_flag)(at)
+    j       NAME_ENT + 8
+    nop
+pw_enter:
+    lui     at, hi(name_flag)
+    ori     v1, zero, 1
+    sb      v1, lo(name_flag)(at)
+    j       NAME_PW + 8
+    nop
+ne_leave:
+    lw      s0, 0x68(sp)
+    lui     at, hi(name_flag)
+    sb      zero, lo(name_flag)(at)
+    j       NAME_ENT_OUT + 8
+    nop
+pw_leave:
+    lw      ra, 0x54(sp)
+    lui     at, hi(name_flag)
+    sb      zero, lo(name_flag)(at)
+    j       NAME_PW_OUT + 8
+    nop
 def_a:                          ; default-name fill: v0 = src, a2 = dest (v1 set by the hook's delay slot)
     lui     t7, hi(NAME_DEF_RET)
     b       def_name
@@ -374,6 +434,8 @@ map8:                           ; 128 bytes: ASCII -> 8x8 font code (build.py MA
     .incbin MAP8_FILE
 name_tab:                       ; 0x57 bytes: JP glyph code -> ASCII (0 = keep), build.py NAME_TAB
     .incbin NAME_TAB_FILE
+name_flag:                      ; 1 byte: 1 while the name entry / password screen runs
+    .byte 0
 .if . > CAVE2 + 0x200
     .error "data cave overflow"
 .endif
