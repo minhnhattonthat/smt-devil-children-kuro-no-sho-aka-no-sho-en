@@ -53,12 +53,20 @@ D8_ADV      equ D8_ADV_SITE + 8
 ; --- Default names (B 0x800212A4: hero/partner from the speaker labels, demon from its record): the save
 ; stores one byte per name unit, so packed English must become JP codes (full-width Latin, like typed names).
 NAME_DEF_RET equ NAME_DEF + 0xD4   ; the function's epilogue
+NAME_SAVE_RET equ NAME_DEF + 0x564 ; epilogue of the name-store function (B 0x8002158C)
 .org NAME_DEF                   ; label copy: v0 = label, a2 = buffer, a0 = mode (0 = hero)
-    j       def_name
+    j       def_a
     sltiu   v1, a0, 1
 .org NAME_DEF + 0x88            ; demon record name copy
-    j       def_name
+    j       def_a
     move    v1, zero
+; Store function: with no typed character it copies the original label (packed English would save as 3 bytes).
+.org NAME_DEF + 0x394           ; hero ("lui v0,0x800f" after "lw v1,(v0)")
+    j       save_hero
+    move    v0, v1
+.org NAME_DEF + 0x42C           ; partner
+    j       save_partner
+    move    v0, v1
 
 .org CAVE
 ; Unpacking (both draw loops). Queue: pk_pend = next char's glyph, pk_pend2 = the one after (0 = empty).
@@ -250,7 +258,29 @@ vwf_adv:
     j       DRAW_NEXT
     addu    t0, t0, v0
 
-def_name:                       ; v0 = default name, a2 = buffer, v1 = 1 for the hero; free: t0-t6, at, ra
+.if . > CAVE_END
+    .error "code cave overflow"
+.endif
+
+.org CAVE3                      ; third cave (B 0x800D1BA4, 668 bytes, zero in the image and in RAM during play)
+def_a:                          ; default-name fill: v0 = src, a2 = dest (v1 set by the hook's delay slot)
+    lui     t7, hi(NAME_DEF_RET)
+    b       def_name
+    ori     t7, t7, lo(NAME_DEF_RET)
+save_hero:                      ; entry-screen "Done" with nothing typed: the default label goes to the hero name
+    lui     a2, 0x800F
+    addiu   a2, a2, -0x47D0
+    ori     v1, zero, 1
+    b       save_go
+    move    v0, v0
+save_partner:                   ; ... or to the partner name
+    lui     a2, 0x800E
+    addiu   a2, a2, 0x091A
+    move    v1, zero
+save_go:
+    lui     t7, hi(NAME_SAVE_RET)
+    ori     t7, t7, lo(NAME_SAVE_RET)
+def_name:                       ; v0 = default name, a2 = buffer, v1 = 1 for the hero, t7 = return; free: t0-t6, at
     sll     t3, v1, 1
     addu    t3, t3, v1
     addiu   t3, t3, 5           ; chars left: hero 8, partner / demon nickname 5 (the entry screens' limits)
@@ -326,11 +356,11 @@ def_name:                       ; v0 = default name, a2 = buffer, v1 = 1 for the
     addiu   a2, a2, 2
 @@end:
     ori     at, zero, 0xFFFF
-    j       NAME_DEF_RET
+    jr      t7
     sh      at, 0(a2)
 
-.if . > CAVE_END
-    .error "code cave overflow"
+.if . > CAVE3_END
+    .error "code cave 3 overflow"
 .endif
 
 .org CAVE2                      ; second cave (B 0x800D61FC, 512 bytes, zero in RAM during play): data
