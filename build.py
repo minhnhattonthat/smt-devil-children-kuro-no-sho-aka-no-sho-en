@@ -3,6 +3,7 @@
   python -X utf8 build.py            build build/dc_en.bin + .cue from rom/ + translations
   python -X utf8 build.py dump       unpack the original disc to work/orig (once)
   python -X utf8 build.py identity   rebuild the untouched disc and compare SHA-1 with the original
+  python -X utf8 build.py marker     every event message replaced by an [id] marker
 """
 import hashlib
 import re
@@ -70,10 +71,6 @@ def identity():
 
 
 ARMIPS = ROOT / 'tools' / 'armips' / 'armips.exe'
-SPIKE = {  # engine spike: one byte-mode message in place (B_EVENT offset -> English)
-    0x3B6CC: '{voice:0003}Find the Norn Key!{wait}{page}{voice:0004}Get that key and bring it{n}'
-             'to me! The quick brown fox jumps.{wait}{end}',
-}
 
 
 def build_font(files):
@@ -96,18 +93,63 @@ def build_exe(files, name):
         sys.exit('armips failed:\n' + r.stdout + r.stderr)
 
 
-def build_event(files, name):
+def load_script(sub):
+    """id -> English (same_as resolved; '' = untranslated) for script/<sub>/*.json."""
+    import json
+    raw = {}
+    for p in sorted((ROOT / 'script' / sub).glob('*.json')):
+        for e in json.loads(p.read_text(encoding='utf-8')):
+            raw[e['id']] = e
+    out = {}
+    for k, e in raw.items():
+        while 'same_as' in e:
+            e = raw[e['same_as']]
+        out[k] = e.get('en', '')
+    return out
+
+
+def marker_text(mid, jp):
+    """Keep every control code; each glyph run becomes filler ~1.7x its JP length (realistic English size),
+    the first run starting with the id tag."""
+    filler = 'The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. ' * 4
+    parts = re.split(r'(\{[^}]*\}|\[[0-9A-F]{4}\])', jp)
+    first = True
+    out = []
+    for p in parts:
+        if not p or p[0] in '{[':
+            out.append(p)
+            continue
+        n = max(4, int(len(p) * 1.7))
+        if first:
+            tag = '[%s] ' % mid.replace(':', '')
+            out.append((tag + filler)[:max(n, len(tag) + 4)])
+            first = False
+        else:
+            out.append(filler[:n])
+    return ''.join(out)
+
+
+def build_event(files, tag, name, mode):
+    import events
     import text
-    d = bytearray((TREE / name).read_bytes())
-    for off, en in SPIKE.items():
-        n = text.decode(d, off)[1]
-        b = text.encode_en8(en)
-        assert len(b) <= n, (hex(off), len(b), n)
-        d[off:off + n] = b + bytes(n - len(b))
-    (files / name).write_bytes(d)
+    d = (TREE / name).read_bytes()
+    msgs = events.messages(d)
+    tl = load_script('event')
+    new = {}
+    for off, (n, _) in msgs.items():
+        mid = '%s:%05X' % (tag, off)
+        if mode == 'marker':
+            new[off] = text.encode_en8(marker_text(mid, text.decode(d, off)[0]))
+        elif tl.get(mid):
+            new[off] = text.encode_en8(tl[mid])
+        else:
+            new[off] = d[off:off + n]
+    out, st = events.repack(d, msgs, new)
+    (files / name).write_bytes(out)
+    print('%s: %d/%d bytes (%.0f%%)' % (name, st['used'], st['capacity'], 100 * st['used'] / st['capacity']))
 
 
-def build():
+def build(mode='normal'):
     sys.path.insert(0, str(ROOT / 'tools'))
     files = BUILD / 'files'
     if files.exists():
@@ -115,7 +157,7 @@ def build():
     files.mkdir(parents=True)
     build_font(files)
     build_exe(files, 'B_MAIN.EXE')
-    build_event(files, 'B_EVENT.BIN')
+    build_event(files, 'B', 'B_EVENT.BIN', mode)
     overrides = {p.name: p for p in files.iterdir()}
     make_disc(overrides, BUILD / 'dc_en.bin')
     print('built', BUILD / 'dc_en.bin')
@@ -124,4 +166,5 @@ def build():
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'build'
-    sys.exit({'dump': lambda: dump() or 0, 'identity': identity, 'build': build}[cmd]())
+    sys.exit({'dump': lambda: dump() or 0, 'identity': identity, 'build': build,
+              'marker': lambda: build('marker')}[cmd]())

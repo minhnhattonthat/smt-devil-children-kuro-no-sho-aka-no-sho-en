@@ -40,8 +40,8 @@ vwf_adv:
     addu    t0, t0, v0
 
 ; a0 = destination halfwords, a1 = source message. Byte stream after the FFDC marker:
-;   0x0A -> FFFE (newline); 0xFF lo hi -> raw halfword (control codes, args, JP glyphs); other b -> 0x100+b.
-;   Ends after the raw halfword FFFF.
+;   b < 0x20 -> ctrl_tab[b] (0x00 = end FFFF, 0x01 wait, 0x02 page, 0x0A newline ...; must match tools/text.py)
+;   0xFF lo hi -> raw halfword (other control codes, args, JP glyphs); other b -> 0x100+b. Stops after FFFF.
 exp_hook:
     lhu     t0, 0(a1)
     ori     t1, zero, 0xFFDC
@@ -56,14 +56,27 @@ exp_hook:
 @@loop:
     lbu     t0, 0(a1)
     addiu   a1, a1, 1
+    sltiu   t1, t0, 0x20
+    beqz    t1, @@notlow
     ori     t1, zero, 0xFF
-    bne     t0, t1, @@notesc
+    sll     t0, t0, 1
+    lui     t1, hi(ctrl_tab)
+    addu    t1, t1, t0
+    lhu     t0, lo(ctrl_tab)(t1)
+    b       @@store
+    nop
+@@notlow:
+    bne     t0, t1, @@glyph
     nop
     lbu     t0, 0(a1)
     lbu     t1, 1(a1)
     addiu   a1, a1, 2
     sll     t1, t1, 8
+    b       @@store
     or      t0, t0, t1
+@@glyph:
+    addiu   t0, t0, 0x100
+@@store:
     sh      t0, 0(t3)
     ori     t1, zero, 0xFFFF
     bne     t0, t1, @@loop
@@ -74,18 +87,12 @@ exp_hook:
     lw      ra, 0x218(sp)
     jr      ra
     addiu   sp, sp, 0x220
-@@notesc:
-    ori     t1, zero, 0x0A
-    bne     t0, t1, @@glyph
-    ori     t1, zero, 0xFFFE
-    sh      t1, 0(t3)
-    b       @@loop
-    addiu   t3, t3, 2
-@@glyph:
-    addiu   t0, t0, 0x100
-    sh      t0, 0(t3)
-    b       @@loop
-    addiu   t3, t3, 2
+
+ctrl_tab:   ; single-byte control codes 0x00-0x1F (unused -> space glyph)
+    .halfword 0xFFFF, 0xFFF3, 0xFFFA, 0xFFF0, 0xFFEE, 0xFFEA, 0xFFFB, 0xFFFD
+    .halfword 0x0120, 0x0120, 0xFFFE, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120
+    .halfword 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120
+    .halfword 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120, 0x0120
 
 exp_orig:
     addiu   sp, sp, -0x48

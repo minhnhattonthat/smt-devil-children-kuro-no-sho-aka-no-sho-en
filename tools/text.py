@@ -107,13 +107,17 @@ def encode_en16(text):
     return bytes(out)
 
 
+BYTE_CTRL = {'end': 0x00, 'wait': 0x01, 'page': 0x02, 'f0': 0x03, 'ee': 0x04, 'ea': 0x05, 'fb': 0x06,
+             'end2': 0x07, 'n': 0x0A}  # = ctrl_tab in asm/main.asm
+
+
 def encode_en8(text):
-    """English for byte-mode messages: FFDC mark, ASCII bytes, newline 0x0A, everything else FF + LE halfword."""
+    """English for byte-mode messages: FFDC mark, ASCII bytes, BYTE_CTRL single bytes, else FF + LE halfword."""
     import re
     out = bytearray(struct.pack('<H', BYTE_MARK))
     for m in re.finditer(r'\{(\w+)((?::[0-9A-F]{4})*)\}|\[([0-9A-F]{4})\]|(.)', text, re.S):
-        if m[1] == 'n':
-            out.append(0x0A)
+        if m[1] in BYTE_CTRL and not m[2]:
+            out.append(BYTE_CTRL[m[1]])
         elif m[1] or m[3]:
             raw = encode(m[0])
             for i in range(0, len(raw), 2):
@@ -122,7 +126,7 @@ def encode_en8(text):
             c = ord(m[4])
             assert 0x20 <= c < 0x7F, 'not ASCII: %r' % m[4]
             out.append(c)
-    assert out.endswith(b'\xFF\xFF\xFF'), 'byte message must end with {end}'
+    assert out.endswith(b'\x00'), 'byte message must end with {end}'
     return bytes(out)
 
 
