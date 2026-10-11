@@ -52,6 +52,16 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
 - 8x8 font (draw 0x80033920, windows from 0x8003486C, 14 callers): same code layout as the JP table (A=0x23...),
   tpage at VRAM (768,256). Packed English there still needs an ASCII->code map in that loop (TODO).
 
+## Names, passwords, save (B_MAIN; R = -0xC, N = +0x12AC)
+- Name entry 0x800218D4(a0 mode: 0 hero, 1 partner, 2 demon nickname; a1 book / party slot): stores the grid's JP
+  codes. Limits: hero 8, others 5 (sp+0x60). Default fill 0x800212A4: modes 0/1 copy speaker label a1+3 / a1+5
+  (Setsuna, Mirai / Cool, Veil), mode 3 empties, else the demon record name. Hook `def_name` converts it to JP codes.
+- Save stores names one byte per unit (ff end), so names must stay JP codes < 0x100 (packed English was truncated:
+  "Setsuna" -> e5 0a 61). Party slots 0x800E0918, stride 38: demon id, nickname 5 units + FFFF.
+- 0x80020A88 (via 0x8002119C) is the password screen, not name entry: input compared with kana words at 0x800A9F04
+  (ホーリーチルドレン...), 36 bytes each. NAME_SEL / name_map hook it, so typed Latin is stored as 0x100+ASCII.
+- Field-menu money sign = 16x16 glyph 0x12 (♄-like Macca sign; jp.tbl reads it as 々), redrawn by build.macca_mark.
+
 ## Text call graph (B_MAIN)
 - 0x8003479C (215 callers in B_MAIN, 31 in B_BATTLE, 14 in B_EVENT): allocate a 16x16 text window (adv 12) and
   copy the string with the expander. 0x8003486C: same for the 8x8 font. 0x8003493C: dialogue window.

@@ -45,6 +45,16 @@ D8_ADV      equ D8_ADV_SITE + 8
 .org NUM_SITE
     addiu   v0, v0, 0x100
 
+; --- Default names (B 0x800212A4: hero/partner from the speaker labels, demon from its record): the save
+; stores one byte per name unit, so packed English must become JP codes (full-width Latin, like typed names).
+NAME_DEF_RET equ NAME_DEF + 0xD4   ; the function's epilogue
+.org NAME_DEF                   ; label copy: v0 = label, a2 = buffer, a0 = mode (0 = hero)
+    j       def_name
+    sltiu   v1, a0, 1
+.org NAME_DEF + 0x88            ; demon record name copy
+    j       def_name
+    move    v1, zero
+
 .org CAVE
 ; Unpacking (both draw loops). Queue: pk_pend = next char's glyph, pk_pend2 = the one after (0 = empty).
 ;   pair   0x4000-0x7FFF: c1 = bits 7-13, c2 = bits 0-6 (c2 0 = none)
@@ -234,6 +244,85 @@ vwf_adv:
 @@done:
     j       DRAW_NEXT
     addu    t0, t0, v0
+
+def_name:                       ; v0 = default name, a2 = buffer, v1 = 1 for the hero; free: t0-t6, at, ra
+    sll     t3, v1, 1
+    addu    t3, t3, v1
+    addiu   t3, t3, 5           ; chars left: hero 8, partner / demon nickname 5 (the entry screens' limits)
+@@unit:
+    lhu     t0, 0(v0)
+    ori     at, zero, 0xFFFF
+    beq     t0, at, @@end
+    addiu   v0, v0, 2
+    move    t5, zero            ; t4, t5, t6 = up to three ASCII chars (0 = none)
+    move    t6, zero
+    srl     t1, t0, 14
+    ori     at, zero, 1
+    bne     t1, at, @@nopair
+    nop
+    srl     t4, t0, 7
+    andi    t4, t4, 0x7F
+    b       @@emit
+    andi    t5, t0, 0x7F
+@@nopair:
+    srl     t1, t0, 15
+    beqz    t1, @@low
+    ori     at, zero, 0xCCE3
+    sltu    at, t0, at
+    beqz    at, @@raw
+    nop
+    addiu   t1, t0, -0x8000
+    ori     at, zero, 729
+    divu    t1, at
+    mflo    t4
+    mfhi    t1
+    nop
+    nop
+    ori     at, zero, 27
+    divu    t1, at
+    mflo    t5
+    mfhi    t6
+    sltiu   at, t4, 1           ; triple char c -> 0x60 + c, or space for 0
+    sll     at, at, 6
+    addiu   t4, t4, 0x60
+    subu    t4, t4, at
+    sltiu   at, t5, 1
+    sll     at, at, 6
+    addiu   t5, t5, 0x60
+    subu    t5, t5, at
+    sltiu   at, t6, 1
+    sll     at, at, 6
+    addiu   t6, t6, 0x60
+    b       @@emit
+    subu    t6, t6, at
+@@low:                          ; English glyph 0x100+ASCII, else already a JP code
+    addiu   t4, t0, -0x100
+    sltiu   at, t4, 0x80
+    bnez    at, @@emit
+    move    t5, zero
+@@raw:
+    sh      t0, 0(a2)
+    addiu   t3, t3, -1
+    bnez    t3, @@unit
+    addiu   a2, a2, 2
+    b       @@end
+    nop
+@@emit:
+    beqz    t4, @@unit
+    lui     at, hi(map8)
+    addu    at, at, t4
+    lbu     t1, lo(map8)(at)
+    move    t4, t5
+    move    t5, t6
+    move    t6, zero
+    sh      t1, 0(a2)
+    addiu   t3, t3, -1
+    bnez    t3, @@emit
+    addiu   a2, a2, 2
+@@end:
+    ori     at, zero, 0xFFFF
+    j       NAME_DEF_RET
+    sh      at, 0(a2)
 
 .if . > CAVE_END
     .error "code cave overflow"

@@ -74,6 +74,23 @@ def identity():
 ARMIPS = ROOT / 'tools' / 'armips' / 'armips.exe'
 
 
+MACCA = ('.#.....#', '.##...##', '.#.#.#.#', '.#..#..#', '#########', '.#.....#', '.#.....#')
+
+
+def macca_mark():
+    """Glyph 0x12 (the JP font's kana-like Macca sign, money displays): an M with a bar; body 1, shadow 3."""
+    px = [[0] * 16 for _ in range(16)]
+    for y, row in enumerate(MACCA):
+        for x, c in enumerate(row):
+            if c == '#':
+                px[6 + y][1 + x] = 1
+    for y in range(14, -1, -1):
+        for x in range(14, -1, -1):
+            if px[y][x] == 1 and px[y + 1][x + 1] == 0:
+                px[y + 1][x + 1] = 3
+    return px
+
+
 def build_font(files):
     import font
     pac = bytearray((TREE / 'DEVIL.PAC').read_bytes())
@@ -89,6 +106,7 @@ def build_font(files):
             blank = font.glyph(pac, below)
             blank[0] = [0] * 16
             font.put_glyph(pac, below, blank)
+    font.put_glyph(pac, 0x12, macca_mark())
     import gfx
     gfx.apply(pac)  # book menu / title screen labels
     (files / 'DEVIL.PAC').write_bytes(pac)
@@ -155,11 +173,11 @@ def map8():
 
 EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
     'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFCA4,
-                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0},
+                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4},
     'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800D0064,
-                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94},
+                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8},
     'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCFF0,
-                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C},
+                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0},
 }
 
 
