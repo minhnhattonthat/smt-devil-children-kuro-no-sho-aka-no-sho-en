@@ -68,6 +68,8 @@ def decode(data, pos, dec=JP, stop_end=True):
                 break
         elif v in dec:
             out.append(dec[v])
+        elif 0x4000 <= v < 0x8000 and dec is JP:
+            out.append(decode_packed(v))
         else:
             out.append('[%04X]' % v)
     return ''.join(out), p - pos
@@ -89,45 +91,29 @@ def encode(text, enc=JP_ENC):
     return bytes(out)
 
 
-BYTE_MARK = 0xFFDC  # message prefix: 8-bit English follows (widened by the expander hook, asm/main.asm)
-EN_BASE = 0x100     # 16-bit English glyph = 0x100 + ASCII
+EN_BASE = 0x100   # glyph for ASCII c = 0x100 + c
+PACK = 0x4000     # packed English unit: PACK | c1 << 7 | c2 (c2 = 0: single char); unpacked by asm/main.asm
 
 
-def encode_en16(text):
-    """English for 16-bit contexts (EXE strings, name tables): ASCII -> 0x100+c, {codes} and [XXXX] raw."""
+def encode_en(text):
+    """English -> packed halfwords. Runs of ASCII between {codes}/[XXXX] are packed two chars per unit."""
     import re
     out = bytearray()
-    for m in re.finditer(r'\{(\w+)((?::[0-9A-F]{4})*)\}|\[([0-9A-F]{4})\]|(.)', text, re.S):
-        if m[1] or m[3]:
-            out += encode(m[0])
-        else:
-            c = ord(m[4])
-            assert 0x20 <= c < 0x7F, 'not ASCII: %r' % m[4]
-            out += struct.pack('<H', EN_BASE + c)
+    for m in re.finditer(r'(\{\w+(?::[0-9A-F]{4})*\}|\[[0-9A-F]{4}\])|([^{\[]+|[{\[])', text, re.S):
+        if m[1]:
+            out += encode(m[1])
+            continue
+        run = m[2]
+        bad = [c for c in run if not 0x20 <= ord(c) < 0x7F]
+        assert not bad, 'not ASCII: %r' % ''.join(bad)
+        for i in range(0, len(run), 2):
+            c2 = ord(run[i + 1]) if i + 1 < len(run) else 0
+            out += struct.pack('<H', PACK | ord(run[i]) << 7 | c2)
     return bytes(out)
 
 
-BYTE_CTRL = {'end': 0x00, 'wait': 0x01, 'page': 0x02, 'f0': 0x03, 'ee': 0x04, 'ea': 0x05, 'fb': 0x06,
-             'end2': 0x07, 'n': 0x0A}  # = ctrl_tab in asm/main.asm
-
-
-def encode_en8(text):
-    """English for byte-mode messages: FFDC mark, ASCII bytes, BYTE_CTRL single bytes, else FF + LE halfword."""
-    import re
-    out = bytearray(struct.pack('<H', BYTE_MARK))
-    for m in re.finditer(r'\{(\w+)((?::[0-9A-F]{4})*)\}|\[([0-9A-F]{4})\]|(.)', text, re.S):
-        if m[1] in BYTE_CTRL and not m[2]:
-            out.append(BYTE_CTRL[m[1]])
-        elif m[1] or m[3]:
-            raw = encode(m[0])
-            for i in range(0, len(raw), 2):
-                out += b'\xFF' + raw[i:i + 2]
-        else:
-            c = ord(m[4])
-            assert 0x20 <= c < 0x7F, 'not ASCII: %r' % m[4]
-            out.append(c)
-    assert out.endswith(b'\x00'), 'byte message must end with {end}'
-    return bytes(out)
+def decode_packed(v):
+    return chr((v >> 7) & 0x7F) + (chr(v & 0x7F) if v & 0x7F else '')
 
 
 def is_text_unit(v):

@@ -147,9 +147,9 @@ def build_event(files, tag, name, mode):
     for off, (n, _) in msgs.items():
         mid = '%s:%05X' % (tag, off)
         if mode == 'marker':
-            new[off] = text.encode_en8(marker_text(mid, text.decode(d, off)[0]))
+            new[off] = text.encode_en(marker_text(mid, text.decode(d, off)[0]))
         elif tl.get(mid):
-            new[off] = text.encode_en8(lint.prepare(text.decode(d, off)[0], tl[mid]))
+            new[off] = text.encode_en(lint.prepare(text.decode(d, off)[0], tl[mid]))
         else:
             new[off] = d[off:off + n]
     out, st = events.repack(d, msgs, new)

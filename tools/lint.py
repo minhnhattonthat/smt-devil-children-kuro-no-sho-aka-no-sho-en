@@ -97,25 +97,18 @@ def codes(s):
     return [t for t in TOKEN.findall(s) if t != '{n}']
 
 
-SPLIT_AT = 100  # = asm/main.asm: byte messages continue in a fresh buffer at the first {page} after this many units
-
-
 def units(wrapped):
-    """Largest buffer fill (halfwords) the window sees, modelling the continuation split."""
-    n = worst = 0
+    """Halfwords the window buffer holds: packed text = 2 chars per unit, codes 1 + args, names inserted."""
+    n = 0
     for t in TOKEN.split(wrapped):
         if not t:
-            continue
-        if t == '{page}' and n >= SPLIT_AT:
-            worst = max(worst, n + 2)
-            n = 0
             continue
         if t[0] in '{[':
             name = t[1:].split(':')[0].rstrip('}')
             n += 1 + t.count(':') + NAME_UNITS.get(name, 0)
         else:
-            n += len(t)
-    return max(worst, n)
+            n += (len(t) + 1) // 2
+    return n
 
 
 @lru_cache(None)
