@@ -2,401 +2,401 @@
  {
   "id": "B:2E390",
   "jp": "{ee}コロシアムに現れた{n}デビルチルドレンは{wait}{f0}東に向かったそうだ{wait}{end}",
-  "en": ""
+  "en": "{ee}They say the Devil Child who showed up at the Colosseum{wait}{f0}headed east.{wait}{end}"
  },
  {
   "id": "B:2E3D4",
   "jp": "{ee}{face:0008}{voice:0011}兄さん、最近よく{n}うなされてるけど、だいじょうぶ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0008}{voice:0011}Big brother, you've been having nightmares a lot lately. Are you okay?{wait}{end}"
  },
  {
   "id": "B:2E414",
   "jp": "{ee}ちょっと・待った！{wait}{end}",
-  "en": ""
+  "en": "{ee}Hold. On!{wait}{end}"
  },
  {
   "id": "B:2E42C",
   "jp": "ここ・魔王・イシス様のピラミッド！{wait}{page}イシス様・会いたければ{n}スタンプ・集めろ！{wait}{end}",
-  "en": ""
+  "en": "Here. Demon Lord. Isis-sama's pyramid!{wait}{page}Want to meet Isis-sama? Collect. Stamps!{wait}{end}"
  },
  {
   "id": "B:2E480",
   "jp": "チェックポイント・３つ{n}スタンプ・集めろ！{wait}{end}",
-  "en": ""
+  "en": "Checkpoints. Three. Collect. Stamps!{wait}{end}"
  },
  {
   "id": "B:2E4B0",
   "jp": "{ee}いらっしゃいマセ！{n}ワタシ薬を売り歩く{wait}{f0}行商人アルヨ！{f0}お客サン！いい物あるヨ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Welcome, welcome! I am traveling peddler{wait}{f0}who sell medicine, yes!{f0}Honored customer! I have good stuff, yes!{wait}{end}"
  },
  {
   "id": "B:2E508",
   "jp": "他に何かホシイ物あったら{n}ココに電話するよろし！{wait}{f0}またドーゾネ！{wait}{end}",
-  "en": ""
+  "en": "If you want anything else, you call this number, okay!{wait}{f0}Come again, yes!{wait}{end}"
  },
  {
   "id": "B:2E550",
   "jp": "{face:0001}{voice:0126}お前は、ガルム！{n}なんでこんな所に！？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0126}You're... Garm! What are you doing here!?{wait}{end}"
  },
  {
   "id": "B:2E584",
   "jp": "{face:002B}{voice:0127}フェンリルのアニキが{n}戻って来るのを、待っているのさ{wait}{page}{voice:0128}何でも、大魔王様から{n}じきじきにお呼びがあったそうだ{wait}{page}{voice:0129}今は、お前たちを{n}相手にしているヒマはないんだ{wait}{page}{voice:012A}仕事の邪魔だ{n}むこうへいってな{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:0127}I'm waiting for my big bro Fenrir to come back.{wait}{page}{voice:0128}Word is, the Great Demon King sent for him personally.{wait}{page}{voice:0129}I ain't got time to deal with you guys right now.{wait}{page}{voice:012A}You're in the way of my job. Get lost.{wait}{end}"
  },
  {
   "id": "B:2E65C",
   "jp": "{ee}わたし、メッチーと{n}遊ぶのが夢なのよ♥{wait}{page}だれかゆずってくれないかしら{wait}{end}",
-  "en": ""
+  "en": "{ee}My dream is to play with a Mecchi!{wait}{page}I wonder if somebody would give me one...{wait}{end}"
  },
  {
   "id": "B:2E6A8",
   "jp": "{ee}グリグリをかわいがってね{wait}{end}",
-  "en": ""
+  "en": "{ee}Take good care of Guriguri!{wait}{end}"
  },
  {
   "id": "B:2E6C8",
   "jp": "ヒーホー、それってメッチー！{wait}{n}よければゆずってくれない？{f0}もちろんお礼はするわよ♥{wait}{end}",
-  "en": ""
+  "en": "Hee-ho, is that a Mecchi!?{wait}{n}Would you be willing to give it to me?{f0}I'll thank you for it, of course!{wait}{end}"
  },
  {
   "id": "B:2E720",
   "jp": "　あげてもいい{n}　やっぱり嫌だ{end}",
-  "en": ""
+  "en": "Sure, you can have it{n}Actually, no way{end}"
  },
  {
   "id": "B:2E740",
   "jp": "ヒーホー、うれしいホー！{n}お礼にこれをあげますホー{wait}{end}",
-  "en": ""
+  "en": "Hee-ho, I'm so happy-ho! Here's something to thank you-ho!{wait}{end}"
  },
  {
   "id": "B:2E778",
   "jp": "メッチーと別れた{wait}{end}",
-  "en": ""
+  "en": "You parted with Mecchi.{wait}{end}"
  },
  {
   "id": "B:2E78C",
   "jp": "グリグリが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Guriguri became your ally!{wait}{end}"
  },
  {
   "id": "B:2E7A8",
   "jp": "ダメですか・・・{wait}{end}",
-  "en": ""
+  "en": "No good, huh...{wait}{end}"
  },
  {
   "id": "B:2E7BC",
   "jp": "りんじニュースです{wait}{page}伝説でしかソンザイしなかった{n}デビルたちが地上に現れ{wait}{f0}われわれ人間をおそっています{wait}{page}とじまりをげんじゅうにして{n}家の中にひなんしていて下さい{wait}{page}外を出歩く事は{n}ひじょうに危険です・・・・{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report.{wait}{page}Devils, which existed only in legend, have appeared on the surface{wait}{f0}and are attacking us humans.{wait}{page}Please lock your doors tight and take shelter inside your homes.{wait}{page}Going outside is extremely dangerous...{wait}{end}"
  },
  {
   "id": "B:2E894",
   "jp": "{ee}北の森のハーピーは{n}旅に出たそうね{wait}{end}",
-  "en": ""
+  "en": "{ee}I hear the Harpy from the northern forest went off on a journey.{wait}{end}"
  },
  {
   "id": "B:2E8BC",
   "jp": "{ee}オバケさわぎが終わっちゃって{n}ちょっと、たいくつだよね{wait}{end}",
-  "en": ""
+  "en": "{ee}Now that the ghost uproar is over, it's kinda boring, huh?{wait}{end}"
  },
  {
   "id": "B:2E8F8",
   "jp": "{face:0000}{voice:012E}！？ケガが治っていく！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:012E}!? My wounds are healing!{wait}{end}"
  },
  {
   "id": "B:2E91C",
   "jp": "{ee}そろそろ部族の王たちが{n}集まり始めたようですな{wait}{page}ブトウ会も、もうすぐ{n}始まるでしょうな{wait}{end}",
-  "en": ""
+  "en": "{ee}It seems the tribal kings have begun to gather.{wait}{page}The Battle Ball should be starting soon, I'd say.{wait}{end}"
  },
  {
   "id": "B:2E97C",
   "jp": "{face:002B}何だ？この小娘は？{n}邪魔だ！{wait}{end}",
-  "en": ""
+  "en": "{face:002B}What? Who's this little girl? Outta my way!{wait}{end}"
  },
  {
   "id": "B:2E9A0",
   "jp": "{face:0000}{voice:05EA}危ない！！{n}！！！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05EA}Look out!! !!!!{wait}{end}"
  },
  {
   "id": "B:2E9C0",
   "jp": "ミライをかばった{name}は{n}無数の切りきずを負った{wait}{end}",
-  "en": ""
+  "en": "{name} shielded Mirai and was cut all over.{wait}{end}"
  },
  {
   "id": "B:2E9F0",
   "jp": "{ee}{face:0012}よおっ、ダイアナを{n}仲魔にしたんだってな！{wait}{page}よろしくたのむぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0012}Yo, I hear you made Diana your ally!{wait}{page}Look after her for me!{wait}{end}"
  },
  {
   "id": "B:2EA3C",
   "jp": "{face:0000}{voice:012D}なんだか体が熱い！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:012D}Whoa, my body's burning up!!{wait}{end}"
  },
  {
   "id": "B:2EA5C",
   "jp": "{face:002C}なるほど、うわさ通りだな{wait}{page}その力こそ{wait}{n}大魔王が怖れているものだ！{wait}{page}オレを倒してみろ！！{n}{name}{wait}{end}",
-  "en": ""
+  "en": "{face:002C}I see, you're just like the rumors say.{wait}{page}That power{wait}{n}is exactly what the Great Demon King fears!{wait}{page}Now try and beat me, {name}!!{wait}{end}"
  },
  {
   "id": "B:2EAC4",
   "jp": "{face:002C}さ、さすがだ・・！{n}その力・・・世界を・・・{wait}{end}",
-  "en": ""
+  "en": "{face:002C}Y-you're good...! That power... the world...{wait}{end}"
  },
  {
   "id": "B:2EAF8",
   "jp": "{face:0004}・・・ねぇだいじょうぶ？{n}ケガしてるんじゃない？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}...Hey, are you okay? Aren't you hurt?{wait}{end}"
  },
  {
   "id": "B:2EB30",
   "jp": "{face:0000}だいじょうぶだ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}I'm fine.{wait}{end}"
  },
  {
   "id": "B:2EB48",
   "jp": "{ee}{face:0012}{name}！無事だったか{n}心配してたんだぜ{wait}{page}そうだ！それより大変なんだ{n}ねこんでたダイアナがいないんだ！{wait}{f0}あいつ、あのケガでいったいどこに・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0012}{name}! You're safe! I was worried about you.{wait}{page}Oh, right! Big trouble! Diana was laid up in bed, and now she's gone!{wait}{f0}Where could she have gone, hurt like that...{wait}{end}"
  },
  {
   "id": "B:2EBDC",
   "jp": "{ee}{face:0011}{name}！また会えたね！{wait}{n}どうやら上手く逃げられたようね{f0}私もちょっとケガしちゃったけど{wait}{f0}この冷たいどうくつで休んでたら{f0}元気が出て来たわ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0011}{name}! We meet again!{wait}{n}Looks like you totally got away.{f0}I got kinda hurt too, but{wait}{f0}resting in this chilly cave{f0}perked me right up!{wait}{end}"
  },
  {
   "id": "B:2EC70",
   "jp": "{face:0011}せっかく会えたんだから{n}今度はあなたについて行くわ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Now that we've finally met up, this time I'm coming with you!{wait}{end}"
  },
  {
   "id": "B:2ECAC",
   "jp": "{face:0011}何だ、仲魔がいっぱいなのね！{wait}{page}ライザーかヴィネセンターに{n}場所を作ってから{wait}{f0}戻って来てよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Oh, you've already got a full bunch of allies!{wait}{page}Make some room in your Deviliser or the Vine Center{wait}{f0}and then come back!{wait}{end}"
  },
  {
   "id": "B:2ED10",
   "jp": "ダイアナが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Diana became your ally.{wait}{end}"
  },
  {
   "id": "B:2ED2C",
   "jp": "{ee}ラセツの村のわかものが{n}戦争を恐がって{wait}{f0}逃げ出したそうだ{wait}{page}おくびょうなやつもいるもんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}They say a young guy from the Rakshasa village got scared of the war{wait}{f0}and ran away.{wait}{page}Some folks sure are chicken.{wait}{end}"
  },
  {
   "id": "B:2ED8C",
   "jp": "{ee}これでマーブルランドにも{n}平和がやって来るな{wait}{page}戦争を嫌がって逃げ出した{n}ラセツのわかものも戻って来るよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Now peace will finally come to Marble Land, too.{wait}{page}That young Rakshasa who ran off to avoid the war will come back, too.{wait}{end}"
  },
  {
   "id": "B:2EDFC",
   "jp": "{ee}何っ！ラセツのわかものが{n}帰って来たのか{wait}{page}平和になってみると{n}戦いを嫌って逃げ出した{wait}{f0}気持ちも分かる気がするよ{wait}{end}",
-  "en": ""
+  "en": "{ee}What!? The young Rakshasa came back?{wait}{page}Now that there's peace, running off because he hated fighting...{wait}{f0}I think I kind of get how he felt.{wait}{end}"
  },
  {
   "id": "B:2EE74",
   "jp": "{face:0004}ともかく私、先に行くわね{wait}{page}{name}{n}あなた、きずを治してから{wait}{f0}来た方がいいわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0004}Anyway, I'm going on ahead.{wait}{page}{name}, you should heal your wounds first{wait}{f0}before you come after me.{wait}{end}"
  },
  {
   "id": "B:2EEC8",
   "jp": "{face:0004}それじゃあ先に行くわね{wait}{end}",
-  "en": ""
+  "en": "{face:0004}Well then, I'm going on ahead.{wait}{end}"
  },
  {
   "id": "B:2EEE8",
   "jp": "オレたちもそろそろ行こうぜ！{wait}{end}",
-  "en": ""
+  "en": "We'd better get going too!{wait}{end}"
  },
  {
   "id": "B:2EF08",
   "jp": "{face:0001}アッ、思い出したゼ！{wait}{page}{name}、ここなんだ！{n}オレが封印されたのは！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Ah, now I remember!{wait}{page}{name}, this is it! This is where I got sealed!{wait}{end}"
  },
  {
   "id": "B:2EF50",
   "jp": "{face:0001}ここで弟のオルトロスと{n}遊んでいた時に{wait}{f0}あのフェンリルがやって来て{wait}{page}オレたちに上手い事言って{n}封印してしまったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}I was playing here with my little brother Orthrus{wait}{f0}when that Fenrir showed up.{wait}{page}He sweet-talked us, and then he sealed us away!{wait}{end}"
  },
  {
   "id": "B:2EFD0",
   "jp": "{face:0001}やっぱりオルトロスだ！{wait}{page}だいじょうぶか？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}It's Orthrus, all right!{wait}{page}You okay?{wait}{end}"
  },
  {
   "id": "B:2F004",
   "jp": "{face:004D}あーっ、兄さんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:004D}Ah! It's big brother!{wait}{end}"
  },
  {
   "id": "B:2F020",
   "jp": "{face:004D}兄さんたちが助けてくれたんだ{n}ありがとう！{wait}{page}ぼくもあなたたちと{n}いっしょに行くよヨロシク！{wait}{end}",
-  "en": ""
+  "en": "{face:004D}You and your friend saved me, big brother! Thank you!{wait}{page}I'm coming with you guys too. Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:2F084",
   "jp": "{ee}{face:004D}ぼくも兄さんたちと{n}いっしょに行くよヨロシク！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004D}I'm coming with you guys too, big brother. Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:2F0BC",
   "jp": "くわしい話は後だ！{wait}{end}",
-  "en": ""
+  "en": "We'll get to the details later!{wait}{end}"
  },
  {
   "id": "B:2F0D4",
   "jp": "・・・・・・プハーッ{n}封印が解けたー！{wait}{end}",
-  "en": ""
+  "en": "......Pwah! The seal's broken!{wait}{end}"
  },
  {
   "id": "B:2F100",
   "jp": "石の中から誰かの声がする{wait}{page}・・・・タ　ス　ケ　テ・・・・{wait}{end}",
-  "en": ""
+  "en": "A voice is coming from inside the stone.{wait}{page}....H-E-L-P M-E....{wait}{end}"
  },
  {
   "id": "B:2F140",
   "jp": "{ee}ブトウ会に参加したいんなら{n}まずは部族の王たちに{wait}{f0}あいさつをした方がいいと思うな{wait}{end}",
-  "en": ""
+  "en": "{ee}If you want to join the Battle Ball, I think you'd better go say hello{wait}{f0}to the tribal kings first.{wait}{end}"
  },
  {
   "id": "B:2F198",
   "jp": "{ee}ブトウ会が始まったな{wait}{page}さーて、魔王になるのは{n}誰なのかな？{wait}{end}",
-  "en": ""
+  "en": "{ee}The Battle Ball has begun!{wait}{page}Now then, who's going to become the Demon Lord?{wait}{end}"
  },
  {
   "id": "B:2F1DC",
   "jp": "{voice:0012}ああ・・・・・・{n}変な夢を、よくみるんだ{wait}{page}{voice:0013}誰かが、オレに話しかけてきて{n}何か言ってるんだけど・・・{wait}{f0}{voice:0014}よくわかんないんだ{wait}{end}",
-  "en": ""
+  "en": "{voice:0012}Yeah...... I keep having weird dreams.{wait}{page}{voice:0013}Someone talks to me and says something...{wait}{f0}{voice:0014}but I can't really make it out.{wait}{end}"
  },
  {
   "id": "B:2F268",
   "jp": "{face:0008}{voice:0015}母さんは、死んじゃったし{wait}{page}{voice:0016}父さんは、ぼくらがまだ{n}小さい時に行方不明になって{wait}{f0}{voice:0017}どこにいるんだか、わからないし{wait}{page}{voice:0018}ぼくら２人で、このおばさん家に{n}引き取られたんだよね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0015}Mom died...{wait}{page}{voice:0016}and Dad went missing when we were still little,{wait}{f0}{voice:0017}and nobody knows where he is...{wait}{page}{voice:0018}So the two of us were taken in here at Auntie's house, right?{wait}{end}"
  },
  {
   "id": "B:2F328",
   "jp": "{face:00FF}{voice:0019}そうだ、オレタチはこの世界で{n}２人きりの兄弟なんだ・・・{wait}{page}{voice:001A}だけど心配するな{wait}{page}{voice:001B}何があっても{n}オレが、お前を守ってやるから{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:0019}That's right. We're brothers, and we're all each other has in this world...{wait}{page}{voice:001A}But don't worry.{wait}{page}{voice:001B}No matter what happens, I'll protect you.{wait}{end}"
  },
  {
   "id": "B:2F3B8",
   "jp": "{face:0008}{voice:001C}心配なんかしてないよ{n}だって、兄さんがいるもんね{wait}{page}{voice:001D}ぼくだって、早く大きくなって{n}兄さんを助けるからさ{wait}{page}{voice:001E}２人で、行方不明の{n}父さんを探しに行こうよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:001C}I'm not worried. After all, I've got you, big brother.{wait}{page}{voice:001D}I'll grow up fast too, and then I'll help you out.{wait}{page}{voice:001E}Let's go look for our missing dad together, the two of us.{wait}{end}"
  },
  {
   "id": "B:2F460",
   "jp": "{face:0008}{voice:001F}そうそう、おなかがすいてるんなら{n}れいぞうこを見てみれば{wait}{page}{voice:0020}とだなの中にも{n}何か入ってるかもしれないよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:001F}Oh, right--if you're hungry, take a look in the fridge.{wait}{page}{voice:0020}There might be something in the cupboard, too.{wait}{end}"
  },
  {
   "id": "B:2F4D8",
   "jp": "{face:0008}ちょっと、話をしたいんだけど{n}こっちに来てくれないかなあ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}Um, there's something I want to talk about. Could you come over here?{wait}{end}"
  },
  {
   "id": "B:2F518",
   "jp": "７月　１１日　火曜日{n}午前　９時{wait}{end}",
-  "en": ""
+  "en": "Tuesday, July 11{n}9:00 AM{wait}{end}"
  },
  {
   "id": "B:2F53C",
   "jp": "７月　１１日　火曜日{n}午前　９時{wait}{page}時計が止まっている{n}壊れてしまったようだ{wait}{end}",
-  "en": ""
+  "en": "Tuesday, July 11{n}9:00 AM{wait}{page}The clock has stopped. It seems to be broken.{wait}{end}"
  },
  {
   "id": "B:2F58C",
   "jp": "屋上へ{wait}{end}",
-  "en": ""
+  "en": "To the roof{wait}{end}"
  },
  {
   "id": "B:2F598",
-  "jp": "{ee}傷勝オメデトウ{wait}{n}これからサンドランドに行くのか{wait}{page}そう言えばデーバ族の村に{n}行くとちゅうにいるデーバオーに{wait}{f0}会った事はないか？{wait}{page}あいつはマーブルランドを出て{n}その力を試したがっていたぞ{wait}{page}声をかけてやってはどうだ？{wait}{end}",
-  "en": ""
+  "jp": "{ee}優勝オメデトウ{wait}{n}これからサンドランドに行くのか{wait}{page}そう言えばデーバ族の村に{n}行くとちゅうにいるデーバオーに{wait}{f0}会った事はないか？{wait}{page}あいつはマーブルランドを出て{n}その力を試したがっていたぞ{wait}{page}声をかけてやってはどうだ？{wait}{end}",
+  "en": "{ee}Congratulations on your victory.{wait}{n}So you're off to Sand Land next?{wait}{page}Speaking of which, on the way to the Deva village there's Devaoh.{wait}{f0}Have you ever met him?{wait}{page}He was itching to leave Marble Land and test his strength.{wait}{page}Why not go have a word with him?{wait}{end}"
  },
  {
   "id": "B:2F67C",
   "jp": "{ee}フー、オハカのそうじも{n}大変ですよ{wait}{page}でも、このサンドランドでは{n}オハカを大事にしてるんですよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Phew, cleaning the graves sure is hard work.{wait}{page}But here in Sand Land, we take good care of our graves.{wait}{end}"
  },
  {
   "id": "B:2F6E0",
   "jp": "{ee}{face:0008}兄さん、どうかした？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0008}Big brother, is something wrong?{wait}{end}"
  },
  {
   "id": "B:2F700",
   "jp": "{face:003B}とりあえず、モアイをオリに戻すネ{n}いったん外に出てくれる？{wait}{end}",
-  "en": ""
+  "en": "{face:003B}For now, I'll put the Moai back in its cage. Could you step outside for a bit?{wait}{end}"
  },
  {
   "id": "B:2F744",
   "jp": "{ee}ここ・チェックポイント！{wait}{end}",
-  "en": ""
+  "en": "{ee}Here. Checkpoint!{wait}{end}"
  },
  {
   "id": "B:2F764",
   "jp": "スタンプ・どうぞ！{wait}{page}星のスタンプを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Stamp. Here you go!{wait}{page}Got the Star Stamp!{wait}{end}"
  },
  {
   "id": "B:2F798",
   "jp": "スタンプ・集める！ガンバレ！{wait}{end}",
-  "en": ""
+  "en": "Collect. Stamps! Do your best!{wait}{end}"
  },
  {
   "id": "B:2F7B8",
   "jp": "スタンプ・どうぞ！{wait}{page}太陽のスタンプを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Stamp. Here you go!{wait}{page}Got the Sun Stamp!{wait}{end}"
  },
  {
   "id": "B:2F7F0",
   "jp": "あと・少し・ガンバレ！{wait}{end}",
-  "en": ""
+  "en": "Just. A little. More. Do your best!{wait}{end}"
  },
  {
   "id": "B:2F80C",
   "jp": "スタンプ・どうぞ！{wait}{page}砂のスタンプを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Stamp. Here you go!{wait}{page}Got the Sand Stamp!{wait}{end}"
  },
  {
   "id": "B:2F840",
   "jp": "ヤッタネ！{n}これで・イシス様・会えるよ！{wait}{end}",
-  "en": ""
+  "en": "You did it! Now. You can. Meet Isis-sama!{wait}{end}"
  },
  {
   "id": "B:2F86C",
   "jp": "ココ・魔王・イシス様の・部屋{n}スタンプ・そろってないと{wait}{f0}通せません！{wait}{end}",
-  "en": ""
+  "en": "Here. Demon Lord. Isis-sama's. Room. Stamps. Not all collected,{wait}{f0}cannot. Let you through!{wait}{end}"
  },
  {
   "id": "B:2F8B8",
   "jp": "ココ・魔王・イシス様の・部屋{n}スタンプ・全部・そろってる！！{wait}{f0}どうぞ！お通り下さい！{wait}{end}",
-  "en": ""
+  "en": "Here. Demon Lord. Isis-sama's. Room. Stamps. All. Collected!!{wait}{f0}Please! Go right through!{wait}{end}"
  },
  {
   "id": "B:2F914",
   "jp": "{face:003B}お！{wait}{end}",
-  "en": ""
+  "en": "{face:003B}Oh!{wait}{end}"
  },
  {
   "id": "B:2F920",
   "jp": "{face:003B}また拾っちゃったよ{n}なんかほっとけないんだよな{wait}{end}",
-  "en": ""
+  "en": "{face:003B}I picked up another one. I just can't leave 'em be, y'know?{wait}{end}"
  },
  {
   "id": "B:2F958",
   "jp": "あら？{wait}{end}",
-  "en": ""
+  "en": "Oh my?{wait}{end}"
  },
  {
   "id": "B:2F964",
   "jp": "{face:003B}やっときてくれたか{n}たのむ、なんとかしてくれ！{wait}{end}",
-  "en": ""
+  "en": "{face:003B}You finally came! Please, do something about this!{wait}{end}"
  },
  {
   "id": "B:2F99C",
   "jp": "もう知っているんでしょ？{n}あなたがデビルチルドレンだからよ{wait}{end}",
-  "en": ""
+  "en": "You already know, don't you? It's because you're a Devil Child.{wait}{end}"
  }
 ]

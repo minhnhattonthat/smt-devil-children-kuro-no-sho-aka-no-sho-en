@@ -2,187 +2,187 @@
  {
   "id": "B:2A094",
   "jp": "ダイアナがつかまってしまった！！{wait}{end}",
-  "en": ""
+  "en": "Diana has been captured!!{wait}{end}"
  },
  {
   "id": "B:2A0B8",
   "jp": "{face:003B}やっときてくれたか{wait}{page}ささっ、えんりょしないで{n}つれていってくれ{wait}{end}",
-  "en": ""
+  "en": "{face:003B}So you finally came.{wait}{page}Go on, don't be shy. Take him along with you.{wait}{end}"
  },
  {
   "id": "B:2A100",
   "jp": "{ee}曲者め！{n}ここは立ち入り禁止だ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}Intruder! This area is off-limits!!{wait}{end}"
  },
  {
   "id": "B:2A128",
   "jp": "{ee}どうぞ、お通り下さい{wait}{end}",
-  "en": ""
+  "en": "{ee}Please, go right on through.{wait}{end}"
  },
  {
   "id": "B:2A144",
   "jp": "{face:0001}キサマは！フェンリル！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}It's you! Fenrir!{wait}{end}"
  },
  {
   "id": "B:2A164",
   "jp": "{face:002C}ん？ケルベロス！？{n}・・・まさか！オマエ？{wait}{end}",
-  "en": ""
+  "en": "{face:002C}Hm? Cerberus!? ...No way! Is that you?{wait}{end}"
  },
  {
   "id": "B:2A198",
   "jp": "{face:002C}ケルベロスの{partner}！！{wait}{page}何でお前がここに！？{n}封印されているはずなのに！？{wait}{end}",
-  "en": ""
+  "en": "{face:002C}{partner} the Cerberus!!{wait}{page}What are you doing here!? You're supposed to be sealed away!?{wait}{end}"
  },
  {
   "id": "B:2A1E8",
   "jp": "{face:0001}ああ、たしかにお前にダマサレテ{n}封印されたんだったよな！{wait}{f0}そのお礼は今させてもらうぜ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Yeah, that's right. You tricked me, and I got sealed away!{wait}{f0}Now I'm gonna pay you back for that.{wait}{end}"
  },
  {
   "id": "B:2A248",
   "jp": "{face:002C}へっ、しゃらくせえ・・・{wait}{n}と言いたい所だが、ヘヘッ{wait}{f0}あいにく一仕事{f0}すませたばかりなんでな{wait}{f0}オマエの相手をする気はないね{wait}{end}",
-  "en": ""
+  "en": "{face:002C}Heh, don't make me laugh...{wait}{n}is what I'd like to say, but heh heh...{wait}{f0}Too bad, I just{f0}finished up a job,{wait}{f0}so I ain't in the mood to deal with you.{wait}{end}"
  },
  {
   "id": "B:2A2D0",
   "jp": "{face:002C}ダイアナを探しているんだろ？{n}クックック・・・{wait}{page}せっかく逃げられたってのによ{wait}{n}自分からまい戻って来るんだから{f0}わらっちゃうぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:002C}You're lookin' for Diana, right? Heh heh heh...{wait}{page}She finally got away, and then{wait}{n}she comes crawlin' right back on her own.{f0}Makes me laugh!{wait}{end}"
  },
  {
   "id": "B:2A35C",
   "jp": "{face:0000}ダイアナをどうしたんだ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}What did you do with Diana!!{wait}{end}"
  },
  {
   "id": "B:2A380",
   "jp": "何かが見える・・・！？{wait}{end}",
-  "en": ""
+  "en": "I can see something...!?{wait}{end}"
  },
  {
   "id": "B:2A39C",
   "jp": "{face:0010}ダレダッ！？・・・{n}アッ！オマエは{name}！{wait}{page}ダイアナを取り戻しに来たのか？{wait}{page}それとも、お前も{n}メシアのツノを盗みに来たのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Who goes there!? ...Ah! You're {name}!{wait}{page}Have you come to take Diana back?{wait}{page}Or have you come to steal the Messiah Horn too?{wait}{end}"
  },
  {
   "id": "B:2A420",
   "jp": "あ、みつかっちゃった{wait}{end}",
-  "en": ""
+  "en": "Uh-oh, they found me.{wait}{end}"
  },
  {
   "id": "B:2A438",
   "jp": "{face:0010}{name}か！{wait}{n}しょうこりもなく、また来たのか{wait}{end}",
-  "en": ""
+  "en": "{face:0010}{name}!{wait}{n}Back again, are you? You never learn.{wait}{end}"
  },
  {
   "id": "B:2A468",
   "jp": "{face:00FF}金色のメシアのツノを手に入れた{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the golden Messiah Horn.{wait}{end}"
  },
  {
   "id": "B:2A490",
   "jp": "{face:0010}これを持って行くがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Take this with you.{wait}{end}"
  },
  {
   "id": "B:2A4B0",
   "jp": "ねえキミ、お金持ってそうだね{wait}{n}仲魔になるから{f0}２０００マッカくれないかな？{wait}{end}",
-  "en": ""
+  "en": "Hey, you look like you've got money.{wait}{n}I'll become your ally,{f0}so could you give me 2000 Macca?{wait}{end}"
  },
  {
   "id": "B:2A500",
   "jp": "お金をわたす{n}お金をわたさない{end}",
-  "en": ""
+  "en": "Give money{n}Don't give money{end}"
  },
  {
   "id": "B:2A520",
   "jp": "誰かの声が聞こえる{wait}{end}",
-  "en": ""
+  "en": "You can hear someone's voice.{wait}{end}"
  },
  {
   "id": "B:2A538",
   "jp": "どうする？{end}",
-  "en": ""
+  "en": "What will you do?{end}"
  },
  {
   "id": "B:2A544",
   "jp": "・・・マーブルランド・・・{wait}{end}",
-  "en": ""
+  "en": "...Marble Land...{wait}{end}"
  },
  {
   "id": "B:2A564",
   "jp": "{ee}この国では３つの部族が{n}はけんを争っている！！{wait}{page}それで、ブトウ会で決着を{n}つける事になったのさ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}In this country, three tribes are fighting for supremacy!!{wait}{page}So they decided to settle it at the Battle Ball!!{wait}{end}"
  },
  {
   "id": "B:2A5D0",
   "jp": "{ee}やっと、戦争が終わった！！{n}ばんざい！！{wait}{end}",
-  "en": ""
+  "en": "{ee}The war's finally over!! Hooray!!{wait}{end}"
  },
  {
   "id": "B:2A600",
   "jp": "{ee}ここでやるブトウ会ってのは{n}ダンスの大会じゃないよ！！{wait}{page}ちえとちからと技をかけた{n}バトルの大会さ！{wait}{page}ダンスなら{n}自信があったんだけどなぁ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Battle Ball here isn't a dance party, you know!!{wait}{page}It's a battle of wits, strength and skill!{wait}{page}If it were dancing, I'd have had a real shot...{wait}{end}"
  },
  {
   "id": "B:2A694",
   "jp": "{ee}私たちデーバ族は、遅ばれた{n}部族なのだ！！{wait}{page}他の部族にはぜったい{n}負けない！！{wait}{end}",
-  "en": ""
+  "en": "{ee}We of the Deva tribe are the chosen tribe!!{wait}{page}We'll never lose to the other tribes!!{wait}{end}"
  },
  {
   "id": "B:2A6EC",
   "jp": "{ee}部族をこえたあいを見つけたよ！{wait}{n}部族にこだわっていた私が{f0}バカだった{wait}{end}",
-  "en": ""
+  "en": "{ee}I found a love that goes beyond tribes!{wait}{n}Being so hung up on my tribe{f0}was dumb of me.{wait}{end}"
  },
  {
   "id": "B:2A738",
   "jp": "{ee}ここは、マーブルランドのコロシアム{wait}{page}この魔界の魔王を決めるため{n}ブトウ会が開かれる事に{wait}{f0}なっておりますが・・・{wait}{page}３つの部族の王が来るまでは{n}ブトウ会は始まらないのです{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Marble Land's Colosseum.{wait}{page}A Battle Ball is to be held here to decide this land's Demon Lord,{wait}{f0}however...{wait}{page}the Battle Ball can't begin until the kings of the three tribes arrive.{wait}{end}"
  },
  {
   "id": "B:2A7EC",
   "jp": "{ee}いよいよブトウ会が{n}始まりましたな・・・{wait}{page}部族の間の戦いが{wait}{n}これで治まればいいのですが{wait}{end}",
-  "en": ""
+  "en": "{ee}The Battle Ball has begun at last...{wait}{page}The fighting between the tribes...{wait}{n}I do hope this puts an end to it.{wait}{end}"
  },
  {
   "id": "B:2A84C",
   "jp": "{ee}オクノヘヤガ、ウケツケデス！{wait}{end}",
-  "en": ""
+  "en": "{ee}RECEPTION IS IN THE BACK ROOM!{wait}{end}"
  },
  {
   "id": "B:2A870",
-  "jp": "{ee}メシアのツノって知ってる？{n}ブトウ会に傷勝すれば{wait}{f0}マーブルランドの魔王として{wait}{f0}白いメシアのツノを{f0}手に入れる事ができるんだ{wait}{end}",
-  "en": ""
+  "jp": "{ee}メシアのツノって知ってる？{n}ブトウ会に優勝すれば{wait}{f0}マーブルランドの魔王として{wait}{f0}白いメシアのツノを{f0}手に入れる事ができるんだ{wait}{end}",
+  "en": "{ee}Do you know about the Messiah Horn? If you win the Battle Ball,{wait}{f0}then as Demon Lord of Marble Land,{wait}{f0}you get your hands on{f0}the white Messiah Horn!{wait}{end}"
  },
  {
   "id": "B:2A8F4",
-  "jp": "{ee}ブトウ会で傷勝すると{n}３００００マッカもらえるんだ！！{wait}{f0}いいなぁ・・・{wait}{end}",
-  "en": ""
+  "jp": "{ee}ブトウ会で優勝すると{n}３００００マッカもらえるんだ！！{wait}{f0}いいなぁ・・・{wait}{end}",
+  "en": "{ee}If you win the Battle Ball, you get 30000 Macca!!{wait}{f0}Must be nice...{wait}{end}"
  },
  {
   "id": "B:2A944",
   "jp": "{ee}私も、ブトウ会に出るぞ！！{n}受けつけはどっちだ？{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm entering the Battle Ball too!! Where do I sign up?{wait}{end}"
  },
  {
   "id": "B:2A97C",
   "jp": "{face:00FF}ありがとう、これで子どもに{n}ごはんを食べさせてあげられるよ{wait}{page}{face:0057}ボクはぶんぶくちゃがま{n}よろしくね{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Thank you! Now I can feed my kids.{wait}{page}{face:0057}I'm Bunbuku Chagama. Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:2A9E8",
   "jp": "{ee}デーバ族なんかに、負けるもんか！{wait}{end}",
-  "en": ""
+  "en": "{ee}Like we'd ever lose to the Deva tribe!{wait}{end}"
  },
  {
   "id": "B:2AA10",
   "jp": "{ee}これからは、仲良くやって行くよ{wait}{end}",
-  "en": ""
+  "en": "{ee}From now on, we'll all get along.{wait}{end}"
  },
  {
   "id": "B:2AA34",
   "jp": "{ee}シュラ族なんかに、負けるもんか{wait}{end}",
-  "en": ""
+  "en": "{ee}Like we'd ever lose to the Sura tribe.{wait}{end}"
  },
  {
   "id": "B:2AA58",
@@ -191,67 +191,67 @@
  {
   "id": "B:2AA7C",
   "jp": "{ee}ニタニタを仲魔にしたのか{n}大したものだ、大事にしろよ{wait}{end}",
-  "en": ""
+  "en": "{ee}So you made Nitanita your ally? Impressive. Take good care of it.{wait}{end}"
  },
  {
   "id": "B:2AAB8",
   "jp": "そんな・・・{wait}{n}家にはおなかをすかせた{f0}子どもが待ってるのに・・・{wait}{end}",
-  "en": ""
+  "en": "No way...{wait}{n}But I've got hungry{f0}kids waiting at home...{wait}{end}"
  },
  {
   "id": "B:2AB00",
   "jp": "{ee}ここは、ラセツ王ビビサナ様が{n}治めるラセツ族の村さ{wait}{end}",
-  "en": ""
+  "en": "{ee}This is the Rasetsu tribe's village, ruled by Rasetsu King Vibhishana-sama.{wait}{end}"
  },
  {
   "id": "B:2AB38",
   "jp": "{ee}この村の東のかべのそばに{n}ニタニタというデビルがいるんだが{wait}{page}いつもわらってばかりいる{n}変なやつだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}By the east wall of this village, there's a Devil called Nitanita.{wait}{page}It's a weird one, always grinning away.{wait}{end}"
  },
  {
   "id": "B:2ABA4",
   "jp": "{ee}がんばるよ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'll do my best!!{wait}{end}"
  },
  {
   "id": "B:2ABB8",
   "jp": "{ee}マーブルランド、３つの部族ある{n}部族の村、王たち住んでる{wait}{f0}一度訪ねる、いい！{wait}{end}",
-  "en": ""
+  "en": "{ee}Marble Land, three tribes there are. In tribe villages, kings live.{wait}{f0}Visit once, good!{wait}{end}"
  },
  {
   "id": "B:2AC0C",
   "jp": "{ee}シュラとデーバはおたがいに{n}力で物事を、解決する{wait}{page}しかし、私たちラセツは{n}ちえと話し合いで{wait}{f0}この、マーブルランドを{f0}治めようとしているんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Asura and the Devas both settle things by force.{wait}{page}But we Rakshasa, with wisdom and talk,{wait}{f0}are trying to rule{f0}this Marble Land.{wait}{end}"
  },
  {
   "id": "B:2ACA0",
   "jp": "{ee}今後は、みんなで仲良くやるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}From now on, everyone's gonna get along.{wait}{end}"
  },
  {
   "id": "B:2ACC4",
   "jp": "{ee}オレたちシュラは、昔から{n}デーバが大嫌いなんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}We Asura have always hated the Devas!{wait}{end}"
  },
  {
   "id": "B:2ACFC",
   "jp": "{ee}オレたちシュラが{n}ヴリトラ様といっしょに戦えば{wait}{f0}強力なコンボの技を{wait}{f0}使えるのだ{wait}{end}",
-  "en": ""
+  "en": "{ee}When we Asura fight alongside Vritra-sama,{wait}{f0}we can use{wait}{f0}powerful combo attacks.{wait}{end}"
  },
  {
   "id": "B:2AD54",
   "jp": "ぶんぶくちゃがまが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Bunbuku Chagama became your ally!{wait}{end}"
  },
  {
   "id": "B:2AD78",
   "jp": "{ee}ここは、シュラ王ヴリトラ様の{n}治めるシュラ族の村だ！{wait}{end}",
-  "en": ""
+  "en": "{ee}This is the Sura tribe's village, ruled by Sura King Vritra-sama!{wait}{end}"
  },
  {
   "id": "B:2ADB4",
   "jp": "{ee}お前、コロシアムから来たのか{wait}{n}今度のブトウ会で{wait}{f0}決着がつけば{wait}{page}この長い戦争も終わるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}You came from the Colosseum, huh?{wait}{n}If the next Battle Ball{wait}{f0}settles things once and for all,{wait}{page}this long war will finally end.{wait}{end}"
  },
  {
   "id": "B:2AE18",
@@ -260,37 +260,37 @@
  {
   "id": "B:2AE3C",
   "jp": "{ee}昔は、あんなにお金があって{n}カベもユカも黄金だったのに{wait}{f0}今ではメッキの見かけ倒しだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}We used to be so rich, the walls and floors were all gold,{wait}{f0}but now it's just cheap plating for show.{wait}{end}"
  },
  {
   "id": "B:2AE98",
   "jp": "{ee}オレたちデーバは、昔から{n}シュラが大嫌いなんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}We Devas have always hated the Asura!{wait}{end}"
  },
  {
   "id": "B:2AED0",
   "jp": "{ee}全ての生き物は、戦いから{n}逃げる事はできない！{wait}{end}",
-  "en": ""
+  "en": "{ee}No living thing can run away from battle!{wait}{end}"
  },
  {
   "id": "B:2AF04",
   "jp": "{face:0057}ありがとう{n}でも、仲魔がいっぱいみたいだね{wait}{page}お金は返すよ{n}仲魔をへらしてまたきてね{wait}{end}",
-  "en": ""
+  "en": "{face:0057}Thank you. But it looks like you've got a full party.{wait}{page}I'll give the money back. Make room among your allies and come again!{wait}{end}"
  },
  {
   "id": "B:2AF60",
   "jp": "{ee}ひんしが治って、良かったね！{wait}{end}",
-  "en": ""
+  "en": "{ee}Good thing you recovered from being near death!{wait}{end}"
  },
  {
   "id": "B:2AF84",
   "jp": "{ee}ワタシタチハ、ロボットナノデ{wait}{n}マイニチ、マイニチ、メイレイドオリニ{f0}ハタラキマス・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}WE ARE ROBOTS, SO{wait}{n}EVERY DAY, EVERY DAY, WE WORK{f0}AS ORDERED...{wait}{end}"
  },
  {
   "id": "B:2AFE4",
   "jp": "{ee}コロシアムの北にあるのが{wait}{n}このデーバ族の村{wait}{page}西にあるのが、シュラ族の村{wait}{page}そして、東に行けば{wait}{n}ラセツ族の村に行けるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}North of the Colosseum{wait}{n}is this village of the Deva tribe.{wait}{page}To the west is the Sura tribe's village.{wait}{page}And if you go east,{wait}{n}you'll reach the Rasetsu tribe's village.{wait}{end}"
  },
  {
   "id": "B:2B068",
@@ -299,116 +299,116 @@
  {
   "id": "B:2B08C",
   "jp": "{ee}うわさなんだけど、魔界も地上も{n}人間にほろぼされるかも{wait}{f0}しれないんだって！{wait}{end}",
-  "en": ""
+  "en": "{ee}It's just a rumor, but Makai and the surface might both{wait}{f0}get destroyed by humans!{wait}{end}"
  },
  {
   "id": "B:2B0E0",
   "jp": "{ee}ダークパレスなら、この道をまっすぐ{n}進んだ所にあるぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Dark Palace? It's straight down this road.{wait}{end}"
  },
  {
   "id": "B:2B11C",
   "jp": "{ee}最近の大魔王は、いったい{n}何を考えているんだ！？{wait}{page}デビルたちをドレイのように{n}思っているんじゃないか{wait}{end}",
-  "en": ""
+  "en": "{ee}What on earth is the Great Demon King thinking these days!?{wait}{page}He treats us Devils like slaves, doesn't he?{wait}{end}"
  },
  {
   "id": "B:2B188",
   "jp": "{ee}最近、大魔王の顔を{n}見た者がいないんだ{wait}{page}いつも、決まったデビルとしか{n}会おうとしないらしいんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Lately, nobody's seen the Great Demon King's face.{wait}{page}They say he'll only meet with a few certain Devils.{wait}{end}"
  },
  {
   "id": "B:2B1F0",
   "jp": "{ee}この間、アイスランドの{n}魔王ヘルの所へ{wait}{f0}大魔王の使いが行ったらしい{wait}{page}どうも、つみをおかしたデビルを{n}ディープホールへ落とすらしいんだ{wait}{page}今まで、そんな事はなかったのに{wait}{end}",
-  "en": ""
+  "en": "{ee}The other day, to Hel, the Demon Lord of Ice Land,{wait}{f0}the Great Demon King apparently sent a messenger.{wait}{page}Seems they're going to drop Devils who commit crimes into the Deep Hole.{wait}{page}Nothing like that ever happened before.{wait}{end}"
  },
  {
   "id": "B:2B2A0",
   "jp": "パソコンにメールが来ているようだ！{wait}{end}",
-  "en": ""
+  "en": "Looks like an e-mail came in on the computer!{wait}{end}"
  },
  {
   "id": "B:2B2C8",
   "jp": "メールが来ている！{n}・・・ナガヒサから・・・？{wait}{page}助けて・・・誰か・・・助けて{wait}{page}・・日づけは、７月２９日{wait}{n}・・・きのうだ！！{wait}{end}",
-  "en": ""
+  "en": "There's an e-mail! ...From Nagahisa...?{wait}{page}Help... someone... help me...{wait}{page}...The date is July 29.{wait}{n}...That was yesterday!!{wait}{end}"
  },
  {
   "id": "B:2B34C",
   "jp": "ナガヒサって、誰だ・・？{wait}{end}",
-  "en": ""
+  "en": "Nagahisa... Who's that...?{wait}{end}"
  },
  {
   "id": "B:2B368",
   "jp": "気持ちはうれしいけど{n}お金が足りないよ{wait}{page}２０００マッカないと安心できないんだ{n}ごめんね{wait}{end}",
-  "en": ""
+  "en": "That's sweet of you, but it's not enough money.{wait}{page}I can't feel safe without 2000 Macca. Sorry.{wait}{end}"
  },
  {
   "id": "B:2B3C4",
   "jp": "{voice:0051}どうだい、追いはらってやったぜ{wait}{page}{voice:0052}これからは、オレの事を{n}パートナーと思ってくれよ{wait}{end}",
-  "en": ""
+  "en": "{voice:0051}How about that? I chased 'em off.{wait}{page}{voice:0052}From now on, think of me as your partner.{wait}{end}"
  },
  {
   "id": "B:2B424",
   "jp": "やつら、もうここには{n}やって来そうにないぞ{wait}{end}",
-  "en": ""
+  "en": "Looks like those guys won't be coming back here.{wait}{end}"
  },
  {
   "id": "B:2B454",
   "jp": "　落ち着いて考える{n}　もう少し話を聞く{end}",
-  "en": ""
+  "en": "Stop and think it over{n}Listen a little more{end}"
  },
  {
   "id": "B:2B47C",
   "jp": "{face:0000}何で、オレとナガヒサが{n}おそわれるんだ・・・？{wait}{page}あの雪ダルマが大魔王に{wait}{n}知らせるとか言ってたけど・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Why would they attack me and Nagahisa...?{wait}{page}That snowman said something about{wait}{n}telling the Great Demon King...?{wait}{end}"
  },
  {
   "id": "B:2B4F0",
   "jp": "{face:0001}{voice:005B}さっき、おそって来たのは{wait}{page}{voice:005C}ジャックフロストっていう{n}魔界に住んでるデビルだぜ{wait}{page}{voice:005D}その、魔界の王様っていうのが{wait}{page}{voice:005E}ジャックフロストの言っていた{n}大魔王だ{wait}{page}{voice:005F}長い間、封印されてたんで{wait}{page}{voice:0060}今の魔界がどうなってるのか{n}オレもくわしくは知らないんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:005B}That guy who attacked us just now{wait}{page}{voice:005C}was a Devil called Jack Frost, who lives in Makai.{wait}{page}{voice:005D}And the king of that Makai, see...{wait}{page}{voice:005E}is the Great Demon King Jack Frost was talking about.{wait}{page}{voice:005F}I was sealed away for a long time,{wait}{page}{voice:0060}so even I don't know much about how Makai is now.{wait}{end}"
  },
  {
   "id": "B:2B600",
   "jp": "{face:0000}魔法のケンジュウ、デビライザー？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}A magic gun, the Deviliser?{wait}{end}"
  },
  {
   "id": "B:2B628",
   "jp": "{voice:006A}ともかく、ここにいても{n}何も始まらないぜ！{wait}{page}{voice:006B}魔界に行く方法を{n}見つけに行くんだ！{wait}{page}{voice:006C}だけど、その前に{n}オレに名前をつけてくれよ！{wait}{end}",
-  "en": ""
+  "en": "{voice:006A}Anyway, staying here won't get us anywhere!{wait}{page}{voice:006B}Let's go find a way to Makai!{wait}{page}{voice:006C}But before that, give me a name!{wait}{end}"
  },
  {
   "id": "B:2B6BC",
   "jp": "{face:0001}{voice:006D}悪くないぜ！{n}あらためて、今後ともヨロシク！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:006D}Not bad! Let's make it official: nice to meet ya, partner!{wait}{end}"
  },
  {
   "id": "B:2B6F4",
   "jp": "　もっと、話を聞く{n}　ともかく、外に出る{end}",
-  "en": ""
+  "en": "Listen some more{n}Head outside anyway{end}"
  },
  {
   "id": "B:2B720",
   "jp": "{face:0001}{voice:006E}それじゃあ、行こうぜ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:006E}All right, let's go!!{wait}{end}"
  },
  {
   "id": "B:2B744",
   "jp": "１０１　カナメ　ミライ{wait}{end}",
-  "en": ""
+  "en": "101 Mirai Kaname{wait}{end}"
  },
  {
   "id": "B:2B760",
   "jp": "１０２　{name}{wait}{end}",
-  "en": ""
+  "en": "102 {name}{wait}{end}"
  },
  {
   "id": "B:2B770",
   "jp": "カギが、かかっている！{wait}{end}",
-  "en": ""
+  "en": "It's locked!{wait}{end}"
  },
  {
   "id": "B:2B78C",
   "jp": "{name}！{n}オレはお前の・・・・・・・・だ！{wait}{page}お前は・・・・の力を・・{n}・・・・・・・だ！{wait}{f0}世界を・・・・お前の・・・・{f0}・・・・を・・・！！{wait}{f0}そして{f0}７つの・・を集めて・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{name}! I am your........!{wait}{page}You... the power of.... ......!{wait}{f0}The world.... your....{f0}....!!{wait}{f0}And{f0}gather the seven.. and.....!{wait}{end}"
  }
 ]

@@ -42,361 +42,361 @@
  {
   "id": "B:26CC4",
   "jp": "特に勉強もしないつくえは{n}サッパリとかたづいている{wait}{end}",
-  "en": ""
+  "en": "Since I never study at it, my desk is nice and tidy.{wait}{end}"
  },
  {
   "id": "B:26CFC",
   "jp": "読みあきたざっしが、ならんでいる{wait}{end}",
-  "en": ""
+  "en": "A row of magazines I'm sick of reading.{wait}{end}"
  },
  {
   "id": "B:26D20",
   "jp": "メールが来ている！{n}・・・おじさんからだ{wait}{f0}しゅっちょうでしばらく{f0}帰れないので、ごはんはてきとうに{wait}{f0}コンビニで買って食べてくれ{wait}{end}",
-  "en": ""
+  "en": "I've got an e-mail! ...It's from my uncle.{wait}{f0}I'm on a business trip and won't be{f0}home for a while, so for meals, just{wait}{f0}buy something at the convenience store.{wait}{end}"
  },
  {
   "id": "B:26DA8",
   "jp": "{ea}カガミには、オレがうつっている{wait}{end}",
-  "en": ""
+  "en": "{ea}The mirror shows my reflection.{wait}{end}"
  },
  {
   "id": "B:26DCC",
   "jp": "{voice:0010}！？・・・ひたいに、アザ・・・？{n}・・・気のせいかな？{wait}{end}",
-  "en": ""
+  "en": "{voice:0010}!? ...A mark on my forehead...? ...Just my imagination?{wait}{end}"
  },
  {
   "id": "B:26E0C",
   "jp": "{ea}・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{ea}......{wait}{end}"
  },
  {
   "id": "B:26E20",
   "jp": "・・・テレビの音が聞こえる{wait}{n}・・・りんじニュースが流れている{wait}{end}",
-  "en": ""
+  "en": "...I can hear the TV.{wait}{n}...It's a breaking news report.{wait}{end}"
  },
  {
   "id": "B:26E64",
   "jp": "りんじニュースです{wait}{page}とつぜん、地球のまわりに{n}現れたなぞのぶっしつが{wait}{f0}太陽からの熱と光を{wait}{f0}キュウシュウしています{wait}{page}そのため、世界中で気温が{wait}{n}きゅうげきに下がり出しています{wait}{page}現在、東京の気温は{n}マイナス４度です{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report.{wait}{page}A mysterious substance that suddenly appeared around the Earth{wait}{f0}is absorbing the heat and light{wait}{f0}from the sun.{wait}{page}As a result, temperatures worldwide{wait}{n}have begun to drop sharply.{wait}{page}The current temperature in Tokyo is minus 4 degrees.{wait}{end}"
  },
  {
   "id": "B:26F44",
   "jp": "りんじニュースです{wait}{n}ヨーロッパ・北アメリカなど{f0}北半球を中心に{wait}{f0}インフルエンザが大流行{f0}しています{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report.{wait}{n}In Europe, North America and elsewhere,{f0}mainly in the Northern Hemisphere,{wait}{f0}a massive flu epidemic{f0}has broken out.{wait}{end}"
  },
  {
   "id": "B:26FB0",
   "jp": "りんじニュースです{n}地球をおおっている{wait}{f0}未知のブッシツは{wait}{page}現在の科学では{n}取りのぞけない事が{wait}{f0}はんめいしました{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report. The unknown substance{wait}{f0}covering the Earth{wait}{page}cannot be removed by current science,{wait}{f0}it has been determined.{wait}{end}"
  },
  {
   "id": "B:27028",
   "jp": "りんじニュースです{wait}{n}・・・で大地震が起こりました{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report.{wait}{n}...has been hit by a major earthquake.{wait}{end}"
  },
  {
   "id": "B:27060",
   "jp": "りんじニュースです{n}カルトしゅうだんのボウドウが{wait}{f0}各地で起きています{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report. Riots by cult groups{wait}{f0}are breaking out all over.{wait}{end}"
  },
  {
   "id": "B:270AC",
   "jp": "りんじニュースです{wait}{n}各国のぐんたいが{f0}ゲンカイたいせいに入りました{wait}{f0}このままでは、世界大戦の{f0}起こるかのうせいが・・・{wait}{f0}会見をごらん下さい・・・{wait}{end}",
-  "en": ""
+  "en": "This is a breaking news report.{wait}{n}Armies around the world{f0}have gone on high alert.{wait}{f0}At this rate, there is a chance{f0}that a world war could break out...{wait}{f0}Please watch the press conference...{wait}{end}"
  },
  {
   "id": "B:27148",
   "jp": "ファックスが来ている{n}・・・おじさんとおばさんからだ{wait}{page}しばらく仕事で帰れません{n}コンビニでパンでも買って食べて{wait}{page}お金は、あなたの部屋の{n}いつもの所にかくしてあります{wait}{end}",
-  "en": ""
+  "en": "A fax has come in. ...It's from my uncle and aunt.{wait}{page}Work will keep us away for a while. Buy some bread at the convenience store.{wait}{page}The money is hidden in your room, in the usual spot.{wait}{end}"
  },
  {
   "id": "B:271F4",
   "jp": "ピンポーン！{wait}{end}",
-  "en": ""
+  "en": "Ding-dong!{wait}{end}"
  },
  {
   "id": "B:27204",
   "jp": "{voice:0024}たくはいびんでーす{n}ここにサインをおねがいします{wait}{end}",
-  "en": ""
+  "en": "{voice:0024}Delivery for you! Please sign here.{wait}{end}"
  },
  {
   "id": "B:2723C",
   "jp": "{voice:0025}オレの名前は・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0025}My name is...{wait}{end}"
  },
  {
   "id": "B:27258",
   "jp": "{name}さんですね{wait}{n}{voice:0026}おとどけ物は、コレです{wait}{end}",
-  "en": ""
+  "en": "{name}-san, right?{wait}{n}{voice:0026}Here's your package.{wait}{end}"
  },
  {
   "id": "B:27288",
   "jp": "{voice:0027}・・・たしかにわたしたからね！{wait}{end}",
-  "en": ""
+  "en": "{voice:0027}...I handed it to you, fair and square!{wait}{end}"
  },
  {
   "id": "B:272B0",
   "jp": "{face:0000}{voice:0028}！！！・・消えた・・！？{wait}{page}{voice:0029}・・・消えたよナッ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0028}!!! ...It vanished...!?{wait}{page}{voice:0029}...It totally vanished, right!?{wait}{end}"
  },
  {
   "id": "B:272F0",
   "jp": "{face:0000}{voice:002C}雪ダルマが・・・{wait}{n}{voice:002D}・・・・・・しゃべった！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:002C}The snowman...{wait}{n}{voice:002D}......talked!!{wait}{end}"
  },
  {
   "id": "B:27330",
   "jp": "{voice:010E}ああっ、あなたなのね・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:010E}Ah... it's you, isn't it...{wait}{end}"
  },
  {
   "id": "B:27354",
   "jp": "{face:00FF}どうする？{end}",
-  "en": ""
+  "en": "{face:00FF}What should I do?{end}"
  },
  {
   "id": "B:27364",
   "jp": "　あげない！{n}　追い返す！{end}",
-  "en": ""
+  "en": "I won't give it!{n}Drive it away!{end}"
  },
  {
   "id": "B:27380",
   "jp": "{voice:010F}・・・！？・・・{n}オレを知っているのか？{wait}{end}",
-  "en": ""
+  "en": "{voice:010F}...!? ...You know who I am?{wait}{end}"
  },
  {
   "id": "B:273B0",
   "jp": "{face:0000}{voice:002F}だから、あげないってば！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:002F}I said I'm not giving it to you!{wait}{end}"
  },
  {
   "id": "B:273D4",
   "jp": "{voice:0110}ええ！知っているわ、知っているのよ{n}・・でも、今はその事はいいわ・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0110}Yes! I know you, I truly do... ...But that doesn't matter right now...{wait}{end}"
  },
  {
   "id": "B:27424",
   "jp": "{voice:0050}ヒーホー！助けてホー！！{n}大魔王様に、知らせるホー！{wait}{end}",
-  "en": ""
+  "en": "{voice:0050}Hee-ho! Help me-ho!! I gotta tell the Great Demon King-ho!{wait}{end}"
  },
  {
   "id": "B:27460",
   "jp": "{voice:0121}今のはいったい・・・？{wait}{end}",
-  "en": ""
+  "en": "{voice:0121}What was that just now...?{wait}{end}"
  },
  {
   "id": "B:27480",
   "jp": "{voice:002E}あ、その箱くれるんだねっ{n}ワーイ！アリガト！！{wait}{end}",
-  "en": ""
+  "en": "{voice:002E}Oh, you're giving me that box! Yay! Thank you!!{wait}{end}"
  },
  {
   "id": "B:274B8",
   "jp": "{face:0000}だから、出て行けっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}I said get out!{wait}{end}"
  },
  {
   "id": "B:274D4",
   "jp": "{ee}{voice:0072}虹色のツノが、欲しいんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:0072}I want the Rainbow Horn-ho.{wait}{end}"
  },
  {
   "id": "B:274FC",
   "jp": "{ee}{voice:0072}虹色のツノが、欲しいんだホー{wait}{page}{voice:0073}やりたくないんだけど{n}キミを倒すんだホー！！{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:0072}I want the Rainbow Horn-ho.{wait}{page}{voice:0073}I don't really wanna, but I gotta beat you-ho!!{wait}{end}"
  },
  {
   "id": "B:27558",
   "jp": "{voice:0122}何だか温かくて{n}なつかしいような・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0122}It felt warm somehow... almost nostalgic...{wait}{end}"
  },
  {
   "id": "B:27588",
   "jp": "{voice:0123}フシギな感じだったな・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0123}It was such a strange feeling...{wait}{end}"
  },
  {
   "id": "B:275AC",
   "jp": "{face:0000}{voice:003A}くそっ！目がかすんで来た・・・{n}このままじゃ、やられてしまう・・・{wait}{page}{voice:003B}・・でも、ナガヒサを助けないと！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:003A}Dang it! My vision's getting blurry... At this rate, I'm done for...{wait}{page}{voice:003B}...But I have to save Nagahisa!{wait}{end}"
  },
  {
   "id": "B:27624",
   "jp": "{face:00FF}{ea}とどいた箱が、光り出してる！{wait}{page}{face:0000}{voice:003C}ナンダッ・・・ひたいが・・・{n}・・・もえるように熱い！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{ea}The delivered box is glowing!{wait}{page}{face:0000}{voice:003C}What...!? My forehead... it's burning hot!{wait}{end}"
  },
  {
   "id": "B:2768C",
   "jp": "{face:0000}{voice:003D}・・何だ！？どうしたんだ？{wait}{page}{voice:003E}イタミが引いて行くぞ{n}体も動くようになって来た{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:003D}...What!? What's happening?{wait}{page}{voice:003E}The pain's fading away. I can move my body again.{wait}{end}"
  },
  {
   "id": "B:276E8",
   "jp": "{voice:012F}あ、助けてくれて・・・ありがとね{wait}{end}",
-  "en": ""
+  "en": "{voice:012F}Ah, thanks... for saving me.{wait}{end}"
  },
  {
   "id": "B:27710",
   "jp": "{name}は箱を開けた！{wait}{end}",
-  "en": ""
+  "en": "{name} opened the box!{wait}{end}"
  },
  {
   "id": "B:27724",
   "jp": "かがやくケンジュウを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found a shining handgun!{wait}{end}"
  },
  {
   "id": "B:27748",
   "jp": "{face:0000}{voice:0046}トリガーを引くぜ！{wait}{n}{voice:0047}コーーーーーーール！！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0046}I'm pulling the trigger!{wait}{n}{voice:0047}Caaaaaaall!!!{wait}{end}"
  },
  {
   "id": "B:27788",
   "jp": "{voice:0048}イニシエのケイヤクにしたがい{n}ケルベロス、ここに参上！！{wait}{end}",
-  "en": ""
+  "en": "{voice:0048}By the ancient contract, Cerberus answers your call!!{wait}{end}"
  },
  {
   "id": "B:277C8",
   "jp": "{face:0001}{voice:004A}ケンジュウから犬が出た！{n}しかも、しゃべった！！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:004A}A dog came out of the gun! And it talked!!{wait}{end}"
  },
  {
   "id": "B:27804",
   "jp": "{voice:004B}オレはイヌじゃない！！{n}ほこり高きケルベロスだ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:004B}I'm not a dog!! I'm the proud Cerberus!!{wait}{end}"
  },
  {
   "id": "B:27840",
   "jp": "{voice:004C}ん？何だ？{n}フロストにおそわれてたのか？{wait}{page}{voice:004D}こいつらは、オレにまかせな！！{n}炎の魔法・アギで倒せるぜ！{wait}{end}",
-  "en": ""
+  "en": "{voice:004C}Hm? What's this? Were the Frosts attacking you?{wait}{page}{voice:004D}Leave these guys to me!! The fire spell Agi will take 'em down!{wait}{end}"
  },
  {
   "id": "B:278B4",
   "jp": "{voice:004E}ヒーーーー！！とけるホー！！{n}大魔王様に怒られるホー！{wait}{end}",
-  "en": ""
+  "en": "{voice:004E}Eeeeek!! I'm melting-ho!! The Great Demon King's gonna be mad at me-ho!{wait}{end}"
  },
  {
   "id": "B:278F4",
   "jp": "{voice:004F}次は、お前の番だ！{wait}{end}",
-  "en": ""
+  "en": "{voice:004F}You're next!{wait}{end}"
  },
  {
   "id": "B:27910",
   "jp": "{ee}{voice:05CC}やぁ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:05CC}Hey!{wait}{end}"
  },
  {
   "id": "B:27920",
   "jp": "{face:0007}{voice:05CE}初めまして・・・{n}ボクはタカジョー・ゼット！{wait}{page}{voice:0075}このあたりに、ジャックフロストが{n}現れたというんで、来てみたんだ{wait}{page}{voice:0076}どうやら、キミがねらわれたらしいね{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05CE}Nice to meet you... I'm Zett Takajo!{wait}{page}{voice:0075}I heard a Jack Frost showed up around here, so I came to check it out.{wait}{page}{voice:0076}Looks like you were the one it was after.{wait}{end}"
  },
  {
   "id": "B:279CC",
   "jp": "{face:0000}{voice:0077}何か、知ってるのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0077}Do you know something?{wait}{end}"
  },
  {
   "id": "B:279EC",
   "jp": "{face:0007}{voice:0078}・・・まあ、イロイロとね{wait}{page}{voice:0079}ジャックフロストが、人間の{n}男の子をさらって行ったとか{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0078}...Well, this and that.{wait}{page}{voice:0079}I heard a Jack Frost carried off a human boy.{wait}{end}"
  },
  {
   "id": "B:27A50",
   "jp": "{face:0000}{voice:007A}・・・ナガヒサの事だ・・！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:007A}...That's Nagahisa...!!{wait}{end}"
  },
  {
   "id": "B:27A78",
   "jp": "　落ち着いて考える{n}　もっと話を聞く{end}",
-  "en": ""
+  "en": "Stop and think calmly{n}Ask him more{end}"
  },
  {
   "id": "B:27AA0",
   "jp": "{face:0000}誰なんだ？このゼットって？{wait}{page}・・・どうして{n}ナガヒサがさらわれた事を{wait}{f0}知っているんだ！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Who is he? This Zett guy?{wait}{page}...How does he know that Nagahisa{wait}{f0}was kidnapped!?{wait}{end}"
  },
  {
   "id": "B:27B04",
   "jp": "{face:0007}{voice:007B}ホントに知りたいのかい？{wait}{page}{voice:007C}だったら、自分自身で{n}たしかめるのが、いいだろうな{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:007B}You really want to know?{wait}{page}{voice:007C}Then you'd better see for yourself.{wait}{end}"
  },
  {
   "id": "B:27B64",
   "jp": "{face:0007}{voice:007D}君が持っているそれはね{wait}{page}{voice:007E}メシアのツノっていう{n}魔法のアイテムなんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:007D}That thing you're holding...{wait}{page}{voice:007E}is a magic item called the Messiah Horn!{wait}{end}"
  },
  {
   "id": "B:27BBC",
   "jp": "{face:0007}{voice:007F}ちょっとかして！{n}それは、こうやって使うんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:007F}Let me borrow it! Here's how you use it!{wait}{end}"
  },
  {
   "id": "B:27BF8",
   "jp": "{face:0007}{voice:0080}メシアのツノよ！{n}世界をつなげるアナを、ここに！{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0080}Messiah Horn! Open a hole that links the worlds, right here!{wait}{end}"
  },
  {
   "id": "B:27C34",
   "jp": "{face:0000}{voice:0081}・・・・何だ！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0081}......What!?{wait}{end}"
  },
  {
   "id": "B:27C50",
   "jp": "{voice:05EB}・・・ねぇ、ケガはだいじょうぶなの？{wait}{end}",
-  "en": ""
+  "en": "{voice:05EB}...Hey, are your injuries all right?{wait}{end}"
  },
  {
   "id": "B:27C7C",
   "jp": "{voice:0082}うわぁーーーーーーーーッ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:0082}Whoaaaaaaaaaa!!{wait}{end}"
  },
  {
   "id": "B:27CA0",
   "jp": "{voice:05EC}だいじょうぶさ{wait}{end}",
-  "en": ""
+  "en": "{voice:05EC}I'm fine.{wait}{end}"
  },
  {
   "id": "B:27CB8",
   "jp": "{face:0001}{voice:05D4}目がさめたか？{wait}{page}{voice:0084}どうやら、お前の{n}ねがいが、かなったようだぜ{wait}{page}{voice:0085}ここは魔界、それも大魔王のいる{n}セントラルランドだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:05D4}You awake?{wait}{page}{voice:0084}Looks like your wish came true, pal.{wait}{page}{voice:0085}This is Makai. Central Land, to be exact, where the Great Demon King lives.{wait}{end}"
  },
  {
   "id": "B:27D44",
   "jp": "{ee}一番奥の教室から{n}変な音がするんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}There's a weird noise coming from the classroom at the very end.{wait}{end}"
  },
  {
   "id": "B:27D6C",
   "jp": "{ee}やあ！{name}じゃん！{n}お前、ミライって知ってるか？{wait}{page}あいつ、けっこうケンカつえーぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey! If it isn't {name}! Do you know Mirai?{wait}{page}She's pretty tough in a fight, y'know.{wait}{end}"
  },
  {
   "id": "B:27DC4",
   "jp": "{ee}この前、学校で雪だるまの{n}オバケを見たんだ！{wait}{f0}誰も信じてくれないけど{f0}ボクは本当に見たんだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}The other day, I saw a snowman ghost at school!{wait}{f0}Nobody believes me,{f0}but I really did see it!{wait}{end}"
  },
  {
   "id": "B:27E28",
   "jp": "{ee}その道を南に行くと{n}公園の入り口があるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Head south down that road and you'll reach the park entrance.{wait}{end}"
  },
  {
   "id": "B:27E58",
   "jp": "{ee}今日は日直じゃなかったの？{wait}{end}",
-  "en": ""
+  "en": "{ee}Weren't you on class duty today?{wait}{end}"
  },
  {
   "id": "B:27E78",
   "jp": "{ee}いらっしゃいませ{wait}{end}",
-  "en": ""
+  "en": "{ee}Welcome!{wait}{end}"
  },
  {
   "id": "B:27E90",
   "jp": "{ee}・・・朝なのに・・・夜みたい{wait}{end}",
-  "en": ""
+  "en": "{ee}...It's morning, but... it's like night.{wait}{end}"
  },
  {
   "id": "B:27EB4",
   "jp": "{ee}えっ！学校？{wait}{n}西がわの道を、北に行くのよ{wait}{page}あなた、つかれてるみたいね{wait}{page}つかれたら地下街のホテルで{n}休んだほうがいいわよ{wait}{page}地下街の入り口は{n}この店のうらがわにあるわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Huh! School?{wait}{n}Take the west road and head north.{wait}{page}You look tired.{wait}{page}If you get tired, you should rest at the hotel in the underground mall.{wait}{page}The entrance to the underground mall is behind this shop.{wait}{end}"
  }
 ]

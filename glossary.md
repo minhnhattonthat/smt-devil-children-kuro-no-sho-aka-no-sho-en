@@ -20,7 +20,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 甲斐刹那 / セツナ | Setsuna Kai / Setsuna | Black Book hero | |
 | 要未来 / ミライ | Mirai Kaname / Mirai | Red Book heroine | Kuzuha |
 | クール | Cool | Setsuna's partner (Cerberus) | |
-| ベール | Veil | Mirai's partner (Griffon); verify kana | Vale, Bail |
+| ベール | Veil | Mirai's partner (a Gryphon, docs/names.md) | Vale, Bail |
 | 甲斐永久 / ナガヒサ | Nagahisa Kai / Nagahisa | Setsuna's half-brother | Hisa |
 | ゼット / タカジョー | Zett / Takajo | (Zebul) | Zed |
 | ルシファー | Lucifer | | |
@@ -58,7 +58,32 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ノルンのカギ | Norn Key | | |
 | ダークパレス | Dark Palace | | |
 | ブフ | Bufu | mainline SMT spell names | |
+| ブトウ会 | Battle Ball | pun on 舞踏会 (dance ball): a fighting tournament; 優勝 = win the Battle Ball | |
+| コロシアム | Colosseum | | |
+| ラセツ族 / シュラ族 / デーバ族 | Rasetsu tribe / Sura tribe / Deva tribe | demon names per docs/names.md (Rasetsu, Sura, Deva) | Rasetsu Clan, Shura Clan, Deva Clan, Rakshasa tribe, Asura tribe |
+| ラセツ王 / シュラ王 / デーバ王 | Rasetsu King / Sura King / Deva King | title (ラセツ王ビビサナ = Rasetsu King Vibhishana); the demon species ラセツオー etc. = King Rasetsu (names.md) | |
+| 魔界しょうぐん | Makai General | | |
+| ヴィネセンター | Vine Center | | Vinecenter |
+| デビホン | DeviPhone | | |
+| 大天使 | Archangel | | |
+| エンゼルチルドレン | Angel Child / Angel Children | | |
+| ホワイトメシア | White Messiah | | |
+| メシアソング | Messiah Song | | |
+| 原宿小学校 | Harajuku Elementary School | | |
+| 地下街 | underground mall | | |
+| ゴーストタウン | Ghost Town | | |
+| ゲートタウン / フロストタウン | Gate Town / Frost Town | | |
+| エリューズニル | Eljudnir | Hel's hall | |
+| 怪しい館 | Mysterious Mansion | the fusion lab | |
+| サークルゲート | Circle Gate | | |
+| 赤いカギ / 赤いツノ / 紫のツノ / 白いメシアのツノ / 金色のメシアのツノ | Red Key / Red Horn / Purple Horn / White Messiah Horn / Golden Messiah Horn | horns/keys are items: capitalized | |
+| ハーフデビル | half-Devil | | |
+| キングフロスト | King Frost | | |
 | 兄さん | big brother | kinship terms translated (user ruling) | Nii-san |
 
 ## Decisions from earlier batches
+- Katakana-only speech (robots, halting demons): normal case, stilted wording; ALL CAPS only for shouting.
+- 優勝 / 傷勝 in old batch inputs = win (font table fixed: 0x287 = 優, 0x2C2 = 選, 0x29E = 閉, 0x2CF = 闇).
+- A JP 3rd-person 大魔王様 = "the Great Demon King"; direct address = "My Great Demon King".
+- Demon names: docs/names.md is binding (e.g. Dahaka per names.md).
 - Pilot (opening, approved in-game 2026-10-11): see docs/style-reference.md.

@@ -2,337 +2,337 @@
  {
   "id": "B:30DE8",
   "jp": "これが私のデビライザー{wait}{n}ここにさかさの星のマークが{f0}入っているでしょ{wait}{end}",
-  "en": ""
+  "en": "This is my Deviliser.{wait}{n}See? There's an upside-down star{f0}mark right here, right?{wait}{end}"
  },
  {
   "id": "B:30E34",
   "jp": "このマークに見おぼえない？{n}アナタのデビライザー見せてみてよ{wait}{end}",
-  "en": ""
+  "en": "Don't you recognize this mark? Let me see your Deviliser.{wait}{end}"
  },
  {
   "id": "B:30E74",
   "jp": "これがアナタのデビライザーね{wait}{end}",
-  "en": ""
+  "en": "So this is your Deviliser.{wait}{end}"
  },
  {
   "id": "B:30E94",
   "jp": "私のと同じマークが{n}入っているね{wait}{end}",
-  "en": ""
+  "en": "It's got the same mark as mine.{wait}{end}"
  },
  {
   "id": "B:30EB8",
   "jp": "じゃあもしかして・・・{n}アナタもそうなのかな？{wait}{end}",
-  "en": ""
+  "en": "So then... maybe you're one too?{wait}{end}"
  },
  {
   "id": "B:30EEC",
   "jp": "？{wait}{end}",
-  "en": ""
+  "en": "?{wait}{end}"
  },
  {
   "id": "B:30EF4",
   "jp": "アナタ、服ぬいでみてよ{wait}{end}",
-  "en": ""
+  "en": "Take your clothes off for a sec.{wait}{end}"
  },
  {
   "id": "B:30F10",
   "jp": "！？{wait}{end}",
-  "en": ""
+  "en": "!?{wait}{end}"
  },
  {
   "id": "B:30F18",
   "jp": "せなかを見せてみてよ{wait}{end}",
-  "en": ""
+  "en": "Show me your back.{wait}{end}"
  },
  {
   "id": "B:30F30",
   "jp": "な、何なんだ！？{wait}{end}",
-  "en": ""
+  "en": "Wh-what's going on!?{wait}{end}"
  },
  {
   "id": "B:30F44",
   "jp": "逃がさないよ！{wait}{end}",
-  "en": ""
+  "en": "You're not getting away!{wait}{end}"
  },
  {
   "id": "B:30F58",
   "jp": "うわ！！おい！！待てよ！！{wait}{end}",
-  "en": ""
+  "en": "Whoa!! Hey!! Hold on!!{wait}{end}"
  },
  {
   "id": "B:30F78",
   "jp": "いいからちょっと見せて！{wait}{end}",
-  "en": ""
+  "en": "Just let me take a quick look!{wait}{end}"
  },
  {
   "id": "B:30F94",
   "jp": "！！{wait}{end}",
-  "en": ""
+  "en": "!!{wait}{end}"
  },
  {
   "id": "B:30F9C",
   "jp": "やっぱり私と同じ{n}黒いツバサのアザが出るか・・・{n}　って事は私たちきょうだ・・・{n}・・・・・・{wait}{end}",
-  "en": ""
+  "en": "I knew it... the same black wing birthmark as mine... So that means we're sibl... ......{wait}{end}"
  },
  {
   "id": "B:30FD0",
   "jp": "って事は私たちきょうだ・・・{n}・・・・・・{wait}{end}",
-  "en": ""
+  "en": "So that means we're sibl... ......{wait}{end}"
  },
  {
   "id": "B:31000",
   "jp": "わかったからもういいや{n}じゃね{wait}{end}",
-  "en": ""
+  "en": "Okay, got it, that's enough. See ya.{wait}{end}"
  },
  {
   "id": "B:31024",
   "jp": "何だったんだ？いったい{wait}{end}",
-  "en": ""
+  "en": "What was THAT all about?{wait}{end}"
  },
  {
   "id": "B:31040",
   "jp": "{face:0008}{voice:0196}兄さん、待ってくれ！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0196}Big brother, wait!{wait}{end}"
  },
  {
   "id": "B:31060",
   "jp": "{face:0008}{voice:0197}わかったんだよ！{n}ノルンのカギの事が！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0197}I figured it out! About the Norn Key!{wait}{end}"
  },
  {
   "id": "B:31094",
   "jp": "{face:0000}{voice:0198}ノルンのカギの事？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0198}The Norn Key?{wait}{end}"
  },
  {
   "id": "B:310B4",
   "jp": "{face:0008}{voice:0199}そうさ！説明するよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0199}That's right! Let me explain.{wait}{end}"
  },
  {
   "id": "B:310D4",
   "jp": "{face:0008}しょせんぼくもココまでか・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}I guess this is as far as I go after all...{wait}{end}"
  },
  {
   "id": "B:310FC",
   "jp": "{face:0022}{voice:01AF}わたくしは大天使、ウリエル{wait}{page}{voice:01B0}・・・・・・ナガヒサ{n}これで、気がすんだでしょう{wait}{page}{voice:01B1}デビルチルドレン{n}この方は連れて行きます{wait}{end}",
-  "en": ""
+  "en": "{face:0022}{voice:01AF}I am the Archangel Uriel.{wait}{page}{voice:01B0}......Nagahisa, I trust you are satisfied now.{wait}{page}{voice:01B1}Devil Child, I will be taking him with me.{wait}{end}"
  },
  {
   "id": "B:3118C",
   "jp": "{face:0008}{voice:01B2}わかったよ、ウリエル{wait}{page}{voice:01B3}兄さん、ぼくの父さんは{n}大天使ミカエルなんです{wait}{page}{voice:01B4}エンゼルチルドレンとして{wait}{page}{voice:01B5}ぼくは天使たちと{n}行動をともにします{wait}{page}{voice:01B6}そして、世界の運命を{n}決める時には{wait}{page}{voice:01B7}ぼくもその場所に{n}いる事になるでしょう{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:01B2}All right, Uriel.{wait}{page}{voice:01B3}Big brother, my father is the Archangel Michael.{wait}{page}{voice:01B4}As an Angel Child,{wait}{page}{voice:01B5}I will travel with the angels.{wait}{page}{voice:01B6}And when the time comes to decide the fate of the world,{wait}{page}{voice:01B7}I will be there too.{wait}{end}"
  },
  {
   "id": "B:31288",
   "jp": "{face:0000}{ea}・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{ea}.......{wait}{end}"
  },
  {
   "id": "B:312A0",
   "jp": "・・・ホワイトメシアが{n}天使にさらわれた・・・{wait}{end}",
-  "en": ""
+  "en": "...The White Messiah has been kidnapped by angels...{wait}{end}"
  },
  {
   "id": "B:312D4",
   "jp": "{ee}{face:001A}誰だ！お前は！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}Who are you!?{wait}{end}"
  },
  {
   "id": "B:312EC",
   "jp": "{face:001A}アーッ、お前だな{n}ぜったいにお前だ！{wait}{page}金のリンゴパイ盗んだろ！{n}返せ！カエセヨー！{wait}{page}チキショー！みんなしてバカにして{wait}{n}もう、ゆるさねえぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Aaah, it's you! It's definitely you!{wait}{page}You stole the Golden Apple Pie! Give it back! GIMME BACK!{wait}{page}Darn it! Everybody makes fun of me!{wait}{n}Now I'm really mad!{wait}{end}"
  },
  {
   "id": "B:31384",
   "jp": "これは赤いカギさ{wait}{end}",
-  "en": ""
+  "en": "This is the Red Key.{wait}{end}"
  },
  {
   "id": "B:31398",
   "jp": "{face:001A}くそーっ、またオレの負けか！{n}こんな時にエレジーが来たら{wait}{f0}・・・・どうするんだ！？{wait}{page}大魔王の娘に嫌われたら{n}オレは魔王のざを追われて{wait}{f0}おしまいじゃないか！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Argh, I lost again!? If Elegy shows up at a time like this{wait}{f0}...what am I gonna do!?{wait}{page}If the Great Demon King's daughter hates me, I'll lose my place as Demon Lord{wait}{f0}and it'll be all over for me!{wait}{end}"
  },
  {
   "id": "B:31440",
   "jp": "{face:0000}エレジーって・・・？？{wait}{n}あのエレジーなのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Elegy...??{wait}{n}You mean THAT Elegy?{wait}{end}"
  },
  {
   "id": "B:31478",
   "jp": "{face:001A}えっ！・・・お前・・そうか！{n}お前がデビルチルドレンなんだな{wait}{page}そうだよ、エレジーは大魔王の{n}こどもなんだ{wait}{page}ただし、母親がデビルなんで{wait}{n}デビルチルドレンではないんだ{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Huh!? ...You... I get it! You're the Devil Child!{wait}{page}That's right, Elegy is the Great Demon King's kid.{wait}{page}But her mother's a Devil,{wait}{n}so she's not a Devil Child.{wait}{end}"
  },
  {
   "id": "B:31528",
   "jp": "{face:001A}そうだ！いい考えがあるぞ！{wait}{page}おい{name}{n}金のリンゴパイを盗んだやつを{wait}{f0}見つけて取り返して来てくれ{wait}{page}そうすれば大魔王のひみつを{n}教えてやる{wait}{page}お前がなぜ大魔王に{n}ねらわれているのかも{wait}{f0}オレの話を聞けばわかるはずだ{wait}{page}それから、リンゴパイをだれが{n}盗んだかはわかっていないが、{wait}{f0}怪しいのは３びきのドラゴンなんだ{wait}{page}とりあえず、３びきのドラゴンを{n}調べて来てくれ{wait}{end}",
-  "en": ""
+  "en": "{face:001A}I know! I've got a great idea!{wait}{page}Hey, {name}, find whoever stole the Golden Apple Pie{wait}{f0}and get it back for me.{wait}{page}Do that, and I'll tell you the Great Demon King's secret.{wait}{page}Why the Great Demon King is after you...{wait}{f0}you'll understand once you hear me out.{wait}{page}And I don't know who stole the apple pie,{wait}{f0}but the three dragons are the suspicious ones.{wait}{page}For now, go check out the three dragons.{wait}{end}"
  },
  {
   "id": "B:3169C",
   "jp": "{ee}{face:001A}いったい、誰が盗んで行ったのか{n}わからないんだ{wait}{page}たぶん、３びきのドラゴンたちの{n}誰かじゃないかとは思うんだが・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}I just don't know who could've stolen it.{wait}{page}I figure it's probably one of the three dragons...{wait}{end}"
  },
  {
   "id": "B:3171C",
   "jp": "{face:001A}おお！それは金のリンゴパイ！{wait}{page}これで首がつながった{n}いやー、{name}{wait}{f0}さすがだねー{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Ooh! That's the Golden Apple Pie!{wait}{page}That saves my neck! Wow, {name},{wait}{f0}you're really something!{wait}{end}"
  },
  {
   "id": "B:31774",
   "jp": "{face:0000}エレジーは大魔王の{n}娘だったのか{wait}{end}",
-  "en": ""
+  "en": "{face:0000}So Elegy is the Great Demon King's daughter...{wait}{end}"
  },
  {
   "id": "B:3179C",
   "jp": "{face:001A}オレに金のリンゴパイを{n}作るようにめいれいしたのが{wait}{f0}エレジーなんだ{wait}{page}今度来る時までに{n}金のリンゴパイを{wait}{f0}用意しておかなかったら{wait}{f0}オレは魔王をくびになって{f0}ただのデビルになってしまうんだ{wait}{end}",
-  "en": ""
+  "en": "{face:001A}The one who ordered me to make the Golden Apple Pie{wait}{f0}was Elegy.{wait}{page}If I don't have a Golden Apple Pie{wait}{f0}ready by the next time she comes,{wait}{f0}I'll get fired as Demon Lord{f0}and end up as just a plain old Devil!{wait}{end}"
  },
  {
   "id": "B:31864",
   "jp": "{ee}{face:001A}{name}か・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}{name}, huh...{wait}{end}"
  },
  {
   "id": "B:31878",
   "jp": "{face:001A}何度来ても同じ事だ！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}No matter how many times you come, it's the same!{wait}{end}"
  },
  {
   "id": "B:31894",
   "jp": "{ee}デビルがいなくなった！{wait}{page}良かった！これで安心して{wait}{n}歩いて帰れるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Devils are gone!{wait}{page}Thank goodness! Now I can relax{wait}{n}and walk home.{wait}{end}"
  },
  {
   "id": "B:318E0",
   "jp": "{face:001A}赤いツノを使えば{n}ファイアーランドへ行けます{wait}{f0}がんばって下さい・・・{wait}{end}",
-  "en": ""
+  "en": "{face:001A}With the Red Horn, you can go to Fire Land.{wait}{f0}Best of luck to you...{wait}{end}"
  },
  {
   "id": "B:31930",
   "jp": "チッ・・あーあ・・{wait}{end}",
-  "en": ""
+  "en": "Tch... Aw, man...{wait}{end}"
  },
  {
   "id": "B:31948",
   "jp": "{ee}{face:001A}やや！！まだいらしたんですか？{wait}{n}サークルゲートならここを出て{f0}南です！{wait}{f0}がんばって下さい！！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}Oh my!! You're still here?{wait}{n}If it's the Circle Gate you want, go out{f0}and head south!{wait}{f0}Best of luck to you!!{wait}{end}"
  },
  {
   "id": "B:319B4",
   "jp": "指名手配{wait}{end}",
-  "en": ""
+  "en": "WANTED{wait}{end}"
  },
  {
   "id": "B:319C0",
   "jp": "{ee}第１級ハンザイシャ{n}この顔にピンと来たら１１０番{wait}{end}",
-  "en": ""
+  "en": "{ee}Most Wanted Criminal. If this face rings a bell, call the police!{wait}{end}"
  },
  {
   "id": "B:319F8",
   "jp": "・・・オレ？{wait}{end}",
-  "en": ""
+  "en": "...Me?{wait}{end}"
  },
  {
   "id": "B:31A08",
   "jp": "風邪のためりんじ休業中{wait}{end}",
-  "en": ""
+  "en": "Closed today due to a cold.{wait}{end}"
  },
  {
   "id": "B:31A24",
   "jp": "{ee}西にある森の奥には{n}ニーズホッグが住んでいるぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Nidhoggr lives deep in the forest to the west!{wait}{end}"
  },
  {
   "id": "B:31A5C",
   "jp": "　よけいなお世話だ{n}　オレに近よるな{end}",
-  "en": ""
+  "en": "Mind your own business{n}Stay away from me{end}"
  },
  {
   "id": "B:31A84",
   "jp": "{ee}クロークルワッハに{n}会いに行くのかい？{wait}{page}とちゅうでハーピーに会ったら{n}声をかけてみろよ{wait}{page}あいつは心をいやす{n}美しい歌を歌うんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Going to see Crom Cruach?{wait}{page}If you meet Harpy on the way, try talking to her.{wait}{page}She sings beautiful songs that heal the heart.{wait}{end}"
  },
  {
   "id": "B:31B0C",
   "jp": "{ee}ここはフォレストランドの{n}ベッドタウンさ{wait}{f0}ここから北に行った森には{f0}クロークルワッハが住んでいるんだぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Forest Land's suburb.{wait}{f0}Crom Cruach lives in the forest{f0}north of here.{wait}{end}"
  },
  {
   "id": "B:31B7C",
   "jp": "ゴウカな花タバを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got a Gorgeous Bouquet!{wait}{end}"
  },
  {
   "id": "B:31B9C",
   "jp": "{ee}ここはフォレストランドです{wait}{n}ここから東に行くと{f0}ダハーカの住む森に行けます{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Forest Land.{wait}{n}Head east from here{f0}to reach the forest where Dahaka lives.{wait}{end}"
  },
  {
   "id": "B:31BF0",
   "jp": "{ee}ニーズホッグに会いに行くのかい？{wait}{page}とちゅうでキオクを無くした{n}デビルに会うかもしれないぞ{wait}{page}あいつは心にきずをおって{n}キオクを無くしてしまったんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Going to see Nidhoggr?{wait}{page}On the way, you might meet a Devil who lost its memory.{wait}{page}Its heart was badly hurt, and it lost its memories.{wait}{end}"
  },
  {
   "id": "B:31C8C",
   "jp": "{ee}森に住む３びきのドラゴンは{n}みんな強いゾ！{wait}{page}それに森の中は{n}迷いやすくて危険だ{wait}{f0}行くんならチャント{f0}じゅんびしてから行けよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}The three dragons in the forest are all strong!{wait}{page}And it's easy to get lost in the forest. It's dangerous!{wait}{f0}If you're going, make sure{f0}you get ready first!{wait}{end}"
  },
  {
   "id": "B:31D14",
   "jp": "{ee}西にある森行ったか？{wait}{page}あそこには心にきずをおって{n}きおくを無くしたデビルがいるんだ{wait}{page}あいつを助ける事ができたら{n}いい事を教えてやるんだがなあ{wait}{end}",
-  "en": ""
+  "en": "{ee}Been to the forest in the west?{wait}{page}There's a Devil there whose heart was hurt, and it lost its memory.{wait}{page}If you can help it, I'll tell you something good.{wait}{end}"
  },
  {
   "id": "B:31DAC",
   "jp": "{ee}ニスロクと話したかい？{wait}{page}あいつはこの間{n}女の子のデビルチルドレンが{wait}{f0}集めて来た材料で{wait}{f0}金のリンゴパイを作って{wait}{f0}ベリアルにさし出したんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you talked to Nisroc?{wait}{page}The other day, a girl Devil Child{wait}{f0}gathered some ingredients,{wait}{f0}and he made a Golden Apple Pie with them{wait}{f0}and gave it to Belial.{wait}{end}"
  },
  {
   "id": "B:31E40",
   "jp": "{ee}北の森にある宝箱の中の{wait}{n}エンブレムを見つけたら{wait}{page}スフィンクスを連れて{n}訓練所に行くといいぞ{wait}{page}そして、パートナーを訓練する{n}デビルに話しかけてみろ{wait}{page}同じようなエンブレムは{n}セントラルランドにもあるそうだ{wait}{end}",
-  "en": ""
+  "en": "{ee}There's an emblem in a treasure chest{wait}{n}in the north forest. If you find it,{wait}{page}take Sphinx to the training ground.{wait}{page}Then talk to the Devil who trains partners.{wait}{page}They say there's a similar emblem in Central Land, too.{wait}{end}"
  },
  {
   "id": "B:31F18",
   "jp": "{ee}誰かが金のリンゴパイを{n}盗んでから{wait}{f0}魔王ベリアルのきげんが{f0}スッゴク、悪いんだ{wait}{page}今、話しかけたら・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Ever since someone stole the Golden Apple Pie,{wait}{f0}Demon Lord Belial has been{f0}in a SUPER bad mood!{wait}{page}If you talk to him now...{wait}{end}"
  },
  {
   "id": "B:31F88",
   "jp": "ラララ・ラストメシアァー！！{n}チャラッチャーララ・ララララ！！{wait}{f0}・・・・・・{wait}{end}",
-  "en": ""
+  "en": "La la la, Last Messiah--!!{n}Cha-ra-cha-ra-ra, ra-ra-ra-ra!!{wait}{f0}......{wait}{end}"
  },
  {
   "id": "B:31FDC",
   "jp": "メシアソングを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got the Messiah Song!{wait}{end}"
  },
  {
   "id": "B:31FFC",
   "jp": "オレを見つめるそのヒトミ・・・{n}さてはホレたな！{wait}{f0}オレにホレちゃあいけないよ{f0}オレは危険な男だ{wait}{end}",
-  "en": ""
+  "en": "Those eyes staring at me... You've fallen for me, haven't you!{wait}{f0}Don't fall for me, though.{f0}I'm a dangerous man.{wait}{end}"
  },
  {
   "id": "B:32060",
   "jp": "連れないなぁ{wait}{end}",
-  "en": ""
+  "en": "Aw, so cold...{wait}{end}"
  },
  {
   "id": "B:32070",
   "jp": "{ee}魔王ベリアルのやしきなら{n}銀行の北がわにあるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Belial's mansion is on the north side of the bank.{wait}{end}"
  },
  {
   "id": "B:320A4",
   "jp": "{ee}{face:0006}私に何か用？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0006}Need something from me?{wait}{end}"
  },
  {
   "id": "B:320BC",
   "jp": "{ee}バケモノがいなくなって{n}良かったな{wait}{page}これで太陽が戻って来れば{n}いう事はないんだがなあ{wait}{end}",
-  "en": ""
+  "en": "{ee}Good thing the monster's gone.{wait}{page}Now if only the sun came back, everything would be perfect.{wait}{end}"
  },
  {
   "id": "B:32118",
@@ -341,66 +341,66 @@
  {
   "id": "B:32128",
   "jp": "{ee}この国はどんなヨコシマな{n}アイも自由なの！{wait}{f0}自分に正直な{f0}レンアイをしましょ！{wait}{end}",
-  "en": ""
+  "en": "{ee}In this land, love is free, no matter how wicked!{wait}{f0}Be honest with yourself{f0}and fall in love!{wait}{end}"
  },
  {
   "id": "B:32180",
   "jp": "{ee}あのニスロクが作ったリンゴパイは{n}すっごく美味しいに決まってるもの{wait}{f0}盗みたくなる気持ちもわかるわ{wait}{end}",
-  "en": ""
+  "en": "{ee}An apple pie made by Nisroc is bound to be super delicious.{wait}{f0}I can see why someone would want to steal it.{wait}{end}"
  },
  {
   "id": "B:321E8",
   "jp": "{ee}{face:001B}オレサマは無敵のドラゴン{n}ダハーカ様だ！{wait}{f0}何の用だ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001B}I am the invincible dragon, the great Dahaka!{wait}{f0}Whaddaya want?{wait}{end}"
  },
  {
   "id": "B:32228",
   "jp": "　リンゴパイを盗んだのは誰？{n}　金のリンゴパイを返せ！{end}",
-  "en": ""
+  "en": "Who stole the apple pie?{n}Give back the Golden Apple Pie!{end}"
  },
  {
   "id": "B:32260",
   "jp": "{face:001B}さーな・・・・・！{wait}{page}ひょっとするとニーズホッグかな{wait}{page}うーん、きっとアイツだな{wait}{end}",
-  "en": ""
+  "en": "{face:001B}Who knows.....!{wait}{page}Maybe it was Nidhoggr...{wait}{page}Hmm, yeah, it's gotta be that guy.{wait}{end}"
  },
  {
   "id": "B:322B8",
   "jp": "{face:001B}とつぜん何だ！許さん！！{wait}{end}",
-  "en": ""
+  "en": "{face:001B}What's this, out of nowhere!? You'll pay!!{wait}{end}"
  },
  {
   "id": "B:322D8",
   "jp": "{face:001B}強いな・・・・だが{n}盗んだのはオレじゃないぞ{wait}{end}",
-  "en": ""
+  "en": "{face:001B}You're strong.... But I'm not the one who stole it!{wait}{end}"
  },
  {
   "id": "B:3230C",
   "jp": "{ee}{face:001D}オレサマは無敵のドラゴン{n}ニーズホッグ様だ！{wait}{f0}何の用だ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001D}I am the invincible dragon, the great Nidhoggr!{wait}{f0}Whaddaya want?{wait}{end}"
  },
  {
   "id": "B:32350",
   "jp": "{face:001D}さーな・・・・・！{wait}{page}ひょっとするとクロークルワッハかな{wait}{page}うーん、きっとアイツだな{wait}{end}",
-  "en": ""
+  "en": "{face:001D}Who knows.....!{wait}{page}Maybe it was Crom Cruach...{wait}{page}Hmm, yeah, it's gotta be that guy.{wait}{end}"
  },
  {
   "id": "B:323AC",
   "jp": "{face:001D}とつぜん何だ！許さん！！{wait}{end}",
-  "en": ""
+  "en": "{face:001D}What's this, out of nowhere!? You'll pay!!{wait}{end}"
  },
  {
   "id": "B:323CC",
   "jp": "{face:001D}強いな・・・・だが{n}盗んだのはオレじゃないぞ{wait}{end}",
-  "en": ""
+  "en": "{face:001D}You're strong.... But I'm not the one who stole it!{wait}{end}"
  },
  {
   "id": "B:32400",
   "jp": "{ee}{face:001C}オレサマは無敵のドラゴン{n}クロークルワッハ様だ！{wait}{f0}何の用だ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001C}I am the invincible dragon, the great Crom Cruach!{wait}{f0}Whaddaya want?{wait}{end}"
  },
  {
   "id": "B:32448",
   "jp": "{face:001C}さーな・・・・・！{wait}{page}ひょっとするとダハーカかな{wait}{page}うーん、きっとアイツだな{wait}{end}",
-  "en": ""
+  "en": "{face:001C}Who knows.....!{wait}{page}Maybe it was Dahaka...{wait}{page}Hmm, yeah, it's gotta be that guy.{wait}{end}"
  }
 ]

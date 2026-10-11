@@ -2,147 +2,147 @@
  {
   "id": "B:27F68",
   "jp": "{face:0000}・・・空が・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...The sky...{wait}{end}"
  },
  {
   "id": "B:27F80",
   "jp": "{ee}{face:0001}急ぐならオレのせなかに乗れよ！{wait}{page}街の外なら、乗せてやれるぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}If you're in a hurry, hop on my back!{wait}{page}I can give you a ride anywhere outside town!{wait}{end}"
  },
  {
   "id": "B:27FC8",
   "jp": "{face:0001}{voice:008A}そんなに、あわてて探したって{wait}{page}{voice:008B}かんたんにナガヒサが{n}見つかるとは、思えないぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:008A}Rushing around searching like that{wait}{page}{voice:008B}isn't gonna make Nagahisa turn up that easy!{wait}{end}"
  },
  {
   "id": "B:28028",
   "jp": "{face:0001}これはヴィネコンという{n}ポケットパソコンさ{wait}{page}デビライザーの中の仲魔を{n}入れ替えたりできるらしい{wait}{page}なんでも、ヴィネセンターって所に{n}仲魔が登録されるらしい・・{wait}{page}オレも封印されてたんで{n}そんなにくわしくないんだがな{wait}{end}",
-  "en": ""
+  "en": "{face:0001}This is a pocket computer called a Vinecom.{wait}{page}Seems you can swap out the allies in your Deviliser with it.{wait}{page}Supposedly your allies get registered at some place called the Vine Center...{wait}{page}I was sealed away, though, so I don't know much about it.{wait}{end}"
  },
  {
   "id": "B:28108",
   "jp": "{face:0000}{voice:0061}魔界を治めてる王様？？{wait}{n}{voice:0062}その王様のめいれいだとしたら{wait}{page}{voice:0063}ナガヒサは魔界に{n}連れて行かれたかもしれないよ！{wait}{page}{voice:0064}・・・魔界なんて{n}どうやったら行けるんだ・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0061}The king who rules Makai??{wait}{n}{voice:0062}If it was that king's orders...{wait}{page}{voice:0063}then Nagahisa might've been taken to Makai!{wait}{page}{voice:0064}...How do you even get to Makai...?{wait}{end}"
  },
  {
   "id": "B:281C0",
   "jp": "{face:0001}{voice:008C}もし、大魔王がめいれいして{n}お前をおそわせたとしたら{wait}{page}{voice:008D}そして、ナガヒサをさらったのも{n}大魔王のめいれいだとしたら{wait}{page}{voice:008E}お前にとって魔界は{n}敵だらけって事だぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:008C}If the Great Demon King ordered them to attack you,{wait}{page}{voice:008D}and if kidnapping Nagahisa was the Great Demon King's order too,{wait}{page}{voice:008E}then for you, Makai is full of enemies!{wait}{end}"
  },
  {
   "id": "B:28274",
   "jp": "{face:0000}{voice:008F}敵だらけ・・・？{wait}{page}{voice:0090}だけど、オレはナガヒサを{n}見つけて、連れ戻さなくちゃ！{wait}{page}{voice:0091}どんなに危険でも{n}弟を探しに行くんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:008F}Full of enemies...?{wait}{page}{voice:0090}But I have to find Nagahisa and bring him back!{wait}{page}{voice:0091}No matter how dangerous it is, I'm going to find my brother!{wait}{end}"
  },
  {
   "id": "B:282FC",
   "jp": "{face:0001}{ea}・・・・・・・・・{wait}{page}{voice:0092}・・・そうか、いいどきょうだな！{n}気に入ったぜ！{wait}{page}{voice:0093}パートナーとして、このオレも{n}最後までつきあうぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{ea}.........{wait}{page}{voice:0092}...I see. You've got guts! I like that!{wait}{page}{voice:0093}As your partner, I'll stick with you to the very end!{wait}{end}"
  },
  {
   "id": "B:2838C",
   "jp": "ちょっと待った！{wait}{page}大魔王の城ダークパレスに{n}何の用だ！？{wait}{end}",
-  "en": ""
+  "en": "Hold it right there!{wait}{page}What business do you have at the Dark Palace, castle of the Great Demon King!?{wait}{end}"
  },
  {
   "id": "B:283CC",
   "jp": "ん！？それはデビライザーと{n}虹色のメシアのツノ・・！！{wait}{page}しばらくここで待っているんだ！{wait}{end}",
-  "en": ""
+  "en": "Hm!? That's a Deviliser and the rainbow Messiah Horn...!!{wait}{page}Wait right here for a while!{wait}{end}"
  },
  {
   "id": "B:28428",
   "jp": "　セントラルランド　ダークパレス{n}　　　　　大魔王の部屋{wait}{end}",
-  "en": ""
+  "en": "Central Land - Dark Palace{n}Great Demon King's Chamber{wait}{end}"
  },
  {
   "id": "B:28464",
   "jp": "さてはキサマ！ドロボーか！{n}問答無用！！{wait}{page}ドロボーめ！！おとなしくしろ！！{wait}{end}",
-  "en": ""
+  "en": "So you're a thief, are you! No excuses!!{wait}{page}Thief!! Come quietly!!{wait}{end}"
  },
  {
   "id": "B:284B4",
   "jp": "コイツをつかまえろ！！{n}大魔王様のごめいれいだ！{wait}{page}アイスランドの城のろうやへ{n}送りこむんだ！{wait}{end}",
-  "en": ""
+  "en": "Seize this one!! By order of the Great Demon King!{wait}{page}Send the thief to the prison in the castle of Ice Land!{wait}{end}"
  },
  {
   "id": "B:28518",
   "jp": "にくい、にくい！{n}ウソつきなアイツがにくい！{wait}{page}にくい、にくい！{n}もう許せない！{wait}{end}",
-  "en": ""
+  "en": "I hate them, I hate them! I hate that liar!{wait}{page}I hate them, I hate them! I'll never forgive them!{wait}{end}"
  },
  {
   "id": "B:2856C",
   "jp": "{voice:0130}コレ・・・使って！{wait}{end}",
-  "en": ""
+  "en": "{voice:0130}Here... use this!{wait}{end}"
  },
  {
   "id": "B:28588",
   "jp": "{ee}セントラルランドから{n}送られて来た人間って{wait}{f0}あなたね{wait}{end}",
-  "en": ""
+  "en": "{ee}The human they sent over from Central Land...{wait}{f0}that's you, right?{wait}{end}"
  },
  {
   "id": "B:285C4",
   "jp": "　逃げる{n}　逃げない{end}",
-  "en": ""
+  "en": "Escape{n}Don't escape{end}"
  },
  {
   "id": "B:285DC",
   "jp": "{face:0011}そう、ヨカッタ！{n}でも、逃げる前に{wait}{f0}仲魔を見つけた方がヨクナイ？{wait}{page}しばらく待っててあげるから{n}ここにいるデビルたちに{wait}{f0}声をかけてみれば？{wait}{page}仲魔になってくれるかもよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Oh, good! But before you escape...{wait}{f0}wouldn't it be, like, smarter to find some allies?{wait}{page}I'll wait for you a bit, so why not try{wait}{f0}talking to the Devils in here?{wait}{page}They might become your allies!{wait}{end}"
  },
  {
   "id": "B:28690",
   "jp": "{face:0011}逃げるじゅんびはできたのね？{wait}{end}",
-  "en": ""
+  "en": "{face:0011}So, you ready to escape?{wait}{end}"
  },
  {
   "id": "B:286B4",
   "jp": "　もう少し待ってくれ{n}　じゅんびオッケー！{end}",
-  "en": ""
+  "en": "Wait a little longer{n}Ready to go!{end}"
  },
  {
   "id": "B:286E0",
   "jp": "{face:0011}早くしてよ！{wait}{n}あたし、ジレッタイ男は{f0}キライなのよっ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Hurry it up!{wait}{n}I, like, totally hate{f0}slowpoke guys!{wait}{end}"
  },
  {
   "id": "B:28720",
   "jp": "{face:0011}そうっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Great!{wait}{end}"
  },
  {
   "id": "B:28730",
   "jp": "とつぜん、ゆかにアナが開いた！{wait}{end}",
-  "en": ""
+  "en": "Suddenly, a hole opened in the floor!{wait}{end}"
  },
  {
   "id": "B:28754",
   "jp": "{ee}人間なのに魔界にいて{n}しかもケルベロスを連れてるなんて{wait}{page}キット、特別なチカラを{n}持ってるんでしょうね！{wait}{page}逃げるんなら、タダでいいから{n}私も仲魔にしてよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}You're a human, but you're in Makai, and you've even got a Cerberus with you...{wait}{page}You MUST have some kind of special power!{wait}{page}If you're escaping, make me your ally too! I'll join for free!{wait}{end}"
  },
  {
   "id": "B:287F8",
   "jp": "　ケイヤクする！{n}　ケイヤクしない！{end}",
-  "en": ""
+  "en": "Make a contract!{n}No contract!{end}"
  },
  {
   "id": "B:28820",
   "jp": "私はネコマタの{n}名もないコソドロなの！よろしくね！{wait}{page}それから、よけいな事だけど{n}ヴィネコンのコマンドを使うと{wait}{f0}仲魔の事がわかるわよ！{wait}{end}",
-  "en": ""
+  "en": "I'm a Nekomata, a nameless little thief! Nice to meet you!{wait}{page}Oh, and this is none of my business, but if you use the Vinecom's commands,{wait}{f0}you can learn all about your allies!{wait}{end}"
  },
  {
   "id": "B:288AC",
   "jp": "チェッ！そうなのね！！{wait}{end}",
-  "en": ""
+  "en": "Hmph! So that's how it is!!{wait}{end}"
  },
  {
   "id": "B:288C8",
   "jp": "{ee}いつでもコールしてね！{n}力になるわよ！{wait}{page}それからよけいな事だけど{n}ヴィネコンのコマンドを使うと{wait}{f0}仲魔の事がわかるわよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Call me anytime! I'll lend you a hand!{wait}{page}Oh, and this is none of my business, but if you use the Vinecom's commands,{wait}{f0}you can learn all about your allies!{wait}{end}"
  },
  {
   "id": "B:28948",
   "jp": "{ee}ディープホールへ落ちたら{n}誰も戻って来れない{wait}{page}明日にはここにいるみんな{n}落とされちまうんだ！！{wait}{page}逃げるんなら、タダでいいから{n}オレも仲魔にしてくれよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Nobody who falls into the Deep Hole ever comes back.{wait}{page}Tomorrow, everyone in here is getting thrown in!!{wait}{page}If you're escaping, make me your ally too! I'll join for free!{wait}{end}"
  },
  {
   "id": "B:289E8",
@@ -151,22 +151,22 @@
  {
   "id": "B:28A10",
   "jp": "オレはサンドドラゴンの{n}名もないコソドロだよ！よろしく！{wait}{page}それから、セントウでキゼツした{n}仲魔を復活させるには{wait}{page}ホテルのカウンターにいるデビルに{n}話しかけるといいんだ{wait}{page}キゼツした仲魔は{n}さっさと復活させた方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "I'm a Sand Dragon, a nameless little thief! Nice to meet you!{wait}{page}Oh, and to revive allies who fainted in battle,{wait}{page}just talk to the Devil at the hotel counter.{wait}{page}Better revive fainted allies right away.{wait}{end}"
  },
  {
   "id": "B:28AF0",
   "jp": "ああ・・・もう、おしまいだ！{wait}{end}",
-  "en": ""
+  "en": "Ah... It's all over for me!{wait}{end}"
  },
  {
   "id": "B:28B10",
   "jp": "{ee}助かった！ディープホールへは{n}落ちたくない！{wait}{page}それから、あんたの持ってる{n}ヴィネコンだけど{wait}{f0}電話やパソコンの{f0}ある所でヴィネセンターを{wait}{f0}呼び出すと、仲魔を呼んだり{f0}できるそうだ、タメシテミテクレ！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm saved! I don't wanna fall into the Deep Hole!{wait}{page}Oh, and about that Vinecom you've got...{wait}{f0}if you call up the Vine Center{f0}from a place with a phone or computer,{wait}{f0}you can call your allies and{f0}stuff, I hear. Give it a try!{wait}{end}"
  },
  {
   "id": "B:28BE0",
   "jp": "{ee}このアイスランドを治めてるのは{n}ヘルっていう魔王なんッスが{wait}{page}まるでおれたちをドレイのように{n}あつかいやがるッス{wait}{page}おかげで、みんなコソドロにでも{n}ならなきゃ、やっていけないッスよ！{wait}{page}逃げるんなら、タダでいいから{n}オレも仲魔にして欲しいッス！{wait}{end}",
-  "en": ""
+  "en": "{ee}The one who rules this Ice Land is a Demon Lord called Hel, boss,{wait}{page}and he treats us all like slaves.{wait}{page}Thanks to him, we all gotta be petty thieves just to get by, boss!{wait}{page}If you're escaping, I'd like you to make me your ally too! I'll join for free, boss!{wait}{end}"
  },
  {
   "id": "B:28CDC",
@@ -175,22 +175,22 @@
  {
   "id": "B:28D04",
   "jp": "オレはヘアリージャックの{n}名もないコソドロッス！{wait}{f0}よろしくッス！{wait}{page}それから、よけいな事だけど{wait}{n}おれたち仲魔は、いくら{f0}戦っても強くなんないッス{wait}{page}強い仲魔が欲しかったら{wait}{n}怪しい館って所で{f0}ガンガン、合体するッスよ{wait}{end}",
-  "en": ""
+  "en": "I'm a Hairy Jack, a nameless little thief!{wait}{f0}Nice to meet ya, boss!{wait}{page}Oh, and this is none of my business, but...{wait}{n}us allies don't get any stronger{f0}no matter how much we fight, boss.{wait}{page}If you want strong allies...{wait}{n}go to a place called the Mysterious Mansion{f0}and fuse, fuse, fuse, boss!{wait}{end}"
  },
  {
   "id": "B:28DE4",
   "jp": "そッスか・・・ざんねんッス・・・{wait}{end}",
-  "en": ""
+  "en": "Is that so... What a shame, boss...{wait}{end}"
  },
  {
   "id": "B:28E08",
   "jp": "{ee}逃げられるんなら、弱そうな{n}マスターでもいいッス！{wait}{page}それから、よけいな事だけど{wait}{n}おれたち仲魔は、戦っても{f0}強くなんないッス{wait}{page}強い仲魔が欲しかったら{wait}{n}怪しい館って所で{f0}ガンガン、合体するッスよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If I can escape, even a weak-looking master is fine by me, boss!{wait}{page}Oh, and this is none of my business, but...{wait}{n}us allies don't get any stronger{f0}from fighting, boss.{wait}{page}If you want strong allies...{wait}{n}go to a place called the Mysterious Mansion{f0}and fuse, fuse, fuse, boss!{wait}{end}"
  },
  {
   "id": "B:28ED4",
   "jp": "{ee}この国はアイスランドってんだ{wait}{page}魔王はヘルってんだけどよ{n}そりゃーもう、ひどいやつでよー{wait}{f0}ちょっと悪口言っただけで{f0}このザマだ！{wait}{page}オレを仲魔にしたいのか？{wait}{page}オレは高いぜ？{wait}{end}",
-  "en": ""
+  "en": "{ee}This country's called Ice Land.{wait}{page}The Demon Lord's name is Hel, and man, is he ever a nasty one.{wait}{f0}I badmouthed him just a little{f0}and look at me now!{wait}{page}You want me as an ally?{wait}{page}I don't come cheap, ya know?{wait}{end}"
  },
  {
   "id": "B:28F8C",
@@ -199,212 +199,212 @@
  {
   "id": "B:28FB4",
   "jp": "あんたみたいに{n}弱そうなやつとは、組めねーな{wait}{page}だけど、いい事を教えてやるぜ！{wait}{n}デビルと戦っている時に{f0}仲魔にしたいやつがいたら{wait}{page}話しかけて、こうしょうすれば{n}仲魔になってくれる時があるぞ{wait}{page}くわしい事は{n}自分で試してみればワカルサ！{wait}{end}",
-  "en": ""
+  "en": "I can't team up with somebody as weak-looking as you.{wait}{page}But I'll tell you something good!{wait}{n}When you're fighting Devils,{f0}if there's one you want as an ally,{wait}{page}talk to it and negotiate, and sometimes it'll become your ally.{wait}{page}For the details, try it yourself and you'll see!{wait}{end}"
  },
  {
   "id": "B:290A8",
   "jp": "オレはヒッポウの{n}名もないコソドロだ！よろしくな！{wait}{end}",
-  "en": ""
+  "en": "I'm a Bi Fang, a nameless little thief! Nice to meet ya!{wait}{end}"
  },
  {
   "id": "B:290E0",
   "jp": "オレとケイヤクするってんなら{n}おまえもしっかり強くなれよ{wait}{page}弱いヤツといっしょに戦うのは{n}ゴメンだぜ{wait}{page}ま、デビライザーで呼び出せる仲魔は{wait}{n}{name}の強さで{f0}決まるからな{wait}{page}もし、おまえが弱すぎるようなら{n}オレはヴィネセンターでのんびりするよ{wait}{end}",
-  "en": ""
+  "en": "If you're gonna make a contract with me, you'd better get strong too.{wait}{page}I'm not fighting alongside some weakling.{wait}{page}See, which allies your Deviliser can call...{wait}{n}it's {name}'s strength{f0}that decides it.{wait}{page}If you turn out too weak, I'll just kick back at the Vine Center.{wait}{end}"
  },
  {
   "id": "B:291D4",
   "jp": "{ee}早くオレを戦わせてくれよな{wait}{page}それと、おせっかいかもしれないが{n}チュウコクしとくぜ{wait}{page}仲魔ができた時{n}デビライザーに空きがあっても{wait}{f0}{name}が{f0}呼び出せない仲魔だと{wait}{f0}ヴィネセンターから出てこないぞ{wait}{page}わすれるなよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hurry up and let me fight, okay?{wait}{page}And, maybe I'm butting in, but here's a warning.{wait}{page}When you get a new ally, even if your Deviliser has an open slot,{wait}{f0}if it's an ally that {name}{f0}can't call yet,{wait}{f0}it won't come out of the Vine Center.{wait}{page}Don't forget it.{wait}{end}"
  },
  {
   "id": "B:292AC",
   "jp": "{face:0011}こっちよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Over here!{wait}{end}"
  },
  {
   "id": "B:292C0",
   "jp": "{face:0011}{name}！！助けて！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}{name}!! Help me!!{wait}{end}"
  },
  {
   "id": "B:292D8",
   "jp": "{face:002B}{voice:00A3}オレはしょうきんかせぎの{n}ハンター、ガルム！！{wait}{page}{voice:00A4}ろうやから逃げたやつらは{n}高く売れるからな！ヘヘヘッ{wait}{page}{voice:00A5}オレのメシの種になってもらうぜ{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:00A3}I'm the bounty hunter, Garm!!{wait}{page}{voice:00A4}Prison escapees sell for a high price! Heh heh heh!{wait}{page}{voice:00A5}You're gonna be my next meal ticket!{wait}{end}"
  },
  {
   "id": "B:29374",
   "jp": "{face:002B}{voice:00AC}クッソー！{n}今回は見逃してやる{wait}{page}{voice:00AD}おぼえてろよ！{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:00AC}Dammit! I'll let you off this time!{wait}{page}{voice:00AD}You haven't seen the last of me!{wait}{end}"
  },
  {
   "id": "B:293B4",
   "jp": "{voice:0131}ん、あ、ああ・・・ありがとう{wait}{end}",
-  "en": ""
+  "en": "{voice:0131}Huh? Oh, uh... thanks.{wait}{end}"
  },
  {
   "id": "B:293D8",
   "jp": "{face:0011}強いわね{name}♥{wait}{page}もう少し行くと外に出るわ{n}その先のどうくつの中から{wait}{f0}私のかくれがに通じる{wait}{f0}道があるからね{wait}{page}じゃあ私、先に行ってるわね{wait}{end}",
-  "en": ""
+  "en": "{face:0011}You're so strong, {name}!{wait}{page}A little further and you'll be outside. From inside the cave past there,{wait}{f0}there's a path that leads{wait}{f0}to my hideout, okay?{wait}{page}Well, I'll go on ahead!{wait}{end}"
  },
  {
   "id": "B:2946C",
   "jp": "{ee}{face:0011}おそかったじゃない！{wait}{page}でも、どうやら無事のようね！{wait}{page}だけど{name}！{n}あなた！アイスランド中に{wait}{f0}指名手配されちゃったわよ{wait}{page}それってチョー、ヤバイじゃん{wait}{n}あんまり目立たない事ね！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0011}You took forever!{wait}{page}But looks like you made it okay!{wait}{page}But {name}! You've gone and{wait}{f0}gotten yourself wanted all over Ice Land!{wait}{page}That's, like, super bad!{wait}{n}Better keep a low profile!{wait}{end}"
  },
  {
   "id": "B:2952C",
   "jp": "{voice:0132}そ、それじゃあ、先に行くね{wait}{end}",
-  "en": ""
+  "en": "{voice:0132}W-well then, I'll go on ahead.{wait}{end}"
  },
  {
   "id": "B:29550",
   "jp": "{face:0000}{voice:017F}ま、待てよ！ナガヒサ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:017F}W-wait! Nagahisa!{wait}{end}"
  },
  {
   "id": "B:29574",
   "jp": "{ee}ヨッ！ダイアナから聞いてるぜ{n}お前、人間のくせに{wait}{f0}デビライザーとかヴィネコン{f0}持ってんだって！{wait}{page}どっからイタダイテ来たんだ{n}オレに教えろヨッ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Yo! Diana told me about you. You're a human, but{wait}{f0}you've got a Deviliser and{f0}a Vinecom, huh!{wait}{page}Where'd you swipe 'em from? Tell me, yo!{wait}{end}"
  },
  {
   "id": "B:2960C",
   "jp": "{ee}{face:0011}{name}{n}助けに来てくれたのね！！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0011}{name}! You came to rescue me!!{wait}{end}"
  },
  {
   "id": "B:29634",
   "jp": "{ee}ダイアナ様を助けて下さって{n}ありがとうございます！{wait}{end}",
-  "en": ""
+  "en": "{ee}Thank you for rescuing Diana-sama!{wait}{end}"
  },
  {
   "id": "B:2966C",
   "jp": "{ee}が、がんばります！！！！{wait}{end}",
-  "en": ""
+  "en": "{ee}W-we'll do our best!!!!{wait}{end}"
  },
  {
   "id": "B:2968C",
   "jp": "トーゾクダンに{n}がんばられてもなぁ・・・{wait}{end}",
-  "en": ""
+  "en": "Not sure I want a band of thieves doing their best...{wait}{end}"
  },
  {
   "id": "B:296B8",
   "jp": "ダイアナがコッチを見て{n}にらんでいる・・・{wait}{end}",
-  "en": ""
+  "en": "Diana is glaring this way...{wait}{end}"
  },
  {
   "id": "B:296E8",
   "jp": "{ee}ヒーホー！ボクは{n}サンドランドに行きたいんだホー{wait}{page}マーブルランドの魔王が持ってる{wait}{n}白いメシアのツノがあれば{wait}{f0}行けるんだってホー{wait}{page}だけど、あそこは熱くって{n}ぼくらはトケチャウんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! I wanna go to Sand Land-ho!{wait}{page}The Demon Lord of Marble Land has...{wait}{n}a white Messiah Horn, and with that{wait}{f0}you can get there, I hear-ho!{wait}{page}But it's so hot there, guys like us would melt-ho!{wait}{end}"
  },
  {
   "id": "B:297AC",
   "jp": "{ee}ここはゲートタウンだホー{wait}{n}街の南には{f0}サークルゲートがあるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Gate Town-ho!{wait}{n}South of town{f0}is the Circle Gate-ho!{wait}{end}"
  },
  {
   "id": "B:297F8",
   "jp": "{ee}この街を出て東にある{n}川をわたり、北に向かうと{wait}{f0}フロストタウンがあるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Leave this town, cross the river to the east, and head north,{wait}{f0}and you'll find Frost Town-ho!{wait}{end}"
  },
  {
   "id": "B:2984C",
   "jp": "{ee}ヒーホー！{wait}{page}メシアのツノって知ってる？{wait}{page}ちがった色のメシアのツノで{n}ちがった魔界に行けるんだホー{wait}{page}赤、青、緑と虹の色{n}白と紫、金の色{wait}{page}これだけあれば、どの魔界にも{n}行けるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho!{wait}{page}Do you know about Messiah Horns?{wait}{page}Messiah Horns of different colors take you to different lands of Makai-ho!{wait}{page}Red, blue, green, and rainbow,{n}white, purple, and gold.{wait}{page}With all of those, you can go to any land of Makai-ho!{wait}{end}"
  },
  {
   "id": "B:2990C",
   "jp": "{ee}このアイスランドには{n}コトダマっていうデビルがいるホー{wait}{page}フロストタウンのホテルで聞けば{n}コトダマがどこにいるか{wait}{f0}わかるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Here in Ice Land, there's a Devil called Kotodama-ho!{wait}{page}If you ask at the hotel in Frost Town, they can tell you{wait}{f0}where Kotodama is-ho!{wait}{end}"
  },
  {
   "id": "B:29994",
   "jp": "{ee}このゲートは別の魔界への{n}入り口だホー{wait}{page}メシアのツノを持ってると{n}別の魔界に行けるんだホー{wait}{page}たとえば、魔王ヘルが持ってる{n}金色のメシアのツノがあれば{wait}{page}マーブルランドに行けるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}This gate is the entrance to other lands of Makai-ho!{wait}{page}If you have a Messiah Horn, you can go to another land-ho!{wait}{page}For example, with the gold Messiah Horn that Demon Lord Hel has,{wait}{page}you can go to Marble Land-ho!{wait}{end}"
  },
  {
   "id": "B:29A54",
   "jp": "{ee}セントウで呼び出されるデビルは{wait}{page}デビライザーにセットしている{n}じゅんばんに出てくるから{wait}{f0}ヴィネコンのならびかえコマンドを{wait}{f0}使って、ならびかえるといいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Devils called out in battle{wait}{page}come out in the order they're set in your Deviliser,{wait}{f0}so you should use the Vinecom's Arrange command{wait}{f0}to put them in order.{wait}{end}"
  },
  {
   "id": "B:29AF8",
   "jp": "指名手配のにがおえが{n}はってある！{wait}{end}",
-  "en": ""
+  "en": "A wanted poster is up on the wall!{wait}{end}"
  },
  {
   "id": "B:29B20",
   "jp": "{face:0000}・・・オレだ・・！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...That's me...!?{wait}{end}"
  },
  {
   "id": "B:29B3C",
   "jp": "{ee}大魔王の使いが{n}魔王ヘルに会いに来たんだホー{wait}{page}ヘルのやつは大魔王のめいれいは{n}何でも聞くくせに{wait}{page}おれたちのねがい事は{n}何にも聞こうとはしないんだホー{wait}{page}おれたちはみんな仲良くしたいのに{n}ヘルはおれたちにひどい事を{wait}{f0}めいれいするんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}A messenger from the Great Demon King came to see Demon Lord Hel-ho!{wait}{page}That Hel does whatever the Great Demon King orders,{wait}{page}but he won't listen to a single one of our wishes-ho!{wait}{page}We all just want to get along, but Hel{wait}{f0}orders us to do horrible things-ho!{wait}{end}"
  },
  {
   "id": "B:29C34",
   "jp": "{ee}わがままな魔王ヘルを{n}倒してくれて{wait}{f0}どうもありがとう！{wait}{end}",
-  "en": ""
+  "en": "{ee}You beat that selfish Demon Lord Hel{wait}{f0}for us. Thank you so much!{wait}{end}"
  },
  {
   "id": "B:29C74",
   "jp": "{ee}ねぇ！ボクとカキ氷でも{n}食べない？{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey! Want to eat some shaved ice with me?{wait}{end}"
  },
  {
   "id": "B:29C9C",
   "jp": "こんなに寒いのに！？{wait}{end}",
-  "en": ""
+  "en": "In this cold!?{wait}{end}"
  },
  {
   "id": "B:29CB4",
   "jp": "　ぜったい食べない！{n}　こんじょうで食べる！{end}",
-  "en": ""
+  "en": "No way I'm eating that!{n}Tough it out and eat!{end}"
  },
  {
   "id": "B:29CE4",
   "jp": "{ee}それはザンネン・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Aww, too bad...{wait}{end}"
  },
  {
   "id": "B:29D00",
   "jp": "はい！どうぞ♥{wait}{end}",
-  "en": ""
+  "en": "Here you go!{wait}{end}"
  },
  {
   "id": "B:29D14",
   "jp": "・・・やめておけば良かった{wait}{end}",
-  "en": ""
+  "en": "...I should've said no.{wait}{end}"
  },
  {
   "id": "B:29D34",
   "jp": "{ee}残さず食べてネ♥{wait}{end}",
-  "en": ""
+  "en": "{ee}Eat every last bite, okay!{wait}{end}"
  },
  {
   "id": "B:29D4C",
   "jp": "{ee}デビルって合体しないと{n}ぜーんぜん、強くならないのヨ！{wait}{page}私も誰かと合体して{n}強くなりたーいっ♥{wait}{end}",
-  "en": ""
+  "en": "{ee}Devils don't get any stronger at all unless they fuse!{wait}{page}I wanna fuse with someone and get super strong too!{wait}{end}"
  },
  {
   "id": "B:29DB4",
   "jp": "{ee}魔王ヘル様が住んでいる{n}エリューズニルのお城なら{wait}{f0}ココを出て、まっすぐよ{wait}{page}さっき女の子が{n}走って行ったんだけど{wait}{f0}あれはとうぞくだんのダイアナよ{wait}{page}その後をしょうきんかせぎの{n}フェンリルが追っかけて行ったの{wait}{page}また、つかまらなきゃいいけどね{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Hel-sama's castle, Eljudnir, is{wait}{f0}straight ahead once you leave here.{wait}{page}A girl ran off that way a little while ago,{wait}{f0}and that was Diana of the thieves' gang.{wait}{page}Right after her, Fenrir the bounty hunter went chasing after her.{wait}{page}Hope she doesn't get caught again...{wait}{end}"
  },
  {
   "id": "B:29EB0",
   "jp": "{ee}キミと話してたのは{n}トーゾクのダイアナだろっ！{wait}{page}お城の方に走って行ったけど{wait}{page}せっかく、ろうやから逃げたのに{n}何しに行ったんだホー！？{wait}{end}",
-  "en": ""
+  "en": "{ee}The one you were talking to was Diana the thief, right!?{wait}{page}She ran off toward the castle,{wait}{page}but she finally got out of the prison, so what'd she go back there for-ho!?{wait}{end}"
  },
  {
   "id": "B:29F40",
   "jp": "{ee}ヘルをやっつけたんだって！{n}ダイアナが言ってたホー{wait}{end}",
-  "en": ""
+  "en": "{ee}You beat Hel, I hear! Diana told us-ho!{wait}{end}"
  },
  {
   "id": "B:29F78",
   "jp": "{ee}ゲートタウンの東の方で{n}フィールドに生えている木の上にね{wait}{f0}コトダマってデビルが住んでるホー{wait}{page}コトダマがいる木に東の方から{n}声をかけると、ときどき{wait}{f0}出て来てくれる事があるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}East of Gate Town, in the trees growing out in the field,{wait}{f0}lives a Devil called Kotodama-ho!{wait}{page}If you call out to Kotodama's tree from the east side, sometimes{wait}{f0}it'll come out to see you-ho!{wait}{end}"
  },
  {
   "id": "B:2A034",
@@ -417,6 +417,6 @@
  {
   "id": "B:2A078",
   "jp": "{face:00FF}モアイが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Moai became your ally!{wait}{end}"
  }
 ]

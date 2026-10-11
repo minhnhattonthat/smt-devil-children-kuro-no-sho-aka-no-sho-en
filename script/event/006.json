@@ -87,7 +87,7 @@
  {
   "id": "B:2FF94",
   "jp": "{ee}夏休みが終わったらオレんちで{n}カードゲーム大会をするんだ！{wait}{f0}いっしょにどう？{wait}{end}",
-  "en": "{ee}When summer vacation's over, I'm having a card game tournament at my place!{wait}{f0}Wanna join?{wait}{end}"
+  "en": "{ee}When summer vacation's over, I'm holding a card game tournament at my place!{wait}{f0}Wanna join?{wait}{end}"
  },
  {
   "id": "B:2FFE8",
@@ -196,7 +196,7 @@
  },
  {
   "id": "B:30564",
-  "jp": "{face:0008}{voice:017A}光と闘の戦いの中で{n}ぼくは、光のがわにいて{wait}{page}{voice:017B}兄さんは、闘のがわの{n}デビルチルドレンとして{wait}{page}{voice:017C}ぼくと、戦う事になるんだ{wait}{end}",
+  "jp": "{face:0008}{voice:017A}光と闇の戦いの中で{n}ぼくは、光のがわにいて{wait}{page}{voice:017B}兄さんは、闇のがわの{n}デビルチルドレンとして{wait}{page}{voice:017C}ぼくと、戦う事になるんだ{wait}{end}",
   "en": "{face:0008}{voice:017A}In the battle between light and darkness, I'm on the side of light...{wait}{page}{voice:017B}and you, big brother, are a Devil Child on the side of darkness...{wait}{page}{voice:017C}so you and I are going to fight.{wait}{end}"
  },
  {
