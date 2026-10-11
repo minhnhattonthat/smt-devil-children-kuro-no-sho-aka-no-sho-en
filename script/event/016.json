@@ -284,7 +284,7 @@
  {
   "id": "B:40934",
   "jp": "{face:000D}何という事だ！{n}仲魔がいっぱいではないか{wait}{page}ヴィネセンターかライザーの中の{n}仲魔をへらして{wait}{f0}もう一度、話しかけてくれ{wait}{end}",
-  "en": "{face:000D}What is this!? Your allies are full!{wait}{page}Reduce the allies in the Vine Center or your Riser,{wait}{f0}then speak to me once more.{wait}{end}"
+  "en": "{face:000D}What is this!? Your allies are full!{wait}{page}Reduce the allies in the Vine Center or your Deviliser,{wait}{f0}then speak to me once more.{wait}{end}"
  },
  {
   "id": "B:409B4",

@@ -2,139 +2,139 @@
  {
   "id": "BM:000810",
   "jp": "かう{end}",
-  "en": "",
+  "en": "Buy{end}",
   "max": 6
  },
  {
   "id": "BM:000816",
   "jp": "うる{end}",
-  "en": "",
+  "en": "Sell{end}",
   "max": 6
  },
  {
   "id": "BM:00086A",
   "jp": "キゼツ{end}",
-  "en": "",
+  "en": "Fainted{end}",
   "max": 10
  },
  {
   "id": "BM:000898",
   "jp": "※※仲魔　いちらん※※{end}",
-  "en": "",
+  "en": "**Ally List**{end}",
   "max": 24
  },
  {
   "id": "BM:0008BA",
   "jp": "※※合体する仲魔※※{end}",
-  "en": "",
+  "en": "**Allies to Fuse**{end}",
   "max": 22
  },
  {
   "id": "BM:0008DC",
   "jp": "仲魔を　えらんでください{end}",
-  "en": "",
+  "en": "Choose an ally.{end}",
   "max": 28
  },
  {
   "id": "BM:0008FE",
   "jp": "１体目を　せんたくしてください{end}",
-  "en": "",
+  "en": "Select the first ally.{end}",
   "max": 34
  },
  {
   "id": "BM:000920",
   "jp": "２体目を　せんたくしてください{end}",
-  "en": "",
+  "en": "Select the second ally.{end}",
   "max": 32
  },
  {
   "id": "BM:0009E4",
   "jp": "※※デビライザ－※※{end}",
-  "en": "",
+  "en": "**Deviliser**{end}",
   "max": 24
  },
  {
   "id": "BM:000A00",
   "jp": "場所を　選んでください{end}",
-  "en": "",
+  "en": "Choose a slot.{end}",
   "max": 24
  },
  {
   "id": "BM:000A1C",
   "jp": "※※キングライザ－※※{end}",
-  "en": "",
+  "en": "**King Riser**{end}",
   "max": 24
  },
  {
   "id": "BM:000A38",
   "jp": "きりかえ{end}",
-  "en": "",
+  "en": "Switch{end}",
   "max": 12
  },
  {
   "id": "BM:000AD4",
   "jp": "けいしょう{end}",
-  "en": "",
+  "en": "Inherit{end}",
   "max": 12
  },
  {
   "id": "BM:000AE4",
   "jp": "おぼえる{end}",
-  "en": "",
+  "en": "Learn{end}",
   "max": 12
  },
  {
   "id": "BM:000AF4",
   "jp": "魔法せんたく{end}",
-  "en": "",
+  "en": "Select Magic{end}",
   "max": 16
  },
  {
   "id": "BM:000BC4",
   "jp": "ミライ{end}",
-  "en": "",
+  "en": "Mirai{end}",
   "max": 8
  },
  {
   "id": "BM:000BCE",
   "jp": "ナガヒサ{end}",
-  "en": "",
+  "en": "Nagahisa{end}",
   "max": 10
  },
  {
   "id": "BM:000BD8",
   "jp": "エレジー{end}",
-  "en": "",
+  "en": "Elegy{end}",
   "max": 12
  },
  {
   "id": "BM:000BE4",
   "jp": "なまえ　を　いれてください{end}",
-  "en": "",
+  "en": "Please enter a name.{end}",
   "max": 28
  },
  {
   "id": "BM:0018F0",
   "jp": "スロット１{end}",
-  "en": "",
+  "en": "Slot 1{end}",
   "max": 12
  },
  {
   "id": "BM:0018FC",
   "jp": "スロット２{end}",
-  "en": "",
+  "en": "Slot 2{end}",
   "max": 12
  },
  {
   "id": "BM:001908",
   "jp": "はい{end}",
-  "en": "",
+  "en": "Yes{end}",
   "max": 8
  },
  {
   "id": "BM:001910",
   "jp": "いいえ{end}",
-  "en": "",
+  "en": "No{end}",
   "max": 8
  },
  {
@@ -148,25 +148,25 @@
  {
   "id": "BM:0019B0",
   "jp": "デ－タ１{end}",
-  "en": "",
+  "en": "Data 1{end}",
   "max": 12
  },
  {
   "id": "BM:0019C0",
   "jp": "デ－タ２{end}",
-  "en": "",
+  "en": "Data 2{end}",
   "max": 12
  },
  {
   "id": "BM:0019D0",
   "jp": "デ－タ３{end}",
-  "en": "",
+  "en": "Data 3{end}",
   "max": 12
  },
  {
   "id": "BM:0019E0",
   "jp": "仲魔　　　体{end}",
-  "en": "",
+  "en": "Allies{end}",
   "max": 16
  },
  {
@@ -188,7 +188,7 @@
  {
   "id": "BM:001AB0",
   "jp": "ネットライザー{end}",
-  "en": "",
+  "en": "Net Riser{end}",
   "max": 16
  },
  {
@@ -206,79 +206,79 @@
  {
   "id": "BM:001B30",
   "jp": "デビライザー　　体{end}",
-  "en": "",
+  "en": "Deviliser{end}",
   "max": 20
  },
  {
   "id": "BM:001B46",
   "jp": "キングライザー　　体{end}",
-  "en": "",
+  "en": "King Riser{end}",
   "max": 22
  },
  {
   "id": "BM:001BC4",
   "jp": "なぞのデビル{end}",
-  "en": "",
+  "en": "Mystery Devil{end}",
   "max": 16
  },
  {
   "id": "BM:001ED4",
   "jp": "ぎ　あずけるきんがく{end}",
-  "en": "",
+  "en": "ぎ　あずけるきんがく{end}",
   "max": 22
  },
  {
   "id": "BM:001EEA",
   "jp": "ひきだすきんがく{end}",
-  "en": "",
+  "en": "Withdraw amount{end}",
   "max": 18
  },
  {
   "id": "BM:001F70",
   "jp": "銀行{end}",
-  "en": "",
+  "en": "Bank{end}",
   "max": 8
  },
  {
   "id": "BM:001F7C",
   "jp": "あずける{end}",
-  "en": "",
+  "en": "Deposit{end}",
   "max": 12
  },
  {
   "id": "BM:001F88",
   "jp": "ひきだす{end}",
-  "en": "",
+  "en": "Withdraw{end}",
   "max": 12
  },
  {
   "id": "BM:001F94",
   "jp": "よきんがく{end}",
-  "en": "",
+  "en": "Balance{end}",
   "max": 12
  },
  {
   "id": "BM:001FAC",
   "jp": "※ちりょう※{end}",
-  "en": "",
+  "en": "*Treatment*{end}",
   "max": 16
  },
  {
   "id": "BM:001FC8",
   "jp": "仲魔を　選んでください{end}",
-  "en": "",
+  "en": "Choose an ally.{end}",
   "max": 24
  },
  {
   "id": "BM:002000",
   "jp": "ごうけい　きんがく{end}",
-  "en": "",
+  "en": "Total cost{end}",
   "max": 20
  },
  {
   "id": "BM:00204C",
   "jp": "けってい{end}",
-  "en": "",
+  "en": "Confirm{end}",
   "max": 12
  },
  {
@@ -288,7 +288,7 @@
  {
   "id": "BM:002074",
   "jp": "訓練{end}",
-  "en": "",
+  "en": "Train{end}",
   "max": 8
  },
  {
@@ -298,61 +298,61 @@
  {
   "id": "BM:0020EC",
   "jp": "パラメータ{end}",
-  "en": "",
+  "en": "Stats{end}",
   "max": 12
  },
  {
   "id": "BM:002100",
   "jp": "きんがく{end}",
-  "en": "",
+  "en": "Cost{end}",
   "max": 12
  },
  {
   "id": "BM:002114",
   "jp": "けってい　　やめる{end}",
-  "en": "",
+  "en": "Confirm        Cancel{end}",
   "max": 20
  },
  {
   "id": "BM:00213C",
   "jp": "スタミナ{end}",
-  "en": "",
+  "en": "Stamina{end}",
   "max": 12
  },
  {
   "id": "BM:002150",
   "jp": "かくとう{end}",
-  "en": "",
+  "en": "Fighting{end}",
   "max": 12
  },
  {
   "id": "BM:002164",
   "jp": "魔法{end}",
-  "en": "",
+  "en": "Magic{end}",
   "max": 8
  },
  {
   "id": "BM:002178",
   "jp": "キントレ{end}",
-  "en": "",
+  "en": "Workout{end}",
   "max": 12
  },
  {
   "id": "BM:00218C",
   "jp": "早い{end}",
-  "en": "",
+  "en": "Fast{end}",
   "max": 8
  },
  {
   "id": "BM:0021A0",
   "jp": "ふつう{end}",
-  "en": "",
+  "en": "Normal{end}",
   "max": 8
  },
  {
   "id": "BM:0021B4",
   "jp": "じっくり{end}",
-  "en": "",
+  "en": "Thorough{end}",
   "max": 12
  },
  {
@@ -362,79 +362,79 @@
  {
   "id": "BM:0021F0",
   "jp": "：スタミナ{end}",
-  "en": "",
+  "en": ":Stamina{end}",
   "max": 12
  },
  {
   "id": "BM:0021FC",
   "jp": "：かくとう{end}",
-  "en": "",
+  "en": ":Fighting{end}",
   "max": 12
  },
  {
   "id": "BM:002208",
   "jp": "：キントレ{end}",
-  "en": "",
+  "en": ":Workout{end}",
   "max": 12
  },
  {
   "id": "BM:002214",
   "jp": "：ぜんぜん{end}",
-  "en": "",
+  "en": ":Not yet{end}",
   "max": 12
  },
  {
   "id": "BM:002220",
   "jp": "：まだまだ{end}",
-  "en": "",
+  "en": ":Far to go{end}",
   "max": 12
  },
  {
   "id": "BM:00222C",
   "jp": "：もうすこし{end}",
-  "en": "",
+  "en": ":A bit more{end}",
   "max": 16
  },
  {
   "id": "BM:00223C",
   "jp": "：ほぼおわり{end}",
-  "en": "",
+  "en": ":Nearly done{end}",
   "max": 16
  },
  {
   "id": "BM:00224C",
   "jp": "：できあがり{end}",
-  "en": "",
+  "en": ":Complete{end}",
   "max": 16
  },
  {
   "id": "BM:00225C",
   "jp": "：おぼえた{end}",
-  "en": "",
+  "en": ":Learned{end}",
   "max": 12
  },
  {
   "id": "BM:002272",
   "jp": "売り切れ{end}",
-  "en": "",
+  "en": "Sold out{end}",
   "max": 10
  },
  {
   "id": "BM:00228A",
   "jp": "もっています{end}",
-  "en": "",
+  "en": "Owned{end}",
   "max": 14
  },
  {
   "id": "BM:002298",
   "jp": "せんたく{end}",
-  "en": "",
+  "en": "Select{end}",
   "max": 12
  },
  {
   "id": "BM:0022B4",
   "jp": "こすう{end}",
-  "en": "",
+  "en": "Qty{end}",
   "max": 8
  },
  {
@@ -444,31 +444,31 @@
  {
   "id": "BM:0022EE",
   "jp": "回復{end}",
-  "en": "",
+  "en": "Heal{end}",
   "max": 6
  },
  {
   "id": "BM:002304",
   "jp": "こうげき{end}",
-  "en": "",
+  "en": "Attack{end}",
   "max": 12
  },
  {
   "id": "BM:00231A",
   "jp": "ほじょ{end}",
-  "en": "",
+  "en": "Support{end}",
   "max": 10
  },
  {
   "id": "BM:002330",
   "jp": "その他{end}",
-  "en": "",
+  "en": "Other{end}",
   "max": 8
  },
  {
   "id": "BM:00235C",
   "jp": "アイテムがありません{end}",
-  "en": "",
+  "en": "No items.{end}",
   "max": 22
  },
  {
@@ -482,25 +482,25 @@
  {
   "id": "BM:002406",
   "jp": "追タぎけいひん　いちらん{end}",
-  "en": "",
+  "en": "追タぎけいひん　いちらん{end}",
   "max": 26
  },
  {
   "id": "BM:00273C",
   "jp": "…＋＝々＃■★３８DHIKMOQRSTUVXabdgijkopqtuwyあいしじすぞただちでどなばびぴぶぷべめらりれろ、▲をアィオクザシジゾタヅテデネバベミムメュョヨヮワヴ誰悪暗引院右運{end}",
-  "en": "",
+  "en": "…＋＝々＃■★３８DHIKMOQRSTUVXabdgijkopqtuwyあいしじすぞただちでどなばびぴぶぷべめらりれろ、▲をアィオクザシジゾタヅテデネバベミムメュョヨヮワヴ誰悪暗引院右運{end}",
   "max": 188
  },
  {
   "id": "BM:0032E0",
   "jp": "ひんし{end}",
-  "en": "",
+  "en": "Dying{end}",
   "max": 8
  },
  {
   "id": "BM:003318",
   "jp": "盾盾盾盾盾盾常常。　。　メニュ－{end}",
-  "en": "",
+  "en": "盾盾盾盾盾盾常常。　。　メニュ－{end}",
   "max": 36
  },
  {
@@ -522,55 +522,55 @@
  {
   "id": "BM:0033C0",
   "jp": "とくべつ{end}",
-  "en": "",
+  "en": "Special{end}",
   "max": 12
  },
  {
   "id": "BM:00357C",
   "jp": "おんせい{end}",
-  "en": "",
+  "en": "Voice{end}",
   "max": 12
  },
  {
   "id": "BM:003588",
   "jp": "オン{end}",
-  "en": "",
+  "en": "On{end}",
   "max": 8
  },
  {
   "id": "BM:003596",
   "jp": "オフ{end}",
-  "en": "",
+  "en": "Off{end}",
   "max": 6
  },
  {
   "id": "BM:0035AC",
   "jp": "サウンド{end}",
-  "en": "",
+  "en": "Sound{end}",
   "max": 12
  },
  {
   "id": "BM:0035B8",
   "jp": "ステレオ{end}",
-  "en": "",
+  "en": "Stereo{end}",
   "max": 12
  },
  {
   "id": "BM:0035C4",
   "jp": "モノラル{end}",
-  "en": "",
+  "en": "Mono{end}",
   "max": 12
  },
  {
   "id": "BM:003634",
   "jp": "フランケン　　{end}",
-  "en": "",
+  "en": "Franken{end}",
   "max": 16
  },
  {
   "id": "BM:003654",
   "jp": "ヴィネコンをもっていません{wait}{end}",
-  "en": "",
+  "en": "You don't have a Vinecom.{wait}{end}",
   "max": 32
  },
  {
@@ -584,223 +584,223 @@
  {
   "id": "BM:003684",
   "jp": "この仲魔はいません{end}",
-  "en": "",
+  "en": "Ally not found.{end}",
   "max": 20
  },
  {
   "id": "BM:003704",
   "jp": "デビダス：とうろくすう{end}",
-  "en": "",
+  "en": "Devidas: Registered{end}",
   "max": 24
  },
  {
   "id": "BM:003720",
   "jp": "ナンバ－{end}",
-  "en": "",
+  "en": "No.{end}",
   "max": 12
  },
  {
   "id": "BM:00373C",
   "jp": "なまえ{end}",
-  "en": "",
+  "en": "Name{end}",
   "max": 8
  },
  {
   "id": "BM:003758",
   "jp": "しゅぞく{end}",
-  "en": "",
+  "en": "Race{end}",
   "max": 12
  },
  {
   "id": "BM:003774",
   "jp": "ぞくせい{end}",
-  "en": "",
+  "en": "Attribute{end}",
   "max": 12
  },
  {
   "id": "BM:003790",
   "jp": "レベル{end}",
-  "en": "",
+  "en": "Level{end}",
   "max": 8
  },
  {
   "id": "BM:0037AC",
   "jp": "コンボ{end}",
-  "en": "",
+  "en": "Combo{end}",
   "max": 8
  },
  {
   "id": "BM:0037C8",
   "jp": "別れる　：仲魔の数{end}",
-  "en": "",
+  "en": "Release: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:0037E4",
   "jp": "よびだす：仲魔の数{end}",
-  "en": "",
+  "en": "Summon: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:003800",
   "jp": "みる　　：仲魔の数{end}",
-  "en": "",
+  "en": "View: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:00381C",
   "jp": "いどう　：仲魔の数{end}",
-  "en": "",
+  "en": "Move: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:003838",
   "jp": "よぶ　　：仲魔の数{end}",
-  "en": "",
+  "en": "Call: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:003854",
   "jp": "へんこう：仲魔の数{end}",
-  "en": "",
+  "en": "Change: Allies{end}",
   "max": 20
  },
  {
   "id": "BM:003870",
   "jp": "デ－タがありません{end}",
-  "en": "",
+  "en": "No data.{end}",
   "max": 20
  },
  {
   "id": "BM:003884",
   "jp": "vわじぴジ４w▲　Vす５ふ▼スラロ。Wxずをズ・６yぶXzせんセ：７ぁ夢{end}",
-  "en": "",
+  "en": "vわじぴジ４w▲　Vす５ふ▼スラロ。Wxずをズ・６yぶXzせんセ：７ぁ夢{end}",
   "max": 76
  },
  {
   "id": "BM:0038D0",
   "jp": "ぷァゼYぜパヒ？８あそへソ[00FF]！９ZべアAぃぞぺィゾーaいイ／Bぅたほゥタリヮ（Cうだビピ…Dbちフ鍵）Eぇウダバブプ常{end}",
-  "en": "",
+  "en": "ぷァゼYぜパヒ？８あそへソ[00FF]！９ZべアAぃぞぺィゾーaいイ／Bぅたほゥタリヮ（Cうだビピ…Dbちフ鍵）Eぇウダバブプ常{end}",
   "max": 120
  },
  {
   "id": "BM:003948",
   "jp": "「cえぢェ暗」Fっエチヘ悪dつぼ意Gぉ雨＋eづぽォヂfおまベペホ院Hかてみオッ－gで委Iとむカ誰×がどガツボルワ{end}",
-  "en": "",
+  "en": "「cえぢェ暗」Fっエチヘ悪dつぼ意Gぉ雨＋eづぽォヂfおまベペホ院Hかてみオッ－gで委Iとむカ誰×がどガツボルワ{end}",
   "max": 116
  },
  {
   "id": "BM:0039BC",
   "jp": "Jhきめキ＝Kiぎギ育￥くなもヅポ々Ljぐゃク朝にやグテマ安％kけミム一＃Mゅケデ♥lげぬ■Nmこゆnねょゲト盾{end}",
-  "en": "",
+  "en": "Jhきめキ＝Kiぎギ育￥くなもヅポ々Ljぐゃク朝にやグテマ安％kけミム一＃Mゅケデ♥lげぬ■Nmこゆnねょゲト盾{end}",
   "max": 116
  },
  {
   "id": "BM:003A30",
   "jp": "★oごのゴン※Oさよド０pはコPざqらサナレ゛１rばモ゜ヲ引Qしりザニsぱヌメャヴ２RるSれシネヤュ員{end}",
-  "en": "",
+  "en": "★oごのゴン※Oさよド０pはコPざqらサナレ゛１rばモ゜ヲ引Qしりザニsぱヌメャヴ２RるSれシネヤュ員{end}",
   "max": 104
  },
  {
   "id": "BM:003A98",
   "jp": "３ひユTtろノびョUu、ハ[00FE]ヨ右運{end}",
-  "en": "",
+  "en": "３ひユTtろノびョUu、ハ[00FE]ヨ右運{end}",
   "max": 36
  },
  {
   "id": "BM:003ABC",
   "jp": "t６盾デだソペモKるFプ育運fCび８こxGァンz％あダなっフiろゅRUぜすWミピり引gsaハょ×べげぞlウぽ{end}",
-  "en": "",
+  "en": "t６盾デだソペモKるFプ育運fCび８こxGァンz％あダなっフiろゅRUぜすWミピり引gsaハょ×べげぞlウぽ{end}",
   "max": 112
  },
  {
   "id": "BM:003B2C",
   "jp": "クト院じッィ常ネ★ニヴ■n▼ケぱカm安２゛レキざはでむゥTしみぉゼYロ悪ず＃pラ０bぼれ！）ズゲぃ{end}",
-  "en": "",
+  "en": "クト院じッィ常ネ★ニヴ■n▼ケぱカm安２゛レキざはでむゥTしみぉゼYロ悪ず＃pラ０bぼれ！）ズゲぃ{end}",
   "max": 100
  },
  {
   "id": "BM:003B90",
   "jp": "意づuへoふガせ－７Bセい暗んアヌゆScナうQ＝Dテベ３めゴよq右Zヨ委かジ一{end}",
-  "en": "",
+  "en": "意づuへoふガせ－７Bセい暗んアヌゆScナうQ＝Dテベ３めゴよq右Zヨ委かジ一{end}",
   "max": 80
  },
  {
   "id": "BM:003BE0",
   "jp": "員NIヅ。※パサまPオザ：（ごヮリボホjねコおAくのkき{end}",
-  "en": "",
+  "en": "員NIヅ。※パサまPオザ：（ごヮリボホjねコおAくのkき{end}",
   "max": 60
  },
  {
   "id": "BM:003C1C",
   "jp": "やばチひヂXVぇJヤ　「ェ５ぴ誰v{end}",
-  "en": "",
+  "en": "やばチひヂXVぇJヤ　「ェ５ぴ誰v{end}",
   "max": 36
  },
  {
   "id": "BM:003C40",
   "jp": "ギ、つ[00FF]Hぺ？９♥てちヘh・Eビ￥wえほたタョブツバエyぐ雨L夢わd４さヒワルマノ゜ポユ＋と…ュ」{end}",
-  "en": "",
+  "en": "ギ、つ[00FF]Hぺ？９♥てちヘh・Eビ￥wえほたタョブツバエyぐ雨L夢わd４さヒワルマノ゜ポユ＋と…ュ」{end}",
   "max": 100
  },
  {
   "id": "BM:003CA4",
   "jp": "ぷそOシグぎャぶォ[00FE]スぢr鍵に{end}",
-  "en": "",
+  "en": "ぷそOシグぎャぶォ[00FE]スぢr鍵に{end}",
   "max": 32
  },
  {
   "id": "BM:003CC4",
   "jp": "ぬ々ゃけイをーら{end}",
-  "en": "",
+  "en": "ぬ々ゃけイをーら{end}",
   "max": 20
  },
  {
   "id": "BM:003DEC",
   "jp": "じすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひび常朝育員{end}",
-  "en": "",
+  "en": "じすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひび常朝育員{end}",
   "max": 68
  },
  {
   "id": "BM:003E30",
   "jp": "ぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろ、ヲン{end}",
-  "en": "",
+  "en": "ぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろ、ヲン{end}",
   "max": 60
  },
  {
   "id": "BM:003E6C",
   "jp": "わ▲▼をんァアィイゥウェエォオカガキギクグケゲコゴサザシ[00FF]夢鍵院雨{end}",
-  "en": "",
+  "en": "わ▲▼をんァアィイゥウェエォオカガキギクグケゲコゴサザシ[00FF]夢鍵院雨{end}",
   "max": 68
  },
  {
   "id": "BM:003EB0",
   "jp": "ジスズセゼソゾタダチヂッツヅテデトドナニヌネノハ誰一引{end}",
-  "en": "",
+  "en": "ジスズセゼソゾタダチヂッツヅテデトドナニヌネノハ誰一引{end}",
   "max": 56
  },
  {
   "id": "BM:003EE8",
   "jp": "バパヒビピフブプヘベペホボポマミムメモャヤュユョヨヴ[00FE]右運{end}",
-  "en": "",
+  "en": "バパヒビピフブプヘベペホボポマミムメモャヤュユョヨヴ[00FE]右運{end}",
   "max": 60
  },
  {
   "id": "BM:003F24",
   "jp": "ラリルレロヮワ゛{end}",
-  "en": "",
+  "en": "ラリルレロヮワ゛{end}",
   "max": 20
  },
  {
   "id": "BM:004040",
   "jp": "０３IMTxzかぜつてぴぶぷべむやゅらるれわをんァイエキサジッテパヒプヲ誰一{end}",
-  "en": "",
+  "en": "０３IMTxzかぜつてぴぶぷべむやゅらるれわをんァイエキサジッテパヒプヲ誰一{end}",
   "max": 80
  },
  {
   "id": "BM:004092",
   "jp": "■８Hwyぁあいぅけずせたとぬはばめもゆ▲ィガギクゴゾタヅヌバビロヮワ゛員{end}",
-  "en": "",
+  "en": "■８Hwyぁあいぅけずせたとぬはばめもゆ▲ィガギクゴゾタヅヌバビロヮワ゛員{end}",
   "max": 78
  }
 ]

@@ -23,9 +23,39 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
     {'box': (152, 88, 236, 117), 'text': 'Red Book', 'size': 15},
     {'box': (96, 188, 170, 207), 'text': 'Webnet', 'size': 12},
 ]
+STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite'}  # green-keyed highlight sprite
+TITLE_B = [
+    {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
+    {'box': (12, 185, 88, 203), 'text': 'New Game', 'kind': 'pixel'},
+    {'box': (12, 203, 88, 223), 'text': 'Continue', 'kind': 'pixel'},
+    STRIP,
+]
+TITLE_R = [
+    {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
+    {'box': (170, 185, 246, 203), 'text': 'New Game', 'kind': 'pixel'},
+    {'box': (170, 203, 246, 223), 'text': 'Continue', 'kind': 'pixel'},
+    STRIP,
+]
 EDITS = {
     0x01586800: MENU, 0x01596A20: MENU, 0x015A6C40: MENU,
+    0x015B7000: TITLE_B, 0x015C7800: TITLE_R,
 }
+
+
+def draw_pixel_text(im, x, y, text, body, shadow=None):
+    """Draw with the game's English 16x16 glyphs (font/en16.txt): body colour, optional drop shadow."""
+    import font
+    glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
+    px = im.load()
+    for c in text:
+        g, adv = glyphs[font.EN_BASE + ord(c)]
+        for yy in range(16):
+            for xx in range(16):
+                v = g[yy][xx]
+                col = body if v == 1 else shadow if v == 3 and shadow else None
+                if col and 0 <= x + xx < im.width and 0 <= y + yy - font.EN_TOP < im.height:
+                    px[x + xx, y + yy - font.EN_TOP] = col
+        x += adv
 
 
 def label_mask(im, box, sat=48, light=90):
@@ -89,13 +119,32 @@ def draw_label(im, box, text, size, colour):
 
 
 def edit_tim(t, edits):
+    from collections import Counter
     im = tim.to_image(t).convert('RGB')
+    px = im.load()
     for e in edits:
+        x0, y0, x1, y1 = e['box']
+        kind = e.get('kind', 'label')
+        if kind == 'sprite':  # key-colour background: clear to the key, draw crisp text in the sprite's colour
+            cols = Counter(px[x, y] for y in range(y0, y1) for x in range(x0, x1))
+            key = cols.most_common(1)[0][0]
+            ink = next((c for c, _ in cols.most_common() if c != key), (128, 64, 160))
+            pts = [(x, y) for y in range(y0, y1) for x in range(x0, x1) if px[x, y] != key]
+            top = min(y for _, y in pts) if pts else y0
+            left = min(x for x, _ in pts) if pts else x0
+            for q in pts:
+                px[q] = key
+            draw_pixel_text(im, left, top, e['text'], ink)
+            continue
         mask = label_mask(im, e['box'])
-        px = im.load()
         colour = max((px[q] for q in mask), key=sum) if mask else (220, 220, 220)
+        top = min((y for _, y in mask), default=y0)
+        left = min((x for x, _ in mask), default=x0)
         inpaint(im, mask)
-        draw_label(im, e['box'], e['text'], e['size'], colour)
+        if kind == 'pixel':
+            draw_pixel_text(im, left + 1, top + 1, e['text'], colour, (0, 0, 16))
+        else:
+            draw_label(im, e['box'], e['text'], e['size'], colour)
     return im
 
 

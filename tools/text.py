@@ -18,7 +18,7 @@ CTRL = {
     0xFFFA: ('page', 0),
     0xFFF3: ('wait', 0),
     0xFFF0: ('f0', 0),
-    0xFFFB: ('fb', 0),
+    0xFFFB: ('fb', 1),       # yes/no prompt; arg low byte = default cursor (renderer 0x800335EC)
     0xFFFC: ('speed', 1),
     0xFFEA: ('ea', 0),
     0xFFEB: ('voice', 1),

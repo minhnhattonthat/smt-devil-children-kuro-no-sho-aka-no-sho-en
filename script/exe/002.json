@@ -2,721 +2,721 @@
  {
   "id": "BM:09E0FA",
   "jp": "アイテムが２コいじょうありません{wait}{end}",
-  "en": "",
+  "en": "You need at least 2 of that item.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09E120",
-  "jp": "{ee}　乗りますか？{fb}　{end}",
-  "en": "",
+  "jp": "{ee}　乗りますか？{fb:0000}{end}",
+  "en": "{ee}Get on?{fb:0000} {end}",
   "max": 24
  },
  {
   "id": "BM:09E13A",
   "jp": "ここにはおりられません{wait}{end}",
-  "en": "",
+  "en": "You can't get off here.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E156",
   "jp": "この仲魔を呼びますか？{end}",
-  "en": "",
+  "en": "Call this ally?{end}",
   "max": 26
  },
  {
   "id": "BM:09E172",
   "jp": "この仲魔はすでにいます{wait}{end}",
-  "en": "",
+  "en": "This ally is already out.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E18E",
   "jp": "そこには入れられません{wait}{end}",
-  "en": "",
+  "en": "You can't put that there.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E1AA",
   "jp": "仲魔がいません{wait}{end}",
-  "en": "",
+  "en": "You have no allies.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:09E1BE",
   "jp": "仲魔がいっぱいです{wait}{end}",
-  "en": "",
+  "en": "No room for more allies.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E1D4",
   "jp": "原宿{end}",
-  "en": "",
+  "en": "Harajuku{end}",
   "max": 8
  },
  {
   "id": "BM:09E1DC",
   "jp": "アイスランド{end}",
-  "en": "",
+  "en": "Ice Land{end}",
   "max": 16
  },
  {
   "id": "BM:09E1EC",
   "jp": "マーブルランド{end}",
-  "en": "",
+  "en": "Marble Land{end}",
   "max": 16
  },
  {
   "id": "BM:09E1FC",
   "jp": "サンドランド{end}",
-  "en": "",
+  "en": "Sand Land{end}",
   "max": 16
  },
  {
   "id": "BM:09E20C",
   "jp": "フォレストランド{end}",
-  "en": "",
+  "en": "Forest Land{end}",
   "max": 20
  },
  {
   "id": "BM:09E220",
   "jp": "ファイアーランド{end}",
-  "en": "",
+  "en": "Fire Land{end}",
   "max": 20
  },
  {
   "id": "BM:09E234",
   "jp": "セントラルランド{end}",
-  "en": "",
+  "en": "Central Land{end}",
   "max": 20
  },
  {
   "id": "BM:09E248",
   "jp": "サンクチュアリ{end}",
-  "en": "",
+  "en": "Sanctuary{end}",
   "max": 16
  },
  {
   "id": "BM:09E258",
   "jp": "ディープホール{end}",
-  "en": "",
+  "en": "Deep Hole{end}",
   "max": 16
  },
  {
   "id": "BM:09E268",
-  "jp": "{ee}ふしぎな暗闇が広がっている{wait}{n}とびこみますか？{fb}。{end}",
-  "en": "",
+  "jp": "{ee}ふしぎな暗闇が広がっている{wait}{n}とびこみますか？{fb:0001}{end}",
+  "en": "{ee}A strange darkness spreads out before you.{wait}{n}Jump in?{fb:0001} {end}",
   "max": 56
  },
  {
   "id": "BM:09E2A2",
   "jp": "新手のスタンド使いか！？{wait}{end}",
-  "en": "",
+  "en": "Another Stand user!?{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09E2C2",
   "jp": "まだ、仲魔になっていません{end}",
-  "en": "",
+  "en": "Not your ally yet.{end}",
   "max": 30
  },
  {
   "id": "BM:09E2E2",
-  "jp": "々{num:FFE0:0000}になりますが{n}　よろしいですか？{fb}　{end}",
-  "en": "",
+  "jp": "々{num:FFE0:0000}になりますが{n}　よろしいですか？{fb:0000}{end}",
+  "en": "That'll be {num:FFE0:0000} Macca.{n}Is that OK?{fb:0000} {end}",
   "max": 46
  },
  {
   "id": "BM:09E312",
   "jp": "キゼツしている仲魔は{n}　いませんよ{wait}{end}",
-  "en": "",
+  "en": "None of your allies have fainted.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09E33A",
   "jp": "その名前は使えません！{wait}{end}",
-  "en": "",
+  "en": "You can't use that name!{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E356",
   "jp": "仲魔がいなくなってしまいます！{wait}{end}",
-  "en": "",
+  "en": "You'd have no allies left!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09E37A",
   "jp": "その入れ替えはできません！{wait}{end}",
-  "en": "",
+  "en": "You can't swap those!{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09E398",
   "jp": "どれにしますか{end}",
-  "en": "",
+  "en": "Which one?{end}",
   "max": 16
  },
  {
   "id": "BM:09E3A8",
   "jp": "技を選んでください{end}",
-  "en": "",
+  "en": "Choose a skill.{end}",
   "max": 20
  },
  {
   "id": "BM:09E3BC",
   "jp": "技の効力が切れました{end}",
-  "en": "",
+  "en": "The skill wore off.{end}",
   "max": 24
  },
  {
   "id": "BM:09E3D4",
   "jp": "誰の技を使いますか？{end}",
-  "en": "",
+  "en": "Whose skill will you use?{end}",
   "max": 24
  },
  {
   "id": "BM:09E3EE",
   "jp": "すてられません{wait}{end}",
-  "en": "",
+  "en": "Can't discard.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:09E402",
   "jp": "いくつすてますか？{end}",
-  "en": "",
+  "en": "Discard how many?{end}",
   "max": 22
  },
  {
   "id": "BM:09E41A",
   "jp": "{f7}をすてました{wait}{end}",
-  "en": "",
+  "en": "Discarded {f7}.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:09E42E",
   "jp": "この仲魔は訓練中です{wait}{end}",
-  "en": "",
+  "en": "This ally is in training.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E448",
   "jp": "{name}をすてました{end}",
-  "en": "",
+  "en": "Discarded {name}.{end}",
   "max": 16
  },
  {
   "id": "BM:09E45A",
-  "jp": "{f7}を　{num:FFE0:0000}コ{n}　すててもいいですか？{fb}。{end}",
-  "en": "",
+  "jp": "{f7}を　{num:FFE0:0000}コ{n}　すててもいいですか？{fb:0001}{end}",
+  "en": "Discard {f7} x{num:FFE0:0000}?{n}Are you sure?{fb:0001} {end}",
   "max": 46
  },
  {
   "id": "BM:09E488",
   "jp": "戻す事ができません{wait}{end}",
-  "en": "",
+  "en": "You can't put it back.{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:09E4A0",
   "jp": "パーティーに入っています{wait}{end}",
-  "en": "",
+  "en": "That one's in your party.{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09E4BC",
   "jp": "選んでください{end}",
-  "en": "",
+  "en": "Choose one.{end}",
   "max": 16
  },
  {
   "id": "BM:09E4CE",
   "jp": "どれを使いますか？{wait}{end}",
-  "en": "",
+  "en": "Use which one?{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E4E4",
   "jp": "宝箱には{n}何も入っていなかった{wait}{end}",
-  "en": "",
+  "en": "The treasure chest was empty.{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:09E50A",
   "jp": "々{num:FFE0:0000}　手に入れた{wait}{end}",
-  "en": "",
+  "en": "Got {num:FFE0:0000} Macca!{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E524",
   "jp": "この技は選べません{speed:001E}{end}",
-  "en": "",
+  "en": "Can't choose this skill.{speed:001E}{end}",
   "max": 24
  },
  {
   "id": "BM:09E53E",
   "jp": "敵出現りつアップ！{wait}{end}",
-  "en": "",
+  "en": "Encounter rate up!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E556",
   "jp": "敵出現りつダウン！{wait}{end}",
-  "en": "",
+  "en": "Encounter rate down!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E56E",
   "jp": "ここでは使えません{wait}{end}",
-  "en": "",
+  "en": "Can't use it here.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E586",
   "jp": "そんなにあずかれません{wait}{end}",
-  "en": "",
+  "en": "We can't hold that much.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E5A2",
   "jp": "いくらあずけますか？{end}",
-  "en": "",
+  "en": "Deposit how much?{end}",
   "max": 22
  },
  {
   "id": "BM:09E5BA",
   "jp": "そうですか{n}　ざんねんです{wait}{end}",
-  "en": "",
+  "en": "I see. That's a shame.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09E5DA",
   "jp": "々{num:FFE0:0000}　たしかに{n}　おあずかりしました{wait}{end}",
-  "en": "",
+  "en": "{num:FFE0:0000} Macca, safely deposited.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09E60A",
   "jp": "お金はあずかってませんよ{wait}{end}",
-  "en": "",
+  "en": "We're not holding any money for you.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09E62A",
   "jp": "持ちきれませんよ{n}　お客さん{wait}{end}",
-  "en": "",
+  "en": "You can't carry that much, sir!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09E64E",
   "jp": "いくら引き出しますか？{end}",
-  "en": "",
+  "en": "Withdraw how much?{end}",
   "max": 26
  },
  {
   "id": "BM:09E66A",
   "jp": "々{num:FFE0:0000}　たしかに{n}　おわたししました{wait}{end}",
-  "en": "",
+  "en": "Here's your {num:FFE0:0000} Macca.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09E694",
   "jp": "今は何も売っていません{wait}{end}",
-  "en": "",
+  "en": "Nothing for sale right now.{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09E6B2",
   "jp": "お金が足りないよ{wait}{end}",
-  "en": "",
+  "en": "Not enough money!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E6CA",
   "jp": "まいど{n}　ありがとうございます{wait}{end}",
-  "en": "",
+  "en": "Thank you very much!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09E6EC",
   "jp": "お客さん{n}持ち物がいっぱいです{wait}{end}",
-  "en": "",
+  "en": "Sorry, your inventory is full.{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:09E710",
-  "jp": "{f7}　々{num:FFE0:0000}{n}になりますが、よろしいですか？{fb}　{end}",
-  "en": "",
+  "jp": "{f7}　々{num:FFE0:0000}{n}になりますが、よろしいですか？{fb:0000}{end}",
+  "en": "{f7} costs {num:FFE0:0000} Macca.{n}Is that OK?{fb:0000} {end}",
   "max": 52
  },
  {
   "id": "BM:09E744",
   "jp": "お金がいっぱいですよ{wait}{end}",
-  "en": "",
+  "en": "Your wallet is full!{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:09E75C",
   "jp": "何をお買いもとめですか？{wait}{end}",
-  "en": "",
+  "en": "What would you like to buy?{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09E778",
   "jp": "お客さんは何も{n}持っていませんよ{wait}{end}",
-  "en": "",
+  "en": "You're not carrying anything.{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:09E79C",
   "jp": "何を売りますか？{end}",
-  "en": "",
+  "en": "What will you sell?{end}",
   "max": 20
  },
  {
   "id": "BM:09E7B0",
   "jp": "もうしわけございませんが{n}それは引き取れません{wait}{end}",
-  "en": "",
+  "en": "I'm sorry, but we can't buy that.{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:09E7E4",
-  "jp": "々{num:FFE0:0000}で引き取りますが{n}よろしいですか？{fb}　{end}",
-  "en": "",
+  "jp": "々{num:FFE0:0000}で引き取りますが{n}よろしいですか？{fb:0000}{end}",
+  "en": "I'll buy it for {num:FFE0:0000} Macca.{n}Is that OK?{fb:0000} {end}",
   "max": 48
  },
  {
   "id": "BM:09E814",
   "jp": "何をしますか？{wait}{end}",
-  "en": "",
+  "en": "What will you do?{wait}{end}",
   "max": 20
  },
  {
   "id": "BM:09E828",
   "jp": "何も記録されていません{wait}{end}",
-  "en": "",
+  "en": "Nothing has been recorded.{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09E846",
-  "jp": "本当にいいですか？{fb}　{end}",
-  "en": "",
+  "jp": "本当にいいですか？{fb:0000}{end}",
+  "en": "Are you sure?{fb:0000} {end}",
   "max": 24
  },
  {
   "id": "BM:09E85E",
   "jp": "キゼツしてます{wait}{end}",
-  "en": "",
+  "en": "It has fainted.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:09E872",
   "jp": "持ち物がいっぱいで{n}　持てません{wait}{end}",
-  "en": "",
+  "en": "Your inventory is full. You can't carry it.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09E89A",
   "jp": "{f7}を{n}　あきらめました{wait}{end}",
-  "en": "",
+  "en": "You gave up on {f7}.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E8B6",
   "jp": "{f7}が{n}　入っていた{wait}{end}",
-  "en": "",
+  "en": "Found {f7} inside!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E8CE",
   "jp": "{f7}を{n}　{num:FFE0:0000}コ、手に入れた{wait}{end}",
-  "en": "",
+  "en": "Got {f7} x{num:FFE0:0000}!{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09E8F2",
   "jp": "まだ手に入れてません！{wait}{end}",
-  "en": "",
+  "en": "You haven't gotten it yet!{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09E90E",
   "jp": "仲魔のニックネーム{n}　パートナーのニックネーム{end}",
-  "en": "",
+  "en": "Ally nickname{n}Partner nickname{end}",
   "max": 50
  },
  {
   "id": "BM:09E942",
   "jp": "そんなにあずかっていません{wait}{end}",
-  "en": "",
+  "en": "We're not holding that much.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09E962",
   "jp": "そんなに持っていませんよ{n}　やり直してください{wait}{end}",
-  "en": "",
+  "en": "You don't have that much. Please try again.{wait}{end}",
   "max": 50
  },
  {
   "id": "BM:09E996",
   "jp": "使う相手がいません{wait}{end}",
-  "en": "",
+  "en": "No one to use it on.{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09E9AC",
   "jp": "集めたCDを聞く事ができる{end}",
-  "en": "",
+  "en": "Listen to collected CDs.{end}",
   "max": 28
  },
  {
   "id": "BM:09E9C8",
   "jp": "集めたマップを見る事ができる{end}",
-  "en": "",
+  "en": "View collected maps.{end}",
   "max": 32
  },
  {
   "id": "BM:09E9E8",
   "jp": "キーワードを調べる事ができる{end}",
-  "en": "",
+  "en": "Look up keywords.{end}",
   "max": 32
  },
  {
   "id": "BM:09EA0A",
   "jp": "どちらのニックネームをつけますか？{wait}{end}",
-  "en": "",
+  "en": "Which nickname will you give?{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09EA32",
   "jp": "キゼツしている仲魔は{n}　選べません！{wait}{end}",
-  "en": "",
+  "en": "You can't choose a fainted ally!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09EA5E",
-  "jp": "メダル１０枚で１ゲームです{n}　やりますか？{fb}　{end}",
-  "en": "",
+  "jp": "メダル１０枚で１ゲームです{n}　やりますか？{fb:0000}{end}",
+  "en": "One game costs 10 medals.{n}Want to play?{fb:0000} {end}",
   "max": 50
  },
  {
   "id": "BM:09EA92",
-  "jp": "メダル５０枚で１ゲームです{n}　やりますか？{fb}　{end}",
-  "en": "",
+  "jp": "メダル５０枚で１ゲームです{n}　やりますか？{fb:0000}{end}",
+  "en": "One game costs 50 medals.{n}Want to play?{fb:0000} {end}",
   "max": 50
  },
  {
   "id": "BM:09EAC6",
   "jp": "{name}を{n}　もらいました{wait}{end}",
-  "en": "",
+  "en": "You received {name}.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09EAE0",
   "jp": "アクセスチュウ{end}",
-  "en": "",
+  "en": "Accessing...{end}",
   "max": 16
  },
  {
   "id": "BM:09EAF2",
   "jp": "このアイテムは売り切れですよ{wait}{end}",
-  "en": "",
+  "en": "Sorry, that item is sold out.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09EB16",
   "jp": "合体できる仲魔がいません{wait}{end}",
-  "en": "",
+  "en": "You have no allies that can fuse.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09EB34",
   "jp": "仲魔を２体選んでください{end}",
-  "en": "",
+  "en": "Choose 2 allies.{end}",
   "max": 28
  },
  {
   "id": "BM:09EB50",
   "jp": "仲魔が２体いじょういません{wait}{end}",
-  "en": "",
+  "en": "You need at least 2 allies.{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:09EB72",
   "jp": "ーーーー通信たいきーーーーー{n}　ケーブルを抜かないでください{end}",
-  "en": "",
+  "en": "---- Waiting for link ----{n}Please don't unplug the cable.{end}",
   "max": 62
  },
  {
   "id": "BM:09EBB2",
   "jp": "交換できる仲魔がいません{wait}{end}",
-  "en": "",
+  "en": "You have no allies to trade.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09EBD2",
   "jp": "対戦できる仲魔がいません{wait}{end}",
-  "en": "",
+  "en": "You have no allies to battle.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09EBF2",
-  "jp": "やめます　いいですか？{fb}　{end}",
-  "en": "",
+  "jp": "やめます　いいですか？{fb:0000}{end}",
+  "en": "Quit now. Is that OK?{fb:0000} {end}",
   "max": 30
  },
  {
   "id": "BM:09EC12",
   "jp": "そんなに持てませんよ{n}　やり直してください{wait}{end}",
-  "en": "",
+  "en": "You can't carry that many. Please try again.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09EC42",
   "jp": "数は　{num:FFE0:0002}　です{n}　ビッグ？スモール？{end}",
-  "en": "",
+  "en": "The number is {num:FFE0:0002}.{n}Big? Small?{end}",
   "max": 42
  },
  {
   "id": "BM:09EC6E",
   "jp": "メダルが足りません{n}　５枚から遊べます{wait}{end}",
-  "en": "",
+  "en": "Not enough medals. You need 5 to play.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09EC9A",
   "jp": "１００連勝たっせい！！！{n}　おめでとうございます{wait}{end}",
-  "en": "",
+  "en": "100 wins in a row!!! Congratulations!{wait}{end}",
   "max": 54
  },
  {
   "id": "BM:09ECD2",
   "jp": "どちらの説明を聞きますか？{wait}{page}　ビッグアンドスモール{n}　コードブレイカー{end}",
-  "en": "",
+  "en": "Which game should I explain?{wait}{page}Big and Small{n}Code Breaker{end}",
   "max": 74
  },
  {
   "id": "BM:09ED1E",
   "jp": "{f6}の{n}　効果が切れました{wait}{end}",
-  "en": "",
+  "en": "{f6} wore off.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09ED3E",
   "jp": "{f7}の{n}　効果が切れました{wait}{end}",
-  "en": "",
+  "en": "{f7} wore off.{wait}{end}",
   "max": 30
  },
  {
   "id": "BM:09ED64",
   "jp": "ここではせっていできません{wait}{end}",
-  "en": "",
+  "en": "You can't set that here.{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:09ED86",
   "jp": "まだ、じゅんび中です{wait}{end}",
-  "en": "",
+  "en": "It's not ready yet.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:09EDA2",
   "jp": "デビライザーがセットされています{wait}{end}",
-  "en": "",
+  "en": "The Deviliser is set.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:09EDCA",
   "jp": "デビライザーをセットしました{wait}{end}",
-  "en": "",
+  "en": "You set the Deviliser.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09EDEE",
   "jp": "キングライザーをセットしました{wait}{end}",
-  "en": "",
+  "en": "You set the King Riser.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:09EE12",
   "jp": "どちらをセットしますか？{end}",
-  "en": "",
+  "en": "Which one will you set?{end}",
   "max": 26
  },
  {
   "id": "BM:09EE2C",
-  "jp": "終了してもいいですか？{fb}　{end}",
-  "en": "",
+  "jp": "終了してもいいですか？{fb:0000}{end}",
+  "en": "OK to quit?{fb:0000} {end}",
   "max": 28
  },
  {
   "id": "BM:09EE4A",
   "jp": "現在デビライザーが{n}　セットされています{wait}{end}",
-  "en": "",
+  "en": "The Deviliser is currently set.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09EE7A",
   "jp": "現在キングライザーが{n}　セットされています{wait}{end}",
-  "en": "",
+  "en": "The King Riser is currently set.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:09EEAA",
   "jp": "通信相手の{n}　じゅんびができていません{wait}{end}",
-  "en": "",
+  "en": "The other player isn't ready.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09EED6",
-  "jp": "もう一度やりますか？{fb}　{end}",
-  "en": "",
+  "jp": "もう一度やりますか？{fb:0000}{end}",
+  "en": "Play again?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09EEF2",
   "jp": "デビダスには{n}　何も登録されていません{wait}{end}",
-  "en": "",
+  "en": "Nothing is registered in the Devidas.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:09EF1E",
-  "jp": "本当にやめますか？{fb}　{end}",
-  "en": "",
+  "jp": "本当にやめますか？{fb:0000}{end}",
+  "en": "Really quit?{fb:0000} {end}",
   "max": 26
  },
  {
   "id": "BM:09EF3A",
-  "jp": "上書きしてもよろしいですか？{fb}。{end}",
-  "en": "",
+  "jp": "上書きしてもよろしいですか？{fb:0001}{end}",
+  "en": "OK to overwrite?{fb:0001} {end}",
   "max": 34
  },
  {
   "id": "BM:09EF5E",
   "jp": "何もありません{wait}{end}",
-  "en": "",
+  "en": "Nothing here.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:09EF70",
   "jp": "すでに{f7}は{n}持っています{wait}{end}",
-  "en": "",
+  "en": "You already have {f7}.{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:09EF8E",
   "jp": "何を聞きますか？{end}",
-  "en": "",
+  "en": "What to hear?{end}",
   "max": 18
  },
  {
   "id": "BM:09EFA2",
   "jp": "{f7}を{n}　見つけた！{wait}{end}",
-  "en": "",
+  "en": "Found {f7}!{wait}{end}",
   "max": 22
  },
  {
   "id": "BM:09EFBA",
   "jp": "{f7}は{n}　持って来ていません{wait}{end}",
-  "en": "",
+  "en": "You didn't bring {f7}.{wait}{end}",
   "max": 30
  }
 ]

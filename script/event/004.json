@@ -27,7 +27,7 @@
  {
   "id": "B:2CBE8",
   "jp": "{ee}{face:0015}よく見るとなかなか強そうだ！{n}シュラ族の仲間にならないか？{wait}{end}",
-  "en": "{ee}{face:0015}Hm, take a good look at you... You seem pretty strong! Why not join the Sura tribe?{wait}{end}"
+  "en": "{ee}{face:0015}Now that I look closer, you seem pretty strong! Why not join the Sura tribe?{wait}{end}"
  },
  {
   "id": "B:2CC2C",
@@ -47,7 +47,7 @@
  {
   "id": "B:2CD14",
   "jp": "{ee}よく見ると、なかなか強そうだ！{n}デーバ族の仲間にならないか？{wait}{end}",
-  "en": "{ee}Hm, take a good look at you... You seem pretty strong! Why not join the Deva tribe?{wait}{end}"
+  "en": "{ee}Now that I look closer, you seem pretty strong! Why not join the Deva tribe?{wait}{end}"
  },
  {
   "id": "B:2CD58",
@@ -137,7 +137,7 @@
  {
   "id": "B:2D394",
   "jp": "{name}！{n}オレはオマエの・・・・・・・・だ！{wait}{f0}オマエはしっこくのチカラを・・{f0}・・・・・・・だ！{wait}{f0}世界を・・・・オマエの・・・{f0}・・・・を・・・！！{wait}{f0}そして７つのカギを集めて・・・・！{wait}{end}",
-  "en": "{name}! I am your................!{wait}{f0}You... the power of jet black...{f0}..............!{wait}{f0}The world.... your......{f0}........!!{wait}{f0}And gather the seven keys....!{wait}{end}"
+  "en": "{name}! I am your................!{wait}{f0}You... the power of pitch darkness...{f0}..............!{wait}{f0}The world.... your......{f0}........!!{wait}{f0}And gather the 7 keys....!{wait}{end}"
  },
  {
   "id": "B:2D454",
