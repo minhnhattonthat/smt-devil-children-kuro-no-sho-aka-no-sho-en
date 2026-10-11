@@ -364,7 +364,7 @@ BUTTONS = {  # (x0, y0, x1, y1): English
 }
 LABELS = {  # (x0, y0, x1, y1): English, drawn with the game's 8x8 font
     (144, 34, 180, 47): 'Race', (144, 49, 180, 62): 'Name', (144, 65, 180, 78): 'Level',
-    (144, 81, 180, 94): 'Element', (144, 97, 180, 110): 'Combo', (144, 113, 180, 126): 'Number',
+    (144, 81, 180, 94): 'Elem.', (144, 97, 180, 110): 'Combo', (144, 113, 180, 126): 'Number',
     (180, 32, 217, 40): 'Common', (180, 40, 217, 48): 'Elite', (180, 48, 217, 56): 'General', (180, 56, 217, 64): 'King',
     (180, 72, 217, 80): 'God', (180, 80, 217, 88): 'Akuma', (180, 88, 217, 96): 'Divine', (180, 96, 217, 104): 'Oni',
     (180, 104, 217, 112): 'Specter', (180, 112, 217, 120): 'Draco', (180, 120, 217, 128): 'Yoma',
@@ -433,14 +433,15 @@ def draw_menu_sheet(pac):
                 if s.get(x, y) in (1, 2, 3):
                     s.set(x, y, fill)
         w = sum(glyphs[font.EN_BASE + ord(c)][1] for c in text) - 1
-        gap = 1 if w <= x1 - x0 - 2 else 0  # tight spacing when the word would not fit the button
+        xe = x1 - 5 if x1 == 143 else x1  # the search tabs sample the last columns of the right-hand buttons
+        gap = 1 if w <= xe - x0 - 2 else 0  # tight spacing when the word would not fit the button
         w -= (1 - gap) * (len(text) - 1)
-        x = x0 + max(1, (x1 - x0 - w) // 2)
+        x = x0 + max(1, (xe - x0 - w) // 2)
         for c in text:
             px, adv = glyphs[font.EN_BASE + ord(c)]
             for yy in range(4, 15):
                 for xx in range(16):
-                    if px[yy][xx] == 1 and x + xx < x1 - 1 and y0 + yy - 1 < y1:
+                    if px[yy][xx] == 1 and x + xx < xe - 1 and y0 + yy - 1 < y1:
                         s.set(x + xx, y0 + yy - 1, 1)
             x += adv - (1 - gap)
     f5 = font5()
@@ -449,8 +450,11 @@ def draw_menu_sheet(pac):
             for x in range(x0, x1):
                 if s.get(x, y) in (1, 2, 3):
                     s.set(x, y, 0)
-        x = x0
+        x = x0 + (0 if x0 == 0 else 3)  # the game's cells start ~3 px inside the box: text at x0 lost its first letter
         top = y0 + max(0, (y1 - y0 - 6) // 2)
+        if x0 == 144 and y0 < 120:  # Devidas search tabs: centred
+            w = sum(2 if c == ' ' else len(f5[c][0]) + 1 for c in text.upper()) - 1
+            x = x0 + 3 + max(0, (x1 - x0 - 3 - w) // 2)
         for c in text.upper():
             if c == ' ':
                 x += 2
