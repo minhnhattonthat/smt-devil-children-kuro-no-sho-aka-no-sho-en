@@ -27,12 +27,16 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
 # green-keyed "disabled Continue" sprite: the game draws it exactly over menu line 2 ('match' = that edit's index)
 STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite', 'match': 2}
 TITLE_B = [
+    {'kind': 'logo', 'box': (12, 72, 196, 141), 'sub_box': (58, 46, 145, 77), 'text': ('DEVIL', 'CHILDREN'),
+     'text_box': (14, 74, 188, 140), 'sub': [(54, 57, 'Shin Megami Tensei')]},
     {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
     {'box': (16, 186, 84, 205), 'text': 'New Game', 'kind': 'pixel'},
     {'box': (16, 205, 84, 223), 'text': 'Continue', 'kind': 'pixel'},
     STRIP,
 ]
 TITLE_R = [
+    {'kind': 'logo', 'box': (14, 74, 196, 141), 'sub_box': (80, 44, 155, 75), 'text': ('DEVIL', 'CHILDREN'),
+     'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'sub': [(86, 53, 'Shin Megami Tensei')]},
     {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
     {'box': (172, 188, 242, 207), 'text': 'New Game', 'kind': 'pixel'},
     {'box': (172, 207, 242, 225), 'text': 'Continue', 'kind': 'pixel'},
@@ -122,6 +126,117 @@ def draw_label(im, box, text, size, colour):
     im.paste(layer, (0, 0), layer)
 
 
+def grow(m, r, box):
+    x0, y0, x1, y1 = box
+    return {(x + dx, y + dy) for x, y in m for dx in range(-r, r + 1) for dy in range(-r, r + 1)
+            if x0 <= x + dx < x1 and y0 <= y + dy < y1}
+
+
+def components(m, minsize):
+    """Points of m in 8-connected groups of at least minsize."""
+    left, keep = set(m), set()
+    while left:
+        grp, todo = set(), [left.pop()]
+        while todo:
+            x, y = todo.pop()
+            grp.add((x, y))
+            for q in ((x + dx, y + dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1)):
+                if q in left:
+                    left.remove(q)
+                    todo.append(q)
+        if len(grp) >= minsize:
+            keep |= grp
+    return keep
+
+
+def text_mask(text, font, size, at):
+    """Pixels of text rendered at (x, y), scaled to size=(w, h)."""
+    f = ImageFont.truetype(font, 96)
+    l, t, r, b = f.getbbox(text)
+    m = Image.new('L', (r - l, b - t))
+    ImageDraw.Draw(m).text((-l, -t), text, font=f, fill=255)
+    m = m.resize(size, Image.LANCZOS).load()
+    return {(at[0] + x, at[1] + y) for y in range(size[1]) for x in range(size[0]) if m[x, y] >= 128}
+
+
+LOGO = {}  # logo pixels -> colour from the Black title (edited first), reused to find the same logo under Red's girl
+
+
+def edit_logo(im, e):
+    """Big katakana logo + red kanji line: erase, refill from the surrounding plaque/background, draw English.
+    Characters standing in front of the logo (bright non-logo pixels) stay on top."""
+    import colorsys
+    import random
+    px = im.load()
+    x0, y0, x1, y1 = e['box']
+    sx0, sy0, sx1, sy1 = e['sub_box']
+    box = (x0, sy0, x1, y1)
+    hsv = {q: colorsys.rgb_to_hsv(*(c / 255 for c in px[q])) for q in ((x, y) for y in range(sy0, y1) for x in range(x0, x1))}
+    white = {q for q, (h, s, v) in hsv.items() if s < 0.12 and v > 0.85}
+    warm = {q for q, (h, s, v) in hsv.items() if 12 / 360 <= h <= 65 / 360 and s > 0.3 and v > 0.3 and q[1] >= y0}
+    fill = {q for q in warm if hsv[q][1] > 0.8 and hsv[q][2] > 0.55}
+    red = {q for q, (h, s, v) in hsv.items() if s > 0.5 and v > 0.3 and (h < 12 / 360 or h > 340 / 360)
+           and sx0 <= q[0] < sx1 and sy0 <= q[1] < sy1}
+    if 'ref' not in e:
+        dark = {q for q in grow(fill, 6, box) if hsv[q][2] < 0.6 and hsv[q][1] < 0.3}
+        logo = ((warm & grow(fill, 3, box)) | dark) - white
+        LOGO.update({q: px[q] for q in logo})
+    else:  # same katakana artwork shifted (the kanji line is not): logo where Black's logo colour is still there
+        dx, dy = e['ref']
+        logo = {(x + dx, y + dy) for (x, y), c in LOGO.items()
+                if (x + dx, y + dy) in hsv and sum((a - b) ** 2 for a, b in zip(px[x + dx, y + dy], c)) < 60 ** 2}
+    tx0, ty0, tx1, ty1 = e['text_box']
+    logo |= grow(red, 2, box) - white
+    logo |= {q for q in grow(red, 5, box) if (hsv[q][0] < 15 / 360 or hsv[q][0] > 330 / 360) and hsv[q][1] > 0.12 and hsv[q][2] < 0.8}  # pink haze
+    logo |= {(x, y) for x, y in warm if tx0 <= x < tx1 and ty0 <= y < ty1}  # nothing in front of the logo there
+    bright = {q for q, (h, s, v) in hsv.items() if v > 0.5} - white - logo
+    protect = grow(components(bright, 30), 1, box) - {q for q in logo if q in warm or q in red}
+    if 'ref' in e:  # strict match misses edge pixels whose colour differs between the two titles
+        logo = grow(logo, 3, box) - white
+        logo |= {q for q in grow(logo, 4, box) if hsv[q][1] < 0.15 and hsv[q][2] > 0.55}  # grey edge over the white
+    logo -= protect
+    # logo gradient by row, from the original fill
+    ys = sorted({y for _, y in fill})
+    rows = {y: [px[q] for q in fill if q[1] == y] for y in ys}
+    grad = [tuple(sum(c[k] for c in rows[y]) // len(rows[y]) for k in range(3)) for y in ys]
+    ink = Counter(px[q] for q in red).most_common(1)[0][0]
+    # refill layer by layer from the edge: each pixel copies a random known neighbour (keeps marble speckle / white)
+    rnd = random.Random(1)
+    todo = set(logo)
+    while todo:
+        layer = {}
+        for x, y in sorted(todo):
+            nb = [q for q in ((x + a, y + b) for a in (-1, 0, 1) for b in (-1, 0, 1))
+                  if q not in todo and q not in protect and 0 <= q[0] < im.width and 0 <= q[1] < im.height]
+            if nb:
+                layer[(x, y)] = px[rnd.choice(nb)]
+        if not layer:
+            break
+        for q, c in layer.items():
+            px[q] = c
+        todo -= set(layer)
+    # English logo: each line stretched to the text box width
+    lines = e['text']
+    gap = e.get('gap', 2)
+    lh = (ty1 - ty0 - 8 - gap * (len(lines) - 1)) // len(lines)
+    draw = {}
+    full = (0, 0, im.width, im.height)
+    for i, s in enumerate(lines):
+        ly = ty0 + 4 + i * (lh + gap)
+        m = text_mask(s, str(FONTS / 'impact.ttf'), (tx1 - tx0 - 8, lh), (tx0 + 4, ly))
+        for q in grow(m, 4, full):
+            draw.setdefault(q, (72, 72, 88))
+        for q in grow(m, 2, full):
+            draw[q] = (8, 8, 16)
+        for q in m:
+            draw[q] = grad[min(len(grad) - 1, (q[1] - ly) * len(grad) // lh)]
+    for q, c in draw.items():
+        if q not in protect:
+            px[q] = c
+    for x, y, s in e['sub']:
+        draw_pixel_text(im, x, y, s, ink, (24, 8, 16))
+
+
 def edit_tim(t, edits):
     from collections import Counter
     im = tim.to_image(t).convert('RGB')
@@ -130,6 +245,9 @@ def edit_tim(t, edits):
     for i, e in enumerate(edits):
         x0, y0, x1, y1 = e['box']
         kind = e.get('kind', 'label')
+        if kind == 'logo':
+            edit_logo(im, e)
+            continue
         if kind == 'sprite':  # key-colour background: clear to the key, draw crisp text in the sprite's colour
             cols = Counter(px[x, y] for y in range(y0, y1) for x in range(x0, x1))
             key = cols.most_common(1)[0][0]
