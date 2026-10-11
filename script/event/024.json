@@ -2,52 +2,52 @@
  {
   "id": "R:279F8",
   "jp": "{voice:02E6}ん？これは・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:02E6}Hm? What's this...?{wait}{end}"
  },
  {
   "id": "R:27A10",
   "jp": "{face:0000}{voice:02E7}私のお守り！返してよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02E7}My charm! Give it back!{wait}{end}"
  },
  {
   "id": "R:27A34",
   "jp": "{voice:02E8}中に何か入ってるな{n}・・・これだ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02E8}There's something inside... This is it!!{wait}{end}"
  },
  {
   "id": "R:27A60",
   "jp": "{voice:02E9}これがメシアのヒトミか・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:02E9}So this is the Messiah Eye...{wait}{end}"
  },
  {
   "id": "R:27A84",
   "jp": "{face:0000}{voice:02EA}返してって、言ってるでしょ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02EA}I said give it BACK!!{wait}{end}"
  },
  {
   "id": "R:27AB0",
   "jp": "{voice:02EB}ひっさつ！{n}ツイスターハリケーーーーン！！{wait}{face:00FF}{end}",
-  "en": ""
+  "en": "{voice:02EB}Special move! Twister Hurricaaaaaane!!{wait}{face:00FF}{end}"
  },
  {
   "id": "R:27AE8",
   "jp": "{voice:02EC}ぐ、ぐはぁッ！まちがいねぇ！{n}あいつは・・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{voice:02EC}Gah, gwaaah! No mistake about it! That girl is......!{wait}{end}"
  },
  {
   "id": "R:27B24",
   "jp": "{face:0000}{voice:02ED}あ！ママのカタミの{n}お守りが・・・！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02ED}Oh no! My charm... the keepsake from Mom...!{wait}{end}"
  },
  {
   "id": "R:27B54",
   "jp": "{ee}さすが{name}ちゃん！{n}つよーい！{wait}{f0}この原宿小学校で{f0}１番強いんじゃない？{wait}{end}",
-  "en": ""
+  "en": "{ee}Way to go, {name}-chan! You're so strong!{wait}{f0}You've gotta be the strongest kid{f0}at Harajuku Elementary School!{wait}{end}"
  },
  {
   "id": "R:27BA0",
   "jp": "{ee}今日の気温マイナス１０度{n}でも、オレはちっともさむくないぜ！{wait}{f0}なぜなら、キミへの♥が{f0}熱くもえているからさ！{wait}{end}",
-  "en": ""
+  "en": "{ee}It's ten below zero today, but I'm not cold one bit!{wait}{f0}'Cause my love for you{f0}is burning red-hot!{wait}{end}"
  },
  {
   "id": "R:27C14",
@@ -56,17 +56,17 @@
  {
   "id": "R:27C2C",
   "jp": "　顔もセーカクもだいっキライ！{n}　ジャマ！どいてよ！！{wait}{end}",
-  "en": ""
+  "en": "I hate your face AND your attitude!{n}You're in my way! Move it!!{wait}{end}"
  },
  {
   "id": "R:27C68",
   "jp": "そ、そんな、つめてェー！！{n}ドライアイスのようなやつだ！{wait}{f0}しかし、何度フラレても{f0}ゼッタイあきらめないぜ！！{wait}{end}",
-  "en": ""
+  "en": "Wh-what, so cold!! She's like dry ice!{wait}{f0}But no matter how many times I get dumped,{f0}I'll never, ever give up!!{wait}{end}"
  },
  {
   "id": "R:27CDC",
   "jp": "まだじゅぎょう中のようだ{wait}{end}",
-  "en": ""
+  "en": "Looks like class is still going on.{wait}{end}"
  },
  {
   "id": "R:27CF8",
@@ -99,92 +99,92 @@
  {
   "id": "R:27D88",
   "jp": "{ee}{face:000A}{voice:02EE}やぁ{wait}{n}{voice:02EF}ぼくだよ、さっきろうかで{f0}赤い箱をわたしたユーキだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:000A}{voice:02EE}Hi.{wait}{n}{voice:02EF}It's me. I'm Yuki, the one who{f0}gave you the red box in the hallway.{wait}{end}"
  },
  {
   "id": "R:27DD8",
   "jp": "{face:000A}{voice:02F0}箱に入っていたケンジュウは{n}デビライザーっていうんだ{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02F0}The gun that was in the box is called a Deviliser.{wait}{end}"
  },
  {
   "id": "R:27E18",
   "jp": "　デビライザーって・・・？{n}　ねぇ、もしかしてホモなの？{end}",
-  "en": ""
+  "en": "Deviliser...?{n}Hey, are you gay or something?{end}"
  },
  {
   "id": "R:27E54",
   "jp": "{face:000A}{voice:02F1}これからのきみには{n}ゼッタイにひつような物さ{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02F1}From now on, it's something you're absolutely going to need.{wait}{end}"
  },
  {
   "id": "R:27E8C",
   "jp": "{face:0000}{voice:02F2}魔法のケンジュウ・・！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02F2}A magic gun...!?{wait}{end}"
  },
  {
   "id": "R:27EB0",
   "jp": "　こんなのいらない！{n}　魔法って何ができるの？{end}",
-  "en": ""
+  "en": "I don't want this!{n}What can magic do?{end}"
  },
  {
   "id": "R:27EE0",
   "jp": "{face:000A}ちょっ、ちょっと待って！！{n}何でそんな話になるわけ？{wait}{end}",
-  "en": ""
+  "en": "{face:000A}Wh-whoa, wait a sec!! How did we end up talking about that?{wait}{end}"
  },
  {
   "id": "R:27F1C",
   "jp": "{voice:02F4}ユーキ！キサマも{n}こんな所にいたのか！{wait}{end}",
-  "en": ""
+  "en": "{voice:02F4}Yuki! So you were here too, huh!?{wait}{end}"
  },
  {
   "id": "R:27F4C",
   "jp": "{face:0000}{voice:02F5}あっ！さっきのアイツ！{wait}{n}{voice:02F6}私のお守り返してよ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02F5}Ah! It's that guy from before!{wait}{n}{voice:02F6}Give me back my charm!!{wait}{end}"
  },
  {
   "id": "R:27F8C",
   "jp": "{face:000B}{voice:02F7}おれはソウタってんだ！{wait}{n}{voice:02F8}ケガしたくなかったら{f0}デビライザーをよこせ！！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:02F7}The name's Souta!{wait}{n}{voice:02F8}If you don't wanna get hurt,{f0}hand over the Deviliser!!{wait}{end}"
  },
  {
   "id": "R:27FE4",
   "jp": "{face:0000}{voice:02F9}だれがケガするって？{n}さっきケガしたのはどっちよ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02F9}Who's getting hurt? Who was it that got hurt just now?{wait}{end}"
  },
  {
   "id": "R:28024",
   "jp": "{face:000B}{voice:02FA}う、うるさい！{n}さ、さっきはゆだんしたんだ！{wait}{page}{voice:02FB}本当の力を見せてやる！！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:02FA}Sh-shut up! I-I just let my guard down before!{wait}{page}{voice:02FB}I'll show you my real power!!{wait}{end}"
  },
  {
   "id": "R:2807C",
   "jp": "{face:0000}{voice:02FC}・・・！！・・・何これ？{n}・・・でっかいモモンガ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02FC}...!! ...What's that? ...A giant flying squirrel!!{wait}{end}"
  },
  {
   "id": "R:280BC",
   "jp": "{face:000B}{voice:02FD}モモンガって言うな！{wait}{page}{voice:02FE}くそー！！{wait}{page}{voice:02FF}オレを怒らせた事を{n}こうかいさせてやる！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:02FD}Don't call him a flying squirrel!{wait}{page}{voice:02FE}Dang it!!{wait}{page}{voice:02FF}I'll make you sorry you ever made me mad!{wait}{end}"
  },
  {
   "id": "R:28120",
   "jp": "{face:000B}{voice:0307}チッ！よけいなマネを・・{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:0307}Tch! Butting in where you're not wanted...{wait}{end}"
  },
  {
   "id": "R:28144",
   "jp": "{face:000B}{voice:0308}今度はよけられないぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:0308}You won't dodge it this time!{wait}{end}"
  },
  {
   "id": "R:28168",
   "jp": "{face:0000}{voice:0309}えっ！ど、どうしよう？{wait}{page}{voice:030A}このデビライザーっていうのを{n}使うしかないみたいね{wait}{page}{voice:030B}えーい！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0309}Huh! Wh-what do I do?{wait}{page}{voice:030A}Looks like I've got no choice but to use this Deviliser thing.{wait}{page}{voice:030B}Here goes!{wait}{end}"
  },
  {
   "id": "R:281D4",
   "jp": "{voice:0310}コーーーーーーール！！！{wait}{end}",
-  "en": ""
+  "en": "{voice:0310}Caaaaaaall!!!{wait}{end}"
  },
  {
   "id": "R:281F4",
@@ -193,67 +193,67 @@
  {
   "id": "R:28250",
   "jp": "{face:0006}{voice:0312}封印をといてくれて{n}ありがとう♥{wait}{f0}{voice:0313}ワタシはベール♥{f0}よろしくね！{wait}{end}",
-  "en": ""
+  "en": "{face:0006}{voice:0312}Thanks for breaking my seal!{wait}{f0}{voice:0313}I'm Veil!{f0}Nice to meet you!{wait}{end}"
  },
  {
   "id": "R:282A4",
   "jp": "{face:0000}{voice:0314}ケンジュウからトリ！？{n}しかも、しゃべってる！？{wait}{page}{voice:0315}魔法、っていうより{n}手品みたい！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0314}A bird came out of the gun!? And it's talking!?{wait}{page}{voice:0315}That's less like magic and more like a magic trick!{wait}{end}"
  },
  {
   "id": "R:28308",
   "jp": "{face:0006}{voice:0316}オモチャじゃないわよ！{wait}{page}{voice:0317}もー！これだから人間は！！{wait}{page}{voice:031A}それに鳥じゃないわよ{n}グリフォンだからね！{wait}{page}{voice:031B}鳥呼ばわりは嫌だから、{n}名前をつけてよ{wait}{end}",
-  "en": ""
+  "en": "{face:0006}{voice:0316}I'm not a toy!{wait}{page}{voice:0317}Ugh! Humans are always like this!!{wait}{page}{voice:031A}And I'm not a bird, either. I'm a Gryphon, okay!{wait}{page}{voice:031B}I hate being called a bird, so give me a name!{wait}{end}"
  },
  {
   "id": "R:283AC",
   "jp": "　名前をつけてあげる{n}　怒ってるみたいだし、いいや{end}",
-  "en": ""
+  "en": "I'll give you a name.{n}She seems mad. Never mind.{end}"
  },
  {
   "id": "R:283E0",
   "jp": "{face:0001}{voice:031D}まあ好きなように呼んでくれて{n}かまわないけど・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:031D}Well, you can call me whatever you like, but...{wait}{end}"
  },
  {
   "id": "R:28420",
   "jp": "{face:0001}{voice:031E}それじゃあ、これからワタシの事{n}パートナーと考えてね！ヨロシク！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:031E}Okay then, from now on, think of me as your partner! Nice to meet you!{wait}{end}"
  },
  {
   "id": "R:2846C",
   "jp": "{face:000B}{voice:0322}何だとー{wait}{page}{voice:0323}こっちこそ、お前が封印されてから{n}ずーっと気分良くくらしてたのに{wait}{page}{voice:0324}何だってこんな時に{n}出てきやがんだよ！{wait}{page}{voice:0325}お前は引っこんでろ！{n}じゃないとイタイメみるぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:0322}What was that!?{wait}{page}{voice:0323}Look who's talking! Ever since you got sealed, I've been living the good life,{wait}{page}{voice:0324}so why'd you have to show up at a time like this!?{wait}{page}{voice:0325}Butt out! Or you're gonna get hurt!{wait}{end}"
  },
  {
   "id": "R:28530",
   "jp": "{face:0001}{voice:0326}何ですって！！{n}やれるもんならやってみなさいよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0326}What did you say!! Go ahead and try it, if you think you can!{wait}{end}"
  },
  {
   "id": "R:2856C",
   "jp": "{face:000B}{voice:0327}くっそーーーー！！{wait}{n}{voice:0328}まさか、ケイヤクも無しにグリフォンを{f0}召喚できるなんて！！{wait}{f0}{voice:0329}しかも強いし！{f0}話がちがうぜ！！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:0327}Dang iiiiit!!{wait}{n}{voice:0328}No way! She summoned a Gryphon{f0}without even making a contract!!{wait}{f0}{voice:0329}And she's strong, too!{f0}This isn't what I was told!!{wait}{end}"
  },
  {
   "id": "R:285F4",
   "jp": "{face:0000}{voice:032A}私のお守り返してよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:032A}Give me back my charm!{wait}{end}"
  },
  {
   "id": "R:28614",
   "jp": "{face:000B}{voice:032B}しょうがねーな{n}・・・ホラ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:032B}Fine, whatever... Here!{wait}{end}"
  },
  {
   "id": "R:2863C",
   "jp": "{face:00FF}虹色の宝石を{n}取り返した！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got back the rainbow-colored gem!{wait}{end}"
  },
  {
   "id": "R:28660",
   "jp": "{face:000B}{voice:032C}でも、これですむと思うなよ！{n}このかりはキット返すぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:032C}But don't think this is over! I'll pay you back for this, count on it!{wait}{end}"
  },
  {
   "id": "R:286A4",
@@ -262,17 +262,17 @@
  {
   "id": "R:286D0",
   "jp": "{ee}１番奥の教室から{n}変な音がするの{wait}{end}",
-  "en": ""
+  "en": "{ee}There's a weird noise coming from the classroom at the very end.{wait}{end}"
  },
  {
   "id": "R:286F8",
   "jp": "カギがかかっている！！{wait}{end}",
-  "en": ""
+  "en": "It's locked!!{wait}{end}"
  },
  {
   "id": "R:28714",
   "jp": "{face:0007}{voice:05CE}初めまして・・・{n}ボクはタカジョー・ゼット！{wait}{page}{voice:032D}今のラタトスクを{n}追いかけて来たんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05CE}Nice to meet you... I'm Zett Takajo!{wait}{page}{voice:032D}I came here chasing that Ratatoskr just now.{wait}{end}"
  },
  {
   "id": "R:28778",
@@ -281,166 +281,166 @@
  {
   "id": "R:28794",
   "jp": "{face:0007}{voice:033F}お父さんを{n}探しに行くんだね{wait}{page}{voice:0340}・・・・・・・・{n}ところで{wait}{page}{voice:0341}きみと同じマンションに住んでる{n}男の子の兄弟が{wait}{f0}{voice:0342}きのうから行方不明に{f0}なってるのを知ってるかい？{wait}{page}{voice:0343}セツナとナガヒサっていう{n}兄弟なんだけど・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:033F}So you're going to look for your dad.{wait}{page}{voice:0340}........ By the way...{wait}{page}{voice:0341}The two boys, brothers, who live in your apartment building...{wait}{f0}{voice:0342}did you know they've been{f0}missing since yesterday?{wait}{page}{voice:0343}They're brothers named Setsuna and Nagahisa...{wait}{end}"
  },
  {
   "id": "R:28884",
   "jp": "{face:0007}{voice:033A}メシアのヒトミっていう{n}魔法の宝石なんだけど{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:033A}It's a magic gem called the Messiah Eye.{wait}{end}"
  },
  {
   "id": "R:288BC",
   "jp": "{face:0007}{voice:034B}それじゃあ行くよ{wait}{page}{voice:034C}メシアのヒトミは{n}こうやって使うんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:034B}Okay, here we go.{wait}{page}{voice:034C}This is how you use the Messiah Eye.{wait}{end}"
  },
  {
   "id": "R:28908",
   "jp": "{face:0000}{voice:034E}えっ！？何！？{wait}{page}{voice:034F}キャアーーーーーーーーッ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:034E}Huh!? What!?{wait}{page}{voice:034F}Kyaaaaaaaaaah!!{wait}{end}"
  },
  {
   "id": "R:28948",
   "jp": "{ea}・・・・・・・・・・・・{wait}{n}・・・・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{ea}............{wait}{n}............{wait}{end}"
  },
  {
   "id": "R:28984",
   "jp": "{face:0007}{voice:0350}だいじょうぶ？{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0350}Are you okay?{wait}{end}"
  },
  {
   "id": "R:289A0",
   "jp": "オバケ！！{wait}{end}",
-  "en": ""
+  "en": "A ghost!!{wait}{end}"
  },
  {
   "id": "R:289B0",
   "jp": "まだ、乗り物よいしたみたいに{n}気持ち悪い・・・{wait}{end}",
-  "en": ""
+  "en": "I still feel sick... like I've got motion sickness...{wait}{end}"
  },
  {
   "id": "R:289E4",
   "jp": "{ee}もう少し横になっていたら？{wait}{end}",
-  "en": ""
+  "en": "{ee}Why don't you lie down a little longer?{wait}{end}"
  },
  {
   "id": "R:28A04",
   "jp": "{ee}{face:000A}{voice:0366}ぼくだよ、ユーキだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:000A}{voice:0366}It's me. It's Yuki.{wait}{end}"
  },
  {
   "id": "R:28A28",
   "jp": "{face:000A}{voice:0367}おどろかせてごめんね{n}ぼくはユーレイなんだ{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:0367}Sorry for scaring you. I'm a ghost.{wait}{end}"
  },
  {
   "id": "R:28A60",
   "jp": "{face:0000}{voice:0368}カッコイーと思ってたのに・・・{n}オバケだったなんて{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0368}And here I thought you were so cool... but you're a ghost!{wait}{end}"
  },
  {
   "id": "R:28AA0",
   "jp": "{face:000A}{voice:0369}とつぜんこんな事になって{n}おどろいてるでしょ{wait}{page}{voice:036A}かんたんに説明しようか？{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:0369}You must be surprised, with all this happening so suddenly.{wait}{page}{voice:036A}Want me to explain it quickly?{wait}{end}"
  },
  {
   "id": "R:28AF8",
   "jp": "{face:000A}これはヴィネコンという{n}ポケットパソコンなんだ{wait}{page}これを使って・・・{wait}{end}",
-  "en": ""
+  "en": "{face:000A}This is a pocket computer called a Vinecom.{wait}{page}With this, you can...{wait}{end}"
  },
  {
   "id": "R:28B44",
   "jp": "{ee}{face:003B}ここは仲魔の合体をする{n}怪しい研究所ネ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003B}This is a shady lab where allies get fused, yes!{wait}{end}"
  },
  {
   "id": "R:28B74",
   "jp": "お城であなたのパパが{n}待ってるわよ{wait}{end}",
-  "en": ""
+  "en": "Your dad is waiting for you at the castle.{wait}{end}"
  },
  {
   "id": "R:28B9C",
   "jp": "{ee}大魔王様なら{n}お城にいらっしゃるはずだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If it's the Great Demon King you want, His Majesty should be at the castle.{wait}{end}"
  },
  {
   "id": "R:28BCC",
   "jp": "{ee}ダークパレスなら、この道をまっすぐ{n}進んだ所にあるぜ{wait}{page}それはそうと、電話やパソコンに{n}アクセスするとヴィネセンターに{wait}{f0}つながるんだよ{wait}{page}一度、試してみなよ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Dark Palace? Just go straight down this road.{wait}{page}Oh, and by the way, if you access a phone or computer,{wait}{f0}it connects you to the Vine Center.{wait}{page}Give it a try sometime.{wait}{end}"
  },
  {
   "id": "R:28C70",
   "jp": "{ee}デビルを仲魔にするためには{wait}{n}せんとう中に話しかけて{f0}こうしょうするのがふつうだけど{wait}{page}ときどき、街で仲魔になる{n}デビルもいるそうだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}To make a Devil your ally,{wait}{n}you'd normally talk to it{f0}and negotiate during battle,{wait}{page}but I hear that sometimes a Devil in town will join you, too.{wait}{end}"
  },
  {
   "id": "R:28CFC",
   "jp": "{ee}魔界にはこのセントラルの他に{n}えーっと、アイスランドだろ・・・{wait}{page}マーブ・・？？・・わすれたけど{wait}{page}・・・・・他にもあるんだよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Besides Central Land here, Makai has, uhh, Ice Land...{wait}{page}Marb...?? ...I forgot.{wait}{page}.....Anyway, there are more!{wait}{end}"
  },
  {
   "id": "R:28D84",
   "jp": "{ee}セントラルランドは大魔王が{n}住んでいる所だ{wait}{page}他の魔界とはチョットちがう{n}そう思わないか？{wait}{end}",
-  "en": ""
+  "en": "{ee}Central Land is where the Great Demon King lives.{wait}{page}It's a little different from the rest of Makai. Don't you think?{wait}{end}"
  },
  {
   "id": "R:28DE4",
   "jp": "{ee}それは虹色のメシアのヒトミと{n}デビライザー！{wait}{page}それでは、あなたが・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Those are the Rainbow Messiah Eye and a Deviliser!{wait}{page}Then you must be...{wait}{end}"
  },
  {
   "id": "R:28E34",
   "jp": "{ee}んっ！！！{wait}{end}",
-  "en": ""
+  "en": "{ee}Nngh!!!{wait}{end}"
  },
  {
   "id": "R:28E44",
   "jp": "{ee}{name}！{n}目がさめたのね{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}! You're awake!{wait}{end}"
  },
  {
   "id": "R:28E60",
   "jp": "{face:0045}{voice:0370}デビルチルドレンとは{wait}{n}{voice:0371}人間とデビルの血を受けついだ{f0}ハーフデビルの事なのです{wait}{page}{voice:0372}あなたの父親はデビルなのです{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0370}A Devil Child is{wait}{n}{voice:0371}a half-Devil who has inherited{f0}the blood of both humans and Devils.{wait}{page}{voice:0372}Your father is a Devil.{wait}{end}"
  },
  {
   "id": "R:28EE4",
   "jp": "　そんなやくそくできない{n}　わかった、やってみるわ{end}",
-  "en": ""
+  "en": "I can't promise that.{n}All right, I'll give it a try.{end}"
  },
  {
   "id": "R:28F18",
   "jp": "{face:0045}{voice:0375}いえ、それは・・・・{n}私にもわからないのですが{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0375}No, that is... something even I do not know.{wait}{end}"
  },
  {
   "id": "R:28F54",
   "jp": "{face:0000}{voice:0376}パパがデビルだなんて・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0376}My dad... a Devil...?{wait}{end}"
  },
  {
   "id": "R:28F7C",
   "jp": "{face:0045}{voice:0377}人間とデビルの間に{n}生まれたデビルチルドレンが{wait}{f0}{voice:0378}魔界に現れた事など{f0}これまでにはなかった事なのです{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0377}A Devil Child, born between a human and a Devil,{wait}{f0}{voice:0378}appearing in Makai{f0}is something that has never happened before.{wait}{end}"
  },
  {
   "id": "R:28FF0",
   "jp": "{face:0000}{voice:0379}私はパパを探すために{n}魔界に来たの{wait}{page}{voice:037A}どうすれば{n}パパを見つける事ができるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0379}I came to Makai to look for my dad.{wait}{page}{voice:037A}How can I find him?{wait}{end}"
  },
  {
   "id": "R:29050",
   "jp": "{face:0045}{ea}・・・・・・{wait}{page}{voice:037B}世界の始まりの時から{n}人間とデビルは{wait}{f0}{voice:037C}地上と魔界にわかれて{f0}くらすよう定められているのです{wait}{page}{voice:037D}たとえハーフデビルでも{wait}{n}{voice:037E}人間の血を受けついだあなたが{f0}魔界を旅する事はゆるされないのです{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{ea}......{wait}{page}{voice:037B}Since the beginning of the world,{wait}{f0}{voice:037C}humans and Devils have been destined{f0}to live apart, on the surface and in Makai.{wait}{page}{voice:037D}Even if you are a half-Devil,{wait}{n}{voice:037E}you have inherited human blood,{f0}so you may not travel through Makai.{wait}{end}"
  },
  {
   "id": "R:29134",
   "jp": "{face:0000}{voice:037F}それじゃあどうやって{n}パパを探せっていうの？{wait}{page}{voice:0380}私のパパはこの魔界の{n}どこかにいるはずなのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:037F}Then how am I supposed to look for my dad?{wait}{page}{voice:0380}My dad has to be somewhere here in Makai!{wait}{end}"
  },
  {
   "id": "R:291A0",
   "jp": "{face:0045}{ea}・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{ea}.........{wait}{end}"
  }
 ]

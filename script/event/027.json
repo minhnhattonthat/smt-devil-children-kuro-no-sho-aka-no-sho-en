@@ -2,52 +2,52 @@
  {
   "id": "R:2D300",
   "jp": "{ee}今、鳥の話をしてたんだ{wait}{page}砂漠の上をとんで行くのは{n}気持ちいいもんな{wait}{end}",
-  "en": ""
+  "en": "{ee}We were just talking about birds.{wait}{page}Flying over the desert must feel great, huh?{wait}{end}"
  },
  {
   "id": "R:2D34C",
   "jp": "{ee}鳥にはジャンプできる{n}場所もあるんだって{wait}{page}ちょっとはなれた場所を{n}見つけたら試してみれば！{wait}{end}",
-  "en": ""
+  "en": "{ee}I hear there are places where birds can jump across.{wait}{page}If you find a spot that's set a little apart, give it a try!{wait}{end}"
  },
  {
   "id": "R:2D3B0",
   "jp": "{ee}鳥だったら空をとべるぜ！{wait}{page}砂漠にある流砂は{n}人が通るのをこばんでいるが{wait}{f0}鳥に乗ればとびこえられるぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}Birds can fly through the sky!{wait}{page}The quicksand in the desert keeps people from getting through,{wait}{f0}but if you ride a bird, you can fly right over it!{wait}{end}"
  },
  {
   "id": "R:2D41C",
   "jp": "{ee}街の外にはかばがあるんだが{wait}{page}その中にあるはかのどれかが{n}大魔王の奥さんだった人の{wait}{f0}おはかだって話だよ{wait}{end}",
-  "en": ""
+  "en": "{ee}There's a graveyard outside town,{wait}{page}and they say one of the graves in it{wait}{f0}belongs to the woman who was the Great Demon King's wife.{wait}{end}"
  },
  {
   "id": "R:2D48C",
   "jp": "{ee}人間の男の子は{n}イシス様に聞きたい事が{wait}{f0}あるって、ピラミッドに行ったよ{wait}{end}",
-  "en": ""
+  "en": "{ee}A human boy said he had something{wait}{f0}to ask Isis-sama, and went off to the Pyramid.{wait}{end}"
  },
  {
   "id": "R:2D4DC",
   "jp": "{ee}イシス様のピラミッドなら{n}東にあるはか場から{wait}{f0}北に続く道を行くといい{wait}{page}ただし、けっこうキビシイぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}To get to Isis-sama's Pyramid, start from the graveyard to the east{wait}{f0}and take the road heading north.{wait}{page}But be warned, it's pretty rough going!{wait}{end}"
  },
  {
   "id": "R:2D548",
   "jp": "{ee}おや、今日は人間を{n}よく見かける日だな！{wait}{page}さっきは男の子だったがね{wait}{n}何でも、イシス様に会いに{f0}ピラミッドに行くと言ってたよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Well now, sure seems like a day for running into humans!{wait}{page}Earlier it was a boy, though.{wait}{n}Said he was heading to the Pyramid{f0}to see Isis-sama, apparently.{wait}{end}"
  },
  {
   "id": "R:2D5CC",
   "jp": "{ee}・・ここはタクシーセンターよ！{n}・・ゼイこみで１４４０マッカで{wait}{f0}あなたが知ってる街なら{f0}どこにでもとんで行くわ！{wait}{f0}・・電話すればどこにでも{f0}かけつけるから、気軽に呼んでね！{wait}{end}",
-  "en": ""
+  "en": "{ee}...This is the Taxi Center! ...For 1440 Macca, tax included,{wait}{f0}we'll fly you{f0}to any town you know!{wait}{f0}...Just call, and we'll rush right over{f0}wherever you are, so don't be shy!{wait}{end}"
  },
  {
   "id": "R:2D684",
   "jp": "{ee}・・タクシーはべんりだ{n}・・オレもよく使っている{wait}{end}",
-  "en": ""
+  "en": "{ee}...Taxis are handy. ...I use them a lot myself.{wait}{end}"
  },
  {
   "id": "R:2D6BC",
   "jp": "{ee}魔王・イシス様・いそがしい！{wait}{n}イシス様・会いたければ・スタンプ{f0}集めろ！{wait}{f0}チェックポイント・３つ・スタンプ{f0}集めろ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Isis-sama, very busy!{wait}{n}Want see Isis-sama?{f0}Then collect stamps!{wait}{f0}Three checkpoints.{f0}Collect stamps!{wait}{end}"
  },
  {
   "id": "R:2D73C",
@@ -56,7 +56,7 @@
  {
   "id": "R:2D77C",
   "jp": "{face:0015}いやいや、ぜひ私を仲魔に！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}No, no, by all means, make ME your ally!!{wait}{end}"
  },
  {
   "id": "R:2D7A0",
@@ -65,7 +65,7 @@
  {
   "id": "R:2D7CC",
   "jp": "{face:0014}それでしたら、ぜひオレを{n}おともに連れて行って下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}In that case, by all means, take me along with you!!{wait}{end}"
  },
  {
   "id": "R:2D84C",
@@ -74,27 +74,27 @@
  {
   "id": "R:2D888",
   "jp": "{face:0014}{name}様{n}たとえ大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama, even if the Great Demon King becomes your enemy,{wait}{page}we will stand by your side!{wait}{end}"
  },
  {
   "id": "R:2D8D0",
   "jp": "金のタマゴを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Golden Egg.{wait}{end}"
  },
  {
   "id": "R:2D8EC",
   "jp": "金のリンゴを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Golden Apple.{wait}{end}"
  },
  {
   "id": "R:2D908",
   "jp": "金のバターを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Golden Butter.{wait}{end}"
  },
  {
   "id": "R:2D924",
   "jp": "{ee}いらっしゃいマセ！{n}ワタシクスリを売り歩く{wait}{f0}行商人アルヨ！{f0}お客サン！いい物あるヨ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Welcome, welcome! I am traveling peddler{wait}{f0}who sell medicine, yes!{f0}Honored customer! I have good stuff, yes!{wait}{end}"
  },
  {
   "id": "R:2D980",
@@ -107,12 +107,12 @@
  {
   "id": "R:2D9F0",
   "jp": "{face:0016}{name}さま！{n}いごヨロシクおねがいします！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama! I'm at your service from now on!{wait}{end}"
  },
  {
   "id": "R:2DA20",
   "jp": "{face:0016}{name}様{n}たとえ大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama, even if the Great Demon King becomes your enemy,{wait}{page}we will stand by your side!{wait}{end}"
  },
  {
   "id": "R:2DAA0",
@@ -129,32 +129,32 @@
  {
   "id": "R:2DB3C",
   "jp": "{face:0016}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{wait}{f0}最初のツトメです{wait}{page}それからお父様の事ですが{n}サンドランドの魔王イシスなら{wait}{f0}何か知っているかもしれません{wait}{page}イシスは魔界で１番の{n}物知りとのひょうばんです{wait}{page}かのじょに聞けば{n}お父様の事も{wait}{f0}わかるかもしれませんぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama!{wait}{n}Please give {partner}-dono{f0}this medicine.{wait}{f0}This is my very first duty{wait}{f0}as a Demon Lord.{wait}{page}And as for your father,{wait}{f0}Isis, the Demon Lord of Sand Land, may know something.{wait}{page}Isis is said to be the wisest in all of Makai.{wait}{page}If you ask her,{wait}{f0}you may learn something about your father.{wait}{end}"
  },
  {
   "id": "R:2DC90",
   "jp": "{face:0015}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{wait}{f0}最初のツトメです{wait}{page}それからお父様の事ですが{n}サンドランドの魔王イシスなら{wait}{f0}何か知っているかもしれません{wait}{page}イシスは魔界で１番の{n}物知りとのひょうばんです{wait}{page}かのじょに聞けば{n}お父様の事も{wait}{f0}わかるかもしれませんぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama!{wait}{n}Please give {partner}-dono{f0}this medicine.{wait}{f0}This is my very first duty{wait}{f0}as a Demon Lord.{wait}{page}And about your father...{wait}{f0}Isis, the Demon Lord of Sand Land, may know something.{wait}{page}Isis is known as the wisest in all of Makai.{wait}{page}Ask her,{wait}{f0}and you may find out about your father.{wait}{end}"
  },
  {
   "id": "R:2DDBC",
   "jp": "{ee}ヴィネセンターにいる{n}デーバのわかものに会ったか？{wait}{page}あいつは戦いが恐くて{n}マーブルランドから逃げて来たそうだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Did you meet the young Deva at the Vine Center?{wait}{page}They say he got scared of the fighting and ran away from Marble Land.{wait}{end}"
  },
  {
   "id": "R:2DE84",
   "jp": "{ee}デーバのわかものは{n}帰って行ったそうだな{wait}{page}今ごろは家に帰って{n}のんびりしてるんじゃないかな{wait}{end}",
-  "en": ""
+  "en": "{ee}I hear that young Deva went back home.{wait}{page}I bet he's back at his house by now, taking it easy.{wait}{end}"
  },
  {
   "id": "R:2DF38",
   "jp": "{ee}あんた、フォレストランドに{n}行った事あるかい？{wait}{page}あそこにはいやしの歌を歌う{n}ハーピーがいるそうなんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, have you ever been to Forest Land?{wait}{page}They say there's a Harpy there who sings a song of healing.{wait}{end}"
  },
  {
   "id": "R:2DFA4",
   "jp": "　ある{n}　ない{end}",
-  "en": ""
+  "en": "Yes{n}No{end}"
  },
  {
   "id": "R:2DFB4",
@@ -163,17 +163,17 @@
  {
   "id": "R:2DFE8",
   "jp": "{face:0007}{voice:047B}この緑のメシアのヒトミを{n}あげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:047B}Here, I'll give you this Green Messiah Eye.{wait}{end}"
  },
  {
   "id": "R:2E018",
   "jp": "{face:0007}{voice:047C}これを使ってフォレストランドに{n}旅立つといいよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:047C}Use it to set off on your journey to Forest Land.{wait}{end}"
  },
  {
   "id": "R:2E054",
   "jp": "{face:0007}{voice:047F}キミの旅も、そろそろ{n}終わりに近づいて来ているんだ{wait}{page}{voice:0480}がんばるんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:047F}Your journey is getting close to its end now, too.{wait}{page}{voice:0480}Hang in there.{wait}{end}"
  },
  {
   "id": "R:2E0A8",
@@ -182,7 +182,7 @@
  {
   "id": "R:2E0B4",
   "jp": "このにがおえの人間は{n}第１級ハンザイ者である{wait}{page}大魔王の命により{n}この者をとらえよ！{wait}{end}",
-  "en": ""
+  "en": "The human in this portrait is a first-class criminal.{wait}{page}By order of the Great Demon King, capture this person!{wait}{end}"
  },
  {
   "id": "R:2E10C",
@@ -191,37 +191,37 @@
  {
   "id": "R:2E120",
   "jp": "{face:0007}{voice:0478}そうか、イシスも知らなかったか{wait}{page}{voice:0479}残った魔界はあと２つ{wait}{page}{voice:047A}フォレストランドと{n}ファイアーランドだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0478}I see. So Isis didn't know either.{wait}{page}{voice:0479}There are only two Makai worlds left.{wait}{page}{voice:047A}Forest Land and Fire Land.{wait}{end}"
  },
  {
   "id": "R:2E194",
   "jp": "{face:0000}{voice:0416}・・・あなた、誰・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0416}...Who... are you...?{wait}{end}"
  },
  {
   "id": "R:2E1B8",
   "jp": "{ee}{face:0007}緑のメシアのヒトミを{n}サークルゲートで使えば{wait}{f0}フォレストランドへ行けるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}Use the Green Messiah Eye at the Circle Gate,{wait}{f0}and you can go to Forest Land.{wait}{end}"
  },
  {
   "id": "R:2E20C",
   "jp": "{face:0019}{name}{n}私を倒すまでは{wait}{f0}何も教えないわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{name}, I won't tell you a thing{wait}{f0}until you defeat me!{wait}{end}"
  },
  {
   "id": "R:2E23C",
   "jp": "{face:0019}{voice:0446}かれは今、くるしんでいるの{wait}{page}{voice:0447}今はそっとしておいてあげるのが{n}かれのためだわ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0446}He's suffering right now.{wait}{page}{voice:0447}For his sake, it's best to leave him be for now.{wait}{end}"
  },
  {
   "id": "R:2E298",
   "jp": "{face:00FF}{ea}・・・・・・・{wait}{page}{voice:0417}私の事はいいわ{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{ea}.......{wait}{page}{voice:0417}Never mind who I am.{wait}{end}"
  },
  {
   "id": "R:2E2C8",
   "jp": "{voice:0418}・・・・・もう、自分がふつうの{n}人間じゃない事は知ってるわよね{wait}{page}{voice:0419}そうじゃなければ魔界を{n}旅している事もないもの{wait}{end}",
-  "en": ""
+  "en": "{voice:0418}.....You already know you're not an ordinary human, don't you?{wait}{page}{voice:0419}If you were, you wouldn't be traveling through Makai.{wait}{end}"
  },
  {
   "id": "R:2E344",
@@ -230,77 +230,77 @@
  {
   "id": "R:2E368",
   "jp": "{face:0000}・・・私はデビルチルドレン{wait}{page}パパのデビルの血を受けついだ{n}ハーフデビルの女の子よ{wait}{page}パパがこの魔界の{n}どこかにいると聞いて{wait}{page}探しているの{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...I'm a Devil Child.{wait}{page}A half-Devil girl who inherited Dad's Devil blood.{wait}{page}I heard that Dad is somewhere in Makai,{wait}{page}so I'm looking for him.{wait}{end}"
  },
  {
   "id": "R:2E3FC",
   "jp": "{voice:041A}魔界を旅してみて、デビルは{n}人間が思っているほど悪くないのは{wait}{f0}{voice:041B}わかってるわよね{wait}{page}{voice:041C}あなたのパパは{n}とってもすてきなデビルだったのよ{wait}{page}{voice:041D}あなたと同じように{n}とてもきれいなヒトミをしていて{wait}{page}{voice:041E}自分のしんねんをその中に{n}かがやかせていたわ{wait}{end}",
-  "en": ""
+  "en": "{voice:041A}After traveling through Makai, you know Devils aren't as bad{wait}{f0}{voice:041B}as humans think, don't you?{wait}{page}{voice:041C}Your dad was a truly wonderful Devil.{wait}{page}{voice:041D}Just like you, he had very beautiful eyes,{wait}{page}{voice:041E}and his convictions shone brightly within them.{wait}{end}"
  },
  {
   "id": "R:2E500",
   "jp": "{voice:041F}もう、あまり時間がないわ{wait}{page}{voice:0420}ピラミッドに行って{n}イシスに会いなさい{wait}{page}{voice:0421}かのじょなら、あなたのギモンに{n}答えてくれるでしょうから{wait}{end}",
-  "en": ""
+  "en": "{voice:041F}There isn't much time left.{wait}{page}{voice:0420}Go to the Pyramid and meet Isis.{wait}{page}{voice:0421}She should be able to answer your questions.{wait}{end}"
  },
  {
   "id": "R:2E590",
   "jp": "{face:0000}{voice:0422}・・・今のは誰なの？{wait}{page}{voice:0423}何だかあったかい感じがして{n}安心できるような・・・{wait}{page}{voice:0424}なつかしい感じがしたわ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0422}...Who was that just now?{wait}{page}{voice:0423}Somehow it felt warm, like it put me at ease...{wait}{page}{voice:0424}It felt so familiar...{wait}{end}"
  },
  {
   "id": "R:2E610",
   "jp": "あの人、どこかで見たような？{wait}{end}",
-  "en": ""
+  "en": "Haven't I seen that person somewhere before?{wait}{end}"
  },
  {
   "id": "R:2E630",
   "jp": "あれは指名手配の{n}ハンザイシャのセツナよ！{wait}{end}",
-  "en": ""
+  "en": "That's Setsuna, the wanted criminal!{wait}{end}"
  },
  {
   "id": "R:2E660",
   "jp": "マーブルランドでは{n}気がつかなかったけど{wait}{f0}あんたがウワサの救世主か？{wait}{f0}救世主なんてやめとけ{f0}ケガするだけだぜ？{wait}{end}",
-  "en": ""
+  "en": "I didn't notice back in Marble Land,{wait}{f0}but are you the savior everyone's talking about?{wait}{f0}Forget the savior stuff.{f0}You'll just get hurt, y'know?{wait}{end}"
  },
  {
   "id": "R:2E6D8",
   "jp": "{face:0000}{voice:0468}でも、カギの事は知らないわ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0468}But I don't know anything about the key.{wait}{end}"
  },
  {
   "id": "R:2E700",
   "jp": "１０１　{name}{wait}{end}",
-  "en": ""
+  "en": "101 {name}{wait}{end}"
  },
  {
   "id": "R:2E710",
   "jp": "１０２　カイ　セツナ{wait}{end}",
-  "en": ""
+  "en": "102 Setsuna Kai{wait}{end}"
  },
  {
   "id": "R:2E728",
   "jp": "{face:0000}{voice:043A}お兄さんが来てるわよ{n}ここで待ってたら、かならず会えるわ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:043A}Your big brother's here. If you wait here, you're sure to see him.{wait}{end}"
  },
  {
   "id": "R:2E76C",
   "jp": "・・なかなかやるわね{wait}{end}",
-  "en": ""
+  "en": "...You're pretty good.{wait}{end}"
  },
  {
   "id": "R:2E784",
   "jp": "・・ここはタクシーセンターだ{n}・・オレが運転手のバシンだ{wait}{f0}・・オレより弱いやつを{f0}タクシーに乗せるわけにはいかん{wait}{f0}・・オレに勝ったら{f0}タクシーに乗せてやる{wait}{end}",
-  "en": ""
+  "en": "...This is the Taxi Center. ...I'm the driver, Bathin.{wait}{f0}...I can't let anyone weaker than me{f0}ride in my taxi.{wait}{f0}...Beat me,{f0}and I'll give you a ride.{wait}{end}"
  },
  {
   "id": "R:2E828",
   "jp": "・・オマエ、強いな{wait}{n}・・よし、タクシーが{f0}使いたくなったら電話しろ！{wait}{f0}・・速攻でカケツケルぜ！{wait}{end}",
-  "en": ""
+  "en": "...You're strong.{wait}{n}...All right. When you want to use{f0}the taxi, give me a call!{wait}{f0}...I'll come running in a flash!{wait}{end}"
  },
  {
   "id": "R:2E890",
   "jp": "{face:0001}ワタシ、昔この近くに{n}住んでたのよ！{wait}{f0}なつかしー・・・でも、それって{f0}ピラミッドができる前だったのよねぇ{wait}{f0}ここも{f0}ずいぶん変わっちゃったわ・・・{wait}{f0}このあたりにホルスってともだちと{f0}ヒポグリフってワタシの妹が{wait}{f0}住んでるはずなんだけど{f0}みんなどうしてるかな・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0001}I used to live near here, a long time ago!{wait}{f0}Brings back memories... But that was{f0}before the Pyramid was built.{wait}{f0}This place{f0}has really changed...{wait}{f0}My friend Horus and my little sister{f0}Hippogriff{wait}{f0}should be living around here.{f0}I wonder how everyone's doing...{wait}{end}"
  },
  {
   "id": "R:2E9A4",
@@ -309,146 +309,146 @@
  {
   "id": "R:2E9BC",
   "jp": "ここ・魔王・イシス様のピラミッド！{wait}{page}イシス様に・会いたければ{n}スタンプ・集めろ！{wait}{end}",
-  "en": ""
+  "en": "Here. Demon Lord. Isis-sama's pyramid!{wait}{page}Want to meet Isis-sama? Collect. Stamps!{wait}{end}"
  },
  {
   "id": "R:2EA14",
   "jp": "チェックポイントは３つ{n}スタンプ・集めろ！{wait}{end}",
-  "en": ""
+  "en": "Checkpoints. Three. Collect. Stamps!{wait}{end}"
  },
  {
   "id": "R:2EA44",
   "jp": "いらっしゃいマセ！{wait}{n}ワタシ、薬を売り歩く{f0}行商人アルヨ！{wait}{f0}お客サン！いい物あるヨ！{wait}{end}",
-  "en": ""
+  "en": "Welcome, welcome!{wait}{n}I am traveling peddler{f0}who sell medicine, yes!{wait}{f0}Honored customer! I have good stuff, yes!{wait}{end}"
  },
  {
   "id": "R:2EAA0",
   "jp": "他に何か欲しい物あったら{n}ココに電話するよろし！{wait}{f0}またドーゾネ！{wait}{end}",
-  "en": ""
+  "en": "If you want anything else, you call this number, okay!{wait}{f0}Come again, yes!{wait}{end}"
  },
  {
   "id": "R:2EAE8",
   "jp": "{face:0001}お前はソウタ！{n}何でこんな所に！？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Souta! What are you doing here!?{wait}{end}"
  },
  {
   "id": "R:2EB14",
   "jp": "{face:0001}フレスベルク！ソウタ！{wait}{page}今度は何の用なの？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Hresvelgr! Souta!{wait}{page}What do you want this time?{wait}{end}"
  },
  {
   "id": "R:2EB48",
   "jp": "{ee}ブトウ会がはじまったな{wait}{page}さーて、魔王になるのは{n}誰なのかな？{wait}{end}",
-  "en": ""
+  "en": "{ee}The Battle Ball has started.{wait}{page}Now then, who's gonna become Demon Lord?{wait}{end}"
  },
  {
   "id": "R:2EB8C",
   "jp": "{face:0001}{voice:0427}ソウタじゃない？{n}何でこんな所に？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0427}Isn't that Souta? What's he doing here?{wait}{end}"
  },
  {
   "id": "R:2EBBC",
   "jp": "{face:002E}デビルチルドレン・{name}{wait}{page}あなたはここでおしまいなのよ{wait}{page}おとなしく私たちに{n}倒されるのよ{wait}{end}",
-  "en": ""
+  "en": "{face:002E}Devil Child {name}...{wait}{page}this is the end of the line for you.{wait}{page}Now be a good girl and let us defeat you.{wait}{end}"
  },
  {
   "id": "R:2EC1C",
   "jp": "{face:0000}どういう事なの！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}What do you mean!?{wait}{end}"
  },
  {
   "id": "R:2EC38",
   "jp": "{face:002E}あなたの役目は終わったのよ{wait}{page}もう１人のデビルチルドレンが{n}誰なのかを知ってから{wait}{f0}あなたは大魔王とのやくそくを{f0}はたそうとはしなくなったわね{wait}{page}大魔王はそんなあなたが{n}気にいらないわけよ{wait}{page}そこで、私が呼ばれて{n}あなたをこらしめろって{wait}{f0}たのまれて来たってわけ{wait}{end}",
-  "en": ""
+  "en": "{face:002E}Your part in this is over.{wait}{page}Ever since you found out who the other Devil Child is,{wait}{f0}you've stopped trying{f0}to keep your promise to the Great Demon King.{wait}{page}And the Great Demon King doesn't like that one bit.{wait}{page}So I got called in and asked{wait}{f0}to teach you a lesson. That's why I'm here.{wait}{end}"
  },
  {
   "id": "R:2ED48",
   "jp": "{face:002E}ちょうどいいじゃない{n}ここはサンドランド{wait}{page}死者の国だもの{wait}{n}おとなしくねむりなさい{wait}{page}やるわよ、ソウタ！{wait}{end}",
-  "en": ""
+  "en": "{face:002E}How fitting. This is Sand Land,{wait}{page}the land of the dead.{wait}{n}So rest in peace, quietly.{wait}{page}Let's do this, Souta!{wait}{end}"
  },
  {
   "id": "R:2EDBC",
   "jp": "{voice:042C}ちょっと、待った！{wait}{end}",
-  "en": ""
+  "en": "{voice:042C}Hold it right there!{wait}{end}"
  },
  {
   "id": "R:2EDD8",
   "jp": "{face:000B}クソッ！{n}邪魔が入った！{wait}{page}{name}！お前だけは{n}ディープホールへ落ちてもらうぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}Darn it! Somebody butted in!{wait}{page}{name}! You, at least, are going down into the Deep Hole!{wait}{end}"
  },
  {
   "id": "R:2EE2C",
   "jp": "{face:0003}{voice:042D}こんな所でどうしたんだ？{wait}{page}{voice:042E}こいつらは誰だ？{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:042D}What are you doing in a place like this?{wait}{page}{voice:042E}Who are these guys?{wait}{end}"
  },
  {
   "id": "R:2EE68",
   "jp": "{face:0003}{voice:05EA}アブナイ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05EA}Look out!!{wait}{end}"
  },
  {
   "id": "R:2EE80",
   "jp": "クッ！！！！{wait}{end}",
-  "en": ""
+  "en": "Ngh!!!!{wait}{end}"
  },
  {
   "id": "R:2EE90",
   "jp": "{face:002E}また来たのね！{name}{wait}{end}",
-  "en": ""
+  "en": "{face:002E}So you came back, {name}!{wait}{end}"
  },
  {
   "id": "R:2EEA8",
   "jp": "{face:002E}勝負よ！{name}{wait}{end}",
-  "en": ""
+  "en": "{face:002E}Let's settle this, {name}!{wait}{end}"
  },
  {
   "id": "R:2EEBC",
   "jp": "{face:002E}さすがね・・・{name}！{n}その力、大魔王が・・・{wait}{end}",
-  "en": ""
+  "en": "{face:002E}Impressive... {name}! That power... the Great Demon King...{wait}{end}"
  },
  {
   "id": "R:2EEF0",
   "jp": "{face:0000}{voice:05EB}ねえ・・・ケガはだいじょうぶなの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05EB}Hey... are your injuries okay?{wait}{end}"
  },
  {
   "id": "R:2EF20",
   "jp": "{face:0003}{voice:05EC}だいじょうぶさ！{wait}{page}{voice:042F}そんな事より{wait}{n}{voice:0430}このピラミッドの中でナガヒサを{f0}見かけなかったか？{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05EC}I'm fine!{wait}{page}{voice:042F}Never mind that.{wait}{n}{voice:0430}Did you see Nagahisa{f0}anywhere in this pyramid?{wait}{end}"
  },
  {
   "id": "R:2EF8C",
   "jp": "{face:0000}{voice:0431}えっ、ナガヒサ君が{n}このピラミッドにいるわけ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0431}Huh? Nagahisa-kun is in this pyramid?{wait}{end}"
  },
  {
   "id": "R:2EFC8",
   "jp": "{face:0003}{voice:0432}ああ、どうもそうらしいんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0432}Yeah, looks that way.{wait}{end}"
  },
  {
   "id": "R:2EFF0",
   "jp": "{face:0003}{voice:0433}いいや、もう少し探せば{n}見つかるかもしれないから{wait}{page}{voice:0434}オレはちょっと{n}キズを治してくるぜ{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0433}Nah, I might find him if I look a little longer,{wait}{page}{voice:0434}so I'm gonna go patch up my wounds for a bit.{wait}{end}"
  },
  {
   "id": "R:2F058",
   "jp": "{face:0001}あっ、思い出した！{wait}{page}{name}、ここなのよ！{n}私が封印されたのは！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Ah, I remember now!{wait}{page}{name}, it was here! This is where I got sealed!{wait}{end}"
  },
  {
   "id": "R:2F09C",
   "jp": "{face:0001}ここで妹のヒポグリフと{n}遊んでいた時に{wait}{f0}あのフレスベルクがやって来て{wait}{page}私たちにうまい事言って{n}封印してしまったの{wait}{end}",
-  "en": ""
+  "en": "{face:0001}I was playing here with my little sister Hippogriff{wait}{f0}when that Hresvelgr showed up,{wait}{page}sweet-talked us, and sealed us away.{wait}{end}"
  },
  {
   "id": "R:2F118",
   "jp": "イシの中から誰かの声がする{wait}{page}・・・・タ　ス　ケ　テ・・・・{wait}{end}",
-  "en": ""
+  "en": "Someone's voice is coming from inside the stone...{wait}{page}....H... e... l... p... m... e....{wait}{end}"
  },
  {
   "id": "R:2F158",
   "jp": "・・・・・・プハーッ{n}封印がとけたわ！{wait}{end}",
-  "en": ""
+  "en": "......Pwah! The seal's broken!{wait}{end}"
  }
 ]

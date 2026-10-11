@@ -2,17 +2,17 @@
  {
   "id": "R:2B1A8",
   "jp": "{ee}種族をこえたあいを見つけたよ！{wait}{n}種族にこだわっていた{f0}私がバカだった{wait}{end}",
-  "en": ""
+  "en": "{ee}I found a love that goes beyond tribes!{wait}{n}Getting so hung up on tribes...{f0}I was such a fool.{wait}{end}"
  },
  {
   "id": "R:2B1F4",
   "jp": "{ee}ここはマーブルランドのコロシアム{wait}{page}この魔界の王を決めるため{n}ブトウ会が開かれる事に{wait}{f0}なっておりますが・・・{wait}{page}３つの部族の王が来るまでは{n}ブトウ会は始まらないのです{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Marble Land's Colosseum.{wait}{page}A Battle Ball is to be held here to decide this land's Demon Lord,{wait}{f0}however...{wait}{page}the Battle Ball can't begin until the kings of the three tribes arrive.{wait}{end}"
  },
  {
   "id": "R:2B2A4",
   "jp": "{ee}後でメッセージを入れる{wait}{end}",
-  "en": ""
+  "en": "{ee}Message to be added later.{wait}{end}"
  },
  {
   "id": "R:2B2C0",
@@ -21,32 +21,32 @@
  {
   "id": "R:2B2E4",
   "jp": "{ee}メシアのヒトミって知ってる？{n}ブトウ会に優勝すれば{wait}{f0}マーブルランドの魔王として{f0}白いメシアのヒトミを{wait}{f0}手に入れる事ができるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Do you know about the Messiah Eye? If you win the Battle Ball,{wait}{f0}you become Demon Lord of Marble Land{f0}and the White Messiah Eye{wait}{f0}is yours to take!{wait}{end}"
  },
  {
   "id": "R:2B36C",
   "jp": "{ee}ブトウ会で優勝すると{n}５００００マッカもらえるんだ！！{wait}{f0}いいなぁ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}If you win the Battle Ball, you get 50000 Macca!!{wait}{f0}Must be nice...{wait}{end}"
  },
  {
   "id": "R:2B3BC",
   "jp": "{ee}私もブトウ会に出るぞ！！{n}受けつけはどっちだ？{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm entering the Battle Ball too!! Where do I sign up?{wait}{end}"
  },
  {
   "id": "R:2B3F0",
   "jp": "{ee}デーバ族なんかに負けるもんか！{wait}{end}",
-  "en": ""
+  "en": "{ee}Like we'd ever lose to the Deva tribe!{wait}{end}"
  },
  {
   "id": "R:2B414",
   "jp": "{ee}これからは仲良くやって行くよ{wait}{end}",
-  "en": ""
+  "en": "{ee}From now on, we'll get along.{wait}{end}"
  },
  {
   "id": "R:2B438",
   "jp": "{ee}シュラ族なんかに負けるもんか！{wait}{end}",
-  "en": ""
+  "en": "{ee}Like we'd ever lose to the Sura tribe!{wait}{end}"
  },
  {
   "id": "R:2B45C",
@@ -67,22 +67,22 @@
  {
   "id": "R:2B4FC",
   "jp": "{ee}オレたちシュラは、昔から{n}デーバがだいっ嫌いなんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}We Sura have always hated the Devas!{wait}{end}"
  },
  {
   "id": "R:2B538",
   "jp": "{ee}オレたちシュラが{n}ヴリトラ様といっしょに戦えば{wait}{f0}強力なコンボの技を{f0}使えるのだ{wait}{end}",
-  "en": ""
+  "en": "{ee}When we Sura fight alongside Vritra-sama,{wait}{f0}we can unleash powerful{f0}combo techniques!{wait}{end}"
  },
  {
   "id": "R:2B590",
   "jp": "{ee}ここはシュラ族の村だ！{wait}{end}",
-  "en": ""
+  "en": "{ee}This is the village of the Sura tribe!{wait}{end}"
  },
  {
   "id": "R:2B5AC",
   "jp": "{ee}おまえ、コロシアムから来たのか{wait}{n}今度のブトウ会で{f0}決着がつけば{wait}{page}この長い戦争も終わるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}You came from the Colosseum, huh?{wait}{n}If the next Battle Ball{f0}settles things once and for all,{wait}{page}this long war will finally end.{wait}{end}"
  },
  {
   "id": "R:2B610",
@@ -91,52 +91,52 @@
  {
   "id": "R:2B634",
   "jp": "{ee}これでこの国もまた{n}いい国になる事だろうぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}Now this land oughta be a good place again.{wait}{end}"
  },
  {
   "id": "R:2B664",
   "jp": "{ee}{face:0016}よく見るとなかなか強そうだ！{n}デーバ族の仲間にならないか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0016}Now that I get a good look, you seem pretty strong! Why not join the Deva tribe?{wait}{end}"
  },
  {
   "id": "R:2B6A8",
   "jp": "{ee}昔はあんなにお金があって{n}カベもユカも黄金だったのに{wait}{f0}今ではメッキの見かけ倒しだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}We used to be so rich, the walls and floors were all gold,{wait}{f0}but now it's just cheap plating for show.{wait}{end}"
  },
  {
   "id": "R:2B704",
   "jp": "{ee}私たちデーバは、昔から{n}シュラがだいっ嫌いなんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}We Devas have always hated the Sura!{wait}{end}"
  },
  {
   "id": "R:2B73C",
   "jp": "{ee}お前、ニタニタを見たか？{n}この村の西のかべのそばに{wait}{f0}立っているのがニタニタだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, have you seen Nitanita? By the west wall of this village,{wait}{f0}the one standing there is Nitanita.{wait}{end}"
  },
  {
   "id": "R:2B794",
   "jp": "{ee}そのケルベロス！{n}ひんしじゃないか！！{wait}{f0}ひんしを治す薬は{f0}すごくキチョウで{wait}{f0}今ではスゴイねだんだよ？{wait}{page}フォレストランドの伝説の{n}ドラゴンにしかつくれないんだって！！{wait}{end}",
-  "en": ""
+  "en": "{ee}That Cerberus! It's near death!!{wait}{f0}Medicine that cures near death{f0}is super rare,{wait}{f0}so these days it costs a fortune, you know?{wait}{page}They say only the legendary dragon of Forest Land can make it!!{wait}{end}"
  },
  {
   "id": "R:2B844",
   "jp": "{ee}ひんしが治って良かったね！{wait}{end}",
-  "en": ""
+  "en": "{ee}Good thing you recovered from being near death!{wait}{end}"
  },
  {
   "id": "R:2B864",
   "jp": "{ee}ワタシタチハ、ロボットナノデ{n}マイニチマイニチ、メイレイドオリニ{wait}{f0}ハタラキマス・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}We are robots, so every day, every day, as ordered,{wait}{f0}we work...{wait}{end}"
  },
  {
   "id": "R:2B8C0",
   "jp": "{ee}コロシアムの北にあるのが{n}このデーバ族の村{wait}{page}西にあるのがシュラ族の村{wait}{page}そして、東に行けば{n}ラセツ族の村に行けるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}North of the Colosseum is this village of the Deva tribe.{wait}{page}To the west is the Sura tribe's village.{wait}{page}And if you go east, you'll reach the Rasetsu tribe's village.{wait}{end}"
  },
  {
   "id": "R:2B93C",
   "jp": "{ee}今後はみんなで仲良くやるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}From now on, we'll all get along together.{wait}{end}"
  },
  {
   "id": "R:2B95C",
@@ -145,7 +145,7 @@
  {
   "id": "R:2B98C",
   "jp": "{ee}{face:0014}ブトウ会で戦う事になっても{n}てかげんはしませんよ、その時は{wait}{f0}せいせいどうどうと戦いましょう{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0014}Even if we end up fighting in the Battle Ball, I will not hold back. When that time comes,{wait}{f0}let us fight fair and square.{wait}{end}"
  },
  {
   "id": "R:2B9F4",
@@ -154,7 +154,7 @@
  {
   "id": "R:2BA34",
   "jp": "{ee}もう、戦争は嫌だ！{wait}{page}そう思っているのは{n}オレだけじゃないぞ{wait}{page}デーバの村のわかい男が{n}サンドランドに逃げ出したそうだ{wait}{page}オレも逃げ出そうかなあ{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm sick of war!{wait}{page}And I'm not the only one who feels that way.{wait}{page}I hear a young man from the Deva village ran off to Sand Land.{wait}{page}Maybe I should run away too...{wait}{end}"
  },
  {
   "id": "R:2BACC",
@@ -163,12 +163,12 @@
  {
   "id": "R:2BAE0",
   "jp": "{ee}マーブルランドには３つの部族アル{n}部族の村、王たち住んでる{wait}{f0}タズネル、いい！{wait}{end}",
-  "en": ""
+  "en": "{ee}Marble Land, three tribes there are. In tribe villages, kings live.{wait}{f0}Visit, good!{wait}{end}"
  },
  {
   "id": "R:2BB34",
   "jp": "{ee}シュラとデーバはおたがいに{n}力で物事を解決する{wait}{page}しかし、私たちラセツは{n}ちえと話し合いで{wait}{f0}このマーブルランドを{f0}治めようとしているんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Sura and the Devas both settle things by force.{wait}{page}But we Rasetsu, with wisdom and talk,{wait}{f0}are trying to rule{f0}this Marble Land.{wait}{end}"
  },
  {
   "id": "R:2BBC4",
@@ -181,7 +181,7 @@
  {
   "id": "R:2BC1C",
   "jp": "{ee}{name}！{n}オレはオマエの・・・・・・だ！{wait}{page}オマエは・・・のチカラを・・{n}・・・・・・・だ！{wait}{page}世界を・・・・オマエの・・・・{n}・・・・を・・・！！{wait}{f0}そして７つの・・を{f0}集めて・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}! I am your......!{wait}{page}You... the power of... are.......!{wait}{page}The world.... your........ ...!!{wait}{f0}And gather the seven..{f0}.....!{wait}{end}"
  },
  {
   "id": "R:2BCDC",
@@ -190,37 +190,37 @@
  {
   "id": "R:2BD0C",
   "jp": "{ee}{face:0001}・・だ、だいじょうぶ・・{n}こんなのカスリキズよ・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I-I'm fine... It's just a scratch...{wait}{end}"
  },
  {
   "id": "R:2BD48",
   "jp": "{face:0001}{voice:03D7}・・だ、だいじょうぶ・・{n}こんなのカスリキズよ・・{wait}{page}{voice:03D8}だけどしばらくの間、戦いに{n}参加するのは無理みたいだから{wait}{page}{voice:03D9}キングライザーに仲魔を{n}用意するのをわすれないで{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:03D7}I-I'm fine... It's just a scratch...{wait}{page}{voice:03D8}But it looks like I can't join any fights for a while,{wait}{page}{voice:03D9}so don't forget to get some allies ready in your King Riser.{wait}{end}"
  },
  {
   "id": "R:2BE00",
   "jp": "{face:001C}オレサマに勝てたら１コくれてやる{wait}{end}",
-  "en": ""
+  "en": "{face:001C}Beat the great me, and I'll give you one!{wait}{end}"
  },
  {
   "id": "R:2BE28",
   "jp": "{face:001D}オレサマに勝てたら１コくれてやる{wait}{end}",
-  "en": ""
+  "en": "{face:001D}Beat the great me, and I'll give you one!{wait}{end}"
  },
  {
   "id": "R:2BE50",
   "jp": "{face:0000}おかげで{partner}が{n}元気になったわ！アリガトウ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Thanks to you, {partner} is all better! Thank you!{wait}{end}"
  },
  {
   "id": "R:2BE80",
   "jp": "ブトウ会のお知らせ{wait}{n}この国の魔王のざをかけて{f0}ブトウ会がかいさいされます！！{wait}{f0}どなたでも参加できます！{wait}{end}",
-  "en": ""
+  "en": "Battle Ball Notice{wait}{n}For the throne of this land's Demon Lord,{f0}a Battle Ball will be held!!{wait}{f0}Anyone may enter!{wait}{end}"
  },
  {
   "id": "R:2BEF0",
   "jp": "ブトウ会のお知らせ{wait}{n}この国の魔王のざをかけた{f0}ブトウ会かいさい中！！{wait}{end}",
-  "en": ""
+  "en": "Battle Ball Notice{wait}{n}The Battle Ball for this land's throne{f0}is now underway!!{wait}{end}"
  },
  {
   "id": "R:2BF3C",
@@ -245,7 +245,7 @@
  {
   "id": "R:2C04C",
   "jp": "{name}は{n}参加するのをやめた！{wait}{end}",
-  "en": ""
+  "en": "{name} decided not to enter!{wait}{end}"
  },
  {
   "id": "R:2C06C",
@@ -254,17 +254,17 @@
  {
   "id": "R:2C0AC",
   "jp": "{face:001C}ならば、そうそうに立ち去れ！{wait}{end}",
-  "en": ""
+  "en": "{face:001C}Then begone at once!{wait}{end}"
  },
  {
   "id": "R:2C0D0",
   "jp": "{face:001D}ならば、そうそうに立ち去れ！{wait}{end}",
-  "en": ""
+  "en": "{face:001D}Then begone at once!{wait}{end}"
  },
  {
   "id": "R:2C0F4",
   "jp": "ウケツケ、カンリョウシマシタ！{wait}{page}ダイ２ブロックノ　ヒカエシツヘ{n}オススミクダサイ！！{wait}{end}",
-  "en": ""
+  "en": "Registration complete!{wait}{page}Please proceed to the Block 2 waiting room!!{wait}{end}"
  },
  {
   "id": "R:2C150",
@@ -277,32 +277,32 @@
  {
   "id": "R:2C19C",
   "jp": "ソレデハ{n}ダイ１シアイヲ、ハジメマス！{wait}{end}",
-  "en": ""
+  "en": "Now then, let the first match begin!{wait}{end}"
  },
  {
   "id": "R:2C1C8",
   "jp": "ワタシハ、マオーニナリタイ！{wait}{page}シアイカイシ！！{wait}{end}",
-  "en": ""
+  "en": "I want to become the Demon Lord!{wait}{page}Let the match begin!!{wait}{end}"
  },
  {
   "id": "R:2C1FC",
   "jp": "{name}ノ勝利！！{wait}{end}",
-  "en": ""
+  "en": "Victory to {name}!!{wait}{end}"
  },
  {
   "id": "R:2C20C",
   "jp": "アア！ヤッパリオレタチハ{n}ドウグニスギナイノカ？{wait}{end}",
-  "en": ""
+  "en": "Ah! So we really are nothing but tools after all?{wait}{end}"
  },
  {
   "id": "R:2C240",
   "jp": "{ee}ツギノ、シアイニハイル{n}ジュンビハイイデスカ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Are you ready to go into the next match?{wait}{end}"
  },
  {
   "id": "R:2C274",
   "jp": "ソレデハ{n}ダイ２シアイヲ、ハジメマス！{wait}{end}",
-  "en": ""
+  "en": "Now then, let the second match begin!{wait}{end}"
  },
  {
   "id": "R:2C2A0",
@@ -311,7 +311,7 @@
  {
   "id": "R:2C2D4",
   "jp": "{face:0014}デビルチルドレン・{name}{n}これほどのチカラの前では{wait}{f0}わがちえも役に立たないのか！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Devil Child {name}... Before such power,{wait}{f0}is even my wisdom of no use!?{wait}{end}"
  },
  {
   "id": "R:2C32C",
@@ -320,7 +320,7 @@
  {
   "id": "R:2C358",
   "jp": "オレは誰にも負けない！{wait}{page}シアイカイシ！！{wait}{end}",
-  "en": ""
+  "en": "Nobody can beat me!{wait}{page}Let the match begin!!{wait}{end}"
  },
  {
   "id": "R:2C388",
@@ -345,7 +345,7 @@
  {
   "id": "R:2C464",
   "jp": "ソレデハ、サイゴノシアイヲ{n}ハジメマス！{wait}{end}",
-  "en": ""
+  "en": "Now then, let the final match begin!{wait}{end}"
  },
  {
   "id": "R:2C490",
@@ -354,22 +354,22 @@
  {
   "id": "R:2C4E4",
   "jp": "{face:0003}{voice:040C}ともかく{n}お父さんが見つかるといいな{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:040C}Anyway, I hope you find your dad.{wait}{end}"
  },
  {
   "id": "R:2C514",
   "jp": "{name}ノ、ユーショウ！！{wait}{n}アタラシイマオーハ{f0}{name}サマニケッテイ！！{wait}{end}",
-  "en": ""
+  "en": "{name} is the champion!!{wait}{n}The new Demon Lord{f0}is {name}-sama!!{wait}{end}"
  },
  {
   "id": "R:2C558",
   "jp": "コレガショーヒント{n}ショーキンデス！！{wait}{f0}ドウゾ！！{wait}{end}",
-  "en": ""
+  "en": "Here are your prize and your prize money!!{wait}{f0}Please take them!!{wait}{end}"
  },
  {
   "id": "R:2C590",
   "jp": "白いメシアのヒトミを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the White Messiah Eye!{wait}{end}"
  },
  {
   "id": "R:2C5B4",
@@ -382,27 +382,27 @@
  {
   "id": "R:2C618",
   "jp": "{face:0000}・・・私が魔王・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...Me, a Demon Lord...?{wait}{end}"
  },
  {
   "id": "R:2C638",
   "jp": "{face:0014}そんな！{name}様がぜひ{n}このマーブルランドを{wait}{f0}治めて下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Oh, come now! {name}-sama, we beg you,{wait}{f0}please rule over this Marble Land!!{wait}{end}"
  },
  {
   "id": "R:2C67C",
   "jp": "{face:0015}そうです！{name}様が{n}１番強いのですから！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}That's right! {name}-sama, you're the strongest of us all!{wait}{end}"
  },
  {
   "id": "R:2C6AC",
   "jp": "{face:0016}この国をまるく治められるのは{n}{name}様しかいません！！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}Only {name}-sama can rule this land in peace!!{wait}{end}"
  },
  {
   "id": "R:2C6E8",
   "jp": "{face:0000}・・・せっかくだけど{n}魔王なんて面倒なだけ{wait}{page}それに、誰が魔王になっても{n}みんなでいっしょにやらないと{wait}{f0}上手く行くわけがないわよ{wait}{page}さて？誰がもっとも魔王に{n}ふさわしいかなぁ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...Thanks, but being Demon Lord would just be a pain.{wait}{page}Besides, whoever becomes Demon Lord, unless everybody works together,{wait}{f0}it's never going to go well.{wait}{page}So now... who'd make the best Demon Lord?{wait}{end}"
  },
  {
   "id": "R:2C7A4",
@@ -415,12 +415,12 @@
  {
   "id": "R:2C818",
   "jp": "{face:0015}それでしたら、ぜひオレを{n}おともに連れて行って下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}In that case, please take me along with you!!{wait}{end}"
  },
  {
   "id": "R:2C858",
   "jp": "{face:0016}いやいや、ぜひ私を仲魔に！！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}No, no, make me your ally, please!!{wait}{end}"
  },
  {
   "id": "R:2C87C",
@@ -461,7 +461,7 @@
  {
   "id": "R:2CA0C",
   "jp": "{face:0015}{name}様{n}たとえ大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama, even if the Great Demon King becomes your enemy,{wait}{page}we will stand by your side!{wait}{end}"
  },
  {
   "id": "R:2CA54",
@@ -474,67 +474,67 @@
  {
   "id": "R:2CAAC",
   "jp": "{ee}ヒーホー、{name}くん{wait}{n}最近のアイスランドは{f0}魔王ヘルがおとなしくなって{wait}{f0}くらしやすくなったホー{wait}{page}おかげでこうしてブトウ会も{n}見に来られるようになったホー{wait}{page}アッ！そう言えば魔王ヘルが{n}キミに会いたがってるそうだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho, {name}-kun!{wait}{n}These days in Ice Land,{f0}Demon Lord Hel's calmed down,{wait}{f0}so life's gotten easier-ho!{wait}{page}Thanks to that, we can even come watch the Battle Ball like this-ho!{wait}{page}Oh! Speaking of which, I hear Demon Lord Hel wants to see you-ho!{wait}{end}"
  },
  {
   "id": "R:2CB8C",
   "jp": "あった！！これが白い石よ！！{wait}{end}",
-  "en": ""
+  "en": "Found it!! This is the white stone!!{wait}{end}"
  },
  {
   "id": "R:2CBAC",
   "jp": "{ee}ブトウ会、優勝しょうひん{n}白いメシアのヒトミ{wait}{end}",
-  "en": ""
+  "en": "{ee}Battle Ball Champion's Prize{n}White Messiah Eye{wait}{end}"
  },
  {
   "id": "R:2CBE0",
   "jp": "{face:0000}{voice:03D4}ブトウ会で優勝すると{n}手に入るのね！{wait}{page}{voice:03D5}もう一人のデビルチルドレンを{n}この魔界でつかまえないと{wait}{f0}{voice:03D6}このヒトミがひつようになるのね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:03D4}So you get it by winning the Battle Ball!{wait}{page}{voice:03D5}To catch the other Devil Child here in Makai,{wait}{f0}{voice:03D6}I'm gonna need this Eye.{wait}{end}"
  },
  {
   "id": "R:2CC74",
   "jp": "それは大変ソーね{wait}{end}",
-  "en": ""
+  "en": "Sounds like a real big deal, huh.{wait}{end}"
  },
  {
   "id": "R:2CC88",
   "jp": "{face:0000}そのパイモンが何の用なの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}So what does this Paimon want?{wait}{end}"
  },
  {
   "id": "R:2CCAC",
   "jp": "{face:0017}弱すぎー・・・{wait}{page}でも、パートナーとしては{n}けなげよね{wait}{page}{name}{n}{partner}にめんじて{wait}{f0}今日は帰ってあげるわ{wait}{page}でも、次はそうはいかないわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0017}Way too weak...{wait}{page}But as a partner, it's pretty devoted.{wait}{page}{name}, for {partner}'s sake,{wait}{f0}I'll let you off for today.{wait}{page}But next time won't go so easy.{wait}{end}"
  },
  {
   "id": "R:2CD38",
   "jp": "ちょっとまて！！{n}この先はシュラ族の村だ！{wait}{f0}部外者を入れるわけには{f0}いかない！！{wait}{end}",
-  "en": ""
+  "en": "Hold it right there!! Past here is the Sura village!{wait}{f0}We can't let any outsiders{f0}through!!{wait}{end}"
  },
  {
   "id": "R:2CD90",
   "jp": "{ee}{face:0015}わしはシュラ族の王・ヴリトラ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0015}I am Vritra, King of the Sura tribe.{wait}{end}"
  },
  {
   "id": "R:2CDB8",
   "jp": "ちょっと待て！！{n}この先はデーバ族の村だ！{wait}{f0}部外者を入れるわけには{f0}いかない！！{wait}{end}",
-  "en": ""
+  "en": "Hold it right there!! Past here is the Deva village!{wait}{f0}We can't let any outsiders{f0}through!!{wait}{end}"
  },
  {
   "id": "R:2CE10",
   "jp": "{ee}{face:0016}わしはデーバ族の王・インドラ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0016}I am Indra, King of the Deva tribe.{wait}{end}"
  },
  {
   "id": "R:2CE38",
   "jp": "ちょっと待て！！{n}この先はラセツ族の村だ！{wait}{f0}部外者を入れるわけには{f0}いかない！！{wait}{end}",
-  "en": ""
+  "en": "Hold it right there!! Past here is the Rasetsu village!{wait}{f0}We can't let any outsiders{f0}through!!{wait}{end}"
  },
  {
   "id": "R:2CE90",
   "jp": "{ee}ブトウ会に出るなら{n}オレも連れてってくれよ！{wait}{f0}おねがいだよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}If you're entering the Battle Ball, take me with you!{wait}{f0}Please!{wait}{end}"
  },
  {
   "id": "R:2CED4",
@@ -543,27 +543,27 @@
  {
   "id": "R:2CEF8",
   "jp": "{ee}もう、じっとしているのは{n}嫌なんだ！おねがいだよ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm sick of just sitting around! Please!!{wait}{end}"
  },
  {
   "id": "R:2CF34",
   "jp": "{ee}{face:0014}私はラセツ王ビビサナ{wait}{page}あなたがデビルチルドレンの{n}{name}ですね{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0014}I am Rasetsu King Vibhishana.{wait}{page}And you must be the Devil Child {name}.{wait}{end}"
  },
  {
   "id": "R:2CF7C",
   "jp": "{name}！{n}オレはオマエの・・・・・・だ！{wait}{page}オマエは・・・のチカラを・・{n}・・・・・・・だ！{wait}{f0}世界を・・・・オマエの・・・・{f0}・・・・を・・・！！{wait}{f0}そして{f0}７つの・・を集めて・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{name}! I am your......!{wait}{page}You... the power of... are.......!{wait}{f0}The world.... your....{f0}.... ...!!{wait}{f0}And{f0}gather the seven.......!{wait}{end}"
  },
  {
   "id": "R:2D03C",
   "jp": "{ee}やぁ、目がさめた？また会えたね{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, you're awake? We meet again.{wait}{end}"
  },
  {
   "id": "R:2D060",
   "jp": "{ee}ホントにぐーぜん、キゼツしていた{n}キミを見つけたんだ！{wait}{page}がんばってココまで運んだんだけど{n}キミはもう、だいじょうぶそうだね・・・{wait}{page}でもそっちのグリフォンは{n}かなりのじゅうしょうだよ！{wait}{f0}早く病院に連れて{f0}行った方がいい！！{wait}{page}・・・じゃあ、ボクは悪いけど{n}用があるからまたね{wait}{end}",
-  "en": ""
+  "en": "{ee}I found you passed out, totally by chance!{wait}{page}I worked hard to carry you all the way here, but you look like you'll be okay now...{wait}{page}But that Gryphon of yours is badly hurt!{wait}{f0}You'd better take it{f0}to a hospital, quick!!{wait}{page}...Well, sorry, but I've got things to do. See you later.{wait}{end}"
  },
  {
   "id": "R:2D17C",
@@ -576,11 +576,11 @@
  {
   "id": "R:2D244",
   "jp": "{ee}この街を出て東に行くと{n}小さなはか場がある{wait}{page}その中には人間のはかも{n}あるという事だ{wait}{end}",
-  "en": ""
+  "en": "{ee}Head east out of this town and you'll find a small graveyard.{wait}{page}They say there are even human graves in there.{wait}{end}"
  },
  {
   "id": "R:2D2A0",
   "jp": "それなら北のピラミッドに{n}行くのデス{wait}{page}魔王イシス様ならきっといい事を{n}教えてくれるのデス{wait}{end}",
-  "en": ""
+  "en": "Then to the pyramid in the north you must go.{wait}{page}Demon Lord Isis-sama will surely tell you something good.{wait}{end}"
  }
 ]

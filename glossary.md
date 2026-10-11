@@ -93,5 +93,6 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Katakana-only speech (robots, halting demons): normal case, stilted wording; ALL CAPS only for shouting.
 - 優勝 / 傷勝 in old batch inputs = win (font table fixed: 0x287 = 優, 0x2C2 = 選, 0x29E = 閉, 0x2CF = 闇).
 - A JP 3rd-person 大魔王様 = "the Great Demon King"; direct address = "My Great Demon King".
+- パパ / ママ / 父さん (Mirai, Setsuna) = Dad / Mom (not Papa/Mama).
 - Demon names: docs/names.md is binding (e.g. Dahaka per names.md).
 - Pilot (opening, approved in-game 2026-10-11): see docs/style-reference.md.

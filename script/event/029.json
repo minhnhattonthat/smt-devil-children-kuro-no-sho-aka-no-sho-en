@@ -2,67 +2,67 @@
  {
   "id": "R:310BC",
   "jp": "{face:0023}{voice:04AD}デビルチルドレンよ！{wait}{n}{voice:04AE}いずれ、あらためて{f0}お会いする時があるでしょう{wait}{page}{voice:04AF}光と闇の戦いがもうすぐ{n}最期の時をむかえるでしょうから{wait}{end}",
-  "en": ""
+  "en": "{face:0023}{voice:04AD}Devil Child!{wait}{n}{voice:04AE}Someday, we shall{f0}meet again properly.{wait}{page}{voice:04AF}For the battle between light and darkness will soon reach its final hour.{wait}{end}"
  },
  {
   "id": "R:31150",
   "jp": "{face:0000}{voice:04B0}光と闇の戦い・・？{n}最期の時・・・？？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04B0}The battle between light and darkness...? Its final hour...??{wait}{end}"
  },
  {
   "id": "R:31184",
   "jp": "{ee}{face:001A}おお！あなたがウワサの{n}デビルチルドレンどのか！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}Ohh! So you are the Devil Child I've heard so much about!{wait}{end}"
  },
  {
   "id": "R:311C0",
   "jp": "{face:001A}フフフ・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Heh heh heh....{wait}{end}"
  },
  {
   "id": "R:311D8",
   "jp": "{ee}{face:001A}金のリンゴパイを作るには{n}ドラゴンがかくしている{wait}{f0}金のリンゴ・金のバター{f0}そして、金のタマゴが{wait}{f0}ひつようなのです、おねがいしますよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}To make a Golden Apple Pie, we need what the dragons are hiding:{wait}{f0}the Golden Apple, the Golden Butter,{f0}and the Golden Egg.{wait}{f0}I'm counting on you, truly.{wait}{end}"
  },
  {
   "id": "R:31268",
   "jp": "{ee}{face:001A}んっ・・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001A}Hmm....{wait}{end}"
  },
  {
   "id": "R:31280",
   "jp": "{face:001A}金のリンゴパイを作れるのは{n}特別なニスロクたち{wait}{f0}だけなんです{wait}{end}",
-  "en": ""
+  "en": "{face:001A}The only ones who can make Golden Apple Pie are special Nisrocs{wait}{f0}--and no one else.{wait}{end}"
  },
  {
   "id": "R:312C8",
   "jp": "{face:001A}あっ、ニスロクが{n}いるではありませんか！{wait}{f0}ニスロクを呼んで下され！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Oh, why, there's a Nisroc right there!{wait}{f0}Please, call the Nisroc over!{wait}{end}"
  },
  {
   "id": "R:31314",
   "jp": "{face:001E}金のリンゴパイ？{n}オッケー！まかせてよ{wait}{end}",
-  "en": ""
+  "en": "{face:001E}Golden Apple Pie? Okay! Leave it to me!{wait}{end}"
  },
  {
   "id": "R:31344",
   "jp": "{face:001A}これが金のリンゴパイか！！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}So this is the Golden Apple Pie!!{wait}{end}"
  },
  {
   "id": "R:31368",
   "jp": "{face:001E}できたよ！{wait}{end}",
-  "en": ""
+  "en": "{face:001E}It's ready!{wait}{end}"
  },
  {
   "id": "R:3137C",
   "jp": "{face:001A}フフフ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Heh heh heh...{wait}{end}"
  },
  {
   "id": "R:31390",
   "jp": "{face:001E}それじゃあ、よく味わってくれよ{wait}{end}",
-  "en": ""
+  "en": "{face:001E}Well then, savor every bite!{wait}{end}"
  },
  {
   "id": "R:313B8",
@@ -71,27 +71,27 @@
  {
   "id": "R:313D4",
   "jp": "{face:001A}ついでにオマエの持つ{n}全部のヒトミをもらうぞ！{wait}{page}大魔王にはわしがとどけて{n}ほうびの品でももらうとするか{wait}{end}",
-  "en": ""
+  "en": "{face:001A}And while I'm at it, I'll take every Eye you've got!{wait}{page}I'll take them to the Great Demon King myself and get some kind of reward.{wait}{end}"
  },
  {
   "id": "R:31444",
   "jp": "{face:001A}グ・グゥ、こんなハズでは・・・{n}ハッ！！ご、ごめんなさい！！{wait}{f0}ほら、ちょっとどうかしてたんだ！{f0}これをどうぞおおさめ下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Gr, grr, this wasn't supposed to... Ah!! I-I'm so sorry!!{wait}{f0}See, I just wasn't myself for a moment!{f0}Please, accept this!!{wait}{end}"
  },
  {
   "id": "R:314CC",
   "jp": "紫のメシアのヒトミを{n}手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got the Purple Messiah Eye!{wait}{end}"
  },
  {
   "id": "R:314F4",
   "jp": "{face:001A}紫のメシアのヒトミで{n}地上に戻る事ができますぞ{wait}{page}今なら大魔王のいんぼうを{n}止める事ができますから{wait}{page}がんばって下さい・・・トホホ{wait}{end}",
-  "en": ""
+  "en": "{face:001A}With the Purple Messiah Eye, you can return to the surface.{wait}{page}Right now, you can still stop the Great Demon King's scheme.{wait}{page}Please do your best... Boo-hoo...{wait}{end}"
  },
  {
   "id": "R:31580",
   "jp": "{face:001A}チッ・・あーあ・・{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Tch... Aw, man...{wait}{end}"
  },
  {
   "id": "R:3159C",
@@ -100,27 +100,27 @@
  {
   "id": "R:31608",
   "jp": "第１級　ハンザイシャ{n}この顔にピンと来たら１１０番{wait}{end}",
-  "en": ""
+  "en": "Most Wanted Criminal. If this face rings a bell, call the police!{wait}{end}"
  },
  {
   "id": "R:31640",
   "jp": "・・・誰だっけ？{n}なんか知ってる人ににてるかも？{wait}{end}",
-  "en": ""
+  "en": "...Who was that again? Kinda looks like someone I know, maybe?{wait}{end}"
  },
  {
   "id": "R:31674",
   "jp": "{face:001A}また来たのか！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}You're back again!?{wait}{end}"
  },
  {
   "id": "R:3168C",
   "jp": "{ee}ここはフォレストランドの{n}ベッドタウンさ{wait}{f0}ここから北に行った森には{f0}クロークルワッハが住んでるんだぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Forest Land's suburb.{wait}{f0}Crom Cruach lives in the forest{f0}north of here.{wait}{end}"
  },
  {
   "id": "R:316F8",
   "jp": "　また今度ね{n}　せっかくだけど顔が嫌{end}",
-  "en": ""
+  "en": "Maybe next time{n}Thanks, but not with that face{end}"
  },
  {
   "id": "R:31720",
@@ -133,7 +133,7 @@
  {
   "id": "R:31768",
   "jp": "ゴウカなハナタバを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got a Gorgeous Bouquet!{wait}{end}"
  },
  {
   "id": "R:3178C",
@@ -142,42 +142,42 @@
  {
   "id": "R:317E0",
   "jp": "{ee}森に住む３びきのドラゴンは{n}みんな強いぞ！{wait}{page}それに、森の中は{n}迷いやすくて危険だ{wait}{f0}行くんならチャント{f0}じゅんびしてから行けよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}The three dragons living in the forest are all strong!{wait}{page}Plus, it's easy to get lost in the forest, and it's dangerous.{wait}{f0}If you're going,{f0}get properly prepared first!{wait}{end}"
  },
  {
   "id": "R:31868",
   "jp": "{ee}湖のそばにいる{n}ニスロクと話したかい？{wait}{f0}あいつは金のリンゴパイを{wait}{f0}作れる特別なやつなんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you talked to Nisroc, over by the lake?{wait}{f0}He's a special guy who can make{wait}{f0}Golden Apple Pie.{wait}{end}"
  },
  {
   "id": "R:318CC",
   "jp": "ど・・・どうしよう？{wait}{end}",
-  "en": ""
+  "en": "Wh-What should I do?{wait}{end}"
  },
  {
   "id": "R:318E4",
   "jp": "　３流ジムショはお断り{n}　ティーケーじゃなきゃイヤ{end}",
-  "en": ""
+  "en": "No third-rate agencies{n}It's TK or nobody{end}"
  },
  {
   "id": "R:31918",
   "jp": "{ee}金のリンゴパイって知ってる？{wait}{page}知らない！・・・そうだよな{wait}{n}おれも見た事、ないもの{wait}{end}",
-  "en": ""
+  "en": "{ee}Do you know about Golden Apple Pie?{wait}{page}You don't! ...Yeah, figures.{wait}{n}I've never seen one either.{wait}{end}"
  },
  {
   "id": "R:31974",
   "jp": "{ee}えっ、金のリンゴパイ？{wait}{page}見た事はおれもないけど{n}何でも森に住む{wait}{f0}３びきのドラゴンから材料を{f0}もらって来ないとダメらしいぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Huh, Golden Apple Pie?{wait}{page}I've never seen one myself, but apparently{wait}{f0}you have to get the ingredients from{f0}the three dragons who live in the forest!{wait}{end}"
  },
  {
   "id": "R:319F8",
   "jp": "オレを見つめるそのヒトミ・・・{n}さてはホレたな！{wait}{f0}オレにホレちゃあいけないよ{f0}オレは危険なオトコだ{wait}{end}",
-  "en": ""
+  "en": "Those eyes staring at me... You've fallen for me, haven't you!{wait}{f0}Don't fall for me, though.{f0}I'm a dangerous man.{wait}{end}"
  },
  {
   "id": "R:31A60",
   "jp": "　また今度ね{n}　せっかくだけど、歌が嫌{end}",
-  "en": ""
+  "en": "Maybe next time{n}Thanks, but not with that singing{end}"
  },
  {
   "id": "R:31A88",
@@ -186,67 +186,67 @@
  {
   "id": "R:31ABC",
   "jp": "ブランドのユビワを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got a Designer Ring!{wait}{end}"
  },
  {
   "id": "R:31AE0",
   "jp": "ビビッとシビレたよ！{n}この出会いに運命を感じないか？{wait}{end}",
-  "en": ""
+  "en": "I felt a spark! Don't you feel like this meeting is destiny?{wait}{end}"
  },
  {
   "id": "R:31B18",
   "jp": "　また今度ね{n}　せっかくだけど、顔が嫌{end}",
-  "en": ""
+  "en": "Maybe next time{n}Thanks, but not with that face{end}"
  },
  {
   "id": "R:31B40",
   "jp": "この国はどんなヨコシマなアイも{n}自由なの！{wait}{f0}自分に正直なレンアイを{f0}しましょ！{wait}{end}",
-  "en": ""
+  "en": "In this land, love is free, no matter how wicked!{wait}{f0}Be honest with yourself{f0}and fall in love!{wait}{end}"
  },
  {
   "id": "R:31B94",
   "jp": "・・・アタシのアイはじゅんすいよ♥{wait}{end}",
-  "en": ""
+  "en": "...My love is pure as can be!{wait}{end}"
  },
  {
   "id": "R:31BBC",
   "jp": "{ee}{face:001B}誰だ！？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001B}Who goes there!?{wait}{end}"
  },
  {
   "id": "R:31BD0",
   "jp": "　いらない{n}　欲しい{end}",
-  "en": ""
+  "en": "Don't want it{n}I want it{end}"
  },
  {
   "id": "R:31BE8",
   "jp": "{face:001B}ならば、そうそうに立ちされ！{wait}{end}",
-  "en": ""
+  "en": "{face:001B}Then get lost, and be quick about it!{wait}{end}"
  },
  {
   "id": "R:31C0C",
   "jp": "{face:001B}オレサマに勝てたら１コくれてやる{wait}{end}",
-  "en": ""
+  "en": "{face:001B}Beat the great me, and I'll give you one!{wait}{end}"
  },
  {
   "id": "R:31C34",
   "jp": "{face:001B}よかろう！これが金のタマゴだ！{n}持って行くがいい{wait}{end}",
-  "en": ""
+  "en": "{face:001B}Very well! Here is the Golden Egg! Take it with you!{wait}{end}"
  },
  {
   "id": "R:31C6C",
   "jp": "{ee}{face:001D}オレサマは無敵のドラゴン{n}ニーズホッグ様だ！{wait}{f0}金のリンゴが欲しいのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001D}I am the invincible dragon, the great Nidhoggr!{wait}{f0}You want the Golden Apple?{wait}{end}"
  },
  {
   "id": "R:31CC0",
   "jp": "{face:001D}よかろう！これが金のリンゴだ！{n}持って行くがいい{wait}{end}",
-  "en": ""
+  "en": "{face:001D}Very well! Here is the Golden Apple! Take it with you!{wait}{end}"
  },
  {
   "id": "R:31CF8",
   "jp": "{ee}{face:001C}オレサマは無敵のドラゴン{n}クロークルワッハ様だ！{wait}{f0}金のバターが欲しいのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001C}I am the invincible dragon, the great Crom Cruach!{wait}{f0}You want the Golden Butter?{wait}{end}"
  },
  {
   "id": "R:31D50",
@@ -255,27 +255,27 @@
  {
   "id": "R:31D78",
   "jp": "{face:001C}よかろう！これが金のバターだ！{n}持って行くがいい{wait}{end}",
-  "en": ""
+  "en": "{face:001C}Very well! Here is the Golden Butter! Take it with you!{wait}{end}"
  },
  {
   "id": "R:31DB0",
   "jp": "{ee}オレはニスロクっていうコックさ{wait}{page}このフォレストランドにいる{n}３びきのドラゴンが持っている{wait}{f0}キューキョクの食材を{f0}探しに来たんだけれど{wait}{f0}あいつら、とても強くて{f0}歯が立たないんだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a cook named Nisroc.{wait}{page}The three dragons here in Forest Land{wait}{f0}have the ultimate ingredients,{f0}and I came looking for them, but{wait}{f0}those guys are way too strong.{f0}I don't stand a chance.{wait}{end}"
  },
  {
   "id": "R:31E6C",
   "jp": "{ee}スゲェ！！よくそろえたな！{wait}{n}あんたみたいなやつになら{f0}料理を作ってやってもいいな{wait}{page}オレを仲魔にしないか？{wait}{end}",
-  "en": ""
+  "en": "{ee}Awesome!! You got them all!{wait}{n}For someone like you,{f0}I wouldn't mind doing some cooking.{wait}{page}How about making me your ally?{wait}{end}"
  },
  {
   "id": "R:31EE0",
   "jp": "オレはニスロク！仲良くやろうぜ{wait}{end}",
-  "en": ""
+  "en": "I'm Nisroc! Let's get along!{wait}{end}"
  },
  {
   "id": "R:31F04",
   "jp": "嫌ならいいよ、別に{wait}{end}",
-  "en": ""
+  "en": "If you don't want to, fine. Whatever.{wait}{end}"
  },
  {
   "id": "R:31F1C",
@@ -284,7 +284,7 @@
  {
   "id": "R:31F68",
   "jp": "{ee}・・・ううっ、天使にやられた・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}...Ugh, an angel got me...{wait}{end}"
  },
  {
   "id": "R:31F90",
@@ -301,42 +301,42 @@
  {
   "id": "R:32078",
   "jp": "{ee}魔王マモンは温泉が{n}大好きなおじいさんなのよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Mammon is an old man who just loves hot springs.{wait}{end}"
  },
  {
   "id": "R:320AC",
   "jp": "{ee}マモンは色んな温泉を{n}行ったり来たりして{wait}{f0}ちっとも街に帰って来ない{wait}{end}",
-  "en": ""
+  "en": "{ee}Mammon goes back and forth between all kinds of hot springs{wait}{f0}and never comes back to town.{wait}{end}"
  },
  {
   "id": "R:320F8",
   "jp": "{ee}この街から東に行くと{n}どうくつがあって、その中に{wait}{f0}地下工場があるのよ{wait}{page}マモンがここにカジノタウンを{n}作るまではみんなそこで{wait}{f0}真面目にはたらいていたものよ{f0}今じゃあどうなってるんだか？{wait}{end}",
-  "en": ""
+  "en": "{ee}If you go east from this town, there's a cave, and inside it{wait}{f0}there's an underground factory.{wait}{page}Until Mammon built Casino Town here, everyone{wait}{f0}used to work hard there.{f0}Who knows what it's like now?{wait}{end}"
  },
  {
   "id": "R:321BC",
   "jp": "{ee}ギャンブルの当りハズレも{n}運命が決めるのよね{wait}{page}運命を自分で決められたら{n}ギャンブルでおおもうけできるかな？{wait}{end}",
-  "en": ""
+  "en": "{ee}Whether you win or lose at gambling, fate decides it all, right?{wait}{page}If I could decide my own fate, could I make a killing at gambling?{wait}{end}"
  },
  {
   "id": "R:32230",
   "jp": "オレはもうだめだ{n}最後のメッセージを聞いてくれ{wait}{f0}このままでは地上に朝は来ない{f0}もし、この世界を守りたいなら{wait}{f0}全ての魔王とエレジーを倒せ！{f0}そして、ねむれる神を起こすんだ！{wait}{end}",
-  "en": ""
+  "en": "I'm done for... Listen to my last message.{wait}{f0}At this rate, morning will never come to the surface.{f0}If you want to protect this world,{wait}{f0}defeat all the Demon Lords and Elegy!{f0}And then, wake the sleeping god!{wait}{end}"
  },
  {
   "id": "R:322E4",
   "jp": "{voice:0482}また、あの夢・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0482}That dream again...{wait}{end}"
  },
  {
   "id": "R:32300",
   "jp": "無事にテレポートできたみたいね！{n}ここはファイアーランドよ{wait}{end}",
-  "en": ""
+  "en": "Looks like we teleported safely! This is Fire Land.{wait}{end}"
  },
  {
   "id": "R:32340",
   "jp": "{ee}そこの美人なお姉さん！{n}ぼくはサンダー{wait}{f0}サンダーのシーディー買ってくれよ{wait}{f0}すぐにちょーゆーめいになるぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey there, pretty lady! I'm Thunder!{wait}{f0}Buy one of Thunder's CDs!{wait}{f0}I'm gonna be super famous real soon!{wait}{end}"
  },
  {
   "id": "R:323B0",
@@ -345,7 +345,7 @@
  {
   "id": "R:323C4",
   "jp": "やっぱだめか・・・{wait}{end}",
-  "en": ""
+  "en": "Guess that's a no...{wait}{end}"
  },
  {
   "id": "R:323DC",
@@ -354,22 +354,22 @@
  {
   "id": "R:323F0",
   "jp": "サンキュ！{n}きっとプレミアがつくぜ！！{wait}{f0}サインも入れておくな♥{wait}{end}",
-  "en": ""
+  "en": "Thanks! It's gonna be a collector's item for sure!!{wait}{f0}I'll sign it for ya, too!{wait}{end}"
  },
  {
   "id": "R:32434",
   "jp": "サンダーのシーディーを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got Thunder's CD!{wait}{end}"
  },
  {
   "id": "R:32458",
   "jp": "{ee}ぼくはここで{n}アルバイトをしてるんだ{wait}{page}バンドがやりたくて{n}家出して来たんだけど{wait}{f0}思うようには行かなくて{wait}{f0}でも、あきらめずにがんばるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}I work part-time here.{wait}{page}I ran away from home 'cause I wanted to be in a band,{wait}{f0}but things haven't gone how I hoped.{wait}{f0}Still, I'm not giving up!{wait}{end}"
  },
  {
   "id": "R:324EC",
   "jp": "{ee}あんた、地下工場にいる{n}ラハブに会った事あるかい{wait}{page}あのデビルはラジエルの書を{n}探してるんだよ{wait}{page}見つけたら持ってってやるといいぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}Ever met Rahab, in the underground factory?{wait}{page}That Devil is searching for the Book of Raziel.{wait}{page}If you find it, you oughta take it to him.{wait}{end}"
  },
  {
   "id": "R:32574",
@@ -378,7 +378,7 @@
  {
   "id": "R:325A0",
   "jp": "{face:0001}{name}！そのパソコン{n}調べた方がいいわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{name}! You'd better check out that computer!{wait}{end}"
  },
  {
   "id": "R:325D0",
@@ -387,7 +387,7 @@
  {
   "id": "R:32648",
   "jp": "　ちょっと道に迷って{n}　なぜ探してるの？{end}",
-  "en": ""
+  "en": "I kinda got lost{n}Why are you looking for it?{end}"
  },
  {
   "id": "R:32674",
@@ -396,12 +396,12 @@
  {
   "id": "R:32698",
   "jp": "{face:0000}あれ？いつの間にここへ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Huh? When did I get here?{wait}{end}"
  },
  {
   "id": "R:326B8",
   "jp": "{face:0021}ラジエルの書には特別な{n}デビルや天使に出会うための{wait}{f0}方法が記されてあるという{wait}{page}この工場のどこかに{n}あるはずなのだが見つからないのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0021}They say the Book of Raziel tells how to meet{wait}{f0}special Devils and angels.{wait}{page}It should be somewhere in this factory, but I cannot find it.{wait}{end}"
  },
  {
   "id": "R:32748",
@@ -414,27 +414,27 @@
  {
   "id": "R:327F4",
   "jp": "{face:0021}{name}とか言ったな{wait}{page}このラジエルの書に書かれてある{n}言葉の意味をとけば{wait}{f0}オマエは特別な力を{f0}持つ事になる{wait}{page}オマエがそれにふさわしいかどうか{n}このラハブが試してやる！{wait}{end}",
-  "en": ""
+  "en": "{face:0021}{name}, was it?{wait}{page}If you can solve the meaning of the words written in this Book of Raziel,{wait}{f0}you will gain{f0}a special power.{wait}{page}Whether you are worthy of it... I, Rahab, shall test you!{wait}{end}"
  },
  {
   "id": "R:328A4",
   "jp": "{face:0021}{name}、ラジエルの書は{n}お前のノートに書きこまれた{wait}{page}運命が定まった後{n}何が起こるのか{wait}{f0}ノートを読めばわかるはずだ{wait}{page}そのなぞをといた者だけが{n}この書に書かれた全ての{wait}{f0}デビルを仲魔にする事ができる{wait}{page}さらばだ！{name}！{wait}{end}",
-  "en": ""
+  "en": "{face:0021}{name}, the Book of Raziel has been written into your notebook.{wait}{page}What will happen once fate is decided...{wait}{f0}reading the notebook should tell you.{wait}{page}Only one who solves that riddle can make every{wait}{f0}Devil written in this book an ally.{wait}{page}Farewell, {name}!{wait}{end}"
  },
  {
   "id": "R:32984",
   "jp": "{ee}魔王マモンは家にいないぜ{wait}{page}どうせ、どっかの温泉にでも{n}入ってるに決まってるよ{wait}{page}だけどあんた、もしも{n}マモンに会いに行くんだったら{wait}{f0}悪い事は言わないから{f0}山ほどお金を持ってた方が{wait}{f0}・・・・・いいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Mammon's not home.{wait}{page}I bet he's soaking in some hot spring somewhere, as usual.{wait}{page}But hey, if you're going to see Mammon,{wait}{f0}take my advice:{f0}you'd better bring a mountain of money{wait}{f0}.....with you.{wait}{end}"
  },
  {
   "id": "R:32A54",
   "jp": "{ee}オバケにおそわれるから{n}学校から帰れないんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Ghosts keep attacking, so I can't get home from school.{wait}{end}"
  },
  {
   "id": "R:32A88",
   "jp": "{ee}よっ！ネーチャン！{n}けいきはどうだい？{wait}{page}ギャンブルにあきたら{n}温泉にでも行って来るんだね{wait}{end}",
-  "en": ""
+  "en": "{ee}Yo! Little lady! How's it goin'?{wait}{page}When you get tired of gambling, go soak in a hot spring or something.{wait}{end}"
  },
  {
   "id": "R:32AE8",
@@ -451,12 +451,12 @@
  {
   "id": "R:32B78",
   "jp": "{face:0000}{voice:04DB}私の事、知ってるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04DB}You know me?{wait}{end}"
  },
  {
   "id": "R:32B98",
   "jp": "{face:0020}{voice:0601}お前が生まれて間もないころに{wait}{n}{voice:0603}おまえのオヤジさんに会いに{f0}地上まで行った事があるんや{wait}{page}{voice:05A8}その時にな、わてのひざの上で{n}お前がおもらしをしたんやで{wait}{page}{voice:05A9}あの時はえらいサイナンやったで{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:0601}Not long after you were born,{wait}{n}{voice:0603}I went all the way up to the surface{f0}to see your old man.{wait}{page}{voice:05A8}And back then, ya went and wet yourself right on my lap, y'know.{wait}{page}{voice:05A9}What a disaster that was!{wait}{end}"
  },
  {
   "id": "R:32C64",
@@ -465,7 +465,7 @@
  {
   "id": "R:32CB0",
   "jp": "{ee}{voice:05FC}あんさんがデビルチルドレンかぁ{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:05FC}So you're the Devil Child, eh?{wait}{end}"
  },
  {
   "id": "R:32CD8",
@@ -474,12 +474,12 @@
  {
   "id": "R:32D04",
   "jp": "{face:0000}{voice:04DC}エーッ！そんな・・・・・・{n}・・・おぼえてないもの{wait}{page}{voice:04DD}それより、エレジーが言ってたの{wait}{page}{voice:04DE}あなたならパパが{n}いる所を知ってるはずだって{wait}{page}{voice:04DF}ねえ、パパはどこにいるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04DC}Wha-! No way...... ...I don't remember that!{wait}{page}{voice:04DD}Anyway, Elegy told me something.{wait}{page}{voice:04DE}She said you'd know where my dad is.{wait}{page}{voice:04DF}Hey, where's my dad?{wait}{end}"
  },
  {
   "id": "R:32DC0",
   "jp": "{face:0020}{voice:04E0}エレジーがそんな事ゆうたんか{wait}{page}{voice:04E2}そやけど、わては知らんのや{wait}{page}{ea}・・・・・・・・・・・・{wait}{page}{voice:04E3}大魔王に聞くしかないな{n}あいつならゼッタイ知っとるはずや{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:04E0}Elegy said that, did she?{wait}{page}{voice:04E2}But I don't know, see.{wait}{page}{ea}............{wait}{page}{voice:04E3}Only thing to do is ask the Great Demon King. That fella's gotta know for sure.{wait}{end}"
  },
  {
   "id": "R:32E68",
@@ -488,7 +488,7 @@
  {
   "id": "R:32E84",
   "jp": "{face:0000}{voice:04E4}・・・大魔王が知ってるの！？{wait}{page}{voice:04E5}最初からパパがどこにいるか{n}知りながら{wait}{f0}{voice:04E6}私を魔界に送り出したわけ・・・？{wait}{page}{voice:04E7}でも、セントラルランドに行くには{wait}{n}{voice:04E8}虹色のメシアのヒトミが{f0}ないとダメなのよね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04E4}...The Great Demon King knows!?{wait}{page}{voice:04E5}He knew where my dad was from the very start,{wait}{f0}{voice:04E6}and he sent me off to Makai anyway...?{wait}{page}{voice:04E7}But to get to Central Land...{wait}{n}{voice:04E8}I need the Rainbow Messiah Eye,{f0}don't I?{wait}{end}"
  },
  {
   "id": "R:32F5C",
@@ -497,6 +497,6 @@
  {
   "id": "R:32FB4",
   "jp": "{ee}見てくれ！みんなで力をあわせて{n}街を立て直したんだぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Look! We all worked together and rebuilt the town!{wait}{end}"
  }
 ]

@@ -2,82 +2,82 @@
  {
   "id": "R:291BC",
   "jp": "{face:0045}{ea}・・・・・・{wait}{page}{voice:0381}私のたのみを聞いてくれたら{wait}{page}{voice:0382}あなたが魔界を旅する事を{n}みとめてあげましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{ea}......{wait}{page}{voice:0381}If you will grant my request,{wait}{page}{voice:0382}I shall allow you to travel through Makai.{wait}{end}"
  },
  {
   "id": "R:2922C",
   "jp": "{face:0000}{voice:0383}・・・たのみって？？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0383}...A request??{wait}{end}"
  },
  {
   "id": "R:2924C",
   "jp": "{face:0045}{voice:0384}この魔界でデビルチルドレンは{n}伝説のそんざいでした{wait}{page}{voice:0385}デビライザーを使って{n}仲魔を呼び出し{wait}{f0}{voice:0386}そのデビルの持っているパワーを{f0}自由に操る特別な力は{wait}{f0}{voice:0387}どんなデビルよりも優れていると{f0}伝えられて来たのです{wait}{page}{voice:0388}ですが、魔界で本当に{n}デビルチルドレンを見た者は{wait}{f0}{voice:0389}今まで１人もいなかったのです{wait}{page}{voice:038A}・・・あなたと・・・・{wait}{page}{voice:038B}もう１人のデビルチルドレンが{n}・・・あらわれるまでは{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0384}Here in Makai, the Devil Children were beings of legend.{wait}{page}{voice:0385}They use a Deviliser to summon allies,{wait}{f0}{voice:0386}and their special power to freely{f0}control the power those Devils hold{wait}{f0}{voice:0387}was said to surpass{f0}that of any Devil.{wait}{page}{voice:0388}But not one soul in Makai{wait}{f0}{voice:0389}had ever truly seen a Devil Child...{wait}{page}{voice:038A}...Not until you...{wait}{page}{voice:038B}...and one other Devil Child appeared.{wait}{end}"
  },
  {
   "id": "R:293E4",
   "jp": "{face:0000}{voice:038C}もう１人のデビルチルドレン！？{wait}{page}{voice:038D}私の他にも{n}デビルチルドレンがいるのね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:038C}Another Devil Child!?{wait}{page}{voice:038D}So there's another Devil Child besides me.{wait}{end}"
  },
  {
   "id": "R:2943C",
   "jp": "{face:0045}{voice:038E}もう１人、男の子の{n}デビルチルドレンがいるのです{wait}{page}{voice:038F}かれは今、６つある魔界をめぐり{n}メシアのツノを集めています{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:038E}There is one more: a boy Devil Child.{wait}{page}{voice:038F}Right now he is traveling the six lands of Makai, collecting Messiah Horns.{wait}{end}"
  },
  {
   "id": "R:294BC",
   "jp": "{face:0045}{voice:039A}どうです？{wait}{page}{voice:039B}この世界を{n}めつぼうから救うために{wait}{page}{voice:039C}もう１人のデビルチルドレンを{n}倒すとやくそくしてくれれば{wait}{page}{voice:039D}あなたがお父さんを探して{n}魔界を旅する事を{wait}{f0}{voice:039E}みとめてあげましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:039A}What do you say?{wait}{page}{voice:039B}To save this world from destruction...{wait}{page}{voice:039C}if you promise me you will defeat the other Devil Child,{wait}{page}{voice:039D}then your journey through Makai in search of your father{wait}{f0}{voice:039E}is one I shall allow.{wait}{end}"
  },
  {
   "id": "R:2958C",
   "jp": "{face:0000}{voice:039F}・・・わかったわ{wait}{page}{voice:03A0}パパを探すためだもの{n}・・・やってみるわ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:039F}...All right.{wait}{page}{voice:03A0}If it's to find my dad... I'll give it a try.{wait}{end}"
  },
  {
   "id": "R:295D8",
   "jp": "{face:0045}{voice:03A7}おお、そうですか！{wait}{page}{voice:03A8}それではこれを持って行きなさい{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:03A7}Oh, is that so!{wait}{page}{voice:03A8}Then take this with you.{wait}{end}"
  },
  {
   "id": "R:2961C",
   "jp": "{face:00FF}５０００マッカを手に入れた♥{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got 5000 Macca!{wait}{end}"
  },
  {
   "id": "R:29640",
   "jp": "{face:0045}{voice:03A9}まずはこの青いメシアのヒトミで{n}アイスランドへ行って下さい{wait}{page}{voice:03AA}それから、あなたの虹色のメシアの{n}ヒトミはおあずかりしますよ{wait}{page}{voice:03AB}デビルチルドレンを倒して{n}戻って来た時にはお返ししますからね{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:03A9}First, use this Blue Messiah Eye to go to Ice Land.{wait}{page}{voice:03AA}And I will be holding on to your Rainbow Messiah Eye.{wait}{page}{voice:03AB}When you defeat the Devil Child and come back, I'll return it to you.{wait}{end}"
  },
  {
   "id": "R:29710",
   "jp": "{face:0045}{voice:03AC}それでは・・・メシアのヒトミよ！{n}おのれの道をてらし出せ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:03AC}Now then... O Messiah Eye! Light up the path ahead!!{wait}{end}"
  },
  {
   "id": "R:29758",
   "jp": "{face:0000}{voice:03AD}えっ！？何！？{wait}{page}{voice:03AE}！！またこれ？{n}イヤーーーーッ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:03AD}Huh!? What!?{wait}{page}{voice:03AE}Ah!! This again? Noooooo!!{wait}{end}"
  },
  {
   "id": "R:2979C",
   "jp": "{ee}{face:0001}街の外でなら、私のセナカに{n}乗る事ができるわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Outside of town, you can ride on my back!{wait}{end}"
  },
  {
   "id": "R:297D4",
   "jp": "{face:0001}ここは魔界のアイスランドよ{n}まずはここの魔王ヘルに{wait}{f0}会いに行きましょうよ{wait}{page}それから、街の外でなら{n}私のセナカに乗る事が{wait}{f0}できるわよ{wait}{page}私の方を向いて{n}話しかけてみてね{wait}{end}",
-  "en": ""
+  "en": "{face:0001}This is Ice Land, in Makai. First, let's go{wait}{f0}see Hel, the Demon Lord here!{wait}{page}And outside of town,{wait}{f0}you can ride on my back!{wait}{page}Just face me and talk to me!{wait}{end}"
  },
  {
   "id": "R:29888",
   "jp": "ここはどこ？{n}やっぱり、ホモだったんでしょ？{end}",
-  "en": ""
+  "en": "Where am I?{n}You really were gay after all, weren't you?{end}"
  },
  {
   "id": "R:298B8",
   "jp": "{ee}・・・だから、それはちがうんだ{wait}{n}大体、何でそんな話に{f0}なったんだ？{wait}{f0}ラタトスク族のソウタが{f0}何か言ったの？{wait}{f0}本当にちがうんだ、信じてよ{wait}{end}",
-  "en": ""
+  "en": "{ee}...Like I said, that's not it.{wait}{n}Anyway, how did{f0}that even come up?{wait}{f0}Did Souta of the Ratatoskr tribe{f0}say something?{wait}{f0}It's really not true, believe me.{wait}{end}"
  },
  {
   "id": "R:2994C",
@@ -86,97 +86,97 @@
  {
   "id": "R:29960",
   "jp": "{ee}急ぐなら私のせなかに乗って！{wait}{end}",
-  "en": ""
+  "en": "{ee}If you're in a hurry, ride on my back!{wait}{end}"
  },
  {
   "id": "R:29984",
   "jp": "せなかに乗せてもらう{n}自分で歩く{end}",
-  "en": ""
+  "en": "Ride on her back{n}Walk on my own{end}"
  },
  {
   "id": "R:299A8",
   "jp": "サインしてあげる{n}サインしてあげない{end}",
-  "en": ""
+  "en": "Sign it for them{n}Don't sign it{end}"
  },
  {
   "id": "R:299D0",
   "jp": "{ee}やった！サンキュー♥{n}大切にするよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Yay! Thank you! I'll treasure it forever!{wait}{end}"
  },
  {
   "id": "R:299FC",
   "jp": "{ee}チェッ！ケチ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}Tch! Cheapskate!!{wait}{end}"
  },
  {
   "id": "R:29A14",
   "jp": "{ee}この間、ろうやから逃げた{n}人間の男の子は{wait}{f0}デビルチルドレンだってウワサだホー{wait}{page}ところでいい事教えてあげる{wait}{page}このアイスランドには{n}コトダマっていうデビルがいるホー{wait}{page}ゲートタウンのホテルで聞けば{n}コトダマがどこにいるか{wait}{f0}わかるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}The human boy who escaped from the prison the other day{wait}{f0}is a Devil Child, they say-ho.{wait}{page}By the way, I'll tell you something good.{wait}{page}Here in Ice Land, there's a Devil called Kotodama-ho.{wait}{page}If you ask at the hotel in Gate Town, they can tell you{wait}{f0}where Kotodama is-ho.{wait}{end}"
  },
  {
   "id": "R:29B0C",
   "jp": "{ee}魔王ヘルも最近すっかり{n}おとなしくなったよ！{wait}{f0}プリンセスのおかげだね♥{f0}どうもありがとう！{wait}{end}",
-  "en": ""
+  "en": "{ee}Demon Lord Hel has gotten really tame lately!{wait}{f0}It's all thanks to the Princess!{f0}Thank you so much!{wait}{end}"
  },
  {
   "id": "R:29B70",
   "jp": "{ee}この間ね、エリューズニルの{n}お城にあるろうやから{wait}{f0}トーゾクたちが逃げ出したんだホー{wait}{page}その中に、人間の{n}男の子がいたらしいホー{wait}{page}それから、セントウでキゼツした{n}仲魔を復活させるには{wait}{f0}ホテルのカウンターにいるデビルに{f0}話しかけるといいホー{wait}{page}キゼツした仲魔は{n}さっさと復活させた方がいいんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}The other day, some thieves broke out of{wait}{f0}the prison in Eljudnir Castle-ho.{wait}{page}I hear there was a human boy among them-ho.{wait}{page}Oh, and to revive allies who fainted in battle,{wait}{f0}just talk to the Devil{f0}at the hotel counter-ho.{wait}{page}Better revive fainted allies right away-ho.{wait}{end}"
  },
  {
   "id": "R:29CA0",
   "jp": "{ee}お城の盗まれたざいほうは{n}戻ってきたらしいよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}I hear the treasure stolen from the castle came back!{wait}{end}"
  },
  {
   "id": "R:29CD4",
   "jp": "{ee}街のはずれに変な{n}トウゾクダンが出て、お城から{wait}{f0}イロイロ盗まれてるんだって{wait}{end}",
-  "en": ""
+  "en": "{ee}A weird band of thieves showed up at the edge of town, and{wait}{f0}they've been stealing all kinds of stuff from the castle.{wait}{end}"
  },
  {
   "id": "R:29D28",
   "jp": "{face:0000}{voice:04B7}あれっ・・・ここは・・・{n}私の部屋だわ・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04B7}Huh... Where... This is my room...{wait}{end}"
  },
  {
   "id": "R:29D64",
   "jp": "{ee}このアイスランドには{n}コトダマっていうデビルがいるホー{wait}{page}ゲートタウンのホテルで聞けば{n}コトダマがどこにいるか{wait}{f0}わかるんだホー{wait}{page}それからいい事、教えてやるホー{wait}{n}セントウ中に仲魔を{f0}交代させたい時は{wait}{f0}コールを使えばいいホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Here in Ice Land, there's a Devil called Kotodama-ho.{wait}{page}If you ask at the hotel in Gate Town, they can tell you{wait}{f0}where Kotodama is-ho.{wait}{page}And I'll tell you something good, too-ho.{wait}{n}When you want to swap{f0}allies during battle,{wait}{f0}just use Call-ho.{wait}{end}"
  },
  {
   "id": "R:29E50",
   "jp": "{ee}デビルって、合体しないと{n}ぜーんぜん強くならないのヨ！{wait}{f0}私も誰かと合体したいナ♥{wait}{end}",
-  "en": ""
+  "en": "{ee}Devils don't get any stronger at all unless they fuse!{wait}{f0}I wish I could fuse with somebody, too~!{wait}{end}"
  },
  {
   "id": "R:29EA8",
   "jp": "{ee}トーゾクは一度つかまったんだけど{n}だっそうしたらしいよ{wait}{page}南の街にトーゾクの{n}かくれアジトがあるって{wait}{f0}ウワサだけど、ホントかなぁ？{wait}{end}",
-  "en": ""
+  "en": "{ee}The thieves got caught once, but I hear they broke out.{wait}{page}Rumor has it there's a secret thieves' hideout{wait}{f0}in the town to the south. I wonder if it's true?{wait}{end}"
  },
  {
   "id": "R:29F34",
   "jp": "{ee}先代のトーゾクのボスの娘は{n}また、だっそうしたらしいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}I hear the daughter of the old thieves' boss broke out again.{wait}{end}"
  },
  {
   "id": "R:29F70",
   "jp": "{ee}ここはカシキンコです{wait}{page}会員様の大切なおにもつを{n}無料でおあずかりします{wait}{end}",
-  "en": ""
+  "en": "{ee}This is the Safe Deposit.{wait}{page}We keep our members' precious belongings free of charge.{wait}{end}"
  },
  {
   "id": "R:29FC0",
   "jp": "{ee}あら？{wait}{end}",
-  "en": ""
+  "en": "{ee}Oh my?{wait}{end}"
  },
  {
   "id": "R:29FCC",
   "jp": "あずける{n}返してもらう{end}",
-  "en": ""
+  "en": "Deposit{n}Withdraw{end}"
  },
  {
   "id": "R:29FE4",
   "jp": "{ee}またどうぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Please come again!{wait}{end}"
  },
  {
   "id": "R:29FF8",
@@ -185,87 +185,87 @@
  {
   "id": "R:2A020",
   "jp": "どこかで見た事があるような？{wait}{end}",
-  "en": ""
+  "en": "Haven't I seen this somewhere before?{wait}{end}"
  },
  {
   "id": "R:2A040",
   "jp": "{ee}{face:0010}ほう・・・そなたが・・・{wait}{page}デビルチルドレンか・・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0010}Hmm... So you are...{wait}{page}a Devil Child...{wait}{end}"
  },
  {
   "id": "R:2A080",
   "jp": "{face:0010}この城のろうやから、もう１人の{n}デビルチルドレンが逃げ出したのは{wait}{f0}もう聞いておるのだろうな{wait}{page}ヤツをこのままにしておいては{wait}{n}この世界をメツボウさせるに{f0}ちがいないのだ{wait}{page}ろうやになど閉じこめず{n}すぐにディープホールへ落とせば{wait}{f0}良かったのだが・・・・・{wait}{page}デビルチルドレンを倒せる者は{n}デビルチルドレンしかいない！{wait}{page}ヤツは南にあるゲートタウンに{n}かくれているらしいのだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}You have surely heard by now that the other Devil Child{wait}{f0}escaped from this castle's prison.{wait}{page}If he is left as he is,{wait}{n}he is certain to bring{f0}ruin upon this world!{wait}{page}Instead of locking him in a prison, I should have dropped him{wait}{f0}straight into the Deep Hole...{wait}{page}Only a Devil Child can defeat a Devil Child!{wait}{page}It seems he is hiding in Gate Town, to the south!{wait}{end}"
  },
  {
   "id": "R:2A200",
   "jp": "{ee}{face:0010}ヤツはトーゾクだんとともに{n}南のゲートタウンに{wait}{f0}かくれているらしい{wait}{page}たのんだぞ！{name}{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0010}It seems he is hiding with the thieves' gang{wait}{f0}in Gate Town, to the south.{wait}{page}I am counting on you, {name}!{wait}{end}"
  },
  {
   "id": "R:2A260",
   "jp": "{ee}トーゾクだんはオレタチ{n}ビンボーニンからは盗まないホー{wait}{end}",
-  "en": ""
+  "en": "{ee}The thieves' gang doesn't steal from poor folks like us-ho.{wait}{end}"
  },
  {
   "id": "R:2A29C",
   "jp": "{ee}ここはゲートタウンだホー{wait}{n}街の南には{f0}サークルゲートがあるホー{wait}{end}",
-  "en": ""
+  "en": "{ee}This is Gate Town-ho.{wait}{n}South of town{f0}is the Circle Gate-ho.{wait}{end}"
  },
  {
   "id": "R:2A2E4",
   "jp": "{ee}人間の顔は{n}ボクたちにはくべつがつかないよ{wait}{end}",
-  "en": ""
+  "en": "{ee}We can't tell human faces apart.{wait}{end}"
  },
  {
   "id": "R:2A314",
   "jp": "{ee}ヒーホー！{n}合体したかホー！？{wait}{page}同じ仲魔を合体しないと{n}出てこない特別なデビルが{wait}{f0}いるって知ってたホー？？{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! Have you tried fusion-ho!?{wait}{page}Did you know some special Devils{wait}{f0}only show up if you fuse the same allies-ho??{wait}{end}"
  },
  {
   "id": "R:2A388",
   "jp": "{ee}えっ、トーゾクダン！！{n}ここは平和な街ですホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Wha-- Thieves' gang!! This is a peaceful town-ho.{wait}{end}"
  },
  {
   "id": "R:2A3BC",
   "jp": "{ee}トーゾクはかいさんしたよ！！{n}良かった、良かった！{wait}{end}",
-  "en": ""
+  "en": "{ee}The thieves' gang broke up!! Good, good!{wait}{end}"
  },
  {
   "id": "R:2A3F4",
   "jp": "{ee}この街から何人もの仲間が{n}ヘイタイとして連れて行かれたホー{wait}{f0}もう嫌だ・・・誰か助けてホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Lots of our friends from this town were taken away to be soldiers-ho.{wait}{f0}I can't take it anymore... Somebody help-ho.{wait}{end}"
  },
  {
   "id": "R:2A454",
   "jp": "{ee}{face:0012}えっ、私の名前はダストですよ{wait}{n}怪しい者ではありませんよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0012}Huh? My name is Dust.{wait}{n}I'm nobody suspicious!{wait}{end}"
  },
  {
   "id": "R:2A498",
   "jp": "{ee}このゲートは魔界の入り口だよ{wait}{page}地上の世界から来た{n}ユーレイたちはここを通って{wait}{f0}サンドランドへとはこばれるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}This gate is the entrance to Makai.{wait}{page}Ghosts from the world above pass through here{wait}{f0}and get carried off to Sand Land.{wait}{end}"
  },
  {
   "id": "R:2A510",
   "jp": "{face:0011}・・・マジでヤバイわよ！！{n}デビルチルドレンが来てるのよ！{wait}{page}あんな恐いヒトミを見たの{n}私、初めてだわ！{wait}{page}あなたたち、早く逃げなきゃ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}...This is seriously bad!! A Devil Child is here!{wait}{page}I've never seen such scary eyes in my life!{wait}{page}You guys gotta run, quick!{wait}{end}"
  },
  {
   "id": "R:2A5A0",
   "jp": "{face:0000}{voice:05D5}見つけたわよ！{n}恐いヒトミで悪かったわね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05D5}Found you! Well, sorry my eyes are so scary!{wait}{end}"
  },
  {
   "id": "R:2A5D4",
   "jp": "{face:0011}ナニヨッ！アンタなんか{n}恐くないわよ！{wait}{page}デビルチルドレンがドウシタのよ！{wait}{n}ワタシが相手になるワヨ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Whaddya want! I'm not scared of you!{wait}{page}So what if you're a Devil Child!?{wait}{n}I'll take you on myself!{wait}{end}"
  },
  {
   "id": "R:2A644",
   "jp": "{face:0012}ダメだ！ダイアナ、どいてろっ！！{n}オレが相手だデビルチルドレン{wait}{page}ダイアナ、早くあいつらを{n}連れてニゲロッ！{wait}{page}何シテル！グズグズするなっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}No! Diana, stay back!! I'm your opponent, Devil Child!{wait}{page}Diana, hurry, get them out of here!{wait}{page}What're you doing! Don't just stand there!{wait}{end}"
  },
  {
   "id": "R:2A6D8",
@@ -274,17 +274,17 @@
  {
   "id": "R:2A6F4",
   "jp": "{ee}{face:0012}私の名前はダストですよ{wait}{n}怪しい者ではありませんよ！{wait}{page}えっ、ダイアナですか？さあ・・？{n}この街のどこかにいるはずですが{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0012}My name is Dust.{wait}{n}I'm nobody suspicious!{wait}{page}Huh, Diana? Who knows...? She should be somewhere in this town, though.{wait}{end}"
  },
  {
   "id": "R:2A778",
   "jp": "{ee}{face:0011}えっ！ダイアナはワタシよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0011}Hey! I'm Diana!{wait}{end}"
  },
  {
   "id": "R:2A79C",
   "jp": "{face:0011}あああ・・あなた、もしかして・・！{n}デビ・・チル・・{wait}{page}ワタシ・・・・ちょっと{n}用事思い出しちゃった{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Wh-wh-what... Could you be...! A Devi... Chil...{wait}{page}I... just remembered I've got something to do.{wait}{end}"
  },
  {
   "id": "R:2A808",
@@ -293,122 +293,122 @@
  {
   "id": "R:2A840",
   "jp": "{face:0012}オモシレーッ、{name}！{wait}{page}デビルチルドレンが何様か{n}見せてもらおうじゃないか{wait}{end}",
-  "en": ""
+  "en": "{face:0012}This'll be fun, {name}!{wait}{page}Let's see what a Devil Child is made of!{wait}{end}"
  },
  {
   "id": "R:2A890",
   "jp": "{face:0012}つえーな、{name}！{n}さすがデビルチルドレンだ{wait}{f0}その強さだけは気にいったぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}You're tough, {name}! Just what I'd expect from a Devil Child.{wait}{f0}That strength, at least, I like!{wait}{end}"
  },
  {
   "id": "R:2A8E0",
   "jp": "{face:0012}また来たのか{name}！{n}何度でも相手をしてやるぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Back again, {name}! I'll take you on as many times as it takes!{wait}{end}"
  },
  {
   "id": "R:2A914",
   "jp": "{face:0000}何！？コレッ！？？{n}ここ、お城のろうやジャン！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}What!? What is this!?? No way, this is the castle's prison!!{wait}{end}"
  },
  {
   "id": "R:2A94C",
   "jp": "{face:0011}アーッ、来ちゃったのね{wait}{page}かれなら今ごろ{wait}{n}アイスランドから{f0}おさらばしてるはずよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Aww, so you came after all.{wait}{page}If you're after him, by now{wait}{n}he's probably{f0}kissed Ice Land goodbye.{wait}{end}"
  },
  {
   "id": "R:2A9A8",
   "jp": "{face:0011}{name}！{n}あなたがここに来たって事は{wait}{f0}ダストはやられたって事ヨネ！{wait}{page}カタキは取らせてもらうわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}{name}! If you made it here,{wait}{f0}that means Dust got beaten, huh!{wait}{page}I'm gonna get revenge for him!{wait}{end}"
  },
  {
   "id": "R:2AA10",
   "jp": "{face:0011}やるわね！{name}！{n}サ・ス・・ガ・・ダ・・・ワ{wait}{page}１つだけ言っといてあげるわ{wait}{page}あんたのヒトミの事{n}・・・恐いって言ったけど{wait}{page}・・・あれはウソ・・・{wait}{page}キレイよ、あなたのヒトミ・・{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Not bad, {name}! Just... what... I'd... ex...pect...{wait}{page}I'll tell you just one thing.{wait}{page}About your eyes... I said they were scary, but...{wait}{page}...that was a lie...{wait}{page}They're beautiful... your eyes...{wait}{end}"
  },
  {
   "id": "R:2AACC",
   "jp": "{face:0011}{name}！{n}私を倒さないかぎり{wait}{f0}かれを追う事はできないわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}{name}! Unless you beat me,{wait}{f0}you'll never catch up to him!{wait}{end}"
  },
  {
   "id": "R:2AB0C",
   "jp": "ゆかに何か落ちている{wait}{end}",
-  "en": ""
+  "en": "Something is lying on the floor.{wait}{end}"
  },
  {
   "id": "R:2AB24",
   "jp": "金色のメシアのヒトミを{n}見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found the Golden Messiah Eye!{wait}{end}"
  },
  {
   "id": "R:2AB4C",
   "jp": "２つ目のケンジュウを見つけた{wait}{end}",
-  "en": ""
+  "en": "Found a second gun!{wait}{end}"
  },
  {
   "id": "R:2AB6C",
   "jp": "{face:0001}{voice:03C8}あっ、それキングライザーだわ{wait}{page}{voice:03C9}これはキングライザーという{n}ライザーのプロトタイプなの！！{wait}{page}{voice:03CA}ケイヤクした仲魔の中で{n}キングクラスの仲魔も{wait}{f0}{voice:03CB}入れておく事ができるのよ{wait}{page}{voice:03CC}これで{n}２つのケンジュウを使って{wait}{f0}{voice:03CD}セントウをする事になるわよね{wait}{page}{voice:03CE}それで、最初に{n}どちらのケンジュウを使うかは{wait}{f0}{voice:03CF}ヴィネコンコマンドの中にある{wait}{f0}{voice:03D0}セットっていう所で{f0}決める事ができるのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:03C8}Oh, that's a King Riser!{wait}{page}{voice:03C9}This is the King Riser, a prototype Deviliser!!{wait}{page}{voice:03CA}Out of all the allies you've made contracts with,{wait}{f0}{voice:03CB}it can hold King-class ones too!{wait}{page}{voice:03CC}So now you'll be fighting{wait}{f0}{voice:03CD}with two guns, right?{wait}{page}{voice:03CE}And as for which gun you use first...{wait}{f0}{voice:03CF}Among the Vinecom commands{wait}{f0}{voice:03D0}there's one called 'Set'.{f0}That's where you decide!{wait}{end}"
  },
  {
   "id": "R:2AD00",
   "jp": "がんばって、全ての魔王から{n}メシアのヒトミを集めるがいい・・・{wait}{f0}フフフ・・・{wait}{end}",
-  "en": ""
+  "en": "Go on, gather the Messiah Eyes from all the Demon Lords...{wait}{f0}Heh heh heh...{wait}{end}"
  },
  {
   "id": "R:2AD54",
   "jp": "{ee}それを使えばマーブルランドへと{n}テレポートできるぞよ{wait}{f0}がんばって全ての魔王から{f0}ノルンのヒトミを集めるがいい・・・{wait}{f0}フフフ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}With that, you can teleport to Marble Land.{wait}{f0}Go on, gather the Norn Eyes{f0}from all the Demon Lords...{wait}{f0}Heh heh heh...{wait}{end}"
  },
  {
   "id": "R:2ADE0",
   "jp": "{ee}それじゃあ次の国{n}マーブルランドへ行きましょうか！{wait}{end}",
-  "en": ""
+  "en": "{ee}All right, on to the next land, Marble Land!{wait}{end}"
  },
  {
   "id": "R:2AE18",
   "jp": "{face:0000}{voice:05C2}メシアのヒトミよ！{n}おのれの道をてらしだせ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05C2}O Messiah Eye! Light up the path ahead!!{wait}{end}"
  },
  {
   "id": "R:2AE54",
   "jp": "{face:0000}{voice:03D1}えーーーん！やっぱり！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:03D1}Waaah! I knew it!?{wait}{end}"
  },
  {
   "id": "R:2AE78",
   "jp": "{face:0000}{voice:03D2}・・・でも、だいぶなれて来たかも{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:03D2}...But maybe I'm getting used to it.{wait}{end}"
  },
  {
   "id": "R:2AEA4",
   "jp": "{face:00FF}誰かの声が聞こえる{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}You can hear someone's voice.{wait}{end}"
  },
  {
   "id": "R:2AEC0",
   "jp": "お守りを取られてしまった！{wait}{end}",
-  "en": ""
+  "en": "The charm got taken!{wait}{end}"
  },
  {
   "id": "R:2AEE0",
   "jp": "{ee}そうだ！{wait}{n}さっきわたすのをわすれてたんだけど{f0}これも使ってよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Oh, right!{wait}{n}I forgot to give you this earlier,{f0}so use it too!{wait}{end}"
  },
  {
   "id": "R:2AF28",
   "jp": "{ee}いっしゅんだけ気を失っていた{n}みたいね{wait}{page}このサークルゲートと呼ばれる{n}魔法ジンは、どの国にも{wait}{f0}いっぱいあるの{wait}{page}これの上で魔法を使うと{n}失敗しにくいのよ{wait}{page}またテレポートする時は{n}ここでしましょ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like you blacked out for just a moment.{wait}{page}There are lots of these magic circles called{wait}{f0}Circle Gates in every land.{wait}{page}If you cast magic on top of one, it's less likely to fail.{wait}{page}Next time we teleport, let's do it here!{wait}{end}"
  },
  {
   "id": "R:2AFF8",
   "jp": "{ee}{face:0010}デビルチルドレンは倒したのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0010}Have you defeated the Devil Child?{wait}{end}"
  },
  {
   "id": "R:2B020",
   "jp": "{ee}この国では、３つの種族が{n}はけんをあらそっている！！{wait}{page}それでブトウ会で決着を{n}つける事になったのさ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}In this land, three tribes are fighting for supremacy!!{wait}{page}So it's been decided they'll settle it at the Battle Ball!!{wait}{end}"
  },
  {
   "id": "R:2B090",
@@ -421,6 +421,6 @@
  {
   "id": "R:2B154",
   "jp": "{ee}私たちデーバ族は選ばれた{n}種族なのだ！！{wait}{page}他の種族にはぜったい{n}負けない！！{wait}{end}",
-  "en": ""
+  "en": "{ee}We of the Deva tribe are the chosen ones!!{wait}{page}We'll never lose to the other tribes!!{wait}{end}"
  }
 ]

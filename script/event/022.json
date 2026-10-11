@@ -2,337 +2,337 @@
  {
   "id": "B:479EC",
   "jp": "{ee}{face:003B}何か外がさわがしいデスネ{n}何かあったんデスカ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003B}Something is very noisy outside, yes? Did something happen?{wait}{end}"
  },
  {
   "id": "B:47A24",
   "jp": "{ee}{face:003A}何が起ころうと{n}ここから動く気はない・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003A}No matter what happens, I've got no intention of moving from here...{wait}{end}"
  },
  {
   "id": "B:47A58",
   "jp": "{ee}天使がいきなりおそって来て・・・{n}ううぅ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Angels suddenly attacked us... Ugh...{wait}{end}"
  },
  {
   "id": "B:47A8C",
   "jp": "{ee}マモンのじいさんなら、このどうくつの{n}どこかの温泉にいると思うよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If it's old man Mammon you want, I think he's at a hot spring in this cave somewhere.{wait}{end}"
  },
  {
   "id": "B:47AD4",
   "jp": "{ee}マモンのじいさんなら{n}カジノタウンに帰ったよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Old man Mammon went back to Casino Town.{wait}{end}"
  },
  {
   "id": "B:47B08",
   "jp": "{ee}カジノタウンが天使たちに{n}おそわれたらしいんだ！{wait}{page}いったい、オレたちが{n}何をしたっていうんだよっ！{wait}{end}",
-  "en": ""
+  "en": "{ee}I heard Casino Town got attacked by angels!{wait}{page}What did we ever do to them!?{wait}{end}"
  },
  {
   "id": "B:47B74",
   "jp": "{ee}アゼルが大魔王様のふりを{n}していたなんて・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}To think Azel was pretending to be the Great Demon King...{wait}{end}"
  },
  {
   "id": "B:47BA8",
   "jp": "{ee}われわれの運命は{n}デビルチルドレンがにぎっているのか{wait}{end}",
-  "en": ""
+  "en": "{ee}So our fate is in the hands of the Devil Children...{wait}{end}"
  },
  {
   "id": "B:47BE4",
   "jp": "{ee}ディープホールには恐ろしい{n}デビルがすくっていると聞く・・・{wait}{page}あそこへ行って生きて戻った者は{n}誰もいない場所だぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}They say a terrifying Devil lurks in the Deep Hole...{wait}{page}No one who's gone there has ever come back alive!{wait}{end}"
  },
  {
   "id": "B:47C60",
   "jp": "{ee}やはりあの大魔王様は{n}ニセモノだったのか！{wait}{end}",
-  "en": ""
+  "en": "{ee}So that Great Demon King really was a fake!{wait}{end}"
  },
  {
   "id": "B:47C90",
   "jp": "{ee}われわれは大魔王様の{n}お考えにしたがいます{wait}{end}",
-  "en": ""
+  "en": "{ee}We will follow the Great Demon King's wishes.{wait}{end}"
  },
  {
   "id": "B:47CC0",
   "jp": "{ee}あのディープホールへ行くなんて！{n}君はゆうきがあるんだね{wait}{end}",
-  "en": ""
+  "en": "{ee}You're going to the Deep Hole!? You sure are brave!{wait}{end}"
  },
  {
   "id": "B:47D00",
   "jp": "ネコマタが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Nekomata became your ally!{wait}{end}"
  },
  {
   "id": "B:47D1C",
   "jp": "ヒッポウが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Bi Fang became your ally!{wait}{end}"
  },
  {
   "id": "B:47D38",
   "jp": "ヘアリージャックが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Hairy Jack became your ally!{wait}{end}"
  },
  {
   "id": "B:47D5C",
   "jp": "サンドドラゴンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Sand Dragon became your ally!{wait}{end}"
  },
  {
   "id": "B:47D7C",
   "jp": "{face:0011}これはキングライザーという{n}デビライザーのプロトタイプなの！！{wait}{page}ケイヤクした仲魔の中で{n}キングクラスの仲魔も{wait}{f0}入れておく事ができるのよ{wait}{page}これで{name}は{n}２つのケンジュウを使って{wait}{f0}せんとうをする事になるわよね{wait}{page}それで最初に{n}どちらのケンジュウを使うかは{wait}{f0}ヴィネコンコマンドの中にある{wait}{f0}セットっていうところで{wait}{f0}決める事ができるのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}This is the King Riser, a prototype Deviliser!!{wait}{page}Out of all the allies you've made contracts with,{wait}{f0}it can hold King-class ones too!{wait}{page}So now {name}, you'll be fighting{wait}{f0}with two guns, right?{wait}{page}And which gun you use first,{wait}{f0}you can go into the Vinecom commands{wait}{f0}and pick it under the one called 'Set'.{wait}{f0}That's where you decide!{wait}{end}"
  },
  {
   "id": "B:47ED8",
   "jp": "{face:0010}さすがだな！人間とデビルの{n}２つの力をそなえた{wait}{f0}デビルチルドレンとは{f0}このような力を持っているのか{wait}{f0}これでは大魔王様が{f0}恐れるのも無理はないな！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Impressive! Possessing the twin powers{wait}{f0}of human and Devil...{f0}so this is the strength of a Devil Child!{wait}{f0}No wonder the Great Demon King{f0}fears you!{wait}{end}"
  },
  {
   "id": "B:47F74",
   "jp": "{face:0000}{voice:00C0}・・・サンドランド・・・？？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:00C0}...Sand Land...??{wait}{end}"
  },
  {
   "id": "B:47F9C",
   "jp": "{face:0007}{voice:00C2}サンドランドに行くためには{wait}{page}{voice:00C3}マーブルランドという魔界にある{n}白いメシアのツノを使うんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:00C2}To get to Sand Land,{wait}{page}{voice:00C3}you use the White Messiah Horn found in the part of Makai called Marble Land.{wait}{end}"
  },
  {
   "id": "B:48004",
   "jp": "{face:0007}{voice:00C4}そして、そのマーブルランドに{n}行くためには{wait}{page}{voice:00C5}魔王ヘルが持っている{n}金色のメシアのツノを使うんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:00C4}And to get to that Marble Land,{wait}{page}{voice:00C5}you use the Golden Messiah Horn that Demon Lord Hel has.{wait}{end}"
  },
  {
   "id": "B:48074",
   "jp": "{face:0007}{voice:00C6}つまり{n}ナガヒサを見つけるためには{wait}{page}{voice:00C7}このアイスランドで{n}金色のメシアのツノを手に入れて{wait}{page}{voice:00C8}マーブルランドに{n}行かなくては、ならないんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:00C6}In other words, to find Nagahisa,{wait}{page}{voice:00C7}you have to get the Golden Messiah Horn here in Ice Land{wait}{page}{voice:00C8}and go to Marble Land.{wait}{end}"
  },
  {
   "id": "B:48114",
   "jp": "答えは？{end}",
-  "en": ""
+  "en": "Your answer?{end}"
  },
  {
   "id": "B:48120",
   "jp": "{face:0000}お前が魔王ヘルか{n}ダイアナを返してもらおう{wait}{page}それにオレは{n}弟を探すために{wait}{f0}金色のメシアのツノがいるんだ{wait}{page}どちらもわたしてもらおうか{wait}{end}",
-  "en": ""
+  "en": "{face:0000}So you're Demon Lord Hel. I'm taking Diana back.{wait}{page}Besides, to find my little brother,{wait}{f0}I need the Golden Messiah Horn.{wait}{page}Hand them both over.{wait}{end}"
  },
  {
   "id": "B:481B0",
   "jp": "{face:0010}クッ、生意気なガキめ{wait}{page}良かろう、この魔王ヘルが{n}デビルチルドレンの力を{wait}{f0}この目でたしかめてやる！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Hmph, you cheeky brat.{wait}{page}Very well. I, Demon Lord Hel, shall test the power of a Devil Child{wait}{f0}with my own eyes!{wait}{end}"
  },
  {
   "id": "B:4821C",
   "jp": "{face:0000}デビルチルドレン！？・・・{n}オレがデビルチルドレンだって！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Devil Child!?... Me? You're saying I'm a Devil Child!?{wait}{end}"
  },
  {
   "id": "B:48260",
   "jp": "{face:0010}そうだ！おまえの父親は{n}デビルなのだ{wait}{page}お前はデビルと{n}人間の間に生まれた{wait}{f0}ハーフデビルのデビルチルドレンだ{wait}{page}だからこそ大魔王様は{n}お前を倒すために{wait}{f0}もう１人のデビルチルドレンに{wait}{f0}お前を追わせたのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0010}That's right! Your father is a Devil.{wait}{page}You were born between a Devil and a human,{wait}{f0}a half-Devil... a Devil Child!{wait}{page}That is exactly why, to defeat you,{wait}{f0}the Great Demon King sent{wait}{f0}another Devil Child after you.{wait}{end}"
  },
  {
   "id": "B:48338",
   "jp": "{face:0010}{name}！{wait}{page}デビルチルドレンの力{n}見せてもらうぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}{name}!{wait}{page}Show me the power of a Devil Child!{wait}{end}"
  },
  {
   "id": "B:48370",
   "jp": "{face:0000}待て！お前は{n}オレを倒すために来たはずだ！{wait}{page}{partner}ではないはずだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Wait! You came here to beat me, didn't you!{wait}{page}Your fight isn't with {partner}!{wait}{end}"
  },
  {
   "id": "B:483B8",
   "jp": "{face:0018}デビルチルドレン・{name}{wait}{page}自分をぎせいにして{n}パートナーを救おうというのか{wait}{page}まだまだアマイな{wait}{end}",
-  "en": ""
+  "en": "{face:0018}Devil Child {name}...{wait}{page}So you would sacrifice yourself to save your partner?{wait}{page}You are still far too soft.{wait}{end}"
  },
  {
   "id": "B:4841C",
   "jp": "{face:0000}いま、オレの事を{wait}{n}デビルチルドレンと呼んだな{wait}{page}アイスランドの魔王ヘルも{wait}{n}オレの事をそう呼んだ{wait}{page}本当にオレは{n}デビルチルドレンなのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Just now, you{wait}{n}called me a Devil Child.{wait}{page}Demon Lord Hel of Ice Land{wait}{n}called me that too.{wait}{page}Am I really a Devil Child?{wait}{end}"
  },
  {
   "id": "B:484B0",
   "jp": "{face:0018}そうだ、{name}{wait}{page}お前は人間とデビルの血を{n}受けついだデビルチルドレンだ{wait}{page}だからこそ大魔王は{n}お前を倒そうとするのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0018}That's right, {name}.{wait}{page}You are a Devil Child who inherited the blood of both human and Devil.{wait}{page}That is exactly why the Great Demon King seeks to destroy you.{wait}{end}"
  },
  {
   "id": "B:4852C",
   "jp": "{face:0000}それならオレの中には{n}お前たちデビルにはない{wait}{f0}力がかくされているはずだ{wait}{page}こうしてパートナーを{n}守るのもそのパワーが{wait}{f0}やらせているのかもしれない{wait}{page}試してみたらどうだ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Then there must be something in me that you Devils don't have...{wait}{f0}some hidden power.{wait}{page}Maybe protecting my partner like this{wait}{f0}is that power's doing too.{wait}{page}Why don't you find out?{wait}{end}"
  },
  {
   "id": "B:485E0",
   "jp": "{face:0018}なるほど・・・フフフ・・・{wait}{page}・・・気が変わったわ{wait}{page}デビルチルドレンの力が{wait}{n}どれほどのものか・・・{wait}{page}今しばらく見させてもらおう{wait}{end}",
-  "en": ""
+  "en": "{face:0018}I see... Heh heh heh...{wait}{page}...I've changed my mind.{wait}{page}The power of a Devil Child...{wait}{n}just how great is it...?{wait}{page}I shall watch a little longer and see.{wait}{end}"
  },
  {
   "id": "B:4866C",
   "jp": "{ee}さきほどビビサナ様が{n}とうちゃくした！{wait}{page}お前もブトウ会に出るなら{n}急いだ方がいいぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Vibhishana-sama just arrived!{wait}{page}If you're entering the Battle Ball too, you'd better hurry!{wait}{end}"
  },
  {
   "id": "B:486C8",
   "jp": "{ee}われらの王はブトウ会で{n}負けてしまった{wait}{page}あー、これでビビサナ様が{n}魔王になる夢も破れた{wait}{end}",
-  "en": ""
+  "en": "{ee}Our king lost at the Battle Ball.{wait}{page}Aww, there goes Vibhishana-sama's dream of becoming a Demon Lord.{wait}{end}"
  },
  {
   "id": "B:48728",
   "jp": "{ee}お前、ラセツ族の村に{n}行った事はあるか？{wait}{page}あそこにいるニタニタは{n}変なデビルさ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, have you ever been to the Rasetsu tribe's village?{wait}{page}The Nitanita there is one weird Devil!{wait}{end}"
  },
  {
   "id": "B:48780",
   "jp": "{ee}お前、ラセツ族の村に{n}行った事はあるか？{wait}{page}あそこにいるニタニタは{n}わらいぶくろを持って行くと{wait}{f0}よろこぶそうだぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, have you ever been to the Rasetsu tribe's village?{wait}{page}Word is, if you take a Laughing Bag to the Nitanita there,{wait}{f0}it'll be real happy!{wait}{end}"
  },
  {
   "id": "B:487F8",
   "jp": "本日　休業{wait}{end}",
-  "en": ""
+  "en": "Closed today.{wait}{end}"
  },
  {
   "id": "B:48808",
   "jp": "{face:0012}{voice:063F}おおっ！やったな{wait}{n}{voice:0640}おめえだったら、やると思ってたぜ{wait}{end}",
-  "en": ""
+  "en": "{face:0012}{voice:063F}Whoa! You did it!{wait}{n}{voice:0640}I knew you'd pull it off!{wait}{end}"
  },
  {
   "id": "B:4884C",
   "jp": "{face:0014}{voice:0641}世界が・・・！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{voice:0641}The world...!{wait}{end}"
  },
  {
   "id": "B:48868",
   "jp": "{face:0015}{voice:0641}世界が・・・！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{voice:0641}The world...!{wait}{end}"
  },
  {
   "id": "B:48884",
   "jp": "{face:0016}{voice:0641}世界が・・・！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{voice:0641}The world...!{wait}{end}"
  },
  {
   "id": "B:488A0",
   "jp": "{face:0019}{voice:0642}新しい時代に向かって{n}動き出したわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0642}It's begun moving toward a new age!{wait}{end}"
  },
  {
   "id": "B:488D4",
   "jp": "{face:0004}{voice:0268}あら、ナガヒサ君{n}お兄さんは、どこ？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0268}Oh, Nagahisa-kun. Where's your big brother?{wait}{end}"
  },
  {
   "id": "B:48904",
   "jp": "{face:0008}{voice:0269}お兄さん・・・？？？{wait}{page}{voice:026A}ミライちゃん{n}ぼくに、お兄さんなんかいないよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0269}Big brother...???{wait}{page}{voice:026A}Mirai-chan, I don't have a big brother.{wait}{end}"
  },
  {
   "id": "B:48958",
   "jp": "{face:0004}{voice:026B}えっ？・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:026B}Huh?...{wait}{end}"
  },
  {
   "id": "B:48970",
   "jp": "{face:0008}{voice:026C}ミライちゃん{n}どうかしてるんじゃない？{wait}{page}{voice:026D}ぼく、ちょっと用事があるんだ{n}また、明日ね！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:026C}Mirai-chan, are you feeling okay?{wait}{page}{voice:026D}I've got something to do. See you tomorrow!{wait}{end}"
  },
  {
   "id": "B:489D8",
   "jp": "{face:0004}{ea}・・・・・・{wait}{page}{voice:026E}・・・あいつが{n}この世界から、いなくなっちゃった・・{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{ea}......{wait}{page}{voice:026E}...He's gone... he's vanished from this world...{wait}{end}"
  },
  {
   "id": "B:48A2C",
   "jp": "{face:0000}{voice:025D}光が、あふれてる！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:025D}Light is pouring out everywhere!{wait}{end}"
  },
  {
   "id": "B:48A4C",
   "jp": "{face:0000}{voice:025E}何も、ない！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:025E}There's nothing here!{wait}{end}"
  },
  {
   "id": "B:48A64",
   "jp": "{face:0000}{voice:025F}ミライ、世界が・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:025F}Mirai, the world...{wait}{end}"
  },
  {
   "id": "B:48A84",
   "jp": "{face:0004}{voice:0260}ええ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0260}Yeah...{wait}{end}"
  },
  {
   "id": "B:48A9C",
   "jp": "{face:0000}{voice:0261}これで・・・良かったのかなあ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0261}Was this... really the right thing to do?{wait}{end}"
  },
  {
   "id": "B:48AC8",
   "jp": "{face:0004}{voice:0262}それは、これから私たちが{wait}{page}{voice:0263}何を、するかによって{n}決まるんじゃないの{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0262}That depends on what we{wait}{page}{voice:0263}do from here on, doesn't it?{wait}{end}"
  },
  {
   "id": "B:48B1C",
   "jp": "{face:0000}{voice:0264}・・・そうだね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0264}...Yeah...{wait}{end}"
  },
  {
   "id": "B:48B3C",
   "jp": "{face:0000}{voice:0265}あっ！世界が{n}もう一度、始まろうとしてる！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0265}Oh! The world's about to begin all over again!{wait}{end}"
  },
  {
   "id": "B:48B74",
   "jp": "{face:0004}{voice:0266}やり直すのよ！{wait}{page}{voice:0267}もう一度、最初から！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0266}We'll start over!{wait}{page}{voice:0267}From the very beginning!{wait}{end}"
  },
  {
   "id": "B:48BAC",
   "jp": "{voice:05BA}わが・・・・、・・・・・・・・・・{n}・・・・・・・の時に、・・・・のだ{wait}{page}{voice:05C1}そして、・・・・・を・・・させ{n}・・・なる・・・を、・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{voice:05BA}My ..., ..... the .... ..., and at ....... ..... hour, .... .......{wait}{page}{voice:05C1}Then, ...en the ...... ..., and ..... .... a ... .....!{wait}{end}"
  },
  {
   "id": "B:48C44",
   "jp": "{voice:05B9}わが・・・よ、・・・・・・・・・・{n}世界・・・・の時に、・・・・のだ{wait}{page}{voice:05C0}そして、・・・・・を・・・させ{n}・・・なる・・・を、・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B9}My ..., ..... the .... ..., and at the world's ..... hour, .... .......{wait}{page}{voice:05C0}Then, ...en the ...... ..., and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "B:48CD8",
   "jp": "{voice:05B8}わが・・・よ、・・・・カギを・・・{n}世界・・・・の時に、・・・・のだ{wait}{page}{voice:05BF}そして、・・・・・を目ざめさせ{n}・・・なる・・・を、・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B8}My ..., ..... the .... Key, and at the world's ..... hour, .... .......{wait}{page}{voice:05BF}Then, awaken the ...... ..., and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "B:48D6C",
   "jp": "{voice:05B7}わが・・・よ、・・・・カギを・・・{n}世界・・・・の時に、・・会うのだ{wait}{page}{voice:05BE}そして、ねむる・・を目ざめさせ{n}・・・なる・・・を、・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B7}My ..., ..... the .... Key, and at the world's ..... hour, .... witness.{wait}{page}{voice:05BE}Then, awaken the sleeping ..., and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "B:48E00",
   "jp": "{voice:05B6}わが・・・よ、・・・・カギをつくり{n}世界・・・・の時に、・・会うのだ{wait}{page}{voice:05BE}そして、ねむる・・を目ざめさせ{n}・・・なる・・・を、・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B6}My ..., forge the .... Key, and at the world's ..... hour, .... witness.{wait}{page}{voice:05BE}Then, awaken the sleeping ..., and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "B:48E94",
   "jp": "{voice:05B5}わが・・・よ、・・・・カギをつくり{n}世界の最期の時に、・・会うのだ{wait}{page}{voice:05BD}そして、ねむる・・を目ざめさせ{n}新たなる・・・を、・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B5}My ..., forge the .... Key, and at the world's final hour, .... witness.{wait}{page}{voice:05BD}Then, awaken the sleeping ..., and ..... open a new .....!{wait}{end}"
  },
  {
   "id": "B:48F24",
   "jp": "{voice:05B4}わが息子よ、ノルンのカギをつくり{n}世界の最期の時に、・・会うのだ{wait}{page}{voice:05BC}そして、ねむる・・を目ざめさせ{n}新たなる・・・を、切り開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B4}My son, forge the Norn Key, and at the world's final hour, .... witness.{wait}{page}{voice:05BC}Then, awaken the sleeping ..., and carve open a new .....!{wait}{end}"
  },
  {
   "id": "B:48FB0",
   "jp": "{voice:05B3}わが息子よ、ノルンのカギをつくり{n}世界の最期の時に、立ち会うのだ{wait}{page}{voice:05BB}そしてねむる神を、目ざめさせ{n}新たなる世界を、切り開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B3}My son, forge the Norn Key, and at the world's final hour, bear witness.{wait}{page}{voice:05BB}Then awaken the sleeping god, and carve open a new world!{wait}{end}"
  },
  {
   "id": "B:49038",
   "jp": "{ee}{face:0004}お父さんよ{name}！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0004}It's your father, {name}!{wait}{end}"
  },
  {
   "id": "B:49050",
@@ -341,66 +341,66 @@
  {
   "id": "B:49068",
   "jp": "{face:0001}オレがこのあたりで{n}くらしていたころには{wait}{f0}あそこにならんでいるオハカなんか{wait}{f0}なかったんだ{wait}{page}ちょっと調べた方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Back when I lived around here,{wait}{f0}those graves lined up over there{wait}{f0}weren't there.{wait}{page}We'd better check it out.{wait}{end}"
  },
  {
   "id": "B:490E8",
   "jp": "デビルチルドレン・{name}は{n}神を倒し、自分が神となった{wait}{page}そしてその後、{name}の{n}すがたを見た者はいない・・・{wait}{end}",
-  "en": ""
+  "en": "Devil Child {name} defeated the god and became a god himself.{wait}{page}And after that, no one ever saw {name} again...{wait}{end}"
  },
  {
   "id": "B:49154",
   "jp": "{ee}ここにあるのは{n}コードブレーカーというゲームさ{wait}{page}ならんだ３つの数字を当てるんだ{n}よかったら説明してやろうか？{wait}{end}",
-  "en": ""
+  "en": "{ee}This here's a game called Code Breaker.{wait}{page}You guess three numbers in a row. Want me to explain it?{wait}{end}"
  },
  {
   "id": "B:491C8",
   "jp": "　説明を聞く{n}　今はいらない{end}",
-  "en": ""
+  "en": "Explain it{n}Not right now{end}"
  },
  {
   "id": "B:491E8",
   "jp": "そうか、いつでも教えてやるぞ{wait}{end}",
-  "en": ""
+  "en": "Okay. I'll teach you anytime.{wait}{end}"
  },
  {
   "id": "B:49208",
   "jp": "コードブレーカーの始めに{n}なんいどを選ぶよな{wait}{page}なんいどとは、むずかしさの事だよ{wait}{page}ノーマルは０から５までの{n}数字がかくされていて{wait}{page}ハードは０から９までの{n}数字がかくされているんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "At the start of Code Breaker, you choose a difficulty, right?{wait}{page}Difficulty means how hard it is.{wait}{page}On Normal, the hidden numbers are from 0 to 5,{wait}{page}and on Hard, they're from 0 to 9.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "B:492E0",
   "jp": "　わかった、次は？{n}　わからない、もう一度{n}　もういいや{end}",
-  "en": ""
+  "en": "Got it. What's next?{n}Don't get it. Once more.{n}That's enough{end}"
  },
  {
   "id": "B:4931C",
   "jp": "ノーマルでやる時は{n}０から５までの数字を{wait}{page}ハードの時は{n}０から９までの数字を{wait}{f0}自由にならべる事ができるんだ{wait}{page}そうしてかくれている数字を{n}当てていくゲームなんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "On Normal, you use the numbers 0 to 5,{wait}{page}and on Hard, the numbers 0 to 9.{wait}{f0}You can line them up however you like.{wait}{page}That's how you guess the hidden numbers.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "B:493E0",
   "jp": "かくされた３つの数字は{n}全部ちがう数字なんだ{wait}{page}だから同じ数字は{n}選べないようになっているだろう{wait}{page}そうして３つの数字を選んで{n}決定すると、そのけっかが{wait}{f0}画面の右がわに出て来るんだ{wait}{page}上がHITした数だ{wait}{n}HITというのは数と場所が{wait}{f0}当っているという事だ{wait}{page}そして、下はBrowした数だ{wait}{n}Browというのは数はあってるが{wait}{f0}場所がちがうという数字の事だ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "The three hidden numbers are all different.{wait}{page}So you can't pick the same number twice.{wait}{page}Once you pick three numbers and confirm, the result{wait}{f0}shows up on the right side of the screen.{wait}{page}The top is the number of HITs.{wait}{n}A HIT means the number{wait}{f0}and its place are both right.{wait}{page}And the bottom is the number of BLOWs.{wait}{n}A BLOW means the number's right,{wait}{f0}but it's in the wrong place.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "B:49568",
   "jp": "最初に入れた数字で{n}HITが１Browが１だったとすると{wait}{page}場所と数字が{n}当っているのがどれか１つ{wait}{page}数字だけが当っているのが{n}どれか１つあるよ、という事だ{wait}{page}それを見てどれがHITで{wait}{n}どれがBrowかをスイリして{wait}{f0}２回目の数字を決めるんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "Say your first numbers got 1 HIT and 1 BLOW.{wait}{page}That means one of them is the right number in the right place,{wait}{page}and one of them is just the right number.{wait}{page}Use that to figure out which is the HIT{wait}{n}and which is the BLOW,{wait}{f0}then choose your second numbers.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "B:4967C",
   "jp": "選んだ数字とその場所は{n}そのけっかとともにまいかい{wait}{f0}すぐ下に出てくるだろう{wait}{page}それを見ながらスイリして{n}かくされた数字を当てるんだよ{wait}{page}まあ、試してみるのが１番だよ{wait}{page}けっこうもえるかもしれないぜ{wait}{n}また聞きたくなったら{wait}{f0}いつでも話しかけてくれ{wait}{end}",
-  "en": ""
+  "en": "Each time, the numbers you picked and their places{wait}{f0}show up right below, along with the result.{wait}{page}Look at those, reason it out, and guess the hidden numbers.{wait}{page}Well, the best way to learn is to just try it.{wait}{page}You might get pretty fired up!{wait}{n}If you want to hear it again,{wait}{f0}just talk to me anytime.{wait}{end}"
  },
  {
   "id": "B:49778",
   "jp": "{ee}見てくれ！みんなで力をあわせて{n}街をたて直したんだぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Look! We all worked together to rebuild the town!{wait}{end}"
  },
  {
   "id": "B:497B4",
   "jp": "{ee}オレは生まれ変わったよ！{wait}{page}これからは気持ちを入れ替えて{n}真面目に生きて行くんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a new man!{wait}{page}From now on, I'm turning over a new leaf and living an honest life!{wait}{end}"
  }
 ]

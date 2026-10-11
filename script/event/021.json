@@ -2,401 +2,401 @@
  {
   "id": "B:46274",
   "jp": "{ee}{face:0019}{voice:05FA}スフィンクスって、ふつうでは{n}仲魔にできないデビルなのよ{wait}{page}{voice:05FB}大事に育ててあげてね{n}でないと、きっとこうかいするわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}{voice:05FA}A Sphinx is a Devil you normally can't make your ally.{wait}{page}{voice:05FB}Raise it with care. If you don't, I'm sure you'll regret it.{wait}{end}"
  },
  {
   "id": "B:462F8",
   "jp": "{ee}{face:0034}グルルルルルル{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0034}Grrrrrrrrr...{wait}{end}"
  },
  {
   "id": "B:46310",
   "jp": "{face:003B}モアイは元気かい？{wait}{end}",
-  "en": ""
+  "en": "{face:003B}How's Moai doing?{wait}{end}"
  },
  {
   "id": "B:4632C",
   "jp": "{ee}ん？あんた・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Hm? You...{wait}{end}"
  },
  {
   "id": "B:46344",
   "jp": "いや・・・何でもない{wait}{end}",
-  "en": ""
+  "en": "No... It's nothing.{wait}{end}"
  },
  {
   "id": "B:4635C",
   "jp": "おお！なかなかめずらしい{n}スフィンクスを連れているな！{wait}{end}",
-  "en": ""
+  "en": "Oho! That's a pretty rare Sphinx you've got with you!{wait}{end}"
  },
  {
   "id": "B:46398",
   "jp": "しかし、エンブレムは{n}持っとらんようじゃの！{wait}{end}",
-  "en": ""
+  "en": "But it seems you don't have an emblem!{wait}{end}"
  },
  {
   "id": "B:463C8",
   "jp": "しかも、デスエンブレムも{n}持っとるじゃないか！{wait}{end}",
-  "en": ""
+  "en": "And you've got a Death Emblem, too!{wait}{end}"
  },
  {
   "id": "B:463FC",
   "jp": "どうじゃ？ちょっと、そのエンブレムと{n}スフィンクスをわしにかさんか？{wait}{end}",
-  "en": ""
+  "en": "How about it? Would you lend me that emblem and your Sphinx for a bit?{wait}{end}"
  },
  {
   "id": "B:46444",
   "jp": "　わかった、いいよ{n}　だめ、かさない{end}",
-  "en": ""
+  "en": "Okay, sure.{n}No, I won't.{end}"
  },
  {
   "id": "B:4646C",
   "jp": "そうか、仕方ないな{wait}{end}",
-  "en": ""
+  "en": "I see. Can't be helped.{wait}{end}"
  },
  {
   "id": "B:46484",
   "jp": "よし、ちょっと待ってな{wait}{end}",
-  "en": ""
+  "en": "All right, wait just a moment.{wait}{end}"
  },
  {
   "id": "B:464A0",
   "jp": "よし、これでいい！{wait}{end}",
-  "en": ""
+  "en": "There, all done!{wait}{end}"
  },
  {
   "id": "B:464B8",
   "jp": "スフィンクスがデススフィンクスに{n}ランクアップした{wait}{end}",
-  "en": ""
+  "en": "Sphinx ranked up into Death Sphinx.{wait}{end}"
  },
  {
   "id": "B:464F0",
   "jp": "デススフィンクスが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Death Sphinx became your ally.{wait}{end}"
  },
  {
   "id": "B:46514",
   "jp": "おお！デススフィンクスがいるな！{wait}{end}",
-  "en": ""
+  "en": "Oho! You've got a Death Sphinx!{wait}{end}"
  },
  {
   "id": "B:46538",
   "jp": "しかも、ヘルエンブレムも{n}持っとるじゃないか！{wait}{page}どうじゃ？ちょっとそのエンブレムと{n}デススフィンクスをかさんか？{wait}{end}",
-  "en": ""
+  "en": "And you've got a Hell Emblem, too!{wait}{page}How about it? Would you lend me that emblem and your Death Sphinx for a bit?{wait}{end}"
  },
  {
   "id": "B:465B0",
   "jp": "デススフィンクスが{n}ヘルスフィンクスに{wait}{f0}ランクアップした{wait}{end}",
-  "en": ""
+  "en": "Death Sphinx ranked up{wait}{f0}into Hell Sphinx.{wait}{end}"
  },
  {
   "id": "B:465F0",
   "jp": "ヘルスフィンクスが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Hell Sphinx became your ally.{wait}{end}"
  },
  {
   "id": "B:46614",
   "jp": "おお！ヘルスフィンクスがいるな！{wait}{end}",
-  "en": ""
+  "en": "Oho! You've got a Hell Sphinx!{wait}{end}"
  },
  {
   "id": "B:46638",
   "jp": "しかも、ネオエンブレムも{n}持っとるじゃないか！{wait}{page}どうじゃ？ちょっとそのエンブレムと{n}ヘルスフィンクスをかさんか？{wait}{end}",
-  "en": ""
+  "en": "And you've got a Neo Emblem, too!{wait}{page}How about it? Would you lend me that emblem and your Hell Sphinx for a bit?{wait}{end}"
  },
  {
   "id": "B:466B0",
   "jp": "ヘルスフィンクスが{n}ネオスフィンクスに{wait}{f0}ランクアップした{wait}{end}",
-  "en": ""
+  "en": "Hell Sphinx ranked up{wait}{f0}into Neo Sphinx.{wait}{end}"
  },
  {
   "id": "B:466F0",
   "jp": "ネオスフィンクスが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Neo Sphinx became your ally.{wait}{end}"
  },
  {
   "id": "B:46714",
   "jp": "{voice:002A}ヒーホー！{n}その箱、ホシイんだホー{wait}{page}{voice:002B}持って帰らないと{n}オシオキされるんだホー{wait}{end}",
-  "en": ""
+  "en": "{voice:002A}Hee-ho! I want that box-ho.{wait}{page}{voice:002B}If I don't bring it back, I'll get punished-ho.{wait}{end}"
  },
  {
   "id": "B:46770",
   "jp": "{voice:0030}そう言えば{n}もう１つ、メイレイされてたホー{wait}{page}{voice:0031}ヒーホー！やりたくないんだけど{n}キミを倒すんだホー！！{wait}{end}",
-  "en": ""
+  "en": "{voice:0030}Oh yeah, I got one more order-ho.{wait}{page}{voice:0031}Hee-ho! I don't wanna, but I've gotta beat you-ho!!{wait}{end}"
  },
  {
   "id": "B:467E0",
   "jp": "{face:0000}{voice:0033}ウワッ、イッテェー・・・！{wait}{page}{voice:0034}・・からだが、シビレテル・・・{n}ウ、ウ・・・ウゴケナイ！・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0033}Whoa, OWWW...!{wait}{page}{voice:0034}...My body's gone numb... Ugh... I-I can't move!...{wait}{end}"
  },
  {
   "id": "B:4684C",
   "jp": "{voice:0035}ヒーホー、かわいそうだけどホー{n}キミ、魔界に連れて行くホー{wait}{end}",
-  "en": ""
+  "en": "{voice:0035}Hee-ho, sorry about this-ho, but I'm taking you to Makai-ho.{wait}{end}"
  },
  {
   "id": "B:46890",
   "jp": "{voice:003F}アレッ、ナンカちがうホー？？{wait}{page}{voice:0040}ブフで倒れない人間なんて{n}いないハズなのにホー？？？{wait}{end}",
-  "en": ""
+  "en": "{voice:003F}Huh? Something's not right-ho??{wait}{page}{voice:0040}No human should be able to stay standing after Bufu-ho???{wait}{end}"
  },
  {
   "id": "B:468F0",
   "jp": "{voice:0098}これが、あの人間が持っていた{n}虹色のメシアのツノです{wait}{page}{voice:0099}ただ、デビライザーは{wait}{page}{voice:009A}ケルベロスが邪魔をして{n}うばう事ができませんでした{wait}{end}",
-  "en": ""
+  "en": "{voice:0098}This is the Rainbow Messiah Horn that human had.{wait}{page}{voice:0099}However, the Deviliser...{wait}{page}{voice:009A}Cerberus got in our way, and we couldn't take it.{wait}{end}"
  },
  {
   "id": "B:46984",
   "jp": "{face:0001}{voice:05D4}目がさめたか？{wait}{n}{voice:00A0}ここは魔界の１つ、アイスランドだ{wait}{page}{voice:00A1}おれたちがいるのは、アイスランドの{n}魔王ヘルの城のろうやだぜ{wait}{page}{voice:00A2}このままだと、弟のナガヒサより{n}おれたちの事を心配しないとやばいぜ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:05D4}You awake?{wait}{n}{voice:00A0}This is Ice Land, one of the lands of Makai.{wait}{page}{voice:00A1}We're in a cell in the castle of Hel, the Demon Lord of Ice Land.{wait}{page}{voice:00A2}At this rate, it's us we should worry about, not your little brother Nagahisa.{wait}{end}"
  },
  {
   "id": "B:46A54",
   "jp": "{ee}{face:0001}オレに乗れば、ちょっとしたガケなら{n}とびあがれるぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Get on my back, and I can jump up small cliffs, no problem!{wait}{end}"
  },
  {
   "id": "B:46A94",
   "jp": "{ee}{face:0001}オレはだ、だいじょうぶだ・・{wait}{page}そ、それよりせっかく来たんだ・・{n}ダイアナに会おうぜ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I-I'm fine...{wait}{page}M-More importantly, we came all this way... Let's go see Diana...{wait}{end}"
  },
  {
   "id": "B:46AF8",
   "jp": "{ee}{face:0001}オレの事は気にするな・・{n}早くマーブルランドに行こうぜ・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Don't worry about me... Let's hurry to Marble Land...{wait}{end}"
  },
  {
   "id": "B:46B3C",
   "jp": "{face:0001}{voice:0107}ちょっといいか？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0107}Got a sec?{wait}{end}"
  },
  {
   "id": "B:46B58",
   "jp": "{face:0001}{voice:0108}このサンドランドは{n}オレの生まれた所なんだ{wait}{page}{voice:0109}弟のオルトロスと{n}遊んでいる時に{wait}{page}{voice:010A}フェンリルに、だまされて{wait}{f0}{voice:010B}封印されたのは{n}この街の近くだった{wait}{page}{voice:010C}ひょっとすると、オルトロスは{n}まだ、封印されているかもしれない{wait}{page}{voice:010D}よかったら、少し探してみてくれ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0108}This Sand Land is where I was born.{wait}{page}{voice:0109}Back when I was playing with my little brother Orthrus,{wait}{page}{voice:010A}Fenrir tricked me,{wait}{f0}{voice:010B}and I got sealed away near this town.{wait}{page}{voice:010C}Maybe Orthrus is still sealed up somewhere.{wait}{page}{voice:010D}If you don't mind, could you look around for him a bit?{wait}{end}"
  },
  {
   "id": "B:46C6C",
   "jp": "{ee}{face:0001}オレの弟のオルトロスが{n}封印されているかもしれない{wait}{page}良ければ探してやってくれ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}My little brother Orthrus might be sealed away somewhere around here.{wait}{page}If you can, help me look for him.{wait}{end}"
  },
  {
   "id": "B:46CC4",
   "jp": "{ee}{face:0001}{name}、気をつけろ！{n}何か街の様子が変だぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}{name}, watch out! Something's weird about this town!{wait}{end}"
  },
  {
   "id": "B:46CF8",
   "jp": "{ee}{face:0001}神社の方からみょうな気配を{n}感じるな・・・行ってみようぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I sense something strange over by the shrine... Let's go check it out!{wait}{end}"
  },
  {
   "id": "B:46D3C",
   "jp": "{ee}{face:0001}３びきのドラゴンに会って{n}はんにんを見つけ出そうぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's go meet the three dragons and find the culprit!{wait}{end}"
  },
  {
   "id": "B:46D7C",
   "jp": "{ee}{face:0001}ベリアルに金のリンゴパイを{n}わたして話を聞こうぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's give Belial the Golden Apple Pie and hear what he has to say!{wait}{end}"
  },
  {
   "id": "B:46DB8",
   "jp": "{ee}{face:0001}オレのせなかに乗れば、ようがんの{n}上だっていどうできるぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Get on my back, and we can even cross over lava!{wait}{end}"
  },
  {
   "id": "B:46DFC",
   "jp": "{ee}{face:0001}早く街に戻ってマモンから{n}メシアのツノをいただこうぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's hurry back to town and take the Messiah Horn off Mammon's hands!{wait}{end}"
  },
  {
   "id": "B:46E3C",
   "jp": "{ee}{face:0001}天使もひどい事をするもんだ！{wait}{page}自分だけが正しいだなんて{n}ろくなもんじゃないぜ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Those angels sure do some awful stuff!{wait}{page}Acting like they're the only ones who are right... that's just rotten.{wait}{end}"
  },
  {
   "id": "B:46E94",
   "jp": "{ee}{face:0001}オレはどこまでも{n}お前につきあうぜ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I'll stick with you wherever you go!{wait}{end}"
  },
  {
   "id": "B:46EC4",
   "jp": "{ee}{face:0001}さあ、セントラルランドに{n}戻って来たぜ！{wait}{page}ゆだんするなよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}All right, we're back in Central Land!{wait}{page}Don't let your guard down!{wait}{end}"
  },
  {
   "id": "B:46F0C",
   "jp": "・・・ディープホール・・・{wait}{end}",
-  "en": ""
+  "en": "...Deep Hole...{wait}{end}"
  },
  {
   "id": "B:46F2C",
   "jp": "{face:0008}{ea}・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{ea}...{wait}{end}"
  },
  {
   "id": "B:46F40",
   "jp": "{ee}セントウでデビライザーと{n}キングライザーのどちらを使うかは{wait}{page}ヴィネコンコマンドのセットで{n}決められるホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Whether you use the Deviliser or the King Riser in battle{wait}{page}can be chosen with the Vinecom's Set command-ho.{wait}{end}"
  },
  {
   "id": "B:46FB0",
   "jp": "{ee}ヘルのやつ、デビルチルドレンに{n}逃げられたから大魔王様が{wait}{f0}恐くて逃げちゃったんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hel let the Devil Child get away, so he got scared of the Great Demon King{wait}{f0}and ran off-ho.{wait}{end}"
  },
  {
   "id": "B:4700C",
   "jp": "{ee}ヒーホー！魔王ヘルが{n}デビルチルドレンの仲魔になった{wait}{page}もうこれで誰にもめいれい{n}されないですむホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! Demon Lord Hel became the Devil Child's ally.{wait}{page}Now nobody can boss us around anymore-ho.{wait}{end}"
  },
  {
   "id": "B:47078",
   "jp": "{ee}ダイアナがいなくなったんだ！{wait}{page}街中を探してもいなかったから{n}外に行ったのかもしれないホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Diana's gone missing!{wait}{page}We searched all over town and couldn't find her, so maybe she went outside-ho.{wait}{end}"
  },
  {
   "id": "B:470D8",
   "jp": "{ee}ダイアナを見つけたんだね{n}安心したホー{wait}{end}",
-  "en": ""
+  "en": "{ee}You found Diana! What a relief-ho.{wait}{end}"
  },
  {
   "id": "B:47104",
   "jp": "{ee}{name}様！あなたの{n}お話に感動しました{wait}{page}これからはみなで{n}きょうりょくしてくらしていきます！{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}-sama! We were so moved by your words.{wait}{page}From now on, we'll all work together and live side by side!{wait}{end}"
  },
  {
   "id": "B:47164",
   "jp": "{ee}キミのもってるしょうひんの{n}白いメシアのカギを使えば{wait}{f0}サンドランドに行けるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If you use the prize you've got, the White Messiah Key,{wait}{f0}you can go to Sand Land!{wait}{end}"
  },
  {
   "id": "B:471B8",
   "jp": "{ee}先ほどから、部族の王たちが{n}このコロシアムへやって来ているぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}The tribal kings have been arriving at this Colosseum for a while now.{wait}{end}"
  },
  {
   "id": "B:471FC",
   "jp": "{ee}新しい魔王にしたがって{n}これからは仲良くやっていくよ{wait}{end}",
-  "en": ""
+  "en": "{ee}We'll follow the new Demon Lord and get along from now on.{wait}{end}"
  },
  {
   "id": "B:47238",
   "jp": "{ee}もうすぐわれらの王がここへ{n}やって来るころなんだが・・・{wait}{page}お前、ちょっと様子を{n}見て来てくれないか{wait}{end}",
-  "en": ""
+  "en": "{ee}Our king should be arriving here any minute now, but...{wait}{page}Hey, could you go see what's keeping him?{wait}{end}"
  },
  {
   "id": "B:472A4",
   "jp": "{ee}この村へ来るとちゅうで{n}シュラの剣をなくしたデビルに{wait}{f0}会わなかったか？{wait}{page}シュラの剣をなくすなんて{n}ドジなやつだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}On your way to this village, did you run into a Devil{wait}{f0}who lost his Sura Sword?{wait}{page}Losing your Sura Sword... What a klutz.{wait}{end}"
  },
  {
   "id": "B:47320",
   "jp": "{ee}あいつの剣を見つけてやったのか{n}お前、いいやつだな！{wait}{end}",
-  "en": ""
+  "en": "{ee}You found that guy's sword for him? You're all right!{wait}{end}"
  },
  {
   "id": "B:4735C",
   "jp": "{ee}３つの部族がきょうりょくすれば{n}この国も良くなりますよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If the three tribes work together, this country will get better, too.{wait}{end}"
  },
  {
   "id": "B:47398",
   "jp": "{ee}あんた、ケルベロスを連れてるんだね{wait}{page}おれのひいじいさんがわかいころに{n}ともだちだったケルベロスと{wait}{f0}オルトロスの兄弟が{wait}{f0}行方不明になっちゃった事が{wait}{f0}あったらしいんだ{wait}{page}このあたりの地下には{n}大きなはかばがあって{wait}{f0}そこで遊んでるのを見たのが{wait}{f0}最後だったそうだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, you've got a Cerberus with you.{wait}{page}When my great-grandpa was young, his friends, the Cerberus{wait}{f0}and Orthrus brothers,{wait}{f0}went missing one day,{wait}{f0}or so I hear.{wait}{page}There's a big graveyard underground around here,{wait}{f0}and he saw them playing there,{wait}{f0}and that was the last time.{wait}{end}"
  },
  {
   "id": "B:474AC",
   "jp": "{ee}ここのスタンプ・もうおしたゾ{n}他の場所に・行くとイイ{wait}{end}",
-  "en": ""
+  "en": "{ee}This stamp. Already pressed. Other places. Go, good.{wait}{end}"
  },
  {
   "id": "B:474E8",
   "jp": "{ee}ケガをしたら無理しないで{n}ここに来て下さいね{wait}{end}",
-  "en": ""
+  "en": "{ee}If you get hurt, don't push yourself. Just come here, okay?{wait}{end}"
  },
  {
   "id": "B:4751C",
   "jp": "{ee}もう物音がしなくなっちゃった{n}どうしたんだろ？{wait}{end}",
-  "en": ""
+  "en": "{ee}The noises have stopped. I wonder what happened?{wait}{end}"
  },
  {
   "id": "B:47550",
   "jp": "{ee}なんだかこのあたりのオバケは{n}いなくなったみたいだよ{wait}{page}でも大通りの方へ行くと{n}まだいるらしいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like the ghosts around here are gone.{wait}{page}But I hear there are still some over by the main street.{wait}{end}"
  },
  {
   "id": "B:475B8",
   "jp": "{ee}学校の方は{n}しずかになったみたいね{wait}{page}でもこのあたりのデビルは{n}地下街から出て来るみたいなの{wait}{end}",
-  "en": ""
+  "en": "{ee}It seems things have quieted down over at the school.{wait}{page}But the Devils around here seem to be coming out of the underground mall.{wait}{end}"
  },
  {
   "id": "B:4761C",
   "jp": "{ee}公園にはってた氷が{n}消えちゃった！？{wait}{page}最近はおかしな事ばかり{n}起きてるよ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}The ice that covered the park is gone!?{wait}{page}Nothing but weird stuff happening lately...{wait}{end}"
  },
  {
   "id": "B:47674",
   "jp": "はんのうがない・・・{n}壊れているようだ・・・{wait}{end}",
-  "en": ""
+  "en": "No response... It seems to be broken...{wait}{end}"
  },
  {
   "id": "B:476A4",
   "jp": "お客さん、用があるんだったら{n}正面から話しかけてくれ{wait}{end}",
-  "en": ""
+  "en": "If you need something, customer, talk to me from the front.{wait}{end}"
  },
  {
   "id": "B:476DC",
   "jp": "{ee}誰がリンゴパイを{n}盗んだんだろうね？{wait}{page}どうもドラゴンの中の{n}誰かじゃないかってうわさだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Who stole the apple pie, I wonder?{wait}{page}Rumor has it it was one of the dragons.{wait}{end}"
  },
  {
   "id": "B:4773C",
   "jp": "{ee}金のリンゴパイを盗んだ{n}はんにんを見つけたんだ！{wait}{page}いったい誰だったんだい？{wait}{end}",
-  "en": ""
+  "en": "{ee}You found the culprit who stole the Golden Apple Pie!{wait}{page}So who was it?{wait}{end}"
  },
  {
   "id": "B:47790",
   "jp": "{ee}西の森にキオクを無くした{n}デビルがいるの・・・かわいそうにね{wait}{end}",
-  "en": ""
+  "en": "{ee}There's a Devil in the west forest who lost its memory... Poor thing.{wait}{end}"
  },
  {
   "id": "B:477D4",
   "jp": "{ee}西の森にいたデビルを{n}助けてあげたのね！{wait}{end}",
-  "en": ""
+  "en": "{ee}You helped the Devil in the west forest!{wait}{end}"
  },
  {
   "id": "B:47804",
   "jp": "{ee}大きな声では言えないけど・・・{wait}{page}魔王ベリアルは魔王の中でも{n}とびきりずるがしこいやつなんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}I can't say this too loud, but...{wait}{page}Demon Lord Belial is the sneakiest of all the Demon Lords.{wait}{end}"
  },
  {
   "id": "B:47868",
   "jp": "{ee}聞いたよ！あのベリアルを{n}こらしめたんだってね！{wait}{page}ほんといいきみだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}I heard! You taught that Belial a lesson!{wait}{page}Serves him right!{wait}{end}"
  },
  {
   "id": "B:478B4",
   "jp": "{ee}この街のまんなかの湖には{n}ネッシーが住んでるんだぜ！{wait}{page}でも、仲魔がいなくていつも{n}さびしそうにしているんだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Nessie lives in the lake in the middle of this town!{wait}{page}But Nessie has no allies and always looks so lonely.{wait}{end}"
  },
  {
   "id": "B:47928",
   "jp": "{ee}これでネッシーもさびしくないね{wait}{end}",
-  "en": ""
+  "en": "{ee}Now Nessie won't be lonely anymore.{wait}{end}"
  },
  {
   "id": "B:4794C",
   "jp": "{ee}北の森には美しい歌を{n}歌うハーピーがいるのよ{wait}{page}今度、聞かせてもらうといいわ{wait}{end}",
-  "en": ""
+  "en": "{ee}In the north forest, there's a Harpy who sings beautiful songs.{wait}{page}You should ask her to sing for you sometime.{wait}{end}"
  },
  {
   "id": "B:479A0",
   "jp": "{ee}街が・・おれたちの街が・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}The town... Our town...{wait}{end}"
  },
  {
   "id": "B:479C4",
   "jp": "{ee}こうなったら死ぬまで遊んでやる！{wait}{end}",
-  "en": ""
+  "en": "{ee}If it's come to this, I'm gonna have fun till I drop dead!{wait}{end}"
  }
 ]

@@ -2,132 +2,132 @@
  {
   "id": "B:4980C",
   "jp": "{ee}新しい時代になっても{n}ギャンブルはやってるみたいだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like they still gamble, even in the new era.{wait}{end}"
  },
  {
   "id": "B:49848",
   "jp": "あなた強そうね{wait}{page}あたし、マモンのおじさんとこに{n}遊びにきたんだけど{wait}{page}あの人ぜんぜん帰ってこないのよ{n}たいくつだから連れてってよ{wait}{page}{face:0065}あたしはろくろくびよ{n}よろしくね{wait}{end}",
-  "en": ""
+  "en": "You look strong.{wait}{page}I came to visit Uncle Mammon,{wait}{page}but he never comes home. I'm bored, so take me with you.{wait}{page}{face:0065}I'm Rokurokubi. Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:498F8",
   "jp": "{face:00FF}ろくろくびが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Rokurokubi became your ally!{wait}{end}"
  },
  {
   "id": "B:49918",
   "jp": "{face:00FF}{face:0065}？　{speed:0014}まあ、仲魔がいっぱいじゃない{wait}{page}仲魔をへらしてからまたきてよ{n}あたし、まってるから{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{face:0065}? {speed:0014}Oh my, you've got a full set of allies!{wait}{page}Come back after you have fewer allies. I'll be waiting.{wait}{end}"
  },
  {
   "id": "B:49980",
   "jp": "{face:0065}やっときてくれたのね{n}さ、行きましょ{wait}{end}",
-  "en": ""
+  "en": "{face:0065}You finally came for me. Come on, let's go.{wait}{end}"
  },
  {
   "id": "B:499AC",
   "jp": "{face:0069}あ、きてくれたのね{n}もうはなさないわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0069}Oh, you came for me. I'm never letting you go now.{wait}{end}"
  },
  {
   "id": "B:499DC",
   "jp": "仲魔がいっぱいです{n}仲魔を入れられるようにしてから{wait}{f0}もう一度、来て下さい{wait}{end}",
-  "en": ""
+  "en": "Your allies are full. Make room for another ally,{wait}{f0}then please come again.{wait}{end}"
  },
  {
   "id": "B:49A2C",
   "jp": "パスワードがまちがっています{n}もう一度、入力して下さい{wait}{end}",
-  "en": ""
+  "en": "The password is incorrect. Please enter it again.{wait}{end}"
  },
  {
   "id": "B:49A68",
   "jp": "ベヒモスが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Behemoth became your ally!{wait}{end}"
  },
  {
   "id": "B:49A84",
   "jp": "リバイアサンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Leviathan became your ally!{wait}{end}"
  },
  {
   "id": "B:49AA4",
   "jp": "いっかくドラゴンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Ikkaku Dragon became your ally!{wait}{end}"
  },
  {
   "id": "B:49AC8",
   "jp": "ガブリエルが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Gabriel became your ally!{wait}{end}"
  },
  {
   "id": "B:49AE4",
   "jp": "メタトロンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Metatron became your ally!{wait}{end}"
  },
  {
   "id": "B:49B00",
   "jp": "{voice:0643}オレたちの、新しい時代が{n}今、始まったぞ！{wait}{end}",
-  "en": ""
+  "en": "{voice:0643}Our new era has begun at last!{wait}{end}"
  },
  {
   "id": "B:49B34",
   "jp": "{face:0020}{voice:0644}ヨーヤッタナー{wait}{page}{voice:0645}大したもんやで、ほんまに{n}あんたは、エライッ{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:0644}Ya did it!{wait}{page}{voice:0645}That's somethin' else, really. You're a real champ!{wait}{end}"
  },
  {
   "id": "B:49B84",
   "jp": "{face:0000}・・・　・・・{wait}{page}ダメダッ、カギはわたせない！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}... ...{wait}{page}No! I can't hand over the key!{wait}{end}"
  },
  {
   "id": "B:49BBC",
   "jp": "{face:0024}まだわからないのですか？{wait}{page}世界はやり直すべきなのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}Do you still not understand?{wait}{page}The world must start over.{wait}{end}"
  },
  {
   "id": "B:49BFC",
   "jp": "{face:0049}さすがだなデビルチルドレン{wait}{page}運命のカギをにぎる{n}伝説のこどもか・・・{wait}{page}そう言えばお前の弟は{n}エンゼルチルドレンだそうだな{wait}{page}かれは今、この街の東にある{n}神社にいるはずだ{wait}{page}フフフ・・・{n}・・・・・・行ってみるがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0049}Impressive, Devil Child.{wait}{page}So you're the child of legend who holds the key to fate...{wait}{page}Come to think of it, I hear your little brother is an Angel Child.{wait}{page}He should be at the shrine east of this town right now.{wait}{page}Heh heh heh... ......Go and see for yourself.{wait}{end}"
  },
  {
   "id": "B:49CE0",
   "jp": "何かが遠くからこちらに向かってくる！{wait}{end}",
-  "en": ""
+  "en": "Something is heading this way from far off!{wait}{end}"
  },
  {
   "id": "B:49D08",
   "jp": "あら、ステキなとのがた♥{n}ねえ、あなた月にいっしょにいかない？{wait}{page}{face:0000}いや、おれはやらなくちゃいけない{n}ことがあるんだ{wait}{page}{face:00FF}そうなの・・・　ざんねんね・・・{wait}{page}{speed:003C}そうだ！私ついていってもいい？{wait}{n}私のみりょくがわかれば{wait}{f0}月に行く気になると思うから{wait}{page}{face:0066}わたしはカグヤひめよ{n}よろしくね♥{wait}{end}",
-  "en": ""
+  "en": "Oh my, what a handsome gentleman! Say, won't you come to the moon with me?{wait}{page}{face:0000}No, there's something I have to do.{wait}{page}{face:00FF}I see... What a shame...{wait}{page}{speed:003C}I know! Can I come along with you?{wait}{n}Once you see how charming I am,{wait}{f0}I'm sure you'll want to go to the moon.{wait}{page}{face:0066}I'm Kaguya-hime. Nice to meet you, darling!{wait}{end}"
  },
  {
   "id": "B:49E34",
   "jp": "カグヤひめが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Kaguya-hime became your ally!{wait}{end}"
  },
  {
   "id": "B:49E50",
   "jp": "{face:0066}まってたわ、ダーリン♥{n}さ、私をつれてって♥{wait}{end}",
-  "en": ""
+  "en": "{face:0066}I've been waiting, darling! Now, take me with you!{wait}{end}"
  },
  {
   "id": "B:49E84",
   "jp": "{face:0066}あれ？私の入る場所がないじゃない！{wait}{page}ひどいわ、ダーリン！{n}女ごころをもてあそんで・・・{wait}{page}私、ダーリンがつれてってくれるまで{n}ここにいるから{wait}{f0}かならずむかえにきてね{wait}{end}",
-  "en": ""
+  "en": "{face:0066}Huh? There's no room for me!{wait}{page}How cruel, darling! Toying with a girl's heart...{wait}{page}I'll stay right here until you take me with you,{wait}{f0}so be sure to come back for me!{wait}{end}"
  },
  {
   "id": "B:49F34",
   "jp": "{face:00FF}きよひめが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Kiyohime became your ally!{wait}{end}"
  },
  {
   "id": "B:49F54",
   "jp": "あれ？私どうしたのかしら？{wait}{page}あ、また私ボウソーしちゃってたのね{wait}{n}私フラれちゃって、ヤケになってたのよ{wait}{page}あなたが元に戻してくれたのね{wait}{n}決めた、あなたについていくわ{f0}どこまでもね・・・{wait}{page}{face:0069}わたしはきよひめ、よろしくね{wait}{end}",
-  "en": ""
+  "en": "Huh? What happened to me?{wait}{page}Oh, I went on a rampage again, didn't I?{wait}{n}I got dumped, and I just lost it.{wait}{page}You brought me back to normal, didn't you?{wait}{n}I've decided. I'll follow you{f0}wherever you go...{wait}{page}{face:0069}I'm Kiyohime. Nice to meet you.{wait}{end}"
  },
  {
   "id": "B:4A038",
   "jp": "{face:0069}なによ、仲魔がいっぱいじゃない！{n}そう、みんな私をだますのね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0069}What!? You're full up on allies! I see... so everyone just lies to me...{wait}{end}"
  },
  {
   "id": "R:26F24",
@@ -136,271 +136,271 @@
  {
   "id": "R:26F30",
   "jp": "・・・・・・・・・・・・{n}・・・・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "............{n}............{wait}{end}"
  },
  {
   "id": "R:26F68",
   "jp": "{voice:02BE}誰？・・・もしかして、パパなの？{n}待って！行かないで！！{wait}{f0}{voice:02BF}パパ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02BE}Who's there?... Is that you, Dad? Wait! Don't go!!{wait}{f0}{voice:02BF}Dad!!{wait}{end}"
  },
  {
   "id": "R:26FB8",
   "jp": "それでは、今日のじゅぎょうは{n}ここまで！{wait}{end}",
-  "en": ""
+  "en": "All right, that's all for today's class!{wait}{end}"
  },
  {
   "id": "R:26FE4",
   "jp": "やっと起きた？{wait}{n}きゅうしょくの後から{f0}ずーっとねてたね{wait}{f0}うなされていたけど{f0}恐い夢でも見たの？{wait}{page}そーだ！そう言えば{n}この学校に通ってる{wait}{f0}男の子の兄弟が{f0}きのうから行方不明なんだって{wait}{page}きみも気をつけた方がいいよ{wait}{end}",
-  "en": ""
+  "en": "Finally awake?{wait}{n}You've been asleep{f0}ever since lunch.{wait}{f0}You were moaning in your sleep.{f0}Did you have a scary dream?{wait}{page}Oh yeah! That reminds me, two brothers{wait}{f0}who go to this school{f0}have been missing since yesterday!{wait}{page}You'd better be careful too.{wait}{end}"
  },
  {
   "id": "R:270C4",
   "jp": "じゅぎょう終わったよ！{wait}{end}",
-  "en": ""
+  "en": "Class is over!{wait}{end}"
  },
  {
   "id": "R:270E0",
   "jp": "７月１０日　月曜日{wait}{end}",
-  "en": ""
+  "en": "Monday, July 10{wait}{end}"
  },
  {
   "id": "R:270F8",
   "jp": "となりの兄弟？{wait}{page}セツナ君とナガヒサ君の事ね{wait}{n}・・・そういえば、きのう・・・{wait}{end}",
-  "en": ""
+  "en": "The brothers next door?{wait}{page}You mean Setsuna-kun and Nagahisa-kun.{wait}{n}...Come to think of it, yesterday...{wait}{end}"
  },
  {
   "id": "R:2714C",
   "jp": "未使用{wait}{end}",
-  "en": ""
+  "en": "Unused{wait}{end}"
  },
  {
   "id": "R:27158",
   "jp": "{ee}私のカバンを見つけた！{wait}{end}",
-  "en": ""
+  "en": "{ee}I found my bag!{wait}{end}"
  },
  {
   "id": "R:27174",
   "jp": "私のつくえだ！{n}・・・何もない{wait}{end}",
-  "en": ""
+  "en": "It's my desk! ...There's nothing in it.{wait}{end}"
  },
  {
   "id": "R:27198",
   "jp": "{ea}カガミには私がうつっている{wait}{end}",
-  "en": ""
+  "en": "{ea}The mirror shows my reflection.{wait}{end}"
  },
  {
   "id": "R:271B8",
   "jp": "{voice:02C0}！？・・・ひたいにアザ・・？{n}・・・気のせいかなぁ？{wait}{end}",
-  "en": ""
+  "en": "{voice:02C0}!? ...A mark on my forehead...? ...Just my imagination?{wait}{end}"
  },
  {
   "id": "R:271F4",
   "jp": "{ee}この学校に通ってる{n}男の子の兄弟が{wait}{f0}きのうから行方不明なんだって{wait}{page}きみも気をつけた方がいいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Two brothers who go to this school{wait}{f0}have been missing since yesterday.{wait}{page}You'd better be careful too.{wait}{end}"
  },
  {
   "id": "R:2725C",
   "jp": "{ee}朝のニュース見た？{wait}{n}何か、世界中に{f0}黒いきりが出てるんだって！{wait}{end}",
-  "en": ""
+  "en": "{ee}Did you see the morning news?{wait}{n}Apparently a black fog{f0}is appearing all over the world!{wait}{end}"
  },
  {
   "id": "R:272A4",
   "jp": "{ee}最近はネイルアートに{n}こってるの♥{wait}{f0}このレッドのマニキュア{f0}ぬってあげようか？{wait}{end}",
-  "en": ""
+  "en": "{ee}Lately I'm really into nail art!{wait}{f0}Want me to paint{f0}this red polish on your nails?{wait}{end}"
  },
  {
   "id": "R:272FC",
   "jp": "{face:00FF}どうしよう？{end}",
-  "en": ""
+  "en": "{face:00FF}What should I do?{end}"
  },
  {
   "id": "R:27310",
   "jp": "　私にもぬって♥{n}　私はやらなくていいよ{end}",
-  "en": ""
+  "en": "Do mine too!{n}I'll pass.{end}"
  },
  {
   "id": "R:2733C",
   "jp": "・・・はい、完成！{n}うーん、カンペキ♥♥♥{wait}{end}",
-  "en": ""
+  "en": "...There, all done! Mmm, absolutely perfect!{wait}{end}"
  },
  {
   "id": "R:2736C",
   "jp": "まぁまぁ、そうえんりょしないで♥{wait}{page}・・・はい完成！{n}うーん、カンペキ♥♥♥{wait}{end}",
-  "en": ""
+  "en": "Oh, come on, don't be shy!{wait}{page}...There, all done! Mmm, absolutely perfect!{wait}{end}"
  },
  {
   "id": "R:273BC",
   "jp": "{ee}ばっちりにあってるよ♥{wait}{end}",
-  "en": ""
+  "en": "{ee}It looks great on you!{wait}{end}"
  },
  {
   "id": "R:273D8",
   "jp": "{ee}いっしょに帰ろ♥{wait}{end}",
-  "en": ""
+  "en": "{ee}Let's walk home together!{wait}{end}"
  },
  {
   "id": "R:273F0",
   "jp": "帰るならカバンをわすれてるよ{wait}{end}",
-  "en": ""
+  "en": "If you're going home, you're forgetting your bag.{wait}{end}"
  },
  {
   "id": "R:27410",
   "jp": "あ！私、今日日直だったんだ！！{wait}{n}すっかりわすれてた！！{f0}ごめーん！先に帰って！{wait}{end}",
-  "en": ""
+  "en": "Oh! I'm on class duty today!!{wait}{n}I totally forgot!!{f0}Sorry! Go home without me!{wait}{end}"
  },
  {
   "id": "R:27464",
   "jp": "{voice:02C1}イッターーーーイ！！{n}何なのよ！もう！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02C1}Owwwww!! What's your problem!? Geez!!{wait}{end}"
  },
  {
   "id": "R:27494",
   "jp": "{voice:02C2}ご、ごめんね！だいじょうぶ？{wait}{end}",
-  "en": ""
+  "en": "{voice:02C2}S-sorry! Are you okay?{wait}{end}"
  },
  {
   "id": "R:274B8",
   "jp": "{voice:02C3}ええっ♥やだ♥{n}かなりかっこいい♥♥♥{wait}{end}",
-  "en": ""
+  "en": "{voice:02C3}Whoa! No way! He's sooo cute!!!{wait}{end}"
  },
  {
   "id": "R:274E8",
   "jp": "かなりかっこいい♥♥♥{wait}{end}",
-  "en": ""
+  "en": "He's sooo cute!!!{wait}{end}"
  },
  {
   "id": "R:27504",
   "jp": "{voice:02C4}なに？私の顔、何か変？{wait}{end}",
-  "en": ""
+  "en": "{voice:02C4}What? Is something wrong with my face?{wait}{end}"
  },
  {
   "id": "R:27524",
   "jp": "{voice:02C5}え？・・・あ、いや、その{n}カワイイなぁと思って・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:02C5}Huh? ...Oh, no, it's just... I was thinking you're really cute...{wait}{end}"
  },
  {
   "id": "R:27560",
   "jp": "{voice:02C6}えっ♥♥♥♥♥{wait}{end}",
-  "en": ""
+  "en": "{voice:02C6}Eeee!!{wait}{end}"
  },
  {
   "id": "R:27578",
   "jp": "{face:000A}{voice:02C7}ぼくはユーキっていうんだけど{wait}{page}{voice:02C8}きみの名前は？{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02C7}My name's Yuki.{wait}{page}{voice:02C8}What's yours?{wait}{end}"
  },
  {
   "id": "R:275B8",
   "jp": "{face:00FF}{voice:02C9}私の名前は・・・{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:02C9}My name is...{wait}{end}"
  },
  {
   "id": "R:275D4",
   "jp": "{face:000A}{voice:02CA}やっぱりそっか{n}キミがあの・・・{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02CA}I knew it. So you're the one...{wait}{end}"
  },
  {
   "id": "R:27600",
   "jp": "{face:0000}{voice:02CB}えっ、何！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02CB}Huh? What!?{wait}{end}"
  },
  {
   "id": "R:27618",
   "jp": "{face:000A}{voice:02CC}ううん・・いや、何でもないよ{wait}{page}{voice:02CD}そうだ！これをあげるよ{n}きっと役にたつと思うよ{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02CC}Oh... no, it's nothing.{wait}{page}{voice:02CD}I know! I'll give you this. I'm sure it'll come in handy.{wait}{end}"
  },
  {
   "id": "R:27678",
   "jp": "{face:00FF}赤い箱を手に入れた！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the red box!{wait}{end}"
  },
  {
   "id": "R:27694",
   "jp": "{voice:02D0}あれ・・・？{wait}{page}{voice:02D1}さっきまでここにいたのに？{wait}{end}",
-  "en": ""
+  "en": "{voice:02D0}Huh...?{wait}{page}{voice:02D1}He was right here a second ago...?{wait}{end}"
  },
  {
   "id": "R:276CC",
   "jp": "{voice:02D2}オイ！！そこのオマエ！！{wait}{n}{voice:02D3}ここらへんで赤い箱を持った{f0}男の子を見なかったか？{wait}{end}",
-  "en": ""
+  "en": "{voice:02D2}Hey!! You there!!{wait}{n}{voice:02D3}Seen a boy around here{f0}carrying a red box?{wait}{end}"
  },
  {
   "id": "R:27728",
   "jp": "{voice:02D4}アッ！その赤い箱は！！{wait}{page}{voice:02D5}・・・もしかして{n}ユーキからもらったのか？{wait}{end}",
-  "en": ""
+  "en": "{voice:02D4}Ah! That red box!!{wait}{page}{voice:02D5}...Don't tell me... did Yuki give you that?{wait}{end}"
  },
  {
   "id": "R:27778",
   "jp": "{face:0000}{voice:02D6}そうよ・・・？{n}それがどうかしたの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02D6}Yeah...? What about it?{wait}{end}"
  },
  {
   "id": "R:277A8",
   "jp": "{voice:02D7}それをオレによこせ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02D7}Hand it over to me!!{wait}{end}"
  },
  {
   "id": "R:277C8",
   "jp": "{ee}ごめーん！先に帰って！{wait}{end}",
-  "en": ""
+  "en": "{ee}Sorry! Go home without me!{wait}{end}"
  },
  {
   "id": "R:277E4",
   "jp": "　わたさない{n}　わたす{end}",
-  "en": ""
+  "en": "Keep it{n}Hand it over{end}"
  },
  {
   "id": "R:277FC",
   "jp": "{voice:02D8}いいから、早くよこせ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02D8}Just hurry up and hand it over!!{wait}{end}"
  },
  {
   "id": "R:2781C",
   "jp": "{voice:02D9}うわっ！！何だ？{wait}{end}",
-  "en": ""
+  "en": "{voice:02D9}Whoa!! What the--?{wait}{end}"
  },
  {
   "id": "R:27834",
   "jp": "{voice:02DA}箱が光ってる！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02DA}The box is glowing!!{wait}{end}"
  },
  {
   "id": "R:2784C",
   "jp": "{voice:02DB}そ、その箱を開けるな！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02DB}D-don't open that box!!{wait}{end}"
  },
  {
   "id": "R:2786C",
   "jp": "{face:0000}{voice:02DC}開けるなと言われれば{n}開けたくなるヨネ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02DC}Tell me not to open it, and I just wanna open it more!{wait}{end}"
  },
  {
   "id": "R:278A0",
   "jp": "{face:0000}{voice:02DD}なにコレ？ケンジュウ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02DD}What's this? A gun?{wait}{end}"
  },
  {
   "id": "R:278C4",
   "jp": "{voice:02DF}やっぱり魔法のケンジュウ{n}デビライザーか！{wait}{end}",
-  "en": ""
+  "en": "{voice:02DF}I knew it! The magic gun, the Deviliser!{wait}{end}"
  },
  {
   "id": "R:278F8",
   "jp": "{voice:02E0}・・・と、いう事はオマエなんだな！{wait}{n}{voice:02E1}オマエ、虹色の宝石を{f0}持ってんだろ？{wait}{end}",
-  "en": ""
+  "en": "{voice:02E0}...Which means it's you!{wait}{n}{voice:02E1}You've got the rainbow jewel,{f0}don't you?{wait}{end}"
  },
  {
   "id": "R:27950",
   "jp": "{face:0000}{voice:02E2}やだ！！変なとこ{n}さわらないでよ！！えっち！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02E2}Eek!! Don't touch me there!! You creep!!{wait}{end}"
  },
  {
   "id": "R:2798C",
   "jp": "{voice:02E3}うるせーー！！{wait}{n}{voice:02E4}だまってデビライザーと虹色の宝石を{f0}よこせってんだよ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:02E3}Shaddup!!{wait}{n}{voice:02E4}Just shut up and hand over{f0}the Deviliser and the rainbow jewel!!{wait}{end}"
  },
  {
   "id": "R:279E4",
   "jp": "{face:0000}{voice:02E5}あっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:02E5}Ah!{wait}{end}"
  }
 ]
