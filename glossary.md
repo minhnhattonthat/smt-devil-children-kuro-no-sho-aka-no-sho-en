@@ -51,6 +51,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | デビル | Devil (demons are "Devils") | | |
 | マッカ | Macca | | |
 | ケイヤク | contract | | |
-| メシアの角笛 | Messiah Horn | verify | |
+| メシアの角笛 / メシアのツノ | Messiah Horn | 虹色のメシアのツノ = rainbow Messiah Horn | |
+| 虹色のツノ | Rainbow Horn | | |
+| 大魔王 | Great Demon King | 大魔王様 = My Great Demon King | |
+| 魔王 | Demon Lord | e.g. アイスランドの魔王 = Demon Lord of Ice Land | |
+| ノルンのカギ | Norn Key | | |
+| ダークパレス | Dark Palace | | |
+| ブフ | Bufu | mainline SMT spell names | |
+| 兄さん | big brother | kinship terms translated (user ruling) | Nii-san |
 
 ## Decisions from earlier batches
+- Pilot (opening, approved in-game 2026-10-11): see docs/style-reference.md.

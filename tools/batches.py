@@ -32,7 +32,7 @@ def faces():
             continue
         face = cells[0].strip('`').upper()
         for book in re.findall(r'[BR]', cells[1].upper()) or ['B', 'R']:
-            out.setdefault((book, face), cells[3])
+            out.setdefault((book, face), cells[3].replace('†', '').strip())
     return out
 
 
