@@ -33,4 +33,6 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
   menu-button sheet, battle command buttons (tools/gfx.py). `merge-ok` merges passing ids only.
 - Open: battle screens not emulator-checked (status labels + command buttons verified in VRAM only); R-book labels
   RM names fixed via [XXXX] prefix escapes; Fire relocated to cave 2 spare (build.RELOCATE); ホモ joke kept (user ruling).
+  Field-menu tab "Menu" = EXE string at B/R_MAIN 0x3330 (script/exe/000.json BM:003318, 12-unit data prefix kept as [XXXX]).
+  Name entry untested by typing (a save from an older build holds kana names, e.g. ラユャ); N_MAIN Fire/tab unchecked.
   Notes: work/tl/reports.md. Release: xdelta3 vs the .bin (release/ is local, never publish without the user).
