@@ -10,91 +10,91 @@
  {
   "id": "BM:00227C",
   "jp": "コ{end}",
-  "en": "",
+  "en": "pc{end}",
   "max": 4
  },
  {
   "id": "BM:003360",
   "jp": "　回復{end}",
-  "en": "",
+  "en": "Heal{end}",
   "max": 8
  },
  {
   "id": "BM:0035F4",
   "jp": "ゼット　　　　{end}",
-  "en": "",
+  "en": "Zett{end}",
   "max": 16
  },
  {
   "id": "BM:003D34",
   "jp": "４５６７８９ABCDEFGHIJKLMNOPQRSTU゜盾安暗{end}",
-  "en": "",
+  "en": "４５６７８９ABCDEFGHIJKLMNOPQRSTU゜盾安暗{end}",
   "max": 64
  },
  {
   "id": "BM:003F38",
   "jp": "。：？！ー／（＋－×％＃♥★※１２WXacdeghiklqtデフベボマミムャヤュヴ[00FE]引運{end}",
-  "en": "",
+  "en": "。：？！ー／（＋－×％＃♥★※１２WXacdeghiklqtデフベボマミムャヤュヴ[00FE]引運{end}",
   "max": 92
  },
  {
   "id": "BM:003F94",
   "jp": "４５６７９ABDEFGKNOPSVYZbfjmnoprsuみピペホポメモユョヨ゜常盾安暗院{end}",
-  "en": "",
+  "en": "４５６７９ABDEFGKNOPSVYZbfjmnoprsuみピペホポメモユョヨ゜常盾安暗院{end}",
   "max": 92
  },
  {
   "id": "BM:004570",
   "jp": "：　p　ぴ　夢東{end}",
-  "en": "",
+  "en": "：　p　ぴ　夢東{end}",
   "max": 20
  },
  {
   "id": "BM:07B0A4",
   "jp": "■　♥　＃。■　。ヨ。ラ。リ。ル。レ間{end}",
-  "en": "",
+  "en": "■　♥　＃。■　。ヨ。ラ。リ。ル。レ間{end}",
   "max": 40
  },
  {
   "id": "BM:09DE64",
   "jp": "開発中{wait}{end}",
-  "en": "",
+  "en": "開発中{wait}{end}",
   "max": 12
  },
  {
   "id": "BM:0A03FC",
   "jp": "　セーブ中・・・・・{end}",
-  "en": "",
+  "en": "Saving.....{end}",
   "max": 24
  },
  {
   "id": "BM:0A0514",
   "jp": "　メダルを何枚かけますか？{n}　　　　５　　　１０　　　２０{end}",
-  "en": "",
+  "en": "Medals to bet?{n}            5          10             20{end}",
   "max": 60
  },
  {
   "id": "BM:0A05D4",
   "jp": "　負け・・・{wait}{end}",
-  "en": "",
+  "en": "You lose...{wait}{end}",
   "max": 16
  },
  {
   "id": "BM:0A1BD8",
   "jp": "　　　　コール　カクニン・・・{speed:001E}{page}　　　　２４３{speed:001E}　ケルベロス{end}",
-  "en": "",
+  "en": "Confirming call...{speed:001E}{page}No. 243{speed:001E} Cerberus{end}",
   "max": 68
  },
  {
   "id": "BM:0A1C1C",
   "jp": "　　　　コール　カクニン・・・{speed:001E}{page}　　　　２４７{speed:001E}　グリフォン{end}",
-  "en": "",
+  "en": "Confirming call...{speed:001E}{page}No. 247{speed:001E} Gryphon{end}",
   "max": 68
  },
  {
   "id": "BM:0AF0F0",
   "jp": "・・・・・・話し中です{wait}{end}",
-  "en": "",
+  "en": "......Line busy.{wait}{end}",
   "max": 28
  },
  {
@@ -106,13 +106,13 @@
  {
   "id": "BM:0B0C14",
   "jp": "※※ディスク　　※※{end}",
-  "en": "",
+  "en": "** Disc **{end}",
   "max": 24
  },
  {
   "id": "BM:0B0D40",
   "jp": "原宿　　　{end}",
-  "en": "",
+  "en": "Harajuku{end}",
   "max": 12
  },
  {
@@ -122,25 +122,25 @@
  {
   "id": "BM:0B4E98",
   "jp": "暗　　　　　{end}",
-  "en": "",
+  "en": "Dark{end}",
   "max": 16
  },
  {
   "id": "BM:0B6228",
   "jp": "？？？？の部品{end}",
-  "en": "",
+  "en": "????'s part{end}",
   "max": 16
  },
  {
   "id": "BM:0BE834",
   "jp": "{face:00FF}{end}",
-  "en": "",
+  "en": "{face:00FF}{end}",
   "max": 8
  },
  {
   "id": "BM:0C7D10",
   "jp": "黒{end}",
-  "en": "",
+  "en": "黒{end}",
   "max": 4
  },
  {
@@ -246,19 +246,19 @@
  {
   "id": "NM:00206C",
   "jp": "{fb:FFFF}[00FF]　{end}",
-  "en": "",
+  "en": "{fb:FFFF}[00FF]　{end}",
   "max": 12
  },
  {
   "id": "NM:002100",
   "jp": "全てのカギができた{wait}{end}",
-  "en": "",
+  "en": "All the keys are made!{wait}{end}",
   "max": 24
  },
  {
   "id": "NM:002550",
   "jp": "…　）。－・々：２？DーQ…V）f」x＋げ－だ×へ￥を％セ■ノ★モ０意１界２究３{end}",
-  "en": "",
+  "en": "…　）。－・々：２？DーQ…V）f」x＋げ－だ×へ￥を％セ■ノ★モ０意１界２究３{end}",
   "max": 82
  },
  {
@@ -268,7 +268,7 @@
  {
   "id": "NM:003564",
   "jp": "…　）。－・々：２？DーH／L（Q…V）a「f」x＋げ－だ×ば＝へ￥む々を％エ＃ケ♥セ■ノ★モ０意１界２究３{end}",
-  "en": "",
+  "en": "…　）。－・々：２？DーH／L（Q…V）a「f」x＋げ－だ×ば＝へ￥む々を％エ＃ケ♥セ■ノ★モ０意１界２究３{end}",
   "max": 110
  },
  {
@@ -286,7 +286,7 @@
  {
   "id": "NM:004F9C",
   "jp": "：　つ　ぴ　{end}",
-  "en": "",
+  "en": "：　つ　ぴ　{end}",
   "max": 14
  },
  {
@@ -296,7 +296,7 @@
  {
   "id": "NM:04C8B4",
   "jp": "間{end}",
-  "en": "",
+  "en": "間{end}",
   "max": 4
  },
  {
@@ -310,7 +310,7 @@
  {
   "id": "NM:04D5AC",
   "jp": "■　間{end}",
-  "en": "",
+  "en": "■　間{end}",
   "max": 8
  },
  {
@@ -328,7 +328,7 @@
  {
   "id": "NM:04F880",
   "jp": "と　D{end}",
-  "en": "",
+  "en": "と　D{end}",
   "max": 8
  },
  {
@@ -378,7 +378,7 @@
  {
   "id": "NM:052480",
   "jp": "と　と　D{end}",
-  "en": "",
+  "en": "と　と　D{end}",
   "max": 12
  },
  {
@@ -436,7 +436,7 @@
  {
   "id": "NM:054DC0",
   "jp": "と　p{end}",
-  "en": "",
+  "en": "と　p{end}",
   "max": 8
  },
  {
@@ -510,13 +510,13 @@
  {
   "id": "NM:0CB208",
   "jp": "※※交換　：１P※※{end}",
-  "en": "",
+  "en": "** Trade: 1P **{end}",
   "max": 24
  },
  {
   "id": "NM:0CB220",
   "jp": "※※交換　：２P※※{end}",
-  "en": "",
+  "en": "** Trade: 2P **{end}",
   "max": 24
  },
  {

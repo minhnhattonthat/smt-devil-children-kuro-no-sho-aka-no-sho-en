@@ -26,8 +26,10 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
   emu.py timeouts can orphan `pcsx-redux.main` (locks build/dc_en.bin) - check tasklist.
 - Freeze tools/ and font/ while translator agents run (lint/wrap depend on them).
 
-## Status
-- Done: engine (packed English, VWF 16x16, 8x8 map, hooks in B/R/N_MAIN), event repack, EXE in-place insertion,
-  pilot approved by user (opening scenes), extraction (script/event 39 batches, script/exe 24 batches).
-- In progress: event translation waves (e000-...). Next: names.md -> glossary lint, EXE batches, battle overlays
-  (B/R_BATTLE at 0x80170000, ~400 strings), graphics text (menu labels, title/book menu), name entry, credits.
+## Status (2026-10-11)
+- Done: engine (packed pair/triple English, VWF, 8x8 map, name entry, hooks in B/R/N_MAIN), event repack (88%/87%),
+  EXE in-place + speaker-label pool repack, all text translated (events reviewed), graphics: book menu, titles,
+  menu-button sheet, battle command buttons (tools/gfx.py). `merge-ok` merges passing ids only.
+- Open: battle screens not emulator-checked; TXS status labels (つぎのレベル クラス ぞくせい しゅぞく, しょうひHP/MP,
+  こうさん/がんばれ) still JP; R-book record names with data prefix (RM:0B13F2..); "Fire" 4-byte slot (BM:0B074C);
+  title "Continue" disabled-sprite look; user decision pending on R:27E18/R:29888 (ホモ joke). Notes: work/tl/reports.md.

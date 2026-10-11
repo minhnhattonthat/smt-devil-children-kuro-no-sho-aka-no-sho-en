@@ -6,37 +6,37 @@
  {
   "id": "BB:02AE3C",
   "jp": "{face:0002}・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}...{wait}{face:00FF}{end}",
   "max": 20
  },
  {
   "id": "BB:02CB2C",
   "jp": "{face:0002}・・・{n}（ムシされた・・・）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (You were ignored...){wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02CCAC",
   "jp": "{face:0002}・・・{n}（なんか嫌な予感・・・）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (You have a bad feeling...){wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02D178",
   "jp": "{face:0002}・・・！{n}（なんか体の調子が・・・）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}...! (Something feels wrong...){wait}{face:00FF}{end}",
   "max": 48
  },
  {
   "id": "BB:02D6FC",
   "jp": "{face:0002}？？{n}タリナイ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}?? NOT... ENOUGH...{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02D71C",
   "jp": "{face:0002}・・・{n}（あれ？足りなかった・・・）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (Huh? Wasn't enough...){wait}{face:00FF}{end}",
   "max": 48
  },
  {
