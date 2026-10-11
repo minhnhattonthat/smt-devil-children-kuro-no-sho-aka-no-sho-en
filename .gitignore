@@ -1,0 +1,12 @@
+rom/
+build/
+work/
+dist/
+release/
+tools/armips/
+tools/jpsxdec/
+tools/mkpsxiso-2.30-win64/
+tools/pcsx-redux/
+__pycache__/
+*.sstate
+*.mcd
