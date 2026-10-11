@@ -351,7 +351,7 @@
  {
   "id": "R:28B44",
   "jp": "{ee}{face:003B}ここは仲魔の合体をする{n}怪しい研究所ネ{wait}{end}",
-  "en": "{ee}{face:003B}This is a Mysterious Lab where allies get fused, yes!{wait}{end}"
+  "en": "{ee}{face:003B}This is the Mysterious Lab, where allies get fused, yes!{wait}{end}"
  },
  {
   "id": "R:28B74",
