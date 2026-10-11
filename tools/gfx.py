@@ -37,7 +37,7 @@ TITLE_B = [
 TITLE_R = [
     {'kind': 'logo', 'box': (14, 74, 196, 141), 'sub_box': (80, 44, 155, 75), 'text': ('DEVIL', 'CHILDREN'),
      'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'sub': [(86, 53, 'Shin Megami Tensei')],
-     'fix': {'plaque': (90, 82), 'haze_box': (66, 88, 98, 127), 'yellow_x': 80, 'tail_box': (80, 100, 98, 134),
+     'fix': {'plaque': (90, 82), 'haze_box': (66, 88, 98, 127), 'yellow_x': 80, 'tail_box': (80, 100, 98, 134), 'wing_box': (90, 118, 150, 142),
              'left_box': (14, 72, 46, 146), 'girl_x': 30}},
     {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
     {'box': (172, 188, 242, 207), 'text': 'New Game', 'kind': 'pixel'},
@@ -179,6 +179,12 @@ def fix_art(im, orig, f):
         for x in range(x0, x1):
             h, s, v = hsv(op[x, y])
             if (h < 20 / 360 or h > 330 / 360) and s > 0.3 and v > 0.25:
+                px[x, y] = op[x, y]
+    x0, y0, x1, y1 = f['wing_box']  # the monster's wings stay in front of the lettering
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            h, s, v = hsv(op[x, y])
+            if s < 0.3 and v > 0.75:
                 px[x, y] = op[x, y]
     x0, y0, x1, y1 = f['left_box']
     for y in range(y0, y1):
