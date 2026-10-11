@@ -72,7 +72,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 原宿小学校 | Harajuku Elementary School | | |
 | 地下街 | underground mall | | |
 | ゴーストタウン | Ghost Town | | |
-| ゲートタウン / フロストタウン | Gate Town / Frost Town | | |
+| ゲートタウン / フロストタウン / ベッドタウン | Gate Town / Frost Town / Bed Town | | |
 | エリューズニル | Eljudnir | Hel's hall | |
 | 怪しい館 | Mysterious Mansion | the fusion lab (Black Book) | |
 | 怪しい研究所 | Mysterious Lab | the fusion lab (Red Book) | shady lab |

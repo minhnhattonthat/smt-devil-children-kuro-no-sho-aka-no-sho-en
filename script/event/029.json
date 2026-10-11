@@ -115,7 +115,7 @@
  {
   "id": "R:3168C",
   "jp": "{ee}ここはフォレストランドの{n}ベッドタウンさ{wait}{f0}ここから北に行った森には{f0}クロークルワッハが住んでるんだぜ{wait}{end}",
-  "en": "{ee}This is Forest Land's suburb.{wait}{f0}Crom Cruach lives in the forest{f0}north of here.{wait}{end}"
+  "en": "{ee}This is Bed Town, in Forest Land.{wait}{f0}Crom Cruach lives in the forest{f0}north of here.{wait}{end}"
  },
  {
   "id": "R:316F8",
