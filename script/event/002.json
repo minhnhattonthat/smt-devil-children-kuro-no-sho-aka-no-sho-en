@@ -126,7 +126,7 @@
  },
  {
   "id": "B:2A694",
-  "jp": "{ee}私たちデーバ族は、遅ばれた{n}部族なのだ！！{wait}{page}他の部族にはぜったい{n}負けない！！{wait}{end}",
+  "jp": "{ee}私たちデーバ族は、選ばれた{n}部族なのだ！！{wait}{page}他の部族にはぜったい{n}負けない！！{wait}{end}",
   "en": "{ee}We of the Deva tribe are the chosen tribe!!{wait}{page}We'll never lose to the other tribes!!{wait}{end}"
  },
  {
@@ -147,7 +147,7 @@
  {
   "id": "B:2A84C",
   "jp": "{ee}オクノヘヤガ、ウケツケデス！{wait}{end}",
-  "en": "{ee}RECEPTION IS IN THE BACK ROOM!{wait}{end}"
+  "en": "{ee}Reception is in back room!{wait}{end}"
  },
  {
   "id": "B:2A870",
@@ -221,7 +221,7 @@
  {
   "id": "B:2AC0C",
   "jp": "{ee}シュラとデーバはおたがいに{n}力で物事を、解決する{wait}{page}しかし、私たちラセツは{n}ちえと話し合いで{wait}{f0}この、マーブルランドを{f0}治めようとしているんだ{wait}{end}",
-  "en": "{ee}The Asura and the Devas both settle things by force.{wait}{page}But we Rakshasa, with wisdom and talk,{wait}{f0}are trying to rule{f0}this Marble Land.{wait}{end}"
+  "en": "{ee}The Sura and the Deva both settle things by force.{wait}{page}But we Rasetsu, with wisdom and talk,{wait}{f0}are trying to rule{f0}this Marble Land.{wait}{end}"
  },
  {
   "id": "B:2ACA0",
@@ -231,12 +231,12 @@
  {
   "id": "B:2ACC4",
   "jp": "{ee}オレたちシュラは、昔から{n}デーバが大嫌いなんだ！{wait}{end}",
-  "en": "{ee}We Asura have always hated the Devas!{wait}{end}"
+  "en": "{ee}We Sura have always hated the Devas!{wait}{end}"
  },
  {
   "id": "B:2ACFC",
   "jp": "{ee}オレたちシュラが{n}ヴリトラ様といっしょに戦えば{wait}{f0}強力なコンボの技を{wait}{f0}使えるのだ{wait}{end}",
-  "en": "{ee}When we Asura fight alongside Vritra-sama,{wait}{f0}we can use{wait}{f0}powerful combo attacks.{wait}{end}"
+  "en": "{ee}When we Sura fight alongside Vritra-sama,{wait}{f0}we can use{wait}{f0}powerful combo attacks.{wait}{end}"
  },
  {
   "id": "B:2AD54",
@@ -265,7 +265,7 @@
  {
   "id": "B:2AE98",
   "jp": "{ee}オレたちデーバは、昔から{n}シュラが大嫌いなんだ！{wait}{end}",
-  "en": "{ee}We Devas have always hated the Asura!{wait}{end}"
+  "en": "{ee}We Devas have always hated the Sura!{wait}{end}"
  },
  {
   "id": "B:2AED0",
@@ -285,7 +285,7 @@
  {
   "id": "B:2AF84",
   "jp": "{ee}ワタシタチハ、ロボットナノデ{wait}{n}マイニチ、マイニチ、メイレイドオリニ{f0}ハタラキマス・・・{wait}{end}",
-  "en": "{ee}WE ARE ROBOTS, SO{wait}{n}EVERY DAY, EVERY DAY, WE WORK{f0}AS ORDERED...{wait}{end}"
+  "en": "{ee}We are robots, so{wait}{n}every day, every day, we work{f0}as ordered...{wait}{end}"
  },
  {
   "id": "B:2AFE4",

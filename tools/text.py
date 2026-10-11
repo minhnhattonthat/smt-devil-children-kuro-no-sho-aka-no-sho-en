@@ -68,7 +68,7 @@ def decode(data, pos, dec=JP, stop_end=True):
                 break
         elif v in dec:
             out.append(dec[v])
-        elif 0x4000 <= v < 0x8000 and dec is JP:
+        elif 0x4000 <= v < 0xCCE3 and dec is JP:
             out.append(decode_packed(v))
         else:
             out.append('[%04X]' % v)
@@ -92,11 +92,13 @@ def encode(text, enc=JP_ENC):
 
 
 EN_BASE = 0x100   # glyph for ASCII c = 0x100 + c
-PACK = 0x4000     # packed English unit: PACK | c1 << 7 | c2 (c2 = 0: single char); unpacked by asm/main.asm
+PACK = 0x4000     # pair unit: PACK | c1 << 7 | c2 (c2 = 0: single char)
+TRI = 0x8000      # triple unit: TRI + c1*729 + c2*27 + c3, c = 0 space, 1-26 a-z (0x8000-0xCCE2)
+TRI_SET = ' abcdefghijklmnopqrstuvwxyz'  # both decoded by asm/main.asm (pk_head / pk8_head)
 
 
 def encode_en(text):
-    """English -> packed halfwords. Runs of ASCII between {codes}/[XXXX] are packed two chars per unit."""
+    """English -> packed halfwords: lowercase/space triples where possible, else ASCII pairs; {codes} raw."""
     import re
     out = bytearray()
     for m in re.finditer(r'(\{\w+(?::[0-9A-F]{4})*\}|\[[0-9A-F]{4}\])|([^{\[]+|[{\[])', text, re.S):
@@ -106,13 +108,24 @@ def encode_en(text):
         run = m[2]
         bad = [c for c in run if not 0x20 <= ord(c) < 0x7F]
         assert not bad, 'not ASCII: %r' % ''.join(bad)
-        for i in range(0, len(run), 2):
-            c2 = ord(run[i + 1]) if i + 1 < len(run) else 0
-            out += struct.pack('<H', PACK | ord(run[i]) << 7 | c2)
+        i = 0
+        while i < len(run):
+            t = run[i:i + 3]
+            if len(t) == 3 and all(c in TRI_SET for c in t):
+                a, b, c = (TRI_SET.index(x) for x in t)
+                out += struct.pack('<H', TRI + a * 729 + b * 27 + c)
+                i += 3
+            else:
+                c2 = ord(run[i + 1]) if i + 1 < len(run) else 0
+                out += struct.pack('<H', PACK | ord(run[i]) << 7 | c2)
+                i += 2
     return bytes(out)
 
 
 def decode_packed(v):
+    if v >= TRI:
+        v -= TRI
+        return TRI_SET[v // 729] + TRI_SET[v // 27 % 27] + TRI_SET[v % 27]
     return chr((v >> 7) & 0x7F) + (chr(v & 0x7F) if v & 0x7F else '')
 
 

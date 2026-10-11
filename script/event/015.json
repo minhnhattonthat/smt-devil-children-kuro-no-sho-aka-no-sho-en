@@ -186,7 +186,7 @@
  },
  {
   "id": "B:3ECF8",
-  "jp": "{face:000D}{voice:0286}お前は、ラグナロクを遅んだ{wait}{page}{voice:0287}しかし、天使たちも{n}シンネンを持って、行動している{wait}{page}{voice:0288}戦いをさける事はできない！{wait}{end}",
+  "jp": "{face:000D}{voice:0286}お前は、ラグナロクを選んだ{wait}{page}{voice:0287}しかし、天使たちも{n}シンネンを持って、行動している{wait}{page}{voice:0288}戦いをさける事はできない！{wait}{end}",
   "en": "{face:000D}{voice:0286}You chose Ragnarok.{wait}{page}{voice:0287}But the angels, too, act out of conviction.{wait}{page}{voice:0288}This battle cannot be avoided!{wait}{end}"
  },
  {

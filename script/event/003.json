@@ -27,7 +27,7 @@
  {
   "id": "B:2B9A0",
   "jp": "{name}は{n}もらった薬を{partner}に{wait}{f0}使った！{wait}{end}",
-  "en": "{name} held out the medicine he'd been given to {partner}{wait}{f0}and used it!{wait}{end}"
+  "en": "{name} gave {partner} the medicine{wait}{f0}he had received!{wait}{end}"
  },
  {
   "id": "B:2B9C8",
@@ -102,7 +102,7 @@
  {
   "id": "B:2BD60",
   "jp": "ブゾクノ、オウガ{n}キテイナイノデ{wait}{f0}シバラクオマチクダサイ{wait}{end}",
-  "en": "The clan kings have not arrived yet.{wait}{f0}Please wait a while.{wait}{end}"
+  "en": "The tribe kings have not arrived yet.{wait}{f0}Please wait a while.{wait}{end}"
  },
  {
   "id": "B:2BDA0",

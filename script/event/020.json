@@ -2,22 +2,22 @@
  {
   "id": "B:44DDC",
   "jp": "{face:0056}デビル・ユニコーンのツノは{n}いったい何本ある？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}How many horns does the Devil Unicorn have?{wait}{end}"
  },
  {
   "id": "B:44E2C",
   "jp": "{face:0056}方角を守るセイジュウで{n}南を守っているのは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of the Holy Beasts who guard the four directions, who guards the south?{wait}{end}"
  },
  {
   "id": "B:44E64",
   "jp": "　ビャッコ{n}　セイリュウ{n}　スザク{end}",
-  "en": ""
+  "en": "Byakko{n}Seiryu{n}Suzaku{end}"
  },
  {
   "id": "B:44E88",
   "jp": "{face:0056}方角を守るセイジュウで{n}東を守っているのは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of the Holy Beasts who guard the four directions, who guards the east?{wait}{end}"
  },
  {
   "id": "B:44EC0",
@@ -26,17 +26,17 @@
  {
   "id": "B:44EE4",
   "jp": "{face:0056}方角を守るセイジュウで{n}北を守っているのは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of the Holy Beasts who guard the four directions, who guards the north?{wait}{end}"
  },
  {
   "id": "B:44F1C",
   "jp": "　ゲンブ{n}　スザク{n}　ビャッコ{end}",
-  "en": ""
+  "en": "Genbu{n}Suzaku{n}Byakko{end}"
  },
  {
   "id": "B:44F3C",
   "jp": "{face:0056}方角を守るセイジュウで{n}西を守っているのは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of the Holy Beasts who guard the four directions, who guards the west?{wait}{end}"
  },
  {
   "id": "B:44F74",
@@ -45,366 +45,366 @@
  {
   "id": "B:44F94",
   "jp": "{face:0056}デビル・ソンゴクウの大好きな{n}果物はいったい何？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What is the Devil Sun Wukong's favorite fruit?{wait}{end}"
  },
  {
   "id": "B:44FCC",
   "jp": "　モモ{n}　バナナ{n}　オレンジ{end}",
-  "en": ""
+  "en": "Peach{n}Banana{n}Orange{end}"
  },
  {
   "id": "B:44FEC",
   "jp": "{face:0056}人間に変身するのが{n}下手なデビルは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Which Devil is bad at turning into a human?{wait}{end}"
  },
  {
   "id": "B:4501C",
   "jp": "　ギンギツネ{n}　キュウビのキツネ{n}　ダッキ{end}",
-  "en": ""
+  "en": "Gingitsune{n}Kyubi no Kitsune{n}Daji{end}"
  },
  {
   "id": "B:45048",
   "jp": "{face:0056}デビル・ミルメコレオはどうして{n}いつもおなかをすかせているの？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Why is the Devil Myrmecoleon always hungry?{wait}{end}"
  },
  {
   "id": "B:45090",
   "jp": "　エサをとるのが下手だから{n}　好き嫌いが多いから{n}　食いしんぼうだから{end}",
-  "en": ""
+  "en": "It's bad at catching food{n}It's a picky eater{n}It's a big glutton{end}"
  },
  {
   "id": "B:450D8",
   "jp": "{face:0056}デビル・ネコマタのシッポは{n}いったい何本ある？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}How many tails does the Devil Nekomata have?{wait}{end}"
  },
  {
   "id": "B:45128",
   "jp": "{face:0056}デビル・アゾットはふれたものを{n}何に変えてしまう？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What does the Devil Azoth turn the things it touches into?{wait}{end}"
  },
  {
   "id": "B:45164",
   "jp": "　カエル{n}　さびた剣{n}　金{end}",
-  "en": ""
+  "en": "Frogs{n}Rusty swords{n}Gold{end}"
  },
  {
   "id": "B:45180",
   "jp": "{face:0056}次のデビルの中で{n}うでの数が合っているのはどれ？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of these Devils, which one has the right number of arms?{wait}{end}"
  },
  {
   "id": "B:451B8",
   "jp": "　アルケニー　８本うで{n}　インドラ　　６本うで{n}　メルカバ　　４本うで{end}",
-  "en": ""
+  "en": "Arachne: 8 arms{n}Indra: 6 arms{n}Merkabah: 4 arms{end}"
  },
  {
   "id": "B:45200",
   "jp": "{face:0056}人間を石に変える力を{n}持っていないデビルは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Which Devil doesn't have the power to turn humans to stone?{wait}{end}"
  },
  {
   "id": "B:45238",
   "jp": "　コカトリス{n}　サリエル{n}　ナーガ{end}",
-  "en": ""
+  "en": "Cockatrice{n}Sariel{n}Naga{end}"
  },
  {
   "id": "B:4525C",
   "jp": "{face:0056}黒い雲を乗り物にしている{n}デビルはいったい誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Which Devil rides around on a black cloud?{wait}{end}"
  },
  {
   "id": "B:45294",
   "jp": "　ソンゴクウ{n}　ヌエ{n}　セイギュウカイ{end}",
-  "en": ""
+  "en": "Sun Wukong{n}Nue{n}Qing Niuguai{end}"
  },
  {
   "id": "B:452BC",
   "jp": "{face:0056}神様が住むお城をつくったのは{n}いったい誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Who built the castle where the gods live?{wait}{end}"
  },
  {
   "id": "B:452F0",
   "jp": "　タイタン{n}　ヘカトンケイル{n}　ドミニオン{end}",
-  "en": ""
+  "en": "Titan{n}Hecatoncheires{n}Dominion{end}"
  },
  {
   "id": "B:4531C",
   "jp": "{face:0056}魔界１の洋服屋さんは{n}いったい誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Who is the number one tailor in all of Makai?{wait}{end}"
  },
  {
   "id": "B:45348",
   "jp": "　アルケニー{n}　ニケー{n}　サキュバス{end}",
-  "en": ""
+  "en": "Arachne{n}Nike{n}Succubus{end}"
  },
  {
   "id": "B:45370",
   "jp": "{face:0056}デビル・テングは他にどんな{n}名前で呼ばれる？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What other name is the Devil Tengu known by?{wait}{end}"
  },
  {
   "id": "B:453A4",
   "jp": "　ハヤブサテング{n}　カラステング{n}　ピノキオテング{end}",
-  "en": ""
+  "en": "Falcon Tengu{n}Crow Tengu{n}Pinocchio Tengu{end}"
  },
  {
   "id": "B:453D8",
   "jp": "{face:0056}デビル・コントンはいつも何を{n}くわえている？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What does the Devil Hundun always have in its mouth?{wait}{end}"
  },
  {
   "id": "B:4540C",
   "jp": "　自分のシッポ{n}　美味しいホネ{n}　お金{end}",
-  "en": ""
+  "en": "Its own tail{n}A tasty bone{n}Money{end}"
  },
  {
   "id": "B:45434",
   "jp": "{face:0056}デビル・セイレーンは歌を歌って{n}何をしようとしている？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What is the Devil Siren trying to do when she sings?{wait}{end}"
  },
  {
   "id": "B:45474",
   "jp": "　ねむらせる{n}　船をしずめる{n}　仲魔を呼ぶ{end}",
-  "en": ""
+  "en": "Put people to sleep{n}Sink ships{n}Call her allies{end}"
  },
  {
   "id": "B:454A0",
   "jp": "アガシオンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Agathion became your ally!{wait}{end}"
  },
  {
   "id": "B:454BC",
   "jp": "フェアリーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Fairy became your ally!{wait}{end}"
  },
  {
   "id": "B:454D8",
   "jp": "ミルメコレオが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Myrmecoleon became your ally!{wait}{end}"
  },
  {
   "id": "B:454F8",
   "jp": "タクヒが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Tuofei became your ally!{wait}{end}"
  },
  {
   "id": "B:45510",
   "jp": "カイチが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Xiezhai became your ally!{wait}{end}"
  },
  {
   "id": "B:45528",
   "jp": "{face:0056}すばらしい！キミは{n}デビダスマスターになれるな{wait}{page}だが、私のクイズもここまでだ{n}また、いつか始める時まで{wait}{f0}楽しみに待っていてくれ{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Splendid! You could become a Devidas Master!{wait}{page}But this is as far as my quizzes go. Until the day I start them up again,{wait}{f0}look forward to it!{wait}{end}"
  },
  {
   "id": "B:455B4",
   "jp": "{face:0056}クイズはもうおしまいだ{wait}{end}",
-  "en": ""
+  "en": "{face:0056}The quiz is all over now.{wait}{end}"
  },
  {
   "id": "B:455D4",
   "jp": "{face:0028}{name}{n}ゼブルを呼び出すつもりか？{wait}{page}オレとフェゴールを連れて来ても{n}まだ１つ、解かねばならぬ{wait}{f0}なぞがあるぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}{name}, do you mean to summon Zebul?{wait}{page}Even if you bring Phegor and me along, there's still one more{wait}{f0}riddle you must solve.{wait}{end}"
  },
  {
   "id": "B:45648",
   "jp": "{face:0029}そうだ！この場所でとなえる{n}正しい呪文を知らなくては{wait}{f0}ゼブルを呼び出す事はできないぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0029}That's right! Unless you know the correct spell to chant in this place,{wait}{f0}you cannot summon Zebul!{wait}{end}"
  },
  {
   "id": "B:456A8",
   "jp": "{face:0029}その言葉ではないようだな{wait}{end}",
-  "en": ""
+  "en": "{face:0029}Those don't seem to be the right words.{wait}{end}"
  },
  {
   "id": "B:456C8",
   "jp": "{face:0028}{name}{n}ゼブルを呼び出すつもりか？{wait}{page}しかし、仲魔がいっぱいで{n}呼び出せたとしてもむだになるぞ{wait}{page}仲魔にできるようにしてから{n}戻って来た方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}{name}, do you mean to summon Zebul?{wait}{page}But your allies are full. Even if you summoned him, it would be for nothing.{wait}{page}You had better come back once you have room for another ally.{wait}{end}"
  },
  {
   "id": "B:45760",
   "jp": "{face:0007}{voice:0666}呪文のなぞを解いたんだな{wait}{page}{voice:0667}こうなったら、ぼくも{n}キミの仲魔になるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0666}So you solved the riddle of the spell.{wait}{page}{voice:0667}In that case, I'll become your ally too.{wait}{end}"
  },
  {
   "id": "B:457B4",
   "jp": "イニシエの言葉がきざまれている{wait}{page}ノートに記録しますか？{wait}{end}",
-  "en": ""
+  "en": "Ancient words are carved here.{wait}{page}Write them down in your notebook?{wait}{end}"
  },
  {
   "id": "B:457F0",
   "jp": "　記録する{n}　今はまだいい{end}",
-  "en": ""
+  "en": "Write them down{n}Not right now{end}"
  },
  {
   "id": "B:4580C",
   "jp": "ノートに記録するのをやめた{wait}{end}",
-  "en": ""
+  "en": "You decided not to write them down.{wait}{end}"
  },
  {
   "id": "B:4582C",
   "jp": "{name}は{n}イニシエの言葉を{wait}{f0}ノートに記録した{wait}{end}",
-  "en": ""
+  "en": "{name} copied the ancient words{wait}{f0}into the notebook.{wait}{end}"
  },
  {
   "id": "B:4585C",
   "jp": "女神のぞうの足元に{n}文字が、きざまれている{wait}{end}",
-  "en": ""
+  "en": "Letters are carved at the feet of the goddess statue.{wait}{end}"
  },
  {
   "id": "B:4588C",
   "jp": "ここはオルゴールルーム{n}美しい調べが流れる所{wait}{end}",
-  "en": ""
+  "en": "This is the Orgel Room, where beautiful melodies flow.{wait}{end}"
  },
  {
   "id": "B:458BC",
   "jp": "{face:0007}{name}{n}仲魔がいっぱいだよ{wait}{page}ミカエルを呼び出すつもりなら{n}仲魔に空きがある方がいいよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{name}, your allies are full.{wait}{page}If you're going to summon Michael, you'd better have room for another ally.{wait}{end}"
  },
  {
   "id": "B:45918",
   "jp": "{face:0007}{voice:0668}ミカエルを呼び出すんだね{wait}{page}{voice:0669}それじゃあボクも{n}用意をしなくちゃね{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0668}So you're summoning Michael, huh?{wait}{page}{voice:0669}Then I'd better get ready too.{wait}{end}"
  },
  {
   "id": "B:45968",
   "jp": "{face:000D}{voice:066A}私も大天使ミカエルを{n}むかえる用意をしなくてはな{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:066A}I too must prepare to receive the Archangel Michael.{wait}{end}"
  },
  {
   "id": "B:459A4",
   "jp": "{face:000D}{voice:066B}大天使ミカエルをむかえる{n}じゅんびはできたようだな{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:066B}It seems you are ready to receive the Archangel Michael.{wait}{end}"
  },
  {
   "id": "B:459E4",
   "jp": "{name}は、エンゼルホーンを{n}取り出し、ふき鳴らした{wait}{end}",
-  "en": ""
+  "en": "{name} took out the Angel Horn and blew it.{wait}{end}"
  },
  {
   "id": "B:45A18",
   "jp": "{face:0024}{voice:066C}ルシファーとゼブル、そして{n}デビルチルドレン{wait}{page}{voice:066D}おたがいに、新しい時代を{n}生きて行く事になりましたね{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:066C}Lucifer and Zebul, and the Devil Children...{wait}{page}{voice:066D}It seems each of us will be living on into a new age.{wait}{end}"
  },
  {
   "id": "B:45A8C",
   "jp": "{face:000D}{voice:066E}お前が、われら３人と{n}ともにあれば{wait}{page}{voice:066F}どこかで{n}ホシガミを呼び出す事ができるのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:066E}As long as you are with the three of us,{wait}{page}{voice:066F}you can summon Hoshigami in a certain place.{wait}{end}"
  },
  {
   "id": "B:45AEC",
   "jp": "{face:002A}{voice:0670}ラジエルの書にはその事が{n}書き記されているはずだ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:0670}That should be written in the Book of Raziel.{wait}{end}"
  },
  {
   "id": "B:45B28",
   "jp": "{face:0024}{voice:0671}そして、ケイヤクの言葉は{wait}{page}{voice:0672}ダークパレスにある、じゅうじかの{n}だいざに、きざまれているはずです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0671}And the words of the contract{wait}{page}{voice:0672}should be carved into the cross-shaped pedestal in the Dark Palace.{wait}{end}"
  },
  {
   "id": "B:45B98",
   "jp": "{face:0024}{voice:0673}私も仲魔になります{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0673}I will become your ally as well.{wait}{end}"
  },
  {
   "id": "B:45BB8",
   "jp": "ミカエルが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Michael became your ally!{wait}{end}"
  },
  {
   "id": "B:45BD4",
   "jp": "{face:0024}{voice:0674}ここが、ラジエルの書に書かれた{n}ホシガミを呼ぶ場所なのです{wait}{page}{voice:0675}ここで、ケイヤクの言葉を{n}となえれば{wait}{page}{voice:0676}ホシガミがコウリンして来るのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0674}This is the place written of in the Book of Raziel, where Hoshigami is summoned.{wait}{page}{voice:0675}If you recite the words of the contract here,{wait}{page}{voice:0676}Hoshigami will descend.{wait}{end}"
  },
  {
   "id": "B:45C70",
   "jp": "{face:0027}{voice:0677}おひさしぶりです{wait}{page}{voice:0678}この３人とともに{n}私を呼び出したという事は{wait}{page}{voice:0679}この世界のデビルたちを、ほとんど{n}したがえているという事ですね{wait}{page}{voice:067A}私も仲魔になりましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0677}It has been a long time.{wait}{page}{voice:0678}That you have summoned me together with these three{wait}{page}{voice:0679}means you have brought nearly all the Devils of this world under your command.{wait}{page}{voice:067A}I shall become your ally as well.{wait}{end}"
  },
  {
   "id": "B:45D24",
   "jp": "ホシガミが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Hoshigami became your ally!{wait}{end}"
  },
  {
   "id": "B:45D40",
   "jp": "{face:0024}ケイヤクの言葉がちがうようです{wait}{page}出直して来ましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0024}The words of the contract seem to be wrong.{wait}{page}Let us come back another time.{wait}{end}"
  },
  {
   "id": "B:45D7C",
   "jp": "{face:002A}{name}{n}仲魔がいっぱいだぞ{wait}{page}ホシガミを呼び出すつもりなら{n}仲魔に空きがある方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{name}, your allies are full!{wait}{page}If you mean to summon Hoshigami, you had better have room for another ally!{wait}{end}"
  },
  {
   "id": "B:45DD8",
   "jp": "電話が、かかってきた{wait}{end}",
-  "en": ""
+  "en": "You got a phone call.{wait}{end}"
  },
  {
   "id": "B:45DF0",
   "jp": "{face:0004}{voice:05C6}もしもし？{n}グリフォンが変身したの！{wait}{page}{voice:05C7}今、デビホンとヴィネコンを使って{wait}{page}{voice:016D}デスグリフォンの{n}デビダスデータを送るね！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:05C6}Hello? Gryphon transformed!{wait}{page}{voice:05C7}I'm using my DeviPhone and Vinecom right now{wait}{page}{voice:016D}to send you Death Gryphon's Devidas data!{wait}{end}"
  },
  {
   "id": "B:45E7C",
   "jp": "デビダスにデスグリフォンが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "Death Gryphon was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "B:45EA8",
   "jp": "{face:0004}{voice:05C6}もしもし？{n}グリフォンが変身したの！{wait}{page}{voice:05C7}今、デビホンとヴィネコンを使って{wait}{page}{voice:0195}ヘルグリフォンの{n}デビダスデータを送るね！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:05C6}Hello? Gryphon transformed!{wait}{page}{voice:05C7}I'm using my DeviPhone and Vinecom right now{wait}{page}{voice:0195}to send you Hell Gryphon's Devidas data!{wait}{end}"
  },
  {
   "id": "B:45F34",
   "jp": "デビダスにヘルグリフォンが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "Hell Gryphon was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "B:45F60",
   "jp": "{face:0004}{voice:05C6}もしもし？{n}グリフォンが変身したの！{wait}{page}{voice:05C7}今、デビホンとヴィネコンを使って{wait}{page}{voice:01DF}キンググリフォンの{n}デビダスデータを送るね！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:05C6}Hello? Gryphon transformed!{wait}{page}{voice:05C7}I'm using my DeviPhone and Vinecom right now{wait}{page}{voice:01DF}to send you King Gryphon's Devidas data!{wait}{end}"
  },
  {
   "id": "B:45FEC",
   "jp": "デビダスにキンググリフォンが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "King Gryphon was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "B:4601C",
   "jp": "{face:0019}{voice:05F4}もしもし？{n}あたし、イシスよ、おどろいたでしょ？{wait}{page}{voice:05F5}あなたにちょっとした{n}おくり物があるの{wait}{page}{voice:05F6}いつでもいいから、私の所まで{n}来てちょうだいよ、よろしくね{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05F4}Hello? It's me, Isis. Surprised, aren't you?{wait}{page}{voice:05F5}I've got a little present for you.{wait}{page}{voice:05F6}Come see me whenever you like. I'll be waiting!{wait}{end}"
  },
  {
   "id": "B:460C8",
   "jp": "{ee}{face:0019}{voice:05F7}ひさしぶりね{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}{voice:05F7}Long time no see.{wait}{end}"
  },
  {
   "id": "B:460E4",
   "jp": "{face:0019}{voice:05F8}あたしの電話、おどろいたでしょ？{wait}{page}{voice:05F9}おくり物というのは{n}ここにいるスフィンクスよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05F8}My phone call surprised you, didn't it?{wait}{page}{voice:05F9}The present is this Sphinx right here.{wait}{end}"
  },
  {
   "id": "B:46144",
   "jp": "{face:0019}あら、仲魔がいっぱいじゃないの{wait}{page}仲魔に入れられるようにしてから{n}戻ってらっしゃい{wait}{end}",
-  "en": ""
+  "en": "{face:0019}Oh my, your allies are full!{wait}{page}Come back once you've made room for another ally.{wait}{end}"
  },
  {
   "id": "B:461A0",
   "jp": "{face:0019}{voice:05FA}スフィンクスって、ふつうでは{n}仲魔にできないデビルなのよ{wait}{page}{voice:05FB}大事に育ててあげてね{n}でないと、きっとこうかいするわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05FA}A Sphinx is a Devil you normally can't make an ally.{wait}{page}{voice:05FB}Raise it with lots of care. If you don't, you'll surely regret it.{wait}{end}"
  },
  {
   "id": "B:46224",
   "jp": "{ee}{face:0019}仲魔に入れられるように{n}して来たのね？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}So you've made room for another ally?{wait}{end}"
  },
  {
   "id": "B:46254",
   "jp": "スフィンクスが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Sphinx became your ally!{wait}{end}"
  }
 ]

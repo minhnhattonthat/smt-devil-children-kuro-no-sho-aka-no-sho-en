@@ -390,12 +390,12 @@
  },
  {
   "id": "B:35840",
-  "jp": "　ラグナロクを遅ぶ{n}　ハルマゲドンを遅ぶ{end}",
+  "jp": "　ラグナロクを選ぶ{n}　ハルマゲドンを選ぶ{end}",
   "en": "Choose Ragnarok{n}Choose Armageddon{end}"
  },
  {
   "id": "B:3586C",
-  "jp": "{face:0008}{voice:028A}兄さんはラグナロクを{n}遅んだんだ！{wait}{page}{voice:028B}それは、世界をつくった{n}ホシガミを目ざめさせ{wait}{page}{voice:028C}この世界を、次の段階に{n}進めようという事なんだね{wait}{page}{voice:028D}このとびらの向こうに{n}ホシガミはねむっているんだ{wait}{page}{voice:028E}兄さん{n}ぼくたちの戦いは、終わったよ！{wait}{page}{voice:028F}ラグナロクを起動して{n}ホシガミを起こすといいよ{wait}{end}",
+  "jp": "{face:0008}{voice:028A}兄さんはラグナロクを{n}選んだんだ！{wait}{page}{voice:028B}それは、世界をつくった{n}ホシガミを目ざめさせ{wait}{page}{voice:028C}この世界を、次の段階に{n}進めようという事なんだね{wait}{page}{voice:028D}このとびらの向こうに{n}ホシガミはねむっているんだ{wait}{page}{voice:028E}兄さん{n}ぼくたちの戦いは、終わったよ！{wait}{page}{voice:028F}ラグナロクを起動して{n}ホシガミを起こすといいよ{wait}{end}",
   "en": "{face:0008}{voice:028A}So you chose Ragnarok, big brother!{wait}{page}{voice:028B}That means awakening Hoshigami, who created the world,{wait}{page}{voice:028C}and moving this world on to its next stage.{wait}{page}{voice:028D}Hoshigami sleeps beyond this door.{wait}{page}{voice:028E}Big brother, our fight is over!{wait}{page}{voice:028F}Activate Ragnarok and wake Hoshigami.{wait}{end}"
  },
  {

@@ -2,92 +2,92 @@
  {
   "id": "B:40F1C",
   "jp": "{face:00FF}{partner}が、ランクアップした！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{partner} ranked up!{wait}{end}"
  },
  {
   "id": "B:40F3C",
   "jp": "{ee}おれは、このマーブルランドが{n}嫌になった！{wait}{page}できれば別の魔界に行って{n}力を試したいのだ・・・{wait}{page}ああ、誰かオレを別の魔界に{n}連れて行ってくれるやつは{wait}{f0}いないんだろうか？{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm sick of this Marble Land!{wait}{page}If I could, I'd go to another land of Makai and test my strength...{wait}{page}Ah, someone who'd take me to another land of Makai...{wait}{f0}isn't there anyone?{wait}{end}"
  },
  {
   "id": "B:40FF0",
   "jp": "{ee}ほう、お前がブトウ会で{n}優勝した{name}か{wait}{end}",
-  "en": ""
+  "en": "{ee}Oho, so you're {name}, the one who won the Battle Ball.{wait}{end}"
  },
  {
   "id": "B:4101C",
   "jp": "どうだ！？サンドランドに行くなら{n}おれを連れて行ってくれないか？{wait}{end}",
-  "en": ""
+  "en": "How about it!? If you're going to Sand Land, won't you take me with you?{wait}{end}"
  },
  {
   "id": "B:41060",
   "jp": "　連れて行ってもいいよ{n}　やっぱりヤダ{end}",
-  "en": ""
+  "en": "Sure, you can come{n}No, forget it{end}"
  },
  {
   "id": "B:41088",
   "jp": "おおっ、そうか{wait}{page}ではおれいに{n}このシュラの剣をさしあげよう{wait}{page}この間、そこの山道で{n}拾った物だがな{wait}{end}",
-  "en": ""
+  "en": "Oho, really!{wait}{page}Then as thanks, I'll give you this Sura Sword.{wait}{page}I picked it up on the mountain path over there the other day.{wait}{end}"
  },
  {
   "id": "B:410F0",
   "jp": "シュラの剣を手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Sura Sword!{wait}{end}"
  },
  {
   "id": "B:4110C",
   "jp": "デーバオーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "King Deva became your ally!{wait}{end}"
  },
  {
   "id": "B:41128",
   "jp": "そうか{n}ザンネンだが仕方がないな{wait}{end}",
-  "en": ""
+  "en": "I see. A shame, but it can't be helped.{wait}{end}"
  },
  {
   "id": "B:4114C",
   "jp": "仲魔がいっぱいではないか！{wait}{page}ライザーかヴィネセンターに{n}場所を作って来てくれ{wait}{end}",
-  "en": ""
+  "en": "Your allies are full!{wait}{page}Go make some room in your Deviliser or the Vine Center.{wait}{end}"
  },
  {
   "id": "B:411A0",
   "jp": "{ee}あーっ、どこを探しても{n}見つからない！{wait}{page}わしの大事なシュラの剣は{n}どこに行ってしまったんだ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Argh, I've looked everywhere and I can't find it!{wait}{page}Where has my precious Sura Sword gone?{wait}{end}"
  },
  {
   "id": "B:41204",
   "jp": "{ee}おーっ、それはわしの{n}シュラの剣ではないか！{wait}{end}",
-  "en": ""
+  "en": "{ee}Ohh, isn't that my Sura Sword!?{wait}{end}"
  },
  {
   "id": "B:41238",
   "jp": "どうだろう、その剣を{n}わしに返してくれる気はないか？{wait}{end}",
-  "en": ""
+  "en": "What do you say... would you be willing to give that sword back to me?{wait}{end}"
  },
  {
   "id": "B:41270",
   "jp": "　返してあげる{n}　やっぱりヤダ{end}",
-  "en": ""
+  "en": "Give it back{n}No, forget it{end}"
  },
  {
   "id": "B:41290",
   "jp": "ありがたい！{n}それではお前の仲魔になるぞ！{wait}{end}",
-  "en": ""
+  "en": "I'm grateful! Then I'll become your ally!{wait}{end}"
  },
  {
   "id": "B:412C0",
   "jp": "シュラの剣をわたした{wait}{end}",
-  "en": ""
+  "en": "Handed over the Sura Sword.{wait}{end}"
  },
  {
   "id": "B:412D8",
   "jp": "シュラオーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "King Sura became your ally!{wait}{end}"
  },
  {
   "id": "B:412F4",
   "jp": "それはもともとオレの物なのだ{n}考え直してはくれんか？{wait}{end}",
-  "en": ""
+  "en": "That sword was mine to begin with. Won't you reconsider?{wait}{end}"
  },
  {
   "id": "B:4132C",
@@ -96,37 +96,37 @@
  {
   "id": "B:41380",
   "jp": "{ee}このあたりで{n}シュラの剣を見なかったか？{wait}{page}ともだちのシュラオーが{n}センシの証とされる{wait}{f0}シュラの剣を無くして{wait}{f0}こまっているんだ{wait}{page}見つけたらとどけてやってくれ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you seen a Sura Sword around here?{wait}{page}My friend King Sura has lost{wait}{f0}the Sura Sword, the mark of a true warrior,{wait}{f0}and he's at his wits' end.{wait}{page}If you find it, please take it to him.{wait}{end}"
  },
  {
   "id": "B:41428",
   "jp": "{ee}そうか！シュラの剣を{n}返してやったんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}So! You gave the Sura Sword back to him!{wait}{end}"
  },
  {
   "id": "B:41454",
   "jp": "シュラオーが仲魔になったのなら{n}オレも仲魔になってやるぞ{wait}{end}",
-  "en": ""
+  "en": "If King Sura has become your ally, then I'll become your ally too!{wait}{end}"
  },
  {
   "id": "B:41490",
   "jp": "　じゃあ、仲魔にしてあげる{n}　仲魔はもういい{end}",
-  "en": ""
+  "en": "Okay, join me{n}I have enough allies{end}"
  },
  {
   "id": "B:414C0",
   "jp": "よろしくたのむぞ{wait}{end}",
-  "en": ""
+  "en": "I'm in your hands, then.{wait}{end}"
  },
  {
   "id": "B:414D4",
   "jp": "ラセツオーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "King Rasetsu became your ally!{wait}{end}"
  },
  {
   "id": "B:414F0",
   "jp": "それなら好きにするがいい{wait}{end}",
-  "en": ""
+  "en": "Then do as you like.{wait}{end}"
  },
  {
   "id": "B:4150C",
@@ -135,97 +135,97 @@
  {
   "id": "B:41560",
   "jp": "{ee}わしの息子は気の弱いやつでな{n}戦争に行くのが恐くて{wait}{f0}この村から出て行ったんじゃよ{wait}{page}今ごろどこで、何を{n}している事やら・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}My son was always a timid one. He was scared of going to war,{wait}{f0}so he left this village.{wait}{page}I wonder where he is now, and what he's doing...{wait}{end}"
  },
  {
   "id": "B:415E4",
   "jp": "{ee}息子が帰って来たんじゃよ{wait}{end}",
-  "en": ""
+  "en": "{ee}My son has come home!{wait}{end}"
  },
  {
   "id": "B:41604",
   "jp": "{ee}あっ、{name}さん{wait}{page}あなたが教えてくれたおかげで{n}家に帰る事ができましたよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Oh, {name}-san!{wait}{page}Thanks to what you told me, I was able to come home!{wait}{end}"
  },
  {
   "id": "B:41650",
   "jp": "お礼にこのワライブクロを{n}さしあげます{wait}{page}このワライブクロが大好きな{n}デビルがどこかにいるそうですよ{wait}{end}",
-  "en": ""
+  "en": "As thanks, I'll give you this Laughing Bag.{wait}{page}They say there's a Devil somewhere who just loves Laughing Bags.{wait}{end}"
  },
  {
   "id": "B:416B8",
   "jp": "ワライブクロを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Laughing Bag!{wait}{end}"
  },
  {
   "id": "B:416D4",
   "jp": "{ee}ワライブクロが好きなデビルが{n}どこかにいるそうですよ{wait}{end}",
-  "en": ""
+  "en": "{ee}They say there's a Devil somewhere who loves Laughing Bags.{wait}{end}"
  },
  {
   "id": "B:41710",
   "jp": "{ee}{face:004B}ニタッ、ニタッ{n}ニターラ、ニターラ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004B}Nita! Nita! Nitaaa, nitaaa...{wait}{end}"
  },
  {
   "id": "B:4173C",
   "jp": "{ee}{face:004B}ニタ、ニタ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004B}Nita, nita.{wait}{end}"
  },
  {
   "id": "B:41750",
   "jp": "{face:004B}あっ、それワライブクロ！{wait}{n}それ、欲しい！それくれよ！{wait}{end}",
-  "en": ""
+  "en": "{face:004B}Ah, that's a Laughing Bag!{wait}{n}I want it! Gimme that!{wait}{end}"
  },
  {
   "id": "B:41790",
   "jp": "　あげる{n}　あげない{end}",
-  "en": ""
+  "en": "Here you go{n}No way{end}"
  },
  {
   "id": "B:417A8",
   "jp": "{face:004B}えっ、ほんとに！うれしいな！{wait}{n}ニタニタニタニタニタニタニタニタ{wait}{page}ぼく、キミについて行くよ{wait}{end}",
-  "en": ""
+  "en": "{face:004B}Huh, really!? Yay, I'm so happy!{wait}{n}Nita nita nita nita nita nita nita nita!{wait}{page}I'll come along with you!{wait}{end}"
  },
  {
   "id": "B:4180C",
   "jp": "ニタニタが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Nitanita became your ally!{wait}{end}"
  },
  {
   "id": "B:41828",
   "jp": "{face:004B}ニタ、ニタ、ニタ、ニタ{wait}{page}・・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:004B}Nita, nita, nita, nita.{wait}{page}..........{wait}{end}"
  },
  {
   "id": "B:41860",
   "jp": "{face:004B}ニタ、ニタ、ニタ、ニタ{wait}{page}仲魔がいっぱいだよ{wait}{page}ライザーかヴィネセンターに{n}場所を作って来てよ{wait}{end}",
-  "en": ""
+  "en": "{face:004B}Nita, nita, nita, nita.{wait}{page}Your allies are full.{wait}{page}Go make some room in your Deviliser or the Vine Center.{wait}{end}"
  },
  {
   "id": "B:418C8",
   "jp": "{ee}ぼくは戦争が恐くて{n}マーブルランドから逃げて来たんだ{wait}{page}オヤジ心配してるだろーな{wait}{end}",
-  "en": ""
+  "en": "{ee}I was scared of the war, so I ran away from Marble Land.{wait}{page}My old man's probably worried about me...{wait}{end}"
  },
  {
   "id": "B:41920",
   "jp": "えっ、マーブルランドの{n}戦争は終わったって！{wait}{page}じゃあ帰っても{n}戦わなくってもいいんだ！{wait}{page}これでオヤジの所へ{n}帰れるや、どーもアリガトー{wait}{page}マーブルランドに来る事があったら{n}ラセツの村にある{wait}{f0}ぼくの家に来てくれよ{wait}{end}",
-  "en": ""
+  "en": "Huh, the war in Marble Land is over!?{wait}{page}Then even if I go back, I won't have to fight!{wait}{page}Now I can go home to my old man. Thanks a bunch!{wait}{page}If you're ever in Marble Land, stop by{wait}{f0}my house in the Rasetsu village!{wait}{end}"
  },
  {
   "id": "B:419FC",
   "jp": "{ee}{face:0007}{voice:05CC}やあ{wait}{page}{voice:05E2}そろそろ、きみがここへ来るころだと{n}思って待っていたよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}{voice:05CC}Hi.{wait}{page}{voice:05E2}I figured you'd be getting here about now, so I was waiting for you.{wait}{end}"
  },
  {
   "id": "B:41A4C",
   "jp": "{face:0000}{voice:0105}今度はいったい、何の用だ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0105}What do you want this time?{wait}{end}"
  },
  {
   "id": "B:41A74",
   "jp": "{face:0007}{voice:05E3}このケータイ電話・デビホンを{n}きみにプレゼントしようと思ってね！{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05E3}I thought I'd give you this cell phone, the DeviPhone, as a present!{wait}{end}"
  },
  {
   "id": "B:41AC0",
@@ -234,42 +234,42 @@
  {
   "id": "B:41ADC",
   "jp": "{face:0007}{voice:0106}まだナガヒサに、会っていないようだね{wait}{page}{voice:05E9}何か、わかったらそのデビホンに{n}れんらくしてあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0106}Looks like you haven't met Nagahisa yet.{wait}{page}{voice:05E9}If I find out anything, I'll call you on that DeviPhone.{wait}{end}"
  },
  {
   "id": "B:41B48",
   "jp": "{ee}{face:0007}そろそろピラミッドに{n}行った方が良くないかい{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}Don't you think it's about time you headed to the pyramid?{wait}{end}"
  },
  {
   "id": "B:41B80",
   "jp": "{face:0015}わかりました！おまかせ下さい！{n}がんばります！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}Understood! Leave it to me! I'll do my best!!{wait}{end}"
  },
  {
   "id": "B:41BB8",
   "jp": "{face:0016}わかりました！おまかせ下さい！{n}がんばります！！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}Understood! Leave it to me! I'll do my best!!{wait}{end}"
  },
  {
   "id": "B:41BF0",
   "jp": "{face:0014}それでしたらぜひオレを{n}仲魔にして下さい！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}In that case, by all means, make me your ally!{wait}{end}"
  },
  {
   "id": "B:41C24",
   "jp": "{face:0016}それでしたらぜひオレを{n}仲魔にして下さい！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}In that case, by all means, make me your ally!{wait}{end}"
  },
  {
   "id": "B:41C58",
   "jp": "{face:0014}いや、ぜひ私を仲魔に！！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}No, make me your ally, I beg you!!{wait}{end}"
  },
  {
   "id": "B:41C78",
   "jp": "{face:0015}いや、ぜひ私を仲魔に！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}No, make me your ally, I beg you!!{wait}{end}"
  },
  {
   "id": "B:41C98",
@@ -278,42 +278,42 @@
  {
   "id": "B:41CB8",
   "jp": "{face:0016}{name}様！{n}いごヨロシクおねがいします！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama! I'm at your service from now on!{wait}{end}"
  },
  {
   "id": "B:41CE4",
   "jp": "{face:0014}{name}様！{n}いごヨロシクおねがいします！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama! I'm at your service from now on!{wait}{end}"
  },
  {
   "id": "B:41D10",
   "jp": "{face:0015}{name}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama!{wait}{n}Leave Marble Land{f0}to me!!{wait}{end}"
  },
  {
   "id": "B:41D4C",
   "jp": "{face:0016}{name}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama!{wait}{n}Leave Marble Land{f0}to me!!{wait}{end}"
  },
  {
   "id": "B:41D88",
   "jp": "{face:0014}{name}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama, even if the Great Demon King becomes your enemy,{wait}{page}we will stand by your side!{wait}{end}"
  },
  {
   "id": "B:41DD0",
   "jp": "{face:0016}{name}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama, even if the Great Demon King becomes your enemy,{wait}{page}we will stand by your side!{wait}{end}"
  },
  {
   "id": "B:41E18",
   "jp": "{face:0014}{name}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama! Call on us if you ever need us!!{wait}{end}"
  },
  {
   "id": "B:41E48",
   "jp": "{face:0015}{name}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama! Call on us if you ever need us!!{wait}{end}"
  },
  {
   "id": "B:41E78",
@@ -322,27 +322,27 @@
  {
   "id": "B:41EC0",
   "jp": "{face:0015}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{f0}最初のツトメです{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama!{wait}{n}For {partner}-dono,{f0}please use this medicine.{wait}{f0}This is my first duty{f0}as Demon Lord.{wait}{end}"
  },
  {
   "id": "B:41F24",
   "jp": "{face:0015}いざ！勝負だ！{n}{name}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}Now! Let's fight, {name}!{wait}{page}{face:00FF}Let the match begin!!{wait}{end}"
  },
  {
   "id": "B:41F58",
   "jp": "{face:0016}いざ！勝負だ！{n}{name}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}Now! Let's fight, {name}!{wait}{page}{face:00FF}Let the match begin!!{wait}{end}"
  },
  {
   "id": "B:41F8C",
   "jp": "{face:004D}なんだ！仲魔がいっぱいだよ{wait}{page}空きを作ってからまた来てよ{wait}{end}",
-  "en": ""
+  "en": "{face:004D}What! Your allies are full!{wait}{page}Make some room and come back again!{wait}{end}"
  },
  {
   "id": "B:41FCC",
   "jp": "{ee}ちょっと変わった宝箱だ{wait}{end}",
-  "en": ""
+  "en": "{ee}It's a slightly unusual treasure chest.{wait}{end}"
  },
  {
   "id": "B:41FE8",
@@ -351,7 +351,7 @@
  {
   "id": "B:42004",
   "jp": "{ee}あなた方はピラミッドに{n}行くつもりですか？{wait}{page}実はともだちがピラミッドに{n}行ったまま帰って来ないんで{wait}{f0}心配していた所なんです{wait}{page}ピラミッドの中には{n}いろんなシカケがあるらしいですよ{wait}{page}あなた方も{n}気をつけた方がいいですよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Are you going to the pyramid?{wait}{page}Actually, a friend of mine went to the pyramid and never came back,{wait}{f0}so I've been worried.{wait}{page}They say there are all kinds of traps inside the pyramid.{wait}{page}You'd better be careful too.{wait}{end}"
  },
  {
   "id": "B:420E8",
@@ -360,71 +360,71 @@
  {
   "id": "B:42104",
   "jp": "{face:004E}うわっ！！{n}やっと、出られたあぁーー！！{wait}{end}",
-  "en": ""
+  "en": "{face:004E}Whoa!! I'm finally ouuut!!{wait}{end}"
  },
  {
   "id": "B:42134",
   "jp": "{face:004E}どうもありがとうございます{n}ピラミッドにたんけんに来たまでは{wait}{f0}良かったのですが、閉じこめられて{wait}{f0}お礼にケイヤクをむすびます{wait}{f0}いつでもコールして下さい！{wait}{end}",
-  "en": ""
+  "en": "{face:004E}Thank you so much! Coming to explore the pyramid{wait}{f0}was fine and all, but then I got locked in.{wait}{f0}As thanks, I'll make a contract with you.{wait}{f0}Call me anytime!{wait}{end}"
  },
  {
   "id": "B:421D8",
   "jp": "スカルクラウンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Skull Crown became your ally!{wait}{end}"
  },
  {
   "id": "B:421F8",
   "jp": "{face:004E}あー、仲魔がいっぱいですよ{wait}{page}ライザーかヴィネセンターに{n}場所を作って来て下さいよ{wait}{page}ぼく、ここで待ってますから{wait}{end}",
-  "en": ""
+  "en": "{face:004E}Ah, your allies are full.{wait}{page}Go make some room in your Deviliser or the Vine Center.{wait}{page}I'll wait right here.{wait}{end}"
  },
  {
   "id": "B:42270",
   "jp": "{ee}{face:004E}戻って来てくれたんですか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004E}You came back for me?{wait}{end}"
  },
  {
   "id": "B:42294",
   "jp": "{face:0000}お前は・・・アバドン！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}You're... Abaddon!{wait}{end}"
  },
  {
   "id": "B:422B4",
   "jp": "{face:0018}{name}、また会ったな{wait}{end}",
-  "en": ""
+  "en": "{face:0018}{name}, we meet again.{wait}{end}"
  },
  {
   "id": "B:422CC",
   "jp": "{face:0000}またオレの邪魔を{n}するつもりか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}You here to get in my way again?{wait}{end}"
  },
  {
   "id": "B:422F4",
   "jp": "{face:0018}いやっ、もうそのひつようはない{wait}{page}お前を倒す事が{n}できなかったために大魔王は{wait}{f0}オレをかいにんしたのだ{wait}{page}おはらい箱ってわけさ{wait}{end}",
-  "en": ""
+  "en": "{face:0018}No... there's no need for that anymore.{wait}{page}Because I failed to defeat you,{wait}{f0}the Great Demon King dismissed me.{wait}{page}I got the boot, you might say.{wait}{end}"
  },
  {
   "id": "B:4237C",
   "jp": "{face:0000}では、魔界しょうぐんアバドンは{n}もういないという事か{wait}{page}それで、これからどうするつもりだ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}So the Makai General Abaddon is no more, huh.{wait}{page}So what are you gonna do now?{wait}{end}"
  },
  {
   "id": "B:423DC",
   "jp": "{face:0018}さあな・・・・・・{wait}{page}ちょっとくやしいが{n}デビルチルドレンがこれから{wait}{f0}どうして行くのか・・・{wait}{page}たしかめて見るのも悪くないかな{wait}{end}",
-  "en": ""
+  "en": "{face:0018}Who knows......{wait}{page}It galls me a little, but what the Devil Children{wait}{f0}will do from here on...{wait}{page}it might not be bad to see that for myself.{wait}{end}"
  },
  {
   "id": "B:42464",
   "jp": "　仲魔にする{n}　あいてにしない{end}",
-  "en": ""
+  "en": "Make him an ally{n}Ignore him{end}"
  },
  {
   "id": "B:42484",
   "jp": "{face:0018}そうか・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0018}I see...{wait}{end}"
  },
  {
   "id": "B:42498",
   "jp": "{face:0018}では仲魔にしてもらおうか{wait}{end}",
-  "en": ""
+  "en": "{face:0018}Then I'll join you as your ally.{wait}{end}"
  }
 ]
