@@ -36,7 +36,9 @@ TITLE_B = [
 ]
 TITLE_R = [
     {'kind': 'logo', 'box': (14, 74, 196, 141), 'sub_box': (80, 44, 155, 75), 'text': ('DEVIL', 'CHILDREN'),
-     'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'sub': [(86, 53, 'Shin Megami Tensei')]},
+     'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'sub': [(86, 53, 'Shin Megami Tensei')],
+     'fix': {'plaque': (90, 82), 'haze_box': (66, 88, 98, 127), 'yellow_x': 80, 'tail_box': (80, 100, 98, 134),
+             'left_box': (14, 72, 46, 146), 'girl_x': 30}},
     {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
     {'box': (172, 188, 242, 207), 'text': 'New Game', 'kind': 'pixel'},
     {'box': (172, 207, 242, 225), 'text': 'Continue', 'kind': 'pixel'},
@@ -159,6 +161,36 @@ def text_mask(text, font, size, at):
     return {(at[0] + x, at[1] + y) for y in range(size[1]) for x in range(size[0]) if m[x, y] >= 128}
 
 
+def fix_art(im, orig, f):
+    """Red title: the girl and the monster's tail overlap the old logo. Put the plaque colour back where the logo
+    erase left light haze, restore the tail from the original, and wipe logo leftovers on the girl's left."""
+    import colorsys
+    px, op = im.load(), orig.load()
+    hsv = lambda c: colorsys.rgb_to_hsv(*(k / 255 for k in c))
+    plaque = px[f['plaque']]
+    x0, y0, x1, y1 = f['haze_box']
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            h, s, v = hsv(px[x, y])
+            if (s < 0.15 and v > 0.8) or (x >= f['yellow_x'] and 45 / 360 <= h <= 65 / 360 and s > 0.25 and v > 0.7):
+                px[x, y] = plaque
+    x0, y0, x1, y1 = f['tail_box']
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            h, s, v = hsv(op[x, y])
+            if (h < 20 / 360 or h > 330 / 360) and s > 0.3 and v > 0.25:
+                px[x, y] = op[x, y]
+    x0, y0, x1, y1 = f['left_box']
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            h, s, v = hsv(px[x, y])
+            if (h < 12 / 360 or h > 330 / 360) and s > 0.2 and not (v < 0.25 and x < 36):
+                continue  # the girl
+            if (x < f['girl_x'] or (v < 0.4 and (x < 36 or (y >= 110 and s < 0.7) or (y >= 95 and s < 0.5)))
+                    or (36 / 360 <= h <= 65 / 360 and s > 0.5 and y >= 95)):
+                px[x, y] = px[x0 - 2, y]  # page white
+
+
 LOGO = {}  # logo pixels -> colour from the Black title (edited first), reused to find the same logo under Red's girl
 
 
@@ -168,6 +200,7 @@ def edit_logo(im, e):
     import colorsys
     import random
     px = im.load()
+    orig = im.copy()
     x0, y0, x1, y1 = e['box']
     sx0, sy0, sx1, sy1 = e['sub_box']
     box = (x0, sy0, x1, y1)
@@ -237,6 +270,8 @@ def edit_logo(im, e):
             px[q] = c
     for x, y, s in e['sub']:
         draw_pixel_text(im, x, y, s, ink, (24, 8, 16))
+    if 'fix' in e:
+        fix_art(im, orig, e['fix'])
 
 
 def edit_tim(t, edits):
