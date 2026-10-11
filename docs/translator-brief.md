@@ -36,6 +36,18 @@ Run `python -X utf8 tools/batches.py check <batch>` from the repo root and fix e
 A dry-run fitter: `python -X utf8 tools/lint.py "your text{end}"` prints the wrapped lines and their pixel width.
 A box holds 2 lines of 224 px (~40-45 chars each). Too many lines -> rephrase tighter; never cut meaning.
 
+## EXE batches (`x...`): menus, names, descriptions, system messages
+Input is `id<TAB>max<TAB>Japanese`; output is the same `id<TAB>English`. English replaces the JP in place:
+- `max` is a byte budget: English costs about 1 byte per character + 2 (so max 10 = 8 characters). The check
+  prints the exact overflow. Menu labels and names must be short; never abbreviate a name from docs/names.md
+  (if a name can't fit, keep it and report `LONG: id`).
+- Keep the JP's `{n}` lines: same number of lines or fewer, each line no wider than the JP line (check prints
+  px). Demon descriptions are narrow 5-line panels: short lines.
+- Ids are in memory order, so neighbours are usually the same menu/list; strings like `ダミー１２` (dummy),
+  `開発中` (under development) or garbage-looking kana/latin mixes are debug or data: copy them unchanged
+  (output the Japanese as-is) and report `UNSURE: id - looks like data`.
+- `[XXXX]` escapes: copy unchanged.
+
 ## Style
 - Faithful: keep the information and order of ideas; adapt idiom, not meaning. Don't add details; don't skip.
   Adapt wordplay so the joke still lands (no translator notes).

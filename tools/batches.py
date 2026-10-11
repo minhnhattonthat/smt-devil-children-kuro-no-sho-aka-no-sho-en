@@ -1,6 +1,7 @@
 """Translation batches for event messages (script/event/NNN.json <-> work/tl/eNNN.tsv).
 
   python -X utf8 tools/batches.py split [NNN ...]   write work/tl/eNNN.tsv (+ build/terms_eNNN.txt) for untranslated
+  python -X utf8 tools/batches.py split-exe [NNN]   same for EXE strings: work/tl/xNNN.tsv (id, max bytes, JP)
   python -X utf8 tools/batches.py check eNNN         validate work/tl/eNNN.out.tsv (prints OK or errors)
   python -X utf8 tools/batches.py merge eNNN         check, then write the English into script/event/NNN.json
 
@@ -18,6 +19,7 @@ import lint  # noqa: E402
 
 TL = ROOT / 'work' / 'tl'
 EV = ROOT / 'script' / 'event'
+EX = ROOT / 'script' / 'exe'
 
 
 def faces():
@@ -72,6 +74,26 @@ def split(nums):
         print(b, len(rows), 'entries,', len(hit), 'terms')
 
 
+def split_exe(nums):
+    """xNNN.tsv from script/exe/NNN.json: id <TAB> max bytes <TAB> Japanese (in-place limit, see lint_exe)."""
+    TL.mkdir(parents=True, exist_ok=True)
+    terms = glossary_rows()
+    for p in sorted(EX.glob('*.json')):
+        if nums and p.stem not in nums:
+            continue
+        rows = ['%s\t%d\t%s' % (e['id'], e['max'], e['jp'])
+                for e in json.loads(p.read_text(encoding='utf-8')) if 'jp' in e and not e.get('en')]
+        if not rows:
+            continue
+        b = 'x' + p.stem
+        (TL / (b + '.tsv')).write_text('\n'.join(rows) + '\n', encoding='utf-8', newline='\n')
+        alljp = ''.join(r.split('\t')[2] for r in rows)
+        hit = [r for r in terms if any(j and j in alljp for j in re.split(r'\s*/\s*', r[0]))]
+        (ROOT / 'build' / ('terms_%s.txt' % b)).write_text(
+            '\n'.join(' | '.join(r) for r in hit) + '\n', encoding='utf-8', newline='\n')
+        print(b, len(rows), 'entries')
+
+
 def glossary_rows():
     rows = []
     for line in (ROOT / 'glossary.md').read_text(encoding='utf-8').splitlines():
@@ -97,10 +119,11 @@ def read_tsv(path):
 
 def check(batch, quiet=False):
     src = TL / (batch + '.tsv')
-    jp = {}
+    jp, cap = {}, {}
     for line in src.read_text(encoding='utf-8').splitlines():
-        k, _, j = line.split('\t', 2)
+        k, c2, j = line.split('\t', 2)
         jp[k] = j
+        cap[k] = int(c2) if batch.startswith('x') else None
     try:
         en = read_tsv(TL / (batch + '.out.tsv'))
     except (OSError, ValueError) as e:
@@ -117,7 +140,8 @@ def check(batch, quiet=False):
         if k in jp:
             if '\t' in v or '\\u' in v:
                 errs.append('%s: tab or \\u escape' % k)
-            for e in lint.lint_event(jp[k], v):
+            found = lint.lint_exe(jp[k], v, cap[k]) if cap[k] else lint.lint_event(jp[k], v)
+            for e in found:
                 errs.append('%s: %s' % (k, e))
     for e in errs:
         print(e)
@@ -132,7 +156,7 @@ def merge(batch):
         return 1
     en = read_tsv(TL / (batch + '.out.tsv'))
     n = 0
-    for p in sorted(EV.glob('*.json')):
+    for p in sorted(EV.glob('*.json')) + sorted(EX.glob('*.json')):
         data = json.loads(p.read_text(encoding='utf-8'))
         hit = 0
         for e in data:
@@ -150,6 +174,9 @@ def main():
     cmd = sys.argv[1]
     if cmd == 'split':
         split(sys.argv[2:])
+        return 0
+    if cmd == 'split-exe':
+        split_exe(sys.argv[2:])
         return 0
     return {'check': check, 'merge': merge}[cmd](sys.argv[2])
 

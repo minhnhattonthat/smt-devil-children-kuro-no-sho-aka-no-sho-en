@@ -184,6 +184,8 @@ EXE_MIN_PX = 60  # short labels: allow English a little wider than tiny JP label
 def lint_exe(jp, en, cap):
     """EXE/overlay strings: in-place, so the packed size must fit `cap` bytes; lines no wider than the JP's."""
     import text
+    if en == jp:  # data / debug string left as is
+        return []
     errs = []
     if not en.endswith('{end}'):
         errs.append('must end with {end}')
