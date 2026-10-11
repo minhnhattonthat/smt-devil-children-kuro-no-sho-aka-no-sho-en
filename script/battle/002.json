@@ -1,0 +1,70 @@
+[
+ {
+  "id": "BB:000EAC",
+  "same_as": "BB:02AC48"
+ },
+ {
+  "id": "BB:02AE3C",
+  "jp": "{face:0002}・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BB:02CB2C",
+  "jp": "{face:0002}・・・{n}（ムシされた・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BB:02CCAC",
+  "jp": "{face:0002}・・・{n}（なんか嫌な予感・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D178",
+  "jp": "{face:0002}・・・！{n}（なんか体の調子が・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02D6FC",
+  "jp": "{face:0002}？？{n}タリナイ・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 32
+ },
+ {
+  "id": "BB:02D71C",
+  "jp": "{face:0002}・・・{n}（あれ？足りなかった・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "RB:000EAC",
+  "same_as": "BB:02AC48"
+ },
+ {
+  "id": "RB:02AE3C",
+  "same_as": "BB:02AE3C"
+ },
+ {
+  "id": "RB:02CB28",
+  "same_as": "BB:02CB2C"
+ },
+ {
+  "id": "RB:02CCA8",
+  "same_as": "BB:02CCAC"
+ },
+ {
+  "id": "RB:02D174",
+  "same_as": "BB:02D178"
+ },
+ {
+  "id": "RB:02D6F8",
+  "same_as": "BB:02D6FC"
+ },
+ {
+  "id": "RB:02D718",
+  "same_as": "BB:02D71C"
+ }
+]

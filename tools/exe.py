@@ -203,8 +203,8 @@ def dump(chunk=120, sub='exe', files=EXES, extract=None):
     print('%d entries, %d unique, %d files (%d written)' % (len(entries), len(first), len(files), wrote))
 
 
-def append(chunk=120):
-    dest = ROOT / 'script' / 'exe'
+def append(chunk=120, sub='exe', exes=EXES, extract=None):
+    dest = ROOT / 'script' / sub
     first, have = {}, set()
     files = sorted(dest.glob('*.json'))
     for p in files:
@@ -213,9 +213,9 @@ def append(chunk=120):
             if 'jp' in e:
                 first.setdefault(e['jp'], e['id'])
     entries = []
-    for tag, name in EXES:
+    for tag, name in exes:
         d = (TREE / name).read_bytes()
-        for off, n, cap, jp in strings(d):
+        for off, n, cap, jp in (extract or strings)(d):
             mid = '%s:%06X' % (tag, off)
             if mid in have:
                 continue
@@ -240,6 +240,9 @@ def main():
         return
     if cmd == 'append':  # strings found since the first dump -> new script/exe files (existing ones untouched)
         append()
+        return
+    if cmd == 'append-battle':
+        append(sub='battle', exes=BATTLES, extract=battle_strings)
         return
     if cmd == 'dump-battle':
         dump(sub='battle', files=BATTLES, extract=battle_strings)

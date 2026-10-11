@@ -313,12 +313,54 @@ def font5():
     return out
 
 
+class Raw4:
+    """Index access to the font TXS image in DEVIL.PAC (1024 px wide, 4bpp)."""
+    def __init__(self, pac, base=0x15D8010, row=512):
+        self.pac, self.base, self.row = pac, base, row
+
+    get = Sheet4.get
+    set = Sheet4.set
+
+
+# battle command buttons in the TXS image: 4 x 3 cells, body values 5-9 (row gradient), text values 1-4 (1 = ink)
+BATTLE_BUTTONS = {}
+for _r, _row in enumerate((('Fight', 'Auto', 'Talk', 'Combo'), ('Escape', 'Status', 'Attack', 'Magic'),
+                           ('Special', 'Items', 'Call', 'Repeat'))):
+    for _c, _t in enumerate(_row):
+        BATTLE_BUTTONS[(226 + 32 * _c, 4 + 16 * _r, 254 + 32 * _c, 19 + 16 * _r)] = _t
+
+
+def draw_battle_buttons(pac):
+    import font
+    s = Raw4(pac)
+    glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
+    for (x0, y0, x1, y1), text in BATTLE_BUTTONS.items():
+        for y in range(y0, y1):
+            body = Counter(s.get(x, y) for x in range(x0, x1) if s.get(x, y) >= 5)
+            fill = body.most_common(1)[0][0] if body else 5
+            for x in range(x0, x1):
+                if 1 <= s.get(x, y) <= 4:
+                    s.set(x, y, fill)
+        w = sum(glyphs[font.EN_BASE + ord(c)][1] for c in text) - 1
+        gap = 1 if w <= x1 - x0 else 0
+        w -= (1 - gap) * (len(text) - 1)
+        x = x0 + max(0, (x1 - x0 - w) // 2)
+        for c in text:
+            px, adv = glyphs[font.EN_BASE + ord(c)]
+            for yy in range(4, 15):
+                for xx in range(16):
+                    if px[yy][xx] == 1 and x + xx < x1 and y0 + yy - 1 < y1:
+                        s.set(x + xx, y0 + yy - 1, 1)
+            x += adv - (1 - gap)
+
+
 def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
         im = edit_tim(t, edits)
         quantize_into(t, im, pac, off)
     draw_menu_sheet(pac)
+    draw_battle_buttons(pac)
 
 
 def main():
