@@ -79,6 +79,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 赤いカギ / 赤いツノ / 紫のツノ / 白いメシアのツノ / 金色のメシアのツノ | Red Key / Red Horn / Purple Horn / White Messiah Horn / Golden Messiah Horn | horns/keys are items: capitalized | |
 | ハーフデビル | half-Devil | | |
 | キングフロスト | King Frost | | |
+| メシアのヒトミ | Messiah Eye | (rainbow) Messiah Eye; items capitalized | |
+| ラグナロク / ハルマゲドン | Ragnarok / Armageddon | | |
+| カジノタウン | Casino Town | | |
+| バトルネット | Battle Net | | BattleNet |
 | 兄さん | big brother | kinship terms translated (user ruling) | Nii-san |
 
 ## Decisions from earlier batches

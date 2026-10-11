@@ -1,0 +1,3 @@
+# Ids exempt from the lines-per-page rule (reason after the id). Check each in-game.
+B:32ACC overlapping pointers 32ACC/32AE4/32AF8 share one JP message; each starts at its own reply
+B:32AE4 same

@@ -140,7 +140,7 @@ def check(batch, quiet=False):
         if k in jp:
             if '\t' in v or '\\u' in v:
                 errs.append('%s: tab or \\u escape' % k)
-            found = lint.lint_exe(jp[k], v, cap[k]) if cap[k] else lint.lint_event(jp[k], v)
+            found = lint.lint_exe(jp[k], v, cap[k]) if cap[k] else lint.lint_event(jp[k], v, mid=k)
             for e in found:
                 errs.append('%s: %s' % (k, e))
     for e in errs:

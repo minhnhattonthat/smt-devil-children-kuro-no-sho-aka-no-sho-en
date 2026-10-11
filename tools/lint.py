@@ -140,7 +140,15 @@ def prepare(jp, en):
     return wrap(en.replace('{f0}', '{page}'), 'dialog')
 
 
-def lint_event(jp, en, box=None):
+@lru_cache(None)
+def allowed_long():
+    """Ids allowed more lines per page (e.g. overlapping pointers into one JP message): tools/lint_allow.txt."""
+    p = Path(__file__).with_name('lint_allow.txt')
+    return frozenset(ln.split()[0] for ln in p.read_text(encoding='utf-8').splitlines()
+                     if ln.strip() and not ln.startswith('#')) if p.exists() else frozenset()
+
+
+def lint_event(jp, en, box=None, mid=None):
     box = box or form(jp)
     errs = []
     if box == 'choice' and en.count('{n}') != jp.count('{n}'):
@@ -156,7 +164,7 @@ def lint_event(jp, en, box=None):
     w = prepare(jp, en)
     for i, pg in enumerate(pages(w)):
         text_lines = [TOKEN.sub('', ln) for ln in pg]
-        if len(pg) > BOX[box]['lines']:
+        if len(pg) > BOX[box]['lines'] and mid not in allowed_long():
             errs.append('page %d: %d lines > %d (split the box or shorten)' % (i + 1, len(pg), BOX[box]['lines']))
         for ln in text_lines:
             if text_width(ln) > BOX[box]['px']:
@@ -230,7 +238,7 @@ def main():
         for e in json.loads(p.read_text(encoding='utf-8')):
             if e.get('en'):
                 n += 1
-                for err in lint_event(e['jp'], e['en']):
+                for err in lint_event(e['jp'], e['en'], mid=e['id']):
                     bad += 1
                     print('%s %s: %s' % (p.name, e['id'], err))
     print('lint: %d translated, %d errors' % (n, bad))
