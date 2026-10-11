@@ -94,7 +94,8 @@ def pages(wrapped):
 
 
 def codes(s):
-    return [t for t in TOKEN.findall(s) if t != '{n}']
+    """Control codes that must survive translation ([XXXX] glyph escapes are free text, e.g. record data)."""
+    return [t for t in TOKEN.findall(s) if t != '{n}' and t[0] == '{']
 
 
 def units(wrapped):

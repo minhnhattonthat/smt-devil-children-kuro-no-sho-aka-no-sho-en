@@ -2,79 +2,79 @@
  {
   "id": "BB:000EB4",
   "jp": "やめる{end}",
-  "en": "",
+  "en": "Cancel{end}",
   "max": 8
  },
  {
   "id": "BB:000EEC",
   "jp": "ネットライザ－{end}",
-  "en": "",
+  "en": "Net Riser{end}",
   "max": 16
  },
  {
   "id": "BB:02AB2C",
   "jp": "たたかう{end}",
-  "en": "",
+  "en": "Fight{end}",
   "max": 12
  },
  {
   "id": "BB:02AB38",
   "jp": "オ－ト{end}",
-  "en": "",
+  "en": "Auto{end}",
   "max": 8
  },
  {
   "id": "BB:02AB44",
   "jp": "こうしょう{end}",
-  "en": "",
+  "en": "Talk{end}",
   "max": 12
  },
  {
   "id": "BB:02AB50",
   "jp": "コンボ{end}",
-  "en": "",
+  "en": "Combo{end}",
   "max": 8
  },
  {
   "id": "BB:02AB5C",
   "jp": "にげる{end}",
-  "en": "",
+  "en": "Escape{end}",
   "max": 8
  },
  {
   "id": "BB:02AB68",
   "jp": "ステ－タス{end}",
-  "en": "",
+  "en": "Status{end}",
   "max": 12
  },
  {
   "id": "BB:02AB74",
   "jp": "こうげき{end}",
-  "en": "",
+  "en": "Attack{end}",
   "max": 10
  },
  {
   "id": "BB:02AB7E",
   "jp": "魔法{end}",
-  "en": "",
+  "en": "Magic{end}",
   "max": 6
  },
  {
   "id": "BB:02AB88",
   "jp": "ひっさつ{end}",
-  "en": "",
+  "en": "Special{end}",
   "max": 10
  },
  {
   "id": "BB:02AB92",
   "jp": "アイテム{end}",
-  "en": "",
+  "en": "Items{end}",
   "max": 10
  },
  {
   "id": "BB:02AB9C",
   "jp": "コ－ル{end}",
-  "en": "",
+  "en": "Call{end}",
   "max": 8
  },
  {
@@ -92,31 +92,31 @@
  {
   "id": "BB:02ABC4",
   "jp": "リピ－ト{end}",
-  "en": "",
+  "en": "Repeat{end}",
   "max": 12
  },
  {
   "id": "BB:02ABD0",
   "jp": "パ－トナ－{end}",
-  "en": "",
+  "en": "Partner{end}",
   "max": 12
  },
  {
   "id": "BB:02ABE0",
   "jp": "デビライザ－{end}",
-  "en": "",
+  "en": "Deviliser{end}",
   "max": 16
  },
  {
   "id": "BB:02ABF0",
   "jp": "キングライザ－{end}",
-  "en": "",
+  "en": "King Riser{end}",
   "max": 16
  },
  {
   "id": "BB:02AC00",
   "jp": "コ－ル　{end}",
-  "en": "",
+  "en": "Call{end}",
   "max": 12
  },
  {
@@ -126,7 +126,7 @@
  {
   "id": "BB:02AC48",
   "jp": "使う{end}",
-  "en": "",
+  "en": "Use{end}",
   "max": 8
  },
  {
@@ -136,175 +136,175 @@
  {
   "id": "BB:02AC90",
   "jp": "ひっさつ　　{end}",
-  "en": "",
+  "en": "Special{end}",
   "max": 16
  },
  {
   "id": "BB:02ACAC",
   "jp": "こうげき　　{end}",
-  "en": "",
+  "en": "Attack{end}",
   "max": 16
  },
  {
   "id": "BB:02ACEC",
   "jp": "コ－ルできません{end}",
-  "en": "",
+  "en": "Can't Call{end}",
   "max": 20
  },
  {
   "id": "BB:02AD00",
   "jp": "{face:0002}オレニマカセロ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Me handle this!{wait}{face:00FF}{end}",
   "max": 28
  },
  {
   "id": "BB:02AD1C",
   "jp": "{face:0002}！！！{n}（自信が有りそうだ！）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}!!! (It looks confident!){wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02AD48",
   "jp": "{face:0002}だまって見ているがよい！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Just sit back and watch!{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02AD6C",
   "jp": "{face:0002}軽い物ですわ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Why, that's easy!{wait}{face:00FF}{end}",
   "max": 28
  },
  {
   "id": "BB:02AD88",
   "jp": "{face:0002}かるーく、カタをつけてやるさ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'll wrap this up, nice and easy!{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02ADB4",
   "jp": "{face:0002}私にまかせてちょうだい！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}You can count on me!{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02ADD8",
   "jp": "{face:0002}オレにまかせとけ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Leave it to me!{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02ADF8",
   "jp": "{face:0002}アタシにまかせて！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Let me handle it!{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02AE18",
   "jp": "{face:0002}マァ、ヤッテミルカ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Well... Me try...{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02AE50",
   "jp": "{face:0002}私が？{n}それでは・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I? Very well, then...{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02AE74",
   "jp": "{face:0002}どうでしょうか？{n}やってみますけど・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'm not sure... but I'll try...{wait}{face:00FF}{end}",
   "max": 52
  },
  {
   "id": "BB:02AEA8",
   "jp": "{face:0002}あんまり期待しないでね・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Don't expect too much...{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02AED0",
   "jp": "{face:0002}えーっと{n}だいじょうぶかな・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Umm... Will I be okay...?{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02AEFC",
   "jp": "{face:0002}オレか？{n}よーし、がんばって来るぜ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Me? All right, I'll go give it my all...{wait}{face:00FF}{end}",
   "max": 52
  },
  {
   "id": "BB:02AF30",
   "jp": "{face:0002}オッケー！{n}やってみるよ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Okay! I'll give it a try...{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02AF5C",
   "jp": "{face:0002}・・・キタイスルナヨ{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}...No expect much.{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02AF7C",
   "jp": "{face:0002}・・・{n}（なんか自信無さそう・・・）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (It doesn't look very sure...){wait}{face:00FF}{end}",
   "max": 48
  },
  {
   "id": "BB:02AFAC",
   "jp": "{face:0002}どうなっても{n}知らんよ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Whatever happens, don't blame me...{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02AFD4",
   "jp": "{face:0002}きっと無理ですわ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'm sure it's hopeless...{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02AFF8",
   "jp": "{face:0002}がんばるよ・・・でもダメかも？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'll try... but I might blow it?{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02B024",
   "jp": "{face:0002}なんか{n}恐い顔してるんだけど・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Um... That one looks kinda scary...{wait}{face:00FF}{end}",
   "max": 48
  },
  {
   "id": "BB:02B054",
   "jp": "{face:0002}アイツ、オレの事{n}嫌いなんじゃねえのかなあ・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I got a feeling that guy doesn't like me...{wait}{face:00FF}{end}",
   "max": 60
  },
  {
   "id": "BB:02B090",
   "jp": "{face:0002}ウソ！{n}ホントにアタシでいいの？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}No way! You really want me?{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02B27C",
   "jp": "こうげきコンボ：{ed}{end}",
-  "en": "",
+  "en": "Attack Combo:{ed}{end}",
   "max": 20
  },
  {
   "id": "BB:02B290",
   "jp": "変化コンボ：{ed}{end}",
-  "en": "",
+  "en": "Status Combo:{ed}{end}",
   "max": 16
  },
  {
   "id": "BB:02B2A0",
   "jp": "回復コンボ：{ed}{end}",
-  "en": "",
+  "en": "Heal Combo:{ed}{end}",
   "max": 16
  },
  {
@@ -314,139 +314,139 @@
  {
   "id": "BB:02B2E8",
   "jp": "復活コンボ：{ed}{end}",
-  "en": "",
+  "en": "Revive Combo:{ed}{end}",
   "max": 16
  },
  {
   "id": "BB:02B2F8",
   "jp": "ガルルゥーー！{end}",
-  "en": "",
+  "en": "Grrrrraah!{end}",
   "max": 16
  },
  {
   "id": "BB:02B310",
   "jp": "この一撃を受けてみろ！{end}",
-  "en": "",
+  "en": "Take this blow!{end}",
   "max": 24
  },
  {
   "id": "BB:02B328",
   "jp": "負けませんわよ！{end}",
-  "en": "",
+  "en": "I won't lose!{end}",
   "max": 20
  },
  {
   "id": "BB:02B33C",
   "jp": "これでも食らえ！{end}",
-  "en": "",
+  "en": "Eat this!{end}",
   "max": 20
  },
  {
   "id": "BB:02B350",
   "jp": "ガツンと行くよ！{end}",
-  "en": "",
+  "en": "Here's a big one!{end}",
   "max": 20
  },
  {
   "id": "BB:02B364",
   "jp": "オラァ！{end}",
-  "en": "",
+  "en": "Raaagh!{end}",
   "max": 12
  },
  {
   "id": "BB:02B370",
   "jp": "このヤロー！{end}",
-  "en": "",
+  "en": "Why, you!{end}",
   "max": 16
  },
  {
   "id": "BB:02B380",
   "jp": "クラエ！{f6}！{end}",
-  "en": "",
+  "en": "Eat! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B3A0",
   "jp": "{f6}だ！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 8
  },
  {
   "id": "BB:02B3A8",
   "jp": "{f6}です！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 12
  },
  {
   "id": "BB:02B3B4",
   "jp": "エイっ！{f6}！{end}",
-  "en": "",
+  "en": "Hyah! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B3C4",
   "jp": "イケっ！{f6}！{end}",
-  "en": "",
+  "en": "Go! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B3D4",
   "jp": "食らえ！{f6}！{end}",
-  "en": "",
+  "en": "Take this! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B3E4",
   "jp": "{f6}よ！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 8
  },
  {
   "id": "BB:02B3EC",
   "jp": "変化：　{f6}{end}",
-  "en": "",
+  "en": "Status: {f6}{end}",
   "max": 12
  },
  {
   "id": "BB:02B3F8",
   "jp": "回復：　{f6}{end}",
-  "en": "",
+  "en": "Heal: {f6}{end}",
   "max": 12
  },
  {
   "id": "BB:02B404",
   "jp": "ダウン：　{f6}{end}",
-  "en": "",
+  "en": "Down: {f6}{end}",
   "max": 16
  },
  {
   "id": "BB:02B414",
   "jp": "アップ：　{f6}{end}",
-  "en": "",
+  "en": "Up: {f6}{end}",
   "max": 16
  },
  {
   "id": "BB:02B424",
   "jp": "カイフク！{f6}！{end}",
-  "en": "",
+  "en": "Heal! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B444",
   "jp": "回復！{f6}！{end}",
-  "en": "",
+  "en": "Heal! {f6}!{end}",
   "max": 12
  },
  {
   "id": "BB:02B450",
   "jp": "治って！{f6}！{end}",
-  "en": "",
+  "en": "Get well! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B460",
   "jp": "えいっ、{f6}！{end}",
-  "en": "",
+  "en": "Hyah, {f6}!{end}",
   "max": 16
  },
  {
@@ -456,295 +456,295 @@
  {
   "id": "BB:02B490",
   "jp": "フッカツ！{f6}！{end}",
-  "en": "",
+  "en": "Revive! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B4B0",
   "jp": "復活せよ！{f6}！{end}",
-  "en": "",
+  "en": "Arise! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B4C0",
   "jp": "復活よ！{f6}！{end}",
-  "en": "",
+  "en": "Revive! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B4D0",
   "jp": "復活！{f6}！{end}",
-  "en": "",
+  "en": "Rise! {f6}!{end}",
   "max": 12
  },
  {
   "id": "BB:02B4DC",
   "jp": "復活して！{f6}！{end}",
-  "en": "",
+  "en": "Come back! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B4EC",
   "jp": "復活しろ！{f6}！{end}",
-  "en": "",
+  "en": "Get up! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B4FC",
   "jp": "復活しな！{f6}！{end}",
-  "en": "",
+  "en": "Up you get! {f6}!{end}",
   "max": 16
  },
  {
   "id": "BB:02B50C",
   "jp": "{name}！全力で行け！{end}",
-  "en": "",
+  "en": "{name}! Go all out!{end}",
   "max": 20
  },
  {
   "id": "BB:02B520",
   "jp": "{name}の力を見せろ！{end}",
-  "en": "",
+  "en": "Show 'em, {name}!{end}",
   "max": 20
  },
  {
   "id": "BB:02B534",
   "jp": "がんばってくれ、{name}！{end}",
-  "en": "",
+  "en": "Do your best, {name}!{end}",
   "max": 24
  },
  {
   "id": "BB:02B54C",
   "jp": "{name}！オマエがたよりだ！{end}",
-  "en": "",
+  "en": "{name}! I'm counting on you!{end}",
   "max": 24
  },
  {
   "id": "BB:02B564",
   "jp": "{name}、オマエの番だ！{end}",
-  "en": "",
+  "en": "{name}, you're up!{end}",
   "max": 20
  },
  {
   "id": "BB:02B578",
   "jp": "まかせたぞ、{name}！{end}",
-  "en": "",
+  "en": "It's up to you, {name}!{end}",
   "max": 20
  },
  {
   "id": "BB:02B58C",
   "jp": "行け！{name}！{end}",
-  "en": "",
+  "en": "Go! {name}!{end}",
   "max": 12
  },
  {
   "id": "BB:02B598",
   "jp": "{name}、ゆだんするな！{end}",
-  "en": "",
+  "en": "{name}, stay sharp!{end}",
   "max": 20
  },
  {
   "id": "BB:02B5AC",
   "jp": "{name}が負けるなんて・・・{end}",
-  "en": "",
+  "en": "{name} lost...?{end}",
   "max": 24
  },
  {
   "id": "BB:02B5C4",
   "jp": "{name}じゃダメなのか？{end}",
-  "en": "",
+  "en": "{name} wasn't enough?{end}",
   "max": 20
  },
  {
   "id": "BB:02B5D8",
   "jp": "しまった！ゆだんしたか・・・{end}",
-  "en": "",
+  "en": "Shoot! I got careless...{end}",
   "max": 32
  },
  {
   "id": "BB:02B5F8",
   "jp": "なかなかあなどれないな{end}",
-  "en": "",
+  "en": "They're no pushover.{end}",
   "max": 24
  },
  {
   "id": "BB:02B700",
   "jp": "ぼうぎょ：　{f6}{end}",
-  "en": "",
+  "en": "Defense: {f6}{end}",
   "max": 16
  },
  {
   "id": "BB:02B710",
   "jp": "ほじょ：　{f6}{end}",
-  "en": "",
+  "en": "Support: {f6}{end}",
   "max": 16
  },
  {
   "id": "BB:02BA46",
   "jp": "登。　常。はい{end}",
-  "en": "",
+  "en": "登。　常。はい{end}",
   "max": 18
  },
  {
   "id": "BB:02BA58",
   "jp": "いいえ{end}",
-  "en": "",
+  "en": "No{end}",
   "max": 8
  },
  {
   "id": "BB:02C54C",
   "jp": "{face:0002}ケイヤク、セイリツ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Contract... made!{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02C56C",
   "jp": "{face:0002}・・・！{n}（ケイヤクできそうだ）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}...! (Looks like it'll make a contract.){wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02C598",
   "jp": "{face:0002}ケイヤクしてやろう！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}A contract you shall have!{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02C5B8",
   "jp": "{face:0002}ケイヤクしてあげましょう！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Very well, let us make a contract!{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C5E0",
   "jp": "{face:0002}ボク、キミとケイヤクするよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'll make a contract with you!{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C608",
   "jp": "{face:0002}ねえ、ケイヤクしようよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Hey, let's make a contract!{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02C62C",
   "jp": "{face:0002}ケイヤクしてやってもいいぜ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Guess I could make a contract with ya!{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C654",
   "jp": "{face:0002}ケイヤク？してあげようかなー♥{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}A contract? Hmm, maybe I will!{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02C680",
   "jp": "{face:0002}オマエ{n}ゲンキ、ナイ？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}You... no feel good?{wait}{face:00FF}{end}",
   "max": 36
  },
  {
   "id": "BB:02C6A4",
   "jp": "{face:0002}・・・？{n}（ケガを治してくれるようだ）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}...? (It seems to want to heal you.){wait}{face:00FF}{end}",
   "max": 52
  },
  {
   "id": "BB:02C6D8",
   "jp": "{face:0002}ウム・・・{n}これぐらいしかしてやれんが・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Hmm... This is all I can do for you, but...{wait}{face:00FF}{end}",
   "max": 56
  },
  {
   "id": "BB:02C710",
   "jp": "{face:0002}おや{n}ケガをしているようですね？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Oh my, you seem to be hurt.{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02C73C",
   "jp": "{face:0002}ボクが元気にしてあげるよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I'll make you feel better!{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C764",
   "jp": "{face:0002}ねぇ！{n}ケガ、治してあげようか？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Hey! Want me to heal you up?{wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02C790",
   "jp": "{face:0002}ケガしてるじゃねえか！{n}無理すんなよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}You're hurt! Don't push yourself!{wait}{face:00FF}{end}",
   "max": 52
  },
  {
   "id": "BB:02C7C4",
   "jp": "{face:0002}あれー？{n}アンタ、ケガしてるんじゃない？{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Huh? Aren't you hurt?{wait}{face:00FF}{end}",
   "max": 52
  },
  {
   "id": "BB:02C7F8",
   "jp": "{face:0002}マッカ・・・ヤル{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Macca... for you.{wait}{face:00FF}{end}",
   "max": 28
  },
  {
   "id": "BB:02C814",
   "jp": "{face:0002}・・・{n}（マッカをくれるようだ）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (It seems to be offering Macca.){wait}{face:00FF}{end}",
   "max": 44
  },
  {
   "id": "BB:02C840",
   "jp": "{face:0002}少しだが{n}これでも使ってくれ{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}It's not much, but use this.{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C868",
   "jp": "{face:0002}おくり物をどうぞ{n}マッカですが・・・{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Please accept this gift. It's only Macca...{wait}{face:00FF}{end}",
   "max": 48
  },
  {
   "id": "BB:02C898",
   "jp": "{face:0002}ボクが一生けんめいためた{n}お金だけど、あげるよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}I worked really hard to save this money, but you can have it!{wait}{face:00FF}{end}",
   "max": 60
  },
  {
   "id": "BB:02C8D4",
   "jp": "{face:0002}あのね・・・{n}マッカあげる{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Um... Here, have some Macca.{wait}{face:00FF}{end}",
   "max": 40
  },
  {
   "id": "BB:02C8FC",
   "jp": "{face:0002}オマエ、はらへってねえか？{n}これでメシでも食えよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}You hungry? Go get some grub with this!{wait}{face:00FF}{end}",
   "max": 64
  },
  {
   "id": "BB:02C93C",
   "jp": "{face:0002}アンタ、もうちょっとオシャレしたら？{n}これでも使ってよ！{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Why don't you dress up a little? Here, use this!{wait}{face:00FF}{end}",
   "max": 68
  },
  {
   "id": "BB:02C980",
   "jp": "{face:0002}タカラモノ・・・ヤル{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}Treasure... for you.{wait}{face:00FF}{end}",
   "max": 32
  },
  {
   "id": "BB:02C9A0",
   "jp": "{face:0002}・・・♥{n}（アイテムをくれるようだ）{wait}{face:00FF}{end}",
-  "en": "",
+  "en": "{face:0002}... (It seems to be offering an item.){wait}{face:00FF}{end}",
   "max": 48
  }
 ]

@@ -210,91 +210,91 @@
  {
   "id": "BM:0B105E",
   "jp": "！フェンリル{end}",
-  "en": "！フェンリル{end}",
+  "en": "[0005]Fenrir{end}",
   "max": 14
  },
  {
   "id": "BM:0B1072",
   "jp": "…ヘル{end}",
-  "en": "…ヘル{end}",
+  "en": "[0008]Hel{end}",
   "max": 10
  },
  {
   "id": "BM:0B1086",
   "jp": "×ビビサナ{end}",
-  "en": "×ビビサナ{end}",
+  "en": "[000F]Vibhishana{end}",
   "max": 14
  },
  {
   "id": "BM:0B109A",
   "jp": "々ヴリトラ{end}",
-  "en": "々ヴリトラ{end}",
+  "en": "[0012]Vritra{end}",
   "max": 14
  },
  {
   "id": "BM:0B10AE",
   "jp": "々インドラ{end}",
-  "en": "々インドラ{end}",
+  "en": "[0012]Indra{end}",
   "max": 14
  },
  {
   "id": "BM:0B10C2",
   "jp": "々ドクター・スリル{end}",
-  "en": "々ドクター・スリル{end}",
+  "en": "[0012]Dr. Thrill{end}",
   "max": 20
  },
  {
   "id": "BM:0B10D6",
   "jp": "＃レイホウ{end}",
-  "en": "＃レイホウ{end}",
+  "en": "[0014]Reiho{end}",
   "max": 14
  },
  {
   "id": "BM:0B10EA",
   "jp": "Kフランケン{end}",
-  "en": "Kフランケン{end}",
+  "en": "[002D]Franken{end}",
   "max": 14
  },
  {
   "id": "BM:0B10FE",
   "jp": "０タカジョー{end}",
-  "en": "０タカジョー{end}",
+  "en": "[0019]Takajo{end}",
   "max": 14
  },
  {
   "id": "BM:0B1112",
   "jp": "１レイジ{end}",
-  "en": "１レイジ{end}",
+  "en": "[001A]Reiji{end}",
   "max": 10
  },
  {
   "id": "BM:0B1126",
   "jp": "３マキ{end}",
-  "en": "３マキ{end}",
+  "en": "[001C]Maki{end}",
   "max": 10
  },
  {
   "id": "BM:0B113A",
   "jp": "４ハザマ{end}",
-  "en": "４ハザマ{end}",
+  "en": "[001D]Hazama{end}",
   "max": 10
  },
  {
   "id": "BM:0B114E",
   "jp": "５キョウジ{end}",
-  "en": "５キョウジ{end}",
+  "en": "[001E]Kyoji{end}",
   "max": 14
  },
  {
   "id": "BM:0B1162",
   "jp": "９ナンジョウ{end}",
-  "en": "９ナンジョウ{end}",
+  "en": "[0022]Nanjo{end}",
   "max": 14
  },
  {
   "id": "BM:0B1176",
   "jp": "Dドッペルゲンガー{end}",
-  "en": "Dドッペルゲンガー{end}",
+  "en": "[0026]Doppelganger{end}",
   "max": 22
  },
  {
@@ -304,61 +304,61 @@
  {
   "id": "BM:0B119E",
   "jp": "Pエレジー{end}",
-  "en": "Pエレジー{end}",
+  "en": "[0032]Elegy{end}",
   "max": 14
  },
  {
   "id": "BM:0B11B2",
   "jp": "Tナガヒサ{end}",
-  "en": "Tナガヒサ{end}",
+  "en": "[0036]Nagahisa{end}",
   "max": 14
  },
  {
   "id": "BM:0B11C6",
   "jp": "Xルシファー{end}",
-  "en": "Xルシファー{end}",
+  "en": "[003A]Lucifer{end}",
   "max": 14
  },
  {
   "id": "BM:0B11DA",
   "jp": "gタツヤ{end}",
-  "en": "gタツヤ{end}",
+  "en": "[0043]Tatsuya{end}",
   "max": 10
  },
  {
   "id": "BM:0B11EE",
   "jp": "rマヤ{end}",
-  "en": "rマヤ{end}",
+  "en": "[004E]Maya{end}",
   "max": 10
  },
  {
   "id": "BM:0B1202",
   "jp": "pカズマ{end}",
-  "en": "pカズマ{end}",
+  "en": "[004C]Kazuma{end}",
   "max": 10
  },
  {
   "id": "BM:0B1216",
   "jp": "あコージー{end}",
-  "en": "あコージー{end}",
+  "en": "[0058]Koji{end}",
   "max": 14
  },
  {
   "id": "BM:0B122A",
   "jp": "ききょうあくピエロ{end}",
-  "en": "ききょうあくピエロ{end}",
+  "en": "[0063]Vicious Pierrot{end}",
   "max": 20
  },
  {
   "id": "BM:0B123E",
   "jp": "３プロフェッサーO{end}",
-  "en": "３プロフェッサーO{end}",
+  "en": "[001C]Professor O{end}",
   "max": 20
  },
  {
   "id": "BM:0B1252",
   "jp": "３ドッペルゲンガー{end}",
-  "en": "３ドッペルゲンガー{end}",
+  "en": "[001C]Doppelganger{end}",
   "max": 22
  },
  {
@@ -368,61 +368,61 @@
  {
   "id": "BM:0B127A",
   "jp": "９ミライ{end}",
-  "en": "９ミライ{end}",
+  "en": "[0022]Mirai{end}",
   "max": 10
  },
  {
   "id": "BM:0B128E",
   "jp": "Dアベノセイメイ{end}",
-  "en": "Dアベノセイメイ{end}",
+  "en": "[0026]Abe no Seimei{end}",
   "max": 18
  },
  {
   "id": "BM:0B12A2",
   "jp": "Hエレジー{end}",
-  "en": "Hエレジー{end}",
+  "en": "[002A]Elegy{end}",
   "max": 14
  },
  {
   "id": "BM:0B12B6",
   "jp": "Lタカジョー{end}",
-  "en": "Lタカジョー{end}",
+  "en": "[002E]Takajo{end}",
   "max": 14
  },
  {
   "id": "BM:0B12CA",
   "jp": "eキングケルベロス{end}",
-  "en": "eキングケルベロス{end}",
+  "en": "[0041]King Cerberus{end}",
   "max": 20
  },
  {
   "id": "BM:0B12DE",
   "jp": "Uナガヒサ{end}",
-  "en": "Uナガヒサ{end}",
+  "en": "[0037]Nagahisa{end}",
   "max": 14
  },
  {
   "id": "BM:0B1306",
   "jp": "jルシファー{end}",
-  "en": "jルシファー{end}",
+  "en": "[0046]Lucifer{end}",
   "max": 14
  },
  {
   "id": "BM:0B131A",
   "jp": "pゲンシテンソン{end}",
-  "en": "pゲンシテンソン{end}",
+  "en": "[004C]Genshi Tenson{end}",
   "max": 18
  },
  {
   "id": "BM:0B132E",
   "jp": "tカズマ{end}",
-  "en": "tカズマ{end}",
+  "en": "[0050]Kazuma{end}",
   "max": 10
  },
  {
   "id": "BM:0B1356",
   "jp": "ぉヘラ{end}",
-  "en": "ぉヘラ{end}",
+  "en": "[005F]Hera{end}",
   "max": 10
  },
  {
@@ -660,31 +660,31 @@
  {
   "id": "BM:0B2348",
   "jp": "xダスト{end}",
-  "en": "xダスト{end}",
+  "en": "[0054]Dust{end}",
   "max": 12
  },
  {
   "id": "BM:0B265C",
   "jp": "G歯▼ガルム２{end}",
-  "en": "G歯▼ガルム２{end}",
+  "en": "[0029][0218][00A7]Garm 2{end}",
   "max": 16
  },
  {
   "id": "BM:0B2684",
   "jp": "▼ガルム３{end}",
-  "en": "▼ガルム３{end}",
+  "en": "[00A7]Garm 3{end}",
   "max": 12
  },
  {
   "id": "BM:0B26A6",
   "jp": "頭▲ソウタ{end}",
-  "en": "頭▲ソウタ{end}",
+  "en": "[0204][00A6]Souta{end}",
   "max": 14
  },
  {
   "id": "BM:0B26CC",
   "jp": "▲ソウタ{end}",
-  "en": "▲ソウタ{end}",
+  "en": "[00A6]Souta{end}",
   "max": 12
  },
  {

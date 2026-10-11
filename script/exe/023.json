@@ -2,127 +2,127 @@
  {
   "id": "NM:0CB098",
   "jp": "交換します{n}よろしいですか？{end}",
-  "en": "",
+  "en": "will be traded.{n}Is that OK?{end}",
   "max": 32
  },
  {
   "id": "NM:0CB0B8",
   "jp": "交換をやめます{n}いいですか？{end}",
-  "en": "",
+  "en": "Quit the trade.{n}Is that OK?{end}",
   "max": 32
  },
  {
   "id": "NM:0CB0D8",
   "jp": "交換前にセーブします{n}ここでセーブした後に{n}メモリーカードを抜いたり{n}でんげんを切ったりすると{n}出した仲魔がいなくなるので{n}注意してください{end}",
-  "en": "",
+  "en": "Saving before the trade.{n}If you pull the Memory{n}Card or turn the power{n}off after saving here,{n}the ally you sent will{n}be lost. Be careful!{end}",
   "max": 144
  },
  {
   "id": "NM:0CB168",
   "jp": "１Pが交換に出す仲魔を選んでください{end}",
-  "en": "",
+  "en": "1P, choose an ally to trade.{end}",
   "max": 40
  },
  {
   "id": "NM:0CB190",
   "jp": "２Pが交換に出す仲魔を選んでください{end}",
-  "en": "",
+  "en": "2P, choose an ally to trade.{end}",
   "max": 40
  },
  {
   "id": "NM:0CB1B8",
   "jp": "１Pは{name}を{n}もらいました{end}",
-  "en": "",
+  "en": "1P received{n}{name}.{end}",
   "max": 28
  },
  {
   "id": "NM:0CB1D4",
   "jp": "２Pは{name}を{n}もらいました{end}",
-  "en": "",
+  "en": "2P received{n}{name}.{end}",
   "max": 28
  },
  {
   "id": "NM:0CB1F0",
   "jp": "もう一度交換しますか？{end}",
-  "en": "",
+  "en": "Trade once more?{end}",
   "max": 24
  },
  {
   "id": "NM:0CB238",
   "jp": "交換前にセーブします{end}",
-  "en": "",
+  "en": "Saving before trade.{end}",
   "max": 24
  },
  {
   "id": "NM:0CB250",
   "jp": "交換けっかをセーブします{end}",
-  "en": "",
+  "en": "Saving trade results.{end}",
   "max": 28
  },
  {
   "id": "NM:0CB26C",
   "jp": "続けて交換しますか？{end}",
-  "en": "",
+  "en": "Trade again?{end}",
   "max": 24
  },
  {
   "id": "NM:0CB284",
   "jp": "１Pが対戦に使うネットライザーを{n}選んでください{end}",
-  "en": "",
+  "en": "1P, choose the Net Riser{n}to use in battle.{end}",
   "max": 52
  },
  {
   "id": "NM:0CB2B8",
   "jp": "２Pが対戦に使うネットライザーを{n}選んでください{end}",
-  "en": "",
+  "en": "2P, choose the Net Riser{n}to use in battle.{end}",
   "max": 52
  },
  {
   "id": "NM:0CB2EC",
   "jp": "でいいですか？{end}",
-  "en": "",
+  "en": " - OK?{end}",
   "max": 16
  },
  {
   "id": "NM:0CB2FC",
   "jp": "対戦を始める前にセーブします{end}",
-  "en": "",
+  "en": "Saving before the battle.{end}",
   "max": 32
  },
  {
   "id": "NM:0CB31C",
   "jp": "※※ネットライザーせんたく※※{end}",
-  "en": "",
+  "en": "**Net Riser Select**{end}",
   "max": 32
  },
  {
   "id": "NM:0CB33C",
   "jp": "続けて対戦しますか？{end}",
-  "en": "",
+  "en": "Battle again?{end}",
   "max": 24
  },
  {
   "id": "NM:0CB354",
   "jp": "対戦をやめて{n}ウェブネットにもどりますか？{end}",
-  "en": "",
+  "en": "Quit battling and{n}return to Webnet?{end}",
   "max": 44
  },
  {
   "id": "NM:0CB380",
   "jp": "このライザーには{n}仲魔がいません！{end}",
-  "en": "",
+  "en": "This Riser has{n}no allies!{end}",
   "max": 36
  },
  {
   "id": "NM:0CB3AC",
   "jp": "どれかボタンをおしてください　　{end}",
-  "en": "",
+  "en": "Press any button.{end}",
   "max": 36
  },
  {
   "id": "NM:0CB3D0",
   "jp": "{name}の勝利！！{end}",
-  "en": "",
+  "en": "{name} wins!!{end}",
   "max": 16
  },
  {
@@ -132,49 +132,49 @@
  {
   "id": "NM:0CB42E",
   "jp": "バトル・{speed:001E}・{speed:001E}・{speed:001E}スタート！{speed:003C}{end}",
-  "en": "",
+  "en": "Battle.{speed:001E}.{speed:001E}.{speed:001E}Start!{speed:003C}{end}",
   "max": 42
  },
  {
   "id": "NM:0CB46C",
   "jp": "どれかボタンをおしてください{end}",
-  "en": "",
+  "en": "Press any button.{end}",
   "max": 32
  },
  {
   "id": "NM:0CB48E",
   "jp": "そこは選べません{end}",
-  "en": "",
+  "en": "Can't pick that.{end}",
   "max": 18
  },
  {
   "id": "NM:0CB4A2",
   "jp": "この仲魔はすでにいます{end}",
-  "en": "",
+  "en": "Ally's already out.{end}",
   "max": 26
  },
  {
   "id": "NM:0CB4BE",
   "jp": "この仲魔は訓練中です{end}",
-  "en": "",
+  "en": "Ally is training.{end}",
   "max": 22
  },
  {
   "id": "NM:0CB4D6",
   "jp": "仲魔がいません{end}",
-  "en": "",
+  "en": "No allies.{end}",
   "max": 18
  },
  {
   "id": "NM:0CB4EA",
   "jp": "キゼツしている　仲魔は{n}　選べません！{end}",
-  "en": "",
+  "en": "Fainted allies{n}can't be chosen!{end}",
   "max": 42
  },
  {
   "id": "NM:0CB516",
   "jp": "やめます　いいですか？{end}",
-  "en": "",
+  "en": "Quit. Is that OK?{end}",
   "max": 26
  },
  {
@@ -184,55 +184,55 @@
  {
   "id": "NM:0CB54E",
   "jp": "パートナーは選べません{end}",
-  "en": "",
+  "en": "Can't pick partner.{end}",
   "max": 26
  },
  {
   "id": "NM:0CB568",
   "jp": "このライザーをリセットして{n}へんしゅうし直しますか？{end}",
-  "en": "",
+  "en": "Reset this Riser and{n}edit it again?{end}",
   "max": 56
  },
  {
   "id": "NM:0CB5A0",
   "jp": "スロット１に{n}メモリーカードが{n}正しくさしこまれて{n}いません{end}",
-  "en": "",
+  "en": "The Memory Card{n}in Slot 1 isn't{n}inserted properly.{end}",
   "max": 64
  },
  {
   "id": "NM:0CB5E0",
   "jp": "スロット１の{n}メモリーカードの{n}チェック中に{n}エラーが起きました{end}",
-  "en": "",
+  "en": "An error occurred{n}while checking the{n}Memory Card{n}in Slot 1.{end}",
   "max": 68
  },
  {
   "id": "NM:0CB832",
   "jp": "登。　常。こうげきコンボ：{ed}{end}",
-  "en": "",
+  "en": "[0200][0001][0000][0100][0001]Attack Combo:{ed}{end}",
   "max": 30
  },
  {
   "id": "NM:0CB850",
   "jp": "変化コンボ：{ed}{end}",
-  "en": "",
+  "en": "Status Combo:{ed}{end}",
   "max": 16
  },
  {
   "id": "NM:0CB860",
   "jp": "回復コンボ：{ed}{end}",
-  "en": "",
+  "en": "Heal Combo:{ed}{end}",
   "max": 16
  },
  {
   "id": "NM:0CB870",
   "jp": "Pダウンコンボ：{ed}{end}",
-  "en": "",
+  "en": "Stat Down Combo:{ed}{end}",
   "max": 20
  },
  {
   "id": "NM:0CB884",
   "jp": "Pアップコンボ：{ed}{end}",
-  "en": "",
+  "en": "Stat Up Combo:{ed}{end}",
   "max": 20
  },
  {
@@ -242,139 +242,139 @@
  {
   "id": "NM:0CB8A8",
   "jp": "復活コンボ：{ed}{end}",
-  "en": "",
+  "en": "Revive Combo:{ed}{end}",
   "max": 16
  },
  {
   "id": "NM:0CB8B8",
   "jp": "ガルルゥーー！{end}",
-  "en": "",
+  "en": "Grrrrrr!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB8D0",
   "jp": "この一撃を受けてみろ！{end}",
-  "en": "",
+  "en": "Take this blow!{end}",
   "max": 24
  },
  {
   "id": "NM:0CB8E8",
   "jp": "負けませんわよ！{end}",
-  "en": "",
+  "en": "I shan't lose!{end}",
   "max": 20
  },
  {
   "id": "NM:0CB8FC",
   "jp": "これでも食らえ！{end}",
-  "en": "",
+  "en": "Eat this!{end}",
   "max": 20
  },
  {
   "id": "NM:0CB910",
   "jp": "ガツンと行くよ！{end}",
-  "en": "",
+  "en": "Hit 'em hard!{end}",
   "max": 20
  },
  {
   "id": "NM:0CB924",
   "jp": "オラァ！{end}",
-  "en": "",
+  "en": "Raaah!{end}",
   "max": 12
  },
  {
   "id": "NM:0CB930",
   "jp": "このヤロー！{end}",
-  "en": "",
+  "en": "Why you--!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB940",
   "jp": "クラエ！{f6}！{end}",
-  "en": "",
+  "en": "TAKE {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB960",
   "jp": "{f6}だ！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 8
  },
  {
   "id": "NM:0CB968",
   "jp": "{f6}です！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 12
  },
  {
   "id": "NM:0CB974",
   "jp": "エイっ！{f6}！{end}",
-  "en": "",
+  "en": "Hyah! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB984",
   "jp": "イケっ！{f6}！{end}",
-  "en": "",
+  "en": "Go! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB994",
   "jp": "食らえ！{f6}！{end}",
-  "en": "",
+  "en": "Eat {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CB9A4",
   "jp": "{f6}よ！{end}",
-  "en": "",
+  "en": "{f6}!{end}",
   "max": 8
  },
  {
   "id": "NM:0CB9AC",
   "jp": "変化：　{f6}{end}",
-  "en": "",
+  "en": "Status: {f6}{end}",
   "max": 12
  },
  {
   "id": "NM:0CB9B8",
   "jp": "回復：　{f6}{end}",
-  "en": "",
+  "en": "Heal: {f6}{end}",
   "max": 12
  },
  {
   "id": "NM:0CB9C4",
   "jp": "ダウン：　{f6}{end}",
-  "en": "",
+  "en": "Down: {f6}{end}",
   "max": 16
  },
  {
   "id": "NM:0CB9D4",
   "jp": "アップ：　{f6}{end}",
-  "en": "",
+  "en": "Up: {f6}{end}",
   "max": 16
  },
  {
   "id": "NM:0CB9E4",
   "jp": "カイフク！{f6}！{end}",
-  "en": "",
+  "en": "HEAL! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBA04",
   "jp": "回復！{f6}！{end}",
-  "en": "",
+  "en": "Heal! {f6}!{end}",
   "max": 12
  },
  {
   "id": "NM:0CBA10",
   "jp": "治って！{f6}！{end}",
-  "en": "",
+  "en": "Get well! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBA20",
   "jp": "えいっ、{f6}！{end}",
-  "en": "",
+  "en": "Here! {f6}!{end}",
   "max": 16
  },
  {
@@ -384,169 +384,169 @@
  {
   "id": "NM:0CBA50",
   "jp": "フッカツ！{f6}！{end}",
-  "en": "",
+  "en": "REVIVE! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBA70",
   "jp": "復活せよ！{f6}！{end}",
-  "en": "",
+  "en": "Arise! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBA80",
   "jp": "復活よ！{f6}！{end}",
-  "en": "",
+  "en": "Revive! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBA90",
   "jp": "復活！{f6}！{end}",
-  "en": "",
+  "en": "Live! {f6}!{end}",
   "max": 12
  },
  {
   "id": "NM:0CBA9C",
   "jp": "復活して！{f6}！{end}",
-  "en": "",
+  "en": "Come back! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBAAC",
   "jp": "復活しろ！{f6}！{end}",
-  "en": "",
+  "en": "Get up! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBABC",
   "jp": "復活しな！{f6}！{end}",
-  "en": "",
+  "en": "Up you go! {f6}!{end}",
   "max": 16
  },
  {
   "id": "NM:0CBACC",
   "jp": "{name}！全力で行け！{end}",
-  "en": "",
+  "en": "{name}! Go all out!{end}",
   "max": 20
  },
  {
   "id": "NM:0CBAE0",
   "jp": "{name}の力を見せろ！{end}",
-  "en": "",
+  "en": "Show 'em, {name}!{end}",
   "max": 20
  },
  {
   "id": "NM:0CBAF4",
   "jp": "がんばってくれ、{name}！{end}",
-  "en": "",
+  "en": "Do your best, {name}!{end}",
   "max": 24
  },
  {
   "id": "NM:0CBB0C",
   "jp": "{name}！オマエがたよりだ！{end}",
-  "en": "",
+  "en": "{name}! I'm counting on you!{end}",
   "max": 24
  },
  {
   "id": "NM:0CBB24",
   "jp": "{name}、オマエの番だ！{end}",
-  "en": "",
+  "en": "{name}, your turn!{end}",
   "max": 20
  },
  {
   "id": "NM:0CBB38",
   "jp": "まかせたぞ、{name}！{end}",
-  "en": "",
+  "en": "It's up to you, {name}!{end}",
   "max": 20
  },
  {
   "id": "NM:0CBB4C",
   "jp": "行け！{name}！{end}",
-  "en": "",
+  "en": "Go! {name}!{end}",
   "max": 12
  },
  {
   "id": "NM:0CBB58",
   "jp": "{name}、ゆだんするな！{end}",
-  "en": "",
+  "en": "{name}, stay sharp!{end}",
   "max": 20
  },
  {
   "id": "NM:0CBB6C",
   "jp": "{name}が負けるなんて・・・{end}",
-  "en": "",
+  "en": "No way {name} lost...{end}",
   "max": 24
  },
  {
   "id": "NM:0CBB84",
   "jp": "{name}じゃダメなのか？{end}",
-  "en": "",
+  "en": "{name} isn't enough?{end}",
   "max": 20
  },
  {
   "id": "NM:0CBB98",
   "jp": "しまった！ゆだんしたか・・・{end}",
-  "en": "",
+  "en": "Oh no! I got careless...{end}",
   "max": 32
  },
  {
   "id": "NM:0CBBB8",
   "jp": "なかなかあなどれないな{end}",
-  "en": "",
+  "en": "Not bad at all...{end}",
   "max": 24
  },
  {
   "id": "NM:0CBBD0",
   "jp": "・・・オボエテロヨ！{end}",
-  "en": "",
+  "en": "...JUST YOU WAIT!{end}",
   "max": 24
  },
  {
   "id": "NM:0CBBF8",
   "jp": "・・・今日はかんべんしてやる！{end}",
-  "en": "",
+  "en": "...I'll let you off today!{end}",
   "max": 32
  },
  {
   "id": "NM:0CBC18",
   "jp": "・・・おぼえておきなさい！！{end}",
-  "en": "",
+  "en": "...You'll regret this!!{end}",
   "max": 32
  },
  {
   "id": "NM:0CBC38",
   "jp": "・・・勝てっこないよ、サヨナラ！{end}",
-  "en": "",
+  "en": "...I can't win. Bye-bye!{end}",
   "max": 36
  },
  {
   "id": "NM:0CBC5C",
   "jp": "・・・また今度ね、バイバイ！{end}",
-  "en": "",
+  "en": "...Next time! Bye-bye!{end}",
   "max": 32
  },
  {
   "id": "NM:0CBC7C",
   "jp": "・・・やってらんねーや！んじゃ！{end}",
-  "en": "",
+  "en": "...I'm done with this! Later!{end}",
   "max": 36
  },
  {
   "id": "NM:0CBCA0",
   "jp": "・・・アイテにしてらんないわ！{end}",
-  "en": "",
+  "en": "...You're not worth my time!{end}",
   "max": 32
  },
  {
   "id": "NM:0CBCC0",
   "jp": "ぼうぎょ：　{f6}{end}",
-  "en": "",
+  "en": "Defense: {f6}{end}",
   "max": 16
  },
  {
   "id": "NM:0CBCD0",
   "jp": "ほじょ：　{f6}{end}",
-  "en": "",
+  "en": "Support: {f6}{end}",
   "max": 16
  },
  {
