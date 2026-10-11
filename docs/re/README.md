@@ -42,5 +42,25 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
 - B_EVENT occupies 0x80170000-0x801BC800; RAM after it is in use (map data) up to ~0x801F4000.
 - Zero areas seen in one state: 0x80148000-0x80158000, 0x801CE000-0x801D4000 (unverified as free).
 
+## English text design (asm/main.asm)
+- **Packed 16-bit English**: unit = 0x4000 | c1<<7 | c2 (two ASCII chars; c2=0 single). Every 16-bit copy loop,
+  fixed field and unit limit keeps working; the 16x16 draw loop (0x80033B14) unpacks pairs (pending char in
+  `pk_pend`) and draws glyph 0x100+c with per-glyph advance (VWF table `en_width`). Typing shows 2 chars/tick.
+- English glyphs: layer 1 codes 0x120-0x17E (kanji there are overwritten), art in `font/en16.txt`. The GPU
+  samples 1 row past a cell: row 0 of the cells under English glyphs is blanked by the build.
+- {num} digits patched to 0x100+ASCII (0x80034728).
+- 8x8 font (draw 0x80033920, windows from 0x8003486C, 14 callers): same code layout as the JP table (A=0x23...),
+  tpage at VRAM (768,256). Packed English there still needs an ASCII->code map in that loop (TODO).
+
+## Text call graph (B_MAIN)
+- 0x8003479C (215 callers in B_MAIN, 31 in B_BATTLE, 14 in B_EVENT): allocate a 16x16 text window (adv 12) and
+  copy the string with the expander. 0x8003486C: same for the 8x8 font. 0x8003493C: dialogue window.
+- Dialogue window face handler (code FFEF, 0x80033268): face 0 = hero name, 1 = partner, 2 = demon, else
+  label table (pointers at 0x800BE2D4, 200 entries, names 0x800BDDDC-), copied + "：" then 0x8003479C(x=16,y=0x9A).
+  The label occupies line 1 of the box -> 2 text lines per page.
+- Demon records: 0x800C6030 (file 0xB6830), stride 46, 277 entries, name = first 20 bytes (max 9 units + FFFF).
+- Overlays: B_EVENT and B_BATTLE both load at 0x80170000 (same slot) -> nothing may point into it from the EXE.
+- {f0} (FFF0) scrolls the box up one line; build turns it into a page break for English.
+
 ## Prior patch (cj_iwakura proto, 2026)
 Black Book menus only. Hooks the expander to read 8-bit text (jal 0x800CF900), digraph glyphs, redrawn menu label graphics.

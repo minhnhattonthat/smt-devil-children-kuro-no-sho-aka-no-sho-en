@@ -1,6 +1,6 @@
-; Engine hacks for B_MAIN.EXE (Black Book). Assembled by build.py with armips:
-;   armips asm/main.asm -strequ EXE <path> -strequ WIDTHS <path>
-; Addresses are B_MAIN RAM addresses (file offset + 0x8000F800). See docs/re/README.md.
+; Engine hacks for B_MAIN / R_MAIN / N_MAIN. Assembled by build.py with armips:
+;   armips asm/main.asm -strequ EXE <path> -strequ WIDTHS <path> -equ DRAW_HEAD <addr> -equ CAVE <addr> ...
+; Per-EXE addresses live in build.py (EXE_ADDR); comments quote B_MAIN values. See docs/re/README.md.
 ;
 ; English text is "packed": one halfword = two ASCII chars, 0x4000 | c1 << 7 | c2 (c2 = 0: single char).
 ; All game code that copies/measures 16-bit text keeps working; only the glyph draw loop splits pairs.
@@ -8,25 +8,26 @@
 .psx
 .open EXE, 0x8000F800
 
-CAVE        equ 0x800CF900   ; zero in the EXE image and in RAM during play (checked in two savestates)
-CAVE_END    equ 0x800CFCA4
-DRAW_HEAD   equ 0x80033B14   ; 16x16 string draw loop head (lhu a3,(a1))
-DRAW_HEAD2  equ 0x80033B1C   ; ...after "ori v0,zero,0xfffd"
-DRAW_ADV    equ 0x80033C10   ; ...after "addiu a1,a1,2; lw v1,(t6)"
-DRAW_NEXT   equ 0x80033B14
+; given: CAVE (B 0x800CF900, zero in the image and in RAM during play), CAVE_END, DRAW_HEAD (B 0x80033B14,
+; 16x16 draw loop head "lhu a3,(a1)"), NUM_SITE (B 0x80034728, {num} digit "addiu v0,v0,-0x17")
+DRAW_HEAD2  equ DRAW_HEAD + 8      ; after "ori v0,zero,0xfffd"
+ADV_SITE    equ DRAW_HEAD + 0xF4   ; "addiu a1,a1,2"
+DRAW_ADV    equ ADV_SITE + 8
+VWF_SITE    equ DRAW_HEAD + 0x114  ; "lbu v0,8(t5)" (advance)
+DRAW_NEXT   equ DRAW_HEAD
 
 ; --- 16x16 draw loop: unpack pairs at the loop head; advance the string only after a pair's second char.
 .org DRAW_HEAD
     j       pk_head             ; delay slot: original "ori v0,zero,0xfffd"
-.org 0x80033C08
+.org ADV_SITE
     j       pk_adv              ; delay slot: original "lw v1,(t6)"
 
 ; --- VWF: per-glyph advance for codes 0x100-0x1FF (English at 0x100+ASCII), else the font struct's +8 byte.
-.org 0x80033C28
+.org VWF_SITE
     j       vwf_adv             ; delay slot keeps the original "addiu t3,t3,0x28"
 
 ; --- Number insertion ({num}): emit English digits (0x100+ASCII) instead of full-width (ASCII-0x17).
-.org 0x80034728
+.org NUM_SITE
     addiu   v0, v0, 0x100
 
 .org CAVE

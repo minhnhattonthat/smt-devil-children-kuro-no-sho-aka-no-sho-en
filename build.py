@@ -92,10 +92,18 @@ def build_font(files):
     (BUILD / 'en_width.bin').write_bytes(widths)
 
 
+EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
+    'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFCA4},
+    'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800D0064},
+    'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCFF0},
+}
+
+
 def build_exe(files, name):
     shutil.copy(TREE / name, files / name)
+    eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
-                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin')], capture_output=True, text=True)
+                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin')] + eq, capture_output=True, text=True)
     if r.returncode:
         sys.exit('armips failed:\n' + r.stdout + r.stderr)
 
@@ -164,8 +172,10 @@ def build(mode='normal'):
         shutil.rmtree(files)
     files.mkdir(parents=True)
     build_font(files)
-    build_exe(files, 'B_MAIN.EXE')
+    for exe in EXE_ADDR:
+        build_exe(files, exe)
     build_event(files, 'B', 'B_EVENT.BIN', mode)
+    build_event(files, 'R', 'R_EVENT.BIN', mode)
     overrides = {p.name: p for p in files.iterdir()}
     make_disc(overrides, BUILD / 'dc_en.bin')
     print('built', BUILD / 'dc_en.bin')
