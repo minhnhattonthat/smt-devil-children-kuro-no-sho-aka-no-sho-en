@@ -27,7 +27,7 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
 # green-keyed "disabled Continue" sprite: the game draws it exactly over menu line 2 ('match' = that edit's index)
 STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite', 'match': 2}
 TITLE_B = [
-    {'kind': 'logo', 'box': (12, 72, 196, 141), 'sub_box': (58, 46, 145, 77), 'text': ('DEVIL', 'CHILDREN'),
+    {'kind': 'logo', 'box': (2, 72, 196, 141), 'sub_box': (58, 46, 145, 77), 'text': ('DEVIL', 'CHILDREN'),
      'text_box': (14, 74, 188, 140), 'sub': [(54, 57, 'Shin Megami Tensei')]},
     {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
     {'box': (16, 186, 84, 205), 'text': 'New Game', 'kind': 'pixel'},
@@ -178,8 +178,10 @@ def edit_logo(im, e):
     red = {q for q, (h, s, v) in hsv.items() if s > 0.5 and v > 0.3 and (h < 12 / 360 or h > 340 / 360)
            and sx0 <= q[0] < sx1 and sy0 <= q[1] < sy1}
     if 'ref' not in e:
-        dark = {q for q in grow(fill, 6, box) if hsv[q][2] < 0.6 and hsv[q][1] < 0.3}
+        dark = {q for q in grow(fill, 8, box) if hsv[q][2] < 0.6 and hsv[q][1] < 0.5}
         logo = ((warm & grow(fill, 3, box)) | dark) - white
+        for q in [q for q in hsv if q[0] < e['text_box'][0] + 5 and e['text_box'][1] <= q[1] < e['text_box'][3]]:
+            px[q] = px[(x0, q[1])]  # left margin of the logo: plain background
         LOGO.update({q: px[q] for q in logo})
     else:  # same katakana artwork shifted (the kanji line is not): logo where Black's logo colour is still there
         dx, dy = e['ref']
@@ -231,7 +233,7 @@ def edit_logo(im, e):
         for q in m:
             draw[q] = grad[min(len(grad) - 1, (q[1] - ly) * len(grad) // lh)]
     for q, c in draw.items():
-        if q not in protect:
+        if q not in protect or q[0] < tx0 + 10:  # left edge: logo wins over stray character pixels
             px[q] = c
     for x, y, s in e['sub']:
         draw_pixel_text(im, x, y, s, ink, (24, 8, 16))
