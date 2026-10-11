@@ -622,13 +622,13 @@
  {
   "id": "BM:09A6CC",
   "jp": "ボタン／カナきりかえ{end}",
-  "en": "Button/Katakana{end}",
+  "en": ":Lowercase{end}",
   "max": 22
  },
  {
   "id": "BM:09A6E2",
   "jp": "ボタン／かなきりかえ{end}",
-  "en": "Button/Hiragana{end}",
+  "en": ":Uppercase{end}",
   "max": 22
  },
  {
