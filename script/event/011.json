@@ -2,401 +2,401 @@
  {
   "id": "B:371D0",
   "jp": "{voice:067F}魔界の旅もあまくはないのだ！{wait}{page}{voice:0680}仲魔を合体で強くし{n}戦いを続けよ！{wait}{end}",
-  "en": ""
+  "en": "{voice:067F}The journey through Makai is no cakewalk!{wait}{page}{voice:0680}Make your allies stronger through fusion and keep on fighting!{wait}{end}"
  },
  {
   "id": "B:37220",
   "jp": "ちょっと待てっ！{wait}{page}ここから先は立ち入り禁止だ！{wait}{end}",
-  "en": ""
+  "en": "Hold it right there!{wait}{page}No one goes past this point!{wait}{end}"
  },
  {
   "id": "B:37254",
   "jp": "{ee}今、おれたちは{n}大魔王様のめいれいで{wait}{f0}特別な人間のこどもを{f0}探しているんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Right now, on the Great Demon King's orders,{wait}{f0}we're searching{f0}for a special human kid.{wait}{end}"
  },
  {
   "id": "B:372A8",
   "jp": "{face:0011}あっ！それメシアのツノだよね{n}あたし、それを盗もうとしたけど{wait}{f0}フェンリルに見つかっちゃって{wait}{page}それがあれば別の魔界に{n}行く事ができるのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Oh! That's a Messiah Horn, isn't it! I tried to swipe it, but{wait}{f0}Fenrir caught me.{wait}{page}With that thing, you can go to another Makai world!{wait}{end}"
  },
  {
   "id": "B:3733C",
   "jp": "{face:0011}それを使って早く逃げなさいよ{wait}{n}じゃあ、あたし家に帰るから{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Hurry up and use it to get outta here!{wait}{n}Well, I'm heading home now.{wait}{end}"
  },
  {
   "id": "B:37380",
   "jp": "いらっしゃいませ！{wait}{page}ここはデビルのかんりをする{n}ヴィネセンターです{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is the Vine Center, where we look after Devils.{wait}{end}"
  },
  {
   "id": "B:373C8",
   "jp": "いらっしゃいませ！{n}ご注文は何になさいますか？{wait}{end}",
-  "en": ""
+  "en": "Welcome! What would you like to order?{wait}{end}"
  },
  {
   "id": "B:373FC",
   "jp": "{face:003A}ここは仲魔の合体を行う{n}怪しい館だ{wait}{f0}仲魔を合体させるのか？{wait}{end}",
-  "en": ""
+  "en": "{face:003A}This is the Mysterious Mansion, where allies get fused.{wait}{f0}You wanna fuse some allies?{wait}{end}"
  },
  {
   "id": "B:37440",
   "jp": "いらっしゃいませ！{wait}{page}ここはマッカをおあずかりする{n}銀行です{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is the bank, where we keep your Macca safe.{wait}{end}"
  },
  {
   "id": "B:37480",
   "jp": "{face:003B}ここは仲魔をきたえる{n}訓練所ネ{wait}{page}仲魔をあずけて行かないかい？{wait}{end}",
-  "en": ""
+  "en": "{face:003B}This is the training ground, where allies get trained.{wait}{page}Why not leave some allies with me?{wait}{end}"
  },
  {
   "id": "B:374C8",
   "jp": "いらっしゃいませ！{wait}{page}ここはケガをしたデビルを治す{n}ちりょう屋です{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is the clinic, where we heal injured Devils.{wait}{end}"
  },
  {
   "id": "B:37510",
   "jp": "いらっしゃいませ！{wait}{page}ここではいろいろなアイテムを{n}取りそろえております{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}We carry all kinds of items.{wait}{end}"
  },
  {
   "id": "B:3755C",
   "jp": "いらっしゃいませ！{wait}{page}ここはドラッグストアです{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is the drugstore.{wait}{end}"
  },
  {
   "id": "B:37590",
   "jp": "いらっしゃいませ！{wait}{page}おとまりになりますか？{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}Will you be staying the night?{wait}{end}"
  },
  {
   "id": "B:375C0",
   "jp": "電話がある！{wait}{n}使ってみよう・・・{wait}{end}",
-  "en": ""
+  "en": "There's a phone!{wait}{n}Let's try using it...{wait}{end}"
  },
  {
   "id": "B:375E8",
   "jp": "はんばいきがある！{wait}{n}何か買うか・・・{wait}{end}",
-  "en": ""
+  "en": "There's a vending machine!{wait}{n}Should I buy something...?{wait}{end}"
  },
  {
   "id": "B:37614",
   "jp": "パソコンがある！{wait}{n}ヴィネセンターにアクセスできるぞ{wait}{end}",
-  "en": ""
+  "en": "There's a computer!{wait}{n}I can access the Vine Center with it!{wait}{end}"
  },
  {
   "id": "B:3764C",
   "jp": "いらっしゃいませ！{wait}{page}ここはメダルはんばい所です{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is where we sell medals.{wait}{end}"
  },
  {
   "id": "B:37680",
   "jp": "いらっしゃいませ！{wait}{page}ここはけいひん交換所です{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}This is the prize exchange.{wait}{end}"
  },
  {
   "id": "B:376B4",
   "jp": "いらっしゃいませ！{wait}{page}ここではメダルをかけて{n}ゲームができます{wait}{end}",
-  "en": ""
+  "en": "Welcome!{wait}{page}Here you can bet medals and play games.{wait}{end}"
  },
  {
   "id": "B:376F8",
   "jp": "{ee}{face:0011}もういいの？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0011}All done?{wait}{end}"
  },
  {
   "id": "B:37710",
   "jp": "{face:0011}ねえっ！それじゃあ行くわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Okay! Then let's go!{wait}{end}"
  },
  {
   "id": "B:37734",
   "jp": "{ee}カウンターの上の{n}パソコンにアクセスすると{wait}{f0}ヴィネセンターにつながるよ{wait}{page}試してみたらどうだい！{wait}{end}",
-  "en": ""
+  "en": "{ee}If you access the computer on the counter,{wait}{f0}it'll connect you to the Vine Center.{wait}{page}Why not give it a try!{wait}{end}"
  },
  {
   "id": "B:3779C",
   "jp": "{face:0011}アッ！それからここにいるのは{n}ワタシの仲間のダストよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Oh! And this here is my buddy, Dust!{wait}{end}"
  },
  {
   "id": "B:377DC",
   "jp": "{face:0011}ダスト！たのんだわよ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Dust! I'm counting on you!!{wait}{end}"
  },
  {
   "id": "B:377FC",
   "jp": "{ee}{face:0012}ダイアナに聞いたぜ{n}大変だったらしいな！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0012}Diana told me about you. Sounds like you had a rough time!{wait}{end}"
  },
  {
   "id": "B:37830",
   "jp": "{face:0011}アーッ！来ちゃったんだ！{n}ドーシテおとなしく待ってないの！{wait}{f0}マジ、ヤバイヨー！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Aaah! You came here!? Why didn't you just wait quietly!?{wait}{f0}This is, like, sooo bad!!{wait}{end}"
  },
  {
   "id": "B:3788C",
   "jp": "{face:0011}大魔王のめいれいで{n}デビルチルドレンがあなたたちを{wait}{f0}追っかけてるんだって！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}The Great Demon King ordered a Devil Child{wait}{f0}to come chasing after you guys!!{wait}{end}"
  },
  {
   "id": "B:378E4",
   "jp": "{face:0011}モーッ！じれったいなー！！{n}デビルチルドレンったらね{wait}{f0}このワタシがビビッちゃうほど{f0}おっかないヤツなんだからねっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Ugh! You're driving me nuts!! That Devil Child, y'know,{wait}{f0}is so super scary that{f0}even I get the jitters!{wait}{end}"
  },
  {
   "id": "B:37960",
   "jp": "{face:0011}アーッ！どうしよーっ！！{wait}{n}こうなったらアイスランドじゃあ{wait}{f0}どこにいたってチョーヤバイよ！{f0}エーッと、エーッと・・！？！？{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Aaah! What do I do!?{wait}{n}At this rate, anywhere in Ice Land{wait}{f0}is gonna be mega-dangerous!{f0}Umm, umm...!?!?{wait}{end}"
  },
  {
   "id": "B:379E4",
   "jp": "{face:0011}ソウダッ！！アレがあった！！{wait}{n}アレさえあればアイスランドから{f0}逃げちゃう事もできるよ！{wait}{f0}あなたたちチョット待っててよ！{f0}ほんのチョットだからさ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}That's it!! I've got just the thing!!{wait}{n}With that, you could even{f0}escape from Ice Land!{wait}{f0}You guys wait right here!{f0}It'll only take a sec!!{wait}{end}"
  },
  {
   "id": "B:37A84",
   "jp": "{ee}フロストタウンにようこそ{wait}{page}魔王ヘルの城エリューズニルは{n}この街の北にあるホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Welcome to Frost Town.{wait}{page}Demon Lord Hel's castle, Eljudnir, is north of this town-ho.{wait}{end}"
  },
  {
   "id": "B:37AD8",
   "jp": "{ee}{face:0007}やあっ！{name}か{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}Hey! It's {name}!{wait}{end}"
  },
  {
   "id": "B:37AF0",
   "jp": "{face:0007}{voice:00AE}どうだい？魔界の旅は・・・？{wait}{n}{voice:00AF}エッ！？デビルチルドレン！？{wait}{page}{voice:00B0}そうか・・・、キミはまだ{n}知らなかったんだったね・・・{wait}{page}{voice:00B1}デビルチルドレンというのは{wait}{page}{voice:00B2}デビルと人間の間にできた{n}ハーフデビルの事さ{wait}{page}{voice:00B3}めったに現れる事はないが{wait}{page}{voice:00B4}世界をほろぼすパワーをひめた{n}伝説のソンザイなのさ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:00AE}So, how's your journey in Makai...?{wait}{n}{voice:00AF}Huh!? Devil Children!?{wait}{page}{voice:00B0}I see... So you didn't know yet...{wait}{page}{voice:00B1}A Devil Child is{wait}{page}{voice:00B2}a half-Devil, born between a Devil and a human.{wait}{page}{voice:00B3}They hardly ever appear, but{wait}{page}{voice:00B4}they're legendary beings with the hidden power to destroy the world.{wait}{end}"
  },
  {
   "id": "B:37C2C",
   "jp": "{face:0007}{voice:00C1}サンドランドは魔界の１つさ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:00C1}Sand Land is one of the Makai worlds.{wait}{end}"
  },
  {
   "id": "B:37C54",
   "jp": "{face:002C}オレが魔王ヘルにつき出したよ{wait}{n}今ごろはヘルが自分で{f0}取り調べをしてるだろうよ{wait}{f0}早く助けてやった方がいいぜ{wait}{end}",
-  "en": ""
+  "en": "{face:002C}I handed her over to Demon Lord Hel.{wait}{n}By now, Hel's probably{f0}questioning her personally.{wait}{f0}You'd better hurry and save her.{wait}{end}"
  },
  {
   "id": "B:37CC8",
   "jp": "{face:002C}ケルベロス！お前とは{n}今度会った時が勝負だ！{wait}{f0}それまで元気でいろよ！{wait}{end}",
-  "en": ""
+  "en": "{face:002C}Cerberus! Next time we meet, we settle this!{wait}{f0}Stay in one piece till then!{wait}{end}"
  },
  {
   "id": "B:37D18",
   "jp": "{face:0000}この先が魔王ヘルの部屋か！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Demon Lord Hel's room is up ahead!{wait}{end}"
  },
  {
   "id": "B:37D3C",
   "jp": "フフフッ、アタシハユキオンナ{n}仲魔ニ、ナッテアゲルワ{wait}{end}",
-  "en": ""
+  "en": "Hee hee hee, I am Yuki-onna. I will become your ally.{wait}{end}"
  },
  {
   "id": "B:37D74",
   "jp": "力がみちあふれて来た{wait}{end}",
-  "en": ""
+  "en": "Power is surging through you!{wait}{end}"
  },
  {
   "id": "B:37D8C",
   "jp": "{ee}デビライザーに入らなかった{n}仲魔はここで入れ替えできるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Allies that didn't fit in your Deviliser can be swapped in here.{wait}{end}"
  },
  {
   "id": "B:37DCC",
   "jp": "{ee}{face:003B}仲魔をここにあずけたら{n}何回か戦ってから{wait}{f0}引き取りに来るといいネ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003B}Once you leave allies here, fight a few battles,{wait}{f0}then come back to pick them up.{wait}{end}"
  },
  {
   "id": "B:37E18",
   "jp": "{ee}ヒーホー！{n}戦いを続けて{wait}{f0}{name}の{f0}レベルがあがると、敵にあたえる{wait}{f0}ダメージが上がっていくんだホー！{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! If you keep on fighting{wait}{f0}and {name}'s{f0}level goes up, the damage you deal{wait}{f0}to enemies goes up too-ho!{wait}{end}"
  },
  {
   "id": "B:37E84",
   "jp": "{ee}いざという時のためにアイテムは{n}持ってた方がいいホー{wait}{end}",
-  "en": ""
+  "en": "{ee}You'd better carry items for emergencies-ho.{wait}{end}"
  },
  {
   "id": "B:37EC0",
   "jp": "{ee}うっうっ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Sniff... sniff!{wait}{end}"
  },
  {
   "id": "B:37ED0",
   "jp": "お　わ　り　{wait}{end}",
-  "en": ""
+  "en": "T H E   E N D{wait}{end}"
  },
  {
   "id": "B:37EE0",
   "jp": "きず薬を見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found some Medicine!{wait}{end}"
  },
  {
   "id": "B:37EF8",
   "jp": "チャクラドリンクを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found a Chakra Drink!{wait}{end}"
  },
  {
   "id": "B:37F18",
   "jp": "デビライザーとヴィネコンだホー！{wait}{n}虹色のツノも欲しいホー！！{wait}{page}ミンナちょうだいホー{wait}{end}",
-  "en": ""
+  "en": "A Deviliser and a Vinecom-ho!{wait}{n}I want the Rainbow Horn too-ho!!{wait}{page}Gimme all of 'em-ho!{wait}{end}"
  },
  {
   "id": "B:37F74",
   "jp": "ざっしの間にお金が{n}はさんであった！！{wait}{page}お金を手に入れた！！{wait}{end}",
-  "en": ""
+  "en": "Some money was tucked between the pages of a magazine!!{wait}{page}Got some money!!{wait}{end}"
  },
  {
   "id": "B:37FB8",
   "jp": "{ee}ヒーホー{n}今、コイツに話してたんだけど{wait}{page}フロストタウンに行くとちゅうの{n}ドークツの中にユキオンナが{wait}{f0}かくれてるんだホー！{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! I was just telling this guy...{wait}{page}In the cave on the way to Frost Town,{wait}{f0}there's a Yuki-onna hiding-ho!{wait}{end}"
  },
  {
   "id": "B:3803C",
   "jp": "{face:0010}だが{name}よ！{wait}{page}この魔界を旅して{n}弟を探し出したとしても{wait}{page}大魔王がお前を倒そうとするかぎり{n}お前にとって安全な場所はないと思え！{wait}{page}フフフ、どこまで逃げられるものか{n}ゆっくりと見物させてもらおう{wait}{end}",
-  "en": ""
+  "en": "{face:0010}But hear me, {name}!{wait}{page}Even if you travel this Makai and find your little brother,{wait}{page}as long as the Great Demon King seeks your defeat, no place will ever be safe for you!{wait}{page}Heh heh heh... I shall enjoy watching how far you can run.{wait}{end}"
  },
  {
   "id": "B:38108",
   "jp": "{face:0000}{voice:00C9}おれが、デビルチルドレン・・？{wait}{page}{voice:00CA}いったい、どういう事だ・・・？{wait}{page}{voice:00CB}それに、おれを追いかけている{n}デビルチルドレンって誰だ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:00C9}Me... a Devil Child...?{wait}{page}{voice:00CA}What's that supposed to mean...?{wait}{page}{voice:00CB}And who's this Devil Child that's chasing me?{wait}{end}"
  },
  {
   "id": "B:38198",
   "jp": "{face:0001}まだダイアナを{n}助け出していないじゃないか！{wait}{page}この奥の部屋に決まってるぜ{wait}{n}早くイコーゼ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}We still haven't rescued Diana!{wait}{page}She's gotta be in the room back there.{wait}{n}C'mon, let's go!!{wait}{end}"
  },
  {
   "id": "B:38200",
   "jp": "{ee}さっきダイアナがお城から{n}出て行ったわ！{wait}{page}無事だったのね、ヨカッター{wait}{end}",
-  "en": ""
+  "en": "{ee}Diana just left the castle a little while ago!{wait}{page}She's safe! Thank goodness!{wait}{end}"
  },
  {
   "id": "B:3824C",
   "jp": "{ee}ダイアナなら家に{n}いるはずだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Diana should be at her house-ho.{wait}{end}"
  },
  {
   "id": "B:38274",
   "jp": "{ee}メシアのツノの色はね{n}そのツノで行ける魔界の色を{wait}{f0}教えているんだホー{wait}{page}あんたのは金色だから{n}マーブルランドに行けるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}The color of a Messiah Horn, see,{wait}{f0}tells you the color of the Makai it can take you to-ho.{wait}{page}Yours is gold, so it'll take you to Marble Land-ho!{wait}{end}"
  },
  {
   "id": "B:382F8",
   "jp": "{face:0012}おうっ！戻って来たか！{n}ダイアナを助けてくれたって！{wait}{f0}ありがとよっ！{wait}{page}ダイアナはすぐに・・{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Oh! You're back! I hear you rescued Diana!{wait}{f0}Thanks a bunch!{wait}{page}Diana'll be right...{wait}{end}"
  },
  {
   "id": "B:38360",
   "jp": "{face:0011}大変だよーっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Big trouble!!{wait}{end}"
  },
  {
   "id": "B:38378",
   "jp": "{face:0011}・・・マジでヤバイわよ！！{n}あなたたち早く逃げなきゃ{wait}{f0}デビルチルドレンが来てるのよ！{wait}{page}あんな恐いヒトミを見たの{n}私、初めてだわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}...This is seriously bad!! You guys gotta run,{wait}{f0}the Devil Child is here!{wait}{page}I've never seen such scary eyes in my life!{wait}{end}"
  },
  {
   "id": "B:38404",
   "jp": "{voice:05D5}見つけたわよ！{n}恐いヒトミで、悪かったわね{wait}{end}",
-  "en": ""
+  "en": "{voice:05D5}Found you! Sorry my eyes are so scary.{wait}{end}"
  },
  {
   "id": "B:38438",
   "jp": "{face:0012}ダイアナ、早くそいつらを{n}連れて逃げろッ！{wait}{page}ナニシテル！グズグズするなっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Diana, take them and run, quick!{wait}{page}What're you doing! Quit dawdling!{wait}{end}"
  },
  {
   "id": "B:3848C",
   "jp": "{face:0011}ダスト！！・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Dust!!...{wait}{end}"
  },
  {
   "id": "B:384A8",
   "jp": "{face:0011}あなたたち！何してるの{n}早く逃げなきゃダメよ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}What are you guys doing!? You have to run, now!!{wait}{end}"
  },
  {
   "id": "B:384E0",
   "jp": "{face:0012}オレが相手だデビルチルドレン{wait}{page}オモシレーッ！{wait}{page}デビルチルドレンが何様か{n}見せてもらおうじゃないか{wait}{end}",
-  "en": ""
+  "en": "{face:0012}I'm your opponent, Devil Child!{wait}{page}This'll be fun!{wait}{page}Let's see what makes a Devil Child so special!{wait}{end}"
  },
  {
   "id": "B:3854C",
   "jp": "{face:0011}あんたたち早く！{n}そのカメの中にかくれるのよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Hurry, you two! Hide inside that jar!{wait}{end}"
  },
  {
   "id": "B:38584",
   "jp": "{face:0011}いいかい！{name}{n}しばらくそこにカクレテンダヨ{wait}{page}デビルチルドレンが私を{n}追いかけて行っちゃったら{wait}{page}サークルゲートから逃げるんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Listen up, {name}! Stay hidden in there for a while!{wait}{page}Once the Devil Child goes chasing after me,{wait}{page}escape through the Circle Gate!{wait}{end}"
  },
  {
   "id": "B:3860C",
   "jp": "{face:0012}つえーなっ！{n}さすがデビルチルドレンだ{wait}{f0}その強さだけは気にいったぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}You're tough! Just what I'd expect from a Devil Child.{wait}{f0}Gotta say, I like that strength of yours!{wait}{end}"
  },
  {
   "id": "B:3865C",
   "jp": "{face:0011}あなたがここに来たって事は{n}ダストはやられたって事ヨネ！{wait}{page}カタキは取らせてもらうわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}If you're here, that means Dust got beaten, right!?{wait}{page}I'm gonna get you back for him!{wait}{end}"
  },
  {
   "id": "B:386BC",
   "jp": "{face:0001}ダイアナが食い止めてる間に{n}逃げた方がいい！{wait}{page}ダイアナの気持ちをムダにするな{wait}{page}早くサークルゲートへ行こう！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}We'd better run while Diana's holding her off!{wait}{page}Don't let what Diana's doing for us go to waste!{wait}{page}Let's hurry to the Circle Gate!{wait}{end}"
  },
  {
   "id": "B:38734",
   "jp": "{voice:00CC}マチナサイ！{wait}{end}",
-  "en": ""
+  "en": "{voice:00CC}Stop right there!{wait}{end}"
  },
  {
   "id": "B:38748",
   "jp": "{face:0000}{voice:00CD}まずい！デビルチルドレンだ{n}とにかく、逃げるぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:00CD}Uh-oh! It's the Devil Child! Whatever happens, we run!{wait}{end}"
  },
  {
   "id": "B:38784",
   "jp": "{face:0011}それからこれは{n}ヘルの部屋にあった物なの{wait}{page}これがあれば、いつでも{n}アイスランドに戻って来れるわ{wait}{page}弟さんを取り戻したら{n}また遊びに来てね{wait}{end}",
-  "en": ""
+  "en": "{face:0011}And this here was in Hel's room.{wait}{page}With this, you can come back to Ice Land anytime.{wait}{page}Once you get your little brother back, come visit again!{wait}{end}"
  },
  {
   "id": "B:38818",
   "jp": "{face:0011}じゃあね、短い間だったけど{n}楽しかったヨッ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Bye then! It was short, but it was totally fun!!{wait}{end}"
  },
  {
   "id": "B:38850",
   "jp": "そう、そんなにまでして世界を{n}ほろぼしたいのね！{wait}{page}・・・・ワカッタわ！{wait}{page}でも、いつかはアナタのヤボウを{n}食い止めてみせるわよ{wait}{end}",
-  "en": ""
+  "en": "So you want to destroy the world that badly!{wait}{page}...Fine!{wait}{page}But someday, I'll put a stop to your ambitions!{wait}{end}"
  },
  {
   "id": "B:388D4",
   "jp": "オレが世界を{n}ほろぼす・・・だって？？{wait}{end}",
-  "en": ""
+  "en": "Me... destroy the world...??{wait}{end}"
  },
  {
   "id": "B:38900",
   "jp": "{face:0012}ダイアナはサァ{n}ほんとに優しいやつなんだよ{wait}{page}{ea}・・・・・・・・・・・・{wait}{page}だけど、どこまで行ったのかなあ？{wait}{page}あいつだってけっこうヤバイのに{wait}{page}・・・・{name}{wait}{n}ちょっと見てきてくれないか！？{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Diana, y'know... she's a really kindhearted girl.{wait}{page}{ea}............{wait}{page}But I wonder how far she went?{wait}{page}She's in pretty big danger herself...{wait}{page}...{name}.{wait}{n}Could you go check on her for me!?{wait}{end}"
  },
  {
   "id": "B:389C8",
   "jp": "{face:0011}あっ！そうだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Oh! I know!{wait}{end}"
  },
  {
   "id": "B:389E0",
   "jp": "{face:0011}・・・・たしかこの中に・・{n}・・あっ、あった！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}...I'm pretty sure it was in here... ...Ah, here it is!{wait}{end}"
  },
  {
   "id": "B:38A18",
   "jp": "{face:0011}へへっ、さっきヘルがこの中に{n}入れるのを見てたんだもん{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Heh heh, I saw Hel put it in here earlier!{wait}{end}"
  }
 ]

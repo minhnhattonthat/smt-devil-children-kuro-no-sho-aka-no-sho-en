@@ -170,8 +170,26 @@ def merge(batch):
     return 0 if n == len(en) else 1
 
 
+def pairs(nums):
+    """work/tl/review_<first>.txt: '>> id | speaker | JP' / 'EN' for script/event/NNN.json files (reviewer input)."""
+    fmap = faces()
+    out = []
+    for n in nums:
+        p = EV / ('%s.json' % n)
+        for e in json.loads(p.read_text(encoding='utf-8')):
+            if e.get('en'):
+                out.append('>> %s | %s | %s\n   %s' % (e['id'], speaker_of(e['id'], e['jp'], fmap, None),
+                                                   e['jp'], e['en']))
+    dest = TL / ('review_%s.txt' % nums[0])
+    dest.write_text('\n'.join(out) + '\n', encoding='utf-8', newline='\n')
+    print(dest, len(out), 'pairs')
+
+
 def main():
     cmd = sys.argv[1]
+    if cmd == 'pairs':
+        pairs(sys.argv[2:])
+        return 0
     if cmd == 'split':
         split(sys.argv[2:])
         return 0

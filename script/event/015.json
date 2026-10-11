@@ -2,401 +2,401 @@
  {
   "id": "B:3E0B0",
   "jp": "{face:000D}{ea}・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{ea}........{wait}{end}"
  },
  {
   "id": "B:3E0CC",
   "jp": "{face:0000}{voice:0218}・・・・父さん！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0218}......Dad!{wait}{end}"
  },
  {
   "id": "B:3E0E8",
   "jp": "{face:000D}・・・{name}か・・・{wait}{end}",
-  "en": ""
+  "en": "{face:000D}...{name}... is that you...?{wait}{end}"
  },
  {
   "id": "B:3E100",
   "jp": "{face:0004}{voice:0219}父さんをしばっている{n}クサリを解くのよ！手伝って{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0219}We have to undo the chains binding Dad! Help me!{wait}{end}"
  },
  {
   "id": "B:3E13C",
   "jp": "{face:0000}{voice:021C}・・・・・わかった！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:021C}......Got it!{wait}{end}"
  },
  {
   "id": "B:3E15C",
   "jp": "{face:000D}・・・・・{name}{wait}{end}",
-  "en": ""
+  "en": "{face:000D}......{name}...{wait}{end}"
  },
  {
   "id": "B:3E170",
   "jp": "{face:00FF}青いメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}the Blue Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E18C",
   "jp": "青いメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the Blue Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E1A0",
   "jp": "金色のメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the Golden Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E1BC",
   "jp": "金色のメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the Golden Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E1D4",
   "jp": "白いメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the White Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E1EC",
   "jp": "白いメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the White Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E200",
   "jp": "緑のメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the Green Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E218",
   "jp": "緑のメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the Green Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E22C",
   "jp": "赤いメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the Red Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E244",
   "jp": "赤いメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the Red Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E258",
   "jp": "虹色のメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the rainbow Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E274",
   "jp": "虹色のメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the rainbow Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E28C",
   "jp": "紫のメシアのヒトミと{wait}{end}",
-  "en": ""
+  "en": "the Purple Messiah Eye and{wait}{end}"
  },
  {
   "id": "B:3E2A4",
   "jp": "紫のメシアのツノ{wait}{end}",
-  "en": ""
+  "en": "the Purple Messiah Horn{wait}{end}"
  },
  {
   "id": "B:3E2B8",
   "jp": "{face:0008}{voice:022C}兄さんがノルンのカギを{n}・・・・持って来れば{wait}{page}{voice:022D}どちらのプログラムを{n}起動させるのか{wait}{page}{voice:022E}決める事ができるんですね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:022C}So if my big brother... brings the Norn Keys,{wait}{page}{voice:022D}we can decide which program{wait}{page}{voice:022E}gets activated, can't we?{wait}{end}"
  },
  {
   "id": "B:3E33C",
   "jp": "{face:0024}{voice:022F}この世界をつくったホシガミは{wait}{page}{voice:0230}最初の７日目に{n}休息のねむりにつきました{wait}{page}{voice:0231}天使と、人間と、デビルに{n}世界をまかせたのです{wait}{page}{voice:0232}そして、世界がある段階まで{n}成長した時{wait}{page}{voice:0233}このとびらの向こうにある{n}オルゴールルームに用意された{wait}{page}{voice:0234}ハルマゲドンとラグナロクの{n}２つのプログラムの内{wait}{page}{voice:0235}どちらを起動するのかを{n}決定させるようにしたのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:022F}Hoshigami, who created this world,{wait}{page}{voice:0230}went into a restful sleep on the very first seventh day.{wait}{page}{voice:0231}She left the world to angels, humans and Devils.{wait}{page}{voice:0232}And she arranged that when the world had grown to a certain stage,{wait}{page}{voice:0233}then in the Orgel Room beyond this door,{wait}{page}{voice:0234}of the two programs prepared there, Armageddon and Ragnarok,{wait}{page}{voice:0235}it would be decided which one to activate.{wait}{end}"
  },
  {
   "id": "B:3E4A8",
   "jp": "{face:0008}{voice:0236}ハルマゲドンは、世界をふたたび{n}やり直すためのプログラム{wait}{page}{voice:0237}では、ラグナロクを起動すると{n}どうなるのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0236}Armageddon is the program that starts the world over again.{wait}{page}{voice:0237}Then what happens if Ragnarok is activated?{wait}{end}"
  },
  {
   "id": "B:3E524",
   "jp": "{face:0024}{voice:0238}ラグナロクは、今の世界を次の段階に{n}進めるためのプログラムなのです{wait}{page}{voice:0239}ラグナロクを起動させて{n}ホシガミをねむりから起こせば{wait}{page}{voice:023A}ホシガミは、次の時代を{n}つくり始めるのです{wait}{page}{voice:023B}ただし、その時に{n}ホシガミを倒せば{wait}{page}{voice:023C}倒した者が、新たな神となり{n}世界を自由にできるのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0238}Ragnarok is the program that moves the present world on to its next stage.{wait}{page}{voice:0239}If Ragnarok is activated and Hoshigami is woken from her sleep,{wait}{page}{voice:023A}Hoshigami will begin creating the next age.{wait}{page}{voice:023B}However, if someone defeats Hoshigami at that moment,{wait}{page}{voice:023C}the one who defeats her becomes the new god and can rule the world freely.{wait}{end}"
  },
  {
   "id": "B:3E648",
   "jp": "{face:0008}{voice:023D}あなたは、ハルマゲドンを{n}起こそうとしている{wait}{page}{voice:023E}世界は、次の時代を{n}むかえては、いけないのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:023D}You are trying to bring about Armageddon.{wait}{page}{voice:023E}Is the world not allowed to move on to the next age?{wait}{end}"
  },
  {
   "id": "B:3E6BC",
   "jp": "{face:0024}{voice:023F}魔界のデビルも、地上の人間も{n}だらくして、こんらんしています{wait}{page}{voice:0240}このまま進めば{n}世界は、ますますこんらんして{wait}{page}{voice:0241}やがて、ほろびる事になるでしょう{wait}{page}{voice:0242}世界は、やり直すべきなのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:023F}The Devils of Makai and the humans on the surface alike are corrupt and in chaos.{wait}{page}{voice:0240}If things go on like this, the world will fall into ever greater chaos,{wait}{page}{voice:0241}and in time, it will be destroyed.{wait}{page}{voice:0242}The world must start over.{wait}{end}"
  },
  {
   "id": "B:3E784",
   "jp": "{face:0024}{voice:026F}これほど言っても{n}わからないのですか？{wait}{page}{voice:0270}世界は、やり直すべきなのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:026F}Even after all I have said, you still do not understand?{wait}{page}{voice:0270}The world must start over.{wait}{end}"
  },
  {
   "id": "B:3E7DC",
   "jp": "{face:000D}{voice:0271}待てっ！{n}大天使ミカエル！{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0271}Wait! Archangel Michael!{wait}{end}"
  },
  {
   "id": "B:3E804",
   "jp": "{face:000D}{voice:0272}それほど、世界にぜつぼうしたか？{n}大天使ミカエル！{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0272}Has the world driven you to such despair, Archangel Michael!?{wait}{end}"
  },
  {
   "id": "B:3E844",
   "jp": "{face:0024}{voice:0273}大魔王ルシファー！{n}ひさしぶりですね{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0273}Great Demon King Lucifer! It has been a long time.{wait}{end}"
  },
  {
   "id": "B:3E874",
   "jp": "{face:000D}{voice:0274}おたがい、世界の始まりの時に{n}別れていらいか{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0274}Not since we parted ways at the beginning of the world, I suppose.{wait}{end}"
  },
  {
   "id": "B:3E8AC",
   "jp": "{face:0024}{voice:0275}そうですね{wait}{page}{voice:0276}あなたがラグナロクを起動させるために{n}魔界の王として{wait}{page}{voice:0277}ディープホールの、ゼブルとともに{n}行動を起こされていらいです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0275}Indeed.{wait}{page}{voice:0276}That was when you, as King of Makai, set out to activate Ragnarok{wait}{page}{voice:0277}together with Zebul of the Deep Hole.{wait}{end}"
  },
  {
   "id": "B:3E944",
   "jp": "{face:000D}{voice:0278}ミカエル！{n}この世界は、それほど悪いか？{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0278}Michael! Is this world really so bad?{wait}{end}"
  },
  {
   "id": "B:3E978",
   "jp": "{face:0024}{voice:0279}大天使の目から見れば{wait}{page}{voice:027A}魔界のデビルたちは、安楽をむさぼり{n}いつまでもはたらこうとしない！{wait}{page}{voice:027B}だが、もっと悪いのは{n}地上の人間たちだ！{wait}{page}{voice:027C}かれらはこんらんして、わけもわからず{n}まるで、ボウソウしたキカイのように{wait}{page}{voice:027D}この世界を{n}破壊しているでは、ありませんか{wait}{page}{voice:027E}このままでは、人間のために{n}世界はめつぼうしてしまいます{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0279}In the eyes of an Archangel...{wait}{page}{voice:027A}the Devils of Makai wallow in idle comfort and never try to work!{wait}{page}{voice:027B}But worse still are the humans on the surface!{wait}{page}{voice:027C}Confused, not knowing what they do, like machines run amok,{wait}{page}{voice:027D}are they not destroying this world?{wait}{page}{voice:027E}At this rate, the world will be ruined because of humans.{wait}{end}"
  },
  {
   "id": "B:3EAD4",
   "jp": "{face:000D}{voice:027F}人間はもともと{n}そういう生き物ではないか？{wait}{page}{voice:0280}こんらんとカクセイを、くり返し{wait}{page}{voice:0281}それでも、ここまでは{n}時代を進めて来た{wait}{page}{voice:0282}新しい時代を{n}人間にあたえてはどうだ？{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:027F}Have humans not always been that kind of creature?{wait}{page}{voice:0280}Repeating chaos and awakening, over and over,{wait}{page}{voice:0281}they have still carried the ages this far.{wait}{page}{voice:0282}Why not give humans a new age?{wait}{end}"
  },
  {
   "id": "B:3EB8C",
   "jp": "{face:0024}{voice:0283}大天使として{wait}{page}{voice:0284}私は、世界をリセットして{n}やり直す事を、のぞみます{wait}{page}{voice:0285}それを、こばむというのなら{n}戦いもやむをえない！{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0283}As an Archangel,{wait}{page}{voice:0284}I wish to reset the world and start it over.{wait}{page}{voice:0285}If you refuse that, then battle cannot be avoided!{wait}{end}"
  },
  {
   "id": "B:3EC18",
   "jp": "{face:000D}{voice:0628}私は、この世界を{n}次の時代に進めるプログラム{wait}{page}{voice:0629}ラグナロクを起動させるために{n}魔界で、どりょくしてきたのだ{wait}{page}{voice:062A}人間とデビルに{n}新しい時代をあたえ{wait}{page}{voice:062B}次の世界を、生きていくすがたを{n}見てみたかったのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0628}I have worked for the program that moves this world on to the next age.{wait}{page}{voice:0629}To activate Ragnarok, I have toiled here in Makai.{wait}{page}{voice:062A}I wanted to give humans and Devils a new age{wait}{page}{voice:062B}and see how they would live on in the next world.{wait}{end}"
  },
  {
   "id": "B:3ECF8",
   "jp": "{face:000D}{voice:0286}お前は、ラグナロクを遅んだ{wait}{page}{voice:0287}しかし、天使たちも{n}シンネンを持って、行動している{wait}{page}{voice:0288}戦いをさける事はできない！{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0286}You chose Ragnarok.{wait}{page}{voice:0287}But the angels, too, act out of conviction.{wait}{page}{voice:0288}This battle cannot be avoided!{wait}{end}"
  },
  {
   "id": "B:3ED7C",
   "jp": "{face:000D}{voice:0290}このとびらの向こうには{n}ノルンのぞうがある{wait}{page}{voice:0291}そこに行き{n}ラグナロクを起動させてくれ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0290}Beyond this door stands the statue of the Norns.{wait}{page}{voice:0291}Go there and activate Ragnarok.{wait}{end}"
  },
  {
   "id": "B:3EDE0",
   "jp": "{ee}ノルンのぞうが、おかれている{wait}{end}",
-  "en": ""
+  "en": "{ee}A statue of the Norns stands here.{wait}{end}"
  },
  {
   "id": "B:3EE04",
   "jp": "３人の女神が世界を{n}取りかこんでいる{wait}{page}１人目はかこを{wait}{n}２人目は現在を{wait}{f0}最後は未来をしはいする{wait}{page}３人の女神だ{wait}{end}",
-  "en": ""
+  "en": "Three goddesses surround the world.{wait}{page}The first rules the past,{wait}{n}the second the present,{wait}{f0}and the last the future.{wait}{page}They are the three goddesses.{wait}{end}"
  },
  {
   "id": "B:3EE7C",
   "jp": "{face:0000}{ea}・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{ea}......{wait}{end}"
  },
  {
   "id": "B:3EE90",
   "jp": "{face:00FF}{name}は{n}ノルンのカギを使った{wait}{page}プログラム・ラグナロクが{n}起動を始める！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{name} used the Norn Keys.{wait}{page}Program Ragnarok begins to activate!{wait}{end}"
  },
  {
   "id": "B:3EEE0",
   "jp": "プログラム・ラグナロクが{n}動いている{wait}{end}",
-  "en": ""
+  "en": "Program Ragnarok is running.{wait}{end}"
  },
  {
   "id": "B:3EF08",
   "jp": "{face:0027}あなたの、のぞみのままに{wait}{end}",
-  "en": ""
+  "en": "{face:0027}Just as you wish.{wait}{end}"
  },
  {
   "id": "B:3EF28",
   "jp": "{voice:063C}あれっ、空が！{wait}{end}",
-  "en": ""
+  "en": "{voice:063C}Huh? The sky!{wait}{end}"
  },
  {
   "id": "B:3EF40",
   "jp": "{voice:063D}あ、空が！{wait}{n}{voice:063E}空が明るくなった！{wait}{end}",
-  "en": ""
+  "en": "{voice:063D}Ah, the sky!{wait}{n}{voice:063E}The sky's getting bright!{wait}{end}"
  },
  {
   "id": "B:3EF6C",
   "jp": "{face:0004}{voice:0292}やったね！{n}世界に朝が、戻って来たわよ！{wait}{page}{voice:0293}デビルチルドレンの役目は{n}これで、終わりね！{wait}{page}{voice:0294}この次、会う時を{n}楽しみにしているわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0292}We did it! Morning's come back to the world!{wait}{page}{voice:0293}That means the Devil Children's job is done!{wait}{page}{voice:0294}I'm looking forward to the next time we meet!{wait}{end}"
  },
  {
   "id": "B:3F004",
   "jp": "　ダークパレスへ{n}　ディープホールへ{end}",
-  "en": ""
+  "en": "To the Dark Palace{n}To the Deep Hole{end}"
  },
  {
   "id": "B:3F02C",
   "jp": "{face:002A}{voice:0649}ディープホールへ{n}ようこそ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:0649}Welcome to the Deep Hole.{wait}{end}"
  },
  {
   "id": "B:3F054",
   "jp": "・・サンクチュアリ・ライトパレス・・{wait}{end}",
-  "en": ""
+  "en": "...Sanctuary - Light Palace...{wait}{end}"
  },
  {
   "id": "B:3F07C",
   "jp": "{face:0027}{voice:062F}これが、デビルチルドレンとしての{n}あなたの、最後の戦いです{wait}{page}{voice:0630}神に、なろうという{n}のぞみに、ふさわしいかどうか{wait}{page}{voice:0631}私が、試してあげましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:062F}This is your final battle as a Devil Child.{wait}{page}{voice:0630}Whether you are worthy of your wish to become a god...{wait}{page}{voice:0631}I shall put you to the test.{wait}{end}"
  },
  {
   "id": "B:3F11C",
   "jp": "{name}は{n}ノルンのカギを全て{wait}{f0}ナガヒサに、わたした！{wait}{end}",
-  "en": ""
+  "en": "{name} handed all of the Norn Keys{wait}{f0}over to Nagahisa!{wait}{end}"
  },
  {
   "id": "B:3F154",
   "jp": "{face:00FF}ナガヒサは{n}ノルンのカギを使った{wait}{page}プログラム、ハルマゲドンが{n}起動を始める！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Nagahisa used the Norn Keys.{wait}{page}Program Armageddon begins to activate!{wait}{end}"
  },
  {
   "id": "B:3F1AC",
   "jp": "{ee}デビルチルドレン・{name}{wait}{end}",
-  "en": ""
+  "en": "{ee}Devil Child {name}...{wait}{end}"
  },
  {
   "id": "B:3F1C8",
   "jp": "{ee}やっと現れたか{n}{name}！{wait}{end}",
-  "en": ""
+  "en": "{ee}So you've finally shown up, {name}!{wait}{end}"
  },
  {
   "id": "B:3F1E4",
   "jp": "{ee}{voice:05CD}やあ！{wait}{n}{voice:064A}ずいぶん、ひさしぶりだな！{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:05CD}Hey!{wait}{n}{voice:064A}It's been a long time!{wait}{end}"
  },
  {
   "id": "B:3F218",
   "jp": "{face:0029}わが名はフェゴール{n}このディープホールに住む{wait}{f0}魔王の１人さ{wait}{end}",
-  "en": ""
+  "en": "{face:0029}My name is Phegor. I dwell in this Deep Hole{wait}{f0}as one of its Demon Lords.{wait}{end}"
  },
  {
   "id": "B:3F25C",
   "jp": "{face:0029}ラグナロクを起動させ{n}新しい時代を始めた{wait}{f0}お前の力を{wait}{f0}見せてもらおうか{wait}{end}",
-  "en": ""
+  "en": "{face:0029}You activated Ragnarok and began a new age.{wait}{f0}So let me see{wait}{f0}just how strong you are.{wait}{end}"
  },
  {
   "id": "B:3F2B0",
   "jp": "{face:0029}さすが！デビルチルドレン{wait}{n}さらなる深みを{f0}目指すがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0029}Impressive, Devil Child!{wait}{n}Go on, head for{f0}the greater depths.{wait}{end}"
  },
  {
   "id": "B:3F2F0",
   "jp": "{ee}{face:0029}デビルチルドレン・{name}{wait}{page}さらなる深みを目指すがいい{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0029}Devil Child {name}...{wait}{page}Head for the greater depths.{wait}{end}"
  },
  {
   "id": "B:3F32C",
   "jp": "{face:0029}また来たのか？{wait}{n}何をもとめてこの深き魔界を{f0}さまよっているのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0029}Back again?{wait}{n}What are you seeking, wandering{f0}these depths of Makai?{wait}{end}"
  },
  {
   "id": "B:3F378",
   "jp": "{face:0028}われはベリト{wait}{n}ディープホールに住む{f0}魔王の１人だ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}I am Berith.{wait}{n}One of the Demon Lords{f0}who dwell in the Deep Hole.{wait}{end}"
  },
  {
   "id": "B:3F3B4",
   "jp": "{face:0028}新しい時代が始まろうと{wait}{n}戦いは続いて行くのだ{wait}{f0}{name}、勝負だ！{wait}{end}",
-  "en": ""
+  "en": "{face:0028}A new age may be starting,{wait}{n}but the fighting goes on!{wait}{f0}{name}, fight me!{wait}{end}"
  },
  {
   "id": "B:3F3FC",
   "jp": "{face:0028}力優れたる者よ{wait}{n}奥に進むがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0028}You, who excel in strength,{wait}{n}go on, deeper inside.{wait}{end}"
  },
  {
   "id": "B:3F424",
   "jp": "{face:0028}何度来ても同じ事よ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}No matter how many times you come, it's the same!{wait}{end}"
  },
  {
   "id": "B:3F440",
   "jp": "{ee}{face:0028}デビルチルドレン・{name}{wait}{page}さらなる深みを目指すがいい{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0028}Devil Child {name}...{wait}{page}Head for the greater depths.{wait}{end}"
  },
  {
   "id": "B:3F47C",
   "jp": "{face:002A}{voice:064B}ここが、ディープホールの１番奥さ{wait}{page}{voice:064C}よく、ここまでたどり着いたね{wait}{n}{voice:064D}ここでのぼくの名は、ゼブルさ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:064B}This is the very bottom of the Deep Hole.{wait}{page}{voice:064C}You did well to make it all the way here.{wait}{n}{voice:064D}Down here, my name is Zebul.{wait}{end}"
  },
  {
   "id": "B:3F4F0",
   "jp": "{face:0000}{voice:0295}ゼブル・・・？{n}会った事は、ないはずだが？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0295}Zebul...? I don't think we've ever met.{wait}{end}"
  },
  {
   "id": "B:3F528",
   "jp": "{face:002A}{voice:064E}・・・・ふふふっ{n}戦いの後に教えるよ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:064E}......Heh heh heh. I'll tell you after the fight.{wait}{end}"
  },
  {
   "id": "B:3F558",
   "jp": "{face:002A}{voice:064F}行くぞ！デビルチルドレン{n}勝負だ！{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:064F}Here I come, Devil Child! Let's fight!{wait}{end}"
  },
  {
   "id": "B:3F588",
   "jp": "{ee}{face:002A}また現れたか！{n}しょうこりもない！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:002A}Back again!? You never learn!{wait}{end}"
  },
  {
   "id": "B:3F5B4",
   "jp": "{face:002A}{voice:0650}強い！{n}強いな、デビルチルドレン{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:0650}Strong! You're strong, Devil Child.{wait}{end}"
  },
  {
   "id": "B:3F5E0",
   "jp": "{face:002A}{voice:0651}このディープホールにやって来てから{n}戦いに負けたのは初めてだ！{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:0651}That's the first fight I've lost since I came to the Deep Hole!{wait}{end}"
  },
  {
   "id": "B:3F62C",
   "jp": "{face:0000}{voice:0296}誰なんだ、お前は？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0296}Who are you, anyway?{wait}{end}"
  },
  {
   "id": "B:3F64C",
   "jp": "{face:0007}{voice:0653}ふふふ、ぼくだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0653}Heh heh, it's me.{wait}{end}"
  },
  {
   "id": "B:3F668",
   "jp": "{face:0000}{voice:0297}ゼット！お前だったのか{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0297}Zett! So it was you!{wait}{end}"
  },
  {
   "id": "B:3F68C",
   "jp": "{face:0007}{voice:0654}そうだよ{wait}{page}{voice:0655}タカジョー・ゼットは{wait}{page}{voice:0656}ディープホールに住む{n}このゼブルの、かりのすがたさ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0654}That's right.{wait}{page}{voice:0655}Zett Takajo{wait}{page}{voice:0656}is just a temporary form of me, Zebul, who lives in the Deep Hole.{wait}{end}"
  },
  {
   "id": "B:3F6F8",
   "jp": "{face:0000}{voice:0298}大魔王ルシファーと{wait}{page}{voice:0299}ラグナロクを起こすために{n}行動を起こしたと聞いたが{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0298}I heard that you and the Great Demon King Lucifer...{wait}{page}{voice:0299}set out together to bring about Ragnarok.{wait}{end}"
  },
  {
   "id": "B:3F750",
   "jp": "{face:0007}{voice:0657}そう、そのために{n}きみを魔界に送り{wait}{f0}{voice:0658}今度の旅を、始めさせた{wait}{page}{voice:0659}でも{n}キミが、ラグナロクを起動するとは{wait}{f0}{voice:065A}決まっては、いなかったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0657}Yeah. That's why I sent you to Makai{wait}{f0}{voice:0658}and started you on this journey.{wait}{page}{voice:0659}But whether you'd be the one to activate Ragnarok...{wait}{f0}{voice:065A}that was never decided.{wait}{end}"
  }
 ]

@@ -51,7 +51,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | デビル | Devil (demons are "Devils") | | |
 | マッカ | Macca | | |
 | ケイヤク | contract | | |
-| メシアの角笛 / メシアのツノ | Messiah Horn | 虹色のメシアのツノ = rainbow Messiah Horn | |
+| メシアの角笛 / メシアのツノ | Messiah Horn | 虹色のメシアのツノ = Rainbow Messiah Horn (colours capitalized: Blue/Golden/White... Messiah Horn/Eye) | |
 | 虹色のツノ | Rainbow Horn | | |
 | 大魔王 | Great Demon King | 大魔王様 = My Great Demon King | |
 | 魔王 | Demon Lord | e.g. アイスランドの魔王 = Demon Lord of Ice Land | |
@@ -82,6 +82,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | メシアのヒトミ | Messiah Eye | (rainbow) Messiah Eye; items capitalized | |
 | ラグナロク / ハルマゲドン | Ragnarok / Armageddon | | |
 | カジノタウン | Casino Town | | |
+| ライトパレス | Light Palace | | |
+| プログラム・ラグナロク | Program Ragnarok | | |
+| ノルンのぞう | statue of the Norns | | |
+| きず薬 | Medicine | item; EXE item list must match | |
 | バトルネット | Battle Net | | BattleNet |
 | 兄さん | big brother | kinship terms translated (user ruling) | Nii-san |
 

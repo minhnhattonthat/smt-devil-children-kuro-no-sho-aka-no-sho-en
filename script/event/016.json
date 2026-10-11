@@ -6,147 +6,147 @@
  {
   "id": "B:3F804",
   "jp": "{face:0007}{voice:065C}でも、きみはラグナロクを{n}起動させてくれた{wait}{page}{voice:065D}ぼくと、きみのお父さんの{n}のぞんだ通りに・・・{wait}{page}{voice:065E}この先、人間とデビルが{n}世界をどうして行くのかは{wait}{page}{voice:065F}長い時間がたたないと{n}わからない事だ{wait}{page}{voice:0660}その時に、またきみのような人間と{n}デビルの血を受けついだ誰かが{wait}{page}{voice:0661}君と同じような旅を{n}するにちがいないのだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:065C}But you activated Ragnarok for us.{wait}{page}{voice:065D}Just as your father and I had hoped...{wait}{page}{voice:065E}How humans and Devils will shape the world from here on{wait}{page}{voice:065F}is something only a long time will tell.{wait}{page}{voice:0660}And when that time comes, someone like you, with both human and Devil blood,{wait}{page}{voice:0661}is sure to set out on a journey just like yours.{wait}{end}"
  },
  {
   "id": "B:3F94C",
   "jp": "{face:0007}{voice:0662}ぼくの話は、これで終わりさ{wait}{page}{voice:0663}本当に、ここまで来てくれて{n}ありがとう{wait}{page}{voice:0664}きみが、この旅で見つけた事を{n}次の世代の子どもたちに{wait}{page}{voice:0665}語りついでくれる事を{n}ぼくたちはのぞんでいるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0662}And that's the end of my story.{wait}{page}{voice:0663}Really, thank you for coming all this way.{wait}{page}{voice:0664}What you found on this journey... pass it on to the next generation of kids.{wait}{page}{voice:0665}That's what we're hoping for.{wait}{end}"
  },
  {
   "id": "B:3FA14",
   "jp": "{ee}マグネタイト、持ってる？{wait}{end}",
-  "en": ""
+  "en": "{ee}Got any Magnetite?{wait}{end}"
  },
  {
   "id": "B:3FA34",
   "jp": "マグネタイト持ってたら{n}ボクに見せてよ！{wait}{page}たくさん持って来たら{n}いい物あげるから{wait}{f0}いっぱい集めてね！{wait}{end}",
-  "en": ""
+  "en": "If you've got Magnetite, show it to me!{wait}{page}Bring me lots and I'll give you something good,{wait}{f0}so collect a bunch!{wait}{end}"
  },
  {
   "id": "B:3FAA0",
   "jp": "あれ？１０こ集めたね！{n}うーん、まだまだかな・・・{wait}{page}んじゃ{n}ヴィネセンターに行ってみなよ{wait}{page}キミの仲魔の名前を{n}変えられるよ{wait}{page}何でそんな事知ってるのかって？{wait}{page}それはヒミツ！{wait}{end}",
-  "en": ""
+  "en": "Huh? You've collected 10! Hmm, that's still not enough...{wait}{page}Well then, try going to the Vine Center.{wait}{page}You can change your allies' names there.{wait}{page}How do I know that, you ask?{wait}{page}It's a secret!{wait}{end}"
  },
  {
   "id": "B:3FB58",
   "jp": "２０こ持ってるじゃないか！{wait}{page}この調子で{n}いっぱい集めて来てね！{wait}{page}んじゃ{n}スチュパリデスを{wait}{f0}キミにしょうかいするよ{wait}{end}",
-  "en": ""
+  "en": "Hey, you've got 20!{wait}{page}Keep it up and bring me lots more!{wait}{page}Well then, let me introduce{wait}{f0}Stymphalides to you!{wait}{end}"
  },
  {
   "id": "B:3FBD4",
   "jp": "スチュパリデスが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Stymphalides became your ally!{wait}{end}"
  },
  {
   "id": "B:3FBF8",
   "jp": "何でそんな事するのかって？{n}それはヒミツ！{wait}{end}",
-  "en": ""
+  "en": "Why am I doing this, you ask? It's a secret!{wait}{end}"
  },
  {
   "id": "B:3FC28",
   "jp": "よーし！３０こだね！{wait}{page}もっともっと集めてよ！{n}ボクのトモダチを{wait}{f0}キミにしょうかいしてあげるからさ{wait}{page}ヌエを{n}キミにしょうかいするよ{wait}{end}",
-  "en": ""
+  "en": "All right! That's 30!{wait}{page}Keep bringing more and more! I'll introduce my friends{wait}{f0}to you, after all!{wait}{page}Let me introduce Nue to you!{wait}{end}"
  },
  {
   "id": "B:3FCB4",
   "jp": "ヌエが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Nue became your ally!{wait}{end}"
  },
  {
   "id": "B:3FCCC",
   "jp": "何でそんな事するのかって？{wait}{page}それはヒミツ！{wait}{end}",
-  "en": ""
+  "en": "Why am I doing this, you ask?{wait}{page}It's a secret!{wait}{end}"
  },
  {
   "id": "B:3FCFC",
   "jp": "やった！４０こだね！{wait}{page}んじゃ{n}ヴィネセンターに行ってみなよ{wait}{page}バトルネットに{n}新たなちょうせん者が{wait}{f0}現れてるハズだよ！{wait}{page}何でそんな事知ってるのかって？{wait}{page}それはヒミツ！{wait}{end}",
-  "en": ""
+  "en": "Yay! That's 40!{wait}{page}Well then, try going to the Vine Center.{wait}{page}A new challenger should have shown up{wait}{f0}on the Battle Net!{wait}{page}How do I know that, you ask?{wait}{page}It's a secret!{wait}{end}"
  },
  {
   "id": "B:3FDB0",
   "jp": "とうとう５０こ集めたね！{n}オメデトウ！{wait}{page}何でそんなにマグネタイトを{n}集めたがってたのかって？{wait}{page}マグネタイトを５０こ集めたら{n}ボクの封印が解けるからさ！{wait}{end}",
-  "en": ""
+  "en": "You finally collected 50! Congratulations!{wait}{page}Why did I want so much Magnetite, you ask?{wait}{page}Because once I've got 50 Magnetite, my seal breaks!{wait}{end}"
  },
  {
   "id": "B:3FE50",
   "jp": "私は天使サリエル{n}マグネタイトと引き換えに{wait}{f0}お前とけいやくしよう・・・{wait}{page}魔界を旅する{n}人間の道しるべ{wait}{f0}それが私の役目・・・{wait}{page}私とて{n}運命にさからう事は{wait}{f0}できぬのだ・・・{wait}{end}",
-  "en": ""
+  "en": "I am the angel Sariel. In exchange for Magnetite,{wait}{f0}I shall make a contract with you...{wait}{page}To guide humans who journey through Makai...{wait}{f0}that is my role...{wait}{page}Not even I{wait}{f0}can defy fate...{wait}{end}"
  },
  {
   "id": "B:3FF08",
   "jp": "サリエルが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Sariel became your ally!{wait}{end}"
  },
  {
   "id": "B:3FF24",
   "jp": "とりあえず{n}１０こ集めたら{wait}{f0}ボクに見せてね！{wait}{end}",
-  "en": ""
+  "en": "For starters, once you've collected 10,{wait}{f0}show them to me!{wait}{end}"
  },
  {
   "id": "B:3FF58",
   "jp": "今度は{n}２０こ集めたら{wait}{f0}また来てちょうだい！{wait}{end}",
-  "en": ""
+  "en": "Next, once you've collected 20,{wait}{f0}come see me again!{wait}{end}"
  },
  {
   "id": "B:3FF8C",
   "jp": "次は３０こ集めて来てよ！{wait}{page}それぐらいかんたんでしょ？{wait}{end}",
-  "en": ""
+  "en": "Next, bring me 30!{wait}{page}That's easy enough, right?{wait}{end}"
  },
  {
   "id": "B:3FFC8",
   "jp": "今度来る時は{n}４０こ持って来てよ！{wait}{end}",
-  "en": ""
+  "en": "Next time you come, bring me 40!{wait}{end}"
  },
  {
   "id": "B:3FFF0",
   "jp": "ここまできたら{n}５０こ集めて来てよ！{wait}{page}やくそくだよ！{wait}{end}",
-  "en": ""
+  "en": "You've come this far, so go collect 50!{wait}{page}It's a promise!{wait}{end}"
  },
  {
   "id": "B:4002C",
   "jp": "　やめておく{n}　トリガーを引く{end}",
-  "en": ""
+  "en": "Better not{n}Pull the trigger{end}"
  },
  {
   "id": "B:4004C",
   "jp": "ここまで来たら{n}５０こ集めて来てよ！{wait}{page}やくそくだよ！{wait}{end}",
-  "en": ""
+  "en": "You've come this far, so go collect 50!{wait}{page}It's a promise!{wait}{end}"
  },
  {
   "id": "B:40088",
   "jp": "{face:0001}それから、{name}が{n}気を失ってる間に{wait}{f0}ちょっと調べて来たんだが{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Also, while {name} was out cold,{wait}{f0}I went and looked around a bit.{wait}{end}"
  },
  {
   "id": "B:400CC",
   "jp": "・・・サンドランド・・・{wait}{end}",
-  "en": ""
+  "en": "...Sand Land...{wait}{end}"
  },
  {
   "id": "B:400E8",
   "jp": "{face:000D}{voice:062E}私を、お前の仲魔として{n}役立ててくれ！{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:062E}Let me be of use to you as your ally!{wait}{end}"
  },
  {
   "id": "B:4011C",
   "jp": "おおっ！ケルベロスが・・・{n}これはひどいケガだ！{wait}{page}これでは戦いもできますまい{wait}{page}わがラセツ族の王ビビサナなら{n}治せるかもしれませんが・・・{wait}{page}ともかく、ラセツ族の１人として{n}見すごす事はできません{wait}{page}わたくしを仲魔として{n}お使い下さい{wait}{end}",
-  "en": ""
+  "en": "Oh! Cerberus... This is a terrible wound!{wait}{page}He'll be in no shape to fight like this.{wait}{page}Vibhishana, king of our Rasetsu tribe, might be able to heal him, but...{wait}{page}In any case, as one of the Rasetsu tribe, I cannot simply look away.{wait}{page}Please, use me as your ally.{wait}{end}"
  },
  {
   "id": "B:4020C",
   "jp": "ラセツが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Rasetsu became your ally!{wait}{end}"
  },
  {
   "id": "B:40228",
   "jp": "{face:001A}アーッ、お前だな{n}何度来ても許さねえぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Aaah, it's you! Come back all you want, I ain't ever forgivin' you!{wait}{end}"
  },
  {
   "id": "B:40258",
   "jp": "金のリンゴパイなら{wait}{n}ベリアルが持ってるんだろ！{wait}{end}",
-  "en": ""
+  "en": "The Golden Apple Pie?{wait}{n}Belial's the one who's got it, right!?{wait}{end}"
  },
  {
   "id": "B:4028C",
@@ -159,256 +159,256 @@
  {
   "id": "B:402F4",
   "jp": "・・・セントラルランド・・・{wait}{end}",
-  "en": ""
+  "en": "...Central Land...{wait}{end}"
  },
  {
   "id": "B:40314",
   "jp": "{face:0000}{voice:05C3}メシアのツノよ！{n}世界をつなげるアナを、ここに！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05C3}Messiah Horn! Open a hole here that connects the worlds!{wait}{end}"
  },
  {
   "id": "B:40350",
   "jp": "・・・ファイアーランド・・・{wait}{end}",
-  "en": ""
+  "en": "...Fire Land...{wait}{end}"
  },
  {
   "id": "B:40370",
   "jp": "・・・フォレストランド・・・{wait}{end}",
-  "en": ""
+  "en": "...Forest Land...{wait}{end}"
  },
  {
   "id": "B:40390",
   "jp": "・・・地上・・・{wait}{end}",
-  "en": ""
+  "en": "...The Surface...{wait}{end}"
  },
  {
   "id": "B:403A4",
   "jp": "ダブルチェンバーを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Double Chamber.{wait}{end}"
  },
  {
   "id": "B:403C4",
   "jp": "{face:0004}{voice:0226}わすれないでね！{wait}{page}{voice:0227}運命を決めるのは{n}あなたなのよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0226}Don't forget!{wait}{page}{voice:0227}You're the one who decides your destiny!{wait}{end}"
  },
  {
   "id": "B:40408",
   "jp": "{ee}ヘルを倒してくれたんだホー{wait}{page}これでおれたちジャックフロストも{n}救われたホー{wait}{end}",
-  "en": ""
+  "en": "{ee}You beat Hel for us-ho!{wait}{page}Now all of us Jack Frosts are saved-ho!{wait}{end}"
  },
  {
   "id": "B:4045C",
   "jp": "{face:0008}・・・・兄さん{wait}{n}天使たちの言う事を{wait}{page}聞いてくれないのなら{wait}{page}ここを通すわけにはいかない！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}...Big brother...{wait}{n}If you won't listen{wait}{page}to what the angels are saying...{wait}{page}then I can't let you through here!{wait}{end}"
  },
  {
   "id": "B:404C0",
   "jp": "{face:002A}{voice:0652}ふふふ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:0652}Heh heh heh...{wait}{end}"
  },
  {
   "id": "B:404D4",
   "jp": "{face:001D}わかった、オレが悪かった{wait}{page}ベリアルのやつがあんまり{wait}{n}セコイんで、ちょっと{f0}こらしめようとしただけさ{wait}{page}ほら、返してやるよ{wait}{end}",
-  "en": ""
+  "en": "{face:001D}All right, all right, my bad.{wait}{page}That Belial was just being so{wait}{n}stingy, I only wanted to{f0}teach him a little lesson.{wait}{page}Here, you can have it back.{wait}{end}"
  },
  {
   "id": "B:40558",
   "jp": "{face:001C}わかった、オレが悪かった{wait}{page}ベリアルのやつがあんまり{wait}{n}セコイんで、ちょっと{f0}こらしめようとしただけさ{wait}{page}ほら、返してやるよ{wait}{end}",
-  "en": ""
+  "en": "{face:001C}All right, all right, my bad.{wait}{page}That Belial was just being so{wait}{n}stingy, I only wanted to{f0}teach him a little lesson.{wait}{page}Here, you can have it back.{wait}{end}"
  },
  {
   "id": "B:405DC",
   "jp": "{face:001B}また来たのか！許さん！！{wait}{end}",
-  "en": ""
+  "en": "{face:001B}You came back!? I won't let you off!!{wait}{end}"
  },
  {
   "id": "B:405FC",
   "jp": "{face:001D}また来たのか！許さん！！{wait}{end}",
-  "en": ""
+  "en": "{face:001D}You came back!? I won't let you off!!{wait}{end}"
  },
  {
   "id": "B:4061C",
   "jp": "{face:001C}また来たのか！許さん！！{wait}{end}",
-  "en": ""
+  "en": "{face:001C}You came back!? I won't let you off!!{wait}{end}"
  },
  {
   "id": "B:4063C",
   "jp": "・・・ダークパレス・・・{wait}{end}",
-  "en": ""
+  "en": "...Dark Palace...{wait}{end}"
  },
  {
   "id": "B:40658",
   "jp": "{face:00FF}青いメシアのツノを手に入れた{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the Blue Messiah Horn.{wait}{end}"
  },
  {
   "id": "B:4067C",
   "jp": "あら、仲魔がいっぱいね！{wait}{n}私が登録される場所を{wait}{f0}作ってから来てよ{wait}{end}",
-  "en": ""
+  "en": "Oh my, you're full up on allies!{wait}{n}Come back after you've{wait}{f0}made a spot for me to be registered.{wait}{end}"
  },
  {
   "id": "B:406C4",
   "jp": "なんだよ、仲魔がいっぱいだぜ！{n}オレが登録される場所を{wait}{f0}作ってから来るんだな{wait}{end}",
-  "en": ""
+  "en": "What, you're full up on allies! Guess you'll come back once you've{wait}{f0}made a spot for me to be registered.{wait}{end}"
  },
  {
   "id": "B:40718",
   "jp": "アレッ？仲魔がいっぱいッスよ{n}オレが登録される場所を{wait}{f0}作ってから来てほしいッス{wait}{end}",
-  "en": ""
+  "en": "Huh? You're full up on allies, boss! Please come back after you{wait}{f0}make a spot for me to be registered, boss!{wait}{end}"
  },
  {
   "id": "B:4076C",
   "jp": "なんだ？仲魔がいっぱいだよ{n}オレが登録される場所を{wait}{f0}作ってから来てほしいな{wait}{end}",
-  "en": ""
+  "en": "What? You're full up on allies. I'd like you to come back after you{wait}{f0}make a spot for me to be registered.{wait}{end}"
  },
  {
   "id": "B:407BC",
   "jp": "アラッ、仲魔ガイッパイネ{n}ワタシガトウロクサレルバショヲ{wait}{f0}ツクッテカラキテヨ{wait}{end}",
-  "en": ""
+  "en": "Oh. Allies are full. Make place for me to be registered,{wait}{f0}then come back.{wait}{end}"
  },
  {
   "id": "B:40810",
   "jp": "{face:0015}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ヴィネセンターに登録できる{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama, your allies are full,{wait}{f0}so I cannot go with you.{wait}{page}Make room for me to be registered at the Vine Center.{wait}{page}I shall ask again another time!{wait}{end}"
  },
  {
   "id": "B:408A0",
   "jp": "{name}、仲魔が{n}いっぱいです、登録できる{wait}{f0}場所を作ってから{wait}{f0}戻って来て下さい{wait}{end}",
-  "en": ""
+  "en": "{name}, your allies are full. Please make room{wait}{f0}for me to be registered,{wait}{f0}and then come back.{wait}{end}"
  },
  {
   "id": "B:408F0",
   "jp": "{face:0007}{voice:065B}全ては、キミがどう考えるかに{n}まかせるしかなかったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:065B}It was all up to you and what you'd decide. There was no other way.{wait}{end}"
  },
  {
   "id": "B:40934",
   "jp": "{face:000D}何という事だ！{n}仲魔がいっぱいではないか{wait}{page}ヴィネセンターかライザーの中の{n}仲魔をへらして{wait}{f0}もう一度、話しかけてくれ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}What is this!? Your allies are full!{wait}{page}Reduce the allies in the Vine Center or your Riser,{wait}{f0}then speak to me once more.{wait}{end}"
  },
  {
   "id": "B:409B4",
   "jp": "{ee}{face:000D}戻って来てくれたか{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:000D}You've come back to me.{wait}{end}"
  },
  {
   "id": "B:409D0",
   "jp": "なんだ！仲魔がいっぱいだよ{wait}{page}空きを作ってから、また来てよ{wait}{end}",
-  "en": ""
+  "en": "What! You're full up on allies!{wait}{page}Make some room, then come again!{wait}{end}"
  },
  {
   "id": "B:40A10",
   "jp": "{ee}{face:0014}{name}様、ようこそ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0014}Welcome, {name}-sama!{wait}{end}"
  },
  {
   "id": "B:40A2C",
   "jp": "{ee}{face:0015}{name}様、ようこそ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0015}Welcome, {name}-sama!{wait}{end}"
  },
  {
   "id": "B:40A48",
   "jp": "{ee}{face:0016}{name}様、ようこそ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0016}Welcome, {name}-sama!{wait}{end}"
  },
  {
   "id": "B:40A64",
   "jp": "{face:0014}いかがですか？{wait}{page}弟様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0014}How are things?{wait}{page}Have you found your little brother yet?{wait}{end}"
  },
  {
   "id": "B:40A98",
   "jp": "{face:0015}いかがですか？{wait}{page}弟様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0015}How goes it?{wait}{page}Have you found your little brother yet?{wait}{end}"
  },
  {
   "id": "B:40ACC",
   "jp": "{face:0016}いかがですか？{wait}{page}弟様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0016}How goes it?{wait}{page}Have you found your little brother yet?{wait}{end}"
  },
  {
   "id": "B:40B00",
   "jp": "{face:0014}マーブルランドの魔王として{n}がんばっておりますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0014}I am doing my very best as Demon Lord of Marble Land.{wait}{end}"
  },
  {
   "id": "B:40B38",
   "jp": "{face:0015}マーブルランドの魔王として{n}がんばっておりますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}I'm giving it my all as Demon Lord of Marble Land!{wait}{end}"
  },
  {
   "id": "B:40B70",
   "jp": "{face:0016}マーブルランドの魔王として{n}がんばっておりますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0016}I am striving hard as Demon Lord of Marble Land.{wait}{end}"
  },
  {
   "id": "B:40BA8",
   "jp": "{face:0014}わたくしをむかえに{wait}{n}来てくれたのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Have you come{wait}{n}to take me with you?{wait}{end}"
  },
  {
   "id": "B:40BDC",
   "jp": "　いや、そうじゃない{n}　そうだ、むかえに来た{end}",
-  "en": ""
+  "en": "No, that's not it{n}Yes, I came for you{end}"
  },
  {
   "id": "B:40C0C",
   "jp": "{face:0014}そうですか、それはざんねんです{wait}{end}",
-  "en": ""
+  "en": "{face:0014}I see. That is a shame.{wait}{end}"
  },
  {
   "id": "B:40C34",
   "jp": "{face:0014}おおっ！それでは{n}ごいっしょさせていただきます{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Oh! Then allow me to accompany you.{wait}{end}"
  },
  {
   "id": "B:40C6C",
   "jp": "{face:0014}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ヴィネセンターに登録できる{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama, your allies are full,{wait}{f0}so I cannot accompany you.{wait}{page}Please make room for me to be registered at the Vine Center.{wait}{page}I shall ask again another time.{wait}{end}"
  },
  {
   "id": "B:40CFC",
   "jp": "{face:0016}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ヴィネセンターに登録できる{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama, your allies are full,{wait}{f0}so I cannot accompany you.{wait}{page}Make room for me to be registered at the Vine Center.{wait}{page}I shall ask again another time.{wait}{end}"
  },
  {
   "id": "B:40D8C",
   "jp": "{face:0015}わたくしをむかえに{wait}{n}来てくれたのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0015}Have you come{wait}{n}to take me along?{wait}{end}"
  },
  {
   "id": "B:40DC0",
   "jp": "{face:0015}そうですか、それはざんねんです{wait}{end}",
-  "en": ""
+  "en": "{face:0015}I see. That's a shame.{wait}{end}"
  },
  {
   "id": "B:40DE8",
   "jp": "{face:0015}おおっ！それでは{n}ごいっしょさせていただきます{wait}{end}",
-  "en": ""
+  "en": "{face:0015}Oh! Then I'll gladly come along with you!{wait}{end}"
  },
  {
   "id": "B:40E20",
   "jp": "{face:0016}わたくしをむかえに{wait}{n}来てくれたのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0016}Have you come{wait}{n}to take me with you?{wait}{end}"
  },
  {
   "id": "B:40E54",
   "jp": "{face:0016}そうですか、それはざんねんです{wait}{end}",
-  "en": ""
+  "en": "{face:0016}I see. That is a pity.{wait}{end}"
  },
  {
   "id": "B:40E7C",
   "jp": "{face:0016}おおっ！それでは{n}ごいっしょさせていただきます{wait}{end}",
-  "en": ""
+  "en": "{face:0016}Oh! Then I shall accompany you.{wait}{end}"
  },
  {
   "id": "B:40EB4",
   "jp": "{partner}の様子がおかしい{wait}{end}",
-  "en": ""
+  "en": "Something's wrong with {partner}...{wait}{end}"
  },
  {
   "id": "B:40ECC",
   "jp": "{face:0001}{voice:05CA}何だか、体がアツイぜ！{wait}{page}{voice:05CB}体の中から{n}力があふれて来るようだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:05CA}Man, my body's burning up!{wait}{page}{voice:05CB}It's like power's overflowing from deep inside me!{wait}{end}"
  }
 ]

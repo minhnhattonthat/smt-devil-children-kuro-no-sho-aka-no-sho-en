@@ -2,137 +2,137 @@
  {
   "id": "B:3A8B0",
   "jp": "{face:0020}{voice:060B}たしかに受け取りましたがな{n}このマモン、ウソは言わへん！{wait}{page}{voice:01C9}そやけど、虹色のメシアのツノは{wait}{page}{voice:060C}カジノタウンのわての家に{n}かくしてあるんや{wait}{page}{voice:060F}先に行って、待ってるさかい{n}後から、きーや{wait}{page}{voice:0610}あんまり、おそかったら{n}チャラにするで{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:060B}Got it, all right. And I, Mammon, don't tell no lies!{wait}{page}{voice:01C9}But that rainbow Messiah Horn...{wait}{page}{voice:060C}I got it hidden at my place in Casino Town.{wait}{page}{voice:060F}I'll head on ahead and wait for ya, so come along after.{wait}{page}{voice:0610}Take too long, and the deal's off.{wait}{end}"
  },
  {
   "id": "B:3A9AC",
   "jp": "{face:0020}お金、足らへんよ{n}ウソゆーたら、コマルガナ！{wait}{end}",
-  "en": ""
+  "en": "{face:0020}You ain't got enough money! Lyin' to me'll get ya in a real pickle!{wait}{end}"
  },
  {
   "id": "B:3A9E0",
   "jp": "{face:0000}{voice:01CA}どうしたんだ！これは？{wait}{page}{voice:01CB}街がメチャメチャに{n}壊されてるぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:01CA}What happened here!?{wait}{page}{voice:01CB}The whole town's been smashed to pieces!{wait}{end}"
  },
  {
   "id": "B:3AA2C",
   "jp": "{face:0000}{voice:01D3}ふざけるな！{wait}{page}{voice:01D4}この街を、こんなにしたのは{n}お前たち天使なのか！？{wait}{page}{voice:01D5}街を、こんなふうに破壊して{n}デビルたちを、こんなに倒して{wait}{page}{voice:01D6}それでも自分たちが{n}正しいと・・正義だと{wait}{page}{voice:01D7}どうして言えるんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:01D3}Cut it out!{wait}{page}{voice:01D4}Are you angels the ones who did this to the town!?{wait}{page}{voice:01D5}Wrecking the town like this, beating down all these Devils...{wait}{page}{voice:01D6}and you still say you're in the right... that it's justice...{wait}{page}{voice:01D7}How can you say that!?{wait}{end}"
  },
  {
   "id": "B:3AB0C",
   "jp": "{face:0008}{ea}・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{ea}.......{wait}{end}"
  },
  {
   "id": "B:3AB24",
   "jp": "{face:0022}{voice:061A}世界をめつぼうから{n}救うためには、しかたないのです{wait}{page}{voice:061B}そうでなければ、美しくない世界に{n}なってしまうでは、ないですか{wait}{end}",
-  "en": ""
+  "en": "{face:0022}{voice:061A}It cannot be helped, if we are to save the world from destruction.{wait}{page}{voice:061B}Otherwise, the world would become a world without beauty, would it not?{wait}{end}"
  },
  {
   "id": "B:3ABA8",
   "jp": "{face:0000}{voice:01D8}自分だけが正しいのか！{wait}{page}{voice:01D9}正しいと思えば{n}何をしても、許されるのか？{wait}{page}{voice:01DA}・・・・天使たちよ{wait}{page}{voice:01DB}このように、デビルを倒し{n}世界を破壊するお前たちに{wait}{page}{voice:01DC}正義など、ぜったいにない！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:01D8}So you're the only ones who are right!?{wait}{page}{voice:01D9}If you think you're right, does that mean you can do anything?{wait}{page}{voice:01DA}....Angels.{wait}{page}{voice:01DB}You beat down Devils like this and destroy the world...{wait}{page}{voice:01DC}There's no justice in you at all!{wait}{end}"
  },
  {
   "id": "B:3AC74",
   "jp": "{face:0022}{ea}・・・・・・・{wait}{page}{voice:061C}やむをえません！{wait}{page}{voice:061D}デビルチルドレン{n}ディープホールに落ちなさい！{wait}{end}",
-  "en": ""
+  "en": "{face:0022}{ea}.......{wait}{page}{voice:061C}You leave me no choice!{wait}{page}{voice:061D}Devil Child, fall into the Deep Hole!{wait}{end}"
  },
  {
   "id": "B:3ACDC",
   "jp": "{ee}みんな、ダークパレスに{wait}{n}行ったらしい{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like everyone{wait}{n}went to the Dark Palace.{wait}{end}"
  },
  {
   "id": "B:3AD08",
   "jp": "誰かいる！{wait}{end}",
-  "en": ""
+  "en": "Someone's here!{wait}{end}"
  },
  {
   "id": "B:3AD18",
   "jp": "{face:000D}{voice:0621}お前たち{n}よくがんばってくれたね{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0621}You have all done very well.{wait}{end}"
  },
  {
   "id": "B:3AD44",
   "jp": "{face:000D}{voice:062C}しかし、これから先は{wait}{page}{voice:062D}この私も、お前の決めた事に{n}したがわねば、ならないのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:062C}But from here on,{wait}{page}{voice:062D}even I must abide by whatever you decide.{wait}{end}"
  },
  {
   "id": "B:3ADA4",
   "jp": "{face:0024}{voice:0228}このとびらの向こうが{n}オルゴールルームです{wait}{page}{voice:0229}そこにある、ノルンのぞうの前で{wait}{page}{voice:022A}ハルマゲドンのプログラムを{n}起動させれば{wait}{page}{voice:022B}この世界を最初から{n}やり直す事が、できるのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0228}Beyond this door lies the Orgel Room.{wait}{page}{voice:0229}There, before the statue of Norn,{wait}{page}{voice:022A}start the Armageddon program,{wait}{page}{voice:022B}and this world can be remade from the very beginning.{wait}{end}"
  },
  {
   "id": "B:3AE68",
   "jp": "{face:0008}{voice:0243}兄さん、来たんだね{wait}{page}{voice:0244}自分と、世界の運命を{n}決定するために{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0243}So you came, big brother.{wait}{page}{voice:0244}To decide your own fate, and the fate of the world.{wait}{end}"
  },
  {
   "id": "B:3AEB4",
   "jp": "{face:0000}{voice:0245}・・・・・ナガヒサ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0245}.....Nagahisa...{wait}{end}"
  },
  {
   "id": "B:3AED8",
   "jp": "{face:0008}{voice:0246}世界は、もう一度{n}やり直さなくては、だめなんだ{wait}{page}{voice:0247}このまま進んでも{n}この世界に、未来はないよ{wait}{page}{voice:0248}今こそ、全てをリセットするプログラム{wait}{page}{voice:0249}ハルマゲドンを起動する時なんだ！！{wait}{page}{voice:024A}兄さん、おねがいだ！{n}ノルンのカギを、わたしてよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0246}The world has to start over one more time.{wait}{page}{voice:0247}If things go on like this, this world has no future.{wait}{page}{voice:0248}Now is the time for the program that resets everything...{wait}{page}{voice:0249}Now is the time to activate Armageddon!!{wait}{page}{voice:024A}Big brother, please! Give me the Norn Key!{wait}{end}"
  },
  {
   "id": "B:3AFD4",
   "jp": "{face:0000}{voice:024B}天使たちにとっての{n}未来、という事だな{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:024B}You mean a future for the angels.{wait}{end}"
  },
  {
   "id": "B:3B008",
   "jp": "{face:0008}{voice:024C}ちがう！そうじゃない！{n}信じてくれ！兄さん！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:024C}No! That's not it! Believe me, big brother!{wait}{end}"
  },
  {
   "id": "B:3B040",
   "jp": "{face:0008}{voice:0289}兄さん{n}これが、最後の戦いですね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0289}Big brother, this is the final battle.{wait}{end}"
  },
  {
   "id": "B:3B06C",
   "jp": "{face:0008}{voice:0255}ありがとう！{n}わかって、くれたんですね！{wait}{page}{voice:0256}これで、ハルマゲドンを{n}起動する事ができる{wait}{page}{voice:0257}さあ、オルゴールルームに{n}行きましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0255}Thank you! You understand!{wait}{page}{voice:0256}Now we can activate Armageddon.{wait}{page}{voice:0257}Come on, let's go to the Orgel Room.{wait}{end}"
  },
  {
   "id": "B:3B100",
   "jp": "ここが、この世界をつくった{n}ホシガミのねむる所ですね{wait}{end}",
-  "en": ""
+  "en": "So this is where Hoshigami, who created this world, sleeps.{wait}{end}"
  },
  {
   "id": "B:3B138",
   "jp": "{face:0027}{voice:0638}ラグナロクを起動させて{n}私を起こしに来たのは、誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0638}Who has activated Ragnarok and come to wake me?{wait}{end}"
  },
  {
   "id": "B:3B178",
   "jp": "{face:0027}{voice:0639}私を起こしに来たのは{n}あなたなのね！{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0639}So it was you who came to wake me!{wait}{end}"
  },
  {
   "id": "B:3B1A8",
   "jp": "{face:0027}{voice:063A}さあ、何がのぞみなの？{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:063A}Now, what is your wish?{wait}{end}"
  },
  {
   "id": "B:3B1CC",
   "jp": "{face:0027}{voice:063B}わかりました！それでは{n}あなたの、のぞみのままに{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:063B}Very well! Then let it be just as you wish.{wait}{end}"
  },
  {
   "id": "B:3B208",
   "jp": "{face:0027}{voice:0646}さあ、これであなたの{n}のぞみは、かなえられたはず{wait}{page}{voice:0647}世界はたった今、新しい時代に向かって{n}動きだしたのです{wait}{page}{voice:0648}後は{n}あなたのお好きなように{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0646}There. Your wish should now be granted.{wait}{page}{voice:0647}At this very moment, the world has begun to move toward a new age.{wait}{page}{voice:0648}The rest is up to you.{wait}{end}"
  },
  {
   "id": "B:3B2A8",
   "jp": "{face:0027}最後に、ここのサークルゲートから{wait}{n}ディープホールへ{f0}行けるようにしておいたわ{wait}{page}これから先はデビダスをみて{n}全てのデビルを集めるといいわ{wait}{page}ウェブネットを使わないと{n}集められないデビルもいるわよ{wait}{page}それじゃあ、ガンバッテね！{wait}{end}",
-  "en": ""
+  "en": "{face:0027}One last thing. From the Circle Gate here,{wait}{n}I've made it so you can go{f0}to the Deep Hole.{wait}{page}From now on, check the Devidas and try to collect every Devil.{wait}{page}Some Devils can't be collected without using the Webnet.{wait}{page}Well then, good luck!{wait}{end}"
  },
  {
   "id": "B:3B394",
@@ -141,37 +141,37 @@
  {
   "id": "B:3B3D0",
   "jp": "{face:0027}{voice:0632}これであなたは{n}ホシガミに、なりました{wait}{page}{voice:0633}デビルチルドレンとしての{n}役目もまた、終わったのです{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0632}With this, you have become Hoshigami.{wait}{page}{voice:0633}Your role as a Devil Child has come to an end as well.{wait}{end}"
  },
  {
   "id": "B:3B440",
   "jp": "{face:0008}{voice:0258}兄さん！{n}ここが、オルゴールルームだよ{wait}{page}{voice:0259}兄さんのおかげで{wait}{page}{voice:025A}世界はもう一度{n}やり直す事が、できるんだ{wait}{page}{voice:025B}いいかい？{wait}{page}{voice:025C}ハルマゲドンを、起動させるよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0258}Big brother! This is the Orgel Room.{wait}{page}{voice:0259}Thanks to you,{wait}{page}{voice:025A}the world can start over one more time.{wait}{page}{voice:025B}Ready?{wait}{page}{voice:025C}I'm activating Armageddon!{wait}{end}"
  },
  {
   "id": "B:3B4F4",
   "jp": "きず薬を５コ、手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got 5 Medicine!{wait}{end}"
  },
  {
   "id": "B:3B514",
   "jp": "チャクラドリンクを{n}５コ、手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got 5 Chakra Drinks!{wait}{end}"
  },
  {
   "id": "B:3B540",
   "jp": "{face:0007}{voice:05E4}この、デビホンを・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05E4}This DeviPhone....{wait}{end}"
  },
  {
   "id": "B:3B564",
   "jp": "{face:0007}{voice:05E5}ヴィネコンにつなぐと{wait}{page}{voice:05E6}魔界のどこからでも、ヴィネセンターに{n}アクセスできるんだ！{wait}{page}{voice:05E7}使う時はデビホンのコマンドを{n}使えばいいんだよ{wait}{page}{voice:05E8}ただし・・・電波のとどかない{n}所はダメだけどね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05E5}If you hook it up to the Vinecom,{wait}{page}{voice:05E6}you can access the Vine Center from anywhere in Makai!{wait}{page}{voice:05E7}When you want to use it, just use the DeviPhone command.{wait}{page}{voice:05E8}Though... it won't work anywhere the signal can't reach...{wait}{end}"
  },
  {
   "id": "B:3B638",
   "jp": "今なら通話料無し！{wait}{page}たったの２５０００マッカ！！{wait}{page}とってもべんりデスよ！！{wait}{end}",
-  "en": ""
+  "en": "No call fees, for a limited time!{wait}{page}Only 25000 Macca!!{wait}{page}It's sooo handy!!{wait}{end}"
  },
  {
   "id": "B:3B68C",
@@ -376,31 +376,31 @@
  {
   "id": "B:3C24C",
   "jp": "{face:0012}よろしくな！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Nice to meet ya!{wait}{end}"
  },
  {
   "id": "B:3C260",
   "jp": "{face:0011}{name}{n}あなた、弟さんを{wait}{f0}探してるんだったわね！{wait}{page}ダストがね、魔界に現れた{n}人間の話を聞いたんだって{wait}{page}ダスト、話してあげてよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}{name}, you're looking{wait}{f0}for your little brother, right!?{wait}{page}Dust says he heard some talk about humans showing up in Makai.{wait}{page}Go on, Dust, tell 'em!{wait}{end}"
  },
  {
   "id": "B:3C2E8",
   "jp": "{face:0012}オレが聞いた話はこうさ{wait}{page}最近魔界に３人の{n}人間のこどもが現れた{wait}{page}１人は大魔王に{n}さらわれてやって来た{wait}{page}次は自分でも知らないうちに{wait}{n}送りこまれて来た{wait}{page}最後のこどもは{n}大魔王に何かをたのまれて{wait}{f0}やって来たそうだ{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Here's what I heard.{wait}{page}Lately, three human kids showed up in Makai.{wait}{page}One got kidnapped by the Great Demon King and brought here.{wait}{page}The next got sent in{wait}{n}without even knowing it.{wait}{page}The last kid got asked to do something by the Great Demon King{wait}{f0}and came here for that, they say.{wait}{end}"
  },
  {
   "id": "B:3C3CC",
   "jp": "{face:0000}さらわれたのはナガヒサだ！{wait}{page}送りこまれたというのは{n}たぶんオレの事だろうな{wait}{page}でも、大魔王に何かを{n}たのまれてやって来たのは{wait}{f0}いったい誰なんだ！？{wait}{page}ナガヒサは無事でいるんだろうか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}The one who got kidnapped is Nagahisa!{wait}{page}And the one who got sent in... that's probably me.{wait}{page}But the one who came on some errand for the Great Demon King...{wait}{f0}who in the world is that!?{wait}{page}I wonder if Nagahisa's safe...{wait}{end}"
  },
  {
   "id": "B:3C490",
   "jp": "{face:0012}安心しろ{name}！{n}さらわれたのがきみの弟なら{wait}{page}かれは逃げ出したそうだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0012}Relax, {name}! If the one who got kidnapped is your brother...{wait}{page}I hear he escaped!{wait}{end}"
  },
  {
   "id": "B:3C4DC",
   "jp": "{face:0000}えっ！逃げた！？ほんとに？{wait}{page}どうやって大魔王の所から{wait}{n}逃げ出したんだ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Huh!? He escaped!? Really?{wait}{page}How did he get away{wait}{n}from the Great Demon King?{wait}{end}"
  }
 ]
