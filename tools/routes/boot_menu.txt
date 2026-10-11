@@ -1,0 +1,6 @@
+# cold boot -> title -> book menu (Black Book highlighted)
+1500 -
+6 start
+400 -
+6 start
+300 -

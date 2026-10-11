@@ -36,6 +36,74 @@ def glyph(pac, g):
     return rows
 
 
+EN_BASE = 0x100   # English glyph code = EN_BASE + ASCII
+EN_TOP = 4        # art row 0 lands on cell row 4
+
+
+def load_en(path):
+    """font/en16.txt -> {code: (16x16 values, advance)}. Body '#' = 1, shadow 3 added at (+1,+1)."""
+    glyphs, cur = {}, None
+    for line in open(path, encoding='utf-8').read().splitlines() + ['']:
+        if line.startswith('#') and cur is None or line.startswith('# '):
+            continue
+        if line.startswith('char '):
+            cur = {'code': EN_BASE + int(line.split()[1], 16), 'rows': [], 'width': None}
+        elif cur is not None and line.startswith('width '):
+            cur['width'] = int(line.split()[1])
+        elif cur is not None and line:
+            cur['rows'].append(line)
+        elif cur is not None:
+            px = [[0] * 16 for _ in range(16)]
+            body_w = 0
+            for y, r in enumerate(cur['rows']):
+                for x, c in enumerate(r):
+                    if c == '#':
+                        px[EN_TOP + y][x] = 1
+                        body_w = max(body_w, x + 1)
+            for y in range(15, -1, -1):
+                for x in range(15, -1, -1):
+                    if px[y][x] == 1 and y < 15 and x < 15 and px[y + 1][x + 1] == 0:
+                        px[y + 1][x + 1] = 3
+            assert body_w <= 14 and len(cur['rows']) + EN_TOP <= 15, hex(cur['code'])
+            glyphs[cur['code']] = (px, cur['width'] if cur['width'] is not None else body_w + 1)
+            cur = None
+    return glyphs
+
+
+def put_glyph(pac, g, px):
+    """Write 16x16 2-bit values into glyph g's layer of the font image (bytearray)."""
+    x0 = FONT_X + 256 * (g >> 9) + 16 * (g & 15)
+    y0 = 16 * ((g >> 4) & 15)
+    sh = layer_shift(g)
+    for y in range(16):
+        for x in range(16):
+            px_ = x0 + x
+            o = IMG_OFF + (y0 + y) * (IMG_W // 2) + px_ // 2
+            nib_sh = 4 if px_ & 1 else 0
+            nib = (pac[o] >> nib_sh) & 15
+            nib = (nib & ~(3 << sh)) | (px[y][x] << sh)
+            pac[o] = (pac[o] & ~(15 << nib_sh) & 0xFF) | (nib << nib_sh)
+
+
+def preview(glyphs, text, out, scale=3):
+    """Render text with the English glyphs and advances, as the game would (black box)."""
+    w = sum(glyphs[EN_BASE + ord(c)][1] for c in text) + 16
+    im = Image.new('RGB', (w * scale, 20 * scale), (0, 32, 90))
+    dr = ImageDraw.Draw(im)
+    pal = {1: (255, 255, 255), 2: (172, 172, 172), 3: (8, 8, 8)}
+    x = 4
+    for c in text:
+        px, adv = glyphs[EN_BASE + ord(c)]
+        for yy in range(16):
+            for xx in range(16):
+                v = px[yy][xx]
+                if v:
+                    dr.rectangle([(x + xx) * scale, (2 + yy) * scale, (x + xx + 1) * scale - 1,
+                                  (2 + yy + 1) * scale - 1], fill=pal[v])
+        x += adv
+    im.save(out)
+
+
 def sheet(pac, out, first=0, count=1024, scale=2):
     cols = 16
     cw, ch = 16 * scale + 4, 16 * scale + 12

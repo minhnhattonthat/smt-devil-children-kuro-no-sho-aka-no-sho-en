@@ -15,7 +15,15 @@ CTRL = {
     0xFFFF: ('end', 0),
     0xFFFE: ('n', 0),
     0xFFFD: ('end2', 0),
-    0xFFEF: ('ef', 1),
+    0xFFFA: ('page', 0),
+    0xFFF3: ('wait', 0),
+    0xFFF0: ('f0', 0),
+    0xFFFB: ('fb', 0),
+    0xFFFC: ('speed', 1),
+    0xFFEA: ('ea', 0),
+    0xFFEB: ('voice', 1),
+    0xFFEE: ('ee', 0),
+    0xFFEF: ('face', 1),
     0xFFEC: ('hero', 0),
     0xFFED: ('ed', 0),
     0xFFF5: ('f5', 0),
@@ -78,6 +86,43 @@ def encode(text, enc=JP_ENC):
             out += struct.pack('<H', int(m[3], 16))
         else:
             out += struct.pack('<H', enc[m[4]])
+    return bytes(out)
+
+
+BYTE_MARK = 0xFFDC  # message prefix: 8-bit English follows (widened by the expander hook, asm/main.asm)
+EN_BASE = 0x100     # 16-bit English glyph = 0x100 + ASCII
+
+
+def encode_en16(text):
+    """English for 16-bit contexts (EXE strings, name tables): ASCII -> 0x100+c, {codes} and [XXXX] raw."""
+    import re
+    out = bytearray()
+    for m in re.finditer(r'\{(\w+)((?::[0-9A-F]{4})*)\}|\[([0-9A-F]{4})\]|(.)', text, re.S):
+        if m[1] or m[3]:
+            out += encode(m[0])
+        else:
+            c = ord(m[4])
+            assert 0x20 <= c < 0x7F, 'not ASCII: %r' % m[4]
+            out += struct.pack('<H', EN_BASE + c)
+    return bytes(out)
+
+
+def encode_en8(text):
+    """English for byte-mode messages: FFDC mark, ASCII bytes, newline 0x0A, everything else FF + LE halfword."""
+    import re
+    out = bytearray(struct.pack('<H', BYTE_MARK))
+    for m in re.finditer(r'\{(\w+)((?::[0-9A-F]{4})*)\}|\[([0-9A-F]{4})\]|(.)', text, re.S):
+        if m[1] == 'n':
+            out.append(0x0A)
+        elif m[1] or m[3]:
+            raw = encode(m[0])
+            for i in range(0, len(raw), 2):
+                out += b'\xFF' + raw[i:i + 2]
+        else:
+            c = ord(m[4])
+            assert 0x20 <= c < 0x7F, 'not ASCII: %r' % m[4]
+            out.append(c)
+    assert out.endswith(b'\xFF\xFF\xFF'), 'byte message must end with {end}'
     return bytes(out)
 
 

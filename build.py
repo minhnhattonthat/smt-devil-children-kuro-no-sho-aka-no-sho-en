@@ -69,14 +69,54 @@ def identity():
     return 0 if ok else 1
 
 
+ARMIPS = ROOT / 'tools' / 'armips' / 'armips.exe'
+SPIKE = {  # engine spike: one byte-mode message in place (B_EVENT offset -> English)
+    0x3B6CC: '{voice:0003}Find the Norn Key!{wait}{page}{voice:0004}Get that key and bring it{n}'
+             'to me! The quick brown fox jumps.{wait}{end}',
+}
+
+
+def build_font(files):
+    import font
+    pac = bytearray((TREE / 'DEVIL.PAC').read_bytes())
+    glyphs = font.load_en(ROOT / 'font' / 'en16.txt')
+    widths = bytearray(256)
+    for code, (px, adv) in glyphs.items():
+        font.put_glyph(pac, code, px)
+        widths[code - 0x100] = adv
+    (files / 'DEVIL.PAC').write_bytes(pac)
+    (BUILD / 'en_width.bin').write_bytes(widths)
+
+
+def build_exe(files, name):
+    shutil.copy(TREE / name, files / name)
+    r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
+                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin')], capture_output=True, text=True)
+    if r.returncode:
+        sys.exit('armips failed:\n' + r.stdout + r.stderr)
+
+
+def build_event(files, name):
+    import text
+    d = bytearray((TREE / name).read_bytes())
+    for off, en in SPIKE.items():
+        n = text.decode(d, off)[1]
+        b = text.encode_en8(en)
+        assert len(b) <= n, (hex(off), len(b), n)
+        d[off:off + n] = b + bytes(n - len(b))
+    (files / name).write_bytes(d)
+
+
 def build():
     sys.path.insert(0, str(ROOT / 'tools'))
     files = BUILD / 'files'
     if files.exists():
         shutil.rmtree(files)
     files.mkdir(parents=True)
-    overrides = {}
-    # build steps register patched copies of disc files here (name -> path under build/files)
+    build_font(files)
+    build_exe(files, 'B_MAIN.EXE')
+    build_event(files, 'B_EVENT.BIN')
+    overrides = {p.name: p for p in files.iterdir()}
     make_disc(overrides, BUILD / 'dc_en.bin')
     print('built', BUILD / 'dc_en.bin')
     return 0
