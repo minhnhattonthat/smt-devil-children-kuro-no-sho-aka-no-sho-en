@@ -116,7 +116,7 @@ EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero 
 }
 
 
-EXE_TAG = {'B_MAIN.EXE': 'BM', 'R_MAIN.EXE': 'RM', 'N_MAIN.EXE': 'NM'}
+EXE_TAG = {'B_MAIN.EXE': 'BM', 'R_MAIN.EXE': 'RM', 'N_MAIN.EXE': 'NM', 'B_BATTLE.BIN': 'BB', 'R_BATTLE.BIN': 'RB'}
 
 
 def exe_marker(mid, jp, cap):
@@ -131,14 +131,14 @@ def exe_marker(mid, jp, cap):
     return jp
 
 
-def build_exe(files, name, mode='normal'):
-    import exe
+def insert_strings(files, name, mode, sub, extract):
+    """In-place packed English for EXE/overlay strings (script/<sub>); writes build/files/<name>."""
     import text
     d = bytearray((TREE / name).read_bytes())
-    tl = load_script('exe')
+    tl = load_script(sub)
     tag = EXE_TAG[name]
-    jp_first = exe_first_ids()
-    for off, ln, cap, jp in exe.strings(bytes(d)):
+    jp_first = exe_first_ids(sub)
+    for off, ln, cap, jp in extract(bytes(d)):
         mid = '%s:%06X' % (tag, off)
         if mode == 'marker':
             en = exe_marker(mid, jp, cap)
@@ -151,6 +151,11 @@ def build_exe(files, name, mode='normal'):
             sys.exit('%s %s: %d bytes > %d' % (name, mid, len(b), cap))
         d[off:off + cap] = b + bytes(cap - len(b))
     (files / name).write_bytes(d)
+
+
+def build_exe(files, name, mode='normal'):
+    import exe
+    insert_strings(files, name, mode, 'exe', exe.strings)
     eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
                         '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin')] + eq, capture_output=True, text=True)
@@ -158,11 +163,11 @@ def build_exe(files, name, mode='normal'):
         sys.exit('armips failed:\n' + r.stdout + r.stderr)
 
 
-def exe_first_ids():
+def exe_first_ids(sub='exe'):
     """JP text -> id of the entry that carries its English (script/exe dedupes identical JP across EXEs)."""
     import json
     out = {}
-    for p in sorted((ROOT / 'script' / 'exe').glob('*.json')):
+    for p in sorted((ROOT / 'script' / sub).glob('*.json')):
         for e in json.loads(p.read_text(encoding='utf-8')):
             if 'jp' in e:
                 out.setdefault(e['jp'], e['id'])
@@ -235,6 +240,9 @@ def build(mode='normal'):
     build_font(files)
     for exe in EXE_ADDR:
         build_exe(files, exe, mode)
+    import exe as exe_mod
+    for ov in ('B_BATTLE.BIN', 'R_BATTLE.BIN'):
+        insert_strings(files, ov, mode, 'battle', exe_mod.battle_strings)
     build_event(files, 'B', 'B_EVENT.BIN', mode)
     build_event(files, 'R', 'R_EVENT.BIN', mode)
     overrides = {p.name: p for p in files.iterdir()}

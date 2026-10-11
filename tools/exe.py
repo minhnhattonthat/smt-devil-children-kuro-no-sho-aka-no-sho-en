@@ -49,9 +49,9 @@ def record_slots(d):
     return out
 
 
-def strings(d):
+def strings(d, records=True):
     """[(offset, length, capacity, jp)] for text strings in an EXE image."""
-    rec = record_slots(d)
+    rec = record_slots(d) if records else {}
     in_rec = set()
     for off, field in rec.items():
         in_rec.update(range(off, off + field))
@@ -79,13 +79,33 @@ def strings(d):
     return out
 
 
-def dump(chunk=120):
-    dest = ROOT / 'script' / 'exe'
+BATTLES = (('BB', 'B_BATTLE.BIN'), ('RB', 'R_BATTLE.BIN'))  # overlays at 0x80170000, no record tables known
+
+
+def battle_strings(d):
+    """Battle overlays hold many data runs that decode as kana: keep real-looking text only."""
+    out = []
+    for off, n, cap, jp in strings(d, records=False):
+        units = [struct.unpack_from('<H', d, p)[0] for p in range(off, off + n - 2, 2)]
+        glyphs = [u for u in units if u < text.NGLYPH]
+        spaced = sum(1 for u in glyphs if u == 0) * 2 >= len(glyphs)  # 'ご　さ　ざ' kana tables
+        latin = any(0x23 <= u <= 0x56 for u in glyphs)
+        escapes = any(u >= text.NGLYPH and u not in text.CTRL for u in units) or 0xFE in glyphs or 0xFF in glyphs
+        punct_start = bool(glyphs) and units[0] == glyphs[0] and 0 < glyphs[0] <= 0x18  # '。モ', '・ホペ'
+        if punct_start:
+            continue
+        if '{wait}' in jp or '{face:' in jp or (len(glyphs) >= 2 and not spaced and not latin and not escapes):
+            out.append((off, n, cap, jp))
+    return out
+
+
+def dump(chunk=120, sub='exe', files=EXES, extract=None):
+    dest = ROOT / 'script' / sub
     dest.mkdir(parents=True, exist_ok=True)
     first, entries = {}, []
-    for tag, name in EXES:
+    for tag, name in files:
         d = (TREE / name).read_bytes()
-        for off, n, cap, jp in strings(d):
+        for off, n, cap, jp in (extract or strings)(d):
             mid = '%s:%06X' % (tag, off)
             if jp in first:
                 entries.append({'id': mid, 'same_as': first[jp]})
@@ -114,6 +134,9 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'stats'
     if cmd == 'dump':
         dump()
+        return
+    if cmd == 'dump-battle':
+        dump(sub='battle', files=BATTLES, extract=battle_strings)
         return
     for tag, name in EXES:
         ss = strings((TREE / name).read_bytes())

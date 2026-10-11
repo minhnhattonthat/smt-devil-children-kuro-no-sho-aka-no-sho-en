@@ -19,6 +19,15 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Cross = cancel, circle = confirm in game. Emulator runs real-time (~60 fps); book load takes ~3000 frames.
 - PCSX-Redux read breakpoints: width 4 works (`tools/lua/readwatch.lua`, needs `--debugger`).
 
+- Translation: `python -X utf8 tools/batches.py split|split-exe|check <b>|merge <b>`; brief `docs/translator-brief.md`,
+  style `docs/style-reference.md`, speakers `docs/faces.md`, names `docs/names.md`. Fitter: `tools/lint.py "text{end}"`.
+- `build.py marker` = event + EXE markers. QA text sheet: `tools/qa_text.py work/qa/<run>`.
+- Savestates hold VRAM: after font changes cold-boot (`--route tools/routes/boot_menu.txt`). `--debugger` runs ~10x slow;
+  emu.py timeouts can orphan `pcsx-redux.main` (locks build/dc_en.bin) - check tasklist.
+- Freeze tools/ and font/ while translator agents run (lint/wrap depend on them).
+
 ## Status
-- Done: setup, identity build, font/table, encoding + renderer + expander RE, event message/pointer map.
-- Next: engine spike (VWF advance table + 8-bit expander mode), extraction to JSON, marker build.
+- Done: engine (packed English, VWF 16x16, 8x8 map, hooks in B/R/N_MAIN), event repack, EXE in-place insertion,
+  pilot approved by user (opening scenes), extraction (script/event 39 batches, script/exe 24 batches).
+- In progress: event translation waves (e000-...). Next: names.md -> glossary lint, EXE batches, battle overlays
+  (B/R_BATTLE at 0x80170000, ~400 strings), graphics text (menu labels, title/book menu), name entry, credits.

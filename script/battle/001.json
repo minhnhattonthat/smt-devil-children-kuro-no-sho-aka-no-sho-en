@@ -1,0 +1,1340 @@
+[
+ {
+  "id": "BB:02C9D0",
+  "jp": "{face:0002}大した物ではないが{n}これでも使ってくれ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CA04",
+  "jp": "{face:0002}おくり物をどうぞ{n}アイテムですが・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CA38",
+  "jp": "{face:0002}友だちのしるしに{n}ボクの宝物をあげるよ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CA6C",
+  "jp": "{face:0002}ほんの気持ちだけど{n}これ、プレゼント！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CAA0",
+  "jp": "{face:0002}気に入ったよ！{n}これ持っていきな！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02CAD0",
+  "jp": "{face:0002}コレあげるから{n}また遊んでちょーだい！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CB04",
+  "jp": "{face:0002}ナニモ、ハナスコトハナイ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BB:02CB54",
+  "jp": "{face:0002}そんな事をしている{n}ヒマはないぞ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02CB84",
+  "jp": "{face:0002}あなたと話す事なんて{n}ありません・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CBB8",
+  "jp": "{face:0002}さあ！{n}戦いを続けようよ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BB:02CBE0",
+  "jp": "{face:0002}何言ってんの？{n}ジャマよ、ジャマ！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02CC10",
+  "jp": "{face:0002}話なんか聞きたくねえな！{n}さて、どいつから倒そうかな？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BB:02CC54",
+  "jp": "{face:0002}もー、ウルサイ！！だまってな！{n}ホント怒るよ？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BB:02CC90",
+  "jp": "{face:0002}アマイナ・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BB:02CCD8",
+  "jp": "{face:0002}スキだらけだな！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BB:02CCF4",
+  "jp": "{face:0002}いいですか？{n}私からいきますよ？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02CD20",
+  "jp": "{face:0002}スキありっ！！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BB:02CD3C",
+  "jp": "{face:0002}あれ？もしかしてチャンス？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BB:02CD64",
+  "jp": "{face:0002}オレをあまくみんなよ？コラ！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02CD90",
+  "jp": "{face:0002}アハハッ！{n}んじゃ、アタシからいくね♥{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CDC4",
+  "jp": "{face:0002}・・・ツキアッテラレン{n}サラバ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02CDF0",
+  "jp": "{face:0002}・・・{n}（きょうみが無くなったようだ）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CE24",
+  "jp": "{face:0002}時間のムダだな！{n}今日は見逃してやろう・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02CE5C",
+  "jp": "{face:0002}・・・気分が悪くなりました{n}ここにいる事すら嫌です{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02CE9C",
+  "jp": "{face:0002}もう、つきあっていられないよ！{n}ボク帰る{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CED0",
+  "jp": "{face:0002}ウェー！ヤダヤダ！{n}もう顔も見たくないよ！{n}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02CF08",
+  "jp": "{face:0002}ハー・・・{n}あきれてやる気が無くなったよ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CF3C",
+  "jp": "{face:0002}アンタ、ホントムカツク！！{n}アタシ帰る！！ついて来んなよ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "BB:02CF84",
+  "jp": "{face:0002}ガルル！！{n}オレノホンキ、ミセテヤル！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02CFB8",
+  "jp": "{face:0002}・・・{n}（かなり怒ってるようだ）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02CFE4",
+  "jp": "{face:0002}わたしを怒らせるとは・・・{n}たたきつぶしてやる！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D024",
+  "jp": "{face:0002}わかっていないようですね・・・{n}本気でいきますよ！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D064",
+  "jp": "{face:0002}あったまきたーー！{n}ボク、ホントは強いんだぞ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BB:02D0A0",
+  "jp": "{face:0002}ねぇ、みてみて！{n}これが実力ってヤツよ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02D0D4",
+  "jp": "{face:0002}オマエ、おれをナメてんだろ？{n}本気出すからかかってこい！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "BB:02D11C",
+  "jp": "{face:0002}もう、遊びはヤメ！{n}こっから本気ね！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02D14C",
+  "jp": "{face:0002}コレデモクラエ！！！{n}ウォーッ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D1A8",
+  "jp": "{face:0002}少しははんせいするがいい！！！{n}コレでどうだ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BB:02D1E4",
+  "jp": "{face:0002}そのまま倒れてしまうがいいわ！！{n}ホラッ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02D21C",
+  "jp": "{face:0002}倒れちゃいな！！エイッ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BB:02D240",
+  "jp": "{face:0002}けんこうっていいよね！{n}んじゃ、苦しいのはどうかな？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D280",
+  "jp": "{face:0002}オレにそんな口をきいたバツだ！{n}苦しめ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02D2B4",
+  "jp": "{face:0002}体の調子良さそうだけど{n}今日で最後ね！アハハ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BB:02D2F0",
+  "jp": "{face:0002}ケイヤクシタイナラ{n}々{num:FFE0:0000}　クレ・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02D324",
+  "jp": "{face:0002}・・・々{n}（々{num:FFE0:0000}　欲しがっているようだ）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02D35C",
+  "jp": "{face:0002}々{num:FFE0:0000}　ほど出せば{n}話を聞いてやってもいいが・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D39C",
+  "jp": "{face:0002}々{num:FFE0:0000}　いただけますか？{n}あなたの気持ちを見せていただきたい{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 76
+ },
+ {
+  "id": "BB:02D3E8",
+  "jp": "{face:0002}ボク、おなか空いた・・・{wait}{n}おやつ買うから{f0}々{num:FFE0:0000}　ちょうだい{face:00FF}{end}",
+  "en": "",
+  "max": 76
+ },
+ {
+  "id": "BB:02D434",
+  "jp": "{face:0002}ねえねえ{n}欲しいアクセサリーがあるんだ・・・{wait}{f0}々{num:FFE0:0000}　くれたら{f0}　買えるんだけど・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 104
+ },
+ {
+  "id": "BB:02D49C",
+  "jp": "{face:0002}おい！ちょっとまった！{wait}{n}々{num:FFE0:0000}{f0}くれたら、話きいてやるぜ？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 76
+ },
+ {
+  "id": "BB:02D4E8",
+  "jp": "{face:0002}あのさー・・・{wait}{n}々{num:FFE0:0000}{f0}で、イイコトしてあげるけど・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 72
+ },
+ {
+  "id": "BB:02D530",
+  "jp": "{face:0002}オマエ、ヨワスギ・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BB:02D554",
+  "jp": "{face:0002}（返事がない、けいけん不足？）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D580",
+  "jp": "{face:0002}おまえのようなみじゅく者とは{n}話にならん！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02D5B8",
+  "jp": "{face:0002}あなた・・・実力もないのに{n}私に何の用があるのですか？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BB:02D5FC",
+  "jp": "{face:0002}キミキミ！まだ弱いんだから{n}話すことなんてないよ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D63C",
+  "jp": "{face:0002}そこのボクー♥{n}弱いくせに話しかけないでねー{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02D674",
+  "jp": "{face:0002}オマエ、弱いんだから{n}そんなことしてる場合じゃねーだろ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BB:02D6B8",
+  "jp": "{face:0002}アタシ、弱い人には{n}ゼンゼンきょうみないの、ゴメンね♥{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BB:02D74C",
+  "jp": "{face:0002}足りんではないか・・・{n}ふざけるにもほどがあるぞ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D78C",
+  "jp": "{face:0002}あなたは{n}最低な人ですね・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D7B8",
+  "jp": "{face:0002}足りないじゃないか！{n}ダメダメ！！{wait}{end}",
+  "en": "",
+  "max": 42
+ },
+ {
+  "id": "BB:02D7E8",
+  "jp": "{face:0002}足りないよ？{n}あーあ、ガッカリ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D814",
+  "jp": "{face:0002}なんだそりゃ？{n}持ってねーんだろ？このウソツキが！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02D854",
+  "jp": "{face:0002}ねえ、ちょっと！{n}みんなみた？{wait}{f0}この人、アタシをだまそうとしてた！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 80
+ },
+ {
+  "id": "BB:02D8A4",
+  "jp": "{face:0002}オマエ・・・{n}シンヨウデキソウ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D8D0",
+  "jp": "{face:0002}・・・{n}（ケイヤクしてくれそう・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02D904",
+  "jp": "{face:0002}ケイヤクか？{n}いいだろう{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BB:02D928",
+  "jp": "{face:0002}あなたの気持ちは{n}わかりました・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02D958",
+  "jp": "{face:0002}やったー！{n}ケイヤク？もちろん！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 44
+ },
+ {
+  "id": "BB:02D984",
+  "jp": "{face:0002}ホント？ウレシー！{n}何でも言うこときいちゃう！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BB:02D9C0",
+  "jp": "{face:0002}サンキュー！{n}いやー、ひさしぶりにメシが食えるぜ！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BB:02DA00",
+  "jp": "{face:0002}ウフフ・・・{n}何してほしい？{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BB:02DA28",
+  "jp": "{face:0002}ハナシニ、ナラン・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 36
+ },
+ {
+  "id": "BB:02DA4C",
+  "jp": "{face:0002}・・・{n}（ガッカリしてるようだ・・・）{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02DA80",
+  "jp": "{face:0002}では、話は無しだ{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BB:02DA9C",
+  "jp": "{face:0002}あなたは{n}そのていどの人だったのですね・・・{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02DAD4",
+  "jp": "{face:0002}エーーッ！{n}ケチーーッ！もう知んないよ！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 56
+ },
+ {
+  "id": "BB:02DB0C",
+  "jp": "{face:0002}ウェーン！！{n}期待してソンしたー！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 48
+ },
+ {
+  "id": "BB:02DB3C",
+  "jp": "{face:0002}持ってんなら{n}出せよ！このヤロー！！！{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 52
+ },
+ {
+  "id": "BB:02DB70",
+  "jp": "{face:0002}アタシは別にいいんだけどー{n}こまるのはアンタだしー{wait}{face:00FF}{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "RB:000EB4",
+  "same_as": "BB:000EB4"
+ },
+ {
+  "id": "RB:000EEC",
+  "same_as": "BB:000EEC"
+ },
+ {
+  "id": "RB:02AB2C",
+  "same_as": "BB:02AB2C"
+ },
+ {
+  "id": "RB:02AB38",
+  "same_as": "BB:02AB38"
+ },
+ {
+  "id": "RB:02AB44",
+  "same_as": "BB:02AB44"
+ },
+ {
+  "id": "RB:02AB50",
+  "same_as": "BB:02AB50"
+ },
+ {
+  "id": "RB:02AB5C",
+  "same_as": "BB:02AB5C"
+ },
+ {
+  "id": "RB:02AB68",
+  "same_as": "BB:02AB68"
+ },
+ {
+  "id": "RB:02AB74",
+  "same_as": "BB:02AB74"
+ },
+ {
+  "id": "RB:02AB7E",
+  "same_as": "BB:02AB7E"
+ },
+ {
+  "id": "RB:02AB88",
+  "same_as": "BB:02AB88"
+ },
+ {
+  "id": "RB:02AB92",
+  "same_as": "BB:02AB92"
+ },
+ {
+  "id": "RB:02AB9C",
+  "same_as": "BB:02AB9C"
+ },
+ {
+  "id": "RB:02ABA6",
+  "same_as": "BB:02AB2C"
+ },
+ {
+  "id": "RB:02ABB0",
+  "same_as": "BB:02AB38"
+ },
+ {
+  "id": "RB:02ABBA",
+  "same_as": "BB:02AB74"
+ },
+ {
+  "id": "RB:02ABC4",
+  "same_as": "BB:02ABC4"
+ },
+ {
+  "id": "RB:02ABD0",
+  "same_as": "BB:02ABD0"
+ },
+ {
+  "id": "RB:02ABE0",
+  "same_as": "BB:02ABE0"
+ },
+ {
+  "id": "RB:02ABF0",
+  "same_as": "BB:02ABF0"
+ },
+ {
+  "id": "RB:02AC00",
+  "same_as": "BB:02AC00"
+ },
+ {
+  "id": "RB:02AC40",
+  "same_as": "BB:02AB50"
+ },
+ {
+  "id": "RB:02AC48",
+  "same_as": "BB:02AC48"
+ },
+ {
+  "id": "RB:02AC50",
+  "same_as": "BB:000EB4"
+ },
+ {
+  "id": "RB:02AC90",
+  "same_as": "BB:02AC90"
+ },
+ {
+  "id": "RB:02ACAC",
+  "same_as": "BB:02ACAC"
+ },
+ {
+  "id": "RB:02ACEC",
+  "same_as": "BB:02ACEC"
+ },
+ {
+  "id": "RB:02AD00",
+  "same_as": "BB:02AD00"
+ },
+ {
+  "id": "RB:02AD1C",
+  "same_as": "BB:02AD1C"
+ },
+ {
+  "id": "RB:02AD48",
+  "same_as": "BB:02AD48"
+ },
+ {
+  "id": "RB:02AD6C",
+  "same_as": "BB:02AD6C"
+ },
+ {
+  "id": "RB:02AD88",
+  "same_as": "BB:02AD88"
+ },
+ {
+  "id": "RB:02ADB4",
+  "same_as": "BB:02ADB4"
+ },
+ {
+  "id": "RB:02ADD8",
+  "same_as": "BB:02ADD8"
+ },
+ {
+  "id": "RB:02ADF8",
+  "same_as": "BB:02ADF8"
+ },
+ {
+  "id": "RB:02AE18",
+  "same_as": "BB:02AE18"
+ },
+ {
+  "id": "RB:02AE50",
+  "same_as": "BB:02AE50"
+ },
+ {
+  "id": "RB:02AE74",
+  "same_as": "BB:02AE74"
+ },
+ {
+  "id": "RB:02AEA8",
+  "same_as": "BB:02AEA8"
+ },
+ {
+  "id": "RB:02AED0",
+  "same_as": "BB:02AED0"
+ },
+ {
+  "id": "RB:02AEFC",
+  "same_as": "BB:02AEFC"
+ },
+ {
+  "id": "RB:02AF30",
+  "same_as": "BB:02AF30"
+ },
+ {
+  "id": "RB:02AF5C",
+  "same_as": "BB:02AF5C"
+ },
+ {
+  "id": "RB:02AF7C",
+  "same_as": "BB:02AF7C"
+ },
+ {
+  "id": "RB:02AFAC",
+  "same_as": "BB:02AFAC"
+ },
+ {
+  "id": "RB:02AFD4",
+  "same_as": "BB:02AFD4"
+ },
+ {
+  "id": "RB:02AFF8",
+  "same_as": "BB:02AFF8"
+ },
+ {
+  "id": "RB:02B024",
+  "same_as": "BB:02B024"
+ },
+ {
+  "id": "RB:02B054",
+  "same_as": "BB:02B054"
+ },
+ {
+  "id": "RB:02B090",
+  "same_as": "BB:02B090"
+ },
+ {
+  "id": "RB:02B27C",
+  "same_as": "BB:02B27C"
+ },
+ {
+  "id": "RB:02B290",
+  "same_as": "BB:02B290"
+ },
+ {
+  "id": "RB:02B2A0",
+  "same_as": "BB:02B2A0"
+ },
+ {
+  "id": "RB:02B2D8",
+  "same_as": "BB:02B2A0"
+ },
+ {
+  "id": "RB:02B2E8",
+  "same_as": "BB:02B2E8"
+ },
+ {
+  "id": "RB:02B2F8",
+  "same_as": "BB:02B2F8"
+ },
+ {
+  "id": "RB:02B310",
+  "same_as": "BB:02B310"
+ },
+ {
+  "id": "RB:02B328",
+  "same_as": "BB:02B328"
+ },
+ {
+  "id": "RB:02B33C",
+  "same_as": "BB:02B33C"
+ },
+ {
+  "id": "RB:02B350",
+  "same_as": "BB:02B350"
+ },
+ {
+  "id": "RB:02B364",
+  "same_as": "BB:02B364"
+ },
+ {
+  "id": "RB:02B370",
+  "same_as": "BB:02B370"
+ },
+ {
+  "id": "RB:02B380",
+  "same_as": "BB:02B380"
+ },
+ {
+  "id": "RB:02B3A0",
+  "same_as": "BB:02B3A0"
+ },
+ {
+  "id": "RB:02B3A8",
+  "same_as": "BB:02B3A8"
+ },
+ {
+  "id": "RB:02B3B4",
+  "same_as": "BB:02B3B4"
+ },
+ {
+  "id": "RB:02B3C4",
+  "same_as": "BB:02B3C4"
+ },
+ {
+  "id": "RB:02B3D4",
+  "same_as": "BB:02B3D4"
+ },
+ {
+  "id": "RB:02B3E4",
+  "same_as": "BB:02B3E4"
+ },
+ {
+  "id": "RB:02B3EC",
+  "same_as": "BB:02B3EC"
+ },
+ {
+  "id": "RB:02B3F8",
+  "same_as": "BB:02B3F8"
+ },
+ {
+  "id": "RB:02B404",
+  "same_as": "BB:02B404"
+ },
+ {
+  "id": "RB:02B414",
+  "same_as": "BB:02B414"
+ },
+ {
+  "id": "RB:02B424",
+  "same_as": "BB:02B424"
+ },
+ {
+  "id": "RB:02B444",
+  "same_as": "BB:02B444"
+ },
+ {
+  "id": "RB:02B450",
+  "same_as": "BB:02B450"
+ },
+ {
+  "id": "RB:02B460",
+  "same_as": "BB:02B460"
+ },
+ {
+  "id": "RB:02B470",
+  "same_as": "BB:02B450"
+ },
+ {
+  "id": "RB:02B490",
+  "same_as": "BB:02B490"
+ },
+ {
+  "id": "RB:02B4B0",
+  "same_as": "BB:02B4B0"
+ },
+ {
+  "id": "RB:02B4C0",
+  "same_as": "BB:02B4C0"
+ },
+ {
+  "id": "RB:02B4D0",
+  "same_as": "BB:02B4D0"
+ },
+ {
+  "id": "RB:02B4DC",
+  "same_as": "BB:02B4DC"
+ },
+ {
+  "id": "RB:02B4EC",
+  "same_as": "BB:02B4EC"
+ },
+ {
+  "id": "RB:02B4FC",
+  "same_as": "BB:02B4FC"
+ },
+ {
+  "id": "RB:02B50C",
+  "jp": "{name}！おねがい！{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "RB:02B51C",
+  "jp": "{name}の力を見せて！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "RB:02B530",
+  "jp": "がんばって、{name}！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "RB:02B544",
+  "jp": "{name}、無理しないでね！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "RB:02B55C",
+  "jp": "{name}、オマエの番よ！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "RB:02B570",
+  "jp": "まかせたわ！{name}！{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "RB:02B584",
+  "same_as": "BB:02B58C"
+ },
+ {
+  "id": "RB:02B590",
+  "jp": "{name}、ゆだんしないでね！{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "RB:02B5A8",
+  "same_as": "BB:02B5AC"
+ },
+ {
+  "id": "RB:02B5C0",
+  "jp": "{name}じゃダメなの？{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "RB:02B5D4",
+  "jp": "えっ？そんなはずじゃ・・・{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "RB:02B5F0",
+  "jp": "なかなかあなどれないわね{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "RB:02B6FC",
+  "same_as": "BB:02B700"
+ },
+ {
+  "id": "RB:02B70C",
+  "same_as": "BB:02B710"
+ },
+ {
+  "id": "RB:02BA42",
+  "same_as": "BB:02BA46"
+ },
+ {
+  "id": "RB:02BA54",
+  "same_as": "BB:02BA58"
+ },
+ {
+  "id": "RB:02C548",
+  "same_as": "BB:02C54C"
+ },
+ {
+  "id": "RB:02C568",
+  "same_as": "BB:02C56C"
+ },
+ {
+  "id": "RB:02C594",
+  "same_as": "BB:02C598"
+ },
+ {
+  "id": "RB:02C5B4",
+  "same_as": "BB:02C5B8"
+ },
+ {
+  "id": "RB:02C5DC",
+  "same_as": "BB:02C5E0"
+ },
+ {
+  "id": "RB:02C604",
+  "same_as": "BB:02C608"
+ },
+ {
+  "id": "RB:02C628",
+  "same_as": "BB:02C62C"
+ },
+ {
+  "id": "RB:02C650",
+  "same_as": "BB:02C654"
+ },
+ {
+  "id": "RB:02C67C",
+  "same_as": "BB:02C680"
+ },
+ {
+  "id": "RB:02C6A0",
+  "same_as": "BB:02C6A4"
+ },
+ {
+  "id": "RB:02C6D4",
+  "same_as": "BB:02C6D8"
+ },
+ {
+  "id": "RB:02C70C",
+  "same_as": "BB:02C710"
+ },
+ {
+  "id": "RB:02C738",
+  "same_as": "BB:02C73C"
+ },
+ {
+  "id": "RB:02C760",
+  "same_as": "BB:02C764"
+ },
+ {
+  "id": "RB:02C78C",
+  "same_as": "BB:02C790"
+ },
+ {
+  "id": "RB:02C7C0",
+  "same_as": "BB:02C7C4"
+ },
+ {
+  "id": "RB:02C7F4",
+  "same_as": "BB:02C7F8"
+ },
+ {
+  "id": "RB:02C810",
+  "same_as": "BB:02C814"
+ },
+ {
+  "id": "RB:02C83C",
+  "same_as": "BB:02C840"
+ },
+ {
+  "id": "RB:02C864",
+  "same_as": "BB:02C868"
+ },
+ {
+  "id": "RB:02C894",
+  "same_as": "BB:02C898"
+ },
+ {
+  "id": "RB:02C8D0",
+  "same_as": "BB:02C8D4"
+ },
+ {
+  "id": "RB:02C8F8",
+  "same_as": "BB:02C8FC"
+ },
+ {
+  "id": "RB:02C938",
+  "same_as": "BB:02C93C"
+ },
+ {
+  "id": "RB:02C97C",
+  "same_as": "BB:02C980"
+ },
+ {
+  "id": "RB:02C99C",
+  "same_as": "BB:02C9A0"
+ },
+ {
+  "id": "RB:02C9CC",
+  "same_as": "BB:02C9D0"
+ },
+ {
+  "id": "RB:02CA00",
+  "same_as": "BB:02CA04"
+ },
+ {
+  "id": "RB:02CA34",
+  "same_as": "BB:02CA38"
+ },
+ {
+  "id": "RB:02CA68",
+  "same_as": "BB:02CA6C"
+ },
+ {
+  "id": "RB:02CA9C",
+  "same_as": "BB:02CAA0"
+ },
+ {
+  "id": "RB:02CACC",
+  "same_as": "BB:02CAD0"
+ },
+ {
+  "id": "RB:02CB00",
+  "same_as": "BB:02CB04"
+ },
+ {
+  "id": "RB:02CB50",
+  "same_as": "BB:02CB54"
+ },
+ {
+  "id": "RB:02CB80",
+  "same_as": "BB:02CB84"
+ },
+ {
+  "id": "RB:02CBB4",
+  "same_as": "BB:02CBB8"
+ },
+ {
+  "id": "RB:02CBDC",
+  "same_as": "BB:02CBE0"
+ },
+ {
+  "id": "RB:02CC0C",
+  "same_as": "BB:02CC10"
+ },
+ {
+  "id": "RB:02CC50",
+  "same_as": "BB:02CC54"
+ },
+ {
+  "id": "RB:02CC8C",
+  "same_as": "BB:02CC90"
+ },
+ {
+  "id": "RB:02CCD4",
+  "same_as": "BB:02CCD8"
+ },
+ {
+  "id": "RB:02CCF0",
+  "same_as": "BB:02CCF4"
+ },
+ {
+  "id": "RB:02CD1C",
+  "same_as": "BB:02CD20"
+ },
+ {
+  "id": "RB:02CD38",
+  "same_as": "BB:02CD3C"
+ },
+ {
+  "id": "RB:02CD60",
+  "same_as": "BB:02CD64"
+ },
+ {
+  "id": "RB:02CD8C",
+  "same_as": "BB:02CD90"
+ },
+ {
+  "id": "RB:02CDC0",
+  "same_as": "BB:02CDC4"
+ },
+ {
+  "id": "RB:02CDEC",
+  "same_as": "BB:02CDF0"
+ },
+ {
+  "id": "RB:02CE20",
+  "same_as": "BB:02CE24"
+ },
+ {
+  "id": "RB:02CE58",
+  "same_as": "BB:02CE5C"
+ },
+ {
+  "id": "RB:02CE98",
+  "same_as": "BB:02CE9C"
+ },
+ {
+  "id": "RB:02CECC",
+  "same_as": "BB:02CED0"
+ },
+ {
+  "id": "RB:02CF04",
+  "same_as": "BB:02CF08"
+ },
+ {
+  "id": "RB:02CF38",
+  "same_as": "BB:02CF3C"
+ },
+ {
+  "id": "RB:02CF80",
+  "same_as": "BB:02CF84"
+ },
+ {
+  "id": "RB:02CFB4",
+  "same_as": "BB:02CFB8"
+ },
+ {
+  "id": "RB:02CFE0",
+  "same_as": "BB:02CFE4"
+ },
+ {
+  "id": "RB:02D020",
+  "same_as": "BB:02D024"
+ },
+ {
+  "id": "RB:02D060",
+  "same_as": "BB:02D064"
+ },
+ {
+  "id": "RB:02D09C",
+  "same_as": "BB:02D0A0"
+ },
+ {
+  "id": "RB:02D0D0",
+  "same_as": "BB:02D0D4"
+ },
+ {
+  "id": "RB:02D118",
+  "same_as": "BB:02D11C"
+ },
+ {
+  "id": "RB:02D148",
+  "same_as": "BB:02D14C"
+ },
+ {
+  "id": "RB:02D1A4",
+  "same_as": "BB:02D1A8"
+ },
+ {
+  "id": "RB:02D1E0",
+  "same_as": "BB:02D1E4"
+ },
+ {
+  "id": "RB:02D218",
+  "same_as": "BB:02D21C"
+ },
+ {
+  "id": "RB:02D23C",
+  "same_as": "BB:02D240"
+ },
+ {
+  "id": "RB:02D27C",
+  "same_as": "BB:02D280"
+ },
+ {
+  "id": "RB:02D2B0",
+  "same_as": "BB:02D2B4"
+ },
+ {
+  "id": "RB:02D2EC",
+  "same_as": "BB:02D2F0"
+ },
+ {
+  "id": "RB:02D320",
+  "same_as": "BB:02D324"
+ },
+ {
+  "id": "RB:02D358",
+  "same_as": "BB:02D35C"
+ },
+ {
+  "id": "RB:02D398",
+  "same_as": "BB:02D39C"
+ },
+ {
+  "id": "RB:02D3E4",
+  "same_as": "BB:02D3E8"
+ },
+ {
+  "id": "RB:02D430",
+  "same_as": "BB:02D434"
+ },
+ {
+  "id": "RB:02D498",
+  "same_as": "BB:02D49C"
+ },
+ {
+  "id": "RB:02D4E4",
+  "same_as": "BB:02D4E8"
+ },
+ {
+  "id": "RB:02D52C",
+  "same_as": "BB:02D530"
+ },
+ {
+  "id": "RB:02D550",
+  "same_as": "BB:02D554"
+ },
+ {
+  "id": "RB:02D57C",
+  "same_as": "BB:02D580"
+ },
+ {
+  "id": "RB:02D5B4",
+  "same_as": "BB:02D5B8"
+ },
+ {
+  "id": "RB:02D5F8",
+  "same_as": "BB:02D5FC"
+ },
+ {
+  "id": "RB:02D638",
+  "same_as": "BB:02D63C"
+ },
+ {
+  "id": "RB:02D670",
+  "same_as": "BB:02D674"
+ },
+ {
+  "id": "RB:02D6B4",
+  "same_as": "BB:02D6B8"
+ },
+ {
+  "id": "RB:02D748",
+  "same_as": "BB:02D74C"
+ },
+ {
+  "id": "RB:02D788",
+  "same_as": "BB:02D78C"
+ },
+ {
+  "id": "RB:02D7B4",
+  "same_as": "BB:02D7B8"
+ },
+ {
+  "id": "RB:02D7E4",
+  "same_as": "BB:02D7E8"
+ },
+ {
+  "id": "RB:02D810",
+  "same_as": "BB:02D814"
+ },
+ {
+  "id": "RB:02D850",
+  "same_as": "BB:02D854"
+ },
+ {
+  "id": "RB:02D8A0",
+  "same_as": "BB:02D8A4"
+ },
+ {
+  "id": "RB:02D8CC",
+  "same_as": "BB:02D8D0"
+ },
+ {
+  "id": "RB:02D900",
+  "same_as": "BB:02D904"
+ },
+ {
+  "id": "RB:02D924",
+  "same_as": "BB:02D928"
+ },
+ {
+  "id": "RB:02D954",
+  "same_as": "BB:02D958"
+ },
+ {
+  "id": "RB:02D980",
+  "same_as": "BB:02D984"
+ },
+ {
+  "id": "RB:02D9BC",
+  "same_as": "BB:02D9C0"
+ },
+ {
+  "id": "RB:02D9FC",
+  "same_as": "BB:02DA00"
+ },
+ {
+  "id": "RB:02DA24",
+  "same_as": "BB:02DA28"
+ },
+ {
+  "id": "RB:02DA48",
+  "same_as": "BB:02DA4C"
+ },
+ {
+  "id": "RB:02DA7C",
+  "same_as": "BB:02DA80"
+ },
+ {
+  "id": "RB:02DA98",
+  "same_as": "BB:02DA9C"
+ },
+ {
+  "id": "RB:02DAD0",
+  "same_as": "BB:02DAD4"
+ },
+ {
+  "id": "RB:02DB08",
+  "same_as": "BB:02DB0C"
+ },
+ {
+  "id": "RB:02DB38",
+  "same_as": "BB:02DB3C"
+ },
+ {
+  "id": "RB:02DB6C",
+  "same_as": "BB:02DB70"
+ }
+]
