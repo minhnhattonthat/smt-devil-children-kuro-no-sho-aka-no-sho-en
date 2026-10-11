@@ -2,26 +2,30 @@
  {
   "id": "BM:0BAB5C",
   "jp": "最後のいちげき{end}",
-  "en": "",
-  "max": 18
+  "en": "Final Blow{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAB7A",
   "jp": "キング・ラッシュ{end}",
-  "en": "",
-  "max": 18
+  "en": "King Rush{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAB98",
   "jp": "キング・バスター{end}",
-  "en": "",
-  "max": 18
+  "en": "King Buster{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BABB6",
   "jp": "キング・ストーム{end}",
-  "en": "",
-  "max": 18
+  "en": "King Storm{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BABD4",
@@ -38,338 +42,393 @@
  {
   "id": "BM:0BAC2E",
   "jp": "魔法１５７{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１５７{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAC4C",
   "jp": "魔法１５８{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１５８{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAC6A",
   "jp": "魔法１５９{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１５９{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAC88",
   "jp": "きず薬{end}",
-  "en": "",
-  "max": 18
+  "en": "Medicine{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACA2",
   "jp": "小さな魔石{end}",
-  "en": "",
-  "max": 18
+  "en": "Small Stone{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACA6",
   "jp": "な魔石{end}",
-  "en": "",
-  "max": 18
+  "en": "な魔石{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACBC",
   "jp": "魔石のカケラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magic Shard{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACC4",
   "jp": "ケラ{end}",
-  "en": "",
-  "max": 18
+  "en": "ケラ{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACD6",
   "jp": "宝玉{end}",
-  "en": "",
-  "max": 18
+  "en": "Jewel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BACF0",
   "jp": "チャクラドリンク{end}",
-  "en": "",
-  "max": 18
+  "en": "Chakra Drink{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD0A",
   "jp": "チャクラシェイク{end}",
-  "en": "",
-  "max": 18
+  "en": "Chakra Shake{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD24",
   "jp": "チャクラパフェ{end}",
-  "en": "",
-  "max": 18
+  "en": "Chakra Parfait{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD3E",
   "jp": "マカイバーガー{end}",
-  "en": "",
-  "max": 18
+  "en": "Makai Burger{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD58",
   "jp": "地返しの玉{end}",
-  "en": "",
-  "max": 18
+  "en": "Revival Orb{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD72",
   "jp": "はんごんこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Soul Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAD8C",
   "jp": "ソーマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Soma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BADA6",
   "jp": "さばきのマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Judge Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BADC0",
   "jp": "天使のワッカ{end}",
-  "en": "",
-  "max": 18
+  "en": "Angel Halo{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BADDA",
   "jp": "うらみのマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Grudge Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BADF4",
   "jp": "ワラ人形{end}",
-  "en": "",
-  "max": 18
+  "en": "Straw Doll{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE0E",
   "jp": "ごうかのマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Inferno Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE28",
   "jp": "ジャリュウのキバ{end}",
-  "en": "",
-  "max": 18
+  "en": "Evil Dragon Fang{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE42",
   "jp": "氷のマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Ice Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE5C",
   "jp": "雪のカンザシ{end}",
-  "en": "",
-  "max": 18
+  "en": "Snow Hairpin{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE76",
   "jp": "風のマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Air Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAE90",
   "jp": "風神のフクロ{end}",
-  "en": "",
-  "max": 18
+  "en": "Wind God Bag{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAEAA",
   "jp": "電気のマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Volt Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAEC4",
   "jp": "キリンのツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Kirin Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAEDE",
   "jp": "ガイアのマガタマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Gaia Magatama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAEF8",
   "jp": "ナマズのヒゲ{end}",
-  "en": "",
-  "max": 18
+  "en": "Catfish Beard{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF12",
   "jp": "アタックカプセル{end}",
-  "en": "",
-  "max": 18
+  "en": "Attack Capsule{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF2C",
   "jp": "ガードカプセル{end}",
-  "en": "",
-  "max": 18
+  "en": "Guard Capsule{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF46",
   "jp": "マジックカプセル{end}",
-  "en": "",
-  "max": 18
+  "en": "Magic Capsule{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF60",
   "jp": "スピードカプセル{end}",
-  "en": "",
-  "max": 18
+  "en": "Speed Capsule{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF7A",
   "jp": "Mガードカプセル{end}",
-  "en": "",
-  "max": 18
+  "en": "M-Guard Capsule{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAF94",
   "jp": "スモークボム{end}",
-  "en": "",
-  "max": 18
+  "en": "Smoke Bomb{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAFAE",
   "jp": "アタックのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Attack Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAFC8",
   "jp": "ガードのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Guard Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAFE2",
   "jp": "マジックのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Magic Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAFFC",
   "jp": "スピードのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Speed Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB016",
   "jp": "Mガードのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "M-Guard Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB030",
   "jp": "ラックのおこう{end}",
-  "en": "",
-  "max": 18
+  "en": "Luck Incense{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB04A",
   "jp": "魔よけのオフダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Repel Talisman{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB064",
   "jp": "魔よせのオフダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Lure Talisman{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB07E",
   "jp": "マグネタイト{end}",
-  "en": "",
-  "max": 18
+  "en": "Magnetite{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB098",
   "jp": "天使のつばさ{end}",
-  "en": "",
-  "max": 18
+  "en": "Angel Wing{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB0B2",
   "jp": "ダイヤモンド{end}",
-  "en": "",
-  "max": 18
+  "en": "Diamond{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB0CC",
   "jp": "アイテム０４３{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４３{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB0E6",
   "jp": "アイテム０４４{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４４{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB100",
   "jp": "アイテム０４５{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４５{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB11A",
   "jp": "アイテム０４６{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４６{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB134",
   "jp": "アイテム０４７{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４７{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB14E",
   "jp": "アイテム０４８{end}",
-  "en": "",
-  "max": 18
+  "en": "アイテム０４８{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB168",
   "jp": "原宿マップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Harajuku Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB17A",
   "jp": "シ）{end}",
-  "en": "",
+  "en": "シ）{end}",
   "max": 6
  },
  {
   "id": "BM:0BB182",
   "jp": "ひんやりマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Chilly Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB194",
@@ -378,8 +437,9 @@
  {
   "id": "BM:0BB19C",
   "jp": "岩だらけマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rocky Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB1AE",
@@ -388,8 +448,9 @@
  {
   "id": "BM:0BB1B6",
   "jp": "砂まみれマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sandy Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB1C8",
@@ -398,8 +459,9 @@
  {
   "id": "BM:0BB1D0",
   "jp": "森のなかマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Forest Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB1E2",
@@ -408,8 +470,9 @@
  {
   "id": "BM:0BB1EA",
   "jp": "火山マップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Fiery Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB1FC",
@@ -418,8 +481,9 @@
  {
   "id": "BM:0BB204",
   "jp": "真ん中マップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Central Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB216",
@@ -428,8 +492,9 @@
  {
   "id": "BM:0BB21E",
   "jp": "なぞのマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mystery Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB230",
@@ -438,20 +503,22 @@
  {
   "id": "BM:0BB238",
   "jp": "最後のマップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Final Map{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB24A",
   "jp": "シZ{end}",
-  "en": "",
+  "en": "シZ{end}",
   "max": 6
  },
  {
   "id": "BM:0BB252",
   "jp": "ミュージック１{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 1{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB264",
@@ -460,8 +527,9 @@
  {
   "id": "BM:0BB26C",
   "jp": "ミュージック２{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 2{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB27E",
@@ -470,8 +538,9 @@
  {
   "id": "BM:0BB286",
   "jp": "ミュージック３{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 3{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB298",
@@ -480,8 +549,9 @@
  {
   "id": "BM:0BB2A0",
   "jp": "ミュージック４{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 4{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB2B2",
@@ -490,8 +560,9 @@
  {
   "id": "BM:0BB2BA",
   "jp": "ミュージック５{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 5{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB2CC",
@@ -500,8 +571,9 @@
  {
   "id": "BM:0BB2D4",
   "jp": "ミュージック６{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 6{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB2E6",
@@ -510,8 +582,9 @@
  {
   "id": "BM:0BB2EE",
   "jp": "ミュージック７{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 7{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB300",
@@ -520,8 +593,9 @@
  {
   "id": "BM:0BB308",
   "jp": "ミュージック８{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 8{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB31A",
@@ -530,8 +604,9 @@
  {
   "id": "BM:0BB322",
   "jp": "ミュージック９{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 9{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB334",
@@ -540,8 +615,9 @@
  {
   "id": "BM:0BB33C",
   "jp": "ミュージック１０{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 10{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB34E",
@@ -550,8 +626,9 @@
  {
   "id": "BM:0BB356",
   "jp": "ミュージック１１{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 11{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB368",
@@ -560,8 +637,9 @@
  {
   "id": "BM:0BB370",
   "jp": "ミュージック１２{end}",
-  "en": "",
-  "max": 18
+  "en": "Music 12{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB382",
@@ -570,38 +648,44 @@
  {
   "id": "BM:0BB38A",
   "jp": "ハンカチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hankie{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB3A4",
   "jp": "バンソーコー{end}",
-  "en": "",
-  "max": 18
+  "en": "Bandage{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB3BE",
   "jp": "デビライザー{end}",
-  "en": "",
-  "max": 18
+  "en": "Deviliser{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB3D8",
   "jp": "キングライザー{end}",
-  "en": "",
-  "max": 18
+  "en": "King Riser{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB3F2",
   "jp": "エンゼルホーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Angel Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB40C",
   "jp": "ノート{end}",
-  "en": "",
-  "max": 18
+  "en": "Notebook{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB426",
@@ -610,14 +694,16 @@
  {
   "id": "BM:0BB440",
   "jp": "デスエンブレム{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Emblem{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB45A",
   "jp": "ヘルエンブレム{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Emblem{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB46C",
@@ -626,8 +712,9 @@
  {
   "id": "BM:0BB474",
   "jp": "ネオエンブレム{end}",
-  "en": "",
-  "max": 18
+  "en": "Neo Emblem{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB486",
@@ -636,187 +723,218 @@
  {
   "id": "BM:0BB48E",
   "jp": "虹色のヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rainbow Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB4A8",
   "jp": "青いヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Blue Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB4C2",
   "jp": "金色のヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB4DC",
   "jp": "白いヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "White Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB4F6",
   "jp": "緑のヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Green Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB510",
   "jp": "赤いヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Red Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB52A",
   "jp": "紫のヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Purple Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB544",
   "jp": "虹色のツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rainbow Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB55E",
   "jp": "青いツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Blue Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB578",
   "jp": "金色のツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB592",
   "jp": "白いツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "White Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB5AC",
   "jp": "緑のツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Green Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB5C6",
   "jp": "赤いツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Red Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB5E0",
   "jp": "紫のツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Purple Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB5FA",
   "jp": "虹色のカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rainbow Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB614",
   "jp": "青いカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Blue Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB62E",
   "jp": "金色のカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB648",
   "jp": "白いカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "White Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB662",
   "jp": "緑のカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Green Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB67C",
   "jp": "赤いカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Red Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB696",
   "jp": "紫のカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Purple Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB6B0",
   "jp": "金のリンゴパイ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Apple Pie{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB6CA",
   "jp": "金のタマゴ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Egg{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB6E4",
   "jp": "金のリンゴ{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Apple{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB6FE",
   "jp": "金のバター{end}",
-  "en": "",
-  "max": 18
+  "en": "Golden Butter{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB718",
   "jp": "デービーパーツ{end}",
-  "en": "",
-  "max": 18
+  "en": "DB Parts{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB732",
   "jp": "ダブルチェンバー{end}",
-  "en": "",
-  "max": 18
+  "en": "Double Chamber{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB74C",
   "jp": "シュラの剣{end}",
-  "en": "",
-  "max": 18
+  "en": "Sura Sword{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB766",
   "jp": "ワライブクロ{end}",
-  "en": "",
-  "max": 18
+  "en": "Laughing Bag{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB780",
   "jp": "どうのナイフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Copper Knife{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB79A",
   "jp": "ラジエルの書{end}",
-  "en": "",
-  "max": 18
+  "en": "Book of Raziel{end}",
+  "max": 18,
+  "px": 96
  }
 ]

@@ -104,6 +104,16 @@ def glossary_rows():
     return rows
 
 
+def px_override():
+    """id -> px width limit from script/exe|battle JSON ('px': record columns, speaker labels)."""
+    out = {}
+    for p in sorted(EX.glob('*.json')) + sorted(BT.glob('*.json')):
+        for e in json.loads(p.read_text(encoding='utf-8')):
+            if e.get('px'):
+                out[e['id']] = e['px']
+    return out
+
+
 def read_tsv(path):
     out = {}
     for n, line in enumerate(Path(path).read_text(encoding='utf-8-sig').splitlines(), 1):
@@ -131,6 +141,7 @@ def check(batch, quiet=False):
         print('ERROR', e)
         return 1
     errs = []
+    pxo = px_override() if batch[0] in 'xy' else {}
     for k in jp:
         if k not in en:
             errs.append('%s: missing' % k)
@@ -141,7 +152,7 @@ def check(batch, quiet=False):
         if k in jp:
             if '\t' in v or '\\u' in v:
                 errs.append('%s: tab or \\u escape' % k)
-            found = lint.lint_exe(jp[k], v, cap[k]) if cap[k] else lint.lint_event(jp[k], v, mid=k)
+            found = lint.lint_exe(jp[k], v, cap[k], pxo.get(k)) if cap[k] else lint.lint_event(jp[k], v, mid=k)
             for e in found:
                 errs.append('%s: %s' % (k, e))
     for e in errs:

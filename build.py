@@ -89,6 +89,8 @@ def build_font(files):
             blank = font.glyph(pac, below)
             blank[0] = [0] * 16
             font.put_glyph(pac, below, blank)
+    import gfx
+    gfx.apply(pac)  # book menu / title screen labels
     (files / 'DEVIL.PAC').write_bytes(pac)
     (BUILD / 'en_width.bin').write_bytes(widths)
     (BUILD / 'map8.bin').write_bytes(map8())

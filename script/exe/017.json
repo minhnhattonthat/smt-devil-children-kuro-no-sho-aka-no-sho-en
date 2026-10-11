@@ -2,44 +2,51 @@
  {
   "id": "BM:0B7EA6",
   "jp": "クイックシルバー{end}",
-  "en": "",
-  "max": 18
+  "en": "Quicksilver{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7ED4",
   "jp": "ペルソナ{end}",
-  "en": "",
-  "max": 18
+  "en": "Persona{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7F02",
   "jp": "レギオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Legion{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7F30",
   "jp": "イフリート{end}",
-  "en": "",
-  "max": 18
+  "en": "Ifrit{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7F5E",
   "jp": "モコイ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mokoi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7F8C",
   "jp": "ヤタガラス{end}",
-  "en": "",
-  "max": 18
+  "en": "Yatagarasu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7FBA",
   "jp": "デュラハン{end}",
-  "en": "",
-  "max": 18
+  "en": "Dullahan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7FE8",
@@ -48,32 +55,37 @@
  {
   "id": "BM:0B8016",
   "jp": "ギンギツネ{end}",
-  "en": "",
-  "max": 18
+  "en": "Gingitsune{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8044",
   "jp": "ナイトメア{end}",
-  "en": "",
-  "max": 18
+  "en": "Nightmare{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8072",
   "jp": "キュウキ{end}",
-  "en": "",
-  "max": 18
+  "en": "Qiongqi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B80A0",
   "jp": "ナムタル{end}",
-  "en": "",
-  "max": 18
+  "en": "Namtar{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B80CE",
   "jp": "アンクー{end}",
-  "en": "",
-  "max": 18
+  "en": "Ankou{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B80FC",
@@ -90,44 +102,51 @@
  {
   "id": "BM:0B8186",
   "jp": "マカラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Makara{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B81B4",
   "jp": "サラマンダー{end}",
-  "en": "",
-  "max": 18
+  "en": "Salamander{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B81E2",
   "jp": "オトヒメ{end}",
-  "en": "",
-  "max": 18
+  "en": "Otohime{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8210",
   "jp": "バジリスク{end}",
-  "en": "",
-  "max": 18
+  "en": "Basilisk{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B823E",
   "jp": "ファフニール{end}",
-  "en": "",
-  "max": 18
+  "en": "Fafnir{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B826C",
   "jp": "コカトリス{end}",
-  "en": "",
-  "max": 18
+  "en": "Cockatrice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B829A",
   "jp": "オロチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Orochi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B82C8",
@@ -140,98 +159,114 @@
  {
   "id": "BM:0B8324",
   "jp": "クエレプレ{end}",
-  "en": "",
-  "max": 18
+  "en": "Culebre{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8352",
   "jp": "セイリュウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Seiryu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8380",
   "jp": "ワイバーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Wyvern{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B83AE",
   "jp": "ヤマタノオロチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Yamata no Orochi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B83DC",
   "jp": "ナーガ{end}",
-  "en": "",
-  "max": 18
+  "en": "Naga{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B840A",
   "jp": "ヴァスキ{end}",
-  "en": "",
-  "max": 18
+  "en": "Vasuki{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8438",
   "jp": "スヴァーブニル{end}",
-  "en": "",
-  "max": 18
+  "en": "Svafnir{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8466",
   "jp": "オウリュウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Yinglong{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8494",
   "jp": "セキリュウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hong Long{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B84C2",
   "jp": "ユルング{end}",
-  "en": "",
-  "max": 18
+  "en": "Yurlungur{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B84F0",
   "jp": "ウロボロス{end}",
-  "en": "",
-  "max": 18
+  "en": "Ouroboros{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B851E",
   "jp": "アナンタ{end}",
-  "en": "",
-  "max": 18
+  "en": "Ananta{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B854C",
   "jp": "コクリュウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hei Long{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B857A",
   "jp": "ヴァジェット{end}",
-  "en": "",
-  "max": 18
+  "en": "Wadjet{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B85A8",
   "jp": "ハクリュウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Bai Long{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B85D6",
   "jp": "プチフロスト{end}",
-  "en": "",
-  "max": 18
+  "en": "Petit Frost{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8604",
@@ -244,32 +279,37 @@
  {
   "id": "BM:0B8660",
   "jp": "ユキンコ{end}",
-  "en": "",
-  "max": 18
+  "en": "Yukinko{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B868E",
   "jp": "ジャックフロスト{end}",
-  "en": "",
-  "max": 18
+  "en": "Jack Frost{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B86BC",
   "jp": "イチゴフロスト{end}",
-  "en": "",
-  "max": 18
+  "en": "Strawberry Frost{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B86EA",
   "jp": "ジャックランタン{end}",
-  "en": "",
-  "max": 18
+  "en": "Pyro Jack{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8718",
   "jp": "カマイタチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Kamaitachi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8746",
@@ -278,8 +318,9 @@
  {
   "id": "BM:0B8774",
   "jp": "クダギツネ{end}",
-  "en": "",
-  "max": 18
+  "en": "Kuda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B87A2",
@@ -292,20 +333,23 @@
  {
   "id": "BM:0B87FE",
   "jp": "フロストエース{end}",
-  "en": "",
-  "max": 18
+  "en": "Frost Ace{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B882C",
   "jp": "ミルメコレオ{end}",
-  "en": "",
-  "max": 18
+  "en": "Myrmecoleon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B885A",
   "jp": "ティターニア{end}",
-  "en": "",
-  "max": 18
+  "en": "Titania{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8888",
@@ -314,8 +358,9 @@
  {
   "id": "BM:0B88B6",
   "jp": "ザックーム{end}",
-  "en": "",
-  "max": 18
+  "en": "Zaccoum{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B88E4",
@@ -328,116 +373,135 @@
  {
   "id": "BM:0B8940",
   "jp": "カーシー{end}",
-  "en": "",
-  "max": 18
+  "en": "Cu Sith{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B896E",
   "jp": "マンドレイク{end}",
-  "en": "",
-  "max": 18
+  "en": "Mandrake{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B899C",
   "jp": "キジムナー{end}",
-  "en": "",
-  "max": 18
+  "en": "Kijimunaa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B89CA",
   "jp": "コントン{end}",
-  "en": "",
-  "max": 18
+  "en": "Hundun{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B89F8",
   "jp": "トウコツ{end}",
-  "en": "",
-  "max": 18
+  "en": "Taowu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8A26",
   "jp": "セイレーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Siren{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8A54",
   "jp": "ダッキ{end}",
-  "en": "",
-  "max": 18
+  "en": "Daji{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8A82",
   "jp": "テング{end}",
-  "en": "",
-  "max": 18
+  "en": "Tengu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8AB0",
   "jp": "マンティコア{end}",
-  "en": "",
-  "max": 18
+  "en": "Manticore{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8ADE",
   "jp": "ゾウリムシ{end}",
-  "en": "",
-  "max": 18
+  "en": "Paramecium{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8B0C",
   "jp": "メッチー{end}",
-  "en": "",
-  "max": 18
+  "en": "Mechi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8B3A",
   "jp": "コロポックル{end}",
-  "en": "",
-  "max": 18
+  "en": "Koropokkuru{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8B68",
   "jp": "ショック{end}",
-  "en": "",
-  "max": 18
+  "en": "Shock{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8B96",
   "jp": "グリグリ{end}",
-  "en": "",
-  "max": 18
+  "en": "Gris-gris{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8BC4",
   "jp": "アガシオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Agathion{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8BF2",
   "jp": "ワイラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Waira{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8C20",
   "jp": "フェアリー{end}",
-  "en": "",
-  "max": 18
+  "en": "Fairy{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8C4E",
   "jp": "イナバシロウサギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hare of Inaba{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8C7C",
   "jp": "ナハトコボルト{end}",
-  "en": "",
-  "max": 18
+  "en": "Nacht Kobold{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8CAA",
@@ -446,8 +510,9 @@
  {
   "id": "BM:0B8CD8",
   "jp": "カッパ{end}",
-  "en": "",
-  "max": 18
+  "en": "Kappa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8D06",
@@ -456,68 +521,79 @@
  {
   "id": "BM:0B8D34",
   "jp": "タクヒ{end}",
-  "en": "",
-  "max": 18
+  "en": "Tuofei{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8D62",
   "jp": "スナッピー{end}",
-  "en": "",
-  "max": 18
+  "en": "Snappy{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8D90",
   "jp": "アイラーヴァタ{end}",
-  "en": "",
-  "max": 18
+  "en": "Airvata{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8DBE",
   "jp": "カイチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Xiezhai{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8DEC",
   "jp": "リュンクス{end}",
-  "en": "",
-  "max": 18
+  "en": "Lynx{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8E1A",
   "jp": "スキュラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Scylla{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8E48",
   "jp": "ガネーシャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Ganesha{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8E76",
   "jp": "スィームルグ{end}",
-  "en": "",
-  "max": 18
+  "en": "Simurgh{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8EA4",
   "jp": "カロン{end}",
-  "en": "",
-  "max": 18
+  "en": "Charon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8ED2",
   "jp": "ヘルハウンド{end}",
-  "en": "",
-  "max": 18
+  "en": "Helldog{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8F00",
   "jp": "オーディン{end}",
-  "en": "",
-  "max": 18
+  "en": "Odin{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B8F2E",
@@ -570,8 +646,9 @@
  {
   "id": "BM:0B9156",
   "jp": "デススフィンクス{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Sphinx{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9184",
@@ -580,8 +657,9 @@
  {
   "id": "BM:0B91B2",
   "jp": "ヘルスフィンクス{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Sphinx{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B91E0",
@@ -606,8 +684,9 @@
  {
   "id": "BM:0B92C6",
   "jp": "ネオスフィンクス{end}",
-  "en": "",
-  "max": 18
+  "en": "Neo Sphinx{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B92F4",
@@ -628,68 +707,79 @@
  {
   "id": "BM:0B93AC",
   "jp": "ケルベロス{end}",
-  "en": "",
-  "max": 18
+  "en": "Cerberus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B93DA",
   "jp": "デスケルベロス{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Cerberus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9408",
   "jp": "ヘルケルベロス{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Cerberus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9436",
   "jp": "キングケルベロス{end}",
-  "en": "",
-  "max": 18
+  "en": "King Cerberus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9464",
   "jp": "グリフォン{end}",
-  "en": "",
-  "max": 18
+  "en": "Gryphon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9492",
   "jp": "デスグリフォン{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Gryphon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B94C0",
   "jp": "ヘルグリフォン{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Gryphon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B94EE",
   "jp": "キンググリフォン{end}",
-  "en": "",
-  "max": 18
+  "en": "King Gryphon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B951C",
   "jp": "ベヒモス{end}",
-  "en": "",
-  "max": 18
+  "en": "Behemoth{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B954A",
   "jp": "リバイアサン{end}",
-  "en": "",
-  "max": 18
+  "en": "Leviathan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9578",
   "jp": "いっかくドラゴン{end}",
-  "en": "",
-  "max": 18
+  "en": "Ikkaku Dragon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B95A6",
@@ -702,26 +792,30 @@
  {
   "id": "BM:0B9602",
   "jp": "ばけモグラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Bakemogura{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9630",
   "jp": "かみをくれ{end}",
-  "en": "",
-  "max": 18
+  "en": "Kami wo Kure{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B965E",
   "jp": "ア・バオア・クー{end}",
-  "en": "",
-  "max": 18
+  "en": "A Bao A Qu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B968C",
   "jp": "ノーチラス{end}",
-  "en": "",
-  "max": 18
+  "en": "Nautilus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B96BA",
@@ -746,20 +840,23 @@
  {
   "id": "BM:0B97A0",
   "jp": "ジャージーデビル{end}",
-  "en": "",
-  "max": 18
+  "en": "Jersey Devil{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B97CE",
   "jp": "サイボーグ・デカ{end}",
-  "en": "",
-  "max": 18
+  "en": "Cyborg Deka{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B97FC",
   "jp": "ゼンキ・ゴキ{end}",
-  "en": "",
-  "max": 18
+  "en": "Zenki Goki{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B982A",
@@ -768,20 +865,23 @@
  {
   "id": "BM:0B9858",
   "jp": "ゾウリムシキング{end}",
-  "en": "",
-  "max": 18
+  "en": "Paramecium King{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9886",
   "jp": "エクスカリバー{end}",
-  "en": "",
-  "max": 18
+  "en": "Excalibur{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B98B4",
   "jp": "タイコウボウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Jiang Ziya{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B98E2",
@@ -798,8 +898,9 @@
  {
   "id": "BM:0B996C",
   "jp": "アマテラス{end}",
-  "en": "",
-  "max": 18
+  "en": "Amaterasu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B999A",
@@ -808,115 +909,134 @@
  {
   "id": "BM:0B99C8",
   "jp": "アギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Agi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B99E6",
   "jp": "アギラオ{end}",
-  "en": "",
-  "max": 18
+  "en": "Agilao{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A04",
   "jp": "マハラギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Maragi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A22",
   "jp": "ブフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Bufu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A40",
   "jp": "ブフーラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Bufula{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A5E",
   "jp": "マハブフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mabufu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A7C",
   "jp": "ザン{end}",
-  "en": "",
-  "max": 18
+  "en": "Zan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9A9A",
   "jp": "ザンマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Zanma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9AB8",
   "jp": "マハザン{end}",
-  "en": "",
-  "max": 18
+  "en": "Mazan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9AD6",
   "jp": "ジオ{end}",
-  "en": "",
-  "max": 18
+  "en": "Zio{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9AF4",
   "jp": "ジオンガ{end}",
-  "en": "",
-  "max": 18
+  "en": "Zionga{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9B12",
   "jp": "マハジオ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mazio{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9B30",
   "jp": "マグナ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magna{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9B4E",
   "jp": "マグナス{end}",
-  "en": "",
-  "max": 18
+  "en": "Magnus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9B6C",
   "jp": "マハマグナ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mamagna{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9B8A",
   "jp": "ドルミナー{end}",
-  "en": "",
-  "max": 18
+  "en": "Dormina{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9BA8",
   "jp": "ハピルマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Happirma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9BC6",
   "jp": "ポイズマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Poisma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9BE4",
   "jp": "マリンカリン{end}",
-  "en": "",
-  "max": 18
+  "en": "Marin Karin{end}",
+  "max": 18,
+  "px": 96
  }
 ]

@@ -2,128 +2,149 @@
  {
   "id": "BM:0B9C02",
   "jp": "パララマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Paralama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9C20",
   "jp": "マイト{end}",
-  "en": "",
-  "max": 18
+  "en": "Might{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9C3E",
   "jp": "マカフージ{end}",
-  "en": "",
-  "max": 18
+  "en": "Makafuji{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9C5C",
   "jp": "プリンパ{end}",
-  "en": "",
-  "max": 18
+  "en": "Pulinpa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9C7A",
   "jp": "タルンダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Tarunda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9C98",
   "jp": "ラクンダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rakunda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9CB6",
   "jp": "スクンダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sukunda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9CD4",
   "jp": "デカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Dekaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9CF2",
   "jp": "ムド{end}",
-  "en": "",
-  "max": 18
+  "en": "Mudo{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9D10",
   "jp": "ムドオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Mudoon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9D2E",
   "jp": "ディア{end}",
-  "en": "",
-  "max": 18
+  "en": "Dia{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9D4C",
   "jp": "ディアラハン{end}",
-  "en": "",
-  "max": 18
+  "en": "Diarahan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9D6A",
   "jp": "メディア{end}",
-  "en": "",
-  "max": 18
+  "en": "Media{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9D88",
   "jp": "メディアラハン{end}",
-  "en": "",
-  "max": 18
+  "en": "Mediarahan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9DA6",
   "jp": "リカーム{end}",
-  "en": "",
-  "max": 18
+  "en": "Recarm{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9DC4",
   "jp": "サマリカーム{end}",
-  "en": "",
-  "max": 18
+  "en": "Samarecarm{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9DE2",
   "jp": "パトラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Patra{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9E00",
   "jp": "ディアラマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Diarama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9E1E",
   "jp": "メディアラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mediara{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9E3C",
   "jp": "マハンマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mahama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9E5A",
   "jp": "？？？？{end}",
-  "en": "",
-  "max": 18
+  "en": "????{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9E78",
@@ -132,50 +153,58 @@
  {
   "id": "BM:0B9E96",
   "jp": "タルカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Tarukaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9EB4",
   "jp": "ラクカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rakukaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9ED2",
   "jp": "スクカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sukukaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9EF0",
   "jp": "マカカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Makakaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9F0E",
   "jp": "デクンダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Dekunda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9F2C",
   "jp": "ハンマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9F4A",
   "jp": "ハマオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Hamaon{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9F68",
   "jp": "トラポート{end}",
-  "en": "",
-  "max": 18
+  "en": "Traport{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9F86",
@@ -184,344 +213,401 @@
  {
   "id": "BM:0B9FA4",
   "jp": "エストマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Estoma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9FC2",
   "jp": "リベラマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Liberama{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9FE0",
   "jp": "フレアライト{end}",
-  "en": "",
-  "max": 18
+  "en": "Flare Light{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B9FFE",
   "jp": "てんちゅうさつ{end}",
-  "en": "",
-  "max": 18
+  "en": "Divine Smite{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA01C",
   "jp": "セイントアタック{end}",
-  "en": "",
-  "max": 18
+  "en": "Saint Attack{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA03A",
   "jp": "ゴッドハンド{end}",
-  "en": "",
-  "max": 18
+  "en": "God's Hand{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA058",
   "jp": "ライトブラスト{end}",
-  "en": "",
-  "max": 18
+  "en": "Light Blast{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA076",
   "jp": "ライトスピア{end}",
-  "en": "",
-  "max": 18
+  "en": "Light Spear{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA094",
   "jp": "ギロチンブレイド{end}",
-  "en": "",
-  "max": 18
+  "en": "Guillotine Blade{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA0B2",
   "jp": "デスブレス{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Gasp{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA0D0",
   "jp": "ダークスピア{end}",
-  "en": "",
-  "max": 18
+  "en": "Dark Spear{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA0EE",
   "jp": "きゅうけつ{end}",
-  "en": "",
-  "max": 18
+  "en": "Life Drain{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA10C",
   "jp": "ジゴクづき{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Thrust{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA12A",
   "jp": "丸かじり{end}",
-  "en": "",
-  "max": 18
+  "en": "Devour{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA148",
   "jp": "フレイヤ{end}",
-  "en": "",
-  "max": 18
+  "en": "Freiya{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA166",
   "jp": "闇の炎{end}",
-  "en": "",
-  "max": 18
+  "en": "Dark Flame{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA184",
   "jp": "ファイアーブレス{end}",
-  "en": "",
-  "max": 18
+  "en": "Fire Breath{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA1A2",
   "jp": "ジゴクのごうか{end}",
-  "en": "",
-  "max": 18
+  "en": "Hellfire{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA1C0",
   "jp": "じばく{end}",
-  "en": "",
-  "max": 18
+  "en": "Self-Blast{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA1DE",
   "jp": "ばくねつのツメ{end}",
-  "en": "",
-  "max": 18
+  "en": "Blazing Claw{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA1FC",
   "jp": "アクエス{end}",
-  "en": "",
-  "max": 18
+  "en": "Aques{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA21A",
   "jp": "アイシクル{end}",
-  "en": "",
-  "max": 18
+  "en": "Icicle{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA238",
   "jp": "アイスブレス{end}",
-  "en": "",
-  "max": 18
+  "en": "Ice Breath{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA256",
   "jp": "アイスブレイド{end}",
-  "en": "",
-  "max": 18
+  "en": "Ice Blade{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA274",
   "jp": "コールドボイス{end}",
-  "en": "",
-  "max": 18
+  "en": "Cold Voice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA292",
   "jp": "ごくかんとうけつ{end}",
-  "en": "",
-  "max": 18
+  "en": "Arctic Freeze{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA2B0",
   "jp": "羽ばたき{end}",
-  "en": "",
-  "max": 18
+  "en": "Wing Flap{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA2CE",
   "jp": "ざんてつは{end}",
-  "en": "",
-  "max": 18
+  "en": "Iron Cutter{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA2EC",
   "jp": "ポイズンブレイド{end}",
-  "en": "",
-  "max": 18
+  "en": "Poison Blade{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA30A",
   "jp": "ソニックブーム{end}",
-  "en": "",
-  "max": 18
+  "en": "Sonic Boom{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA328",
   "jp": "毒ひっかき{end}",
-  "en": "",
-  "max": 18
+  "en": "Poison Claw{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA346",
   "jp": "毒ガスブレス{end}",
-  "en": "",
-  "max": 18
+  "en": "Toxic Breath{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA364",
   "jp": "イナズマづき{end}",
-  "en": "",
-  "max": 18
+  "en": "Lightning Stab{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA382",
   "jp": "スタンショット{end}",
-  "en": "",
-  "max": 18
+  "en": "Stun Shot{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA3A0",
   "jp": "トールハンマー{end}",
-  "en": "",
-  "max": 18
+  "en": "Thor's Hammer{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA3BE",
   "jp": "サンダーボルト{end}",
-  "en": "",
-  "max": 18
+  "en": "Thunderbolt{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA3DC",
   "jp": "かぶとわり{end}",
-  "en": "",
-  "max": 18
+  "en": "Helmsplitter{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA3FA",
   "jp": "さばきのイカズチ{end}",
-  "en": "",
-  "max": 18
+  "en": "Judgment Thunder{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA418",
   "jp": "体当たり{end}",
-  "en": "",
-  "max": 18
+  "en": "Tackle{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA436",
   "jp": "ロックフォール{end}",
-  "en": "",
-  "max": 18
+  "en": "Rockfall{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA454",
   "jp": "ガイアブレイク{end}",
-  "en": "",
-  "max": 18
+  "en": "Gaia Break{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA472",
   "jp": "ガイアバスター{end}",
-  "en": "",
-  "max": 18
+  "en": "Gaia Buster{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA490",
   "jp": "アースブレイク{end}",
-  "en": "",
-  "max": 18
+  "en": "Earth Break{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA4AE",
   "jp": "グランドブレイク{end}",
-  "en": "",
-  "max": 18
+  "en": "Grand Break{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA4CC",
   "jp": "■にげる{end}",
-  "en": "",
-  "max": 18
+  "en": "Escape{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA4EA",
   "jp": "■アタックアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Attack Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA508",
   "jp": "■ガードアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Guard Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA526",
   "jp": "■マジックアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magic Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA544",
   "jp": "■スピードアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Speed Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA562",
   "jp": "■Mガードアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magic Guard Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA580",
   "jp": "■ラックアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Luck Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA59E",
   "jp": "■コン回復{end}",
-  "en": "",
-  "max": 18
+  "en": "Unconfuse{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA5BC",
   "jp": "■キゼツ回復{end}",
-  "en": "",
-  "max": 18
+  "en": "Revive{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA5DA",
   "jp": "■MP回復{end}",
-  "en": "",
-  "max": 18
+  "en": "Restore MP{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA5F8",
   "jp": "■MHP回復{end}",
-  "en": "",
-  "max": 18
+  "en": "Restore MHP{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA616",
   "jp": "■HP回復{end}",
-  "en": "",
-  "max": 18
+  "en": "Restore HP{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA634",
   "jp": "スピードアップ{end}",
-  "en": "",
-  "max": 18
+  "en": "Speed Up{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA652",
@@ -538,146 +624,170 @@
  {
   "id": "BM:0BA6AC",
   "jp": "マグンダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magunda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA6CA",
   "jp": "マグカジャ{end}",
-  "en": "",
-  "max": 18
+  "en": "Magukaja{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA6E8",
   "jp": "マカラカーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Makarakarn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA706",
   "jp": "マハラギオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Maragion{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA724",
   "jp": "マハジオンガ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mazionga{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA742",
   "jp": "マハブフーラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mabufula{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA760",
   "jp": "マハマグナス{end}",
-  "en": "",
-  "max": 18
+  "en": "Mamagnus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA77E",
   "jp": "マハザンマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mazanma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA79C",
   "jp": "パララアイズ{end}",
-  "en": "",
-  "max": 18
+  "en": "Paral Eyes{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA7BA",
   "jp": "かみつき{end}",
-  "en": "",
-  "max": 18
+  "en": "Bite{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA7D8",
   "jp": "ひっかき{end}",
-  "en": "",
-  "max": 18
+  "en": "Scratch{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA7F6",
   "jp": "ビッグウィング{end}",
-  "en": "",
-  "max": 18
+  "en": "Big Wing{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA814",
   "jp": "ソニックウィング{end}",
-  "en": "",
-  "max": 18
+  "en": "Sonic Wing{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA832",
   "jp": "メガサイクロン{end}",
-  "en": "",
-  "max": 18
+  "en": "Mega Cyclone{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA850",
   "jp": "魔法１２４{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１２４{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA86E",
   "jp": "魔法１２５{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１２５{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA88C",
   "jp": "魔法１２６{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１２６{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA8AA",
   "jp": "魔法１２７{end}",
-  "en": "",
-  "max": 18
+  "en": "魔法１２７{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA8C8",
   "jp": "デス・クロー{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Claw{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA8E6",
   "jp": "デス・バイス{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Vice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA904",
   "jp": "デス・ラッシュ{end}",
-  "en": "",
-  "max": 18
+  "en": "Death Rush{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA922",
   "jp": "ヘル・バイス{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Vice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA940",
   "jp": "ヘル・ラッシュ{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Rush{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA95E",
   "jp": "ヘル・バスター{end}",
-  "en": "",
-  "max": 18
+  "en": "Hell Buster{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BA97C",
@@ -706,61 +816,71 @@
  {
   "id": "BM:0BAA30",
   "jp": "ちからため{end}",
-  "en": "",
-  "max": 18
+  "en": "Charge{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAA4E",
   "jp": "コールアタック{end}",
-  "en": "",
-  "max": 18
+  "en": "Call Attack{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAA6C",
   "jp": "ダブルバイス{end}",
-  "en": "",
-  "max": 18
+  "en": "Double Vice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAA8A",
   "jp": "トリプルバイス{end}",
-  "en": "",
-  "max": 18
+  "en": "Triple Vice{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAAA8",
   "jp": "イニシャライズ{end}",
-  "en": "",
-  "max": 18
+  "en": "Initialize{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAAC6",
   "jp": "クイックスピア{end}",
-  "en": "",
-  "max": 18
+  "en": "Quick Spear{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAAE4",
   "jp": "クイックバスター{end}",
-  "en": "",
-  "max": 18
+  "en": "Quick Buster{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAB02",
   "jp": "テトラカーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Tetrakarn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAB20",
   "jp": "ひんしのいちげき{end}",
-  "en": "",
-  "max": 18
+  "en": "Desperate Blow{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BAB3E",
   "jp": "コールアウト{end}",
-  "en": "",
-  "max": 18
+  "en": "Call Out{end}",
+  "max": 18,
+  "px": 96
  }
 ]

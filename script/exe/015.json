@@ -2,709 +2,709 @@
  {
   "id": "BM:0B5374",
   "jp": "敵全体のパラメアップを打ち消す{end}",
-  "en": "",
+  "en": "Cancels all foes' stat boosts{end}",
   "max": 32
  },
  {
   "id": "BM:0B5394",
   "jp": "敵１人に呪いのダメージ{end}",
-  "en": "",
+  "en": "Curse damage to 1 foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B53AC",
   "jp": "敵全体を呪いがつつみこむ{end}",
-  "en": "",
+  "en": "A curse engulfs all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B53C8",
   "jp": "味方１人のHPを少し回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's HP a little{end}",
   "max": 28
  },
  {
   "id": "BM:0B53E4",
   "jp": "味方１人のHPを大きく回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's HP a lot{end}",
   "max": 28
  },
  {
   "id": "BM:0B5400",
   "jp": "味方全体のHPを回復{end}",
-  "en": "",
+  "en": "Heals all allies' HP{end}",
   "max": 24
  },
  {
   "id": "BM:0B5418",
   "jp": "味方全体のHPを大きく回復{end}",
-  "en": "",
+  "en": "Heals all allies' HP a lot{end}",
   "max": 28
  },
  {
   "id": "BM:0B5434",
   "jp": "味方１人をキゼツから復活させる{end}",
-  "en": "",
+  "en": "Revives 1 ally from fainting{end}",
   "max": 32
  },
  {
   "id": "BM:0B5454",
   "jp": "キングライザーの仲魔をふやす{end}",
-  "en": "",
+  "en": "More allies in King Riser{end}",
   "max": 32
  },
  {
   "id": "BM:0B5474",
   "jp": "敵１人をたつまきで切りつける{end}",
-  "en": "",
+  "en": "Slashes 1 foe with a tornado{end}",
   "max": 32
  },
  {
   "id": "BM:0B5494",
   "jp": "敵全体をとっぷうでなぎはらう{end}",
-  "en": "",
+  "en": "Sweeps all foes with a gale{end}",
   "max": 32
  },
  {
   "id": "BM:0B54B4",
   "jp": "敵全体に２回かみつく{end}",
-  "en": "",
+  "en": "Bites all foes twice{end}",
   "max": 24
  },
  {
   "id": "BM:0B54CC",
   "jp": "敵全体に聖なる一撃{end}",
-  "en": "",
+  "en": "Holy hit, all foes{end}",
   "max": 20
  },
  {
   "id": "BM:0B54E0",
   "jp": "味方１人を完全に復活させる{end}",
-  "en": "",
+  "en": "Fully revives 1 ally{end}",
   "max": 28
  },
  {
   "id": "BM:0B54FC",
   "jp": "敵１人を毒の風でこうげき{end}",
-  "en": "",
+  "en": "Poison wind hits 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B5518",
   "jp": "味方全体のアタックがアップ{end}",
-  "en": "",
+  "en": "All allies' Attack up{end}",
   "max": 28
  },
  {
   "id": "BM:0B5534",
   "jp": "味方全体のガードがアップ{end}",
-  "en": "",
+  "en": "All allies' Guard up{end}",
   "max": 28
  },
  {
   "id": "BM:0B5550",
   "jp": "味方全体の命中度がアップ{end}",
-  "en": "",
+  "en": "All allies' accuracy up{end}",
   "max": 28
  },
  {
   "id": "BM:0B556C",
   "jp": "味方全体のマジックがアップ{end}",
-  "en": "",
+  "en": "All allies' Magic up{end}",
   "max": 28
  },
  {
   "id": "BM:0B5588",
   "jp": "味方全体のパラメダウンを打ち消す{end}",
-  "en": "",
+  "en": "Cancels all allies' stat drops{end}",
   "max": 36
  },
  {
   "id": "BM:0B55AC",
   "jp": "敵１人に光のダメージ{end}",
-  "en": "",
+  "en": "Light damage to 1 foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B55C4",
   "jp": "敵１人を光の波動でこうげき{end}",
-  "en": "",
+  "en": "A wave of light hits 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B55E0",
   "jp": "色んな所にワープする{end}",
-  "en": "",
+  "en": "Warps to many places{end}",
   "max": 24
  },
  {
   "id": "BM:0B55F8",
   "jp": "お店で高く買い取ってくれる{end}",
-  "en": "",
+  "en": "Shops buy at high prices{end}",
   "max": 28
  },
  {
   "id": "BM:0B5614",
   "jp": "デビルと会いにくくなる{end}",
-  "en": "",
+  "en": "Fewer Devil encounters{end}",
   "max": 24
  },
  {
   "id": "BM:0B562C",
   "jp": "デビルと会いやすくなる{end}",
-  "en": "",
+  "en": "More Devil encounters{end}",
   "max": 24
  },
  {
   "id": "BM:0B5648",
   "jp": "敵全体に聖なるオーラを放つ{end}",
-  "en": "",
+  "en": "Holy aura hits all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B5664",
   "jp": "聖なる連続こうげき{end}",
-  "en": "",
+  "en": "Holy combo attack{end}",
   "max": 20
  },
  {
   "id": "BM:0B5678",
   "jp": "敵１人のHPをけずり取る{end}",
-  "en": "",
+  "en": "Whittles away 1 foe's HP{end}",
   "max": 28
  },
  {
   "id": "BM:0B5694",
   "jp": "敵１人のMPをすい取る{end}",
-  "en": "",
+  "en": "Drains 1 foe's MP{end}",
   "max": 24
  },
  {
   "id": "BM:0B56AC",
   "jp": "敵１人をチンモクさせる一撃{end}",
-  "en": "",
+  "en": "A blow that mutes 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B56C8",
   "jp": "敵１人にガードをむししたこうげき{end}",
-  "en": "",
+  "en": "Attack on 1 foe ignoring Guard{end}",
   "max": 36
  },
  {
   "id": "BM:0B56EC",
   "jp": "自分がばくはつしてこうげき{end}",
-  "en": "",
+  "en": "Self-destructs to attack{end}",
   "max": 28
  },
  {
   "id": "BM:0B5708",
   "jp": "敵１人をバクダンに変える炎{end}",
-  "en": "",
+  "en": "Fire turns 1 foe to a bomb{end}",
   "max": 28
  },
  {
   "id": "BM:0B5724",
   "jp": "敵１人を冷気でチンモクさせる{end}",
-  "en": "",
+  "en": "Mutes 1 foe with cold air{end}",
   "max": 32
  },
  {
   "id": "BM:0B5744",
   "jp": "敵全体を冷気でチンモクさせる{end}",
-  "en": "",
+  "en": "Mutes all foes with cold air{end}",
   "max": 32
  },
  {
   "id": "BM:0B5764",
   "jp": "敵１人を毒の刃でこうげき{end}",
-  "en": "",
+  "en": "Poison blade hits 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B5780",
   "jp": "敵全体を毒の風でこうげき{end}",
-  "en": "",
+  "en": "Poison wind hits all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B579C",
   "jp": "敵１人を電気で動けなくする{end}",
-  "en": "",
+  "en": "Shock immobilizes 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B57B8",
   "jp": "敵全体を電気で動けなくする{end}",
-  "en": "",
+  "en": "Shock immobilizes all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B57D4",
   "jp": "敵１人を地震でフラフラにする{end}",
-  "en": "",
+  "en": "An earthquake dazes 1 foe{end}",
   "max": 32
  },
  {
   "id": "BM:0B57F4",
   "jp": "敵全体を地震でフラフラにする{end}",
-  "en": "",
+  "en": "An earthquake dazes all foes{end}",
   "max": 32
  },
  {
   "id": "BM:0B5814",
   "jp": "味方１人のMPを少し回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's MP a little{end}",
   "max": 28
  },
  {
   "id": "BM:0B5830",
   "jp": "味方１人のMPを回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's MP{end}",
   "max": 24
  },
  {
   "id": "BM:0B5848",
   "jp": "味方１人のMPを大きく回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's MP a lot{end}",
   "max": 28
  },
  {
   "id": "BM:0B5864",
   "jp": "味方１人のHPを回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's HP{end}",
   "max": 24
  },
  {
   "id": "BM:0B587C",
   "jp": "味方１人のHPとMPを回復{end}",
-  "en": "",
+  "en": "Heals 1 ally's HP and MP{end}",
   "max": 28
  },
  {
   "id": "BM:0B5898",
   "jp": "味方全体のキゼツいがいを回復{end}",
-  "en": "",
+  "en": "Cures all allies but fainting{end}",
   "max": 32
  },
  {
   "id": "BM:0B58B8",
   "jp": "アタック・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises Attack by 1{end}",
   "max": 32
  },
  {
   "id": "BM:0B58D8",
   "jp": "ガード・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises Guard by 1{end}",
   "max": 28
  },
  {
   "id": "BM:0B58F4",
   "jp": "マジック・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises Magic by 1{end}",
   "max": 32
  },
  {
   "id": "BM:0B5914",
   "jp": "スピード・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises Speed by 1{end}",
   "max": 32
  },
  {
   "id": "BM:0B5934",
   "jp": "Mガード・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises M.Guard by 1{end}",
   "max": 32
  },
  {
   "id": "BM:0B5954",
   "jp": "ラック・パラメを１つふやす{end}",
-  "en": "",
+  "en": "Raises Luck by 1{end}",
   "max": 28
  },
  {
   "id": "BM:0B5970",
   "jp": "せんとうから上手く逃げ出す{end}",
-  "en": "",
+  "en": "Escape from battle safely{end}",
   "max": 28
  },
  {
   "id": "BM:0B598C",
   "jp": "味方１人のアタックがアップ{end}",
-  "en": "",
+  "en": "1 ally's Attack up{end}",
   "max": 28
  },
  {
   "id": "BM:0B59A8",
   "jp": "味方１人のガードがアップ{end}",
-  "en": "",
+  "en": "1 ally's Guard up{end}",
   "max": 28
  },
  {
   "id": "BM:0B59C4",
   "jp": "味方１人のマジックがアップ{end}",
-  "en": "",
+  "en": "1 ally's Magic up{end}",
   "max": 28
  },
  {
   "id": "BM:0B59E0",
   "jp": "味方１人のスピードがアップ{end}",
-  "en": "",
+  "en": "1 ally's Speed up{end}",
   "max": 28
  },
  {
   "id": "BM:0B59FC",
   "jp": "味方１人のMガードがアップ{end}",
-  "en": "",
+  "en": "1 ally's M.Guard up{end}",
   "max": 28
  },
  {
   "id": "BM:0B5A24",
   "jp": "ニュースポット・原宿マップ{end}",
-  "en": "",
+  "en": "New hot spot: Harajuku map{end}",
   "max": 28
  },
  {
   "id": "BM:0B5A40",
   "jp": "こごえる大地・アイスランドマップ{end}",
-  "en": "",
+  "en": "Frozen earth: Ice Land map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5A64",
   "jp": "さんがく地・マーブルランドマップ{end}",
-  "en": "",
+  "en": "Mountains: Marble Land map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5A88",
   "jp": "しんぴの砂漠・サンドランドマップ{end}",
-  "en": "",
+  "en": "Mystic desert: Sand Land map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5AAC",
   "jp": "大しぜん・フォレストランドマップ{end}",
-  "en": "",
+  "en": "Great outdoors: Forest Land map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5AD0",
   "jp": "かくれゆ・ファイアーランドマップ{end}",
-  "en": "",
+  "en": "Hidden spa: Fire Land map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5AF4",
   "jp": "闇の国・セントラルランドマップ{end}",
-  "en": "",
+  "en": "Dark realm: Central Land map{end}",
   "max": 32
  },
  {
   "id": "BM:0B5B14",
   "jp": "ジゴクのとう・ディープホールマップ{end}",
-  "en": "",
+  "en": "Tower of Hell: Deep Hole map{end}",
   "max": 36
  },
  {
   "id": "BM:0B5B38",
   "jp": "デビルチルドレン{end}",
-  "en": "",
+  "en": "Devil Children{end}",
   "max": 20
  },
  {
   "id": "BM:0B5B4C",
   "jp": "宿命{end}",
-  "en": "",
+  "en": "Fate{end}",
   "max": 8
  },
  {
   "id": "BM:0B5B54",
   "jp": "ジゴクへのしょうたい{end}",
-  "en": "",
+  "en": "Invitation to Hell{end}",
   "max": 24
  },
  {
   "id": "BM:0B5B6C",
   "jp": "閉ざされた氷の大地{end}",
-  "en": "",
+  "en": "Sealed Land of Ice{end}",
   "max": 20
  },
  {
   "id": "BM:0B5B80",
   "jp": "ロックマウンテン{end}",
-  "en": "",
+  "en": "Rock Mountain{end}",
   "max": 20
  },
  {
   "id": "BM:0B5B94",
   "jp": "しゃくねつの砂漠{end}",
-  "en": "",
+  "en": "Scorching Desert{end}",
   "max": 20
  },
  {
   "id": "BM:0B5BA8",
   "jp": "深きジャングル{end}",
-  "en": "",
+  "en": "Deep Jungle{end}",
   "max": 16
  },
  {
   "id": "BM:0B5BB8",
   "jp": "熱き炎の大地{end}",
-  "en": "",
+  "en": "Blazing Land{end}",
   "max": 16
  },
  {
   "id": "BM:0B5BC8",
   "jp": "暗闇の魔王{end}",
-  "en": "",
+  "en": "Dark Lord{end}",
   "max": 12
  },
  {
   "id": "BM:0B5BD4",
   "jp": "白き運命{end}",
-  "en": "",
+  "en": "White Fate{end}",
   "max": 12
  },
  {
   "id": "BM:0B5BE0",
   "jp": "コントンのメイキュウ{end}",
-  "en": "",
+  "en": "Labyrinth of Chaos{end}",
   "max": 24
  },
  {
   "id": "BM:0B5BF8",
   "jp": "魔界{end}",
-  "en": "",
+  "en": "Makai{end}",
   "max": 8
  },
  {
   "id": "BM:0B5C00",
   "jp": "終わり無き闇{end}",
-  "en": "",
+  "en": "Endless Dark{end}",
   "max": 16
  },
  {
   "id": "BM:0B5C10",
   "jp": "敵１人に体当たりをしてダメージ{end}",
-  "en": "",
+  "en": "Tackles 1 foe for damage{end}",
   "max": 32
  },
  {
   "id": "BM:0B5C30",
   "jp": "敵１人に岩を落としておしつぶす{end}",
-  "en": "",
+  "en": "Drops a rock to crush 1 foe{end}",
   "max": 32
  },
  {
   "id": "BM:0B5C50",
   "jp": "デビルを呼び出すケンジュウ{end}",
-  "en": "",
+  "en": "A gun that summons Devils{end}",
   "max": 28
  },
  {
   "id": "BM:0B5C6C",
   "jp": "大天使を呼び出すラッパ{end}",
-  "en": "",
+  "en": "Calls forth Archangels{end}",
   "max": 24
  },
  {
   "id": "BM:0B5C84",
   "jp": "キーワードをきおくする道具{end}",
-  "en": "",
+  "en": "A tool that saves keywords{end}",
   "max": 28
  },
  {
   "id": "BM:0B5CA0",
   "jp": "仲魔のかんりをするためのパソコン{end}",
-  "en": "",
+  "en": "A PC for managing allies{end}",
   "max": 36
  },
  {
   "id": "BM:0B5CC8",
   "jp": "お気に入りのハンカチ{end}",
-  "en": "",
+  "en": "Favorite handkerchief{end}",
   "max": 24
  },
  {
   "id": "BM:0B5CE0",
   "jp": "キズの手当てにさいてき{end}",
-  "en": "",
+  "en": "Ideal for wound care{end}",
   "max": 24
  },
  {
   "id": "BM:0B5CF8",
   "jp": "セントラルランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Central Land{end}",
   "max": 32
  },
  {
   "id": "BM:0B5D18",
   "jp": "アイスランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Ice Land{end}",
   "max": 28
  },
  {
   "id": "BM:0B5D34",
   "jp": "マーブルランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Marble Land{end}",
   "max": 28
  },
  {
   "id": "BM:0B5D50",
   "jp": "サンドランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Sand Land{end}",
   "max": 28
  },
  {
   "id": "BM:0B5D6C",
   "jp": "フォレストランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Forest Land{end}",
   "max": 32
  },
  {
   "id": "BM:0B5D8C",
   "jp": "ファイアーランドへの道を開く{end}",
-  "en": "",
+  "en": "Opens a way to Fire Land{end}",
   "max": 32
  },
  {
   "id": "BM:0B5DAC",
   "jp": "地上への道を開く{end}",
-  "en": "",
+  "en": "Opens the way up{end}",
   "max": 20
  },
  {
   "id": "BM:0B5DC0",
   "jp": "味方１人をHPぜんかいで復活{end}",
-  "en": "",
+  "en": "Revives 1 ally with full HP{end}",
   "max": 32
  },
  {
   "id": "BM:0B5DE0",
   "jp": "きゅうきょくのリンゴパイ{end}",
-  "en": "",
+  "en": "The ultimate apple pie{end}",
   "max": 28
  },
  {
   "id": "BM:0B5DFC",
   "jp": "リンゴパイの材料{end}",
-  "en": "",
+  "en": "Apple pie supplies{end}",
   "max": 20
  },
  {
   "id": "BM:0B5E10",
   "jp": "知られざるヒミツが記された本{end}",
-  "en": "",
+  "en": "A book of unknown secrets{end}",
   "max": 32
  },
  {
   "id": "BM:0B5E30",
   "jp": "味方全体の全パラメがアップ{end}",
-  "en": "",
+  "en": "All stats up, all allies{end}",
   "max": 28
  },
  {
   "id": "BM:0B5E4C",
   "jp": "敵全体にガードむしのダメージ{end}",
-  "en": "",
+  "en": "All foes: damage ignores Guard{end}",
   "max": 32
  },
  {
   "id": "BM:0B5E6C",
   "jp": "敵全体に邪悪なダメージ{end}",
-  "en": "",
+  "en": "Evil damage, all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5E84",
   "jp": "味方全体を復活させる{end}",
-  "en": "",
+  "en": "Revives all allies{end}",
   "max": 24
  },
  {
   "id": "BM:0B5E9C",
   "jp": "敵全体のMガードをダウン{end}",
-  "en": "",
+  "en": "All foes' M.Guard down{end}",
   "max": 28
  },
  {
   "id": "BM:0B5EB8",
   "jp": "味方全体のMガードがアップ{end}",
-  "en": "",
+  "en": "All allies' M.Guard up{end}",
   "max": 28
  },
  {
   "id": "BM:0B5ED4",
   "jp": "自分への魔法をはね返す{end}",
-  "en": "",
+  "en": "Reflects magic on self{end}",
   "max": 24
  },
  {
   "id": "BM:0B5EEC",
   "jp": "敵全体を炎でやきつくす{end}",
-  "en": "",
+  "en": "Flames burn all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5F04",
   "jp": "敵全体をイナズマでやきはらう{end}",
-  "en": "",
+  "en": "Lightning scorches all foes{end}",
   "max": 32
  },
  {
   "id": "BM:0B5F24",
   "jp": "敵全体を冷気でこおりつかせる{end}",
-  "en": "",
+  "en": "Cold freezes all foes solid{end}",
   "max": 32
  },
  {
   "id": "BM:0B5F44",
   "jp": "敵全体を岩でおしつぶす{end}",
-  "en": "",
+  "en": "Rocks crush all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5F5C",
   "jp": "敵全体をたつまきでふきとばす{end}",
-  "en": "",
+  "en": "Tornado blows away all foes{end}",
   "max": 32
  },
  {
   "id": "BM:0B5F7C",
   "jp": "敵全体に２回こうげき{end}",
-  "en": "",
+  "en": "Hits all foes twice{end}",
   "max": 24
  },
  {
   "id": "BM:0B5F94",
   "jp": "敵全体に４回こうげき{end}",
-  "en": "",
+  "en": "Hits all foes 4 times{end}",
   "max": 24
  },
  {
   "id": "BM:0B5FAC",
   "jp": "敵１人に連続２回こうげき{end}",
-  "en": "",
+  "en": "2 hits in a row on 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B5FC8",
   "jp": "敵１人に連続４回こうげき{end}",
-  "en": "",
+  "en": "4 hits in a row on 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B5FE4",
   "jp": "敵全体に何回かこうげき{end}",
-  "en": "",
+  "en": "Several hits, all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5FFC",
   "jp": "敵全体に８回こうげき{end}",
-  "en": "",
+  "en": "Hits all foes 8 times{end}",
   "max": 24
  },
  {
@@ -734,13 +734,13 @@
  {
   "id": "BM:0B60AC",
   "jp": "力をためて後でこうげき{end}",
-  "en": "",
+  "en": "Powers up to hit later{end}",
   "max": 24
  },
  {
   "id": "BM:0B60C4",
   "jp": "一度戻って後でこうげき{end}",
-  "en": "",
+  "en": "Steps back, hits later{end}",
   "max": 24
  }
 ]

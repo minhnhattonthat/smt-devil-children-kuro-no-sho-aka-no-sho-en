@@ -23,7 +23,8 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
     {'box': (152, 88, 236, 117), 'text': 'Red Book', 'size': 15},
     {'box': (96, 188, 170, 207), 'text': 'Webnet', 'size': 12},
 ]
-STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite'}  # green-keyed highlight sprite
+# green-keyed "disabled Continue" sprite: the game draws it exactly over menu line 2 ('match' = that edit's index)
+STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite', 'match': 2}
 TITLE_B = [
     {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
     {'box': (12, 185, 88, 203), 'text': 'New Game', 'kind': 'pixel'},
@@ -58,7 +59,7 @@ def draw_pixel_text(im, x, y, text, body, shadow=None):
         x += adv
 
 
-def label_mask(im, box, sat=48, light=90):
+def label_mask(im, box, sat=48, light=90, grow=True):
     px = im.load()
     x0, y0, x1, y1 = box
     m = set()
@@ -67,6 +68,8 @@ def label_mask(im, box, sat=48, light=90):
             r, g, b = px[x, y]
             if max(r, g, b) - min(r, g, b) < sat and max(r, g, b) >= light:
                 m.add((x, y))
+    if not grow:
+        return m
     # grow by one pixel to take the antialiased edge
     grown = set(m)
     for x, y in m:
@@ -122,30 +125,45 @@ def edit_tim(t, edits):
     from collections import Counter
     im = tim.to_image(t).convert('RGB')
     px = im.load()
-    for e in edits:
+    done = {}  # edit index -> (JP light-pixel mask, English text position)
+    for i, e in enumerate(edits):
         x0, y0, x1, y1 = e['box']
         kind = e.get('kind', 'label')
         if kind == 'sprite':  # key-colour background: clear to the key, draw crisp text in the sprite's colour
             cols = Counter(px[x, y] for y in range(y0, y1) for x in range(x0, x1))
             key = cols.most_common(1)[0][0]
             ink = next((c for c, _ in cols.most_common() if c != key), (128, 64, 160))
-            pts = [(x, y) for y in range(y0, y1) for x in range(x0, x1) if px[x, y] != key]
-            top = min(y for _, y in pts) if pts else y0
-            left = min(x for x, _ in pts) if pts else x0
+            pts = {(x, y) for y in range(y0, y1) for x in range(x0, x1) if px[x, y] != key}
             for q in pts:
                 px[q] = key
-            draw_pixel_text(im, left, top, e['text'], ink)
+            mmask, (ex, ey) = done[e['match']]
+            ox, oy = best_offset(pts, mmask)  # sprite pixel + (ox, oy) = menu pixel on screen
+            draw_pixel_text(im, ex - ox, ey - oy, e['text'], ink)
             continue
         mask = label_mask(im, e['box'])
         colour = max((px[q] for q in mask), key=sum) if mask else (220, 220, 220)
         top = min((y for _, y in mask), default=y0)
         left = min((x for x, _ in mask), default=x0)
+        core = label_mask(im, e['box'], grow=False)
         inpaint(im, mask)
         if kind == 'pixel':
             draw_pixel_text(im, left + 1, top + 1, e['text'], colour, (0, 0, 16))
+            done[i] = (core, (left + 1, top + 1))
         else:
             draw_label(im, e['box'], e['text'], e['size'], colour)
     return im
+
+
+def best_offset(a, b):
+    """(dx, dy) maximising overlap of point set a shifted onto point set b (bbox-aligned start, +-6 search)."""
+    ax, ay = min(x for x, _ in a), min(y for _, y in a)
+    bx, by = min(x for x, _ in b), min(y for _, y in b)
+    best = (-1, (bx - ax, by - ay))
+    for dx in range(bx - ax - 6, bx - ax + 7):
+        for dy in range(by - ay - 6, by - ay + 7):
+            score = sum((x + dx, y + dy) in b for x, y in a)
+            best = max(best, (score, (dx, dy)))
+    return best[1]
 
 
 def quantize_into(t, im, d, base):

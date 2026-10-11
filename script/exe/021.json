@@ -26,7 +26,7 @@
  {
   "id": "RM:0A031C",
   "jp": "{face:0063}あれ？　仲魔がいっぱいではないか！{wait}{page}仲魔をへらしてから{n}もう一度戦ってくれ{wait}{end}",
-  "en": "",
+  "en": "{face:0063}Hm? Your allies are full!{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 84
  },
  {
@@ -40,7 +40,7 @@
  {
   "id": "RM:0A03EC",
   "jp": "{face:005B}本物ってこんなもんなのね・・・{wait}{page}これならカンタンに{n}いれかわれるかしら？{wait}{end}",
-  "en": "",
+  "en": "{face:005B}So this is all the real one's got...{wait}{page}Then maybe I can take your place easily?{wait}{end}",
   "max": 84
  },
  {
@@ -50,7 +50,7 @@
  {
   "id": "RM:0A0478",
   "jp": "{face:0003}なさけないなぁ{wait}{page}デビルチルドレンが{n}聞いてあきれるぜ{wait}{end}",
-  "en": "",
+  "en": "{face:0003}Man, how pathetic.{wait}{page}And you call yourself a Devil Child?{wait}{end}",
   "max": 64
  },
  {
@@ -68,7 +68,7 @@
  {
   "id": "RM:0A059C",
   "jp": "{face:0001}なさけないわねー{wait}{page}ワタシのパートナーなんだから{n}もっとしっかりしてよね{wait}{end}",
-  "en": "",
+  "en": "{face:0001}Ugh, how pathetic!{wait}{page}You're my partner, so get it together!{wait}{end}",
   "max": 80
  },
  {
@@ -98,7 +98,7 @@
  {
   "id": "RM:0A0794",
   "jp": "{face:0063}なんだ、ふがいないなぁ{wait}{page}これからは、女の子にも強さが{n}ひつようだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0063}My, how feeble.{wait}{page}From now on, girls need strength too.{wait}{end}",
   "max": 76
  },
  {
@@ -772,7 +772,7 @@
  {
   "id": "RM:0A4624",
   "jp": "{face:003B}それからパートナーは{n}特別な合体ネ{wait}{f0}パートナーは誰と合体しても{wait}{f0}強くはなるけどパートナーのままネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}And your partner's fusion is special.{wait}{f0}No matter who your partner fuses with,{wait}{f0}it gets stronger but stays your partner, yes.{wait}{end}",
   "max": 108
  },
  {
@@ -906,7 +906,7 @@
  {
   "id": "RM:0A4F7C",
   "jp": "{face:003B}　説明を聞きたいのかい？{fb:0000}{end}",
-  "en": "",
+  "en": "{face:003B}Want an explanation?{fb:0000} {end}",
   "max": 36
  },
  {
@@ -4084,7 +4084,7 @@
  {
   "id": "RM:0AF4E0",
   "jp": "{face:0007}やあっ、ひさしぶりだなあ{wait}{n}えっ、フォレストランド・・・{wait}{page}金のリンゴパイの材料？{wait}{n}イーのかな？そんな事してて{wait}{page}でも、ちょっとウマソーだね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Hey, long time no see!{wait}{n}Huh? Forest Land...?{wait}{page}Ingredients for the Golden Apple Pie?{wait}{n}Is that really okay?{wait}{page}Still, it does sound kinda tasty.{wait}{end}",
   "max": 152
  },
  {
@@ -4094,43 +4094,43 @@
  {
   "id": "RM:0AF624",
   "jp": "{face:0008}もしもし、ナガヒサです・・・{wait}{n}何だ、{name}なの{wait}{page}・・・・・・{wait}{end}",
-  "en": "",
+  "en": "{face:0008}Hello, this is Nagahisa...{wait}{n}Oh, it's {name}.{wait}{page}......{wait}{end}",
   "max": 68
  },
  {
   "id": "RM:0AF668",
   "jp": "{face:0008}もしもし、ナガヒサです{wait}{n}何だ{name}なの{wait}{page}エレジーが来てるんですよ{wait}{n}・・・・・・{wait}{end}",
-  "en": "",
+  "en": "{face:0008}Hello, this is Nagahisa.{wait}{n}Oh, it's {name}.{wait}{page}Elegy's here right now.{wait}{n}......{wait}{end}",
   "max": 88
  },
  {
   "id": "RM:0AF6C0",
   "jp": "{face:0003}もしもし、あっ{name}か{wait}{page}オレは地上にいるんだ{wait}{n}フォレストランドってどんな所だ？{wait}{end}",
-  "en": "",
+  "en": "{face:0003}Hello? Oh, it's {name}.{wait}{page}I'm up on the surface.{wait}{n}What's Forest Land like?{wait}{end}",
   "max": 88
  },
  {
   "id": "RM:0AF718",
   "jp": "{face:0003}もしもし、あっ{name}か{wait}{page}地上に戻ったんだ・・・{wait}{n}たぶん地下街にデビルがいるぞ{wait}{f0}ヴィネセンターに行ってみな{wait}{end}",
-  "en": "",
+  "en": "{face:0003}Hello? Oh, it's {name}.{wait}{page}So you're back on the surface...{wait}{n}Devils are probably in the underground mall.{wait}{f0}Try the Vine Center.{wait}{end}",
   "max": 116
  },
  {
   "id": "RM:0AF78C",
   "jp": "{face:0003}セツナだ、{name}だろ{wait}{page}そう、オレもファイアーランドに{wait}{n}いるんだ・・・・{wait}{end}",
-  "en": "",
+  "en": "{face:0003}It's Setsuna. That's {name}, right?{wait}{page}Yeah, I'm in Fire Land{wait}{n}too, actually...{wait}{end}",
   "max": 80
  },
  {
   "id": "RM:0AF7DC",
   "jp": "{face:000A}えっ、{name}なの{wait}{page}キミ、コトダマってデビル{n}仲魔にしたかい？{wait}{page}アイスランドのフィールドにある{n}南東の外れの木にいると思うよ{wait}{end}",
-  "en": "",
+  "en": "{face:000A}Huh, {name}?{wait}{page}Have you made a Devil called Kotodama your ally?{wait}{page}I think it's in a tree at the far southeast of the Ice Land field.{wait}{end}",
   "max": 132
  },
  {
   "id": "RM:0AF860",
   "jp": "{face:0012}{name}ですか？{wait}{page}がんばって下さい{wait}{end}",
-  "en": "",
+  "en": "{face:0012}Is this {name}?{wait}{page}Do your best.{wait}{end}",
   "max": 40
  },
  {
@@ -4144,31 +4144,31 @@
  {
   "id": "RM:0AF8EC",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}合体の時に起きる{n}魔法のけいしょうだけどネ{wait}{page}できたデビルにとって{n}苦手なぞくせいの魔法は{wait}{page}おぼえられないネ{wait}{page}だからよく考えて{n}合体をするといいネ！{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an attribute the new Devil is weak to{wait}{page}can't be learned, yes.{wait}{page}So think it through before you fuse, yes!{wait}{end}",
   "max": 204
  },
  {
   "id": "RM:0AF9B8",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}ジュンケツ合体でできるデビルの{n}中にはさらにランクアップする{wait}{f0}デビルがたまにいるネ！{wait}{page}だから、合体する時のワタシの{n}話を注意して聞くといいネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}Some Devils made by Pure Fusion{wait}{f0}can sometimes rank up even further, yes!{wait}{page}So listen closely to what I say when you fuse, yes.{wait}{end}",
   "max": 196
  },
  {
   "id": "RM:0AFA7C",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}コンケツ合体で{n}別のデビルができる時には{wait}{f0}パラメーターは高い方が{f0}引きつがれるネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}When Mixed Fusion makes a different Devil,{wait}{f0}the higher parameters{f0}get passed on, yes.{wait}{end}",
   "max": 132
  },
  {
   "id": "RM:0AFB00",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}デビダスのケンサクきのうを使えば{n}きょうりょく技のコンボが使える{wait}{f0}仲魔を調べる事ができるネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}Use the Devidas search function to look up{wait}{f0}allies that can do team-up combo moves, yes!{wait}{end}",
   "max": 144
  },
  {
   "id": "RM:0AFB90",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}デビダスを完成させるには{n}デビダスのケンサクきのうを使って{wait}{f0}レベルや種族を調べると{f0}いないデビルが見つけやすいネ{wait}{end}",
-  "en": "",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}To complete the Devidas, use its search function{wait}{f0}to look up levels and races,{f0}and missing Devils get easier to find, yes!{wait}{end}",
   "max": 164
  },
  {
@@ -5386,7 +5386,7 @@
  {
   "id": "RM:0B13F2",
   "jp": "！フレスベルク{end}",
-  "en": "",
+  "en": "！フレスベルク{end}",
   "max": 18
  },
  {
@@ -5416,7 +5416,7 @@
  {
   "id": "RM:0B147E",
   "jp": "Kパラレル・スス{end}",
-  "en": "",
+  "en": "Kパラレル・スス{end}",
   "max": 18
  },
  {
@@ -5498,7 +5498,7 @@
  {
   "id": "RM:0B160E",
   "jp": "９セツナ{end}",
-  "en": "",
+  "en": "９セツナ{end}",
   "max": 10
  },
  {
@@ -5516,7 +5516,7 @@
  {
   "id": "RM:0B165E",
   "jp": "eキンググリフォン{end}",
-  "en": "",
+  "en": "eキンググリフォン{end}",
   "max": 20
  },
  {
@@ -5538,7 +5538,7 @@
  {
   "id": "RM:0B16EA",
   "jp": "ぉイザナギ{end}",
-  "en": "",
+  "en": "ぉイザナギ{end}",
   "max": 14
  },
  {
@@ -5548,7 +5548,7 @@
  {
   "id": "RM:0B1950",
   "jp": "魔界のしょうきんかせぎ{n}手下のソウタ（ラタトスク）を操る{n}{n}{end}",
-  "en": "",
+  "en": "Makai bounty hunter.{n}Commands underling{n}Souta (Ratatoskr).{n}{end}",
   "max": 64
  },
  {
@@ -5578,7 +5578,7 @@
  {
   "id": "RM:0B1B98",
   "jp": "アヤシイ研究所の主人{n}デビルのしんぴにみいられ{n}デビルを研究している{n}おもにインド系のデビルを使う{end}",
-  "en": "",
+  "en": "Owner of the Mysterious{n}Lab. Entranced by Devil{n}mysteries, studies Devils.{n}Uses mostly Indian Devils.{end}",
   "max": 100
  },
  {
@@ -5612,7 +5612,7 @@
  {
   "id": "RM:0B1E34",
   "jp": "もう１人のデビルチルドレン{n}おもにかっこいいデビルを使う{n}ケルベロスのこうげきは超強力！{end}",
-  "en": "",
+  "en": "The other Devil Child.{n}Uses mostly cool Devils.{n}Cerberus hits super hard!{end}",
   "max": 92
  },
  {
@@ -5678,7 +5678,7 @@
  {
   "id": "RM:0B2338",
   "jp": "自分と行動をともにするパートナー{n}木ぞくせいのデビルを使ってくる{n}{n}{end}",
-  "en": "",
+  "en": "Partner who travels with{n}you. Uses Wood-attribute{n}Devils.{n}{end}",
   "max": 72
  },
  {
@@ -5708,7 +5708,7 @@
  {
   "id": "RM:0B2568",
   "jp": "つまにイザナミを持つ男神{n}イザナミをむかえに行くため{n}ヨミの門を探している{n}アマテラス、ツクヨミ、スサノオを使う{end}",
-  "en": "",
+  "en": "Male god wed to Izanami.{n}Seeks the Gate of Yomi{n}to bring her back. Uses{n}Amaterasu, Tsukuyomi, Susano-o.{end}",
   "max": 116
  },
  {
@@ -5742,7 +5742,7 @@
  {
   "id": "RM:0B5496",
   "jp": "歌敵１人に炎のダメージ{end}",
-  "en": "",
+  "en": "歌敵１人に炎のダメージ{end}",
   "max": 26
  },
  {
@@ -8796,7 +8796,7 @@
  {
   "id": "RM:0BD9D8",
   "jp": "ベ－ル{end}",
-  "en": "",
+  "en": "Veil{end}",
   "max": 8
  },
  {
@@ -9318,7 +9318,7 @@
  {
   "id": "NM:00169C",
   "jp": "{speed:FFFF}[00FF]　{ed}{end}",
-  "en": "",
+  "en": "{speed:FFFF}[00FF]　{ed}{end}",
   "max": 12
  },
  {
@@ -9328,13 +9328,13 @@
  {
   "id": "NM:0018E0",
   "jp": "[00FF]　{f0}{end}",
-  "en": "",
+  "en": "[00FF]　{f0}{end}",
   "max": 8
  },
  {
   "id": "NM:001BD4",
   "jp": "[00FF]　{end}",
-  "en": "",
+  "en": "[00FF]　{end}",
   "max": 8
  },
  {
@@ -9344,25 +9344,25 @@
  {
   "id": "NM:002258",
   "jp": "・じ？す／ず（せ」ぜ×ぞ￥た％ち＃常■っ０づ２て３で５ど８なAにDぬGのIはLばNぱQひSび{end}",
-  "en": "",
+  "en": "・じ？す／ず（せ」ぜ×ぞ￥た％ち＃常■っ０づ２て３で５ど８なAにDぬGのIはLばNぱQひSび{end}",
   "max": 94
  },
  {
   "id": "NM:0022B6",
   "jp": "・ぴ！ふ…ぶ「ぷ＋へ×ぺ￥ほ★ぼ０ぽ１ま４む６め８もAやCゅEゆHよKらMりPれRろT、{end}",
-  "en": "",
+  "en": "・ぴ！ふ…ぶ「ぷ＋へ×ぺ￥ほ★ぼ０ぽ１ま４む６め８もAやCゅEゆHよKらMりPれRろT、{end}",
   "max": 90
  },
  {
   "id": "NM:002310",
   "jp": "。わ：▲！▼／を（ん「ァ＋[00FF]－ア￥ゥ＃ウ■エ０ォ２オ５ガ７ギAグCケFゲIコMザPシ{end}",
-  "en": "",
+  "en": "。わ：▲！▼／を（ん「ァ＋[00FF]－ア￥ゥ＃ウ■エ０ォ２オ５ガ７ギAグCケFゲIコMザPシ{end}",
   "max": 86
  },
  {
   "id": "NM:002366",
   "jp": "・ジ！ス／ズ（セ「ゼ＋ソ×ゾ￥タ＃ダ■チ０ヂ２ッ４誰５ツ８ヅAテCデFトHドKナMニNヌPネRノTハ{end}",
-  "en": "",
+  "en": "・ジ！ス／ズ（セ「ゼ＋ソ×ゾ￥タ＃ダ■チ０ヂ２ッ４誰５ツ８ヅAテCデFトHドKナMニNヌPネRノTハ{end}",
   "max": 102
  },
  {
@@ -9388,7 +9388,7 @@
  {
   "id": "NM:002484",
   "jp": "デ－バ{end}",
-  "en": "",
+  "en": "Deva{end}",
   "max": 8
  },
  {
@@ -9398,37 +9398,37 @@
  {
   "id": "NM:0024A0",
   "jp": "盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾おぼえる※※{end}",
-  "en": "",
+  "en": "盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾盾おぼえる※※{end}",
   "max": 176
  },
  {
   "id": "NM:002646",
   "jp": "ーv／w）x－y々ぁ２あ９ぃLうaえrぉかかだがへくをけケげヘさレざ雲し{end}",
-  "en": "",
+  "en": "ーv／w）x－y々ぁ２あ９ぃLうaえrぉかかだがへくをけケげヘさレざ雲し{end}",
   "max": 74
  },
  {
   "id": "NM:002690",
   "jp": "ーじ…す」ず＝せ※ぜ９ぞHたQちW常fっxづかてげでだどへならにケぬノのモは意ば夏ぱ究ひ家び{end}",
-  "en": "",
+  "en": "ーじ…す」ず＝せ※ぜ９ぞHたQちW常fっxづかてげでだどへならにケぬノのモは意ば夏ぱ究ひ家び{end}",
   "max": 94
  },
  {
   "id": "NM:0026EE",
   "jp": "ーぴ（ふ－ぶ♥ぷ２へ９ぺHほlぼxぽいますむとめへもらやエゅセゆヘよ[00FF]ら雲り岩れ行ろ犬、{end}",
-  "en": "",
+  "en": "ーぴ（ふ－ぶ♥ぷ２へ９ぺHほlぼxぽいますむとめへもらやエゅセゆヘよ[00FF]ら雲り岩れ行ろ犬、{end}",
   "max": 90
  },
  {
   "id": "NM:002748",
   "jp": "ーわ／▲（▼」を＝ん♥ァ１[00FF]５アHゥVウfエxォかオだガばギらグエケツゲモコ雲ザ岩シ{end}",
-  "en": "",
+  "en": "ーわ／▲（▼」を＝ん♥ァ１[00FF]５アHゥVウfエxォかオだガばギらグエケツゲモコ雲ザ岩シ{end}",
   "max": 86
  },
  {
   "id": "NM:00279E",
   "jp": "」ズ♥ゼ９ゾVダfチかッざ誰へヅエデヘド[00FF]ナ岩ネ行ノ{end}",
-  "en": "",
+  "en": "」ズ♥ゼ９ゾVダfチかッざ誰へヅエデヘド[00FF]ナ岩ネ行ノ{end}",
   "max": 54
  },
  {
@@ -9522,19 +9522,19 @@
  {
   "id": "NM:0033AC",
   "jp": "・じ？す／ず（せ」ぜ＋そ×ぞ￥た々だ％ち＃常♥ぢ■っ★つ０づ２て３で４と５ど８なAにDぬFねGのIはLばNぱQひSび{end}",
-  "en": "",
+  "en": "・じ？す／ず（せ」ぜ＋そ×ぞ￥た々だ％ち＃常♥ぢ■っ★つ０づ２て３で４と５ど８なAにDぬFねGのIはLばNぱQひSび{end}",
   "max": 118
  },
  {
   "id": "NM:003422",
   "jp": "・ぴ！ふ…ぶ「ぷ＋へ－べ×ぺ￥ほ★ぼ０ぽ１ま４む６め８も９ゃAやCゅEゆFょHよKらMりOるPれRろT、{end}",
-  "en": "",
+  "en": "・ぴ！ふ…ぶ「ぷ＋へ－べ×ぺ￥ほ★ぼ０ぽ１ま４む６め８も９ゃAやCゅEゆFょHよKらMりOるPれRろT、{end}",
   "max": 106
  },
  {
   "id": "NM:00348C",
   "jp": "。わ：▲！▼／を（ん「ァ＋[00FF]－ア×ィ＝イ￥ゥ＃ウ■エ０ォ２オ４カ５ガ７ギ９クAグCケFゲGゴIコKサMザPシ{end}",
-  "en": "",
+  "en": "。わ：▲！▼／を（ん「ァ＋[00FF]－ア×ィ＝イ￥ゥ＃ウ■エ０ォ２オ４カ５ガ７ギ９クAグCケFゲGゴIコKサMザPシ{end}",
   "max": 110
  },
  {
@@ -9544,37 +9544,37 @@
  {
   "id": "NM:00369A",
   "jp": "ーv／w）x－y＝z々ぁ２あ９ぃDいHぅLうaえrぉいおかかだがときばぎへくむぐをけケげセこヘさレざ雲し{end}",
-  "en": "",
+  "en": "ーv／w）x－y＝z々ぁ２あ９ぃDいHぅLうaえrぉいおかかだがときばぎへくむぐをけケげセこヘさレざ雲し{end}",
   "max": 106
  },
  {
   "id": "NM:003704",
   "jp": "ーじ…す」ず＝せ※ぜ２そ９ぞHたLだQちW常aぢfっlつxづかてげですとだどへならにケぬツねノのモは意ば夏ぱ究ひ家び{end}",
-  "en": "",
+  "en": "ーじ…す」ず＝せ※ぜ２そ９ぞHたLだQちW常aぢfっlつxづかてげですとだどへならにケぬツねノのモは意ば夏ぱ究ひ家び{end}",
   "max": 118
  },
  {
   "id": "NM:00377A",
   "jp": "ーぴ（ふ－ぶ♥ぷ２へ５べ９ぺHほlぼxぽいまかみすむとめへもむゃらやエゅセゆツょヘよ[00FF]ら雲り界る岩れ行ろ犬、{end}",
-  "en": "",
+  "en": "ーぴ（ふ－ぶ♥ぷ２へ５べ９ぺHほlぼxぽいまかみすむとめへもむゃらやエゅセゆツょヘよ[00FF]ら雲り界る岩れ行ろ犬、{end}",
   "max": 110
  },
  {
   "id": "NM:0037E8",
   "jp": "ーわ／▲（▼」を＝ん♥ァ１[00FF]５ア９ィDイHゥVウfエxォかオすカだガとキばギむクらグエケツゲノゴモコ[00FF]サ雲ザ岩シ{end}",
-  "en": "",
+  "en": "ーわ／▲（▼」を＝ん♥ァ１[00FF]５ア９ィDイHゥVウfエxォかオすカだガとキばギむクらグエケツゲノゴモコ[00FF]サ雲ザ岩シ{end}",
   "max": 114
  },
  {
   "id": "NM:00385A",
   "jp": "ージ（ス」ズ＝セ♥ゼ２ソ９ゾHタVダfチかッざ誰だツへヅらテエデツトヘド[00FF]ナ雲ニ岩ネ行ノ犬ハ{end}",
-  "en": "",
+  "en": "ージ（ス」ズ＝セ♥ゼ２ソ９ゾHタVダfチかッざ誰だツへヅらテエデツトヘド[00FF]ナ雲ニ岩ネ行ノ犬ハ{end}",
   "max": 94
  },
  {
   "id": "NM:00394A",
   "jp": "Kはい{end}",
-  "en": "",
+  "en": "Kはい{end}",
   "max": 10
  },
  {
@@ -9616,7 +9616,7 @@
  {
   "id": "NM:0042E0",
   "jp": "交換　　：仲魔の数{end}",
-  "en": "",
+  "en": "Trade: Allies{end}",
   "max": 20
  },
  {
@@ -9878,385 +9878,385 @@
  {
   "id": "NM:005050",
   "jp": "：　つ　ぴ　誰誰{end}",
-  "en": "",
+  "en": "：　つ　ぴ　誰誰{end}",
   "max": 20
  },
  {
   "id": "NM:005084",
   "jp": "ォ　、　刀刀{end}",
-  "en": "",
+  "en": "ォ　、　刀刀{end}",
   "max": 16
  },
  {
   "id": "NM:005104",
   "jp": "：　つ　ぴ　夢夢{end}",
-  "en": "",
+  "en": "：　つ　ぴ　夢夢{end}",
   "max": 20
  },
  {
   "id": "NM:005270",
   "jp": "」　サ　夢東{end}",
-  "en": "",
+  "en": "」　サ　夢東{end}",
   "max": 16
  },
  {
   "id": "NM:005280",
   "jp": "う　サ　頭？{end}",
-  "en": "",
+  "en": "う　サ　頭？{end}",
   "max": 16
  },
  {
   "id": "NM:005290",
   "jp": "ィ　サ　？鎧{end}",
-  "en": "",
+  "en": "ィ　サ　？鎧{end}",
   "max": 16
  },
  {
   "id": "NM:005634",
   "jp": "－　た　２　め　－　…＋＝々＃■★３８DHIKMOQRSTUVXabdgijkopqtuwyあいしじすぞただちでどなばびぴぶぷべめらりれろ、▲をアィオクザシジゾタヅテデネバベミムメュョヨヮワヴ誰悪暗引院右運{end}",
-  "en": "",
+  "en": "－　た　２　め　－　…＋＝々＃■★３８DHIKMOQRSTUVXabdgijkopqtuwyあいしじすぞただちでどなばびぴぶぷべめらりれろ、▲をアィオクザシジゾタヅテデネバベミムメュョヨヮワヴ誰悪暗引院右運{end}",
   "max": 208
  },
  {
   "id": "NM:005AB4",
   "jp": "アウト：{name}{end}",
-  "en": "",
+  "en": "Out: {name}{end}",
   "max": 12
  },
  {
   "id": "NM:005AC0",
   "jp": "コール：{name}{end}",
-  "en": "",
+  "en": "Call: {name}{end}",
   "max": 12
  },
  {
   "id": "NM:0061DC",
   "jp": "ぃ　い　ぅ　{end}",
-  "en": "",
+  "en": "ぃ　い　ぅ　{end}",
   "max": 14
  },
  {
   "id": "NM:006204",
   "jp": "う　ぇ　{end}",
-  "en": "",
+  "en": "う　ぇ　{end}",
   "max": 10
  },
  {
   "id": "NM:00622C",
   "jp": "え　ぉ　お　か　{end}",
-  "en": "",
+  "en": "え　ぉ　お　か　{end}",
   "max": 18
  },
  {
   "id": "NM:006254",
   "jp": "が　き　ぎ　く　{end}",
-  "en": "",
+  "en": "が　き　ぎ　く　{end}",
   "max": 18
  },
  {
   "id": "NM:00627C",
   "jp": "ぐ　け　げ　こ　{end}",
-  "en": "",
+  "en": "ぐ　け　げ　こ　{end}",
   "max": 18
  },
  {
   "id": "NM:0062A4",
   "jp": "ご　さ　ざ　し　{end}",
-  "en": "",
+  "en": "ご　さ　ざ　し　{end}",
   "max": 18
  },
  {
   "id": "NM:0062CC",
   "jp": "じ　す　{end}",
-  "en": "",
+  "en": "じ　す　{end}",
   "max": 10
  },
  {
   "id": "NM:0062F4",
   "jp": "ず　せ　ぜ　{end}",
-  "en": "",
+  "en": "ず　せ　ぜ　{end}",
   "max": 14
  },
  {
   "id": "NM:00631C",
   "jp": "そ　ぞ　{end}",
-  "en": "",
+  "en": "そ　ぞ　{end}",
   "max": 10
  },
  {
   "id": "NM:006344",
   "jp": "た　だ　{end}",
-  "en": "",
+  "en": "た　だ　{end}",
   "max": 10
  },
  {
   "id": "NM:00636C",
   "jp": "ち　ぢ　っ　{end}",
-  "en": "",
+  "en": "ち　ぢ　っ　{end}",
   "max": 14
  },
  {
   "id": "NM:006394",
   "jp": "つ　づ　{end}",
-  "en": "",
+  "en": "つ　づ　{end}",
   "max": 10
  },
  {
   "id": "NM:0063BC",
   "jp": "て　で　{end}",
-  "en": "",
+  "en": "て　で　{end}",
   "max": 10
  },
  {
   "id": "NM:0063E4",
   "jp": "と　ど　{end}",
-  "en": "",
+  "en": "と　ど　{end}",
   "max": 10
  },
  {
   "id": "NM:00640C",
   "jp": "な　に　{end}",
-  "en": "",
+  "en": "な　に　{end}",
   "max": 10
  },
  {
   "id": "NM:006434",
   "jp": "ぬ　ね　{end}",
-  "en": "",
+  "en": "ぬ　ね　{end}",
   "max": 10
  },
  {
   "id": "NM:00645C",
   "jp": "の　は　ば　{end}",
-  "en": "",
+  "en": "の　は　ば　{end}",
   "max": 14
  },
  {
   "id": "NM:006484",
   "jp": "ぱ　ひ　び　{end}",
-  "en": "",
+  "en": "ぱ　ひ　び　{end}",
   "max": 14
  },
  {
   "id": "NM:0064D4",
   "jp": "ぴ　ふ　ぶ　ぷ　へ　{end}",
-  "en": "",
+  "en": "ぴ　ふ　ぶ　ぷ　へ　{end}",
   "max": 22
  },
  {
   "id": "NM:0064FC",
   "jp": "べ　ぺ　{end}",
-  "en": "",
+  "en": "べ　ぺ　{end}",
   "max": 10
  },
  {
   "id": "NM:006524",
   "jp": "ほ　ぼ　{end}",
-  "en": "",
+  "en": "ほ　ぼ　{end}",
   "max": 10
  },
  {
   "id": "NM:00654C",
   "jp": "ぽ　ま　み　{end}",
-  "en": "",
+  "en": "ぽ　ま　み　{end}",
   "max": 14
  },
  {
   "id": "NM:006574",
   "jp": "む　め　も　{end}",
-  "en": "",
+  "en": "む　め　も　{end}",
   "max": 14
  },
  {
   "id": "NM:00659C",
   "jp": "ゃ　や　ゅ　{end}",
-  "en": "",
+  "en": "ゃ　や　ゅ　{end}",
   "max": 14
  },
  {
   "id": "NM:0065C4",
   "jp": "ゆ　ょ　よ　{end}",
-  "en": "",
+  "en": "ゆ　ょ　よ　{end}",
   "max": 14
  },
  {
   "id": "NM:0065EC",
   "jp": "ら　り　る　{end}",
-  "en": "",
+  "en": "ら　り　る　{end}",
   "max": 14
  },
  {
   "id": "NM:006614",
   "jp": "れ　ろ　、　{end}",
-  "en": "",
+  "en": "れ　ろ　、　{end}",
   "max": 14
  },
  {
   "id": "NM:00663C",
   "jp": "わ　▲　▼　{end}",
-  "en": "",
+  "en": "わ　▲　▼　{end}",
   "max": 14
  },
  {
   "id": "NM:006664",
   "jp": "を　ん　ァ　{end}",
-  "en": "",
+  "en": "を　ん　ァ　{end}",
   "max": 14
  },
  {
   "id": "NM:00668C",
   "jp": "ア　ィ　イ　{end}",
-  "en": "",
+  "en": "ア　ィ　イ　{end}",
   "max": 14
  },
  {
   "id": "NM:0066B4",
   "jp": "ゥ　ウ　{end}",
-  "en": "",
+  "en": "ゥ　ウ　{end}",
   "max": 10
  },
  {
   "id": "NM:0066DC",
   "jp": "ェ　エ　{end}",
-  "en": "",
+  "en": "ェ　エ　{end}",
   "max": 10
  },
  {
   "id": "NM:006704",
   "jp": "ォ　オ　{end}",
-  "en": "",
+  "en": "ォ　オ　{end}",
   "max": 10
  },
  {
   "id": "NM:00672C",
   "jp": "カ　ガ　キ　{end}",
-  "en": "",
+  "en": "カ　ガ　キ　{end}",
   "max": 14
  },
  {
   "id": "NM:006754",
   "jp": "ギ　ク　グ　{end}",
-  "en": "",
+  "en": "ギ　ク　グ　{end}",
   "max": 14
  },
  {
   "id": "NM:00677C",
   "jp": "ケ　ゲ　{end}",
-  "en": "",
+  "en": "ケ　ゲ　{end}",
   "max": 10
  },
  {
   "id": "NM:0067A4",
   "jp": "コ　ゴ　サ　{end}",
-  "en": "",
+  "en": "コ　ゴ　サ　{end}",
   "max": 14
  },
  {
   "id": "NM:0067CC",
   "jp": "ザ　シ　{end}",
-  "en": "",
+  "en": "ザ　シ　{end}",
   "max": 10
  },
  {
   "id": "NM:0067F4",
   "jp": "ジ　ス　ズ　{end}",
-  "en": "",
+  "en": "ジ　ス　ズ　{end}",
   "max": 14
  },
  {
   "id": "NM:00681C",
   "jp": "セ　ゼ　ソ　{end}",
-  "en": "",
+  "en": "セ　ゼ　ソ　{end}",
   "max": 14
  },
  {
   "id": "NM:006844",
   "jp": "ゾ　タ　ダ　{end}",
-  "en": "",
+  "en": "ゾ　タ　ダ　{end}",
   "max": 14
  },
  {
   "id": "NM:00686C",
   "jp": "チ　ヂ　{end}",
-  "en": "",
+  "en": "チ　ヂ　{end}",
   "max": 10
  },
  {
   "id": "NM:006894",
   "jp": "ッ　ツ　{end}",
-  "en": "",
+  "en": "ッ　ツ　{end}",
   "max": 10
  },
  {
   "id": "NM:0068BC",
   "jp": "ヅ　テ　{end}",
-  "en": "",
+  "en": "ヅ　テ　{end}",
   "max": 10
  },
  {
   "id": "NM:0068E4",
   "jp": "デ　ト　{end}",
-  "en": "",
+  "en": "デ　ト　{end}",
   "max": 10
  },
  {
   "id": "NM:00690C",
   "jp": "ド　ナ　{end}",
-  "en": "",
+  "en": "ド　ナ　{end}",
   "max": 10
  },
  {
   "id": "NM:006934",
   "jp": "ニ　ヌ　{end}",
-  "en": "",
+  "en": "ニ　ヌ　{end}",
   "max": 10
  },
  {
   "id": "NM:00695C",
   "jp": "ネ　ノ　{end}",
-  "en": "",
+  "en": "ネ　ノ　{end}",
   "max": 10
  },
  {
   "id": "NM:006984",
   "jp": "ハ　バ　{end}",
-  "en": "",
+  "en": "ハ　バ　{end}",
   "max": 10
  },
  {
   "id": "NM:0069AC",
   "jp": "パ　ヒ　ビ　{end}",
-  "en": "",
+  "en": "パ　ヒ　ビ　{end}",
   "max": 14
  },
  {
   "id": "NM:0069D4",
   "jp": "ピ　フ　ブ　{end}",
-  "en": "",
+  "en": "ピ　フ　ブ　{end}",
   "max": 14
  },
  {
   "id": "NM:0069FC",
   "jp": "プ　ヘ　{end}",
-  "en": "",
+  "en": "プ　ヘ　{end}",
   "max": 10
  },
  {
   "id": "NM:006A24",
   "jp": "ベ　ペ　{end}",
-  "en": "",
+  "en": "ベ　ペ　{end}",
   "max": 10
  },
  {
   "id": "NM:006A4C",
   "jp": "ホ　ボ　ポ　{end}",
-  "en": "",
+  "en": "ホ　ボ　ポ　{end}",
   "max": 14
  },
  {
   "id": "NM:006A74",
   "jp": "マ　ミ　ム　{end}",
-  "en": "",
+  "en": "マ　ミ　ム　{end}",
   "max": 14
  }
 ]

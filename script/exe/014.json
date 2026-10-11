@@ -2,13 +2,13 @@
  {
   "id": "BM:0B0BBC",
   "jp": "けんさく{end}",
-  "en": "",
+  "en": "Search{end}",
   "max": 12
  },
  {
   "id": "BM:0B0BC8",
   "jp": "だれに使いますか？{end}",
-  "en": "",
+  "en": "Use on whom?{end}",
   "max": 20
  },
  {
@@ -22,13 +22,13 @@
  {
   "id": "BM:0B0C2C",
   "jp": "どこに　いどうしますか？{end}",
-  "en": "",
+  "en": "Move to where?{end}",
   "max": 28
  },
  {
   "id": "BM:0B0C48",
   "jp": "どこからとりだしますか？{end}",
-  "en": "",
+  "en": "Take out from where?{end}",
   "max": 28
  },
  {
@@ -42,49 +42,49 @@
  {
   "id": "BM:0B0C8C",
   "jp": "ぞくせい　{end}",
-  "en": "",
+  "en": "Attribute{end}",
   "max": 12
  },
  {
   "id": "BM:0B0D4C",
   "jp": "ゲ－トタウン　　{end}",
-  "en": "",
+  "en": "Gate Town{end}",
   "max": 20
  },
  {
   "id": "BM:0B0D60",
   "jp": "フロストタウン　{end}",
-  "en": "",
+  "en": "Frost Town{end}",
   "max": 20
  },
  {
   "id": "BM:0B0D74",
   "jp": "コロシアム　　　{end}",
-  "en": "",
+  "en": "Colosseum{end}",
   "max": 20
  },
  {
   "id": "BM:0B0D88",
   "jp": "ラセツの村　　{end}",
-  "en": "",
+  "en": "Rasetsu Village{end}",
   "max": 16
  },
  {
   "id": "BM:0B0D98",
   "jp": "シュラの村　　{end}",
-  "en": "",
+  "en": "Sura Village{end}",
   "max": 16
  },
  {
   "id": "BM:0B0DA8",
   "jp": "デ－バの村　　{end}",
-  "en": "",
+  "en": "Deva Village{end}",
   "max": 16
  },
  {
   "id": "BM:0B0DB8",
   "jp": "ゴ－ストタウン　{end}",
-  "en": "",
+  "en": "Ghost Town{end}",
   "max": 20
  },
  {
@@ -96,13 +96,13 @@
  {
   "id": "BM:0B0DDC",
   "jp": "ベッドタウン　　{end}",
-  "en": "",
+  "en": "Bed Town{end}",
   "max": 20
  },
  {
   "id": "BM:0B0DF0",
   "jp": "カジノタウン　　{end}",
-  "en": "",
+  "en": "Casino Town{end}",
   "max": 20
  },
  {
@@ -112,31 +112,31 @@
  {
   "id": "BM:0B0E18",
   "jp": "ライトパレス　　{end}",
-  "en": "",
+  "en": "Light Palace{end}",
   "max": 20
  },
  {
   "id": "BM:0B0E2C",
   "jp": "パンデモニウム　{end}",
-  "en": "",
+  "en": "Pandemonium{end}",
   "max": 20
  },
  {
   "id": "BM:0B0E40",
   "jp": "ライトゲ－ト　　{end}",
-  "en": "",
+  "en": "Light Gate{end}",
   "max": 20
  },
  {
   "id": "BM:0B0E54",
   "jp": "ピラミッド　　　{end}",
-  "en": "",
+  "en": "Pyramid{end}",
   "max": 20
  },
  {
   "id": "BM:0B0E68",
   "jp": "オンセンタウン　{end}",
-  "en": "",
+  "en": "Spa Town{end}",
   "max": 20
  },
  {
@@ -210,91 +210,91 @@
  {
   "id": "BM:0B105E",
   "jp": "！フェンリル{end}",
-  "en": "",
+  "en": "！フェンリル{end}",
   "max": 14
  },
  {
   "id": "BM:0B1072",
   "jp": "…ヘル{end}",
-  "en": "",
+  "en": "…ヘル{end}",
   "max": 10
  },
  {
   "id": "BM:0B1086",
   "jp": "×ビビサナ{end}",
-  "en": "",
+  "en": "×ビビサナ{end}",
   "max": 14
  },
  {
   "id": "BM:0B109A",
   "jp": "々ヴリトラ{end}",
-  "en": "",
+  "en": "々ヴリトラ{end}",
   "max": 14
  },
  {
   "id": "BM:0B10AE",
   "jp": "々インドラ{end}",
-  "en": "",
+  "en": "々インドラ{end}",
   "max": 14
  },
  {
   "id": "BM:0B10C2",
   "jp": "々ドクター・スリル{end}",
-  "en": "",
+  "en": "々ドクター・スリル{end}",
   "max": 20
  },
  {
   "id": "BM:0B10D6",
   "jp": "＃レイホウ{end}",
-  "en": "",
+  "en": "＃レイホウ{end}",
   "max": 14
  },
  {
   "id": "BM:0B10EA",
   "jp": "Kフランケン{end}",
-  "en": "",
+  "en": "Kフランケン{end}",
   "max": 14
  },
  {
   "id": "BM:0B10FE",
   "jp": "０タカジョー{end}",
-  "en": "",
+  "en": "０タカジョー{end}",
   "max": 14
  },
  {
   "id": "BM:0B1112",
   "jp": "１レイジ{end}",
-  "en": "",
+  "en": "１レイジ{end}",
   "max": 10
  },
  {
   "id": "BM:0B1126",
   "jp": "３マキ{end}",
-  "en": "",
+  "en": "３マキ{end}",
   "max": 10
  },
  {
   "id": "BM:0B113A",
   "jp": "４ハザマ{end}",
-  "en": "",
+  "en": "４ハザマ{end}",
   "max": 10
  },
  {
   "id": "BM:0B114E",
   "jp": "５キョウジ{end}",
-  "en": "",
+  "en": "５キョウジ{end}",
   "max": 14
  },
  {
   "id": "BM:0B1162",
   "jp": "９ナンジョウ{end}",
-  "en": "",
+  "en": "９ナンジョウ{end}",
   "max": 14
  },
  {
   "id": "BM:0B1176",
   "jp": "Dドッペルゲンガー{end}",
-  "en": "",
+  "en": "Dドッペルゲンガー{end}",
   "max": 22
  },
  {
@@ -304,61 +304,61 @@
  {
   "id": "BM:0B119E",
   "jp": "Pエレジー{end}",
-  "en": "",
+  "en": "Pエレジー{end}",
   "max": 14
  },
  {
   "id": "BM:0B11B2",
   "jp": "Tナガヒサ{end}",
-  "en": "",
+  "en": "Tナガヒサ{end}",
   "max": 14
  },
  {
   "id": "BM:0B11C6",
   "jp": "Xルシファー{end}",
-  "en": "",
+  "en": "Xルシファー{end}",
   "max": 14
  },
  {
   "id": "BM:0B11DA",
   "jp": "gタツヤ{end}",
-  "en": "",
+  "en": "gタツヤ{end}",
   "max": 10
  },
  {
   "id": "BM:0B11EE",
   "jp": "rマヤ{end}",
-  "en": "",
+  "en": "rマヤ{end}",
   "max": 10
  },
  {
   "id": "BM:0B1202",
   "jp": "pカズマ{end}",
-  "en": "",
+  "en": "pカズマ{end}",
   "max": 10
  },
  {
   "id": "BM:0B1216",
   "jp": "あコージー{end}",
-  "en": "",
+  "en": "あコージー{end}",
   "max": 14
  },
  {
   "id": "BM:0B122A",
   "jp": "ききょうあくピエロ{end}",
-  "en": "",
+  "en": "ききょうあくピエロ{end}",
   "max": 20
  },
  {
   "id": "BM:0B123E",
   "jp": "３プロフェッサーO{end}",
-  "en": "",
+  "en": "３プロフェッサーO{end}",
   "max": 20
  },
  {
   "id": "BM:0B1252",
   "jp": "３ドッペルゲンガー{end}",
-  "en": "",
+  "en": "３ドッペルゲンガー{end}",
   "max": 22
  },
  {
@@ -368,217 +368,217 @@
  {
   "id": "BM:0B127A",
   "jp": "９ミライ{end}",
-  "en": "",
+  "en": "９ミライ{end}",
   "max": 10
  },
  {
   "id": "BM:0B128E",
   "jp": "Dアベノセイメイ{end}",
-  "en": "",
+  "en": "Dアベノセイメイ{end}",
   "max": 18
  },
  {
   "id": "BM:0B12A2",
   "jp": "Hエレジー{end}",
-  "en": "",
+  "en": "Hエレジー{end}",
   "max": 14
  },
  {
   "id": "BM:0B12B6",
   "jp": "Lタカジョー{end}",
-  "en": "",
+  "en": "Lタカジョー{end}",
   "max": 14
  },
  {
   "id": "BM:0B12CA",
   "jp": "eキングケルベロス{end}",
-  "en": "",
+  "en": "eキングケルベロス{end}",
   "max": 20
  },
  {
   "id": "BM:0B12DE",
   "jp": "Uナガヒサ{end}",
-  "en": "",
+  "en": "Uナガヒサ{end}",
   "max": 14
  },
  {
   "id": "BM:0B1306",
   "jp": "jルシファー{end}",
-  "en": "",
+  "en": "jルシファー{end}",
   "max": 14
  },
  {
   "id": "BM:0B131A",
   "jp": "pゲンシテンソン{end}",
-  "en": "",
+  "en": "pゲンシテンソン{end}",
   "max": 18
  },
  {
   "id": "BM:0B132E",
   "jp": "tカズマ{end}",
-  "en": "",
+  "en": "tカズマ{end}",
   "max": 10
  },
  {
   "id": "BM:0B1356",
   "jp": "ぉヘラ{end}",
-  "en": "",
+  "en": "ぉヘラ{end}",
   "max": 10
  },
  {
   "id": "BM:0B154C",
   "jp": "プチフロストの女トーゾク{n}おもに水ぞくせいのデビルを{n}使い、中でもダスト（イエティ）{n}のコールドボイスは強力{end}",
-  "en": "",
+  "en": "A female Petit Frost thief.{n}Mostly uses Water Devils.{n}Her Dust (Yeti) has a{n}really strong Cold Voice.{end}",
   "max": 112
  },
  {
   "id": "BM:0B15BC",
   "jp": "魔界のしょうきんかせぎ{n}手下のガルムを操る{n}{n}{end}",
-  "en": "",
+  "en": "A Makai bounty hunter.{n}Controls his lackey Garm.{n}{n}{end}",
   "max": 48
  },
  {
   "id": "BM:0B15EC",
   "jp": "アイスランドの魔王{n}おもに氷こうげきのとくいな{n}水ぞくせいのデビルを使う{n}{end}",
-  "en": "",
+  "en": "Demon Lord of Ice Land.{n}Mostly uses Water Devils{n}good at ice attacks.{n}{end}",
   "max": 76
  },
  {
   "id": "BM:0B1638",
   "jp": "ラセツ族の王{n}おもにラセツとラセツオーを使う{n}コンボ技のヘブンズアタックを使う{end}",
-  "en": "",
+  "en": "King of the Rasetsu tribe.{n}Mostly uses Rasetsu and King Rasetsu.{n}Uses combo Heaven's Attack.{end}",
   "max": 80
  },
  {
   "id": "BM:0B1688",
   "jp": "シュラ族の王{n}おもにシュラとシュラオーを使う{n}コンボ技のヘブンズアタックを使う{end}",
-  "en": "",
+  "en": "King of the Sura tribe.{n}Mostly uses Sura and King Sura.{n}Uses combo Heaven's Attack.{end}",
   "max": 80
  },
  {
   "id": "BM:0B16D8",
   "jp": "デーバ族の王{n}おもにデーバとデーバオーを使う{n}コンボ技のヘブンズアタックを使う{end}",
-  "en": "",
+  "en": "King of the Deva tribe.{n}Mostly uses Deva and King Deva.{n}Uses combo Heaven's Attack.{end}",
   "max": 80
  },
  {
   "id": "BM:0B1728",
   "jp": "天才科学者をじしょうする{n}マッド・サイエンティスト{n}めずらしいデビルを作っては{n}その強さをバトルネットで試す{end}",
-  "en": "",
+  "en": "A self-proclaimed genius,{n}this mad scientist{n}makes rare Devils and tests{n}their power on the Battle Net.{end}",
   "max": 112
  },
  {
   "id": "BM:0B1798",
   "jp": "クズノハ一族に仕えるミコ{n}おもにチュウゴクのデビルを使う{n}キョウジというパートナーがいる{end}",
-  "en": "",
+  "en": "A miko serving the Kuzunoha.{n}Mostly uses Chinese Devils.{n}Her partner is named Kyoji.{end}",
   "max": 92
  },
  {
   "id": "BM:0B17F4",
   "jp": "アヤシイ館の主人{n}きゅうきょくの肉体を持つ{n}デビルをもとめている{n}おもにパワー系のデビルを使う{end}",
-  "en": "",
+  "en": "Master of the{n}Mysterious Mansion. Seeks{n}a Devil with the ultimate body.{n}Mostly uses power-type Devils.{end}",
   "max": 96
  },
  {
   "id": "BM:0B1854",
   "jp": "魔界の事をよく知っているナゾの少年{n}名前はゼット{n}テンシ・リュウ系を使う{end}",
-  "en": "",
+  "en": "A mysterious boy who knows Makai well.{n}Name: Zett.{n}Uses Divine and Draco types.{end}",
   "max": 76
  },
  {
   "id": "BM:0B18A0",
   "jp": "みためが恐い高校生{n}使うデビルもシニガミが多く{n}無口でぶあいそうだが{n}しゅみの手品は人を楽しませる{end}",
-  "en": "",
+  "en": "A scary-looking high schooler{n}who uses lots of Reapers.{n}Quiet and gruff, but his{n}magic tricks delight people.{end}",
   "max": 100
  },
  {
   "id": "BM:0B1904",
   "jp": "とても明るく、優しいが{n}病気がちで体の弱い女子高生{n}おもにオンナのデビルを使う{n}{end}",
-  "en": "",
+  "en": "Very cheerful and kind, but{n}a sickly, frail high school girl.{n}Mostly uses female Devils.{n}{end}",
   "max": 84
  },
  {
   "id": "BM:0B1958",
   "jp": "自分勝手で、プライドの高い天才高校生{n}テンシ系のデビルを使う{n}{end}",
-  "en": "",
+  "en": "A selfish, proud genius high schooler.{n}Uses Divine Devils.{n}{end}",
   "max": 64
  },
  {
   "id": "BM:0B1998",
   "jp": "デビルを召喚できる{n}デビルサマナーと呼ばれる男{n}さまざまなデビルをしたがえている{n}レイホウというパートナーがいる{end}",
-  "en": "",
+  "en": "A man who can summon Devils,{n}known as a Devil Summoner.{n}He commands all sorts of Devils.{n}His partner is named Reiho.{end}",
   "max": 116
  },
  {
   "id": "BM:0B1A0C",
   "jp": "つねに１番でなければ{n}気がすまない高校生{n}１番を目指して修行中{n}リュウ系のデビルを使う{end}",
-  "en": "",
+  "en": "A high schooler who must{n}always be number one.{n}Training to be No. 1.{n}Uses Draco Devils.{end}",
   "max": 88
  },
  {
   "id": "BM:0B1A64",
   "jp": "つねに対戦相手と同じデビルを使う{n}{n}{end}",
-  "en": "",
+  "en": "Always uses its opponent's Devils.{n}{n}{end}",
   "max": 40
  },
  {
   "id": "BM:0B1A8C",
   "jp": "もう１人のデビルチルドレン{n}おもにかわいいデビルを使う{n}グリフォンのこうげきは超強力！{end}",
-  "en": "",
+  "en": "The other Devil Child.{n}Mostly uses cute Devils.{n}Her Gryphon hits super hard!{end}",
   "max": 88
  },
  {
   "id": "BM:0B1AE4",
   "jp": "アゼルの娘{n}せいかくは、かなりワガママで{n}父親の事を嫌っている{n}なぜかゾウリムシが好き{end}",
-  "en": "",
+  "en": "Azel's daughter.{n}Pretty spoiled and selfish.{n}She hates her father.{n}Oddly, she loves Paramecium.{end}",
   "max": 88
  },
  {
   "id": "BM:0B1B3C",
   "jp": "天使と人間の間に生まれた{n}エンゼルチルドレン{n}連れているスフィンクスは{n}成長すると、すがたが変わる{end}",
-  "en": "",
+  "en": "Born of an angel and a human:{n}an Angel Child.{n}The Sphinx with him changes{n}its form as it grows.{end}",
   "max": 100
  },
  {
   "id": "BM:0B1BA0",
   "jp": "魔界を治めている大魔王{n}デビルチルドレンの父親{n}６つの魔界にいる{n}魔王たちをしたがえている{end}",
-  "en": "",
+  "en": "Great Demon King of Makai.{n}Father of the Devil Children.{n}Rules the Demon Lords{n}of the six Makai lands.{end}",
   "max": 92
  },
  {
   "id": "BM:0B1BFC",
   "jp": "こどくな男子高校生{n}あるじけんをきっかけに{n}デビルを操る力にめざめた{n}技がとくいなデビルを使う{end}",
-  "en": "",
+  "en": "A lonely high school boy.{n}After a certain incident,{n}he gained power over Devils.{n}Uses Devils good at skills.{end}",
   "max": 96
  },
  {
   "id": "BM:0B1C5C",
   "jp": "ざっし社ではたらくお姉さん{n}あるじけんをきっかけに{n}デビルを操る力にめざめた{n}魔法がとくいなデビルを使う{end}",
-  "en": "",
+  "en": "A young woman at a magazine.{n}After a certain incident,{n}she gained power over Devils.{n}Uses Devils good at magic.{end}",
   "max": 108
  },
  {
   "id": "BM:0B1CC8",
   "jp": "？？？？？{n}フロスト系のデビルを使う{n}{n}{end}",
-  "en": "",
+  "en": "?????{n}Uses Frost Devils.{n}{n}{end}",
   "max": 44
  },
  {
   "id": "BM:0B1CF4",
   "jp": "？？？？？{n}最強のデビルを使う{n}{n}{end}",
-  "en": "",
+  "en": "?????{n}Uses top-class Devils.{n}{n}{end}",
   "max": 36
  },
  {
   "id": "BM:0B1D18",
   "jp": "夜のすべり台にすわっていて{n}きづかれるとキセイをはっしながら{n}追ってくる{n}月ぞくせいのデビルを使う{end}",
-  "en": "",
+  "en": "It sits on a slide at night.{n}If you notice it, it shrieks and{n}chases you.{n}Uses Moon Devils.{end}",
   "max": 100
  },
  {
   "id": "BM:0B1D7C",
   "jp": "プラズマの研究をしている{n}自作のサイボーグ・デカと{n}ゴーレムを使う{n}{end}",
-  "en": "",
+  "en": "Researches plasma.{n}Uses his own Cyborg Deka{n}and Golem.{n}{end}",
   "max": 72
  },
  {
@@ -588,7 +588,7 @@
  {
   "id": "BM:0B1DEC",
   "jp": "シュゲン道のかいそ{n}ゼンキ・ゴキをしたがえている{n}テングを使う{n}{end}",
-  "en": "",
+  "en": "Founder of Shugendo.{n}Commands Zenki Goki.{n}Uses Tengu.{n}{end}",
   "max": 68
  },
  {
@@ -598,13 +598,13 @@
  {
   "id": "BM:0B1E88",
   "jp": "オンミョウジュツをきわめた{n}ダイオンミョウジ{n}レイ系のデビルを使う{n}{end}",
-  "en": "",
+  "en": "A master of onmyodo,{n}a great onmyoji.{n}Uses Specter Devils.{n}{end}",
   "max": 72
  },
  {
   "id": "BM:0B1ED0",
   "jp": "とても強い力を持った女の子{n}せいかくは、かなりワガママで{n}自分勝手なところがある{n}なぜかゾウリムシが好き{end}",
-  "en": "",
+  "en": "A girl with great power.{n}Pretty spoiled, and she{n}can be a bit selfish.{n}Oddly, she loves Paramecium.{end}",
   "max": 108
  },
  {
@@ -614,7 +614,7 @@
  {
   "id": "BM:0B1F88",
   "jp": "自分と行動をともにするパートナー{n}火ぞくせいのデビルを使ってくる{n}{n}{end}",
-  "en": "",
+  "en": "The partner who travels with you.{n}Uses Fire Devils.{n}{n}{end}",
   "max": 72
  },
  {
@@ -624,7 +624,7 @@
  {
   "id": "BM:0B2034",
   "jp": "イングランドの王{n}キシとしての剣技と心をもつ{n}湖のヒメからエクスカリバーをもらう{n}日ぞくせいのデビルを使う{end}",
-  "en": "",
+  "en": "The King of England.{n}Has a knight's sword skill and heart.{n}Given Excalibur by the Lady of the Lake.{n}Uses Sun Devils.{end}",
   "max": 108
  },
  {
@@ -634,7 +634,7 @@
  {
   "id": "BM:0B20FC",
   "jp": "コンロン山にあるセン教の教主{n}弟子のタイコウボウに{n}封神計画を実行させた{n}木ぞくせいのデビルを使ってくる{end}",
-  "en": "",
+  "en": "Head of Mt. Kunlun's Immortals.{n}Had his pupil Jiang Ziya{n}carry out the Fengshen Plan.{n}Uses Wood Devils.{end}",
   "max": 108
  },
  {
@@ -648,43 +648,43 @@
  {
   "id": "BM:0B21B8",
   "jp": "かていの守り神で、ゼウスのつま{n}ふだんは優しいが{n}その怒りはゼウスも恐れる{n}テンシ系のデビルを使う{end}",
-  "en": "",
+  "en": "Goddess of the home, Zeus's wife.{n}Usually kind, but{n}even Zeus fears her anger.{n}Uses Divine Devils.{end}",
   "max": 100
  },
  {
   "id": "BM:0B221C",
   "jp": "仲魔がいっぱいなので{n}勝ってもプレゼントのデビルが{wait}{f0}もらえません{wait}{page}それでも対戦しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Your allies are full, so even if you win,{wait}{f0}you can't receive the present Devil.{wait}{page}Battle anyway?{fb:0000}{end}",
   "max": 100
  },
  {
   "id": "BM:0B2348",
   "jp": "xダスト{end}",
-  "en": "",
+  "en": "xダスト{end}",
   "max": 12
  },
  {
   "id": "BM:0B265C",
   "jp": "G歯▼ガルム２{end}",
-  "en": "",
+  "en": "G歯▼ガルム２{end}",
   "max": 16
  },
  {
   "id": "BM:0B2684",
   "jp": "▼ガルム３{end}",
-  "en": "",
+  "en": "▼ガルム３{end}",
   "max": 12
  },
  {
   "id": "BM:0B26A6",
   "jp": "頭▲ソウタ{end}",
-  "en": "",
+  "en": "頭▲ソウタ{end}",
   "max": 14
  },
  {
   "id": "BM:0B26CC",
   "jp": "▲ソウタ{end}",
-  "en": "",
+  "en": "▲ソウタ{end}",
   "max": 12
  },
  {
@@ -694,157 +694,157 @@
  {
   "id": "BM:0B50D8",
   "jp": "敵１人に炎のダメージ{end}",
-  "en": "",
+  "en": "Fire damage to one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B50F0",
   "jp": "敵１人を炎がやきつくす{end}",
-  "en": "",
+  "en": "Flames engulf one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B5108",
   "jp": "敵全体を炎でなぎはらう{end}",
-  "en": "",
+  "en": "Flames sweep all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5120",
   "jp": "敵１人に氷のダメージ{end}",
-  "en": "",
+  "en": "Ice damage to one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B5138",
   "jp": "敵１人を冷気でこおりつかせる{end}",
-  "en": "",
+  "en": "Freezes one foe with icy air{end}",
   "max": 32
  },
  {
   "id": "BM:0B5158",
   "jp": "敵全体を冷気がおそう{end}",
-  "en": "",
+  "en": "Icy air hits all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B5170",
   "jp": "敵１人に風のダメージ{end}",
-  "en": "",
+  "en": "Wind damages one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B5188",
   "jp": "敵１人をたつまきでこうげき{end}",
-  "en": "",
+  "en": "Hits one foe with a tornado{end}",
   "max": 28
  },
  {
   "id": "BM:0B51A4",
   "jp": "敵全体をたつまきがなぎはらう{end}",
-  "en": "",
+  "en": "A tornado sweeps all foes{end}",
   "max": 32
  },
  {
   "id": "BM:0B51C4",
   "jp": "敵１人に電気のダメージ{end}",
-  "en": "",
+  "en": "Elec damage to one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B51DC",
   "jp": "敵１人を電気でしびれさせる{end}",
-  "en": "",
+  "en": "Shocks one foe with electricity{end}",
   "max": 28
  },
  {
   "id": "BM:0B51F8",
   "jp": "敵全体をイナズマがおそう{end}",
-  "en": "",
+  "en": "Lightning strikes all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B5214",
   "jp": "敵１人に岩をふらせてダメージ{end}",
-  "en": "",
+  "en": "Damages one foe with rockfall{end}",
   "max": 32
  },
  {
   "id": "BM:0B5234",
   "jp": "敵１人に岩をふらせてこうげき{end}",
-  "en": "",
+  "en": "Attacks one foe with falling rocks{end}",
   "max": 32
  },
  {
   "id": "BM:0B5254",
   "jp": "敵全体を岩の雨がおそう{end}",
-  "en": "",
+  "en": "Rocks rain on all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B526C",
   "jp": "敵１人をねむらせる{end}",
-  "en": "",
+  "en": "Makes one foe sleep{end}",
   "max": 20
  },
  {
   "id": "BM:0B5280",
   "jp": "敵１人をハッピーにさせる{end}",
-  "en": "",
+  "en": "Makes one foe Happy{end}",
   "max": 28
  },
  {
   "id": "BM:0B529C",
   "jp": "敵１人を毒でおかす{end}",
-  "en": "",
+  "en": "Poisons one foe{end}",
   "max": 20
  },
  {
   "id": "BM:0B52B0",
   "jp": "敵１人をゆうわくする{end}",
-  "en": "",
+  "en": "Charms one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B52C8",
   "jp": "敵１人をマヒさせる{end}",
-  "en": "",
+  "en": "Paralyzes one foe{end}",
   "max": 20
  },
  {
   "id": "BM:0B52DC",
   "jp": "敵１人をバクダンに変える{end}",
-  "en": "",
+  "en": "Turns one foe into a Bomb{end}",
   "max": 28
  },
  {
   "id": "BM:0B52F8",
   "jp": "敵１人の魔法を封じる{end}",
-  "en": "",
+  "en": "Seals one foe's magic{end}",
   "max": 24
  },
  {
   "id": "BM:0B5310",
   "jp": "敵１人をこんらんさせる{end}",
-  "en": "",
+  "en": "Confuses one foe{end}",
   "max": 24
  },
  {
   "id": "BM:0B5328",
   "jp": "敵全体のアタックをダウン{end}",
-  "en": "",
+  "en": "Lowers all foes' Attack{end}",
   "max": 28
  },
  {
   "id": "BM:0B5344",
   "jp": "敵全体のガードをダウン{end}",
-  "en": "",
+  "en": "Lowers all foes' Guard{end}",
   "max": 24
  },
  {
   "id": "BM:0B535C",
   "jp": "敵全体の命中度をダウン{end}",
-  "en": "",
+  "en": "Lowers all foes' accuracy{end}",
   "max": 24
  }
 ]

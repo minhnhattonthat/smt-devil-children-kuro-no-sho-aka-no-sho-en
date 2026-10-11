@@ -2,38 +2,44 @@
  {
   "id": "BM:0BB7B4",
   "jp": "ラジエルの書２{end}",
-  "en": "",
-  "max": 18
+  "en": "Book of Raziel 2{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB7CE",
   "jp": "ラジエルの書３{end}",
-  "en": "",
-  "max": 18
+  "en": "Book of Raziel 3{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB7E8",
   "jp": "ラジエルの書４{end}",
-  "en": "",
-  "max": 18
+  "en": "Book of Raziel 4{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB802",
   "jp": "太陽のゆびわ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sun Ring{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB81C",
   "jp": "月のゆびわ{end}",
-  "en": "",
-  "max": 18
+  "en": "Moon Ring{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB836",
   "jp": "イニシエの言葉{end}",
-  "en": "",
-  "max": 18
+  "en": "Ancient Words{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB850",
@@ -42,8 +48,9 @@
  {
   "id": "BM:0BB86A",
   "jp": "ノルンのカギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Norn Key{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB884",
@@ -56,14 +63,16 @@
  {
   "id": "BM:0BB8B8",
   "jp": "メシアのツノ{end}",
-  "en": "",
-  "max": 18
+  "en": "Messiah Horn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB8D2",
   "jp": "メシアのヒトミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Messiah Eye{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB8EC",
@@ -76,14 +85,16 @@
  {
   "id": "BM:0BB920",
   "jp": "ヴィネセンター{end}",
-  "en": "",
-  "max": 18
+  "en": "Vine Center{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB93A",
   "jp": "サークルゲート{end}",
-  "en": "",
-  "max": 18
+  "en": "Circle Gate{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0BB954",
@@ -100,7 +111,7 @@
  {
   "id": "BM:0BD618",
   "jp": "ク－ル{end}",
-  "en": "",
+  "en": "Cool{end}",
   "max": 8
  },
  {
@@ -110,343 +121,343 @@
  {
   "id": "BM:0BD7DC",
   "jp": "{face:0007}やぁ！　ボクはタカジョー・ゼット！{wait}{n}これからボクが{f0}「ウェブネット」について説明するよ{wait}{page}さあ、知りたいところを選んでくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Hi! I'm Zett Takajo!{wait}{n}I'm going to explain{f0}the \"Webnet\" to you.{wait}{page}Go ahead, pick what you want to know about.{wait}{end}",
   "max": 136
  },
  {
   "id": "BM:0BD864",
   "jp": "{face:0007}そう、わからないことがあったら{n}いつでも来てね{wait}{f0}ボクが説明するからさ{wait}{page}それじゃあがんばってね！{wait}{end}",
-  "en": "",
+  "en": "{face:0007}So if there's anything you don't get, come by anytime.{wait}{f0}I'll explain it to you.{wait}{page}Well then, good luck!{wait}{end}",
   "max": 108
  },
  {
   "id": "BM:0BD8D0",
   "jp": "{face:0007}説明が長くなっちゃったけど{wait}{n}最後までつきあってくれて{f0}ありがとう{wait}{page}とちゅうでわからなくなったら{n}いつでもここに来てね{wait}{f0}ボクが説明するからさ{wait}{page}それじゃあがんばってね！{wait}{end}",
-  "en": "",
+  "en": "{face:0007}That was a long explanation,{wait}{n}so thanks for sticking with me{f0}to the end.{wait}{page}If you get lost along the way, come here anytime.{wait}{f0}I'll explain it to you.{wait}{page}Well then, good luck!{wait}{end}",
   "max": 180
  },
  {
   "id": "BM:0BD984",
   "jp": "「ウェブネット」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
-  "en": "",
+  "en": "About \"Webnet\"{n}Other topics{n}No explanation needed{end}",
   "max": 64
  },
  {
   "id": "BM:0BD9C4",
   "jp": "「へんしゅう」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
-  "en": "",
+  "en": "About \"Edit\"{n}Other topics{n}No explanation needed{end}",
   "max": 64
  },
  {
   "id": "BM:0BDA04",
   "jp": "「対戦」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
-  "en": "",
+  "en": "About \"Battle\"{n}Other topics{n}No explanation needed{end}",
   "max": 56
  },
  {
   "id": "BM:0BDA3C",
   "jp": "「交換」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
-  "en": "",
+  "en": "About \"Trade\"{n}Other topics{n}No explanation needed{end}",
   "max": 56
  },
  {
   "id": "BM:0BDA74",
   "jp": "「合体」について{n}他のこうもく{n}やっぱり説明はいらない{end}",
-  "en": "",
+  "en": "About \"Fusion\"{n}Other topics{n}No explanation needed{end}",
   "max": 56
  },
  {
   "id": "BM:0BDAAC",
   "jp": "わかった、次は？{n}わからない、もう一度{n}他のこうもくは？{end}",
-  "en": "",
+  "en": "Got it. What's next?{n}Didn't get it. Again{n}Other topics?{end}",
   "max": 60
  },
  {
   "id": "BM:0BDAE8",
   "jp": "さて、他の説明も聞くかい？{wait}{end}",
-  "en": "",
+  "en": "Want to hear about more?{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BDB08",
   "jp": "・・・一気に話してつかれちゃったね{n}続きを聞くかい？{wait}{end}",
-  "en": "",
+  "en": "...Phew, that was a lot at once. Hear the rest?{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:0BDB40",
   "jp": "{face:0007}「ウェブネット」は、メモリーカードの{n}中の２つのデータをロードして{wait}{f0}「対戦」「交換」「合体」をするんだ{wait}{page}一度、黒の書か赤の書を遊んで{wait}{n}データをセーブしないと遊べないから{f0}注意してね{wait}{page}それから、「対戦」をするには{wait}{n}先に「へんしゅう」をしておかないと{f0}いけないんだよ{wait}{page}それと、ウェブネットで{n}セーブするときは{wait}{page}かならずロードしたデータに{n}上書きしてね{wait}{page}そうしないと、仲魔がいなくなることが{n}あるから、気をつけてくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}The \"Webnet\" loads two save files from the Memory Card{wait}{f0}so you can \"Battle,\" \"Trade\" and \"Fuse.\"{wait}{page}Play Black Book or Red Book once{wait}{n}and save, or you can't use it,{f0}so keep that in mind.{wait}{page}Also, to do a \"Battle,\"{wait}{n}you need to \"Edit\"{f0}first.{wait}{page}And when you save in the Webnet,{wait}{page}always overwrite the data you loaded.{wait}{page}If you don't, your allies might disappear, so be careful!{wait}{end}",
   "max": 436
  },
  {
   "id": "BM:0BDCF4",
   "jp": "{face:0007}「へんしゅう」は対戦に使う仲魔を{n}とうろくするところなんだ{wait}{page}今いる仲魔をネットライザーに{n}コピーして、セーブするんだよ{wait}{page}へんしゅうはコントローラ１しか{n}使えないから注意してね{wait}{page}へんしゅうに入ったら{wait}{n}まず、どのデータをへんしゅうしたいか{f0}選ぶんだ{wait}{page}そのあと、へんしゅうしたいライザーを{n}選んでね{wait}{page}ネットライザーは６本まで使えるよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Edit\" is where you register the allies you'll use in battles.{wait}{page}You copy your current allies into a Net Riser, then save.{wait}{page}Only Controller 1 works in Edit, so keep that in mind.{wait}{page}Once you're in Edit,{wait}{n}first choose which data{f0}you want to edit.{wait}{page}After that, choose the Riser you want to edit.{wait}{page}You can use up to 6 Net Risers.{wait}{end}",
   "max": 348
  },
  {
   "id": "BM:0BDE50",
   "jp": "{face:0007}へんしゅうするライザーを選んだら{wait}{n}次は、そのライザーに入れる仲魔を{f0}選ぶんだ{wait}{page}ここでは、「コピー」を選んで{wait}{n}仲魔たちをネットライザーに{f0}コピーするんだ{wait}{page}コピーの元になった仲魔は{n}何回コピーされてもいなくならないんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once you've picked the Riser to edit,{wait}{n}next choose the allies to put{f0}in that Riser.{wait}{page}Here, pick \"Copy\"{wait}{n}to copy your allies{f0}into the Net Riser.{wait}{page}The original allies never disappear, no matter how many times they're copied.{wait}{end}",
   "max": 232
  },
  {
   "id": "BM:0BDF38",
   "jp": "{face:0007}「しょうきょ」はコピーされた仲魔を{n}消してしまうんだ{wait}{page}消されてしまうのはコピーされた仲魔{n}だから{wait}{page}コピーの元になった仲魔がいれば{wait}{n}もう一度コピーできるから{f0}心配しないでね{wait}{page}「リセット」は、今そのライザーに{wait}{n}コピーされている仲魔全部を{f0}しょうきょしてしまうんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Delete\" erases a copied ally.{wait}{page}What gets erased is only the copy,{wait}{page}so as long as the original ally is still around,{wait}{n}you can copy it again.{f0}Don't worry.{wait}{page}\"Reset\" deletes{wait}{n}every ally currently copied{f0}into that Riser.{wait}{end}",
   "max": 276
  },
  {
   "id": "BM:0BE04C",
   "jp": "{face:0007}けっていを選んだら、そのライザーに{n}名前をつける事ができるよ{wait}{page}対戦を始める前は{wait}{n}そのライザーにどんな仲魔が{f0}入っているか見ることができないから{wait}{page}自分だけのライザー名をつけると{n}べんりだと思うよ{wait}{page}ライザーのへんしゅうが終わったら{n}セーブをするんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}When you choose \"Confirm,\" you can give that Riser a name.{wait}{page}Before a battle starts,{wait}{n}you can't see which allies{f0}are inside that Riser,{wait}{page}so I think giving it your own Riser name is handy.{wait}{page}When you're done editing the Riser, save.{wait}{end}",
   "max": 260
  },
  {
   "id": "BM:0BE150",
   "jp": "{face:0007}「交換」は２つのデータの間で、{n}仲魔を交換するんだ{wait}{page}１対１の交換しかできないから{n}気をつけてね{wait}{page}交換はコントローラが１つでも{n}２つでもできるんだよ{wait}{page}交換を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}ロードが終わったら、交換に出す仲魔を{n}じゅんばんに選ぶんだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Trade\" swaps allies between two save files.{wait}{page}You can only trade one for one, so keep that in mind.{wait}{page}You can trade with one controller or two.{wait}{page}Once you choose Trade, first load the data 1P and 2P will use.{wait}{page}When loading's done, take turns choosing the allies to trade.{wait}{end}",
   "max": 288
  },
  {
   "id": "BM:0BE270",
   "jp": "{face:0007}交換に出す仲魔を選んだら{n}ここで一回セーブするんだ{wait}{page}ここでセーブしないと交換できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ交換だよ{wait}{n}これで１Pと２Pの仲魔が交換されるよ{wait}{page}交換された仲魔はヴィネセンターに{n}送られているからね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once you've picked the allies to trade, save once here.{wait}{page}If you don't save here, you can't trade. Be careful!{wait}{page}When saving's done, it's time to trade!{wait}{n}This swaps 1P's and 2P's allies.{wait}{page}The traded allies get sent to the Vine Center.{wait}{end}",
   "max": 244
  },
  {
   "id": "BM:0BE364",
   "jp": "{face:0007}交換が終わったら{n}もう一回セーブするんだ{wait}{page}ここでセーブしないと、せっかくもらった{n}仲魔がいなくなっちゃうから気をつけてね{wait}{page}交換についての説明はこれで終わりだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}After the trade, save one more time.{wait}{page}If you don't save here, the allies you just got will disappear, so be careful!{wait}{page}That's all for Trade.{wait}{end}",
   "max": 172
  },
  {
   "id": "BM:0BE410",
   "jp": "{face:0007}「合体」は２つのデータから{wait}{n}仲魔を出しあって、その仲魔を{f0}合体させるんだ{wait}{page}合体はコントローラ１つでも{n}２つでもできるよ{wait}{page}ふつうの合体とちがって{wait}{n}ウェブネットの合体では自分たちの{f0}書のルールで行われるんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Fusion\" takes an ally{wait}{n}from each of two save files{f0}and fuses them together.{wait}{page}You can fuse with one controller or two.{wait}{page}Unlike normal fusion,{wait}{n}Webnet fusion follows the rules{f0}of each player's own book.{wait}{end}",
   "max": 220
  },
  {
   "id": "BM:0BE4EC",
   "jp": "{face:0007}合体を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}デビライザーとキングライザーに{n}合体できる仲魔がいないと{wait}{f0}ロードできないから気をつけてね{wait}{page}ロードが終わったら、合体に出す仲魔を{n}じゅんばんに選ぶんだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once you choose Fusion, first load the data 1P and 2P will use.{wait}{page}If there are no allies that can fuse in the Deviliser and King Riser,{wait}{f0}you can't load, so be careful.{wait}{page}When loading's done, take turns choosing the allies to fuse.{wait}{end}",
   "max": 228
  },
  {
   "id": "BM:0BE5D0",
   "jp": "{face:0007}両方合体できる組み合わせだったら{n}合体したあとの予想が見れるんだ{wait}{page}その仲魔でよかったら、はいを選んでね{wait}{page}そうしたら合体前に一回セーブするんだ{wait}{page}ここでセーブしないと合体できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ合体だよ{wait}{page}これで１Pと２Pの仲魔の{n}合体が始まるよ{wait}{page}合体が終わったら、どこに入れるか{n}じゅんばんに選んでね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}If both sides can fuse with that pair, you'll see a preview of the result.{wait}{page}If you're happy with that ally, choose Yes.{wait}{page}Then save once before fusing.{wait}{page}If you don't save here, you can't fuse. Be careful!{wait}{page}When saving's done, it's time to fuse!{wait}{page}Now 1P's and 2P's allies start fusing.{wait}{page}When fusion's done, take turns choosing where to put them.{wait}{end}",
   "max": 344
  },
  {
   "id": "BM:0BE728",
   "jp": "{face:0007}できた仲魔の入れる場所を決めたら{n}もう一回セーブするんだ{wait}{page}ここでセーブしないと、せっかくできた{n}仲魔がいなくなっちゃうから気をつけてね{wait}{page}ウェブネットの合体でしか{n}できない仲魔もいるから{wait}{f0}いろいろ試してがんばってね{wait}{page}合体についての説明はこれで終わりだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once you've decided where the new allies go, save one more time.{wait}{page}If you don't save here, the allies you just made will disappear, so be careful!{wait}{page}Some allies can only be made by Webnet fusion,{wait}{f0}so try all kinds of things!{wait}{page}That's all for Fusion.{wait}{end}",
   "max": 268
  },
  {
   "id": "BM:0BE83C",
   "jp": "{face:0007}「対戦」は２つのデータを使って{n}仲魔と仲魔を戦わせるんだ{wait}{page}対戦はコントローラが２つないと{n}遊べないから注意してね{wait}{page}それと、対戦をするには{n}先に「へんしゅう」で{wait}{page}ネットライザーを{n}用意しなくちゃいけないんだ{wait}{page}へんしゅうについては{wait}{n}「へんしゅう」のこうもくで{f0}説明を聞いてね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Battle\" uses two save files to make allies fight allies.{wait}{page}You need two controllers to play Battle, so keep that in mind.{wait}{page}Also, to do a Battle, you first have to use \"Edit\"{wait}{page}to get your Net Risers ready.{wait}{page}To learn about Edit,{wait}{n}listen to the explanation{f0}under \"Edit.\"{wait}{end}",
   "max": 288
  },
  {
   "id": "BM:0BE95C",
   "jp": "{face:0007}対戦を選んだら、まず１Pと{n}２Pの使うデータをロードするんだ{wait}{page}へんしゅうが終わっていないと{n}ロードできないから気をつけてね{wait}{page}ロードが終わったら、対戦に使う{n}ネットライザーをじゅんばんに{wait}{f0}選ぶんだよ{wait}{page}両方のネットライザーが決まったら{n}一度セーブをするんだ{wait}{page}ここでセーブしないと対戦できないよ{n}気をつけてね{wait}{page}セーブが終わったらいよいよ対戦だよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once you choose Battle, first load the data 1P and 2P will use.{wait}{page}If you haven't finished editing, you can't load, so be careful.{wait}{page}When loading's done, take turns{wait}{f0}choosing the Net Risers for battle.{wait}{page}Once both Net Risers are set, save once.{wait}{page}If you don't save here, you can't battle. Be careful!{wait}{page}When saving's done, it's time to battle!{wait}{end}",
   "max": 360
  },
  {
   "id": "BM:0BEAC4",
   "jp": "{face:0007}ウェブネットでのバトルは{wait}{n}ふつうのバトルとちがって{wait}{page}仲魔に細かいメイレイを出すことは{n}できないんだよ{wait}{page}ターンの最初にボタンのマークが{n}でるんだ{wait}{page}「がんばれ」で仲魔たちに戦いを{n}続けさせて{wait}{f0}「コンボ」でコンボが使えるよ{wait}{page}ただし「ホーリーソング」だけは{n}使えないようにルールで決まってるから{wait}{f0}注意してね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Battles in the Webnet{wait}{n}are different from normal battles:{wait}{page}you can't give your allies detailed orders.{wait}{page}At the start of each turn, button icons appear.{wait}{page}\"Go for it\" keeps your allies fighting,{wait}{f0}and \"Combo\" lets you use a combo.{wait}{page}But the rules say \"Holy Song\" alone can't be used,{wait}{f0}so watch out.{wait}{end}",
   "max": 320
  },
  {
   "id": "BM:0BEC04",
   "jp": "{face:0007}ターンが始まると、仲魔たちは{n}いっしょうけんめい戦うよ{wait}{page}どちらかの仲魔がいなくなるか{wait}{n}どちらかがこうさんするまで{f0}戦いは続くよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}When the turn starts, your allies fight as hard as they can.{wait}{page}Until one side runs out of allies{wait}{n}or one side surrenders,{f0}the fight goes on.{wait}{end}",
   "max": 140
  },
  {
   "id": "BM:0BEC90",
   "jp": "{face:0007}決着がついたら、もう一回セーブしてね{wait}{page}ここでセーブしないと{wait}{n}さっきの戦いで勝った方も、負けた方も{f0}両方負けたことになっちゃうんだ{wait}{page}いろんな友だちと勝負してみてね{wait}{page}対戦についての説明はこれで終わりだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}When it's settled, save one more time.{wait}{page}If you don't save here,{wait}{n}both the winner and the loser{f0}will count as having lost!{wait}{page}Try battling all sorts of friends!{wait}{page}That's all for Battle.{wait}{end}",
   "max": 216
  },
  {
   "id": "BM:0BED68",
   "jp": "わかった{n}わからない、もう一度{end}",
-  "en": "",
+  "en": "Got it{n}Didn't get it, again{end}",
   "max": 32
  },
  {
   "id": "BM:0BED8C",
   "jp": "それと、ウェブネットで{n}遊んでいるときは{wait}{f0}メモリーカードを抜いたりしないでね{wait}{page}このやくそくを守ってくれないと{n}仲魔がいなくなっちゃうことがあるよ{wait}{end}",
-  "en": "",
+  "en": "Also, while you're playing in the Webnet,{wait}{f0}don't pull out the Memory Card!{wait}{page}If you break this promise, your allies might disappear.{wait}{end}",
   "max": 152
  },
  {
   "id": "BM:0BEE24",
   "jp": "{face:0007}しかも、コピーされた仲魔は{wait}{n}コピーの元になった仲魔と{f0}まったく同じ強さなんだよ{wait}{page}ただし、コピーされた仲魔は{n}コピーの元になった仲魔が{wait}{page}キミがぼうけんをすすめることに{n}よって、強くなったり{wait}{f0}いなくなったりしてしまっても{wait}{page}コピーした時とまったく同じ強さで{n}ずっと残り続けるんだ{wait}{page}それと、同じライザーの中には{n}同じ仲魔は１体しかコピーできないから{wait}{f0}気をつけてね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}What's more, a copied ally{wait}{n}is exactly as strong{f0}as the original.{wait}{page}And even if the original ally{wait}{page}gets stronger as you go on with your adventure,{wait}{f0}or disappears,{wait}{page}the copy stays exactly as strong as when you copied it, forever.{wait}{page}Also, each Riser can only hold one copy of the same ally,{wait}{f0}so be careful.{wait}{end}",
   "max": 376
  },
  {
   "id": "BM:0BEF9C",
   "jp": "{face:0007}しょうきょと同じで{wait}{n}コピーの元になった仲魔がいれば{f0}元に戻すことはできるんだよ{wait}{page}ならびかえは、デビライザーと{wait}{n}同じように戦いに参加する{f0}じゅんばんを変えられるんだ{wait}{page}一番上と、二番目の仲魔が{n}最初に戦うことになるんだよ{wait}{page}そのライザーに入れる仲魔を{n}全部決めたらけっていを選ぶんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Just like with Delete,{wait}{n}as long as the original ally is around,{f0}you can put it back.{wait}{page}\"Arrange\" works like the Deviliser:{wait}{n}it changes the order{f0}they join the fight in.{wait}{page}The top ally and the second one fight first.{wait}{page}Once you've chosen all the allies for that Riser, choose \"Confirm.\"{wait}{end}",
   "max": 296
  },
  {
   "id": "BM:0BF0C4",
   "jp": "{face:0007}セーブしないと、さっきまでの{n}へんしゅうは意味がなくなっちゃうよ{wait}{page}それから、一度へんしゅうした{n}ネットライザーを{wait}{page}もう一度へんしゅうする時は{n}中身がリセットされてしまうんだ{wait}{page}もし、まちがえてへんしゅうした時は{n}セーブしなければだいじょうぶだよ{wait}{page}へんしゅうについての説明は{n}これで終わりだよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}If you don't save, all the editing you just did will be for nothing.{wait}{page}Also, if you edit a Net Riser{wait}{page}that you've edited before, its contents get reset.{wait}{page}If you edit something by mistake, it's fine as long as you don't save.{wait}{page}That's all for Edit.{wait}{end}",
   "max": 304
  },
  {
   "id": "BM:0BF1F4",
   "jp": "{face:0007}たとえば、１Pが黒の書のデータで{n}２Pは赤の書のデータだったときは{wait}{page}１Pは黒の書のルールで{n}自分の出した仲魔を１体目にして{wait}{page}２Pは赤の書のルールで{n}自分の出した仲魔を１体目にして{wait}{page}それぞれ合体するんだ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}For example, if 1P has Black Book data and 2P has Red Book data,{wait}{page}1P follows the Black Book rules, with their own ally as the first one,{wait}{page}and 2P follows the Red Book rules, with their own ally as the first one,{wait}{page}and each side fuses.{wait}{end}",
   "max": 216
  },
  {
   "id": "BM:0BF2CC",
   "jp": "{face:0007}仲魔が２体決まったら{wait}{n}ウェブネットが合体できるかどうか{f0}調べてくれるんだ{wait}{page}どちらかが合体できないときは{n}けっきょく両方合体できないんだ{wait}{page}いろいろ試して合体できる組み合わせを{n}探してみてね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Once two allies are chosen,{wait}{n}the Webnet checks whether{f0}they can fuse.{wait}{page}If either side can't fuse, then neither side can.{wait}{page}Try all kinds of pairs and look for ones that can fuse!{wait}{end}",
   "max": 200
  },
  {
   "id": "BM:0BF394",
   "jp": "{face:0007}「コール」は仲魔をコールして、{n}「こうさん」はこうさんしちゃうんだ{wait}{page}それと、コンボはコンボが使える{n}組み合わせじゃないと{wait}{f0}使えないし{wait}{page}コールも仲魔がいないと使えないから{n}注意してね{wait}{page}あと、ボタンは３びょう以内に{n}おしてね{wait}{page}ボタンをおさないと、仲魔たちは{n}自分で考えて戦うよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}\"Call\" calls an ally, and \"Surrender\" makes you give up.{wait}{page}Also, Combo only works with a pair{wait}{f0}that can do a combo,{wait}{page}and Call doesn't work without allies, so keep that in mind.{wait}{page}And press a button within 3 seconds.{wait}{page}If you don't, your allies will think for themselves and fight.{wait}{end}",
   "max": 292
  },
  {
   "id": "BM:0BF4B8",
   "jp": "{face:00FF}何を聞く？{end}",
-  "en": "",
+  "en": "{face:00FF}Ask what?{end}",
   "max": 16
  },
  {
   "id": "BM:0BF4C8",
   "jp": "どうする？{end}",
-  "en": "",
+  "en": "What now?{end}",
   "max": 12
  },
  {
   "id": "BM:0BF574",
   "jp": "弱そうな、なぞのデビルが{n}現れた！{wait}{end}",
-  "en": "",
+  "en": "A weak-looking Mystery Devil appeared!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BF59C",
   "jp": "強そうな、なぞのデビルが{n}現れた！{wait}{end}",
-  "en": "",
+  "en": "A strong-looking Mystery Devil appeared!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BF5C4",
   "jp": "弱そうな、{name}が{n}現れた！{wait}{end}",
-  "en": "",
+  "en": "A weak-looking {name} appeared!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0BF5E0",
   "jp": "強そうな、{name}が{n}現れた！{wait}{end}",
-  "en": "",
+  "en": "A strong-looking {name} appeared!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0BF5FC",
   "jp": "相手はゆだんしている！{wait}{end}",
-  "en": "",
+  "en": "The enemy is off guard!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0BF618",
   "jp": "敵の不意打ちだ！{wait}{end}",
-  "en": "",
+  "en": "Enemy ambush!{wait}{end}",
   "max": 20
  },
  {
   "id": "BM:0BF62C",
   "jp": "{name}たちは{n}デビルのむれをやっつけた！{wait}{end}",
-  "en": "",
+  "en": "{name}'s party beat the Devils!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BF654",
   "jp": "{name}たちは{n}負けてしまった！{wait}{end}",
-  "en": "",
+  "en": "{name}'s party lost!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BF674",
   "jp": "{name}たちは逃げ出した{n}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:003C}　　逃げのびた！{wait}{end}",
-  "en": "",
+  "en": "{name}'s party ran{n}.{speed:000F}.{speed:000F}.{speed:000F}.{speed:000F}.{speed:003C}  Got away!{wait}{end}",
   "max": 72
  },
  {
   "id": "BM:0BF6BC",
   "jp": "{name}たちは逃げ出した{n}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:000F}・{speed:003C}　　逃げられなかった！！{wait}{end}",
-  "en": "",
+  "en": "{name}'s party ran{n}.{speed:000F}.{speed:000F}.{speed:000F}.{speed:000F}.{speed:003C}  Couldn't escape!!{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0BF70C",
   "jp": "どのデビルとこうしょうしますか？{end}",
-  "en": "",
+  "en": "Negotiate with which Devil?{end}",
   "max": 36
  },
  {
   "id": "BM:0BF730",
   "jp": "こうしょう中{end}",
-  "en": "",
+  "en": "Negotiating{end}",
   "max": 16
  },
  {
   "id": "BM:0BF740",
   "jp": "こうしょう・失敗！{wait}{end}",
-  "en": "",
+  "en": "Talks failed!{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:0BF758",
   "jp": "こうしょう・成功！{wait}{end}",
-  "en": "",
+  "en": "Talks worked!{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:0BF770",
   "jp": "{name}が{n}　　仲魔になった！{wait}{end}",
-  "en": "",
+  "en": "{name} became your ally!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0BF78C",
   "jp": "レベルアップ！！{wait}{page}{name}は{n}レベル{num:FFE0:0000}になった！{wait}{end}",
-  "en": "",
+  "en": "Level up!!{wait}{page}{name} reached level {num:FFE0:0000}!{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0BF7F0",
   "jp": "{name}は{n}とつぜん、おそいいかかって来た！！{wait}{end}",
-  "en": "",
+  "en": "{name} suddenly attacked!!{wait}{end}",
   "max": 44
  },
  {
   "id": "BM:0BF81C",
   "jp": "{name}の{n}体力が回復した！{wait}{end}",
-  "en": "",
+  "en": "{name}'s HP recovered!{wait}{end}",
   "max": 28
  },
  {
   "id": "BM:0BF838",
   "jp": "々{num:FFE0:0000}を手に入れた！{wait}{end}",
-  "en": "",
+  "en": "Got {num:FFE0:0000} Macca!{wait}{end}",
   "max": 28
  },
  {
@@ -456,7 +467,7 @@
  {
   "id": "BM:0BF868",
   "jp": "{name}は{n}　帰ってしまった！{wait}{end}",
-  "en": "",
+  "en": "{name} went home!{wait}{end}",
   "max": 28
  },
  {
@@ -466,193 +477,193 @@
  {
   "id": "BM:0BF898",
   "jp": "{name}たちは{n}戦いから逃れた！{wait}{end}",
-  "en": "",
+  "en": "{name}'s party fled the fight!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BF8B8",
   "jp": "アイテム：　{f7}{end}",
-  "en": "",
+  "en": "Item: {f7}{end}",
   "max": 16
  },
  {
   "id": "BM:0BF8C8",
   "jp": "{name}は{n}ヴィネセンターに登録された！{wait}{end}",
-  "en": "",
+  "en": "{name} was registered at the Vine Center!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BF8F0",
   "jp": "！！！{n}仲魔が１人もいない！{wait}{end}",
-  "en": "",
+  "en": "!!! You have no allies!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BF910",
   "jp": "{name}のHPが　{num:FFE0:0000}{n}　回復した！{wait}{end}",
-  "en": "",
+  "en": "{name} recovered {num:FFE0:0000} HP!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0BF934",
   "jp": "{name}のMPが　{num:FFE0:0001}{n}　回復した！{wait}{end}",
-  "en": "",
+  "en": "{name} recovered {num:FFE0:0001} MP!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0BF98C",
   "jp": "{name}は復活した！{wait}{end}",
-  "en": "",
+  "en": "{name} revived!{wait}{end}",
   "max": 20
  },
  {
   "id": "BM:0BF9A0",
   "jp": "{name}のアタックが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s Attack rose by 1!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BF9C8",
   "jp": "{name}のガードが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s Guard rose by 1!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0BF9EC",
   "jp": "{name}のマジックが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s Magic rose by 1!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BFA14",
   "jp": "{name}のMガードが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s M-Guard rose by 1!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BFA3C",
   "jp": "{name}のスピードが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s Speed rose by 1!{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0BFA64",
   "jp": "{name}のラックが{n}　　１アップした！{wait}{end}",
-  "en": "",
+  "en": "{name}'s Luck rose by 1!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0BFA88",
   "jp": "ニックネームをつけますか？{fb:0001}{end}",
-  "en": "",
+  "en": "Give it a nickname?{fb:0001}{end}",
   "max": 32
  },
  {
   "id": "BM:0BFAA8",
   "jp": "{name}はハッピーになった{end}",
-  "en": "",
+  "en": "{name} became Happy{end}",
   "max": 24
  },
  {
   "id": "BM:0BFAC0",
   "jp": "{name}は感電した{end}",
-  "en": "",
+  "en": "{name} is shocked{end}",
   "max": 16
  },
  {
   "id": "BM:0BFAD0",
   "jp": "{name}はこおりついた{end}",
-  "en": "",
+  "en": "{name} froze{end}",
   "max": 20
  },
  {
   "id": "BM:0BFAE4",
   "jp": "{name}はバクダンになった{end}",
-  "en": "",
+  "en": "{name} became a Bomb{end}",
   "max": 24
  },
  {
   "id": "BM:0BFAFC",
   "jp": "{name}はチンモクした{end}",
-  "en": "",
+  "en": "{name} was muted{end}",
   "max": 20
  },
  {
   "id": "BM:0BFB10",
   "jp": "{name}はこんらんした{end}",
-  "en": "",
+  "en": "{name} got confused{end}",
   "max": 20
  },
  {
   "id": "BM:0BFB24",
   "jp": "{name}はゆうわくされた{end}",
-  "en": "",
+  "en": "{name} was charmed{end}",
   "max": 20
  },
  {
   "id": "BM:0BFB38",
   "jp": "{name}はねむった{end}",
-  "en": "",
+  "en": "{name} fell asleep{end}",
   "max": 16
  },
  {
   "id": "BM:0BFB48",
   "jp": "{name}はマヒした{end}",
-  "en": "",
+  "en": "{name} can't move{end}",
   "max": 16
  },
  {
   "id": "BM:0BFB58",
   "jp": "{name}は毒を受けた{end}",
-  "en": "",
+  "en": "{name} was poisoned{end}",
   "max": 16
  },
  {
   "id": "BM:0BFB68",
   "jp": "{name}はキゼツした{end}",
-  "en": "",
+  "en": "{name} fainted{end}",
   "max": 16
  },
  {
   "id": "BM:0BFB78",
   "jp": "全体のHPが{n}回復した！！{wait}{end}",
-  "en": "",
+  "en": "Everyone's HP recovered!!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BFB98",
   "jp": "全体のMPが{n}回復した！！{wait}{end}",
-  "en": "",
+  "en": "Everyone's MP recovered!!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BFBB8",
   "jp": "全体のHP・MPが{n}回復した！！{wait}{end}",
-  "en": "",
+  "en": "Everyone's HP and MP recovered!!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0BFBDC",
   "jp": "{f5}の{n}なぞのデビルが現れた！{wait}{end}",
-  "en": "",
+  "en": "{f5}'s Mystery Devil appeared!{wait}{end}",
   "max": 32
  },
  {
   "id": "BM:0BFBFC",
   "jp": "{f5}の{n}{name}が現れた！{wait}{end}",
-  "en": "",
+  "en": "{f5}'s {name} appeared!{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:0BFC14",
   "jp": "{f5}たちに{n}勝利した！{wait}{end}",
-  "en": "",
+  "en": "You beat {f5}'s team!{wait}{end}",
   "max": 24
  },
  {
   "id": "BM:0BFC2C",
   "jp": "{f5}たちに{n}負けてしまった！{wait}{end}",
-  "en": "",
+  "en": "You lost to {f5}'s team!{wait}{end}",
   "max": 32
  },
  {
@@ -670,19 +681,19 @@
  {
   "id": "BM:0C7C8C",
   "jp": "bぞェ　キゼツ{end}",
-  "en": "",
+  "en": "bぞェ　キゼツ{end}",
   "max": 16
  },
  {
   "id": "BM:0C7CA6",
   "jp": "ク＝：仲魔{end}",
-  "en": "",
+  "en": "ク＝：仲魔{end}",
   "max": 14
  },
  {
   "id": "BM:0C7CB6",
   "jp": "ぎペ－ジ{end}",
-  "en": "",
+  "en": "ぎペ－ジ{end}",
   "max": 10
  },
  {
@@ -692,7 +703,7 @@
  {
   "id": "BM:0C7D54",
   "jp": "なぢ　　はい{end}",
-  "en": "",
+  "en": "なぢ　　はい{end}",
   "max": 16
  },
  {
@@ -702,19 +713,19 @@
  {
   "id": "BM:0C7DAE",
   "jp": "ぎ訓練{end}",
-  "en": "",
+  "en": "ぎ訓練{end}",
   "max": 10
  },
  {
   "id": "BM:0C7DB8",
   "jp": "：ワザ{end}",
-  "en": "",
+  "en": ":Skill{end}",
   "max": 8
  },
  {
   "id": "BM:0C7DC0",
   "jp": "：魔法{end}",
-  "en": "",
+  "en": ":Magic{end}",
   "max": 8
  },
  {
@@ -728,19 +739,19 @@
  {
   "id": "BM:0C7EF8",
   "jp": "デビル{end}",
-  "en": "",
+  "en": "Devil{end}",
   "max": 8
  },
  {
   "id": "BM:0C7F00",
   "jp": "もゾ{end}",
-  "en": "",
+  "en": "もゾ{end}",
   "max": 8
  },
  {
   "id": "BM:0C7F44",
   "jp": "ペ－ジ{end}",
-  "en": "",
+  "en": "Page{end}",
   "max": 8
  },
  {
@@ -1146,7 +1157,7 @@
  {
   "id": "RM:003610",
   "jp": "ナガヒサ　　　{end}",
-  "en": "",
+  "en": "Nagahisa{end}",
   "max": 16
  },
  {
@@ -2856,7 +2867,7 @@
  {
   "id": "RM:09F474",
   "jp": "{face:005B}くっ、本物はやっぱりちがうわね{wait}{page}いつかあなたを超えてみせるから{n}勝ったからってうかれてないでよ！{wait}{page}それと、決まりだから私の仲魔は{n}ヴィネセンターに送っておくわよ{wait}{end}",
-  "en": "",
+  "en": "{face:005B}Ugh, the real thing really is different.{wait}{page}Someday I'll surpass you, so don't get cocky just because you won!{wait}{page}Also, rules are rules, so I'll send my ally to the Vine Center.{wait}{end}",
   "max": 172
  },
  {
@@ -2866,7 +2877,7 @@
  {
   "id": "RM:09F5AC",
   "jp": "{face:0003}あーあ、負けちゃったかぁ{wait}{page}オレのお気に入りのデビルを{n}おまえにやるよ{wait}{f0}また今度相手をしてくれよな{wait}{end}",
-  "en": "",
+  "en": "{face:0003}Aw man, I lost, huh?{wait}{page}I'll give you my favorite Devil.{wait}{f0}Be my opponent again sometime!{wait}{end}",
   "max": 108
  },
  {
@@ -2884,7 +2895,7 @@
  {
   "id": "RM:09F7EC",
   "jp": "{face:0001}さすがはアタシがみこんだ{n}パートナーね{wait}{page}妹のヒポグリフを{n}ひそかに特訓しておいたから{wait}{f0}いっしょにつれていってよ{wait}{end}",
-  "en": "",
+  "en": "{face:0001}Just what I'd expect from the partner I picked!{wait}{page}I've been secretly training my little sister Hippogriff,{wait}{f0}so take her along with you!{wait}{end}",
   "max": 124
  },
  {
@@ -2914,7 +2925,7 @@
  {
   "id": "RM:09FC60",
   "jp": "{face:0063}まいった、まいった{n}キミのような強い女の子がいるとは・・{wait}{page}おまけにかわいいし・・・{n}{speed:0019}い、いや私はイザナミひとすじだよ！{wait}{page}よし！娘をつれていってくれ{n}かわいい子どもには旅をさせろってね{wait}{end}",
-  "en": "",
+  "en": "{face:0063}I give up, I give up! To think there'd be a girl as strong as you...{wait}{page}And cute, too... {speed:0019}N-no, my heart belongs only to Izanami!{wait}{page}All right! Take my daughter with you. Send the child you love out to see the world!{wait}{end}",
   "max": 200
  },
  {
@@ -2928,7 +2939,7 @@
  {
   "id": "RM:09FDF8",
   "jp": "{face:005B}なんだ、仲魔がいっぱいじゃない{wait}{page}仲魔をへらしてから{n}もう一度戦ってね{wait}{end}",
-  "en": "",
+  "en": "{face:005B}What, your allies are full!{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 80
  },
  {
@@ -2938,7 +2949,7 @@
  {
   "id": "RM:09FEA0",
   "jp": "{face:0003}あれ？　仲魔がいっぱいじゃないか{wait}{page}仲魔をへらしてから{n}もう一度戦ってくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0003}Huh? Your allies are full!{wait}{page}Cut down on allies, then fight me again.{wait}{end}",
   "max": 84
  },
  {
@@ -2956,7 +2967,7 @@
  {
   "id": "RM:0A0050",
   "jp": "{face:0001}あれ？　仲魔がいっぱいよ{wait}{page}仲魔をへらしてきてから{n}リベンジね{wait}{page}でも、ワタシと別れるなんて{n}いわないでよ{wait}{end}",
-  "en": "",
+  "en": "{face:0001}Huh? Your allies are full!{wait}{page}Have fewer allies, then come get your revenge.{wait}{page}But don't you dare say you'll part with me!{wait}{end}",
   "max": 116
  }
 ]

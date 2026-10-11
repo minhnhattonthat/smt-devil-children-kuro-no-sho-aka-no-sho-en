@@ -2,121 +2,121 @@
  {
   "id": "BM:0B60DC",
   "jp": "敵１人に２回かみつく{end}",
-  "en": "",
+  "en": "Bites 1 foe twice{end}",
   "max": 24
  },
  {
   "id": "BM:0B60F4",
   "jp": "敵１人に３回かみつく{end}",
-  "en": "",
+  "en": "Bites 1 foe 3 times{end}",
   "max": 24
  },
  {
   "id": "BM:0B610C",
   "jp": "全員の全てのパラメ変化を打ち消す{end}",
-  "en": "",
+  "en": "Undoes everyone's stat changes{end}",
   "max": 36
  },
  {
   "id": "BM:0B6130",
   "jp": "敵１人にせんせいこうげき{end}",
-  "en": "",
+  "en": "First strike on 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B614C",
   "jp": "味方１人のキゼツいがいを回復{end}",
-  "en": "",
+  "en": "Cures 1 ally of all but Faint{end}",
   "max": 32
  },
  {
   "id": "BM:0B616C",
   "jp": "自分への技をはね返す{end}",
-  "en": "",
+  "en": "Reflects skills{end}",
   "max": 24
  },
  {
   "id": "BM:0B6184",
   "jp": "敵１人にぎゃくてんの一撃{end}",
-  "en": "",
+  "en": "Reversal blow on 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B61A0",
   "jp": "後ろのデビルと入れ替えてしまう{end}",
-  "en": "",
+  "en": "Swaps with the Devil behind{end}",
   "max": 32
  },
  {
   "id": "BM:0B61C0",
   "jp": "敵全体にぎゃくてんの一撃{end}",
-  "en": "",
+  "en": "Reversal blow on all foes{end}",
   "max": 28
  },
  {
   "id": "BM:0B61DC",
   "jp": "シュラオーの落し物{end}",
-  "en": "",
+  "en": "Lost by King Sura{end}",
   "max": 20
  },
  {
   "id": "BM:0B61F0",
   "jp": "わらい薬がつまったフクロ{end}",
-  "en": "",
+  "en": "A bag of laughing powder{end}",
   "max": 28
  },
  {
   "id": "BM:0B620C",
   "jp": "インキュバスあいようの道具{end}",
-  "en": "",
+  "en": "An Incubus's favorite tool{end}",
   "max": 28
  },
  {
   "id": "BM:0B6238",
   "jp": "敵１人にかみついてダメージ{end}",
-  "en": "",
+  "en": "Bites 1 foe for damage{end}",
   "max": 28
  },
  {
   "id": "BM:0B6254",
   "jp": "敵１人をひっかいてダメージ{end}",
-  "en": "",
+  "en": "Scratches 1 foe for damage{end}",
   "max": 28
  },
  {
   "id": "BM:0B627C",
   "jp": "あるデビルをランクアップさせる{end}",
-  "en": "",
+  "en": "Makes a certain Devil rank up{end}",
   "max": 32
  },
  {
   "id": "BM:0B629C",
   "jp": "キングクラスも呼び出せるケンジュウ{end}",
-  "en": "",
+  "en": "A gun that calls even King-class{end}",
   "max": 36
  },
  {
   "id": "BM:0B62C0",
   "jp": "敵１人をマヒさせるこうげき{end}",
-  "en": "",
+  "en": "Paralyzing attack on 1 foe{end}",
   "max": 28
  },
  {
   "id": "BM:0B62DC",
   "jp": "敵全体を電撃がおそう{end}",
-  "en": "",
+  "en": "Electrocutes all foes{end}",
   "max": 24
  },
  {
   "id": "BM:0B62F4",
   "jp": "味方全体のHPを少し回復{end}",
-  "en": "",
+  "en": "Heals all allies a little{end}",
   "max": 28
  },
  {
   "id": "BM:0B6310",
   "jp": "光の国サンクチュアリマップ{end}",
-  "en": "",
+  "en": "Map: Sanctuary, land of light{end}",
   "max": 28
  },
  {
@@ -130,8 +130,9 @@
  {
   "id": "BM:0B685E",
   "jp": "タタリモッケ{end}",
-  "en": "",
-  "max": 18
+  "en": "Tatari Mokke{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B688C",
@@ -140,14 +141,16 @@
  {
   "id": "BM:0B68BA",
   "jp": "デーバ{end}",
-  "en": "",
-  "max": 18
+  "en": "Deva{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B68E8",
   "jp": "バステト{end}",
-  "en": "",
-  "max": 18
+  "en": "Bastet{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6916",
@@ -156,38 +159,44 @@
  {
   "id": "BM:0B6944",
   "jp": "ユニコーン{end}",
-  "en": "",
-  "max": 18
+  "en": "Unicorn{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6972",
   "jp": "ルフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rukh{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B69A0",
   "jp": "ホウオウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Feng Huang{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B69CE",
   "jp": "デーバオー{end}",
-  "en": "",
-  "max": 18
+  "en": "King Deva{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B69FC",
   "jp": "コマイヌ{end}",
-  "en": "",
-  "max": 18
+  "en": "Komainu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6A2A",
   "jp": "ネコショウグン{end}",
-  "en": "",
-  "max": 18
+  "en": "Neko Shogun{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6A58",
@@ -196,68 +205,79 @@
  {
   "id": "BM:0B6A86",
   "jp": "ペガサス{end}",
-  "en": "",
-  "max": 18
+  "en": "Pegasus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6AB4",
   "jp": "シーサー{end}",
-  "en": "",
-  "max": 18
+  "en": "Shiisaa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6AE2",
   "jp": "オキツネ{end}",
-  "en": "",
-  "max": 18
+  "en": "Okitsune{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6B10",
   "jp": "スザク{end}",
-  "en": "",
-  "max": 18
+  "en": "Suzaku{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6B3E",
   "jp": "ビャッコ{end}",
-  "en": "",
-  "max": 18
+  "en": "Byakko{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6B6C",
   "jp": "ヤツフサ{end}",
-  "en": "",
-  "max": 18
+  "en": "Yatsufusa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6B9A",
   "jp": "イツァムナー{end}",
-  "en": "",
-  "max": 18
+  "en": "Itzamna{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6BC8",
   "jp": "ケツアルカトル{end}",
-  "en": "",
-  "max": 18
+  "en": "Quetzalcoatl{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6BF6",
   "jp": "バロン{end}",
-  "en": "",
-  "max": 18
+  "en": "Barong{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6C24",
   "jp": "ガルーダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Garuda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6C52",
   "jp": "カンケル{end}",
-  "en": "",
-  "max": 18
+  "en": "Canhel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6C80",
@@ -266,26 +286,30 @@
  {
   "id": "BM:0B6CAE",
   "jp": "ゲンブ{end}",
-  "en": "",
-  "max": 18
+  "en": "Genbu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6CDC",
   "jp": "ランダ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rangda{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6D0A",
   "jp": "キリン{end}",
-  "en": "",
-  "max": 18
+  "en": "Kirin{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6D38",
   "jp": "セイギュウカイ{end}",
-  "en": "",
-  "max": 18
+  "en": "Qing Niuguai{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6D66",
@@ -298,50 +322,58 @@
  {
   "id": "BM:0B6DC2",
   "jp": "アーマン{end}",
-  "en": "",
-  "max": 18
+  "en": "Ammut{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6DF0",
   "jp": "シュラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sura{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6E1E",
   "jp": "アンズー{end}",
-  "en": "",
-  "max": 18
+  "en": "Anzu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6E4C",
   "jp": "バハン{end}",
-  "en": "",
-  "max": 18
+  "en": "Bahan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6E7A",
   "jp": "とけいウサギ{end}",
-  "en": "",
-  "max": 18
+  "en": "Clock Rabbit{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6EA8",
   "jp": "シュラオー{end}",
-  "en": "",
-  "max": 18
+  "en": "King Sura{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6ED6",
   "jp": "アルケニー{end}",
-  "en": "",
-  "max": 18
+  "en": "Arachne{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6F04",
   "jp": "スチュパリデス{end}",
-  "en": "",
-  "max": 18
+  "en": "Stymphalides{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B6F32",
@@ -362,20 +394,23 @@
  {
   "id": "BM:0B6FEA",
   "jp": "タクシャカ{end}",
-  "en": "",
-  "max": 18
+  "en": "Taksaka{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7018",
   "jp": "ヌエ{end}",
-  "en": "",
-  "max": 18
+  "en": "Nue{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7046",
   "jp": "アゾット{end}",
-  "en": "",
-  "max": 18
+  "en": "Azoth{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7074",
@@ -388,8 +423,9 @@
  {
   "id": "BM:0B70D0",
   "jp": "タイタン{end}",
-  "en": "",
-  "max": 18
+  "en": "Titan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B70FE",
@@ -398,38 +434,44 @@
  {
   "id": "BM:0B712C",
   "jp": "ツクヨミ{end}",
-  "en": "",
-  "max": 18
+  "en": "Tsukuyomi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B715A",
   "jp": "スサノオ{end}",
-  "en": "",
-  "max": 18
+  "en": "Susano-o{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7188",
   "jp": "ヴァン{end}",
-  "en": "",
-  "max": 18
+  "en": "Van{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B71B6",
   "jp": "スカアハ{end}",
-  "en": "",
-  "max": 18
+  "en": "Scathach{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B71E4",
   "jp": "クラーケン{end}",
-  "en": "",
-  "max": 18
+  "en": "Kraken{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7212",
   "jp": "ヴァンオー{end}",
-  "en": "",
-  "max": 18
+  "en": "King Van{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7240",
@@ -438,38 +480,44 @@
  {
   "id": "BM:0B726E",
   "jp": "ウオッチャー{end}",
-  "en": "",
-  "max": 18
+  "en": "Watcher{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B729C",
   "jp": "ニケー{end}",
-  "en": "",
-  "max": 18
+  "en": "Nike{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B72CA",
   "jp": "グリゴリ{end}",
-  "en": "",
-  "max": 18
+  "en": "Grigori{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B72F8",
   "jp": "ゼパール{end}",
-  "en": "",
-  "max": 18
+  "en": "Zepar{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7326",
   "jp": "エンゼル{end}",
-  "en": "",
-  "max": 18
+  "en": "Angel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7354",
   "jp": "コアクマ{end}",
-  "en": "",
-  "max": 18
+  "en": "Koakuma{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7382",
@@ -478,14 +526,16 @@
  {
   "id": "BM:0B73B0",
   "jp": "プリンス{end}",
-  "en": "",
-  "max": 18
+  "en": "Prince{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B73DE",
   "jp": "ラジエル{end}",
-  "en": "",
-  "max": 18
+  "en": "Raziel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B740C",
@@ -494,20 +544,23 @@
  {
   "id": "BM:0B743A",
   "jp": "エクスシア{end}",
-  "en": "",
-  "max": 18
+  "en": "Exousia{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7468",
   "jp": "パワー{end}",
-  "en": "",
-  "max": 18
+  "en": "Power{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7496",
   "jp": "ヴァーチャー{end}",
-  "en": "",
-  "max": 18
+  "en": "Virtue{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B74C4",
@@ -516,14 +569,16 @@
  {
   "id": "BM:0B74F2",
   "jp": "ドミニオン{end}",
-  "en": "",
-  "max": 18
+  "en": "Dominion{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7520",
   "jp": "オファニム{end}",
-  "en": "",
-  "max": 18
+  "en": "Ophanim{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B754E",
@@ -532,92 +587,107 @@
  {
   "id": "BM:0B757C",
   "jp": "ガルガリン{end}",
-  "en": "",
-  "max": 18
+  "en": "Galgalim{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B75AA",
   "jp": "サリエル{end}",
-  "en": "",
-  "max": 18
+  "en": "Sariel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B75D8",
   "jp": "ケルビム{end}",
-  "en": "",
-  "max": 18
+  "en": "Cherubim{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7606",
   "jp": "セラフィム{end}",
-  "en": "",
-  "max": 18
+  "en": "Seraph{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7634",
   "jp": "メルカバ{end}",
-  "en": "",
-  "max": 18
+  "en": "Merkabah{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7662",
   "jp": "エゴ{end}",
-  "en": "",
-  "max": 18
+  "en": "Ego{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7690",
   "jp": "アークエンゼル{end}",
-  "en": "",
-  "max": 18
+  "en": "Archangel{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B76BE",
   "jp": "サタン{end}",
-  "en": "",
-  "max": 18
+  "en": "Satan{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B76EC",
   "jp": "ノーム{end}",
-  "en": "",
-  "max": 18
+  "en": "Gnome{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B771A",
   "jp": "ピクシー{end}",
-  "en": "",
-  "max": 18
+  "en": "Pixie{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7748",
   "jp": "イエティ{end}",
-  "en": "",
-  "max": 18
+  "en": "Yeti{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7776",
   "jp": "フンババ{end}",
-  "en": "",
-  "max": 18
+  "en": "Humbaba{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B77A4",
   "jp": "いっすんぼうし{end}",
-  "en": "",
-  "max": 18
+  "en": "Issun-boshi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B77D2",
   "jp": "ラセツ{end}",
-  "en": "",
-  "max": 18
+  "en": "Rasetsu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7800",
   "jp": "イツマデ{end}",
-  "en": "",
-  "max": 18
+  "en": "Itsumade{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B782E",
@@ -626,20 +696,23 @@
  {
   "id": "BM:0B785C",
   "jp": "シルフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sylph{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B788A",
   "jp": "ラセツオー{end}",
-  "en": "",
-  "max": 18
+  "en": "King Rasetsu{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B78B8",
   "jp": "スケルトン{end}",
-  "en": "",
-  "max": 18
+  "en": "Skeleton{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B78E6",
@@ -652,56 +725,65 @@
  {
   "id": "BM:0B7942",
   "jp": "グール{end}",
-  "en": "",
-  "max": 18
+  "en": "Ghoul{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7970",
   "jp": "トウシン{end}",
-  "en": "",
-  "max": 18
+  "en": "Toushin{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B799E",
   "jp": "ソンゴクウ{end}",
-  "en": "",
-  "max": 18
+  "en": "Sun Wukong{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B79CC",
   "jp": "ロボット{end}",
-  "en": "",
-  "max": 18
+  "en": "Robot{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B79FA",
   "jp": "ドワーフ{end}",
-  "en": "",
-  "max": 18
+  "en": "Dwarf{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7A28",
   "jp": "ミイラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Mummy{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7A56",
   "jp": "トロール{end}",
-  "en": "",
-  "max": 18
+  "en": "Troll{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7A84",
   "jp": "ブギーマン{end}",
-  "en": "",
-  "max": 18
+  "en": "Boogeyman{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7AB2",
   "jp": "やまんば{end}",
-  "en": "",
-  "max": 18
+  "en": "Yamanba{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7AE0",
@@ -710,8 +792,9 @@
  {
   "id": "BM:0B7B0E",
   "jp": "アンドロイド{end}",
-  "en": "",
-  "max": 18
+  "en": "Android{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7B3C",
@@ -720,26 +803,30 @@
  {
   "id": "BM:0B7B6A",
   "jp": "ヘカトンケイル{end}",
-  "en": "",
-  "max": 18
+  "en": "Hecatoncheires{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7B98",
   "jp": "ギリメカラ{end}",
-  "en": "",
-  "max": 18
+  "en": "Girimehkala{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7BC6",
   "jp": "クラドホルグ{end}",
-  "en": "",
-  "max": 18
+  "en": "Caladbolg{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7BF4",
   "jp": "かぞえヒツジ{end}",
-  "en": "",
-  "max": 18
+  "en": "Counting Sheep{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7C22",
@@ -748,79 +835,92 @@
  {
   "id": "BM:0B7C50",
   "jp": "ケットシー{end}",
-  "en": "",
-  "max": 18
+  "en": "Cait Sith{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7C7E",
   "jp": "ザントマン{end}",
-  "en": "",
-  "max": 18
+  "en": "Sandman{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7CAC",
   "jp": "ウィンディーネ{end}",
-  "en": "",
-  "max": 18
+  "en": "Undine{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7CDA",
   "jp": "まくらがえし{end}",
-  "en": "",
-  "max": 18
+  "en": "Makura-gaeshi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7D08",
   "jp": "オニビ{end}",
-  "en": "",
-  "max": 18
+  "en": "Onibi{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7D36",
   "jp": "ファントム{end}",
-  "en": "",
-  "max": 18
+  "en": "Phantom{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7D64",
   "jp": "あかマント{end}",
-  "en": "",
-  "max": 18
+  "en": "Red Cloak{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7D92",
   "jp": "バンパイア{end}",
-  "en": "",
-  "max": 18
+  "en": "Vampire{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7DC0",
   "jp": "メリッサ{end}",
-  "en": "",
-  "max": 18
+  "en": "Melissa{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7DEE",
   "jp": "インキュバス{end}",
-  "en": "",
-  "max": 18
+  "en": "Incubus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7E1C",
   "jp": "バク{end}",
-  "en": "",
-  "max": 18
+  "en": "Baku{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7E4A",
   "jp": "サキュバス{end}",
-  "en": "",
-  "max": 18
+  "en": "Succubus{end}",
+  "max": 18,
+  "px": 96
  },
  {
   "id": "BM:0B7E78",
   "jp": "バンシー{end}",
-  "en": "",
-  "max": 18
+  "en": "Banshee{end}",
+  "max": 18,
+  "px": 96
  }
 ]
