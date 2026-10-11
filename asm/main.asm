@@ -15,6 +15,16 @@ ADV_SITE    equ DRAW_HEAD + 0xF4   ; "addiu a1,a1,2"
 DRAW_ADV    equ ADV_SITE + 8
 VWF_SITE    equ DRAW_HEAD + 0x114  ; "lbu v0,8(t5)" (advance)
 DRAW_NEXT   equ DRAW_HEAD
+D8_HEAD     equ DRAW_HEAD - 0x188  ; 8x8 font draw loop head "lhu a0,(a1)" (B 0x8003398C)
+D8_HEAD2    equ D8_HEAD + 8
+D8_ADV_SITE equ D8_HEAD + 0xD0     ; "addiu a1,a1,2"
+D8_ADV      equ D8_ADV_SITE + 8
+
+; --- 8x8 draw loop: same unpacking; ASCII -> the 8x8 font's own codes (Latin at JP table slots) via map8.
+.org D8_HEAD
+    j       pk8_head            ; delay slot: original "ori v0,zero,0xfffd"
+.org D8_ADV_SITE
+    j       pk8_adv             ; delay slot: original "lw v1,(t4)"
 
 ; --- 16x16 draw loop: unpack pairs at the loop head; advance the string only after a pair's second char.
 .org DRAW_HEAD
@@ -69,6 +79,48 @@ pk_adv:                         ; v1 is live (loaded in our delay slot): use at 
     j       DRAW_ADV
     nop
 
+pk8_head:                       ; as pk_head, glyph in a0; pending holds the raw ASCII (+0x100 marks valid)
+    lui     at, hi(pk_pend)
+    lhu     a0, lo(pk_pend)(at)
+    nop
+    bnez    a0, @@pend
+    nop
+    lhu     a0, 0(a1)
+    nop
+    srl     v1, a0, 14
+    addiu   v1, v1, -1
+    bnez    v1, @@out
+    andi    v1, a0, 0x7F
+    beqz    v1, @@one
+    nop
+    addiu   v1, v1, 0x100
+    sh      v1, lo(pk_pend)(at)
+@@one:
+    srl     a0, a0, 7
+    b       @@map
+    andi    a0, a0, 0x7F
+@@pend:
+    sh      zero, lo(pk_pend)(at)
+    andi    a0, a0, 0x7F
+@@map:
+    lui     at, hi(map8)
+    addu    at, at, a0
+    lbu     a0, lo(map8)(at)
+@@out:
+    j       D8_HEAD2
+    ori     v0, zero, 0xFFFD
+
+pk8_adv:
+    lui     at, hi(pk_pend)
+    lhu     at, lo(pk_pend)(at)
+    nop
+    bnez    at, @@skip
+    nop
+    addiu   a1, a1, 2
+@@skip:
+    j       D8_ADV
+    nop
+
 vwf_adv:
     lbu     v0, 8(t5)
     addiu   v1, a3, -0x100
@@ -90,6 +142,8 @@ pk_pend:
     .align 4
 en_width:
     .incbin WIDTHS
+map8:                           ; 128 bytes: ASCII -> 8x8 font code (build.py MAP8)
+    .incbin MAP8_FILE
 .if . > CAVE_END
     .error "code cave overflow"
 .endif

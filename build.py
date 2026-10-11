@@ -90,6 +90,23 @@ def build_font(files):
             font.put_glyph(pac, below, blank)
     (files / 'DEVIL.PAC').write_bytes(pac)
     (BUILD / 'en_width.bin').write_bytes(widths)
+    (BUILD / 'map8.bin').write_bytes(map8())
+
+
+def map8():
+    """ASCII -> 8x8 font code. The 8x8 font follows the JP table layout (A=0x23, a=0x3D, 0=0x19)."""
+    import text
+    m = bytearray(128)
+    extra = {'.': '・', ',': '、', "'": '、', '"': '「', ':': '：', ';': '：', '!': '！', '?': '？', '-': '－',
+             '+': '＋', '=': '＝', '%': '％', '#': '＃', '/': '／', '(': '（', ')': '）', '*': '※', '&': '＋',
+             '[': '「', ']': '」'}
+    for c in range(0x21, 0x7F):
+        ch = chr(c)
+        if ch.isalnum():
+            m[c] = text.JP_ENC[ch if ch.isalpha() else chr(0xFF10 + int(ch))]
+        elif ch in extra:
+            m[c] = text.JP_ENC[extra[ch]]
+    return bytes(m)
 
 
 EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
@@ -136,7 +153,7 @@ def build_exe(files, name, mode='normal'):
     (files / name).write_bytes(d)
     eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
-                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin')] + eq, capture_output=True, text=True)
+                        '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin')] + eq, capture_output=True, text=True)
     if r.returncode:
         sys.exit('armips failed:\n' + r.stdout + r.stderr)
 
