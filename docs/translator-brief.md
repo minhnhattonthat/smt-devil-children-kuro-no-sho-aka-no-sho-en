@@ -43,6 +43,8 @@ Input is `id<TAB>max<TAB>Japanese`; output is the same `id<TAB>English`. English
   (if a name can't fit, keep it and report `LONG: id`).
 - Keep the JP's `{n}` lines: same number of lines or fewer, each line no wider than the JP line (check prints
   px). Demon descriptions are narrow 5-line panels: short lines.
+- Exception: strings containing `{wait}` are dialogue boxes - treat them exactly like event lines (drop `{n}`,
+  auto-wrap, 2 lines per box), but the byte budget still applies.
 - Ids are in memory order, so neighbours are usually the same menu/list; strings like `ダミー１２` (dummy),
   `開発中` (under development) or garbage-looking kana/latin mixes are debug or data: copy them unchanged
   (output the Japanese as-is) and report `UNSURE: id - looks like data`.

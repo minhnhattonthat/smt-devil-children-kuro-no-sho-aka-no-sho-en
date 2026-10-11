@@ -194,6 +194,13 @@ def lint_exe(jp, en, cap):
     import text
     if en == jp:  # data / debug string left as is
         return []
+    if '{wait}' in jp:  # dialogue window text inside the EXE: event rules, plus the in-place size
+        errs = lint_event(jp, en)
+        if not any('non-ASCII' in e for e in errs):
+            size = len(text.encode_en(prepare(jp, en)))
+            if size > cap:
+                errs.append('too long: %d bytes > %d' % (size, cap))
+        return errs
     errs = []
     if not en.endswith('{end}'):
         errs.append('must end with {end}')

@@ -136,6 +136,7 @@ def exe_marker(mid, jp, cap):
 
 def insert_strings(files, name, mode, sub, extract):
     """In-place packed English for EXE/overlay strings (script/<sub>); writes build/files/<name>."""
+    import lint
     import text
     d = bytearray((TREE / name).read_bytes())
     tl = load_script(sub)
@@ -149,6 +150,8 @@ def insert_strings(files, name, mode, sub, extract):
             en = tl.get(jp_first.get(jp, mid), '')
         if not en or en == jp:
             continue
+        if '{wait}' in jp and mode != 'marker':
+            en = lint.prepare(jp, en)  # dialogue text: wrap like events
         b = text.encode_en(en)
         if len(b) > cap:
             sys.exit('%s %s: %d bytes > %d' % (name, mid, len(b), cap))
