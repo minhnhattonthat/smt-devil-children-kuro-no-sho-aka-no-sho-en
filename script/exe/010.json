@@ -2,721 +2,721 @@
  {
   "id": "BM:0ABDC8",
   "jp": "{face:0007}ずいぶんと強くなったね{wait}{n}ネッシーをプレゼントするよ{wait}{page}ふつうのとは一味ちがう{n}たよれるヤツなんだ{wait}{f0}大事にしてくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}You've gotten really strong.{wait}{n}I'll give you a Nessie.{wait}{page}It's a cut above the usual kind. Really dependable.{wait}{f0}Take good care of it.{wait}{end}",
   "max": 128
  },
  {
   "id": "BM:0ABE48",
   "jp": "{face:0001}さすがはオレがみこんだパートナーだぜ{wait}{page}弟のオルトロスを{n}みっちり訓練しておいたから{wait}{f0}いっしょにつれていってくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0001}That's the partner I picked, all right!{wait}{page}I gave my little brother Orthrus some hard training,{wait}{f0}so take him along with you.{wait}{end}",
   "max": 124
  },
  {
   "id": "BM:0ABEC4",
   "jp": "{face:0008}うーん、どうやっても{n}エンゼルチルドレンは、{wait}{f0}デビルチルドレンに勝てないのかな？{wait}{f0}なんかなっとくいかないなぁ{wait}{page}なにはともあれ、ボクのお気に入りの{n}コロポックルをあげるよ{wait}{end}",
-  "en": "",
+  "en": "{face:0008}Hmm... So no matter what,{wait}{f0}Angel Children just can't beat Devil Children?{wait}{f0}Somehow that doesn't seem fair.{wait}{page}Anyway, I'll give you my favorite, Koropokkuru.{wait}{end}",
   "max": 184
  },
  {
   "id": "BM:0ABF7C",
   "jp": "{face:005E}いやはやまいった、強いな！{n}私のきしだんに入らないか？{wait}{page}なに？{n}使命があるのか・・・{wait}{f0}それはざんねんだ{wait}{page}ではキミの強さにけいいをひょうして{n}この剣をわたそう{wait}{page}この剣は持ち主を選ぶんだが{n}キミならもんだいないだろう{wait}{end}",
-  "en": "",
+  "en": "{face:005E}Well, I'm beaten! You're strong! Won't you join my order of knights?{wait}{page}What? You have a mission...?{wait}{f0}That's a shame.{wait}{page}Then, in honor of your strength, I give you this sword.{wait}{page}This sword chooses its master, but you should be fine.{wait}{end}",
   "max": 228
  },
  {
   "id": "BM:0AC060",
   "jp": "{face:000D}よくやったな、おまえの父親として{n}ほこりにおもうよ{wait}{page}よし、ドッペルゲンガーをあげよう{wait}{n}こいつは、おまえそっくりに{f0}変身できるんだぞ{wait}{page}ドッペルゲンガーに負けないように{n}まいにちがんばるんだぞ{wait}{end}",
-  "en": "",
+  "en": "{face:000D}Well done. As your father, I'm proud of you.{wait}{page}All right, I'll give you Doppelganger.{wait}{n}It can transform{f0}to look just like you.{wait}{page}Work hard every day so you don't lose to Doppelganger.{wait}{end}",
   "max": 204
  },
  {
   "id": "BM:0AC12C",
   "jp": "{face:005F}人間にも強いのがおるのじゃのう{wait}{page}タイコウボウをつれていってくれ{wait}{n}こやつは修行が足りん{f0}力をみがくにはちょうどいいじゃろ{wait}{end}",
-  "en": "",
+  "en": "{face:005F}So some humans are strong, too.{wait}{page}Take Jiang Ziya with you.{wait}{n}He still lacks training.{f0}You'll be just right to hone him.{wait}{end}",
   "max": 132
  },
  {
   "id": "BM:0AC1B0",
   "jp": "{face:0060}キミ、なかなかたいしたものだね{n}どうだい？ウチで仕事してみないかい？{wait}{page}え、なに？　まだ学生？{n}うーん、もったいない・・・{wait}{page}あっ、そうそう、これおみやげね{wait}{end}",
-  "en": "",
+  "en": "{face:0060}You're really something. How about it? Want to work for my company?{wait}{page}Huh, what? You're still in school? Hmm, what a waste...{wait}{page}Oh, right, right. Here's a little gift.{wait}{end}",
   "max": 164
  },
  {
   "id": "BM:0AC254",
   "jp": "{face:0061}いやぁ、まいったな{wait}{page}オレのザントマン{n}かなり自信あったんだけどなぁ{wait}{page}まあ、きねんにあげるよ{wait}{end}",
-  "en": "",
+  "en": "{face:0061}Man, you got me.{wait}{page}I was pretty confident in my Sandman, too...{wait}{page}Well, keep him as a souvenir.{wait}{end}",
   "max": 104
  },
  {
   "id": "BM:0AC2BC",
   "jp": "{face:0062}あなた強くてステキだわ{n}この色ボケていしゅにも{wait}{f0}みならってほしいわ{wait}{page}そうだ！ちょっとこの色ボケていしゅを{n}しつけ直してやってよ{wait}{page}{face:00FF}{face:0064}え、マジッ？{wait}{page}{face:00FF}{face:0062}つべこべ言わずに行ってらっしゃい！{wait}{page}{face:00FF}{face:0064}は、はい・・・{n}とほほ・・・　{speed:0014}おてやわらかにたのむよ{wait}{end}",
-  "en": "",
+  "en": "{face:0062}You're so strong and wonderful. I wish this girl-crazy husband of mine{wait}{f0}would learn from you.{wait}{page}I know! Go whip my girl-crazy husband back into shape for me.{wait}{page}{face:00FF}{face:0064}Huh, seriously?{wait}{page}{face:00FF}{face:0062}No back talk! Off you go!{wait}{page}{face:00FF}{face:0064}Y-yes, dear... Sigh... {speed:0014}Please go easy on me.{wait}{end}",
   "max": 276
  },
  {
   "id": "BM:0AC3D0",
   "jp": "{face:0059}と、思ったら仲魔がいっぱいじゃない{wait}{n}仲魔をへらしてきてね、リベンジよ！{wait}{end}",
-  "en": "",
+  "en": "{face:0059}Oh, but your allies are full!{wait}{n}Go cut back on allies. Rematch!{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0AC420",
   "jp": "{face:005A}なんと、仲魔がいっぱいではないか！{n}くっ、私の計画が水のあわに・・・{wait}{page}仲魔をへらしてから、もう一度戦ってくれ{n}たのむ！{wait}{end}",
-  "en": "",
+  "en": "{face:005A}What, your allies are full!? Curses, my plan is ruined...{wait}{page}Have fewer allies, then fight me again. Please!{wait}{end}",
   "max": 128
  },
  {
   "id": "BM:0AC4A0",
   "jp": "{face:005B}なんだ、仲魔がいっぱいじゃないか{wait}{page}仲魔をへらしてから{n}もう一度戦ってくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:005B}What, your allies are full.{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 84
  },
  {
   "id": "BM:0AC4F4",
   "jp": "{face:005C}お？　仲魔がいっぱいのようじゃな{wait}{page}仲魔をへらしてから{n}もう一度戦ってくだされ{wait}{end}",
-  "en": "",
+  "en": "{face:005C}Oh? Your allies seem to be full.{wait}{page}Pray have fewer allies, then fight me again.{wait}{end}",
   "max": 88
  },
  {
   "id": "BM:0AC54C",
   "jp": "{face:0004}あれ？　仲魔がいっぱいじゃない{wait}{page}仲魔をへらしてから{n}もう一度戦ってね{wait}{end}",
-  "en": "",
+  "en": "{face:0004}Huh? Your allies are full.{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0AC59C",
   "jp": "{face:005D}おや？　仲魔がいっぱいのようだね{wait}{page}仲魔をへらしてから、また戦ってくれ{wait}{end}",
-  "en": "",
+  "en": "{face:005D}Oh? Your allies seem to be full.{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0AC5EC",
   "jp": "{face:0009}なんだ、仲魔がいっぱいじゃない{wait}{page}あなた、せっかくのチャンスを{n}ムダにしたわよ{wait}{page}なーんてね、ウソよ{wait}{n}仲魔をへらしてから、またあたしと{wait}{f0}戦って、勝ったらちゃんとあげるわ{wait}{end}",
-  "en": "",
+  "en": "{face:0009}What, your allies are full.{wait}{page}You just wasted your big chance.{wait}{page}Just kidding!{wait}{n}Have fewer allies, then fight me{wait}{f0}again. Win, and I'll give it to you.{wait}{end}",
   "max": 180
  },
  {
   "id": "BM:0AC6A0",
   "jp": "{face:0007}あれ？　仲魔がいっぱいだよ{wait}{page}仲魔をへらしてから、また戦ってよ{n}まってるからさ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Huh? Your allies are full.{wait}{page}Have fewer allies, then fight me again. I'll be waiting.{wait}{end}",
   "max": 88
  },
  {
   "id": "BM:0AC6F8",
   "jp": "{face:0001}なんだ、仲魔がいっぱいじゃないか{wait}{page}仲魔をへらしてきてから{n}リベンジだぜ{wait}{page}おっと、オレと別れるなんて{n}いうなよ{wait}{end}",
-  "en": "",
+  "en": "{face:0001}What, your allies are full.{wait}{page}Go have fewer allies, then it's rematch time.{wait}{page}Whoa, don't go thinking of ditching me!{wait}{end}",
   "max": 120
  },
  {
   "id": "BM:0AC770",
   "jp": "{face:0008}あれ？　仲魔がいっぱいだよ{wait}{page}仲魔をへらしてから{n}また戦ってよ{wait}{end}",
-  "en": "",
+  "en": "{face:0008}Huh? Your allies are full.{wait}{page}Have fewer allies, then fight me again.{wait}{end}",
   "max": 72
  },
  {
   "id": "BM:0AC7B8",
   "jp": "{face:005E}なんと、仲魔がいっぱいではないか！{wait}{page}であれば、仲魔をへらしてから{n}もう一度、お手合わせしてくれ{wait}{end}",
-  "en": "",
+  "en": "{face:005E}What, your allies are full!{wait}{page}Then have fewer allies, and spar with me once more.{wait}{end}",
   "max": 104
  },
  {
   "id": "BM:0AC820",
   "jp": "{face:000D}おや？　仲魔がいっぱいのようだな{wait}{page}そのおっちょこちょいなところを{n}なんとかしてくれないと{wait}{f0}心配でしょうがないぞ{wait}{page}プレゼントはもう一回勝つまで{n}おあずけだな{wait}{end}",
-  "en": "",
+  "en": "{face:000D}Oh? Your allies seem to be full.{wait}{page}If you don't do something about that carelessness,{wait}{f0}I'll worry myself sick.{wait}{page}Your present waits until you win again.{wait}{end}",
   "max": 168
  },
  {
   "id": "BM:0AC8C8",
   "jp": "{face:005F}ほうほう、仲魔がいっぱいのようじゃな{wait}{page}仲魔をへらしてから{n}もう一度、お手合わせといきますかな？{wait}{end}",
-  "en": "",
+  "en": "{face:005F}Ho ho, your allies seem to be full.{wait}{page}Have fewer allies, then shall we spar once more?{wait}{end}",
   "max": 104
  },
  {
   "id": "BM:0AC930",
   "jp": "{face:0060}おや、仲魔がいっぱいだね{wait}{page}仲魔をへらしてから{n}もう一回勝負しようか{wait}{end}",
-  "en": "",
+  "en": "{face:0060}Oh, your allies are full.{wait}{page}Have fewer allies, then let's go again.{wait}{end}",
   "max": 76
  },
  {
   "id": "BM:0AC97C",
   "jp": "{face:0061}ふむ、仲魔がいっぱいだね{wait}{page}仲魔をへらしてから{n}もう一回勝負しようか{wait}{end}",
-  "en": "",
+  "en": "{face:0061}Hm, your allies are full.{wait}{page}Have fewer allies, then let's go again.{wait}{end}",
   "max": 76
  },
  {
   "id": "BM:0AC9C8",
   "jp": "{face:0062}あら、仲魔がいっぱいじゃない！{wait}{page}せっかくダメていしゅを{n}カイゾウしてもらおうと思ったのに{wait}{page}仲魔をへらしてまた来てよ{n}今度は手を抜いてあげるから♥{wait}{end}",
-  "en": "",
+  "en": "{face:0062}Oh my, your allies are full!{wait}{page}And I wanted you to remodel my useless husband!{wait}{page}Have fewer allies, then come back. I'll go easy this time!{wait}{end}",
   "max": 156
  },
  {
   "id": "BM:0ACA64",
   "jp": "{face:0059}クーックックッ{n}まだまだね、でなおしてきなさい！{wait}{end}",
-  "en": "",
+  "en": "{face:0059}Ku-ku-ku! Not good enough! Come back and try again!{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:0ACA9C",
   "jp": "{face:005A}私のプラズマパワーはイダイなのだよ{n}何度でもかかってきたまえ{wait}{end}",
-  "en": "",
+  "en": "{face:005A}My plasma power is mighty! Challenge me as often as you like.{wait}{end}",
   "max": 68
  },
  {
   "id": "BM:0ACAE0",
   "jp": "{face:005B}本物ってこんなもんなのか・・・{wait}{page}これならカンタンに{n}いれかわれるかな？{wait}{end}",
-  "en": "",
+  "en": "{face:005B}So this is all the real one's got...{wait}{page}Then maybe I can take your place easily?{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0ACB30",
   "jp": "{face:005C}まだまだ、修行がたりんようじゃな{n}出直してまいれ{wait}{end}",
-  "en": "",
+  "en": "{face:005C}You still need more training. Come back another time.{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:0ACB68",
   "jp": "{face:0004}なさけないわ{wait}{page}デビルチルドレンが{n}聞いてあきれるわよ{wait}{end}",
-  "en": "",
+  "en": "{face:0004}How pathetic.{wait}{page}And you call yourself a Devil Child?{wait}{end}",
   "max": 64
  },
  {
   "id": "BM:0ACBA8",
   "jp": "{face:005D}ショウジンが足りないね{n}修行をつんでまた来るといいよ{wait}{end}",
-  "en": "",
+  "en": "{face:005D}You need more effort. Train hard and come again.{wait}{end}",
   "max": 60
  },
  {
   "id": "BM:0ACBE4",
   "jp": "{face:0009}オーホッホッ！{wait}{page}あたしに勝とうなんて１０年早いわ！{n}一から出直しなさい{wait}{end}",
-  "en": "",
+  "en": "{face:0009}Oh-ho-ho-ho!{wait}{page}You're 10 years too early to beat me! Start over from scratch!{wait}{end}",
   "max": 80
  },
  {
   "id": "BM:0ACC34",
   "jp": "{face:0007}うーん、まだまだだね{wait}{page}もう少し仲魔を強くしないと{n}これから先はもっと苦戦するよ{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Hmm, not yet.{wait}{page}Make your allies stronger, or it'll get even tougher from here on.{wait}{end}",
   "max": 88
  },
  {
   "id": "BM:0ACC8C",
   "jp": "{face:0001}なんだ、なさけないな{wait}{page}オレのパートナーなんだから{n}もっとしっかりしてくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0001}Come on, that's pathetic.{wait}{page}You're my partner, so get it together!{wait}{end}",
   "max": 84
  },
  {
   "id": "BM:0ACCE0",
   "jp": "{face:0008}あれっ？ラグナロクを起動させて{n}気がぬけちゃったのかな？{wait}{page}いままでぜんぜん勝てなかったのに？{wait}{end}",
-  "en": "",
+  "en": "{face:0008}Huh? Did starting up Ragnarok make you go soft?{wait}{page}I could never beat you before!{wait}{end}",
   "max": 104
  },
  {
   "id": "BM:0ACD48",
   "jp": "{face:005E}ふがいないぞ！キシは守るもののために{n}強くなければならないのだ！{wait}{page}出直してこい！{wait}{end}",
-  "en": "",
+  "en": "{face:005E}Disgraceful! A knight must be strong for those he protects!{wait}{page}Come back when you're ready!{wait}{end}",
   "max": 92
  },
  {
   "id": "BM:0ACDA4",
   "jp": "{face:000D}なさけないぞ！{n}デビルチルドレンの力は{wait}{f0}そんなものじゃないはずだ！{wait}{end}",
-  "en": "",
+  "en": "{face:000D}How pathetic! The power of a Devil Child{wait}{f0}should be more than that!{wait}{end}",
   "max": 76
  },
  {
   "id": "BM:0ACDF0",
   "jp": "{face:005F}ほっほっほっ、いきおいはあるが{n}まだまだじゃのう{wait}{end}",
-  "en": "",
+  "en": "{face:005F}Ho ho ho, you've got spirit, but you're not there yet.{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:0ACE28",
   "jp": "{face:0060}うーん、まだまだだね{n}出直してきてくれよ{wait}{end}",
-  "en": "",
+  "en": "{face:0060}Hmm, not good enough yet. Come back another time.{wait}{end}",
   "max": 48
  },
  {
   "id": "BM:0ACE58",
   "jp": "{face:0061}うーん、まだまだだな{n}出直してきてくれ{wait}{end}",
-  "en": "",
+  "en": "{face:0061}Hmm, not good enough yet. Come back another time.{wait}{end}",
   "max": 48
  },
  {
   "id": "BM:0ACE88",
   "jp": "{face:0062}あらっ、たよりないわね{n}弱い男にキョウミはないわ{wait}{end}",
-  "en": "",
+  "en": "{face:0062}Oh, how unreliable. I'm not interested in weak men.{wait}{end}",
   "max": 56
  },
  {
   "id": "BM:0ACF80",
   "jp": "ヘブンズアタック{end}",
-  "en": "",
+  "en": "Heaven's Attack{end}",
   "max": 18
  },
  {
   "id": "BM:0ACF9C",
   "jp": "ライトハウリング{end}",
-  "en": "",
+  "en": "Light Howling{end}",
   "max": 18
  },
  {
   "id": "BM:0ACFB8",
   "jp": "ツインバイス{end}",
-  "en": "",
+  "en": "Twin Vice{end}",
   "max": 18
  },
  {
   "id": "BM:0ACFD4",
   "jp": "バインドクロー{end}",
-  "en": "",
+  "en": "Bind Claw{end}",
   "max": 18
  },
  {
   "id": "BM:0ACFF0",
   "jp": "シャドーブレイク{end}",
-  "en": "",
+  "en": "Shadow Break{end}",
   "max": 18
  },
  {
   "id": "BM:0AD00C",
   "jp": "キルブレイド{end}",
-  "en": "",
+  "en": "Kill Blade{end}",
   "max": 18
  },
  {
   "id": "BM:0AD028",
   "jp": "バーニングフレア{end}",
-  "en": "",
+  "en": "Burning Flare{end}",
   "max": 18
  },
  {
   "id": "BM:0AD044",
   "jp": "ヘルズファイア{end}",
-  "en": "",
+  "en": "Hell's Fire{end}",
   "max": 18
  },
  {
   "id": "BM:0AD060",
   "jp": "ドラゴンブレス{end}",
-  "en": "",
+  "en": "Dragon Breath{end}",
   "max": 18
  },
  {
   "id": "BM:0AD07C",
   "jp": "ラ・ブリザード{end}",
-  "en": "",
+  "en": "La Blizzard{end}",
   "max": 18
  },
  {
   "id": "BM:0AD098",
   "jp": "フリーズウェーブ{end}",
-  "en": "",
+  "en": "Freeze Wave{end}",
   "max": 18
  },
  {
   "id": "BM:0AD0B4",
   "jp": "キングフリーズ{end}",
-  "en": "",
+  "en": "King Freeze{end}",
   "max": 18
  },
  {
   "id": "BM:0AD0D0",
   "jp": "れっぷうげき{end}",
-  "en": "",
+  "en": "Gale Strike{end}",
   "max": 18
  },
  {
   "id": "BM:0AD0EC",
   "jp": "デスハリケーン{end}",
-  "en": "",
+  "en": "Death Hurricane{end}",
   "max": 18
  },
  {
   "id": "BM:0AD108",
   "jp": "ヘブンズクロス{end}",
-  "en": "",
+  "en": "Heaven's Cross{end}",
   "max": 18
  },
  {
   "id": "BM:0AD124",
   "jp": "雷雲呼び{end}",
-  "en": "",
+  "en": "Storm Call{end}",
   "max": 18
  },
  {
   "id": "BM:0AD140",
   "jp": "天の雷光{end}",
-  "en": "",
+  "en": "Heaven Bolt{end}",
   "max": 18
  },
  {
   "id": "BM:0AD15C",
   "jp": "フットプレス{end}",
-  "en": "",
+  "en": "Foot Press{end}",
   "max": 18
  },
  {
   "id": "BM:0AD178",
   "jp": "メガトンプレス{end}",
-  "en": "",
+  "en": "Megaton Press{end}",
   "max": 18
  },
  {
   "id": "BM:0AD194",
   "jp": "ピラミッドパワー{end}",
-  "en": "",
+  "en": "Pyramid Power{end}",
   "max": 18
  },
  {
   "id": "BM:0AD1B0",
   "jp": "ホーリーソング{end}",
-  "en": "",
+  "en": "Holy Song{end}",
   "max": 18
  },
  {
   "id": "BM:0AD1CC",
   "jp": "ゴッドシールド{end}",
-  "en": "",
+  "en": "God Shield{end}",
   "max": 18
  },
  {
   "id": "BM:0AD1E8",
   "jp": "メテオストライク{end}",
-  "en": "",
+  "en": "Meteor Strike{end}",
   "max": 18
  },
  {
   "id": "BM:0AD204",
   "jp": "スパークボルト{end}",
-  "en": "",
+  "en": "Spark Bolt{end}",
   "max": 18
  },
  {
   "id": "BM:0AD220",
   "jp": "アースハンマー{end}",
-  "en": "",
+  "en": "Earth Hammer{end}",
   "max": 18
  },
  {
   "id": "BM:0AD23C",
   "jp": "ダミー２６{end}",
-  "en": "",
+  "en": "ダミー２６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD258",
   "jp": "ダミー２７{end}",
-  "en": "",
+  "en": "ダミー２７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD274",
   "jp": "ダミー２８{end}",
-  "en": "",
+  "en": "ダミー２８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD290",
   "jp": "ダミー２９{end}",
-  "en": "",
+  "en": "ダミー２９{end}",
   "max": 18
  },
  {
   "id": "BM:0AD2AC",
   "jp": "ダミー３０{end}",
-  "en": "",
+  "en": "ダミー３０{end}",
   "max": 18
  },
  {
   "id": "BM:0AD2C8",
   "jp": "ダミー３１{end}",
-  "en": "",
+  "en": "ダミー３１{end}",
   "max": 18
  },
  {
   "id": "BM:0AD2E4",
   "jp": "ダミー３２{end}",
-  "en": "",
+  "en": "ダミー３２{end}",
   "max": 18
  },
  {
   "id": "BM:0AD300",
   "jp": "ダミー３３{end}",
-  "en": "",
+  "en": "ダミー３３{end}",
   "max": 18
  },
  {
   "id": "BM:0AD31C",
   "jp": "ダミー３４{end}",
-  "en": "",
+  "en": "ダミー３４{end}",
   "max": 18
  },
  {
   "id": "BM:0AD338",
   "jp": "ダミー３５{end}",
-  "en": "",
+  "en": "ダミー３５{end}",
   "max": 18
  },
  {
   "id": "BM:0AD354",
   "jp": "ダミー３６{end}",
-  "en": "",
+  "en": "ダミー３６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD370",
   "jp": "ダミー３７{end}",
-  "en": "",
+  "en": "ダミー３７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD38C",
   "jp": "ダミー３８{end}",
-  "en": "",
+  "en": "ダミー３８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD3A8",
   "jp": "ダミー３９{end}",
-  "en": "",
+  "en": "ダミー３９{end}",
   "max": 18
  },
  {
   "id": "BM:0AD3C4",
   "jp": "ダミー４０{end}",
-  "en": "",
+  "en": "ダミー４０{end}",
   "max": 18
  },
  {
   "id": "BM:0AD3E0",
   "jp": "ダミー４１{end}",
-  "en": "",
+  "en": "ダミー４１{end}",
   "max": 18
  },
  {
   "id": "BM:0AD3FC",
   "jp": "ダミー４２{end}",
-  "en": "",
+  "en": "ダミー４２{end}",
   "max": 18
  },
  {
   "id": "BM:0AD418",
   "jp": "ダミー４３{end}",
-  "en": "",
+  "en": "ダミー４３{end}",
   "max": 18
  },
  {
   "id": "BM:0AD434",
   "jp": "ダミー４４{end}",
-  "en": "",
+  "en": "ダミー４４{end}",
   "max": 18
  },
  {
   "id": "BM:0AD450",
   "jp": "ダミー４５{end}",
-  "en": "",
+  "en": "ダミー４５{end}",
   "max": 18
  },
  {
   "id": "BM:0AD46C",
   "jp": "ダミー４６{end}",
-  "en": "",
+  "en": "ダミー４６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD488",
   "jp": "ダミー４７{end}",
-  "en": "",
+  "en": "ダミー４７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD4A4",
   "jp": "ダミー４８{end}",
-  "en": "",
+  "en": "ダミー４８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD4C0",
   "jp": "ダミー４９{end}",
-  "en": "",
+  "en": "ダミー４９{end}",
   "max": 18
  },
  {
   "id": "BM:0AD4DC",
   "jp": "ダミー５０{end}",
-  "en": "",
+  "en": "ダミー５０{end}",
   "max": 18
  },
  {
   "id": "BM:0AD4F8",
   "jp": "ダミー５１{end}",
-  "en": "",
+  "en": "ダミー５１{end}",
   "max": 18
  },
  {
   "id": "BM:0AD514",
   "jp": "ダミー５２{end}",
-  "en": "",
+  "en": "ダミー５２{end}",
   "max": 18
  },
  {
   "id": "BM:0AD530",
   "jp": "ダミー５３{end}",
-  "en": "",
+  "en": "ダミー５３{end}",
   "max": 18
  },
  {
   "id": "BM:0AD54C",
   "jp": "ダミー５４{end}",
-  "en": "",
+  "en": "ダミー５４{end}",
   "max": 18
  },
  {
   "id": "BM:0AD568",
   "jp": "ダミー５５{end}",
-  "en": "",
+  "en": "ダミー５５{end}",
   "max": 18
  },
  {
   "id": "BM:0AD584",
   "jp": "ダミー５６{end}",
-  "en": "",
+  "en": "ダミー５６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD5A0",
   "jp": "ダミー５７{end}",
-  "en": "",
+  "en": "ダミー５７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD5BC",
   "jp": "ダミー５８{end}",
-  "en": "",
+  "en": "ダミー５８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD5D8",
   "jp": "ダミー５９{end}",
-  "en": "",
+  "en": "ダミー５９{end}",
   "max": 18
  },
  {
   "id": "BM:0AD5F4",
   "jp": "ダミー６０{end}",
-  "en": "",
+  "en": "ダミー６０{end}",
   "max": 18
  },
  {
   "id": "BM:0AD610",
   "jp": "ダミー６１{end}",
-  "en": "",
+  "en": "ダミー６１{end}",
   "max": 18
  },
  {
   "id": "BM:0AD62C",
   "jp": "ダミー６２{end}",
-  "en": "",
+  "en": "ダミー６２{end}",
   "max": 18
  },
  {
   "id": "BM:0AD648",
   "jp": "ダミー６３{end}",
-  "en": "",
+  "en": "ダミー６３{end}",
   "max": 18
  },
  {
   "id": "BM:0AD664",
   "jp": "ダミー６４{end}",
-  "en": "",
+  "en": "ダミー６４{end}",
   "max": 18
  },
  {
   "id": "BM:0AD680",
   "jp": "ダミー６５{end}",
-  "en": "",
+  "en": "ダミー６５{end}",
   "max": 18
  },
  {
   "id": "BM:0AD69C",
   "jp": "ダミー６６{end}",
-  "en": "",
+  "en": "ダミー６６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD6B8",
   "jp": "ダミー６７{end}",
-  "en": "",
+  "en": "ダミー６７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD6D4",
   "jp": "ダミー６８{end}",
-  "en": "",
+  "en": "ダミー６８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD6F0",
   "jp": "ダミー６９{end}",
-  "en": "",
+  "en": "ダミー６９{end}",
   "max": 18
  },
  {
   "id": "BM:0AD70C",
   "jp": "ダミー７０{end}",
-  "en": "",
+  "en": "ダミー７０{end}",
   "max": 18
  },
  {
   "id": "BM:0AD728",
   "jp": "ダミー７１{end}",
-  "en": "",
+  "en": "ダミー７１{end}",
   "max": 18
  },
  {
   "id": "BM:0AD744",
   "jp": "ダミー７２{end}",
-  "en": "",
+  "en": "ダミー７２{end}",
   "max": 18
  },
  {
   "id": "BM:0AD760",
   "jp": "ダミー７３{end}",
-  "en": "",
+  "en": "ダミー７３{end}",
   "max": 18
  },
  {
   "id": "BM:0AD77C",
   "jp": "ダミー７４{end}",
-  "en": "",
+  "en": "ダミー７４{end}",
   "max": 18
  },
  {
   "id": "BM:0AD798",
   "jp": "ダミー７５{end}",
-  "en": "",
+  "en": "ダミー７５{end}",
   "max": 18
  },
  {
   "id": "BM:0AD7B4",
   "jp": "ダミー７６{end}",
-  "en": "",
+  "en": "ダミー７６{end}",
   "max": 18
  },
  {
   "id": "BM:0AD7D0",
   "jp": "ダミー７７{end}",
-  "en": "",
+  "en": "ダミー７７{end}",
   "max": 18
  },
  {
   "id": "BM:0AD7EC",
   "jp": "ダミー７８{end}",
-  "en": "",
+  "en": "ダミー７８{end}",
   "max": 18
  },
  {
   "id": "BM:0AD808",
   "jp": "ダミー７９{end}",
-  "en": "",
+  "en": "ダミー７９{end}",
   "max": 18
  }
 ]

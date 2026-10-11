@@ -2,49 +2,49 @@
  {
   "id": "BM:0A083E",
   "jp": "この仲魔はランクアップしません{n}　合体しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "This ally won't rank up.{n}Fuse it?{fb:0000}{end}",
   "max": 54
  },
  {
   "id": "BM:0A0876",
   "jp": "ランクアップする事があります{n}　合体しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "This ally may rank up.{n}Fuse it?{fb:0000}{end}",
   "max": 54
  },
  {
   "id": "BM:0A08AE",
   "jp": "合体させる仲魔を{n}　選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose an ally to fuse.{wait}{end}",
   "max": 38
  },
  {
   "id": "BM:0A08D6",
   "jp": "{partner}は{name}の{n}　けいけんちをかくとくした！{wait}{end}",
-  "en": "",
+  "en": "{partner} gained {name}'s experience!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A0902",
   "jp": "仲魔が１体もいません{wait}{end}",
-  "en": "",
+  "en": "You have no allies.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A091E",
   "jp": "この相手と戦いますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Fight this opponent?{fb:0000}{end}",
   "max": 30
  },
  {
   "id": "BM:0A093E",
   "jp": "々{num:FFE0:0001}になります{n}　いいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "That's {num:FFE0:0001} Macca.{n}Is that OK?{fb:0000}{end}",
   "max": 42
  },
  {
   "id": "BM:0A096A",
   "jp": "これいじょうメダルはふえません{n}　それでも続けますか？{fb:0001}{end}",
-  "en": "",
+  "en": "You can't get any more medals.{n}Continue anyway?{fb:0001}{end}",
   "max": 62
  },
  {
@@ -54,7 +54,7 @@
  {
   "id": "BM:0A09C2",
   "jp": "通信のじゅんびができていません{wait}{end}",
-  "en": "",
+  "en": "The link isn't ready.{wait}{end}",
   "max": 34
  },
  {
@@ -64,289 +64,289 @@
  {
   "id": "BM:0A0A02",
   "jp": "通信交換を行います{n}　交換が終わったらセーブします{wait}{end}",
-  "en": "",
+  "en": "Starting a link trade. The game will save after the trade.{wait}{end}",
   "max": 54
  },
  {
   "id": "BM:0A0A3A",
   "jp": "終了しました{wait}{end}",
-  "en": "",
+  "en": "Finished.{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:0A0A4E",
   "jp": "ちがうメニューを選んでいます{wait}{end}",
-  "en": "",
+  "en": "Different menus were chosen.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A0A72",
   "jp": "キャンセルされました{wait}{end}",
-  "en": "",
+  "en": "Canceled.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0A8E",
   "jp": "交換が終了しました{n}　続けて交換をしますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Trade complete.{n}Trade again?{fb:0000}{end}",
   "max": 50
  },
  {
   "id": "BM:0A0AC2",
   "jp": "親です{wait}{end}",
-  "en": "",
+  "en": "Host.{wait}{end}",
   "max": 10
  },
  {
   "id": "BM:0A0ACE",
   "jp": "子です{wait}{end}",
-  "en": "",
+  "en": "Guest.{wait}{end}",
   "max": 10
  },
  {
   "id": "BM:0A0ADA",
   "jp": "もらうのは{name}です{n}　いいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "You'll receive {name}.{n}Is that OK?{fb:0000}{end}",
   "max": 38
  },
  {
   "id": "BM:0A0B02",
   "jp": "この仲魔でいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "Choose this ally?{fb:0000}{end}",
   "max": 30
  },
  {
   "id": "BM:0A0B22",
   "jp": "ーーーー通信中うーーーーー{n}　ケーブルを抜かないでください{end}",
-  "en": "",
+  "en": "---- Link in progress ----{n}Please don't unplug the cable.{end}",
   "max": 62
  },
  {
   "id": "BM:0A0B62",
   "jp": "通信対戦を行うには{n}　セーブする　ひつようがあります{wait}{end}",
-  "en": "",
+  "en": "You need to save before a link battle.{wait}{end}",
   "max": 58
  },
  {
   "id": "BM:0A0B9E",
   "jp": "戦いを始めます{n}　ボタンをおしてください{wait}{end}",
-  "en": "",
+  "en": "The battle will begin. Press a button.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:0A0BCE",
   "jp": "続けて対戦しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Battle again?{fb:0000}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0BEA",
   "jp": "通信合体を行います{n}　合体が終わったらセーブします{wait}{end}",
-  "en": "",
+  "en": "Starting link fusion. The game will save after fusing.{wait}{end}",
   "max": 54
  },
  {
   "id": "BM:0A0C22",
   "jp": "合体します{n}　いいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "Ready to fuse.{n}Is that OK?{fb:0000}{end}",
   "max": 34
  },
  {
   "id": "BM:0A0C46",
   "jp": "セーブしないと対戦できません{wait}{end}",
-  "en": "",
+  "en": "You can't battle without saving.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A0C6A",
   "jp": "ーーーーーセーブ中ーーーーー{n}　でんげんを切らないでください{end}",
-  "en": "",
+  "en": "----- Saving -----{n}Please don't turn off the power.{end}",
   "max": 62
  },
  {
   "id": "BM:0A0CAA",
   "jp": "通算せいせき{n}　{num:FFE0:0000}戦{num:FFE0:0001}勝{num:FFE0:0002}敗{wait}{end}",
-  "en": "",
+  "en": "Record{n}{num:FFE0:0000} battles {num:FFE0:0001} wins {num:FFE0:0002} losses{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:0A0CDA",
   "jp": "仲魔を１体いじょう{n}　選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose at least 1 ally.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A0D06",
   "jp": "ここはケンガイなので{n}　デビホンがかけられない{wait}{end}",
-  "en": "",
+  "en": "You're out of range here, so the DeviPhone won't work.{wait}{end}",
   "max": 50
  },
  {
   "id": "BM:0A0D3A",
   "jp": "けいしょうできる魔法が{n}　ありません{wait}{end}",
-  "en": "",
+  "en": "There's no magic to inherit.{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A0D66",
   "jp": "コンボできる{n}　組み合わせがいません{end}",
-  "en": "",
+  "en": "No pairs{n}can do a combo.{end}",
   "max": 38
  },
  {
   "id": "BM:0A0D8E",
   "jp": "バトルネットに参加する{n}　仲魔を選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose an ally to enter the Battle Net.{wait}{end}",
   "max": 50
  },
  {
   "id": "BM:0A0DC2",
   "jp": "対戦相手を選んでください{end}",
-  "en": "",
+  "en": "Choose an opponent.{end}",
   "max": 26
  },
  {
   "id": "BM:0A0DDE",
   "jp": "クラスを選んでください{wait}{end}",
-  "en": "",
+  "en": "Choose a class.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0DFA",
   "jp": "何をしますか？{wait}{page}　あずける　　引き取る　　見る{end}",
-  "en": "",
+  "en": "What will you do?{wait}{page}Deposit         Withdraw      View{end}",
   "max": 50
  },
  {
   "id": "BM:0A0E2E",
   "jp": "これいじょうあずけられません{wait}{end}",
-  "en": "",
+  "en": "You can't leave any more.{wait}{end}",
   "max": 34
  },
  {
   "id": "BM:0A0E52",
   "jp": "何をしますか？{wait}{page}　仲魔を強くする{n}　仲魔に技をおぼえさせる{end}",
-  "en": "",
+  "en": "What will you do?{wait}{page}Make an ally stronger{n}Teach an ally a skill{end}",
   "max": 62
  },
  {
   "id": "BM:0A0E92",
   "jp": "誰もあずかってませんよ{wait}{end}",
-  "en": "",
+  "en": "I'm not looking after anyone.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0EAE",
   "jp": "どの訓練をしますか？{wait}{page}　スタミナ　　　かくとう　　魔法{n}　キントレ{end}",
-  "en": "",
+  "en": "Which training?{wait}{page}Stamina           Fighting        Magic{n}Workout{end}",
   "max": 70
  },
  {
   "id": "BM:0A0EF6",
   "jp": "訓練の長さを{n}　選んでください{wait}{page}　早い　　　ふつう　　　じっくり{end}",
-  "en": "",
+  "en": "Choose how long to train.{wait}{page}Fast          Normal         Thorough{end}",
   "max": 70
  },
  {
   "id": "BM:0A0F3E",
   "jp": "{f6}の訓練{wait}{end}",
-  "en": "",
+  "en": "{f6} training{wait}{end}",
   "max": 14
  },
  {
   "id": "BM:0A0F4E",
   "jp": "ここではまだ使えない{wait}{end}",
-  "en": "",
+  "en": "You can't use it here yet.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0F6A",
   "jp": "今は使う事ができない{wait}{end}",
-  "en": "",
+  "en": "Can't use it right now.{wait}{end}",
   "max": 26
  },
  {
   "id": "BM:0A0F86",
   "jp": "ヴィネセンター　　友だち{end}",
-  "en": "",
+  "en": "Vine Center            Friends{end}",
   "max": 26
  },
  {
   "id": "BM:0A0FA2",
   "jp": "{name}を手に入れた{wait}{end}",
-  "en": "",
+  "en": "Got {name}!{wait}{end}",
   "max": 18
  },
  {
   "id": "BM:0A0FB6",
   "jp": "キングクラスを{n}　入れる場所がありません{wait}{end}",
-  "en": "",
+  "en": "There's no room for a King-class ally.{wait}{end}",
   "max": 46
  },
  {
   "id": "BM:0A0FE6",
   "jp": "どこから取り出しますか？{speed:000F}{end}",
-  "en": "",
+  "en": "Take it out from where?{speed:000F}{end}",
   "max": 30
  },
  {
   "id": "BM:0A1006",
   "jp": "メダルを　{num:FFE0:0000}枚{n}　かくとくしました{wait}{end}",
-  "en": "",
+  "en": "Got {num:FFE0:0000} medals!{wait}{end}",
   "max": 42
  },
  {
   "id": "BM:0A1032",
   "jp": "{partner}が強くなります{n}　合体します、いいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "{partner} gets stronger.{n}Fuse now. Is that OK?{fb:0000}{end}",
   "max": 50
  },
  {
   "id": "BM:0A1066",
   "jp": "合体が終了しました{n}　続けて合体しますか？{fb:0000}{end}",
-  "en": "",
+  "en": "Fusion complete.{n}Fuse again?{fb:0000}{end}",
   "max": 50
  },
  {
   "id": "BM:0A109A",
   "jp": "ランクアップします{n}　してもいいですか？{fb:0000}{end}",
-  "en": "",
+  "en": "It will rank up.{n}Is that OK?{fb:0000}{end}",
   "max": 46
  },
  {
   "id": "BM:0A10C8",
   "jp": "ダークパレス{end}",
-  "en": "",
+  "en": "Dark Palace{end}",
   "max": 16
  },
  {
   "id": "BM:0A10D8",
   "jp": "学校{end}",
-  "en": "",
+  "en": "School{end}",
   "max": 8
  },
  {
   "id": "BM:0A10E0",
   "jp": "公園{end}",
-  "en": "",
+  "en": "Park{end}",
   "max": 8
  },
  {
   "id": "BM:0A10E8",
   "jp": "神社{end}",
-  "en": "",
+  "en": "Shrine{end}",
   "max": 8
  },
  {
   "id": "BM:0A10F0",
   "jp": "ピラミッド{end}",
-  "en": "",
+  "en": "Pyramid{end}",
   "max": 12
  },
  {
   "id": "BM:0A10FC",
   "jp": "エリューズニル{end}",
-  "en": "",
+  "en": "Eljudnir{end}",
   "max": 16
  },
  {
@@ -356,19 +356,19 @@
  {
   "id": "BM:0A1114",
   "jp": "ゲートタウン{end}",
-  "en": "",
+  "en": "Gate Town{end}",
   "max": 16
  },
  {
   "id": "BM:0A1124",
   "jp": "フロストタウン{end}",
-  "en": "",
+  "en": "Frost Town{end}",
   "max": 16
  },
  {
   "id": "BM:0A1134",
   "jp": "コロシアム{end}",
-  "en": "",
+  "en": "Colosseum{end}",
   "max": 12
  },
  {
@@ -380,19 +380,19 @@
  {
   "id": "BM:0A114C",
   "jp": "シュラの村{end}",
-  "en": "",
+  "en": "Sura Village{end}",
   "max": 12
  },
  {
   "id": "BM:0A1158",
   "jp": "デーバの村{end}",
-  "en": "",
+  "en": "Deva Village{end}",
   "max": 12
  },
  {
   "id": "BM:0A1164",
   "jp": "ゴーストタウン{end}",
-  "en": "",
+  "en": "Ghost Town{end}",
   "max": 16
  },
  {
@@ -404,265 +404,265 @@
  {
   "id": "BM:0A1180",
   "jp": "ベッドタウン{end}",
-  "en": "",
+  "en": "Bed Town{end}",
   "max": 16
  },
  {
   "id": "BM:0A1190",
   "jp": "カジノタウン{end}",
-  "en": "",
+  "en": "Casino Town{end}",
   "max": 16
  },
  {
   "id": "BM:0A11A0",
   "jp": "セントラルタウン{end}",
-  "en": "",
+  "en": "Central Town{end}",
   "max": 20
  },
  {
   "id": "BM:0A11B4",
   "jp": "ライトパレス{end}",
-  "en": "",
+  "en": "Light Palace{end}",
   "max": 16
  },
  {
   "id": "BM:0A11C4",
   "jp": "パンデモニウム{end}",
-  "en": "",
+  "en": "Pandemonium{end}",
   "max": 16
  },
  {
   "id": "BM:0A11D4",
   "jp": "マンション{end}",
-  "en": "",
+  "en": "Apartment{end}",
   "max": 12
  },
  {
   "id": "BM:0A11E0",
   "jp": "教室{end}",
-  "en": "",
+  "en": "Homeroom{end}",
   "max": 8
  },
  {
   "id": "BM:0A11E8",
   "jp": "地下ろう{end}",
-  "en": "",
+  "en": "Dungeon{end}",
   "max": 12
  },
  {
   "id": "BM:0A11F4",
   "jp": "温泉タウン{end}",
-  "en": "",
+  "en": "Spa Town{end}",
   "max": 12
  },
  {
   "id": "BM:0A1206",
   "jp": "原宿　　　：原宿{end}",
-  "en": "",
+  "en": "Harajuku: Harajuku{end}",
   "max": 18
  },
  {
   "id": "BM:0A121E",
   "jp": "原宿　　　：学校{end}",
-  "en": "",
+  "en": "Harajuku: School{end}",
   "max": 18
  },
  {
   "id": "BM:0A1236",
   "jp": "原宿　　　：公園{end}",
-  "en": "",
+  "en": "Harajuku: Park{end}",
   "max": 18
  },
  {
   "id": "BM:0A124E",
   "jp": "原宿　　　：神社{end}",
-  "en": "",
+  "en": "Harajuku: Shrine{end}",
   "max": 18
  },
  {
   "id": "BM:0A1262",
   "jp": "アイスランド　：アイスゲート{end}",
-  "en": "",
+  "en": "Ice Land: Ice Gate{end}",
   "max": 30
  },
  {
   "id": "BM:0A1282",
   "jp": "アイスランド　：ゲートタウン{end}",
-  "en": "",
+  "en": "Ice Land: Gate Town{end}",
   "max": 30
  },
  {
   "id": "BM:0A12A2",
   "jp": "アイスランド　：氷の平原{end}",
-  "en": "",
+  "en": "Ice Land: Ice Plains{end}",
   "max": 26
  },
  {
   "id": "BM:0A12BE",
   "jp": "アイスランド　：氷のどうくつ{end}",
-  "en": "",
+  "en": "Ice Land: Ice Cave{end}",
   "max": 30
  },
  {
   "id": "BM:0A12DE",
   "jp": "アイスランド　：フロストタウン{end}",
-  "en": "",
+  "en": "Ice Land: Frost Town{end}",
   "max": 34
  },
  {
   "id": "BM:0A1302",
   "jp": "アイスランド　：エリューズニル{end}",
-  "en": "",
+  "en": "Ice Land: Eljudnir{end}",
   "max": 34
  },
  {
   "id": "BM:0A1326",
   "jp": "アイスランド　：ぬけ道{end}",
-  "en": "",
+  "en": "Ice Land: Shortcut{end}",
   "max": 26
  },
  {
   "id": "BM:0A1342",
   "jp": "アイスランド　：かくし通路{end}",
-  "en": "",
+  "en": "Ice Land: Hidden Passage{end}",
   "max": 30
  },
  {
   "id": "BM:0A1362",
   "jp": "アイスランド　：かくし平原{end}",
-  "en": "",
+  "en": "Ice Land: Hidden Plains{end}",
   "max": 30
  },
  {
   "id": "BM:0A1382",
   "jp": "マーブルランド：マーブルゲート{end}",
-  "en": "",
+  "en": "Marble Land: Marble Gate{end}",
   "max": 34
  },
  {
   "id": "BM:0A13A6",
   "jp": "マーブルランド：サウスロード{end}",
-  "en": "",
+  "en": "Marble Land: South Road{end}",
   "max": 30
  },
  {
   "id": "BM:0A13C6",
   "jp": "マーブルランド：コロシアム{end}",
-  "en": "",
+  "en": "Marble Land: Colosseum{end}",
   "max": 30
  },
  {
   "id": "BM:0A13E6",
   "jp": "マーブルランド：イーストブリッジ{end}",
-  "en": "",
+  "en": "Marble Land: East Bridge{end}",
   "max": 34
  },
  {
   "id": "BM:0A140A",
   "jp": "マーブルランド：ラセツの村{end}",
-  "en": "",
+  "en": "Marble Land: Rasetsu Village{end}",
   "max": 30
  },
  {
   "id": "BM:0A142A",
   "jp": "マーブルランド：ウエストロック{end}",
-  "en": "",
+  "en": "Marble Land: West Rock{end}",
   "max": 34
  },
  {
   "id": "BM:0A144E",
   "jp": "マーブルランド：シュラの村{end}",
-  "en": "",
+  "en": "Marble Land: Sura Village{end}",
   "max": 30
  },
  {
   "id": "BM:0A146E",
   "jp": "マーブルランド：ノースヒルズ{end}",
-  "en": "",
+  "en": "Marble Land: North Hills{end}",
   "max": 30
  },
  {
   "id": "BM:0A148E",
   "jp": "マーブルランド：デーバの村{end}",
-  "en": "",
+  "en": "Marble Land: Deva Village{end}",
   "max": 30
  },
  {
   "id": "BM:0A14AE",
   "jp": "サンドランド　：ゴーストタウン{end}",
-  "en": "",
+  "en": "Sand Land: Ghost Town{end}",
   "max": 34
  },
  {
   "id": "BM:0A14D2",
   "jp": "サンドランド　：スターロード{end}",
-  "en": "",
+  "en": "Sand Land: Star Road{end}",
   "max": 30
  },
  {
   "id": "BM:0A14F2",
   "jp": "サンドランド　：砂漠のはかば{end}",
-  "en": "",
+  "en": "Sand Land: Desert Graveyard{end}",
   "max": 30
  },
  {
   "id": "BM:0A1512",
   "jp": "サンドランド　：大砂漠{end}",
-  "en": "",
+  "en": "Sand Land: Great Desert{end}",
   "max": 26
  },
  {
   "id": "BM:0A152E",
   "jp": "サンドランド　：ピラミッド{end}",
-  "en": "",
+  "en": "Sand Land: Pyramid{end}",
   "max": 30
  },
  {
   "id": "BM:0A154C",
   "jp": "フォレストランド：フォレストゲート{end}",
-  "en": "",
+  "en": "Forest Land: Forest Gate{end}",
   "max": 36
  },
  {
   "id": "BM:0A1570",
   "jp": "フォレストランド：南の森{end}",
-  "en": "",
+  "en": "Forest Land: South Forest{end}",
   "max": 28
  },
  {
   "id": "BM:0A158C",
   "jp": "フォレストランド：ベッドタウン{end}",
-  "en": "",
+  "en": "Forest Land: Bed Town{end}",
   "max": 32
  },
  {
   "id": "BM:0A15AC",
   "jp": "フォレストランド：しつげんの森{end}",
-  "en": "",
+  "en": "Forest Land: Marsh Forest{end}",
   "max": 32
  },
  {
   "id": "BM:0A15CC",
   "jp": "フォレストランド：まやかしの森{end}",
-  "en": "",
+  "en": "Forest Land: Illusion Forest{end}",
   "max": 32
  },
  {
   "id": "BM:0A15EC",
   "jp": "フォレストランド：ようじゅの森{end}",
-  "en": "",
+  "en": "Forest Land: Demon Tree Forest{end}",
   "max": 32
  },
  {
   "id": "BM:0A160C",
   "jp": "ファイアーランド：カジノタウン{end}",
-  "en": "",
+  "en": "Fire Land: Casino Town{end}",
   "max": 32
  },
  {
   "id": "BM:0A162C",
   "jp": "ファイアーランド：ジゴク温泉{end}",
-  "en": "",
+  "en": "Fire Land: Hell Hot Springs{end}",
   "max": 32
  },
  {
@@ -674,61 +674,61 @@
  {
   "id": "BM:0A1668",
   "jp": "セントラルランド：セントラルゲート{end}",
-  "en": "",
+  "en": "Central Land: Central Gate{end}",
   "max": 36
  },
  {
   "id": "BM:0A168C",
   "jp": "セントラルランド：セントラルタウン{end}",
-  "en": "",
+  "en": "Central Land: Central Town{end}",
   "max": 36
  },
  {
   "id": "BM:0A16B0",
   "jp": "セントラルランド：ダークパレス{end}",
-  "en": "",
+  "en": "Central Land: Dark Palace{end}",
   "max": 32
  },
  {
   "id": "BM:0A16D4",
   "jp": "サンクチュアリ：ライトパレス{end}",
-  "en": "",
+  "en": "Sanctuary: Light Palace{end}",
   "max": 32
  },
  {
   "id": "BM:0A16F8",
   "jp": "サンクチュアリ：ライトパレス１F{end}",
-  "en": "",
+  "en": "Sanctuary: Light Palace 1F{end}",
   "max": 36
  },
  {
   "id": "BM:0A1720",
   "jp": "サンクチュアリ：ライトパレス２F{end}",
-  "en": "",
+  "en": "Sanctuary: Light Palace 2F{end}",
   "max": 36
  },
  {
   "id": "BM:0A1748",
   "jp": "サンクチュアリ：ライトパレス３F{end}",
-  "en": "",
+  "en": "Sanctuary: Light Palace 3F{end}",
   "max": 36
  },
  {
   "id": "BM:0A176E",
   "jp": "サンクチュアリ：ライトパレス４F{end}",
-  "en": "",
+  "en": "Sanctuary: Light Palace 4F{end}",
   "max": 34
  },
  {
   "id": "BM:0A1790",
   "jp": "ディープホール：パンデモニウム　１F{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium 1F{end}",
   "max": 40
  },
  {
   "id": "BM:0A17B8",
   "jp": "ディープホール：パンデモニウム　B１{end}",
-  "en": "",
+  "en": "Deep Hole: Pandemonium B1{end}",
   "max": 40
  }
 ]

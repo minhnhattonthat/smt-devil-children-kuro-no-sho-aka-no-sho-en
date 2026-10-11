@@ -6,13 +6,13 @@
  {
   "id": "BM:0AFE22",
   "jp": "きりかえ　{end}",
-  "en": "",
+  "en": "Switch{end}",
   "max": 14
  },
  {
   "id": "BM:0AFE48",
   "jp": "キングライザ－※※{end}",
-  "en": "",
+  "en": "King Riser**{end}",
   "max": 20
  },
  {
@@ -22,31 +22,31 @@
  {
   "id": "BM:0AFE70",
   "jp": "ならびかえ{end}",
-  "en": "",
+  "en": "Arrange{end}",
   "max": 12
  },
  {
   "id": "BM:0AFE7C",
   "jp": "別れる{end}",
-  "en": "",
+  "en": "Dismiss{end}",
   "max": 8
  },
  {
   "id": "BM:0AFE84",
   "jp": "ヴィネセンタ－{end}",
-  "en": "",
+  "en": "Vine Center{end}",
   "max": 16
  },
  {
   "id": "BM:0AFE94",
   "jp": "よびだす{end}",
-  "en": "",
+  "en": "Summon{end}",
   "max": 12
  },
  {
   "id": "BM:0AFEA4",
   "jp": "おくる{end}",
-  "en": "",
+  "en": "Send{end}",
   "max": 8
  },
  {
@@ -56,19 +56,19 @@
  {
   "id": "BM:0AFEC4",
   "jp": "みる{end}",
-  "en": "",
+  "en": "View{end}",
   "max": 8
  },
  {
   "id": "BM:0AFED4",
   "jp": "ディスク{end}",
-  "en": "",
+  "en": "Disc{end}",
   "max": 12
  },
  {
   "id": "BM:0AFEF8",
   "jp": "ノ－ト{end}",
-  "en": "",
+  "en": "Notebook{end}",
   "max": 8
  },
  {
@@ -78,7 +78,7 @@
  {
   "id": "BM:0AFF10",
   "jp": "ガ－ド　{end}",
-  "en": "",
+  "en": "Guard{end}",
   "max": 12
  },
  {
@@ -96,7 +96,7 @@
  {
   "id": "BM:0AFF40",
   "jp": "ラック　{end}",
-  "en": "",
+  "en": "Luck{end}",
   "max": 12
  },
  {
@@ -106,7 +106,7 @@
  {
   "id": "BM:0AFF74",
   "jp": "ヴィネコン{end}",
-  "en": "",
+  "en": "Vinecom{end}",
   "max": 12
  },
  {
@@ -124,67 +124,67 @@
  {
   "id": "BM:0AFFA4",
   "jp": "オプション{end}",
-  "en": "",
+  "en": "Options{end}",
   "max": 12
  },
  {
   "id": "BM:0AFFB0",
   "jp": "セット{end}",
-  "en": "",
+  "en": "Set{end}",
   "max": 8
  },
  {
   "id": "BM:0AFFBC",
   "jp": "ステ－タス{end}",
-  "en": "",
+  "en": "Status{end}",
   "max": 12
  },
  {
   "id": "BM:0AFFC8",
   "jp": "けんさく　こうもく{end}",
-  "en": "",
+  "en": "Search Options{end}",
   "max": 20
  },
  {
   "id": "BM:0AFFE2",
   "jp": "しゅぞく　　で　けんさく{end}",
-  "en": "",
+  "en": "Search by Race{end}",
   "max": 26
  },
  {
   "id": "BM:0AFFFC",
   "jp": "名前　　　で　けんさく{end}",
-  "en": "",
+  "en": "Search by Name{end}",
   "max": 24
  },
  {
   "id": "BM:0B0016",
   "jp": "レベル　　　で　けんさく{end}",
-  "en": "",
+  "en": "Search by Level{end}",
   "max": 26
  },
  {
   "id": "BM:0B0030",
   "jp": "コンボ　　　で　けんさく{end}",
-  "en": "",
+  "en": "Search by Combo{end}",
   "max": 26
  },
  {
   "id": "BM:0B004A",
   "jp": "ぞくせい　　で　けんさく{end}",
-  "en": "",
+  "en": "Search by Attribute{end}",
   "max": 26
  },
  {
   "id": "BM:0B0064",
   "jp": "※※ヴィネセンタ－※※{end}",
-  "en": "",
+  "en": "**Vine Center**{end}",
   "max": 24
  },
  {
   "id": "BM:0B007C",
   "jp": "※※デビダス※※{end}",
-  "en": "",
+  "en": "**Devidas**{end}",
   "max": 20
  },
  {
@@ -194,13 +194,13 @@
  {
   "id": "BM:0B009A",
   "jp": "使う{end}",
-  "en": "",
+  "en": "Use{end}",
   "max": 6
  },
  {
   "id": "BM:0B00A4",
   "jp": "いれかえ{end}",
-  "en": "",
+  "en": "Swap{end}",
   "max": 10
  },
  {
@@ -210,7 +210,7 @@
  {
   "id": "BM:0B00B8",
   "jp": "仲魔を{end}",
-  "en": "",
+  "en": "Allies{end}",
   "max": 8
  },
  {
@@ -224,7 +224,7 @@
  {
   "id": "BM:0B00E4",
   "jp": "しょうひ　P：{end}",
-  "en": "",
+  "en": "P Cost:{end}",
   "max": 16
  },
  {
@@ -234,19 +234,19 @@
  {
   "id": "BM:0B0104",
   "jp": "システム{end}",
-  "en": "",
+  "en": "System{end}",
   "max": 12
  },
  {
   "id": "BM:0B011C",
   "jp": "今いる世界{end}",
-  "en": "",
+  "en": "World{end}",
   "max": 12
  },
  {
   "id": "BM:0B0128",
   "jp": "最後の場所{end}",
-  "en": "",
+  "en": "Location{end}",
   "max": 12
  },
  {
@@ -256,31 +256,31 @@
  {
   "id": "BM:0B0140",
   "jp": "プレイ時間{end}",
-  "en": "",
+  "en": "Play Time{end}",
   "max": 12
  },
  {
   "id": "BM:0B0158",
   "jp": "セ－ブ{end}",
-  "en": "",
+  "en": "Save{end}",
   "max": 8
  },
  {
   "id": "BM:0B0160",
   "jp": "せってい：システム{end}",
-  "en": "",
+  "en": "Settings: System{end}",
   "max": 20
  },
  {
   "id": "BM:0B0174",
   "jp": "メッセ－ジ{end}",
-  "en": "",
+  "en": "Message{end}",
   "max": 12
  },
  {
   "id": "BM:0B0188",
   "jp": "はやい{end}",
-  "en": "",
+  "en": "Fast{end}",
   "max": 8
  },
  {
@@ -290,19 +290,19 @@
  {
   "id": "BM:0B01B0",
   "jp": "おそい{end}",
-  "en": "",
+  "en": "Slow{end}",
   "max": 8
  },
  {
   "id": "BM:0B01C4",
   "jp": "アニメ{end}",
-  "en": "",
+  "en": "Anim.{end}",
   "max": 8
  },
  {
   "id": "BM:0B01D8",
   "jp": "オン／　オフ{end}",
-  "en": "",
+  "en": "On / Off{end}",
   "max": 16
  },
  {
@@ -328,13 +328,13 @@
  {
   "id": "BM:0B0238",
   "jp": "ぎんこう{end}",
-  "en": "",
+  "en": "Bank{end}",
   "max": 12
  },
  {
   "id": "BM:0B0244",
   "jp": "あずけるきんがく{end}",
-  "en": "",
+  "en": "Deposit Amount{end}",
   "max": 20
  },
  {
@@ -352,13 +352,13 @@
  {
   "id": "BM:0B0284",
   "jp": "セ－ブ　{end}",
-  "en": "",
+  "en": "Save{end}",
   "max": 12
  },
  {
   "id": "BM:0B0290",
   "jp": "せってい{end}",
-  "en": "",
+  "en": "Settings{end}",
   "max": 12
  },
  {
@@ -368,7 +368,7 @@
  {
   "id": "BM:0B02A8",
   "jp": "デビホン{end}",
-  "en": "",
+  "en": "DeviPhone{end}",
   "max": 12
  },
  {
@@ -386,7 +386,7 @@
  {
   "id": "BM:0B02D8",
   "jp": "せってい　{end}",
-  "en": "",
+  "en": "Settings{end}",
   "max": 12
  },
  {
@@ -412,7 +412,7 @@
  {
   "id": "BM:0B0324",
   "jp": "ともだち{end}",
-  "en": "",
+  "en": "Friends{end}",
   "max": 12
  },
  {
@@ -430,7 +430,7 @@
  {
   "id": "BM:0B034C",
   "jp": "こ：{end}",
-  "en": "",
+  "en": "Count:{end}",
   "max": 8
  },
  {
@@ -444,31 +444,31 @@
  {
   "id": "BM:0B0374",
   "jp": "ウェブネット{end}",
-  "en": "",
+  "en": "Webnet{end}",
   "max": 16
  },
  {
   "id": "BM:0B0384",
   "jp": "やめる{end}",
-  "en": "",
+  "en": "Cancel{end}",
   "max": 8
  },
  {
   "id": "BM:0B0394",
   "jp": "ニックネ－ム{end}",
-  "en": "",
+  "en": "Nickname{end}",
   "max": 16
  },
  {
   "id": "BM:0B03A4",
   "jp": "バトルネット{end}",
-  "en": "",
+  "en": "Battle Net{end}",
   "max": 16
  },
  {
   "id": "BM:0B03B4",
   "jp": "電話{end}",
-  "en": "",
+  "en": "Phone{end}",
   "max": 8
  },
  {
@@ -486,7 +486,7 @@
  {
   "id": "BM:0B03EC",
   "jp": "くんれん{end}",
-  "en": "",
+  "en": "Training{end}",
   "max": 12
  },
  {
@@ -496,7 +496,7 @@
  {
   "id": "BM:0B0410",
   "jp": "場所を選んでください{end}",
-  "en": "",
+  "en": "Choose a slot.{end}",
   "max": 24
  },
  {
@@ -518,13 +518,13 @@
  {
   "id": "BM:0B045C",
   "jp": "ワザ{end}",
-  "en": "",
+  "en": "Skill{end}",
   "max": 8
  },
  {
   "id": "BM:0B0464",
   "jp": "パラメ－タ{end}",
-  "en": "",
+  "en": "Stats{end}",
   "max": 12
  },
  {
@@ -558,7 +558,7 @@
  {
   "id": "BM:0B04D0",
   "jp": "マイ{end}",
-  "en": "",
+  "en": "My{end}",
   "max": 8
  },
  {
@@ -568,13 +568,13 @@
  {
   "id": "BM:0B04E4",
   "jp": "ビッグ{end}",
-  "en": "",
+  "en": "Big{end}",
   "max": 8
  },
  {
   "id": "BM:0B04EE",
   "jp": "スモ－ル{end}",
-  "en": "",
+  "en": "Small{end}",
   "max": 10
  },
  {
@@ -584,7 +584,7 @@
  {
   "id": "BM:0B0508",
   "jp": "ひんし　　{end}",
-  "en": "",
+  "en": "Dying{end}",
   "max": 12
  },
  {
@@ -594,25 +594,25 @@
  {
   "id": "BM:0B0522",
   "jp": "たいせん{end}",
-  "en": "",
+  "en": "Battle{end}",
   "max": 10
  },
  {
   "id": "BM:0B0530",
   "jp": "こうかん{end}",
-  "en": "",
+  "en": "Trade{end}",
   "max": 12
  },
  {
   "id": "BM:0B053E",
   "jp": "合体{end}",
-  "en": "",
+  "en": "Fuse{end}",
   "max": 6
  },
  {
   "id": "BM:0B054C",
   "jp": "※※ウェブネット※※{end}",
-  "en": "",
+  "en": "**Webnet**{end}",
   "max": 22
  },
  {
@@ -634,7 +634,7 @@
  {
   "id": "BM:0B05BA",
   "jp": "リセット{end}",
-  "en": "",
+  "en": "Reset{end}",
   "max": 10
  },
  {
@@ -648,91 +648,91 @@
  {
   "id": "BM:0B05FE",
   "jp": "どこに入れますか？{end}",
-  "en": "",
+  "en": "Put it where?{end}",
   "max": 22
  },
  {
   "id": "BM:0B0614",
   "jp": "クラス　：{end}",
-  "en": "",
+  "en": "Class:{end}",
   "max": 12
  },
  {
   "id": "BM:0B0620",
   "jp": "ぞくせい：{end}",
-  "en": "",
+  "en": "Attribute:{end}",
   "max": 12
  },
  {
   "id": "BM:0B062C",
   "jp": "しゅぞく：{end}",
-  "en": "",
+  "en": "Race:{end}",
   "max": 12
  },
  {
   "id": "BM:0B0638",
   "jp": "せいじょう{end}",
-  "en": "",
+  "en": "Normal{end}",
   "max": 12
  },
  {
   "id": "BM:0B0644",
   "jp": "ハッピ－{end}",
-  "en": "",
+  "en": "Happy{end}",
   "max": 12
  },
  {
   "id": "BM:0B0650",
   "jp": "かんでん{end}",
-  "en": "",
+  "en": "Shocked{end}",
   "max": 12
  },
  {
   "id": "BM:0B065C",
   "jp": "とうけつ{end}",
-  "en": "",
+  "en": "Frozen{end}",
   "max": 12
  },
  {
   "id": "BM:0B0668",
   "jp": "バクダン{end}",
-  "en": "",
+  "en": "Bomb{end}",
   "max": 12
  },
  {
   "id": "BM:0B0674",
   "jp": "ちんもく{end}",
-  "en": "",
+  "en": "Mute{end}",
   "max": 12
  },
  {
   "id": "BM:0B0680",
   "jp": "こんらん{end}",
-  "en": "",
+  "en": "Confused{end}",
   "max": 12
  },
  {
   "id": "BM:0B068C",
   "jp": "ゆうわく{end}",
-  "en": "",
+  "en": "Charmed{end}",
   "max": 12
  },
  {
   "id": "BM:0B0698",
   "jp": "すいみん{end}",
-  "en": "",
+  "en": "Asleep{end}",
   "max": 12
  },
  {
   "id": "BM:0B06A4",
   "jp": "マヒ{end}",
-  "en": "",
+  "en": "Paralyze{end}",
   "max": 8
  },
  {
   "id": "BM:0B06AC",
   "jp": "どく{end}",
-  "en": "",
+  "en": "Poison{end}",
   "max": 8
  },
  {
@@ -742,67 +742,67 @@
  {
   "id": "BM:0B06BC",
   "jp": "コモン{end}",
-  "en": "",
+  "en": "Common{end}",
   "max": 8
  },
  {
   "id": "BM:0B06C4",
   "jp": "エリ－ト{end}",
-  "en": "",
+  "en": "Elite{end}",
   "max": 12
  },
  {
   "id": "BM:0B06D0",
   "jp": "ゼネラル{end}",
-  "en": "",
+  "en": "General{end}",
   "max": 12
  },
  {
   "id": "BM:0B06DC",
   "jp": "キング{end}",
-  "en": "",
+  "en": "King{end}",
   "max": 8
  },
  {
   "id": "BM:0B06E4",
   "jp": "カミ{end}",
-  "en": "",
+  "en": "God{end}",
   "max": 8
  },
  {
   "id": "BM:0B06EC",
   "jp": "アクマ{end}",
-  "en": "",
+  "en": "Akuma{end}",
   "max": 8
  },
  {
   "id": "BM:0B06F4",
   "jp": "テンシ{end}",
-  "en": "",
+  "en": "Divine{end}",
   "max": 8
  },
  {
   "id": "BM:0B06FC",
   "jp": "オニ{end}",
-  "en": "",
+  "en": "Oni{end}",
   "max": 8
  },
  {
   "id": "BM:0B0704",
   "jp": "レイ{end}",
-  "en": "",
+  "en": "Specter{end}",
   "max": 8
  },
  {
   "id": "BM:0B070C",
   "jp": "リュウ{end}",
-  "en": "",
+  "en": "Draco{end}",
   "max": 8
  },
  {
   "id": "BM:0B0714",
   "jp": "ヨウマ{end}",
-  "en": "",
+  "en": "Yoma{end}",
   "max": 8
  },
  {
@@ -812,7 +812,7 @@
  {
   "id": "BM:0B0728",
   "jp": "ボス{end}",
-  "en": "",
+  "en": "Boss{end}",
   "max": 8
  },
  {
@@ -822,37 +822,37 @@
  {
   "id": "BM:0B073C",
   "jp": "ニチ{end}",
-  "en": "",
+  "en": "Sun{end}",
   "max": 8
  },
  {
   "id": "BM:0B0744",
   "jp": "ツキ{end}",
-  "en": "",
+  "en": "Moon{end}",
   "max": 8
  },
  {
   "id": "BM:0B0750",
   "jp": "ミズ{end}",
-  "en": "",
+  "en": "Water{end}",
   "max": 8
  },
  {
   "id": "BM:0B0758",
   "jp": "モク{end}",
-  "en": "",
+  "en": "Wood{end}",
   "max": 8
  },
  {
   "id": "BM:0B0760",
   "jp": "キン{end}",
-  "en": "",
+  "en": "Metal{end}",
   "max": 8
  },
  {
   "id": "BM:0B0768",
   "jp": "ツチ{end}",
-  "en": "",
+  "en": "Earth{end}",
   "max": 8
  },
  {
@@ -862,25 +862,25 @@
  {
   "id": "BM:0B0780",
   "jp": "デビライザ－{end}",
-  "en": "",
+  "en": "Deviliser{end}",
   "max": 16
  },
  {
   "id": "BM:0B0790",
   "jp": "キングライザ－{end}",
-  "en": "",
+  "en": "King Riser{end}",
   "max": 16
  },
  {
   "id": "BM:0B07A0",
   "jp": "くんれんじょ{end}",
-  "en": "",
+  "en": "Training Area{end}",
   "max": 16
  },
  {
   "id": "BM:0B07BC",
   "jp": "※※バトルネット※※{end}",
-  "en": "",
+  "en": "**Battle Net**{end}",
   "max": 22
  },
  {
@@ -918,7 +918,7 @@
  {
   "id": "BM:0B0898",
   "jp": "かち／　まけ{end}",
-  "en": "",
+  "en": "Wins / Losses{end}",
   "max": 16
  },
  {
@@ -932,7 +932,7 @@
  {
   "id": "BM:0B08E4",
   "jp": "メダル{end}",
-  "en": "",
+  "en": "Medals{end}",
   "max": 8
  },
  {
@@ -946,13 +946,13 @@
  {
   "id": "BM:0B08FC",
   "jp": "つぎのLVまで{end}",
-  "en": "",
+  "en": "To Next LV{end}",
   "max": 16
  },
  {
   "id": "BM:0B090C",
   "jp": "こ　もっています　{end}",
-  "en": "",
+  "en": " owned{end}",
   "max": 20
  },
  {
@@ -1014,19 +1014,19 @@
  {
   "id": "BM:0B0A08",
   "jp": "つうさんせいせき{end}",
-  "en": "",
+  "en": "Total Record{end}",
   "max": 20
  },
  {
   "id": "BM:0B0A1E",
   "jp": "せん{end}",
-  "en": "",
+  "en": "Bouts{end}",
   "max": 6
  },
  {
   "id": "BM:0B0A34",
   "jp": "しょう{end}",
-  "en": "",
+  "en": "Wins{end}",
   "max": 8
  },
  {
@@ -1036,13 +1036,13 @@
  {
   "id": "BM:0B0A60",
   "jp": "ヴィネセンタ－の仲魔{end}",
-  "en": "",
+  "en": "Vine Center Allies{end}",
   "max": 22
  },
  {
   "id": "BM:0B0A76",
   "jp": "ディスクの仲魔{end}",
-  "en": "",
+  "en": "Disc Allies{end}",
   "max": 18
  },
  {
@@ -1052,7 +1052,7 @@
  {
   "id": "BM:0B0AA4",
   "jp": "／キングライザ－{end}",
-  "en": "",
+  "en": "/King Riser{end}",
   "max": 18
  },
  {
@@ -1070,7 +1070,7 @@
  {
   "id": "BM:0B0AF4",
   "jp": "ばんごう{end}",
-  "en": "",
+  "en": "Number{end}",
   "max": 12
  },
  {
@@ -1080,37 +1080,37 @@
  {
   "id": "BM:0B0B20",
   "jp": "しゅぞく　{end}",
-  "en": "",
+  "en": "Race{end}",
   "max": 12
  },
  {
   "id": "BM:0B0B2C",
   "jp": "名前　　{end}",
-  "en": "",
+  "en": "Name{end}",
   "max": 12
  },
  {
   "id": "BM:0B0B38",
   "jp": "レベル　　{end}",
-  "en": "",
+  "en": "Level{end}",
   "max": 12
  },
  {
   "id": "BM:0B0B44",
   "jp": "コンボ　　{end}",
-  "en": "",
+  "en": "Combo{end}",
   "max": 12
  },
  {
   "id": "BM:0B0B50",
   "jp": "てんのしょ{end}",
-  "en": "",
+  "en": "Sky Book{end}",
   "max": 12
  },
  {
   "id": "BM:0B0B5C",
   "jp": "ちのしょ　{end}",
-  "en": "",
+  "en": "Earth Book{end}",
   "max": 12
  },
  {
@@ -1136,7 +1136,7 @@
  {
   "id": "BM:0B0BB4",
   "jp": "すてる{end}",
-  "en": "",
+  "en": "Discard{end}",
   "max": 8
  }
 ]

@@ -2,499 +2,499 @@
  {
   "id": "BM:0A6234",
   "jp": "世界の全ての{n}言葉を話せる{n}伝説の鳥{n}あらゆる{n}ぶじゅつを{n}身につけている{end}",
-  "en": "",
+  "en": "Legendary bird{n}fluent in all{n}languages and{n}master of all{n}martial arts.{end}",
   "max": 76
  },
  {
   "id": "BM:0A6280",
   "jp": "お金を持って{n}いない人は{n}ぜったいに{n}乗せてくれない{n}さんずのかわの{n}船のせんどう{end}",
-  "en": "",
+  "en": "Won't ever give{n}a ride to anyone{n}without money.{n}The ferryman of{n}the River Styx.{end}",
   "max": 84
  },
  {
   "id": "BM:0A62D4",
   "jp": "カゲの様に{n}音もたてずに{n}しのびよってきて{n}タマシイを食べる{n}ジゴクの犬{n}口から火をはく{end}",
-  "en": "",
+  "en": "Silent as a{n}shadow, it sneaks{n}up and eats souls.{n}A hound of Hell{n}that breathes fire.{end}",
   "max": 92
  },
  {
   "id": "BM:0A6330",
   "jp": "グングニルという{n}ヤリを持つ{n}きょじんの神{n}８本足の{n}馬に乗って{n}空をかけ抜ける{end}",
-  "en": "",
+  "en": "A giant god with{n}the spear Gungnir.{n}He rides an{n}8-legged horse{n}across the sky.{end}",
   "max": 84
  },
  {
   "id": "BM:0A6384",
   "jp": "世界中の{n}全ての風を{n}生み出して{n}操っている{n}大きなワシ{end}",
-  "en": "",
+  "en": "Makes and{n}rules every{n}wind in the{n}world. A{n}big eagle.{end}",
   "max": 60
  },
  {
   "id": "BM:0A63C0",
   "jp": "氷を操る{n}ちょっぴり{n}おませさんな{n}プチフロストの{n}女の子{end}",
-  "en": "",
+  "en": "A Petit Frost{n}girl who uses{n}ice. A little{n}precocious.{end}",
   "max": 60
  },
  {
   "id": "BM:0A63FC",
   "jp": "ようしゃない{n}冷たい氷の{n}心を持った{n}アイスランドの{n}王様{end}",
-  "en": "",
+  "en": "The merciless{n}Ice Land ruler,{n}with a cold{n}heart of ice.{end}",
   "max": 60
  },
  {
   "id": "BM:0A6438",
   "jp": "おのれのちえで{n}せんらんの世に{n}新しい風を{n}まき起こす{n}ラセツ族の王様{end}",
-  "en": "",
+  "en": "His wisdom{n}stirs new winds{n}in a war-torn{n}world. The{n}Rasetsu King.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6480",
   "jp": "おのれの力を信じ{n}熱き炎のごとく{n}もえ上がる{n}シュラ族の王様{end}",
-  "en": "",
+  "en": "Trusts in his{n}own power and{n}blazes like fire.{n}The Sura King.{end}",
   "max": 64
  },
  {
   "id": "BM:0A64C0",
   "jp": "おのれの{n}信じる道を{n}イナズマの様な{n}いしでつき通す{n}デーバ族の王様{end}",
-  "en": "",
+  "en": "He sticks to his{n}path with a will{n}like lightning.{n}The Deva King.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6508",
   "jp": "この世の全てを{n}破壊するために{n}生まれた{n}きょうぼうな{n}オオカミ{end}",
-  "en": "",
+  "en": "A savage wolf{n}born to destroy{n}everything in{n}this world.{end}",
   "max": 68
  },
  {
   "id": "BM:0A654C",
   "jp": "闇にひそむ{n}無敵のニンジャ{n}魔界で最も{n}恐れられている{n}イナゴのデビル{end}",
-  "en": "",
+  "en": "Invincible ninja{n}of darkness and{n}Makai's most{n}feared locust{n}Devil.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6594",
   "jp": "ラクダに乗って{n}大声でしゃべる{n}とてもハデ好きな{n}女デビル{end}",
-  "en": "",
+  "en": "A showy female{n}Devil who rides{n}a camel and{n}talks loudly.{end}",
   "max": 60
  },
  {
   "id": "BM:0A65D0",
   "jp": "小さな体に{n}大きなゆうきと{n}正義の心を持った{n}聖なるライオン{end}",
-  "en": "",
+  "en": "A holy lion. Small{n}but brave, with{n}a heart of justice.{end}",
   "max": 64
  },
  {
   "id": "BM:0A6610",
   "jp": "牛の頭を持った{n}炎の息をはく天使{n}魔力で人を{n}ゆうわくする{end}",
-  "en": "",
+  "en": "Ox-headed{n}fire-breathing{n}angel. Tempts{n}people by magic.{end}",
   "max": 60
  },
  {
   "id": "BM:0A664C",
   "jp": "その名を呼ぶと{n}世界がはめつ{n}すると言われる{n}ほどすさまじい{n}力を持っている{n}天使{end}",
-  "en": "",
+  "en": "Its name alone{n}is said to doom{n}the world. An{n}angel of truly{n}terrible power.{end}",
   "max": 84
  },
  {
   "id": "BM:0A66A0",
   "jp": "もえる炎の心と{n}いちずな正義の{n}心を持った{n}こうげきてきな{n}スフィンクス{end}",
-  "en": "",
+  "en": "A fierce Sphinx{n}with a fiery{n}heart and a{n}devoted sense{n}of justice.{end}",
   "max": 76
  },
  {
   "id": "BM:0A66EC",
   "jp": "人間の悪い心に{n}つけこんで{n}人が争う{n}すがたを見て{n}よろこぶデビル{end}",
-  "en": "",
+  "en": "A Devil who{n}preys on human{n}evil and loves{n}to see people{n}fight.{end}",
   "max": 68
  },
  {
   "id": "BM:0A6730",
   "jp": "もえる炎の心と{n}きれいな水の様に{n}じゅんすいな{n}心を持った{n}スフィンクス{end}",
-  "en": "",
+  "en": "A Sphinx with a{n}fiery heart, and{n}a heart as pure{n}as clear water.{end}",
   "max": 76
  },
  {
   "id": "BM:0A677C",
   "jp": "地震や火山の{n}ふんかなどを{n}つかさどる{n}熱血天使{n}太陽をも{n}しはいする{end}",
-  "en": "",
+  "en": "A hot-blooded{n}angel. Rules{n}quakes and{n}eruptions,{n}even the sun.{end}",
   "max": 72
  },
  {
   "id": "BM:0A67C4",
   "jp": "様ざまな事を{n}知っている{n}クールなドクター{n}天使たちに{n}ちえをさずける{end}",
-  "en": "",
+  "en": "A cool doctor{n}who knows lots.{n}He shares his{n}wisdom with{n}the angels.{end}",
   "max": 72
  },
  {
   "id": "BM:0A680C",
   "jp": "全ての天使と{n}ダテンシの中で{n}最もいだいな{n}力を持つと{n}言われるデビル{end}",
-  "en": "",
+  "en": "Said to be the{n}mightiest of all{n}angels and{n}fallen angels.{n}A Devil.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6854",
   "jp": "たくさんの{n}遠い世界を{n}同時に見る{n}事ができる{n}邪悪なデビル{end}",
-  "en": "",
+  "en": "An evil Devil{n}able to see{n}many distant{n}worlds{n}all at once.{end}",
   "max": 64
  },
  {
   "id": "BM:0A6894",
   "jp": "平和な世界を{n}目指して{n}全ての天使に{n}仕事をあたえる{n}とてもえらい天使{end}",
-  "en": "",
+  "en": "For world peace,{n}he assigns work{n}to all angels.{n}A very great{n}angel.{end}",
   "max": 72
  },
  {
   "id": "BM:0A68DC",
   "jp": "時間をこえる{n}力を持ち{n}新たな時代を{n}作り出す{n}最強の{n}スフィンクス{end}",
-  "en": "",
+  "en": "Able to cross{n}time and bring{n}a new era.{n}The strongest{n}Sphinx.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6924",
   "jp": "見た目は７才の{n}女の子だが{n}地球をつくった{n}女神{n}その命は{n}地球そのもの{end}",
-  "en": "",
+  "en": "A goddess who{n}looks 7 but{n}made the Earth.{n}Her life is the{n}Earth itself.{end}",
   "max": 76
  },
  {
   "id": "BM:0A6970",
   "jp": "恐ろしいほどの{n}剣のたつじん{n}赤い馬に乗り{n}赤い鎧で身を守る{n}デビルのきし{end}",
-  "en": "",
+  "en": "A fearsome{n}swordmaster on{n}a red horse, in{n}red armor.{n}A Devil knight.{end}",
   "max": 76
  },
  {
   "id": "BM:0A69BC",
   "jp": "見た目は子ども{n}だが、すさまじい{n}強さをほこる{n}デビルのきし{n}ベリトやゼブル{n}とは兄弟{end}",
-  "en": "",
+  "en": "Looks young, but{n}this Devil knight{n}is mighty{n}strong. Brother{n}of Berith{n}and Zebul.{end}",
   "max": 88
  },
  {
   "id": "BM:0A6A14",
   "jp": "世界の全てを{n}見つめている{n}最強のデビル{n}人のすがたになる{n}事もある{end}",
-  "en": "",
+  "en": "Watches all{n}the world. The{n}strongest Devil.{n}Can take{n}human form.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6A5C",
   "jp": "魔界のゲートを{n}守る門番で{n}昔からメシア{n}たちのパートナー{n}としてもかつやく{n}してきたデビル{end}",
-  "en": "",
+  "en": "The gatekeeper{n}of Makai's gate.{n}Since long ago,{n}it has served{n}as partner to{n}the Messiahs.{end}",
   "max": 96
  },
  {
   "id": "BM:0A6ABC",
   "jp": "メシアを守る{n}強い力を{n}身につけた{n}一人前の{n}ケルベロス{end}",
-  "en": "",
+  "en": "A Cerberus{n}grown strong{n}enough to{n}guard the{n}Messiah.{end}",
   "max": 60
  },
  {
   "id": "BM:0A6AF8",
   "jp": "魔界の力を{n}きゅうしゅうして{n}ジゴクの力を{n}使える様になった{n}ケルベロス{end}",
-  "en": "",
+  "en": "Having absorbed{n}Makai's power,{n}this Cerberus{n}can now use{n}Hell's power.{end}",
   "max": 76
  },
  {
   "id": "BM:0A6B44",
   "jp": "魔界に敵は{n}いないと言われる{n}ほどの強さ{n}神をもこえる{n}きゅうきょくの{n}ケルベロス{end}",
-  "en": "",
+  "en": "Said to have no{n}equal in Makai.{n}The ultimate{n}Cerberus,{n}stronger than{n}the gods.{end}",
   "max": 84
  },
  {
   "id": "BM:0A6B98",
   "jp": "ワシとライオンの{n}体を持つ{n}す早いデビル{n}美しいピンク色の{n}体をしている{end}",
-  "en": "",
+  "en": "A swift Devil,{n}half eagle and{n}half lion, with{n}a lovely pink{n}body.{end}",
   "max": 76
  },
  {
   "id": "BM:0A6BE4",
   "jp": "メシアを守る{n}強い力を{n}身につけた{n}一人前の{n}グリフォン{end}",
-  "en": "",
+  "en": "A Gryphon{n}grown strong{n}enough to{n}guard the{n}Messiah.{end}",
   "max": 60
  },
  {
   "id": "BM:0A6C20",
   "jp": "魔界の力を{n}きゅうしゅうして{n}ジゴクの力を{n}使える様になった{n}グリフォン{end}",
-  "en": "",
+  "en": "Having absorbed{n}Makai's power,{n}this Gryphon{n}can now use{n}Hell's power.{end}",
   "max": 76
  },
  {
   "id": "BM:0A6C6C",
   "jp": "魔界に敵は{n}いないと言われる{n}ほどの強さ{n}神をもこえる{n}きゅうきょくの{n}グリフォン{end}",
-  "en": "",
+  "en": "Said to have no{n}equal in Makai.{n}The ultimate{n}Gryphon,{n}stronger than{n}the gods.{end}",
   "max": 84
  },
  {
   "id": "BM:0A6CC0",
   "jp": "世界をほろぼす{n}きょだいな{n}伝説のケモノ{n}大きなツノで{n}全てをつきさす{end}",
-  "en": "",
+  "en": "World-ending{n}giant beast of{n}legend. Its big{n}horns pierce{n}everything.{end}",
   "max": 72
  },
  {
   "id": "BM:0A6D08",
   "jp": "恐ろしいほど{n}食よくがあり{n}世界の光を{n}食いつくすと{n}言われる{n}海のドラゴン{end}",
-  "en": "",
+  "en": "A sea dragon{n}so hungry it's{n}said to eat up{n}all the light{n}in the world.{end}",
   "max": 80
  },
  {
   "id": "BM:0A6D58",
   "jp": "もえる体が{n}あまりにも{n}熱くなりすぎて{n}真っ白に{n}かがやくドラゴン{end}",
-  "en": "",
+  "en": "A dragon whose{n}burning body{n}got so hot it{n}glows pure white.{end}",
   "max": 68
  },
  {
   "id": "BM:0A6D9C",
   "jp": "世界の終わりを{n}ラッパをふいて{n}知らせてくれる{n}生き物に{n}命をあたえる{n}美しい天使{end}",
-  "en": "",
+  "en": "Her trumpet{n}heralds the{n}world's end. A{n}lovely angel who{n}gives life to{n}creatures.{end}",
   "max": 84
  },
  {
   "id": "BM:0A6DF0",
   "jp": "神の言葉を{n}記録する{n}真実を伝える天使{n}天使の中では{n}最も大きい{end}",
-  "en": "",
+  "en": "Records God's{n}word and tells{n}the truth. The{n}biggest angel.{end}",
   "max": 68
  },
  {
   "id": "BM:0A6E34",
   "jp": "魔界の力で{n}きょだい化した{n}大きなモグラ{n}つぶらなヒトミの{n}しりょくは{n}０。１しかない{end}",
-  "en": "",
+  "en": "A big mole made{n}huge by Makai's{n}power. Its cute{n}beady eyes can{n}barely see.{end}",
   "max": 88
  },
  {
   "id": "BM:0A6E8C",
   "jp": "かみのけを{n}ほしがる{n}ふしぎなデビル{n}決めぜりふは{n}お前の{n}かみのけだー！{end}",
-  "en": "",
+  "en": "A weird Devil{n}that wants hair.{n}Its catchphrase:{n}\"Gimme your{n}hair!\"{end}",
   "max": 76
  },
  {
   "id": "BM:0A6ED8",
   "jp": "人間の後ろを{n}カゲの様に{n}ついてくるデビル{n}最初は小さいけど{n}だんだんと{n}人の形になる{end}",
-  "en": "",
+  "en": "A shadow-like{n}Devil that trails{n}people. Small at{n}first, it slowly{n}takes human form.{end}",
   "max": 88
  },
  {
   "id": "BM:0A6F30",
   "jp": "深い海の中に住む{n}オウムガイ{n}魔界の力で{n}大きくなった{n}せいかくは{n}とてもおとなしい{end}",
-  "en": "",
+  "en": "A deep-sea{n}nautilus grown{n}big by Makai's{n}power. It is very{n}gentle.{end}",
   "max": 88
  },
  {
   "id": "BM:0A6F88",
   "jp": "子どもたちの事を{n}心配している{n}お父さんタヌキ{n}おどりがとくいで{n}街行くみんなを{n}よろこばせている{end}",
-  "en": "",
+  "en": "A dad tanuki{n}who worries about{n}his kids. He's a{n}great dancer who{n}cheers up all the{n}townsfolk.{end}",
   "max": 100
  },
  {
   "id": "BM:0A6FEC",
   "jp": "イースターとうに{n}住んでいた石ぞう{n}魔界には旅行に{n}来た{n}ちゃいろのボウシ{n}がお気に入り{end}",
-  "en": "",
+  "en": "A stone statue{n}from Easter{n}Island, visiting{n}Makai on a trip.{n}Loves its brown{n}hat.{end}",
   "max": 92
  },
  {
   "id": "BM:0A7048",
   "jp": "ビワの木の実が{n}大好き{n}自分が不幸を{n}呼ぶことを{n}気にしている{n}シャイなデビル{end}",
-  "en": "",
+  "en": "Loves loquat{n}fruit. A shy{n}Devil, worried{n}that it brings{n}bad luck.{end}",
   "max": 80
  },
  {
   "id": "BM:0A7098",
   "jp": "首がのびる女の{n}デビル{n}昼間は首を{n}ちぢめておいて{n}人間といっしょに{n}生活している{end}",
-  "en": "",
+  "en": "A female Devil{n}whose neck{n}stretches. By day{n}she shrinks it{n}and lives with{n}humans.{end}",
   "max": 84
  },
  {
   "id": "BM:0A70EC",
   "jp": "コイビトに{n}だまされて{n}やけになっていた{n}女のデビル{n}ヘビになったけど{n}本当はきれいな娘{end}",
-  "en": "",
+  "en": "Tricked by a{n}lover, she went{n}wild. A female{n}Devil, now a{n}snake but truly{n}a pretty girl.{end}",
   "max": 92
  },
  {
   "id": "BM:0A7148",
   "jp": "夜中にとんできて{n}ヒツジや牛を{n}食べてしまう{n}デビル{n}すばしっこくて{n}とらえるのは大変{end}",
-  "en": "",
+  "en": "A Devil that{n}flies in at night{n}to eat sheep and{n}cows. Very quick,{n}it's hard to{n}catch.{end}",
   "max": 88
  },
  {
   "id": "BM:0A71A0",
   "jp": "正義を守る{n}真面目な{n}けいさつかん{n}悪いデビルに{n}ケイボウで{n}おしおきをする{end}",
-  "en": "",
+  "en": "A serious cop{n}who protects{n}justice. Punishes{n}bad Devils with{n}his nightstick.{end}",
   "max": 80
  },
  {
   "id": "BM:0A71F0",
   "jp": "あばれんぼうの{n}オニのコンビ{n}修行中の{n}エンノオヅヌに{n}会ってから{n}カイシンした{end}",
-  "en": "",
+  "en": "A rowdy Oni duo.{n}They reformed{n}after meeting{n}En no Ozunu{n}during his{n}training.{end}",
   "max": 84
  },
  {
   "id": "BM:0A7244",
   "jp": "女の子にモテモテ{n}のオンミョウジ{n}強力なジュツを{n}操る{n}実はすごく{n}負けず嫌い{end}",
-  "en": "",
+  "en": "An onmyoji the{n}girls love, who{n}wields mighty{n}spells. Secretly{n}hates to lose.{end}",
   "max": 80
  },
  {
   "id": "BM:0A7294",
   "jp": "魔界のゾウリムシ{n}たちの王様{n}りっぱなおヒゲが{n}チャームポイント{n}ローブの中身は{n}だれも知らない{end}",
-  "en": "",
+  "en": "King of Makai's{n}paramecia. His{n}great mustache is{n}his charm. No one{n}knows what's{n}under his robe.{end}",
   "max": 100
  },
  {
   "id": "BM:0A72F8",
   "jp": "アーサー王に{n}仕えていた{n}聖なる魔剣{n}一太刀ふられると{n}テツをも切りさく{n}するどい切れ味{end}",
-  "en": "",
+  "en": "The holy magic{n}sword that served{n}King Arthur. Its{n}keen edge can{n}cut iron with{n}one swing.{end}",
   "max": 92
  },
  {
   "id": "BM:0A7354",
   "jp": "頭のよさを{n}見こまれて{n}センニンに{n}弟子入りした{n}本当はゆっくりと{n}ツリしたいらしい{end}",
-  "en": "",
+  "en": "Taken on as a{n}hermit's pupil{n}for his smarts.{n}But he'd really{n}rather fish in{n}peace.{end}",
   "max": 88
  },
  {
   "id": "BM:0A73AC",
   "jp": "月からやってきた{n}おひめ様{n}いっしょに月で{n}くらしてくれる{n}ステキな男の人を{n}探している{end}",
-  "en": "",
+  "en": "A princess from{n}the Moon, seeking{n}a wonderful man{n}to live with her{n}on the Moon.{end}",
   "max": 92
  },
  {
   "id": "BM:0A7408",
   "jp": "家事を手伝って{n}くれるよいデビル{n}ただしちょっと{n}気まぐれな所が{n}あるのが{n}タマにキズ{end}",
-  "en": "",
+  "en": "A good Devil{n}that helps with{n}the housework.{n}Its one flaw is{n}that it's a bit{n}fickle.{end}",
   "max": 88
  },
  {
   "id": "BM:0A7460",
   "jp": "雷を操る{n}とても強い{n}神様たちの王{n}強力な雷で{n}なみいる敵を{n}けちらす{end}",
-  "en": "",
+  "en": "Mighty king of{n}the gods who{n}rules thunder{n}to scatter{n}all foes.{end}",
   "max": 72
  },
  {
   "id": "BM:0A74A8",
   "jp": "大地をゆたかに{n}するいだいな神{n}とても強い力を{n}持っているが{n}ぼうりょくは{n}嫌い{end}",
-  "en": "",
+  "en": "A great deity{n}who enriches{n}the land. Very{n}powerful, but{n}hates violence.{end}",
   "max": 84
  },
  {
   "id": "BM:0A74FC",
   "jp": "開発中{end}",
-  "en": "",
+  "en": "開発中{end}",
   "max": 8
  },
  {
   "id": "BM:0A7954",
   "jp": "ケイヤクしたデビルを呼び出す{n}魔法のケンジュウ！{n}ただし、キングクラスのデビルや{n}持ち主のレベルよりさらに{n}レベルの高いデビルは呼べない{end}",
-  "en": "",
+  "en": "A magic gun that summons{n}Devils under contract!{n}But it can't call King-class{n}Devils, or Devils of a{n}higher level than its owner.{end}",
   "max": 140
  },
  {
   "id": "BM:0A79E0",
   "jp": "ケイヤクしたデビルを呼び出す{n}魔法のケンジュウ！{n}デビライザーとことなり{n}全てのクラスのデビルを呼べる{end}",
-  "en": "",
+  "en": "A magic gun that summons{n}Devils under contract!{n}Unlike the Deviliser, it{n}can call every class.{end}",
   "max": 104
  },
  {
   "id": "BM:0A7A48",
   "jp": "魔界へワープする力を持つ{n}ふしぎなツノ{end}",
-  "en": "",
+  "en": "A strange horn that{n}warps you to Makai.{end}",
   "max": 40
  },
  {
   "id": "BM:0A7A70",
   "jp": "魔界へワープする力を持つ{n}ふしぎな宝石{end}",
-  "en": "",
+  "en": "A strange gem that{n}warps you to Makai.{end}",
   "max": 40
  },
  {
   "id": "BM:0A7A98",
   "jp": "ノルンのプログラムを{n}起動させるカギ{end}",
-  "en": "",
+  "en": "A key that activates{n}the Norn program.{end}",
   "max": 40
  },
  {
   "id": "BM:0A7AC0",
   "jp": "デビルを記録できる{n}最新式のポケットパソコン{n}ライザーやパソコンと{n}リンクして、ライザーの中の{n}仲魔を入れ替える事もできる{end}",
-  "en": "",
+  "en": "A state-of-the-art pocket{n}computer that stores Devils.{n}Link it to a Riser or a PC{n}to swap the allies{n}in your Riser.{end}",
   "max": 124
  },
  {
   "id": "BM:0A7B3C",
   "jp": "出会ったデビルや仲魔にした{n}デビルのデータを記録する{n}データベースプログラム{end}",
-  "en": "",
+  "en": "A database program that{n}records data on Devils you've{n}met and made allies.{end}",
   "max": 80
  },
  {
   "id": "BM:0A7B8C",
   "jp": "魔界でも使えるケイタイ電話{n}電波のとどく所なら{n}どこにいてもヴィネセンターへ{n}アクセスができる{end}",
-  "en": "",
+  "en": "A cell phone that works in{n}Makai too. Anywhere with{n}a signal, it can access{n}the Vine Center.{end}",
   "max": 96
  },
  {
   "id": "BM:0A7BEC",
   "jp": "ケイヤクしたデビルの登録を{n}してくれるかんりセンター{n}{end}",
-  "en": "",
+  "en": "A center that registers{n}and manages your Devils.{n}{end}",
   "max": 56
  },
  {
   "id": "BM:0A7C24",
   "jp": "魔界の魔力が集まる場所{n}メシアのツノや、メシアのヒトミの{n}力を安定させて{n}安全なテレポートをさせる{end}",
-  "en": "",
+  "en": "A spot where Makai's magic{n}gathers. It stabilizes{n}Messiah Horns and Eyes{n}for safe teleports.{end}",
   "max": 100
  },
  {
   "id": "BM:0A7C88",
   "jp": "２体の仲魔を合体させて{n}仲魔を成長させたり{n}新しい仲魔を生み出す{n}事ができる{end}",
-  "en": "",
+  "en": "Fuse two allies to help{n}an ally grow, or to{n}create a new ally.{end}",
   "max": 80
  },
  {
   "id": "BM:0A7CD8",
   "jp": "二つのセーブデータを使って{n}対戦や仲魔の交換・合体を{n}行う事ができるプログラム{end}",
-  "en": "",
+  "en": "A program that uses two{n}save files to battle, or to{n}trade and fuse allies.{end}",
   "max": 80
  },
  {
   "id": "BM:0A7D28",
   "jp": "他のヴィネセンターにいる{n}ナゾのデビル使いとネットで{n}対戦する事ができる{end}",
-  "en": "",
+  "en": "Battle mysterious Devil{n}tamers at other Vine{n}Centers over the net.{end}",
   "max": 76
  },
  {
   "id": "BM:0A7D74",
   "jp": "バトルネットとウェブネットで{n}使われるバーチャルケンジュウ{n}デビライザーとちがい、レベルや{n}クラスのせいげんがない{end}",
-  "en": "",
+  "en": "A virtual gun used in{n}Battle Net and Webnet.{n}Unlike the Deviliser, it{n}has no level or class limits.{end}",
   "max": 116
  },
  {
   "id": "BM:0A7DE8",
   "jp": "聖なるライオンを連れし時{n}仲魔をきたえし場所に入り{n}エンブレムをさしだせば{n}その効力はあきらかになる{end}",
-  "en": "",
+  "en": "With the holy lion, enter{n}where allies train, offer{n}the emblem, and its power{n}shall be revealed.{end}",
   "max": 104
  },
  {
   "id": "BM:0A7E50",
   "jp": "ラグナロクをねがいし{n}２人のデビルをしたがえて{n}美しい調べが流れる場所で{n}天使のふえをふき鳴らす時{n}大天使はよみがえるだろう{end}",
-  "en": "",
+  "en": "Lead two Devils who wish{n}for Ragnarok to where{n}a lovely melody flows, and{n}blow the angel's flute:{n}the Archangel shall revive.{end}",
   "max": 128
  },
  {
   "id": "BM:0A7ED0",
   "jp": "兄弟をしたがえて、深き{n}闇のそこに立ち、呪文の{n}言葉をとなえれば、別れた{n}兄弟がそこに集う{n}ホーリーチルドレン{end}",
-  "en": "",
+  "en": "With your brother, stand{n}in deep darkness and{n}chant the spell: parted{n}brothers gather there.{n}Holy Children.{end}",
   "max": 112
  },
  {
   "id": "BM:0A7F40",
   "jp": "運命が定まりし後{n}闇と光の大いなる使者を{n}したがえ明るいキュウデンの外{n}でケイヤクの言葉をとなえよ{n}その時、神に出会えるだろう{end}",
-  "en": "",
+  "en": "Once fate is set, lead the{n}great envoys of dark and{n}light out of the bright{n}palace. Speak the contract{n}and you'll meet a god.{end}",
   "max": 128
  },
  {
   "id": "BM:0A7FC0",
   "jp": "まいおりたメシア{end}",
-  "en": "",
+  "en": "Messiah Descended{end}",
   "max": 20
  },
  {
   "id": "BM:0A7FD4",
   "jp": "暗闇につつまれた魔界{n}そこに落ちた者は決して{n}戻って来れないと言われる{n}デビルたちが恐れる場所{end}",
-  "en": "",
+  "en": "A pitch-dark part of Makai.{n}It's said none who fall in{n}ever come back. A place{n}Devils fear.{end}",
   "max": 96
  },
  {
@@ -504,223 +504,223 @@
  {
   "id": "BM:0A81A4",
   "jp": "対戦を始めます{n}ロード後にメモリーカードが抜かれると{n}対戦が無効になるので{n}注意してください{end}",
-  "en": "",
+  "en": "Starting battle.{n}If a Memory Card is pulled{n}after loading, the battle{n}is void. Be careful!{end}",
   "max": 96
  },
  {
   "id": "BM:0A8204",
   "jp": "交換を始めます{n}ロード後にメモリーカードが抜かれると{n}交換が無効になるので{n}注意してください{end}",
-  "en": "",
+  "en": "Starting trade.{n}If a Memory Card is pulled{n}after loading, the trade{n}is void. Be careful!{end}",
   "max": 96
  },
  {
   "id": "BM:0A8264",
   "jp": "合体を始めます{n}ロード後にメモリーカードが抜かれると{n}合体が無効になるので{n}注意してください{end}",
-  "en": "",
+  "en": "Starting fusion.{n}If a Memory Card is pulled{n}after loading, the fusion{n}is void. Be careful!{end}",
   "max": 96
  },
  {
   "id": "BM:0A82C4",
   "jp": "１Pゲームタイプせんたく：スロット１{end}",
-  "en": "",
+  "en": "1P Game Type Select: Slot 1{end}",
   "max": 40
  },
  {
   "id": "BM:0A82EC",
   "jp": "２Pゲームタイプせんたく：スロット１{end}",
-  "en": "",
+  "en": "2P Game Type Select: Slot 1{end}",
   "max": 40
  },
  {
   "id": "BM:0A8314",
   "jp": "１Pゲームタイプせんたく：スロット２{end}",
-  "en": "",
+  "en": "1P Game Type Select: Slot 2{end}",
   "max": 40
  },
  {
   "id": "BM:0A833C",
   "jp": "２Pゲームタイプせんたく：スロット２{end}",
-  "en": "",
+  "en": "2P Game Type Select: Slot 2{end}",
   "max": 40
  },
  {
   "id": "BM:0A8364",
   "jp": "１P合体ロード：ゲームタイプせんたく{end}",
-  "en": "",
+  "en": "1P Fusion Load: Game Type Select{end}",
   "max": 40
  },
  {
   "id": "BM:0A838C",
   "jp": "２P合体ロード：ゲームタイプせんたく{end}",
-  "en": "",
+  "en": "2P Fusion Load: Game Type Select{end}",
   "max": 40
  },
  {
   "id": "BM:0A83B4",
   "jp": "へんしゅうのゲームタイプせんたく{end}",
-  "en": "",
+  "en": "Edit: Game Type Select{end}",
   "max": 36
  },
  {
   "id": "BM:0A83D8",
   "jp": "１Pはどちらの書のデータを使いますか？{end}",
-  "en": "",
+  "en": "Which book's data will 1P use?{end}",
   "max": 40
  },
  {
   "id": "BM:0A8400",
   "jp": "２Pはどちらの書のデータを使いますか？{end}",
-  "en": "",
+  "en": "Which book's data will 2P use?{end}",
   "max": 40
  },
  {
   "id": "BM:0A8428",
   "jp": "黒の書{n}赤の書{end}",
-  "en": "",
+  "en": "Black{n}Red{end}",
   "max": 16
  },
  {
   "id": "BM:0A8438",
   "jp": "１Pのロード：スロットせんたく{end}",
-  "en": "",
+  "en": "1P Load: Slot Select{end}",
   "max": 32
  },
  {
   "id": "BM:0A8458",
   "jp": "２Pのロード：スロットせんたく{end}",
-  "en": "",
+  "en": "2P Load: Slot Select{end}",
   "max": 32
  },
  {
   "id": "BM:0A8478",
   "jp": "１P交換ロード：スロットせんたく{end}",
-  "en": "",
+  "en": "1P Trade Load: Slot Select{end}",
   "max": 36
  },
  {
   "id": "BM:0A849C",
   "jp": "２P交換ロード：スロットせんたく{end}",
-  "en": "",
+  "en": "2P Trade Load: Slot Select{end}",
   "max": 36
  },
  {
   "id": "BM:0A84C0",
   "jp": "１P合体ロード：スロットせんたく{end}",
-  "en": "",
+  "en": "1P Fusion Load: Slot Select{end}",
   "max": 36
  },
  {
   "id": "BM:0A84E4",
   "jp": "２P合体ロード：スロットせんたく{end}",
-  "en": "",
+  "en": "2P Fusion Load: Slot Select{end}",
   "max": 36
  },
  {
   "id": "BM:0A8508",
   "jp": "へんしゅうのスロットせんたく{end}",
-  "en": "",
+  "en": "Edit: Slot Select{end}",
   "max": 32
  },
  {
   "id": "BM:0A8528",
   "jp": "１Pが使うデータをロードします{n}１Pはどちらのスロットを使いますか？{end}",
-  "en": "",
+  "en": "Loading the data for 1P.{n}Which slot will 1P use?{end}",
   "max": 72
  },
  {
   "id": "BM:0A8570",
   "jp": "２Pが使うデータをロードします{n}２Pはどちらのスロットを使いますか？{end}",
-  "en": "",
+  "en": "Loading the data for 2P.{n}Which slot will 2P use?{end}",
   "max": 72
  },
  {
   "id": "BM:0A85B8",
   "jp": "スロット１{n}スロット２{end}",
-  "en": "",
+  "en": "Slot 1{n}Slot 2{end}",
   "max": 24
  },
  {
   "id": "BM:0A85D0",
   "jp": "１P対戦ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "1P Battle Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A85F0",
   "jp": "１P対戦ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "1P Battle Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A8610",
   "jp": "２P対戦ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "2P Battle Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A8630",
   "jp": "２P対戦ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "2P Battle Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A8650",
   "jp": "１P交換ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "1P Trade Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A8670",
   "jp": "１P交換ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "1P Trade Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A8690",
   "jp": "２P交換ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "2P Trade Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A86B0",
   "jp": "２P交換ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "2P Trade Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A86D0",
   "jp": "１P合体ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "1P Fusion Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A86F0",
   "jp": "１P合体ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "1P Fusion Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A8710",
   "jp": "２P合体ロード・黒：スロット１{end}",
-  "en": "",
+  "en": "2P Fusion Load (Black): Slot 1{end}",
   "max": 32
  },
  {
   "id": "BM:0A8730",
   "jp": "２P合体ロード・黒：スロット２{end}",
-  "en": "",
+  "en": "2P Fusion Load (Black): Slot 2{end}",
   "max": 32
  },
  {
   "id": "BM:0A8750",
   "jp": "へんしゅうロード・黒：スロット１{end}",
-  "en": "",
+  "en": "Edit Load (Black): Slot 1{end}",
   "max": 36
  },
  {
   "id": "BM:0A8774",
   "jp": "へんしゅうロード・黒：スロット２{end}",
-  "en": "",
+  "en": "Edit Load (Black): Slot 2{end}",
   "max": 36
  }
 ]

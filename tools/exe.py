@@ -79,6 +79,37 @@ def strings(d, records=True):
     return out
 
 
+LABEL_TABLE_B = 0x800BE2D4   # speaker-label pointers (face id -> name), B_MAIN
+LABEL_COUNT = 0x6A           # entries past this are unrelated pointer data (docs/names.md)
+
+
+def label_pool(d):
+    """(table offset, [(slot offset, string offset)], pool start, pool end) for the speaker-label table.
+
+    The label strings are referenced only through this table, so the build may repack them anywhere inside
+    [start, end) and repoint the slots."""
+    global _B_MAIN
+    if _B_MAIN is None:
+        _B_MAIN = (TREE / 'B_MAIN.EXE').read_bytes()
+    bt = LABEL_TABLE_B - BASE
+    btarg = [struct.unpack_from('<I', _B_MAIN, bt + 4 * i)[0] - BASE for i in range(LABEL_COUNT)]
+    bstart = min(btarg)
+    bend = max(t + text.decode(_B_MAIN, t)[1] for t in btarg)
+    sig = _B_MAIN[bstart:bend]
+    start = d.find(sig)
+    assert start >= 0, 'label pool not found'
+    delta = start - bstart
+    want = [t + delta + BASE for t in btarg]
+    raw = b''.join(struct.pack('<I', w) for w in want)
+    tab = d.find(raw)
+    assert tab >= 0 and tab % 4 == 0, 'label table not found'
+    slots = [(tab + 4 * i, want[i] - BASE) for i in range(LABEL_COUNT)]
+    end = bend + delta
+    while end % 4:
+        end += 1
+    return tab, slots, start, end
+
+
 BATTLES = (('BB', 'B_BATTLE.BIN'), ('RB', 'R_BATTLE.BIN'))  # overlays at 0x80170000, no record tables known
 
 

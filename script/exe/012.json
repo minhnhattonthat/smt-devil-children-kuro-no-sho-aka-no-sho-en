@@ -2,44 +2,51 @@
  {
   "id": "BM:0AE840",
   "jp": "フランケン{end}",
-  "en": "",
-  "max": 12
+  "en": "Franken{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE84C",
   "jp": "パラレル・スス{end}",
-  "en": "",
-  "max": 16
+  "en": "Parallel Susu{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE85C",
   "jp": "サンドドラゴン{end}",
-  "en": "",
-  "max": 16
+  "en": "Sand Dragon{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE86C",
   "jp": "ネコマタ{end}",
-  "en": "",
-  "max": 12
+  "en": "Nekomata{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE878",
   "jp": "ヒッポウ{end}",
-  "en": "",
-  "max": 12
+  "en": "Bi Fang{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE884",
   "jp": "ヘアリージャック{end}",
-  "en": "",
-  "max": 20
+  "en": "Hairy Jack{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE898",
   "jp": "ヴェータラ{end}",
-  "en": "",
-  "max": 12
+  "en": "Vetala{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8A4",
@@ -48,325 +55,365 @@
  {
   "id": "BM:0AE8B0",
   "jp": "ネクベト{end}",
-  "en": "",
-  "max": 12
+  "en": "Nekhbet{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8BC",
   "jp": "ミズチ{end}",
-  "en": "",
-  "max": 8
+  "en": "Mizuchi{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8C4",
   "jp": "ユキオンナ{end}",
-  "en": "",
-  "max": 12
+  "en": "Yuki-onna{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8D0",
   "jp": "大魔王{end}",
-  "en": "",
-  "max": 8
+  "en": "Great Demon King{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8D8",
   "jp": "キュウビのキツネ{end}",
-  "en": "",
-  "max": 20
+  "en": "Kyubi no Kitsune{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8EC",
   "jp": "ピフリュス{end}",
-  "en": "",
-  "max": 12
+  "en": "Picollus{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE8F8",
   "jp": "アルケー{end}",
-  "en": "",
-  "max": 12
+  "en": "Arche{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE904",
   "jp": "デュナミス{end}",
-  "en": "",
-  "max": 12
+  "en": "Dynamis{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE910",
   "jp": "キュリオテス{end}",
-  "en": "",
-  "max": 16
+  "en": "Kuriotes{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE920",
   "jp": "ニタニタ{end}",
-  "en": "",
-  "max": 12
+  "en": "Nitanita{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE92C",
   "jp": "ヒポグリフ{end}",
-  "en": "",
-  "max": 12
+  "en": "Hippogriff{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE938",
   "jp": "オルトロス{end}",
-  "en": "",
-  "max": 12
+  "en": "Orthrus{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE944",
   "jp": "スカルクラウン{end}",
-  "en": "",
-  "max": 16
+  "en": "Skull Crown{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE954",
   "jp": "ブラックラジャー{end}",
-  "en": "",
-  "max": 20
+  "en": "Black Raja{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE968",
   "jp": "ハーピー{end}",
-  "en": "",
-  "max": 12
+  "en": "Harpy{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE974",
   "jp": "ネッシー{end}",
-  "en": "",
-  "max": 12
+  "en": "Nessie{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE980",
   "jp": "コトダマ{end}",
-  "en": "",
-  "max": 12
+  "en": "Kotodama{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE98C",
   "jp": "デービーくん{end}",
-  "en": "",
-  "max": 16
+  "en": "DB-kun{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE99C",
   "jp": "ネコのナマモノ{end}",
-  "en": "",
-  "max": 16
+  "en": "Neko no Namamono{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE9AC",
   "jp": "タヌキのナマモノ{end}",
-  "en": "",
-  "max": 20
+  "en": "Tanuki no Namamono{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE9C0",
   "jp": "デビダスマスター{end}",
-  "en": "",
-  "max": 20
+  "en": "Devidas Master{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE9D4",
   "jp": "ぶんぶくちゃがま{end}",
-  "en": "",
-  "max": 20
+  "en": "Bunbuku Chagama{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE9E8",
   "jp": "モアイ{end}",
-  "en": "",
-  "max": 8
+  "en": "Moai{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AE9F0",
   "jp": "きょうあくピエロ{end}",
-  "en": "",
-  "max": 20
+  "en": "Vicious Pierrot{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA04",
   "jp": "プロフェッサーO{end}",
-  "en": "",
-  "max": 20
+  "en": "Professor O{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA18",
   "jp": "ドッペルゲンガー{end}",
-  "en": "",
-  "max": 20
+  "en": "Doppelganger{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA2C",
   "jp": "エンノオヅヌ{end}",
-  "en": "",
-  "max": 16
+  "en": "En no Ozunu{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA3C",
   "jp": "アベノセイメイ{end}",
-  "en": "",
-  "max": 16
+  "en": "Abe no Seimei{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA4C",
   "jp": "アーサー{end}",
-  "en": "",
-  "max": 12
+  "en": "Arthur{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA58",
   "jp": "ゲンシテンソン{end}",
-  "en": "",
-  "max": 16
+  "en": "Genshi Tenson{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA68",
   "jp": "カズマ{end}",
-  "en": "",
-  "max": 8
+  "en": "Kazuma{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA70",
   "jp": "コージー{end}",
-  "en": "",
-  "max": 12
+  "en": "Koji{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA7C",
   "jp": "ヘラ{end}",
-  "en": "",
-  "max": 8
+  "en": "Hera{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA84",
   "jp": "イザナギ{end}",
-  "en": "",
-  "max": 12
+  "en": "Izanagi{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA90",
   "jp": "ゼウス{end}",
-  "en": "",
-  "max": 8
+  "en": "Zeus{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEA98",
   "jp": "ろくろくび{end}",
-  "en": "",
-  "max": 12
+  "en": "Rokurokubi{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEAA4",
   "jp": "カグヤひめ{end}",
-  "en": "",
-  "max": 12
+  "en": "Kaguya-hime{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEAB0",
   "jp": "けうけげん{end}",
-  "en": "",
-  "max": 12
+  "en": "Keukegen{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEABC",
   "jp": "ブラウニー{end}",
-  "en": "",
-  "max": 12
+  "en": "Brownie{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEAC8",
   "jp": "きよひめ{end}",
-  "en": "",
-  "max": 12
+  "en": "Kiyohime{end}",
+  "max": 40,
+  "px": 200
  },
  {
   "id": "BM:0AEDF4",
   "jp": "：からい{end}",
-  "en": "",
+  "en": "：からい{end}",
   "max": 12
  },
  {
   "id": "BM:0AEE0A",
   "jp": "？バサバサ{end}",
-  "en": "",
+  "en": "？バサバサ{end}",
   "max": 14
  },
  {
   "id": "BM:0AEE20",
   "jp": "？おしゃれ{end}",
-  "en": "",
+  "en": "？おしゃれ{end}",
   "max": 12
  },
  {
   "id": "BM:0AEE36",
   "jp": "？ヌリヌリ{end}",
-  "en": "",
+  "en": "？ヌリヌリ{end}",
   "max": 14
  },
  {
   "id": "BM:0AEE4C",
   "jp": "？ボコボコ{end}",
-  "en": "",
+  "en": "？ボコボコ{end}",
   "max": 12
  },
  {
   "id": "BM:0AEE62",
   "jp": "？ピカピカ{end}",
-  "en": "",
+  "en": "？ピカピカ{end}",
   "max": 14
  },
  {
   "id": "BM:0AEE78",
   "jp": "？うるさい{end}",
-  "en": "",
+  "en": "？うるさい{end}",
   "max": 12
  },
  {
   "id": "BM:0AEE8E",
   "jp": "？たのしい{end}",
-  "en": "",
+  "en": "？たのしい{end}",
   "max": 14
  },
  {
   "id": "BM:0AEEA4",
   "jp": "？グルグル{end}",
-  "en": "",
+  "en": "？グルグル{end}",
   "max": 12
  },
  {
   "id": "BM:0AEEBA",
   "jp": "：いたい{end}",
-  "en": "",
+  "en": "：いたい{end}",
   "max": 10
  },
  {
   "id": "BM:0AEED0",
   "jp": "！たいりょく{end}",
-  "en": "",
+  "en": "！たいりょく{end}",
   "max": 16
  },
  {
   "id": "BM:0AEEE8",
   "jp": "：ちから{end}",
-  "en": "",
+  "en": "：ちから{end}",
   "max": 12
  },
  {
   "id": "BM:0AEF00",
   "jp": "！すばやさ{end}",
-  "en": "",
+  "en": "！すばやさ{end}",
   "max": 12
  },
  {
   "id": "BM:0AEF18",
   "jp": "ーダメ－ジ{end}",
-  "en": "",
+  "en": "ーダメ－ジ{end}",
   "max": 12
  },
  {
@@ -376,283 +423,283 @@
  {
   "id": "BM:0AEF5C",
   "jp": "！ギド－{end}",
-  "en": "",
+  "en": "！ギド－{end}",
   "max": 12
  },
  {
   "id": "BM:0AEF74",
   "jp": "ーウェンディ{end}",
-  "en": "",
+  "en": "ーウェンディ{end}",
   "max": 16
  },
  {
   "id": "BM:0AEF8C",
   "jp": "？ワットン{end}",
-  "en": "",
+  "en": "？ワットン{end}",
   "max": 12
  },
  {
   "id": "BM:0AEFA4",
   "jp": "？シャイン{end}",
-  "en": "",
+  "en": "？シャイン{end}",
   "max": 12
  },
  {
   "id": "BM:0AEFBC",
   "jp": "？ナゾ－{end}",
-  "en": "",
+  "en": "？ナゾ－{end}",
   "max": 12
  },
  {
   "id": "BM:0AEFD4",
   "jp": "ーほしのかけら{end}",
-  "en": "",
+  "en": "ーほしのかけら{end}",
   "max": 16
  },
  {
   "id": "BM:0AEFEC",
   "jp": "「ギガトンストライク{end}",
-  "en": "",
+  "en": "「ギガトンストライク{end}",
   "max": 24
  },
  {
   "id": "BM:0AF004",
   "jp": "／ワルバッシ－{end}",
-  "en": "",
+  "en": "／ワルバッシ－{end}",
   "max": 16
  },
  {
   "id": "BM:0AF01C",
   "jp": "／ジンジャ－{end}",
-  "en": "",
+  "en": "／ジンジャ－{end}",
   "max": 16
  },
  {
   "id": "BM:0AF10C",
   "jp": "{face:0007}もしもし、何だ{name}か{wait}{n}今どこにいるんだい？{wait}{page}そうか、地上に戻ったんだね{wait}{n}地下街にはもう行ったかい？{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Hello? Oh, it's {name}.{wait}{n}Where are you now?{wait}{page}I see, you're back on the surface.{wait}{n}Been to the underground mall yet?{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:0AF17C",
   "jp": "{face:0007}やあっ、ひさしぶりだなあ{wait}{n}えっ、フォレストランド・・・{wait}{page}金のリンゴパイを探してる{wait}{n}イーのかな？そんな事してて{wait}{page}でも、ちょっとウマソーだね{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Hey, long time no see!{wait}{n}Huh? Forest Land...?{wait}{page}You're hunting for the Golden Apple Pie?{wait}{n}Is that really okay?{wait}{page}Still, it does sound kinda tasty.{wait}{end}",
   "max": 152
  },
  {
   "id": "BM:0AF214",
   "jp": "{face:0007}えーっと、どうした？{wait}{n}金のリンゴパイは美味かったかい？{wait}{page}ベリアルはセコイやつだから{wait}{n}気をつけろよ{wait}{page}それと、ベッドタウンに戻ったら{wait}{n}湖のネッシーによろしくな{wait}{end}",
-  "en": "",
+  "en": "{face:0007}Um, what's up?{wait}{n}Was the Golden Apple Pie good?{wait}{page}Belial's a real cheapskate,{wait}{n}so watch out.{wait}{page}And when you're back in Bed Town,{wait}{n}say hi to Nessie in the lake.{wait}{end}",
   "max": 172
  },
  {
   "id": "BM:0AF2C0",
   "jp": "{face:0009}もしもし、エレジーよ{wait}{n}何だ{name}なの{wait}{page}えっ、金のリンゴパイ！？{wait}{n}ベリアルのやつ・・・{wait}{page}・・・・・・{wait}{end}",
-  "en": "",
+  "en": "{face:0009}Hello, it's Elegy.{wait}{n}Oh, it's just {name}.{wait}{page}What, the Golden Apple Pie!?{wait}{n}That Belial...{wait}{page}......{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:0AF330",
   "jp": "{face:0009}もしもし、エレジーよ{wait}{n}何だ、{name}なの{wait}{page}ごめんね、今ナガヒサと話してるの{wait}{n}後でかけ直して{wait}{end}",
-  "en": "",
+  "en": "{face:0009}Hello, it's Elegy.{wait}{n}Oh, it's {name}.{wait}{page}Sorry, I'm talking to Nagahisa.{wait}{n}Call back later.{wait}{end}",
   "max": 100
  },
  {
   "id": "BM:0AF394",
   "jp": "{face:0004}もしもし、あっ{name}なの{wait}{page}あたしはフォレストランドに{wait}{n}来てるのよ、また電話してね{wait}{end}",
-  "en": "",
+  "en": "{face:0004}Hello? Oh, {name}!{wait}{page}I'm in Forest Land now.{wait}{n}Call me again, okay?{wait}{end}",
   "max": 88
  },
  {
   "id": "BM:0AF3EC",
   "jp": "{face:0004}もしもし、あっ{name}なの{wait}{page}フォレストランドに行ったのね{wait}{n}ハーピーを見かけたら{wait}{f0}話しかけた方がいいわよ{wait}{end}",
-  "en": "",
+  "en": "{face:0004}Hello? Oh, {name}!{wait}{page}So you went to Forest Land.{wait}{n}If you see a Harpy,{wait}{f0}you should talk to it.{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:0AF45C",
   "jp": "{face:0004}ミライよ、{name}ね{wait}{page}そう、私もファイアーランドに{wait}{n}来てるわよ・・・・あのね{wait}{f0}ナガヒサ君も来てるみたいよ{wait}{end}",
-  "en": "",
+  "en": "{face:0004}It's Mirai. {name}, right?{wait}{page}Yeah, I'm in Fire Land too,{wait}{n}you know... Listen,{wait}{f0}seems Nagahisa-kun is here too.{wait}{end}",
   "max": 112
  },
  {
   "id": "BM:0AF4CC",
   "jp": "{face:0012}おう、{name}か{wait}{page}お前、コトダマってデビル{n}仲魔にしたか{wait}{page}あいつがいるのはゲートタウンから{n}東に行った平原の{wait}{f0}南東の外れにある木だぞ{wait}{end}",
-  "en": "",
+  "en": "{face:0012}Yo, {name}.{wait}{page}Got that Devil Kotodama as an ally yet?{wait}{page}It's on the plains east of Gate Town,{wait}{f0}in a tree at the far southeast edge.{wait}{end}",
   "max": 140
  },
  {
   "id": "BM:0AF558",
   "jp": "{face:0012}おう、{name}か{wait}{page}元気にしてるか？{wait}{page}こっちはあいかわらずだぜ{wait}{end}",
-  "en": "",
+  "en": "{face:0012}Yo, {name}.{wait}{page}You doing okay?{wait}{page}Same old, same old here.{wait}{end}",
   "max": 68
  },
  {
   "id": "BM:0AF59C",
   "jp": "{face:0019}{name}、何してるの？{wait}{page}早くいらっしゃいよ{wait}{end}",
-  "en": "",
+  "en": "{face:0019}{name}, what are you doing?{wait}{page}Hurry and come here.{wait}{end}",
   "max": 48
  },
  {
   "id": "BM:0AF5CC",
   "jp": "{face:0019}{name}、元気？{wait}{page}スフィンクスを育ててあげてね{wait}{end}",
-  "en": "",
+  "en": "{face:0019}{name}, how are you?{wait}{page}Raise Sphinx well for me.{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0AF600",
   "jp": "{face:003A}もしもし、{name}か{n}いい事を教えてやろう{wait}{page}合体の時に起きる{n}魔法のけいしょうだけどな{wait}{page}できたデビルにとって{n}苦手なぞくせいの魔法は{wait}{page}おぼえられない{wait}{page}だからよく考えて{n}合体をするといいぞ！{wait}{end}",
-  "en": "",
+  "en": "{face:003A}Hello, {name}? Here's a good tip.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an attribute the new Devil is weak to{wait}{page}can't be learned.{wait}{page}So think it through before you fuse!{wait}{end}",
   "max": 200
  },
  {
   "id": "BM:0AF6C8",
   "jp": "{face:003A}もしもし、{name}か{n}よし！いい事を教えてやろう{wait}{page}神族か悪魔族のデビルを{n}使って合体させると、たまに{wait}{f0}合体事故が起こって{wait}{f0}ミュート族のデビルがつくれるぞ{wait}{end}",
-  "en": "",
+  "en": "{face:003A}Hello, {name}? Right! Here's a good tip.{wait}{page}Fuse using God-race or Demon-race Devils, and sometimes{wait}{f0}a fusion accident happens{wait}{f0}and you can make a Mute-race Devil!{wait}{end}",
   "max": 160
  },
  {
   "id": "BM:0AF768",
   "jp": "{face:003A}もしもし、{name}か{n}よし！いい事を教えてやろう{wait}{page}デビダスのケンサクきのうを使えば{n}きょうりょく技のコンボが使える{wait}{f0}仲魔を調べる事ができるぞ{wait}{end}",
-  "en": "",
+  "en": "{face:003A}Hello, {name}? Right! Here's a good tip.{wait}{page}Use the Devidas search function to look up{wait}{f0}allies that can do team-up combo moves!{wait}{end}",
   "max": 148
  },
  {
   "id": "BM:0AF7FC",
   "jp": "{face:003A}もしもし、{name}か{n}よし！いい事を教えてやろう{wait}{page}デビダスを完成させるには{n}デビダスのケンサクきのうを使って{wait}{f0}レベルや種族を調べると{f0}いないデビルが探しやすいぞ{wait}{end}",
-  "en": "",
+  "en": "{face:003A}Hello, {name}? Right! Here's a good tip.{wait}{page}To complete the Devidas, use its search function{wait}{f0}to look up levels and races,{f0}and missing Devils get easier to find!{wait}{end}",
   "max": 168
  },
  {
   "id": "BM:0AF8E8",
   "jp": "ヴィネコン画面にうつります{end}",
-  "en": "",
+  "en": "Go to the Vinecom screen.{end}",
   "max": 28
  },
  {
   "id": "BM:0AF904",
   "jp": "アイテムを使ったり、すてたりします{end}",
-  "en": "",
+  "en": "Use or discard items.{end}",
   "max": 36
  },
  {
   "id": "BM:0AF928",
   "jp": "データをセーブします{end}",
-  "en": "",
+  "en": "Save your data.{end}",
   "max": 24
  },
  {
   "id": "BM:0AF940",
   "jp": "魔法を使います{end}",
-  "en": "",
+  "en": "Use magic.{end}",
   "max": 16
  },
  {
   "id": "BM:0AF950",
   "jp": "せっていをへんこうします{end}",
-  "en": "",
+  "en": "Change settings.{end}",
   "max": 28
  },
  {
   "id": "BM:0AF96C",
   "jp": "ネットにつなげたり、電話したりします{end}",
-  "en": "",
+  "en": "Go on the net or make calls.{end}",
   "max": 40
  },
  {
   "id": "BM:0AF994",
   "jp": "データをロードします{end}",
-  "en": "",
+  "en": "Load your data.{end}",
   "max": 24
  },
  {
   "id": "BM:0AF9AC",
   "jp": "仲魔のステータスを見ます{end}",
-  "en": "",
+  "en": "View allies' status.{end}",
   "max": 28
  },
  {
   "id": "BM:0AF9C8",
   "jp": "仲魔と別れます{end}",
-  "en": "",
+  "en": "Dismiss allies.{end}",
   "max": 16
  },
  {
   "id": "BM:0AF9D8",
   "jp": "デビルのじょうほうを調べます{end}",
-  "en": "",
+  "en": "Look up Devil info.{end}",
   "max": 32
  },
  {
   "id": "BM:0AF9F8",
   "jp": "仲魔のならびかたをかえます{end}",
-  "en": "",
+  "en": "Change your allies' order.{end}",
   "max": 28
  },
  {
   "id": "BM:0AFA14",
   "jp": "ノートを見たり、CDを聞いたりします{end}",
-  "en": "",
+  "en": "Read notes or listen to CDs.{end}",
   "max": 40
  },
  {
   "id": "BM:0AFA3C",
   "jp": "どちらのライザーを使うかきめます{end}",
-  "en": "",
+  "en": "Choose which Riser to use.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFA60",
   "jp": "ワールドマップを見ます{end}",
-  "en": "",
+  "en": "View the world map.{end}",
   "max": 24
  },
  {
   "id": "BM:0AFA78",
   "jp": "ヴィネセンターにアクセスします{end}",
-  "en": "",
+  "en": "Access the Vine Center.{end}",
   "max": 32
  },
  {
   "id": "BM:0AFA98",
   "jp": "ともだちに電話します{end}",
-  "en": "",
+  "en": "Call your friends.{end}",
   "max": 24
  },
  {
   "id": "BM:0AFAB0",
   "jp": "仲魔を呼んだり、送ったりします{end}",
-  "en": "",
+  "en": "Call or send allies.{end}",
   "max": 32
  },
  {
   "id": "BM:0AFAD4",
   "jp": "仲魔やパートナーの名前を変えます{end}",
-  "en": "",
+  "en": "Rename allies or your partner.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFAF8",
   "jp": "バトルネットでCPUと対戦します{end}",
-  "en": "",
+  "en": "Fight the CPU on Battle Net.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFB1C",
   "jp": "ヴィネセンターから出ます{end}",
-  "en": "",
+  "en": "Leave the Vine Center.{end}",
   "max": 28
  },
  {
   "id": "BM:0AFB38",
   "jp": "センターから仲魔を呼び出します{end}",
-  "en": "",
+  "en": "Call allies from the Center.{end}",
   "max": 32
  },
  {
   "id": "BM:0AFB58",
   "jp": "手持ちの仲魔をセンターに送ります{end}",
-  "en": "",
+  "en": "Send your allies to the Center.{end}",
   "max": 36
  },
  {
@@ -666,73 +713,73 @@
  {
   "id": "BM:0AFBA8",
   "jp": "ディスクに仲魔をいどうします{end}",
-  "en": "",
+  "en": "Move allies to a disc.{end}",
   "max": 32
  },
  {
   "id": "BM:0AFBC8",
   "jp": "パートナーのニックネームを変えます{end}",
-  "en": "",
+  "en": "Change your partner's nickname.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFBEC",
   "jp": "仲魔の名前を変えます{end}",
-  "en": "",
+  "en": "Rename an ally.{end}",
   "max": 24
  },
  {
   "id": "BM:0AFC04",
   "jp": "ふつうにCPUと対戦します{end}",
-  "en": "",
+  "en": "Normal battle vs. the CPU.{end}",
   "max": 28
  },
  {
   "id": "BM:0AFC20",
   "jp": "仲魔をもらえるかもしれない対戦です{end}",
-  "en": "",
+  "en": "You might win an ally here.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFC44",
   "jp": "バトルネット初心者のためのクラスです{end}",
-  "en": "",
+  "en": "Class for Battle Net beginners.{end}",
   "max": 40
  },
  {
   "id": "BM:0AFC6C",
   "jp": "バトルネット中級者のためのクラスです{end}",
-  "en": "",
+  "en": "Class for Battle Net intermediates.{end}",
   "max": 40
  },
  {
   "id": "BM:0AFC94",
   "jp": "最強の相手と戦うクラスです{end}",
-  "en": "",
+  "en": "Fight the strongest foes.{end}",
   "max": 28
  },
  {
   "id": "BM:0AFCB0",
   "jp": "仲魔をくれますが、手強い相手です{end}",
-  "en": "",
+  "en": "Gives allies, but foes are tough.{end}",
   "max": 36
  },
  {
   "id": "BM:0AFCD4",
   "jp": "超Aクラス級の未知の相手と対戦します{end}",
-  "en": "",
+  "en": "Face unknown foes beyond A Class.{end}",
   "max": 40
  },
  {
   "id": "BM:0AFDBE",
   "jp": "つぎのLVまで：{end}",
-  "en": "",
+  "en": "To next LV:{end}",
   "max": 18
  },
  {
   "id": "BM:0AFDE4",
   "jp": "デビライザ－※※　{end}",
-  "en": "",
+  "en": "Deviliser**{end}",
   "max": 20
  }
 ]

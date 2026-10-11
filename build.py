@@ -8,6 +8,7 @@
 import hashlib
 import re
 import shutil
+import struct
 import subprocess
 import sys
 from pathlib import Path
@@ -183,12 +184,20 @@ def insert_strings(files, name, mode, sub, extract):
     tl = load_script(sub)
     tag = EXE_TAG[name]
     jp_first = exe_first_ids(sub)
+    pool = None
+    if sub == 'exe':
+        import exe
+        pool = exe.label_pool(bytes(d))
+    pooled = {}
     for off, ln, cap, jp in extract(bytes(d)):
         mid = '%s:%06X' % (tag, off)
         if mode == 'marker':
             en = exe_marker(mid, jp, cap)
         else:
             en = tl.get(jp_first.get(jp, mid), '')
+        if pool and pool[2] <= off < pool[3]:
+            pooled[off] = en if en and en != jp else None
+            continue
         if not en or en == jp:
             continue
         if '{wait}' in jp and mode != 'marker':
@@ -197,7 +206,30 @@ def insert_strings(files, name, mode, sub, extract):
         if len(b) > cap:
             sys.exit('%s %s: %d bytes > %d' % (name, mid, len(b), cap))
         d[off:off + cap] = b + bytes(cap - len(b))
+    if pool:
+        repack_labels(d, pool, pooled, name)
     (files / name).write_bytes(d)
+
+
+def repack_labels(d, pool, pooled, name):
+    """Speaker labels: pack every label (English or original) into the pool, repoint the label table."""
+    import text
+    tab, slots, start, end = pool
+    orig = bytes(d)
+    placed, cur = {}, start
+    for slot, target in slots:
+        if target not in placed:
+            en = pooled.get(target)
+            b = text.encode_en(en) if en else orig[target:target + text.decode(orig, target)[1]]
+            placed[target] = (cur, b)
+            cur += len(b)
+            if cur > end:
+                sys.exit('%s: speaker labels overflow the pool (%d > %d bytes)' % (name, cur - start, end - start))
+    d[start:end] = bytes(end - start)
+    for target, (at, b) in placed.items():
+        d[at:at + len(b)] = b
+    for slot, target in slots:
+        struct.pack_into('<I', d, slot, 0x8000F800 + placed[target][0])
 
 
 def build_exe(files, name, mode='normal'):

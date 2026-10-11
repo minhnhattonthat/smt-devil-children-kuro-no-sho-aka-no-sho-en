@@ -151,11 +151,22 @@ def check(batch, quiet=False):
     return 1 if errs else 0
 
 
-def merge(batch):
-    if check(batch, quiet=True):
+def merge(batch, only_ok=False):
+    """Merge a batch; only_ok: merge the ids that pass and list the rest (they stay untranslated)."""
+    import io
+    import contextlib
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        bad = check(batch, quiet=True)
+    if bad and not only_ok:
+        print(buf.getvalue(), end='')
         print('merge refused: fix the errors above')
         return 1
     en = read_tsv(TL / (batch + '.out.tsv'))
+    failed = {ln.split(':', 2)[0] + ':' + ln.split(':', 2)[1] for ln in buf.getvalue().splitlines() if ln.count(':') >= 2}
+    for k in sorted(failed):
+        en.pop(k, None)
+        print('skipped', k)
     n = 0
     for p in sorted(EV.glob('*.json')) + sorted(EX.glob('*.json')) + sorted(BT.glob('*.json')):
         data = json.loads(p.read_text(encoding='utf-8'))
@@ -200,6 +211,8 @@ def main():
     if cmd == 'split-battle':
         split_exe(sys.argv[2:], BT, 'y')
         return 0
+    if cmd == 'merge-ok':
+        return merge(sys.argv[2], only_ok=True)
     return {'check': check, 'merge': merge}[cmd](sys.argv[2])
 
 

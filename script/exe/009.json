@@ -2,163 +2,163 @@
  {
   "id": "BM:0AA024",
   "jp": "データがこわれています{end}",
-  "en": "",
+  "en": "Data is corrupted.{end}",
   "max": 24
  },
  {
   "id": "BM:0AA03C",
   "jp": "ロードに失敗しました{end}",
-  "en": "",
+  "en": "Load failed.{end}",
   "max": 24
  },
  {
   "id": "BM:0AA054",
   "jp": "１Pの使うデータのロードが終りました{end}",
-  "en": "",
+  "en": "Finished loading 1P's data.{end}",
   "max": 40
  },
  {
   "id": "BM:0AA07C",
   "jp": "スロット２にメモリーカードが{n}さしこまれていません{n}スロット２にメモリーカードが{n}さしこまれていません{n}セーブ中です{n}メモリーカードとコントローラを{n}抜かないでください{end}",
-  "en": "",
+  "en": "No Memory Card{n}inserted in Slot 2.{n}No Memory Card{n}inserted in Slot 2.{n}Saving...{n}Don't remove the Memory Card{n}or controller.{end}",
   "max": 172
  },
  {
   "id": "BM:0AA128",
   "jp": "スロット１のメモリーカードは{n}フォーマットされていません{n}フォーマットしますか？{end}",
-  "en": "",
+  "en": "The Memory Card in Slot 1{n}is not formatted.{n}Format it?{end}",
   "max": 84
  },
  {
   "id": "BM:0AA17C",
   "jp": "スロット１のメモリーカードを{n}フォーマットしています{n}メモリーカードとコントローラを{n}抜かないでください{end}",
-  "en": "",
+  "en": "Formatting the Memory{n}Card in Slot 1.{n}Don't remove the Memory Card{n}or controller.{end}",
   "max": 108
  },
  {
   "id": "BM:0AA1E8",
   "jp": "スロット１のメモリーカードが{n}フォーマットされました{n}今のデータをデータ１にセーブします{end}",
-  "en": "",
+  "en": "The Memory Card in Slot 1{n}has been formatted.{n}Saving current data to Data 1.{end}",
   "max": 92
  },
  {
   "id": "BM:0AA244",
   "jp": "スロット１のメモリーカードに{n}空きブロックが足りません{n}真・女神転生デビルチルドレン{n}黒の書のデータをセーブするには{n}２ブロック以上の空きがひつようです{end}",
-  "en": "",
+  "en": "Not enough free blocks on{n}the Memory Card in Slot 1.{n}Saving Devil Children{n}Black Book data requires{n}at least 2 free blocks.{end}",
   "max": 156
  },
  {
   "id": "BM:0AA2E0",
   "jp": "スロット１のメモリーカードに{n}空きブロックが足りません{n}真・女神転生デビルチルドレン{n}赤の書のデータをセーブするには{n}２ブロック以上の空きがひつようです{end}",
-  "en": "",
+  "en": "Not enough free blocks on{n}the Memory Card in Slot 1.{n}Saving Devil Children{n}Red Book data requires{n}at least 2 free blocks.{end}",
   "max": 156
  },
  {
   "id": "BM:0AA37C",
   "jp": "セーブに失敗しました{end}",
-  "en": "",
+  "en": "Save failed.{end}",
   "max": 24
  },
  {
   "id": "BM:0AA394",
   "jp": "せってい中にメモリーカードが抜かれ{n}ました、この対戦は無効になります{end}",
-  "en": "",
+  "en": "A Memory Card was removed during{n}setup. This battle is void.{end}",
   "max": 72
  },
  {
   "id": "BM:0AA3DC",
   "jp": "せってい中にメモリーカードが抜かれ{n}ました、この交換は無効になります{end}",
-  "en": "",
+  "en": "A Memory Card was removed during{n}setup. This trade is void.{end}",
   "max": 72
  },
  {
   "id": "BM:0AA424",
   "jp": "せってい中にメモリーカードが抜かれ{n}ました、この合体は無効になります{end}",
-  "en": "",
+  "en": "A Memory Card was removed during{n}setup. This fusion is void.{end}",
   "max": 72
  },
  {
   "id": "BM:0AA46C",
   "jp": "対戦のけっかをセーブします{end}",
-  "en": "",
+  "en": "Saving battle results.{end}",
   "max": 28
  },
  {
   "id": "BM:0AA488",
   "jp": "交換のけっかをセーブします{end}",
-  "en": "",
+  "en": "Saving trade results.{end}",
   "max": 28
  },
  {
   "id": "BM:0AA4A4",
   "jp": "合体のけっかをセーブします{end}",
-  "en": "",
+  "en": "Saving fusion results.{end}",
   "max": 28
  },
  {
   "id": "BM:0AA4C0",
   "jp": "このデータでは、パートナーが{n}きずついています{n}パートナーが回復するまで{n}交換できません{end}",
-  "en": "",
+  "en": "In this data, the partner{n}is injured.{n}You can't trade until{n}the partner recovers.{end}",
   "max": 92
  },
  {
   "id": "BM:0AA51C",
   "jp": "このデータでは、パートナーが{n}きずついています{n}パートナーが回復するまで{n}合体できません{end}",
-  "en": "",
+  "en": "In this data, the partner{n}is injured.{n}You can't fuse until{n}the partner recovers.{end}",
   "max": 92
  },
  {
   "id": "BM:0AA578",
   "jp": "へんしゅうに使うデータをロードします{end}",
-  "en": "",
+  "en": "Loading the data to edit.{end}",
   "max": 40
  },
  {
   "id": "BM:0AA5A0",
   "jp": "どちらの書のデータを使いますか？{end}",
-  "en": "",
+  "en": "Which book's data?{end}",
   "max": 36
  },
  {
   "id": "BM:0AA5C4",
   "jp": "対戦前にセーブしたデータがありません{n}別の場所にセーブしますか？{end}",
-  "en": "",
+  "en": "No data saved before battle.{n}Save to another spot?{end}",
   "max": 68
  },
  {
   "id": "BM:0AA608",
   "jp": "交換前にセーブしたデータがありません{n}別の場所にセーブしますか？{end}",
-  "en": "",
+  "en": "No data saved before trade.{n}Save to another spot?{end}",
   "max": 68
  },
  {
   "id": "BM:0AA64C",
   "jp": "合体前にセーブしたデータがありません{n}別の場所にセーブしますか？{end}",
-  "en": "",
+  "en": "No data saved before fusion.{n}Save to another spot?{end}",
   "max": 68
  },
  {
   "id": "BM:0AA690",
   "jp": "へんしゅう前にセーブしたデータがあり{n}ません、別の場所にセーブしますか？{end}",
-  "en": "",
+  "en": "No data saved before editing.{n}Save to another spot?{end}",
   "max": 76
  },
  {
   "id": "BM:0AA6DC",
   "jp": "スロット１にメモリーカードが{n}正しくさしこまれていません{end}",
-  "en": "",
+  "en": "The Memory Card in Slot 1{n}isn't inserted properly.{end}",
   "max": 60
  },
  {
   "id": "BM:0AA718",
   "jp": "スロット２にメモリーカードが{n}正しくさしこまれていません{end}",
-  "en": "",
+  "en": "The Memory Card in Slot 2{n}isn't inserted properly.{end}",
   "max": 60
  },
  {
   "id": "BM:0AA754",
   "jp": "メモリーカードが抜かれました{end}",
-  "en": "",
+  "en": "Memory Card removed.{end}",
   "max": 32
  },
  {
@@ -172,13 +172,13 @@
  {
   "id": "BM:0AAABC",
   "jp": "１Pが合体に使う仲魔を選んでください{end}",
-  "en": "",
+  "en": "1P, pick an ally to fuse.{end}",
   "max": 40
  },
  {
   "id": "BM:0AAAE4",
   "jp": "２Pが合体に使う仲魔を選んでください{end}",
-  "en": "",
+  "en": "2P, pick an ally to fuse.{end}",
   "max": 40
  },
  {
@@ -192,547 +192,547 @@
  {
   "id": "BM:0AAB5C",
   "jp": "その仲魔は選べません{end}",
-  "en": "",
+  "en": "Can't pick that ally.{end}",
   "max": 24
  },
  {
   "id": "BM:0AAB74",
   "jp": "１Pは{name}{n}でいいですか？{end}",
-  "en": "",
+  "en": "1P picks {name}.{n}Okay?{end}",
   "max": 28
  },
  {
   "id": "BM:0AAB90",
   "jp": "２Pは{name}{n}でいいですか？{end}",
-  "en": "",
+  "en": "2P picks {name}.{n}Okay?{end}",
   "max": 28
  },
  {
   "id": "BM:0AABAC",
   "jp": "１Pの{name}と{end}",
-  "en": "",
+  "en": "1P's {name}{end}",
   "max": 12
  },
  {
   "id": "BM:0AABB8",
   "jp": "２Pの{name}を{n}合体させます{end}",
-  "en": "",
+  "en": "+ 2P's {name}{n}will be fused.{end}",
   "max": 28
  },
  {
   "id": "BM:0AABD4",
   "jp": "１Pは{name}が{n}できそうです{end}",
-  "en": "",
+  "en": "1P can likely{n}make {name}.{end}",
   "max": 28
  },
  {
   "id": "BM:0AABF0",
   "jp": "２Pは{name}が{n}できそうです{end}",
-  "en": "",
+  "en": "2P can likely{n}make {name}.{end}",
   "max": 28
  },
  {
   "id": "BM:0AAC0C",
   "jp": "１Pの{name}が{n}強くなります{end}",
-  "en": "",
+  "en": "1P's {name}{n}gets stronger.{end}",
   "max": 28
  },
  {
   "id": "BM:0AAC28",
   "jp": "２Pの{name}が{n}強くなります{end}",
-  "en": "",
+  "en": "2P's {name}{n}gets stronger.{end}",
   "max": 28
  },
  {
   "id": "BM:0AAC44",
   "jp": "１Pの{name}は{n}ランクアップしません{end}",
-  "en": "",
+  "en": "1P's {name}{n}won't rank up.{end}",
   "max": 36
  },
  {
   "id": "BM:0AAC68",
   "jp": "２Pの{name}は{n}ランクアップしません{end}",
-  "en": "",
+  "en": "2P's {name}{n}won't rank up.{end}",
   "max": 36
  },
  {
   "id": "BM:0AAC8C",
   "jp": "１Pの{name}は{n}ランクアップする場合があります{end}",
-  "en": "",
+  "en": "1P's {name}{n}might rank up.{end}",
   "max": 44
  },
  {
   "id": "BM:0AACB8",
   "jp": "２Pの{name}は{n}ランクアップする場合があります{end}",
-  "en": "",
+  "en": "2P's {name}{n}might rank up.{end}",
   "max": 44
  },
  {
   "id": "BM:0AACE4",
   "jp": "１Pの{name}は{n}ランクアップします{end}",
-  "en": "",
+  "en": "1P's {name}{n}will rank up.{end}",
   "max": 32
  },
  {
   "id": "BM:0AAD04",
   "jp": "２Pの{name}は{n}ランクアップします{end}",
-  "en": "",
+  "en": "2P's {name}{n}will rank up.{end}",
   "max": 32
  },
  {
   "id": "BM:0AAD24",
   "jp": "合体します{n}よろしいですか？{end}",
-  "en": "",
+  "en": "Ready to fuse.{n}Is that okay?{end}",
   "max": 32
  },
  {
   "id": "BM:0AAD44",
   "jp": "合体前にセーブします{n}セーブした後にメモリーカードを{n}抜いたり、でんげんを切ったりすると{n}出した仲魔がいなくなってしまうので{n}注意してください{end}",
-  "en": "",
+  "en": "Saving before fusion.{n}If you remove the Memory Card{n}or turn off the power after{n}saving, the allies you put{n}out will be lost. Careful!{end}",
   "max": 144
  },
  {
   "id": "BM:0AADD4",
   "jp": "１Pのレベルが{n}不足しています{end}",
-  "en": "",
+  "en": "1P's level{n}is too low.{end}",
   "max": 32
  },
  {
   "id": "BM:0AADF4",
   "jp": "２Pのレベルが{n}不足しています{end}",
-  "en": "",
+  "en": "2P's level{n}is too low.{end}",
   "max": 32
  },
  {
   "id": "BM:0AAE14",
   "jp": "この組み合わせでは{n}合体できません！{end}",
-  "en": "",
+  "en": "This combination{n}can't be fused!{end}",
   "max": 40
  },
  {
   "id": "BM:0AAE3C",
   "jp": "１Pの{name}の{n}レベルが低すぎて合体できません！{end}",
-  "en": "",
+  "en": "1P's {name}'s{n}level is too low to fuse!{end}",
   "max": 48
  },
  {
   "id": "BM:0AAE6C",
   "jp": "２Pの{name}の{n}レベルが低すぎて合体できません！{end}",
-  "en": "",
+  "en": "2P's {name}'s{n}level is too low to fuse!{end}",
   "max": 48
  },
  {
   "id": "BM:0AAE9C",
   "jp": "合体事故が起こりました！{n}{name}が現れた！{end}",
-  "en": "",
+  "en": "A fusion accident!{n}{name} appeared!{end}",
   "max": 40
  },
  {
   "id": "BM:0AAEC4",
   "jp": "{name}に{n}ランクアップしました！{end}",
-  "en": "",
+  "en": "Ranked up to{n}{name}!{end}",
   "max": 32
  },
  {
   "id": "BM:0AAEE4",
   "jp": "私は{name}{n}１Pよ、今後ともよろしく{end}",
-  "en": "",
+  "en": "I am {name}.{n}1P, I'm yours from now on!{end}",
   "max": 36
  },
  {
   "id": "BM:0AAF08",
   "jp": "私は{name}{n}２Pよ、今後ともよろしく{end}",
-  "en": "",
+  "en": "I am {name}.{n}2P, I'm yours from now on!{end}",
   "max": 36
  },
  {
   "id": "BM:0AAF2C",
   "jp": "１Pの{name}に{end}",
-  "en": "",
+  "en": "1P's {name}{end}",
   "max": 12
  },
  {
   "id": "BM:0AAF38",
   "jp": "２Pの{name}に{end}",
-  "en": "",
+  "en": "2P's {name}{end}",
   "max": 12
  },
  {
   "id": "BM:0AAF44",
   "jp": "１Pの{name}は{end}",
-  "en": "",
+  "en": "1P's {name}{end}",
   "max": 12
  },
  {
   "id": "BM:0AAF50",
   "jp": "２Pの{name}は{end}",
-  "en": "",
+  "en": "2P's {name}{end}",
   "max": 12
  },
  {
   "id": "BM:0AAF5C",
   "jp": "ニックネームをつけますか？{end}",
-  "en": "",
+  "en": "Give it a nickname?{end}",
   "max": 28
  },
  {
   "id": "BM:0AAF78",
   "jp": "魔法・技がおぼえられます{n}おぼえさせますか？{end}",
-  "en": "",
+  "en": "Spells/skills can be learned.{n}Learn them?{end}",
   "max": 48
  },
  {
   "id": "BM:0AAFA8",
   "jp": "あと{num:FFE0:0000}つおぼえる事ができます{end}",
-  "en": "",
+  "en": "It can learn {num:FFE0:0000} more.{end}",
   "max": 36
  },
  {
   "id": "BM:0AAFCC",
   "jp": "魔法のけいしょうができます{n}けいしょうしますか？{end}",
-  "en": "",
+  "en": "Spells can be inherited.{n}Inherit spells?{end}",
   "max": 52
  },
  {
   "id": "BM:0AB000",
   "jp": "けいしょうできる魔法が{n}ありません{end}",
-  "en": "",
+  "en": "There are no spells{n}to inherit.{end}",
   "max": 36
  },
  {
   "id": "BM:0AB024",
   "jp": "あと{num:FFE0:0000}つけいしょうできます{end}",
-  "en": "",
+  "en": "It can inherit {num:FFE0:0000} more.{end}",
   "max": 32
  },
  {
   "id": "BM:0AB044",
   "jp": "最初からやり直します{n}いいですか？{end}",
-  "en": "",
+  "en": "Start over from{n}the beginning?{end}",
   "max": 36
  },
  {
   "id": "BM:0AB068",
   "jp": "これいじょう持てません！{n}どれか消してください{end}",
-  "en": "",
+  "en": "You can't hold any more!{n}Delete one.{end}",
   "max": 48
  },
  {
   "id": "BM:0AB09A",
   "jp": "アタックが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "Attack rose by {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB0BA",
   "jp": "ガードが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "Guard rose by {num:FFE0:0000}!{end}",
   "max": 26
  },
  {
   "id": "BM:0AB0D6",
   "jp": "マジックが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "Magic rose by {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB0F6",
   "jp": "Mガードが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "M-Guard rose by {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB116",
   "jp": "スピードが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "Speed rose by {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB136",
   "jp": "ラックが{num:FFE0:0000}上がった！{end}",
-  "en": "",
+  "en": "Luck rose by {num:FFE0:0000}!{end}",
   "max": 26
  },
  {
   "id": "BM:0AB152",
   "jp": "MMPが{num:FFE0:0000}になりました！{end}",
-  "en": "",
+  "en": "MMP is now {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB172",
   "jp": "MHPが{num:FFE0:0000}になりました！{end}",
-  "en": "",
+  "en": "MHP is now {num:FFE0:0000}!{end}",
   "max": 30
  },
  {
   "id": "BM:0AB190",
   "jp": "１Pの{name}は{n}強くなりました！{end}",
-  "en": "",
+  "en": "1P's {name}{n}got stronger!{end}",
   "max": 32
  },
  {
   "id": "BM:0AB1B0",
   "jp": "２Pの{name}は{n}強くなりました！{end}",
-  "en": "",
+  "en": "2P's {name}{n}got stronger!{end}",
   "max": 32
  },
  {
   "id": "BM:0AB1D0",
   "jp": "１Pの{name}を{n}入れる場所を選んでください{end}",
-  "en": "",
+  "en": "Choose a spot for{n}1P's {name}.{end}",
   "max": 40
  },
  {
   "id": "BM:0AB1F8",
   "jp": "２Pの{name}を{n}入れる場所を選んでください{end}",
-  "en": "",
+  "en": "Choose a spot for{n}2P's {name}.{end}",
   "max": 40
  },
  {
   "id": "BM:0AB220",
   "jp": "そこには入れられません{end}",
-  "en": "",
+  "en": "It can't go there.{end}",
   "max": 24
  },
  {
   "id": "BM:0AB238",
   "jp": "合体けっかをセーブします{end}",
-  "en": "",
+  "en": "Saving fusion results.{end}",
   "max": 28
  },
  {
   "id": "BM:0AB254",
   "jp": "続けて合体しますか？{end}",
-  "en": "",
+  "en": "Keep fusing?{end}",
   "max": 24
  },
  {
   "id": "BM:0AB26C",
   "jp": "これでいいですか？{end}",
-  "en": "",
+  "en": "Is this okay?{end}",
   "max": 20
  },
  {
   "id": "BM:0AB280",
   "jp": "ヴィネセンターに送りました{end}",
-  "en": "",
+  "en": "Sent to the Vine Center.{end}",
   "max": 28
  },
  {
   "id": "BM:0AB29E",
   "jp": "{name}のレベルが{n}　低いので、呼ぶ事ができない{end}",
-  "en": "",
+  "en": "{name}'s level{n}is too low to call it.{end}",
   "max": 46
  },
  {
   "id": "BM:0AB2CC",
   "jp": "その仲魔は合体できません{end}",
-  "en": "",
+  "en": "That ally can't be fused.{end}",
   "max": 28
  },
  {
   "id": "BM:0AB2E8",
   "jp": "ランクアップしてもいいですか？{end}",
-  "en": "",
+  "en": "Okay to rank up?{end}",
   "max": 32
  },
  {
   "id": "BM:0AB308",
   "jp": "{name}の{n}レベルが不足しています{end}",
-  "en": "",
+  "en": "{name}'s{n}level is too low.{end}",
   "max": 32
  },
  {
   "id": "BM:0AB32A",
   "jp": "その組み合わせでは{n}　合体できません！{end}",
-  "en": "",
+  "en": "That combination{n}can't be fused!{end}",
   "max": 42
  },
  {
   "id": "BM:0AB354",
   "jp": "ワタシハ{name}{n}コンゴトモヨロシク・・・{wait}{end}",
-  "en": "",
+  "en": "I am {name}. I'm yours from now on...{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0AB37C",
   "jp": "★：{name}、々／…♥{n}（よろしく、といってるようだ）{wait}{end}",
-  "en": "",
+  "en": "*{name}, ~/...! (It seems to be greeting you.){wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0AB3B0",
   "jp": "ワレは{name}{n}わが力、役立ててみるがよい{wait}{end}",
-  "en": "",
+  "en": "I am {name}. Put my power to good use.{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0AB3D8",
   "jp": "私は{name}{n}私を使いこなせるかしら{wait}{end}",
-  "en": "",
+  "en": "I'm {name}. Think you can handle me?{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0AB3FC",
   "jp": "ボクは{name}さ{n}今後ともよろしくっ！{wait}{end}",
-  "en": "",
+  "en": "I'm {name}! Glad to be on your team!{wait}{end}",
   "max": 36
  },
  {
   "id": "BM:0AB420",
   "jp": "わたしは{name}よ{n}今後ともよろしくね♥{wait}{end}",
-  "en": "",
+  "en": "I'm {name}! Let's get along, okay?{wait}{end}",
   "max": 40
  },
  {
   "id": "BM:0AB448",
   "jp": "ようっ！オレは{name}だぜ{n}オレの足をひっぱらないようにたのむゼ{wait}{end}",
-  "en": "",
+  "en": "Yo! I'm {name}! Try not to hold me back, got it?{wait}{end}",
   "max": 64
  },
  {
   "id": "BM:0AB488",
   "jp": "アタシは{name}よ{n}アタシの手をわずらわせないでネ♥{wait}{end}",
-  "en": "",
+  "en": "I'm {name}. Don't make me do all the work, 'kay?{wait}{end}",
   "max": 52
  },
  {
   "id": "BM:0AB4BC",
   "jp": "ワタシハ{name}{n}１Pヨ、コンゴトモヨロシク・・・{end}",
-  "en": "",
+  "en": "I am {name}.{n}1P, I'm yours from now on...{end}",
   "max": 48
  },
  {
   "id": "BM:0AB4EC",
   "jp": "★：{name}、１P々…♥{n}（よろしく、といってるようだ）{end}",
-  "en": "",
+  "en": "*{name}, 1P ~...!{n}(It seems to be greeting you.){end}",
   "max": 52
  },
  {
   "id": "BM:0AB520",
   "jp": "ワレは{name}{n}１Pよ、わが力、役立ててみるがよい{end}",
-  "en": "",
+  "en": "I am {name}.{n}1P, put my power to good use.{end}",
   "max": 48
  },
  {
   "id": "BM:0AB550",
   "jp": "私は{name}{n}１P、あなたは私を使いこなせるかしら{end}",
-  "en": "",
+  "en": "I'm {name}.{n}1P, think you can handle me?{end}",
   "max": 48
  },
  {
   "id": "BM:0AB580",
   "jp": "ボクは{name}さ{n}１Pさん、今後ともよろしくっ！{end}",
-  "en": "",
+  "en": "I'm {name}!{n}1P, glad to be on your team!{end}",
   "max": 44
  },
  {
   "id": "BM:0AB5AC",
   "jp": "わたしは{name}よ{n}１Pさん、今後ともよろしくね♥{end}",
-  "en": "",
+  "en": "I'm {name}!{n}1P, let's get along, okay?{end}",
   "max": 48
  },
  {
   "id": "BM:0AB5DC",
   "jp": "ようっ！オレは{name}だぜ{n}１Pよぉ、オレの足をひっぱるなよ{end}",
-  "en": "",
+  "en": "Yo! I'm {name}!{n}1P, don't hold me back!{end}",
   "max": 56
  },
  {
   "id": "BM:0AB614",
   "jp": "アタシは{name}よ{n}１P、アタシの手をやかさないでヨ♥{end}",
-  "en": "",
+  "en": "I'm {name}.{n}1P, don't give me any trouble!{end}",
   "max": 52
  },
  {
   "id": "BM:0AB648",
   "jp": "ワタシハ{name}{n}２Pヨ、コンゴトモヨロシク・・・{end}",
-  "en": "",
+  "en": "I am {name}.{n}2P, I'm yours from now on...{end}",
   "max": 48
  },
  {
   "id": "BM:0AB678",
   "jp": "★：{name}、２P々…♥{n}（よろしく、といってるようだ）{end}",
-  "en": "",
+  "en": "*{name}, 2P ~...!{n}(It seems to be greeting you.){end}",
   "max": 52
  },
  {
   "id": "BM:0AB6AC",
   "jp": "ワレは{name}{n}２Pよ、わが力、役立ててみるがよい{end}",
-  "en": "",
+  "en": "I am {name}.{n}2P, put my power to good use.{end}",
   "max": 48
  },
  {
   "id": "BM:0AB6DC",
   "jp": "私は{name}{n}２P、あなたは私を使いこなせるかしら{end}",
-  "en": "",
+  "en": "I'm {name}.{n}2P, think you can handle me?{end}",
   "max": 48
  },
  {
   "id": "BM:0AB70C",
   "jp": "ボクは{name}さ{n}２Pさん、今後ともよろしくっ！{end}",
-  "en": "",
+  "en": "I'm {name}!{n}2P, glad to be on your team!{end}",
   "max": 44
  },
  {
   "id": "BM:0AB738",
   "jp": "わたしは{name}よ{n}２Pさん、今後ともよろしくね♥{end}",
-  "en": "",
+  "en": "I'm {name}!{n}2P, let's get along, okay?{end}",
   "max": 48
  },
  {
   "id": "BM:0AB768",
   "jp": "ようっ！オレは{name}だぜ{n}２Pよぉ、オレの足をひっぱるなよ{end}",
-  "en": "",
+  "en": "Yo! I'm {name}!{n}2P, don't hold me back!{end}",
   "max": 56
  },
  {
   "id": "BM:0AB7A0",
   "jp": "アタシは{name}よ{n}２P、アタシの手をやかさないでヨ♥{end}",
-  "en": "",
+  "en": "I'm {name}.{n}2P, don't give me any trouble!{end}",
   "max": 52
  },
  {
   "id": "BM:0AB93C",
   "jp": "{face:0059}クヤシーッ{speed:0014}{n}こんな子どもに負けるなんて！{wait}{page}でも、負けは負けね{n}ワタシのおともだちをまかせるわ{wait}{page}ワタシのお友だちと{n}なかよくしてやってね♥{wait}{page}そうそう、おともだちは{n}ヴィネセンターに送っておくからね{wait}{end}",
-  "en": "",
+  "en": "{face:0059}Grrr, so frustrating!{speed:0014} To lose to a kid like you!{wait}{page}But a loss is a loss. I'll leave my friend to you.{wait}{page}Be nice to my friend, okay?{wait}{page}Oh, right. I'll send my friend to the Vine Center.{wait}{end}",
   "max": 212
  },
  {
   "id": "BM:0ABA10",
   "jp": "{face:005A}私のプラズマパワーが敗れるとは・・・{wait}{page}キミのプラズマパワーをもっと調べたい{n}サイボーグ・デカをつれていってくれ{wait}{page}これでデータを取ることができるぞ・・{n}あ、いやなんでもないこっちの話だよ{wait}{end}",
-  "en": "",
+  "en": "{face:005A}My plasma power... defeated...{wait}{page}I must study your plasma power further. Take Cyborg Deka with you.{wait}{page}Now I can gather data... Ah, no, never mind. Just talking to myself.{wait}{end}",
   "max": 196
  },
  {
   "id": "BM:0ABAD4",
   "jp": "{face:005B}くっ、本物はやっぱりちがうな{wait}{page}いつかお前を超えてみせるから{n}勝ったからってうかれてるなよ！{wait}{page}それと、決まりだからオレの仲魔は{n}ヴィネセンターに送っておくぞ{wait}{end}",
-  "en": "",
+  "en": "{face:005B}Tch, the real deal really is different.{wait}{page}Someday I'll surpass you, so don't get cocky just 'cause you won!{wait}{page}And rules are rules, so I'll send my ally to the Vine Center.{wait}{end}",
   "max": 168
  },
  {
   "id": "BM:0ABB7C",
   "jp": "{face:005C}いやはや、かんぷくいたしましたぞ{wait}{page}あなたのような強い者は{n}この広い魔界でもみたことがないですぞ{wait}{page}私の式神をおともにしてくだされ{wait}{end}",
-  "en": "",
+  "en": "{face:005C}My, my, I am truly impressed.{wait}{page}I have never seen anyone as strong as you in all of vast Makai.{wait}{page}Please take my shikigami along with you.{wait}{end}",
   "max": 140
  },
  {
   "id": "BM:0ABC08",
   "jp": "{face:0004}あーあ、負けちゃったかぁ{wait}{page}わたしのお気に入りのデビルを{n}あなたにあげるわ{wait}{f0}また今度お相手してね{wait}{end}",
-  "en": "",
+  "en": "{face:0004}Aww, I lost...{wait}{page}I'll give you my favorite Devil.{wait}{f0}Play with me again sometime!{wait}{end}",
   "max": 108
  },
  {
   "id": "BM:0ABC74",
   "jp": "{face:005D}すごいなその力・・・{n}どこからそんな力がうまれるのだろう？{wait}{page}よし、私の分身をつれていってくれ{n}キミの力のみなもとが知りたい！{wait}{page}ああ、心配しないでくれ{n}分身でも力は私と変わらないから{wait}{end}",
-  "en": "",
+  "en": "{face:005D}What power... Where does power like that come from?{wait}{page}All right, take my other self with you. I want to know the source of your power!{wait}{page}Oh, don't worry. My other self is just as strong as I am.{wait}{end}",
   "max": 192
  },
  {
   "id": "BM:0ABD34",
   "jp": "{face:0009}あなたホントに強いのね{wait}{page}あたしのとっておきのデビルだけど{n}あなたにならまかせられるわ{wait}{page}あたしのかわいいゾウリムシキング{n}大事にしてね！{wait}{end}",
-  "en": "",
+  "en": "{face:0009}You really are strong.{wait}{page}This is my most treasured Devil, but I can trust you with it.{wait}{page}Take good care of my cute Paramecium King!{wait}{end}",
   "max": 148
  }
 ]

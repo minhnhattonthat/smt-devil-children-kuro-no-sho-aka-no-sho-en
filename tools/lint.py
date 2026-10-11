@@ -189,7 +189,7 @@ def jp_line_px(jp):
 EXE_MIN_PX = 60  # short labels: allow English a little wider than tiny JP labels (QA confirms per screen)
 
 
-def lint_exe(jp, en, cap):
+def lint_exe(jp, en, cap, px=None):
     """EXE/overlay strings: in-place, so the packed size must fit `cap` bytes; lines no wider than the JP's."""
     import text
     if en == jp:  # data / debug string left as is
@@ -215,7 +215,7 @@ def lint_exe(jp, en, cap):
         size = len(text.encode_en(en))
         if size > cap:
             errs.append('too long: %d bytes > %d (about %d chars max)' % (size, cap, cap - 2))
-    limit = max(jp_line_px(jp), EXE_MIN_PX)
+    limit = px or max(jp_line_px(jp), EXE_MIN_PX)
     for ln in TOKEN.sub(lambda m: m[0] if m[0] == '{n}' else '', en).split('{n}'):
         if text_width(ln) > limit:
             errs.append('line %dpx > %dpx: %s' % (text_width(ln), limit, ln))
@@ -241,6 +241,14 @@ def main():
             print('--')
         return 0
     bad = n = 0
+    for sub in ('exe', 'battle'):
+        for p in sorted((ROOT / 'script' / sub).glob('*.json')):
+            for e in json.loads(p.read_text(encoding='utf-8')):
+                if e.get('en') and e['en'] != e['jp']:
+                    n += 1
+                    for err in lint_exe(e['jp'], e['en'], e['max'], e.get('px')):
+                        bad += 1
+                        print('%s/%s %s: %s' % (sub, p.name, e['id'], err))
     for p in sorted((ROOT / 'script' / 'event').glob('*.json')):
         for e in json.loads(p.read_text(encoding='utf-8')):
             if e.get('en'):
