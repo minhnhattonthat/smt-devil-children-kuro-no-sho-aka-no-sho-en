@@ -2,82 +2,82 @@
  {
   "id": "B:38A58",
   "jp": "{face:0011}それじゃあ気をつけてね！{wait}{page}キングライザーにも{n}仲魔を入れておくのよ{wait}{page}デビルチルドレンがいつ来ても{n}おかしくないんだからね{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Okay then, take care, 'kay!{wait}{page}And make sure you put some allies in the King Riser too!{wait}{page}'Cause the Devil Child could totally show up any second!{wait}{end}"
  },
  {
   "id": "B:38ADC",
   "jp": "{ee}ブトウ会を開くために{n}３つの部族の王が来るのを{wait}{f0}待っているのです{wait}{end}",
-  "en": ""
+  "en": "{ee}For the Battle Ball to begin, the kings of the three tribes have to arrive.{wait}{f0}That's what we're waiting for.{wait}{end}"
  },
  {
   "id": "B:38B24",
   "jp": "{face:0000}・・・ダレダ！！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}...Who's there!!?{wait}{end}"
  },
  {
   "id": "B:38B40",
   "jp": "{face:0018}・・・私か？{n}私はアバドン{wait}{page}大魔王にたのまれて{n}デビルチルドレンの様子を{wait}{f0}探りに来たのだが・・{wait}{end}",
-  "en": ""
+  "en": "{face:0018}...Me? I am Abaddon.{wait}{page}The Great Demon King asked me to come and see{wait}{f0}what the Devil Child is up to...{wait}{end}"
  },
  {
   "id": "B:38BAC",
   "jp": "{face:0018}何も知らずに{n}封印されていた方が{wait}{f0}幸せだったろうに・・{wait}{end}",
-  "en": ""
+  "en": "{face:0018}You would have been happier{wait}{f0}staying sealed away, knowing nothing...{wait}{end}"
  },
  {
   "id": "B:38BEC",
   "jp": "{ee}{face:0001}・・だ、だいじょうぶ・・{n}こんなの、カスリキズだぜ・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I-I'm fine... This is just a scratch...{wait}{end}"
  },
  {
   "id": "B:38C2C",
   "jp": "{ee}{face:0009}{voice:05D6}あたしはエレジーよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0009}{voice:05D6}I'm Elegy.{wait}{end}"
  },
  {
   "id": "B:38C4C",
   "jp": "{face:0009}{voice:05D7}あなたがデビルチルドレンなの{wait}{page}{voice:00D6}あなた、大魔王に{n}ねらわれているんでしょ？{wait}{page}{voice:00D7}イーワヨ、心配しなくても！{n}大魔王に言いつけたりしないわよ{wait}{page}{voice:00D8}あたし、大魔王って{n}ダーイッ、キライなんだから{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:05D7}So you're the Devil Child.{wait}{page}{voice:00D6}The Great Demon King's after you, isn't he?{wait}{page}{voice:00D7}Relax, don't worry! I won't go tattling to the Great Demon King.{wait}{page}{voice:00D8}'Cause I just toootally HATE the Great Demon King.{wait}{end}"
  },
  {
   "id": "B:38D20",
   "jp": "{face:0009}{voice:00D9}どうしたの？このケルベロス{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:00D9}What happened to this Cerberus?{wait}{end}"
  },
  {
   "id": "B:38D48",
   "jp": "{face:0009}{voice:00DA}そう、アバドンにね！{n}かなり、やられたわね！{wait}{page}{voice:05D8}これじゃあ、役に立たないわよ{n}さっさと、見すてた方がいいわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:00DA}Oh, Abaddon, huh! He really did a number on him!{wait}{page}{voice:05D8}He's useless like this. You'd better just leave him behind.{wait}{end}"
  },
  {
   "id": "B:38DC4",
   "jp": "{face:0009}{voice:05D9}あたしは、誰がこまっていようと{n}助けたりは、しないのよ{wait}{page}{voice:00DB}たとえ、あなたをねらっているのが{n}ダーイッ、キライな大魔王でもね{wait}{page}{voice:00DC}まあ、せいぜいみんなして{n}戦ってれば、いいわ{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:05D9}I don't help anybody, no matter who's in trouble.{wait}{page}{voice:00DB}Not even if the one after you is the Great Demon King I toootally HATE.{wait}{page}{voice:00DC}Well, you can all just go fight your little hearts out.{wait}{end}"
  },
  {
   "id": "B:38E84",
   "jp": "{face:0009}{voice:05DA}私、もう行かなきゃ{n}じゃあね！{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:05DA}I've gotta go now. Bye!{wait}{end}"
  },
  {
   "id": "B:38EB0",
   "jp": "{face:0015}今度こそデーバ王・インドラを{n}倒し、このマーブルランドの{wait}{f0}魔王になってみせるわ！{wait}{page}{name}とか言ってたな{n}白いメシアのツノが欲しければ{wait}{page}ブトウ会に出て自分の力で{wait}{n}勝ち取るしかないのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}This time for sure, I'll defeat Deva King Indra and become{wait}{f0}the Demon Lord of this Marble Land!{wait}{page}{name}, you said? If you want the White Messiah Horn,{wait}{page}you'll have to enter the Battle Ball{wait}{n}and win it with your own strength!{wait}{end}"
  },
  {
   "id": "B:38F70",
   "jp": "{face:0016}今度こそシュラ王・ヴリトラを{n}倒し、このマーブルランドの{wait}{f0}魔王になってみせるわ！{wait}{page}{name}とか言ったな{n}白いメシアのツノが欲しければ{wait}{page}ブトウ会に出て自分の力で{wait}{n}勝ち取るしかないのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0016}This time for sure, I'll defeat Sura King Vritra and become{wait}{f0}the Demon Lord of this Marble Land!{wait}{page}{name}, you said? If you want the White Messiah Horn,{wait}{page}you'll have to enter the Battle Ball{wait}{n}and win it with your own strength!{wait}{end}"
  },
  {
   "id": "B:39030",
   "jp": "{face:0014}シュラ王やデーバ王が{n}マーブルランドの魔王になれば{wait}{f0}力の強い者だけを{wait}{f0}みとめる国になってしまいます{wait}{page}私こそがマーブルランドの{n}魔王にふさわしいのに{wait}{page}白いメシアのツノが欲しければ{wait}{page}ブトウ会に出て自分の力で{wait}{n}勝ち取るしかないのです{wait}{end}",
-  "en": ""
+  "en": "{face:0014}If the Sura King or the Deva King becomes the Demon Lord of Marble Land,{wait}{f0}it will become a land{wait}{f0}that respects only the strong.{wait}{page}I am the one truly fit to be the Demon Lord of Marble Land.{wait}{page}If you want the White Messiah Horn,{wait}{page}you must enter the Battle Ball{wait}{n}and win it with your own strength.{wait}{end}"
  },
  {
   "id": "B:39128",
   "jp": "{face:0014}この薬を{partner}に{n}のませてあげなさい！{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Please give this medicine to {partner}!{wait}{end}"
  },
  {
   "id": "B:39154",
@@ -86,222 +86,222 @@
  {
   "id": "B:39174",
   "jp": "この先、ラセツ族の村{wait}{end}",
-  "en": ""
+  "en": "Rasetsu tribe village ahead{wait}{end}"
  },
  {
   "id": "B:3918C",
   "jp": "この先、デーバ族の村{wait}{end}",
-  "en": ""
+  "en": "Deva tribe village ahead{wait}{end}"
  },
  {
   "id": "B:391A4",
   "jp": "この先、シュラ族の村{wait}{end}",
-  "en": ""
+  "en": "Sura tribe village ahead{wait}{end}"
  },
  {
   "id": "B:391BC",
   "jp": "{ee}戦争続きですっかりみんな{n}びんぼうになってしまった・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}With war after war, everyone's ended up so poor...{wait}{end}"
  },
  {
   "id": "B:391FC",
   "jp": "{face:0014}戦いは力だけで{n}決まる物ではないのです{wait}{end}",
-  "en": ""
+  "en": "{face:0014}Battles are not decided by strength alone.{wait}{end}"
  },
  {
   "id": "B:3922C",
   "jp": "{face:0015}デーバ王インドラを{n}倒す前のイケニエとして{wait}{f0}デビルチルドレン・{name}{wait}{page}お前ほどふさわしい{n}相手はいない！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}Before I defeat Deva King Indra, I need a sacrifice...{wait}{f0}Devil Child {name},{wait}{page}there's no one more fitting than you!{wait}{end}"
  },
  {
   "id": "B:3929C",
   "jp": "{face:0015}わが力が・・・{wait}{n}伝説は本当だったのか！{wait}{end}",
-  "en": ""
+  "en": "{face:0015}My power...{wait}{n}So the legend was true!{wait}{end}"
  },
  {
   "id": "B:392CC",
   "jp": "{face:0016}人間とデビルの血を持った{n}ハーフデビルがいかに強くとも{wait}{page}わが力の前に{n}くっぷくさせてみせるわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0016}No matter how strong a half-Devil with both human and Devil blood may be,{wait}{page}I'll make you bow before my power!{wait}{end}"
  },
  {
   "id": "B:39334",
   "jp": "{face:0004}{voice:00DD}えっ？{wait}{page}{voice:00DE}あなたが、デビルチルドレンなの？{wait}{page}{voice:00DF}大魔王が言ってた{n}世界を、ほろぼそうとしているのは{wait}{page}{voice:00E0}あなたなの・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:00DD}Huh?{wait}{page}{voice:00DE}You're the Devil Child?{wait}{page}{voice:00DF}The one the Great Demon King told me about, who's trying to destroy the world...{wait}{page}{voice:00E0}is that you...?{wait}{end}"
  },
  {
   "id": "B:393C4",
   "jp": "{face:0004}{voice:00E2}負けちゃったわね！{wait}{page}{voice:00E3}ねえ{wait}{page}{voice:00E4}私は、大魔王にたのまれて{wait}{page}{voice:00E5}世界を、ほろぼそうとしている{n}デビルチルドレンを追いかけてたの{wait}{page}{voice:00E6}それが、あなただったなんて・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:00E2}Looks like I lost!{wait}{page}{voice:00E3}Hey...{wait}{page}{voice:00E4}The Great Demon King asked me{wait}{page}{voice:00E5}to chase down the Devil Child who's trying to destroy the world.{wait}{page}{voice:00E6}And it turned out to be you...{wait}{end}"
  },
  {
   "id": "B:3947C",
   "jp": "{face:0000}オレはナガヒサを{n}探すためにこの魔界を{wait}{f0}旅してるんだ{wait}{page}魔王になるためなんかじゃない{wait}{page}そうだ！誰かに{n}魔王を代わってもらおう！！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}I'm looking for Nagahisa,{wait}{f0}that's why I'm traveling through Makai.{wait}{page}Not to become some Demon Lord!{wait}{page}I know! I'll get somebody else to be Demon Lord instead!!{wait}{end}"
  },
  {
   "id": "B:39508",
   "jp": "{ee}ブトウ会、優勝オメデトウ{wait}{page}コロシアムの南の道を行くと{n}サークルゲートがあります、そこで{wait}{f0}メシアのツノをお使いなさい{wait}{end}",
-  "en": ""
+  "en": "{ee}Congratulations on winning the Battle Ball.{wait}{page}Take the road south of the Colosseum and you'll find a Circle Gate.{wait}{f0}Use the Messiah Horn there.{wait}{end}"
  },
  {
   "id": "B:39584",
   "jp": "{face:0019}{voice:05F0}伝説のデビルチルドレンが{n}この後、どうして行くのか{wait}{page}{voice:05F1}それは、あなたが決める事なの{wait}{page}{voice:05F2}もう、ここにいても何もないわよ{n}あなたの旅を続ける事ね{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05F0}What the legendary Devil Child will do from here on...{wait}{page}{voice:05F1}That is for you to decide.{wait}{page}{voice:05F2}There's nothing more for you here. Go on and continue your journey.{wait}{end}"
  },
  {
   "id": "B:39624",
   "jp": "{face:0004}{voice:0133}ナガヒサくんには会えた？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0133}Did you find Nagahisa-kun?{wait}{end}"
  },
  {
   "id": "B:39648",
   "jp": "{face:0000}{voice:0134}まだなんだ・・・{n}ここに来てると、思ったのに{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0134}Not yet... I thought he'd be here.{wait}{end}"
  },
  {
   "id": "B:39680",
   "jp": "{face:0004}{voice:0135}ええ、さっきまでこの部屋に・・{wait}{page}{voice:0136}私、探しに行ってあげるよ{wait}{page}{voice:0137}もし、見つけたらいっしょに{n}ゴーストタウンで待っているから{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0135}Yeah, he was in this room just a little while ago...{wait}{page}{voice:0136}I'll go look for him for you.{wait}{page}{voice:0137}If I find him, we'll both wait for you in Ghost Town.{wait}{end}"
  },
  {
   "id": "B:3970C",
   "jp": "{face:0000}{voice:0138}あなたが、イシスですね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0138}You must be Isis.{wait}{end}"
  },
  {
   "id": "B:39730",
   "jp": "{face:0019}{voice:0139}そう、魔界サンドランドの{n}魔王イシスよ{wait}{page}{voice:013A}ようこそ、デビルチルドレン{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0139}That's right. I'm Isis, Demon Lord of Makai's Sand Land.{wait}{page}{voice:013A}Welcome, Devil Child.{wait}{end}"
  },
  {
   "id": "B:39784",
   "jp": "{face:0000}{voice:013B}オレは、さらわれた弟を{n}探しているんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:013B}I'm looking for my little brother. He was kidnapped.{wait}{end}"
  },
  {
   "id": "B:397B8",
   "jp": "{face:0019}{voice:013C}ナガヒサ君なら、ここに来たわよ{wait}{page}{voice:013D}かれは、天使から{wait}{f0}{voice:013E}あなたが、世界をほろぼすパワーを持つ{n}デビルチルドレンだって聞いて{wait}{page}{voice:013F}それを、たしかめに来たのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:013C}Nagahisa-kun? He came here.{wait}{page}{voice:013D}The angels told him{wait}{f0}{voice:013E}that you're the Devil Child with the power to destroy the world,{wait}{page}{voice:013F}so he came to see if it was true.{wait}{end}"
  },
  {
   "id": "B:39868",
   "jp": "{face:0000}{voice:0140}大魔王もオレが{n}世界をほろぼすと、言ってたそうだ{wait}{page}{voice:0141}オレは本当に{n}世界をほろぼすのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0140}I heard the Great Demon King said I'd destroy the world, too.{wait}{page}{voice:0141}Am I really going to destroy the world?{wait}{end}"
  },
  {
   "id": "B:398D0",
   "jp": "{face:0019}{voice:0142}・・・フフフ・・・{wait}{page}{voice:0143}その答えは、私に勝ったら{n}教えてあげるわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0142}...Heh heh heh...{wait}{page}{voice:0143}I'll tell you the answer if you can beat me!{wait}{end}"
  },
  {
   "id": "B:39920",
   "jp": "{face:0019}{voice:0144}スゴイ！気に入ったわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0144}Amazing! I like you!{wait}{end}"
  },
  {
   "id": "B:39944",
   "jp": "{face:0019}{voice:0145}それじゃあ、話してあげるわ{wait}{page}{voice:0146}あなたが世界を{n}ほろぼすのかどうか、なんて{wait}{page}{voice:0147}そんな遠い先の運命は{n}誰にも、わからないのよ{wait}{page}{voice:0148}それは、これからのあなたしだい{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0145}All right, I'll tell you.{wait}{page}{voice:0146}Whether or not you'll destroy the world...{wait}{page}{voice:0147}A fate that far ahead is something no one can know.{wait}{page}{voice:0148}It all depends on what you do from now on.{wait}{end}"
  },
  {
   "id": "B:399F8",
   "jp": "{face:0000}{voice:0149}じゃあ、なぜ大魔王は{n}オレを倒そうとするんだ？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0149}Then why is the Great Demon King trying to defeat me?{wait}{end}"
  },
  {
   "id": "B:39A34",
   "jp": "{face:0019}{voice:014A}それは、あなたが大魔王に会って{n}たしかめるしかないわね{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:014A}For that, you'll have to meet the Great Demon King and find out yourself.{wait}{end}"
  },
  {
   "id": "B:39A78",
   "jp": "{face:0000}{ea}・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{ea}.........{wait}{end}"
  },
  {
   "id": "B:39A94",
   "jp": "{face:0019}{voice:014B}あなたのお母さんは{n}なくなったわよね{wait}{page}{voice:014C}つらい話で、ゴメンナサイ{wait}{page}{voice:014D}ここに来るとちゅうに{n}あったのが、お母さんのおはかよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:014B}Your mother passed away, didn't she?{wait}{page}{voice:014C}I'm sorry to bring up something so painful.{wait}{page}{voice:014D}The grave you passed on your way here was your mother's.{wait}{end}"
  },
  {
   "id": "B:39B20",
   "jp": "{face:0000}{voice:014E}そうか、あれは母さんの・・・{wait}{page}{voice:014F}それで、ナガヒサは・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:014E}So that was Mom's...{wait}{page}{voice:014F}Then what about Nagahisa...?{wait}{end}"
  },
  {
   "id": "B:39B6C",
   "jp": "{face:0019}{voice:0150}あなたと、ナガヒサ君の{n}お父さんは別なの・・・・{wait}{page}{voice:0151}ナガヒサ君は、あなたのお父さんが{wait}{page}{voice:0152}あなたとお母さんを残して{n}魔界に戻った後で生まれた子どもなの{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0150}You and Nagahisa-kun have different fathers...{wait}{page}{voice:0151}Nagahisa-kun was born after your father{wait}{page}{voice:0152}left you and your mother behind and went back to Makai.{wait}{end}"
  },
  {
   "id": "B:39C14",
   "jp": "{face:0019}{voice:0153}・・・・かれは{n}デビルチルドレンじゃ、ないのよ{wait}{page}{voice:0154}だけど、かれもふつうの{n}人間では、ないのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0153}...He isn't a Devil Child.{wait}{page}{voice:0154}But he isn't an ordinary human, either.{wait}{end}"
  },
  {
   "id": "B:39C80",
   "jp": "{face:0019}{voice:0155}・・・・かれは・・・たぶん・・{n}天使のこどもなのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:0155}...He's... probably... the child of an angel.{wait}{end}"
  },
  {
   "id": "B:39CC0",
   "jp": "{face:0019}{voice:05F0}伝説のデビルチルドレンが{n}この後、どうしていくのか{wait}{page}{voice:05F1}それは、あなたが決める事なの{wait}{page}{voice:05F2}もう、ここにいても何もないわよ{n}あなたの旅を続ける事ね{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05F0}What the legendary Devil Child will do from here on...{wait}{page}{voice:05F1}That is for you to decide.{wait}{page}{voice:05F2}There's nothing more for you here. Go on and continue your journey.{wait}{end}"
  },
  {
   "id": "B:39D60",
   "jp": "{ee}{face:0019}{voice:05F0}伝説のデビルチルドレンが{n}この後、どうしていくのか{wait}{page}{voice:05F1}それは、あなたが決める事なの{wait}{page}{voice:05F2}もう、ここにいても何もないわよ{n}あなたの旅を続ける事ね{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}{voice:05F0}What the legendary Devil Child will do from here on...{wait}{page}{voice:05F1}That is for you to decide.{wait}{page}{voice:05F2}There's nothing more for you here. Go on and continue your journey.{wait}{end}"
  },
  {
   "id": "B:39E04",
   "jp": "{voice:0168}ニイサン　チジョウニ{n}モドッテ　キテクレ{wait}{page}{voice:0169}ボクガ　カナラズ　アイニイクカラ{wait}{end}",
-  "en": ""
+  "en": "{voice:0168}Big brother... come back... to the surface.{wait}{page}{voice:0169}I will... come to see you... I promise.{wait}{end}"
  },
  {
   "id": "B:39E5C",
   "jp": "{ee}{face:0007}{voice:016A}ナガヒサが{n}地上で待ってるんだろ{wait}{page}{voice:016C}その、紫のツノを使えば{n}地上に戻れるはずだよ{wait}{page}{voice:016B}これを、きみにあげるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}{voice:016A}Nagahisa's waiting for you on the surface, right?{wait}{page}{voice:016C}If you use that Purple Horn, you should be able to get back there.{wait}{page}{voice:016B}Here, I want you to have this.{wait}{end}"
  },
  {
   "id": "B:39EDC",
   "jp": "ヒーホー、地上は{n}デビルのものになるんだホー{wait}{end}",
-  "en": ""
+  "en": "Hee-ho, the surface is gonna belong to the Devils-ho!{wait}{end}"
  },
  {
   "id": "B:39F0C",
   "jp": "・・・グルルルル・・・{wait}{end}",
-  "en": ""
+  "en": "...Grrrrr...{wait}{end}"
  },
  {
   "id": "B:39F28",
   "jp": "{face:0008}{voice:0180}・・・兄さん・・・さすがだね{wait}{page}{voice:0181}でも、これが始まりなんだよ{wait}{page}{voice:0182}ぼくと兄さんの・・戦いの・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0180}...Big brother... impressive as always.{wait}{page}{voice:0181}But this is only the beginning.{wait}{page}{voice:0182}The beginning... of the battle... between you and me...{wait}{end}"
  },
  {
   "id": "B:39F98",
   "jp": "{face:0008}{voice:018F}だから、ぼくも魔界に戻り{wait}{page}{voice:0190}最後の戦いのじゅんびを{n}始めるつもりさ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:018F}So I'm going back to Makai too,{wait}{page}{voice:0190}to start getting ready for the final battle.{wait}{end}"
  },
  {
   "id": "B:39FEC",
   "jp": "{face:0008}{voice:0191}これは、緑のメシアのツノだよ{wait}{page}{voice:0192}これを使って魔界に来てよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0191}This is the Green Messiah Horn.{wait}{page}{voice:0192}Use it to come to Makai.{wait}{end}"
  },
  {
   "id": "B:3A034",
   "jp": "{face:0008}{voice:0193}この奥のトリイに{n}サークルゲートがあるんだ{wait}{page}{voice:0194}そこから魔界に戻れるから・・・{n}待ってるからね、兄さん{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0193}There's a Circle Gate at the torii farther in.{wait}{page}{voice:0194}From there you can get back to Makai... I'll be waiting, big brother.{wait}{end}"
  },
  {
   "id": "B:3A0A8",
   "jp": "{ee}ここの魔王はベリアル様だが{wait}{n}今は話しかけない方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Demon Lord here is Belial-sama,{wait}{n}but you'd better not talk to him right now.{wait}{end}"
  },
  {
   "id": "B:3A0E8",
   "jp": "{ee}このフォレストランドには{n}３びきのドラゴンが住んでいる{wait}{f0}どうだ、マイッタカ・・・？{wait}{end}",
-  "en": ""
+  "en": "{ee}Three dragons live here in Forest Land.{wait}{f0}Well? Had enough yet...?{wait}{end}"
  },
  {
   "id": "B:3A144",
@@ -310,101 +310,101 @@
  {
   "id": "B:3A178",
   "jp": "{face:001B}わかった、オレが悪かった{wait}{page}ベリアルのやつがあんまり{wait}{n}セコイんで、ちょっと{f0}こらしめようとしただけさ{wait}{page}ほら、返してやるよ{wait}{end}",
-  "en": ""
+  "en": "{face:001B}Okay, okay, my bad.{wait}{page}Belial was just being{wait}{n}such a cheapskate, so I{f0}wanted to teach him a little lesson, that's all.{wait}{page}Here, you can have it back.{wait}{end}"
  },
  {
   "id": "B:3A1FC",
   "jp": "金のリンゴパイを{n}手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Golden Apple Pie.{wait}{end}"
  },
  {
   "id": "B:3A21C",
   "jp": "{face:001A}フフフ・・・{n}金のリンゴパイさえ戻れば{wait}{f0}何も、もんだいはない{wait}{page}そうかんたんに大魔王のひみつを{n}話すわけにはいかんわ！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Heh heh heh... As long as I've got the Golden Apple Pie back,{wait}{f0}there's no problem at all.{wait}{page}But I can't go spilling the Great Demon King's secrets that easily!{wait}{end}"
  },
  {
   "id": "B:3A29C",
   "jp": "{face:001A}デビルチルドレンにしてはアマイぞ！{wait}{page}ディープホールに落ちるがいい！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}You're awfully naive for a Devil Child!{wait}{page}Now fall into the Deep Hole!{wait}{end}"
  },
  {
   "id": "B:3A2E8",
   "jp": "{face:001A}グ、グゥこんなハズでは・・・{n}ハッ！！ご、ごめんなさい！！{wait}{f0}ほらちょっと、ストレスがたまって{wait}{f0}どうかしてたんですよ！{wait}{f0}イヤイヤ、ほんとに！{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Gr, grr, this wasn't supposed to... Ah!! I-I'm so sorry!!{wait}{f0}You see, I've been a little stressed out,{wait}{f0}and I wasn't myself!{wait}{f0}No, no, really!{wait}{end}"
  },
  {
   "id": "B:3A380",
   "jp": "{face:00FF}赤いメシアのツノを手に入れた！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the Red Messiah Horn!{wait}{end}"
  },
  {
   "id": "B:3A3A8",
   "jp": "{face:0008}{voice:019A}メシアのツノとヒトミは{n}それぞれ７つずつあるんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:019A}There are seven Messiah Horns and seven Messiah Eyes.{wait}{end}"
  },
  {
   "id": "B:3A3E4",
   "jp": "{face:0008}{voice:019B}同じ色のツノと{wait}{page}{voice:019C}ヒトミを組み合わせると{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:019B}If you combine a Horn{wait}{page}{voice:019C}with an Eye of the same color...{wait}{end}"
  },
  {
   "id": "B:3A41C",
   "jp": "{face:0008}{voice:019D}ノルンのカギを{n}作る事ができるんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:019D}...you can make a Norn Key!{wait}{end}"
  },
  {
   "id": "B:3A44C",
   "jp": "{face:0008}{voice:019E}そして、その７つの色の{n}ちがうカギを集めて{wait}{page}{voice:019F}セントラルランドにある{n}オルゴールルームに行くと{wait}{page}{voice:01A0}ハルマゲドンとラグナロクの{n}どちらかのプログラムを{wait}{page}{voice:01A1}起動させられるんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:019E}And if you gather the seven keys of different colors{wait}{page}{voice:019F}and go to the Orgel Room in Central Land,{wait}{page}{voice:01A0}one of two programs, Armageddon or Ragnarok,{wait}{page}{voice:01A1}can be activated.{wait}{end}"
  },
  {
   "id": "B:3A510",
   "jp": "{face:0000}{voice:01A2}ノルンのカギの事は{n}イシスから聞いた事があるよ{wait}{page}{voice:01A3}でもオレが、世界の運命を{n}決めるなんて考えられないんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:01A2}I've heard about the Norn Keys from Isis.{wait}{page}{voice:01A3}But I can't imagine me deciding the fate of the world.{wait}{end}"
  },
  {
   "id": "B:3A588",
   "jp": "{face:0008}{voice:01A4}天使たちは、世界を{n}より良くするための方法を{wait}{page}{voice:01A5}真面目に考えているんだ{wait}{page}{voice:01A6}兄さん、ぼくと天使たちに{n}力をかして欲しいんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:01A4}The angels are thinking hard about ways{wait}{page}{voice:01A5}to make the world a better place. They're serious.{wait}{page}{voice:01A6}Big brother, I want you to lend your power to me and the angels.{wait}{end}"
  },
  {
   "id": "B:3A614",
   "jp": "{face:0000}{voice:01A7}ナガヒサ、お前のたのみでも{wait}{page}{voice:01A8}オレは、自分のする事を{n}人まかせには、できないんだ{wait}{page}{voice:01A9}自分の力で考えて{n}自分で決めていきたいんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:01A7}Nagahisa, even if it's you asking...{wait}{page}{voice:01A8}I can't leave what I do up to somebody else.{wait}{page}{voice:01A9}I want to think for myself and decide for myself.{wait}{end}"
  },
  {
   "id": "B:3A6A8",
   "jp": "スイッチのような物がある{wait}{end}",
-  "en": ""
+  "en": "There's something that looks like a switch.{wait}{end}"
  },
  {
   "id": "B:3A6C4",
   "jp": "　おしてみる{n}　やめとく{end}",
-  "en": ""
+  "en": "Push it{n}Leave it{end}"
  },
  {
   "id": "B:3A6E0",
   "jp": "{name}は{n}スイッチのような物をおした{wait}{end}",
-  "en": ""
+  "en": "{name} pushed the switch-like thing.{wait}{end}"
  },
  {
   "id": "B:3A704",
   "jp": "{name}は{n}何もしなかった{wait}{end}",
-  "en": ""
+  "en": "{name} did nothing.{wait}{end}"
  },
  {
   "id": "B:3A71C",
   "jp": "{ee}ギャンブルはほどほどに{n}した方がいいですよ{wait}{end}",
-  "en": ""
+  "en": "{ee}It's best not to gamble too much, you know.{wait}{end}"
  },
  {
   "id": "B:3A74C",
   "jp": "{face:0020}{voice:01C7}虹色のメシアのツノが{n}欲しいんか？{wait}{page}{voice:0604}わてが持ってるで{wait}{page}{voice:0605}けど、この世界は金が全てや！{wait}{page}{voice:0606}あれはな{wait}{f0}{voice:01C8}こないだわてが２０００マッカで{n}アゼルからこうたもんや{wait}{page}{voice:0608}で、なんぼ出す？・・・・{wait}{page}{ea}・・・・・・・・・{wait}{page}{voice:0609}１０００００マッカやな！{n}それいじょうは、まからへんで！{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:01C7}Ya want the Rainbow Messiah Horn?{wait}{page}{voice:0604}I've got it right here.{wait}{page}{voice:0605}But in this world, money's everything!{wait}{page}{voice:0606}That thing, see,{wait}{f0}{voice:01C8}I bought it off Azel the other day for 2,000 Macca.{wait}{page}{voice:0608}So, how much ya gonna pay?...{wait}{page}{ea}.........{wait}{page}{voice:0609}100,000 Macca! Not a single Macca less!{wait}{end}"
  },
  {
   "id": "B:3A87C",
   "jp": "{face:0020}{voice:060A}おーっ！{n}サスガ！デビルチルドレンやで！{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:060A}Whoa! That's a Devil Child for ya!{wait}{end}"
  }
 ]

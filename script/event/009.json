@@ -57,7 +57,7 @@
  {
   "id": "B:342C0",
   "jp": "{face:001A}この赤いメシアのツノがあれば{n}ファイアーランドに行けますよ{wait}{page}これはあなたにさしあげますよ{wait}{end}",
-  "en": "{face:001A}With this red Messiah Horn, you can go to Fire Land.{wait}{page}Please, take it. It's yours.{wait}{end}"
+  "en": "{face:001A}With this Red Messiah Horn, you can go to Fire Land.{wait}{page}Please, take it. It's yours.{wait}{end}"
  },
  {
   "id": "B:34324",
@@ -152,7 +152,7 @@
  {
   "id": "B:349D4",
   "jp": "虹色のメシアのツノを{n}手に入れた{wait}{end}",
-  "en": "Got the rainbow Messiah Horn!{wait}{end}"
+  "en": "Got the Rainbow Messiah Horn!{wait}{end}"
  },
  {
   "id": "B:349F8",

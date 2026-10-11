@@ -77,7 +77,7 @@
  {
   "id": "B:2A468",
   "jp": "{face:00FF}金色のメシアのツノを手に入れた{wait}{end}",
-  "en": "{face:00FF}Got the golden Messiah Horn.{wait}{end}"
+  "en": "{face:00FF}Got the Golden Messiah Horn.{wait}{end}"
  },
  {
   "id": "B:2A490",
@@ -152,7 +152,7 @@
  {
   "id": "B:2A870",
   "jp": "{ee}メシアのツノって知ってる？{n}ブトウ会に優勝すれば{wait}{f0}マーブルランドの魔王として{wait}{f0}白いメシアのツノを{f0}手に入れる事ができるんだ{wait}{end}",
-  "en": "{ee}Do you know about the Messiah Horn? If you win the Battle Ball,{wait}{f0}then as Demon Lord of Marble Land,{wait}{f0}you get your hands on{f0}the white Messiah Horn!{wait}{end}"
+  "en": "{ee}Do you know about the Messiah Horn? If you win the Battle Ball,{wait}{f0}then as Demon Lord of Marble Land,{wait}{f0}you get your hands on{f0}the White Messiah Horn!{wait}{end}"
  },
  {
   "id": "B:2A8F4",

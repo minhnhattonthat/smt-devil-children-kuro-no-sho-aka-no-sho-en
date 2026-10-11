@@ -2,401 +2,401 @@
  {
   "id": "B:424B8",
   "jp": "アバドンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Abaddon became your ally!{wait}{end}"
  },
  {
   "id": "B:424D4",
   "jp": "{face:0018}では仕方がないな、サラバじゃ{wait}{end}",
-  "en": ""
+  "en": "{face:0018}Then it can't be helped. Farewell.{wait}{end}"
  },
  {
   "id": "B:424F8",
   "jp": "{face:0018}仲魔がいっぱいのようじゃな{wait}{page}出直して来るがよい{wait}{end}",
-  "en": ""
+  "en": "{face:0018}Looks like you've got a full load of allies.{wait}{page}Come back another time.{wait}{end}"
  },
  {
   "id": "B:42530",
   "jp": "{face:0018}どうした？戻って来たのか？{wait}{end}",
-  "en": ""
+  "en": "{face:0018}What is it? Have you come back?{wait}{end}"
  },
  {
   "id": "B:42554",
   "jp": "{ee}{face:004F}・・・・・・・・{wait}{page}おれは・・・ダレダ？・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004F}........{wait}{page}Who... am... I?...{wait}{end}"
  },
  {
   "id": "B:4258C",
   "jp": "{ee}{face:004F}・・・・・何もわからない{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004F}.....I don't understand anything.{wait}{end}"
  },
  {
   "id": "B:425B0",
   "jp": "{face:0067}あ、でも仲魔がいっぱいだね{n}ボク、待ってるから、またきてね{wait}{end}",
-  "en": ""
+  "en": "{face:0067}Oh, but you've got a full load of allies. I'll wait for you, so come back again, okay?{wait}{end}"
  },
  {
   "id": "B:425F4",
   "jp": "{face:00FF}けうけげんが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Keukegen became your ally!{wait}{end}"
  },
  {
   "id": "B:42614",
   "jp": "{face:0050}どう？気にいった？{wait}{page}これは心をいやす歌なの{wait}{end}",
-  "en": ""
+  "en": "{face:0050}Well? Did you like it?{wait}{page}It's a song that heals the heart.{wait}{end}"
  },
  {
   "id": "B:42648",
   "jp": "{face:0050}えっ、自分の事が{n}わからなくなったデビルがいるって{wait}{page}そう、きっと{n}心を無くしてしまったのね{wait}{page}いいわ！私がいやしてあげる{wait}{page}しつげんの森に行ってみるわ{wait}{n}あなたも後から来てね！{wait}{end}",
-  "en": ""
+  "en": "{face:0050}Huh? There's a Devil who doesn't know who he is anymore?{wait}{page}I see. He must have lost his heart.{wait}{page}All right! I'll heal him for you!{wait}{page}I'll head to the Marsh Forest.{wait}{n}You come along after me, okay?{wait}{end}"
  },
  {
   "id": "B:42704",
   "jp": "{face:004F}心が・・・安らぐ・・{wait}{page}・・・・・・！？{wait}{page}キオクが・・・よみがえる！{wait}{end}",
-  "en": ""
+  "en": "{face:004F}My heart... feels at peace...{wait}{page}......!?{wait}{page}My memories... are coming back!{wait}{end}"
  },
  {
   "id": "B:42754",
   "jp": "{face:0050}どう？心にジーンと来た？{wait}{end}",
-  "en": ""
+  "en": "{face:0050}Well? Did that touch your heart?{wait}{end}"
  },
  {
   "id": "B:42774",
   "jp": "{face:004F}ああ、ありがとう！おかげで{n}自分を取り戻す事ができたよ{wait}{end}",
-  "en": ""
+  "en": "{face:004F}Yes, thank you! Thanks to you, I've found myself again.{wait}{end}"
  },
  {
   "id": "B:427B4",
   "jp": "{face:004F}{name}、ありがとう{wait}{page}きみがハーピーの所へ{n}行ってくれなかったら{wait}{page}ぼくは一生この森で{n}迷い続けていただろう{wait}{page}どうだろうぼくでよければ{n}仲魔にしてくれないか？{wait}{end}",
-  "en": ""
+  "en": "{face:004F}{name}, thank you.{wait}{page}If you hadn't gone to see Harpy for me,{wait}{page}I'd have wandered lost in this forest for the rest of my life.{wait}{page}What do you say? If you'll have me, will you make me your ally?{wait}{end}"
  },
  {
   "id": "B:42858",
   "jp": "　わかった、よろしくな{n}　いいよ、無理するなよ{end}",
-  "en": ""
+  "en": "Got it. Glad to have you!{n}It's fine. Don't push yourself.{end}"
  },
  {
   "id": "B:42888",
   "jp": "{face:004F}わかった！{n}今からきみの仲魔だ！{wait}{end}",
-  "en": ""
+  "en": "{face:004F}All right! From now on, I'm your ally!{wait}{end}"
  },
  {
   "id": "B:428B0",
   "jp": "ブラックラジャーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Black Raja became your ally!{wait}{end}"
  },
  {
   "id": "B:428D4",
   "jp": "{face:0050}そう、それじゃあ{n}私の役目は終わりね{wait}{page}私はまた旅を続けるわね{wait}{page}それじゃあね、バイバーイ♥{wait}{end}",
-  "en": ""
+  "en": "{face:0050}I see. Then my job here is done.{wait}{page}I'll be off on my travels again.{wait}{page}Well then, bye-bye!{wait}{end}"
  },
  {
   "id": "B:42938",
   "jp": "{face:004F}ええっ、そんな・・・・{n}・・・・・何もわからない{wait}{end}",
-  "en": ""
+  "en": "{face:004F}What? But... .....I don't understand anything.{wait}{end}"
  },
  {
   "id": "B:42970",
   "jp": "{face:004F}ええっ、仲魔がいっぱいだ！{wait}{page}・・・・・何もわからない{wait}{end}",
-  "en": ""
+  "en": "{face:004F}What? Your allies are full!{wait}{page}.....I don't understand anything.{wait}{end}"
  },
  {
   "id": "B:429B0",
   "jp": "{ee}{face:0050}はぁい！私、歌を歌って{n}旅をしてるの{wait}{page}今、聞かせてあげるわね！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0050}Hiya! I travel around singing songs.{wait}{page}I'll sing one for you right now!{wait}{end}"
  },
  {
   "id": "B:429FC",
   "jp": "{ee}{face:0050}待ってたわ！それじゃあ{n}始めるわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0050}I was waiting for you! Okay then, let's begin.{wait}{end}"
  },
  {
   "id": "B:42A28",
   "jp": "{ee}{face:0050}だめよ！このデビルは{n}きずつきやすいのよ{wait}{page}もう一度、最初からね{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0050}No good! This Devil is easily hurt.{wait}{page}Let's start over from the beginning.{wait}{end}"
  },
  {
   "id": "B:42A74",
   "jp": "{ee}あーっ、こまった！{wait}{n}おれの大事などうのナイフを{wait}{f0}この湖の中に{wait}{f0}落としてしまったんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Aaah, I'm in trouble!{wait}{n}My precious Copper Knife...{wait}{f0}I dropped it{wait}{f0}into this lake!{wait}{end}"
  },
  {
   "id": "B:42AD4",
   "jp": "{ee}おねがいだ！{wait}{n}おれのどうのナイフを{wait}{f0}何とかしてくれないか？{wait}{end}",
-  "en": ""
+  "en": "{ee}Please!{wait}{n}Can't you do something{wait}{f0}about my Copper Knife?{wait}{end}"
  },
  {
   "id": "B:42B18",
   "jp": "{face:0051}ぼくの名前はネッシー{n}どうかしたの？{wait}{page}えっ、ナイフを落としたんだって{wait}{page}ちょっと待ってて・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0051}My name is Nessie. What's wrong?{wait}{page}Huh? You dropped a knife?{wait}{page}Wait just a sec...{wait}{end}"
  },
  {
   "id": "B:42B80",
   "jp": "{face:0051}・・・見つけたよ{wait}{page}だけど、どんなナイフなの？{wait}{end}",
-  "en": ""
+  "en": "{face:0051}...Found it!{wait}{page}But what kind of knife is it?{wait}{end}"
  },
  {
   "id": "B:42BB8",
   "jp": "　プラチナのナイフ{n}　金のナイフ{n}　どうのナイフ{end}",
-  "en": ""
+  "en": "Platinum Knife{n}Gold Knife{n}Copper Knife{end}"
  },
  {
   "id": "B:42BEC",
   "jp": "{face:0051}・・・・・・ウソツキ{wait}{page}そんなナイフ、なかったもん{wait}{end}",
-  "en": ""
+  "en": "{face:0051}......Liar.{wait}{page}There wasn't any knife like that.{wait}{end}"
  },
  {
   "id": "B:42C28",
   "jp": "{face:0051}キミ正直だね{wait}{page}これ返してあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0051}You're honest, aren't you?{wait}{page}I'll give this back to you.{wait}{end}"
  },
  {
   "id": "B:42C54",
   "jp": "どうのナイフをもらった{wait}{end}",
-  "en": ""
+  "en": "Received the Copper Knife.{wait}{end}"
  },
  {
   "id": "B:42C70",
   "jp": "{face:0051}また来たんだね{wait}{page}もう一度、探してあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0051}You came back again, huh?{wait}{page}I'll look for it one more time.{wait}{end}"
  },
  {
   "id": "B:42CA4",
   "jp": "あーっ、それオレのどうのナイフ！{wait}{n}見つけてくれたんだ！{wait}{page}ありがとう、返してくれるよね？{wait}{end}",
-  "en": ""
+  "en": "Aaah, that's my Copper Knife!{wait}{n}You found it for me!{wait}{page}Thank you! You'll give it back, right?{wait}{end}"
  },
  {
   "id": "B:42D04",
   "jp": "　うーん、どうしよーかな？{n}　もちろん返してあげる{end}",
-  "en": ""
+  "en": "Hmm, what should I do?{n}Of course I'll give it back.{end}"
  },
  {
   "id": "B:42D38",
   "jp": "えーっ、そんなー・・・{wait}{end}",
-  "en": ""
+  "en": "Whaaat, no way...{wait}{end}"
  },
  {
   "id": "B:42D54",
   "jp": "アッ、アッ、アリガトー！{wait}{page}それさえあれば森の中で{n}デビルにおそわれても戦える{wait}{end}",
-  "en": ""
+  "en": "Th-Th-Thank yooou!{wait}{page}With this, even if Devils attack me in the forest, I can fight back!{wait}{end}"
  },
  {
   "id": "B:42DA8",
   "jp": "お礼にこれあげるよ！{wait}{page}これはファイアーランドの{n}地下工場で見つけたんだ{wait}{page}何に使うかわからないんだけど{n}きっと役に立つと思うよ{wait}{end}",
-  "en": ""
+  "en": "Here, take this as thanks!{wait}{page}I found it in the underground factory in Fire Land.{wait}{page}I don't know what it's for, but I'm sure it'll come in handy.{wait}{end}"
  },
  {
   "id": "B:42E2C",
   "jp": "どうのナイフをわたして{wait}{end}",
-  "en": ""
+  "en": "Handed over the Copper Knife.{wait}{end}"
  },
  {
   "id": "B:42E48",
   "jp": "デービーパーツを受けとった{wait}{end}",
-  "en": ""
+  "en": "Received the DB Parts.{wait}{end}"
  },
  {
   "id": "B:42E68",
   "jp": "{ee}ありがとう助かったよ！{wait}{page}あれが何なのか{n}ファイアーランドに行けば{wait}{f0}わかると思うよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Thanks, you saved me!{wait}{page}If you go to Fire Land,{wait}{f0}I bet you'll find out what that thing is.{wait}{end}"
  },
  {
   "id": "B:42EC4",
   "jp": "{ee}{face:0051}あのね、ボク１人ぼっちなの{wait}{page}だれか、かわいいネッシーを{n}連れて来てくれないかなあ？{wait}{page}アイスランドのどこかに{n}いるって聞いたんだけど{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0051}You see, I'm all alone.{wait}{page}Won't somebody bring a cute Nessie here for me?{wait}{page}I heard there's one somewhere in Ice Land.{wait}{end}"
  },
  {
   "id": "B:42F54",
   "jp": "{face:0051}あれっ、ネッシーがいるんだね{wait}{n}連れて来てくれたんだ{wait}{page}いっしょに行ってもいい？{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Oh! You've got a Nessie!{wait}{n}You brought one for me!{wait}{page}Can I go with you?{wait}{end}"
  },
  {
   "id": "B:42FAC",
   "jp": "　うーん、どうしよーかな？{n}　もちろんいいよ{end}",
-  "en": ""
+  "en": "Hmm, what should I do?{n}Sure, of course!{end}"
  },
  {
   "id": "B:42FDC",
   "jp": "{face:0051}えーっ、そんな・・・・{wait}{n}ともだちだと思ってたのに{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Whaaat, no way....{wait}{n}I thought we were friends...{wait}{end}"
  },
  {
   "id": "B:43018",
   "jp": "{face:0051}やったー！{wait}{n}これでもう１人ぼっちじゃないぞ{wait}{page}{name}、アリガトー！{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Yaaay!{wait}{n}Now I'm not all alone anymore!{wait}{page}{name}, thank yooou!{wait}{end}"
  },
  {
   "id": "B:43060",
   "jp": "{face:0051}連れて来てくれて、ありがとう{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Thanks for bringing a Nessie here.{wait}{end}"
  },
  {
   "id": "B:43084",
   "jp": "{face:0051}うーっ、楽しいよー{n}{name}、アリガトー！{wait}{page}お礼にぼくの仲魔を{n}１人しょうかいするよ{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Ooh, this is so fun! {name}, thank yooou!{wait}{page}As thanks, I'll introduce you to one of my allies.{wait}{end}"
  },
  {
   "id": "B:430DC",
   "jp": "{face:0051}あれ、仲魔がいっぱいだよ{wait}{page}ライザーかヴィネセンターに{n}場所を作って戻っておいでよ{wait}{page}ぼく、ここで待ってるから{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Huh? Your allies are full.{wait}{page}Make some room in your Deviliser or the Vine Center and come back.{wait}{page}I'll be waiting right here.{wait}{end}"
  },
  {
   "id": "B:43154",
   "jp": "{ee}{face:0051}戻って来たんだね！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0051}You came back!{wait}{end}"
  },
  {
   "id": "B:43170",
   "jp": "{face:0054}ぼくはネコのナマモノさ{wait}{page}よろしくね！{wait}{end}",
-  "en": ""
+  "en": "{face:0054}I'm Neko no Namamono.{wait}{page}Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:431A0",
   "jp": "ネコのナマモノが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Neko no Namamono became your ally!{wait}{end}"
  },
  {
   "id": "B:431C0",
   "jp": "{face:0051}今度こそネッシーといっしょに{n}遊んでもいいよね？{wait}{end}",
-  "en": ""
+  "en": "{face:0051}This time I can play with the Nessie, right?{wait}{end}"
  },
  {
   "id": "B:431F8",
   "jp": "何かの気配を感じる・・・{wait}{end}",
-  "en": ""
+  "en": "You sense something nearby...{wait}{end}"
  },
  {
   "id": "B:43214",
   "jp": "{face:0052}見つかっちゃったね{wait}{page}ぼくの気配を見やぶるなんて{n}さすがデビルチルドレンだね！{wait}{page}気にいったよ{n}きみの仲魔になってあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0052}You found me!{wait}{page}Seeing through my hiding like that... You really are a Devil Child!{wait}{page}I like you. I'll become your ally!{wait}{end}"
  },
  {
   "id": "B:43298",
   "jp": "どこからともなく{n}ささやくような声が聞こえる{wait}{end}",
-  "en": ""
+  "en": "From out of nowhere, you hear a whispering voice.{wait}{end}"
  },
  {
   "id": "B:432C8",
   "jp": "仲魔がいっぱいだよ{n}出直しておいで{wait}{end}",
-  "en": ""
+  "en": "Your allies are full. Come back another time.{wait}{end}"
  },
  {
   "id": "B:432F0",
   "jp": "コトダマが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Kotodama became your ally!{wait}{end}"
  },
  {
   "id": "B:4330C",
   "jp": "{ee}{face:0053}ジー、ジー・・・・・{wait}{page}・・・・・・ジーー{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0053}Bzzt, bzzt.....{wait}{page}......Bzzzt.{wait}{end}"
  },
  {
   "id": "B:43340",
   "jp": "{ee}ロボットデビル・デービーくんを{n}かわいがったってな{wait}{end}",
-  "en": ""
+  "en": "{ee}Take good care of the robot Devil DB-kun, y'hear?{wait}{end}"
  },
  {
   "id": "B:43378",
   "jp": "{ee}あそこに倒れているんはな{n}デービーくんちゅう{wait}{f0}ゆうしゅうなロボットデビルなんや{wait}{page}今は壊れちゃってるけどな{wait}{end}",
-  "en": ""
+  "en": "{ee}That fella lyin' over there,{wait}{f0}he's DB-kun, a real top-notch robot Devil.{wait}{page}He's busted right now, mind ya.{wait}{end}"
  },
  {
   "id": "B:433EC",
   "jp": "デービーパーツがあったら{n}あいつを直してやれるんやけど{wait}{f0}ここにあるんはポンコツばっかりで{wait}{f0}役に立たんのや{wait}{end}",
-  "en": ""
+  "en": "If I had some DB Parts, I could fix him up,{wait}{f0}but everythin' I've got here's junk.{wait}{f0}No use at all.{wait}{end}"
  },
  {
   "id": "B:4345C",
   "jp": "んっ？何やお前{n}デービーパーツ持ってるやないか{wait}{page}ちょっとそれ、かしてくれへんか？{wait}{end}",
-  "en": ""
+  "en": "Hm? Hey, you've got DB Parts on ya!{wait}{page}Mind lendin' 'em to me for a bit?{wait}{end}"
  },
  {
   "id": "B:434B4",
   "jp": "パーツだけ持ってても{n}しゃーないやないか{wait}{end}",
-  "en": ""
+  "en": "Just havin' the parts don't do ya no good, now does it?{wait}{end}"
  },
  {
   "id": "B:434E0",
   "jp": "おお！そうか、かしてくれるか！{wait}{page}あれっ！？そやけど{n}おまえ仲魔がいっぱいやで{wait}{page}それやったらデービーくんを{n}修理してもあかんやないか{wait}{page}仲魔にできるようにしてから{n}戻って来た方がええな！{wait}{end}",
-  "en": ""
+  "en": "Oh! You'll lend 'em to me? Great!{wait}{page}Huh!? But hold on, you've got a full load of allies.{wait}{page}Then there ain't no point in fixin' DB-kun.{wait}{page}Better come back once you've made room for an ally!{wait}{end}"
  },
  {
   "id": "B:435A0",
   "jp": "おお！そうか、かしてくれるか！{wait}{page}ほな、ちょっとかりるで！{wait}{end}",
-  "en": ""
+  "en": "Oh! You'll lend 'em to me? Great!{wait}{page}Then I'll borrow 'em for a bit!{wait}{end}"
  },
  {
   "id": "B:435E0",
   "jp": "さあデービーくん、もうちょっとで{n}動けるようにしたるからな{wait}{end}",
-  "en": ""
+  "en": "Hang in there, DB-kun. Just a little more and I'll have ya movin' again.{wait}{end}"
  },
  {
   "id": "B:43620",
   "jp": "よーし、これでだいじょうぶや{wait}{page}デービーくん復活！{wait}{end}",
-  "en": ""
+  "en": "All right, that oughta do it.{wait}{page}DB-kun is back!{wait}{end}"
  },
  {
   "id": "B:43658",
   "jp": "{name}ゆうたな{wait}{n}デービーくんをかわいがったってな{wait}{end}",
-  "en": ""
+  "en": "You're {name}, right?{wait}{n}Take good care of DB-kun, y'hear?{wait}{end}"
  },
  {
   "id": "B:4368C",
   "jp": "{face:0053}アリガトー{wait}{page}ボク、デービーくん・・・{wait}{n}ボク、仲魔ニナルヨ{wait}{end}",
-  "en": ""
+  "en": "{face:0053}THANK YOU.{wait}{page}I AM DB-KUN...{wait}{n}I WILL BE YOUR ALLY.{wait}{end}"
  },
  {
   "id": "B:436D0",
   "jp": "デービーくんが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "DB-kun became your ally!{wait}{end}"
  },
  {
   "id": "B:436F0",
   "jp": "{ee}オバケが出たって！{wait}{page}いったいどうなってんだ？{wait}{end}",
-  "en": ""
+  "en": "{ee}A ghost showed up!?{wait}{page}What the heck is going on?{wait}{end}"
  },
  {
   "id": "B:43724",
   "jp": "{ee}なんかしずかになったわね{wait}{n}もう帰ってもいいのかなあ？{wait}{end}",
-  "en": ""
+  "en": "{ee}It's gotten kinda quiet.{wait}{n}Is it okay to go home now?{wait}{end}"
  },
  {
   "id": "B:43760",
   "jp": "{ee}またオバケが出るのかなあ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Is the ghost gonna show up again?{wait}{end}"
  },
  {
   "id": "B:43780",
   "jp": "{ee}おっ、{name}じゃん！{wait}{page}ちょうどいいな{n}あのね、これからとなりの{wait}{f0}教室に行って{wait}{f0}オバケを呼び出すんだ{wait}{page}キミがいてくれると{n}ほんとに出て来ても安心だよ{wait}{page}キミも来てくれよ{wait}{n}来てくれるまで待ってるからね{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, it's {name}!{wait}{page}Perfect timing. So listen, we're about to go{wait}{f0}to the classroom next door{wait}{f0}and summon a ghost!{wait}{page}With you there, we'll be safe even if one really shows up.{wait}{page}You come too, okay?{wait}{n}We'll wait until you get there!{wait}{end}"
  },
  {
   "id": "B:43850",
   "jp": "{ee}これからとなりの教室で{n}あわせカガミをするのよ{wait}{page}ひょっとするとオバケが{n}出て来るんですって{wait}{end}",
-  "en": ""
+  "en": "{ee}We're going to do the Facing Mirrors in the classroom next door.{wait}{page}They say a ghost might come out!{wait}{end}"
  },
  {
   "id": "B:438B4",
   "jp": "{ee}あわせカガミって知ってる？{wait}{page}ある時間にカガミとカガミを{n}あわせて呪文をとなえると・・{wait}{page}オバケが出て来るんですって！{wait}{end}",
-  "en": ""
+  "en": "{ee}Do you know about the Facing Mirrors?{wait}{page}At a certain time, you face two mirrors at each other and chant a spell...{wait}{page}and a ghost comes out, they say!{wait}{end}"
  },
  {
   "id": "B:43930",
   "jp": "よしっ！それじゃあ{wait}{page}となりの教室へ行こう！{wait}{end}",
-  "en": ""
+  "en": "All right! In that case...{wait}{page}let's go to the classroom next door!{wait}{end}"
  },
  {
   "id": "B:43960",
   "jp": "{ee}ほんとに出たらドーシヨー？{wait}{end}",
-  "en": ""
+  "en": "{ee}What do we do if one really shows up?{wait}{end}"
  },
  {
   "id": "B:43980",
   "jp": "{ee}{name}、来てくれたんだね{n}よーし始めるぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}, you came! All right, let's begin!{wait}{end}"
  },
  {
   "id": "B:439AC",
   "jp": "ぼくたちの呼びかけに答えよ！{n}魔界を・・門をくぐり・・{wait}{f0}・・・ブツブツ・・・{wait}{page}えい！！{wait}{end}",
-  "en": ""
+  "en": "Answer our call! Through Makai... through the gate...{wait}{f0}...mumble, mumble...{wait}{page}Hyaaah!!{wait}{end}"
  }
 ]

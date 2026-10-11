@@ -2,7 +2,7 @@
  {
   "id": "B:3A8B0",
   "jp": "{face:0020}{voice:060B}たしかに受け取りましたがな{n}このマモン、ウソは言わへん！{wait}{page}{voice:01C9}そやけど、虹色のメシアのツノは{wait}{page}{voice:060C}カジノタウンのわての家に{n}かくしてあるんや{wait}{page}{voice:060F}先に行って、待ってるさかい{n}後から、きーや{wait}{page}{voice:0610}あんまり、おそかったら{n}チャラにするで{wait}{end}",
-  "en": "{face:0020}{voice:060B}Got it, all right. And I, Mammon, don't tell no lies!{wait}{page}{voice:01C9}But that rainbow Messiah Horn...{wait}{page}{voice:060C}I got it hidden at my place in Casino Town.{wait}{page}{voice:060F}I'll head on ahead and wait for ya, so come along after.{wait}{page}{voice:0610}Take too long, and the deal's off.{wait}{end}"
+  "en": "{face:0020}{voice:060B}Got it, all right. And I, Mammon, don't tell no lies!{wait}{page}{voice:01C9}But that Rainbow Messiah Horn...{wait}{page}{voice:060C}I got it hidden at my place in Casino Town.{wait}{page}{voice:060F}I'll head on ahead and wait for ya, so come along after.{wait}{page}{voice:0610}Take too long, and the deal's off.{wait}{end}"
  },
  {
   "id": "B:3A9AC",
@@ -351,7 +351,7 @@
  {
   "id": "B:3BFBC",
   "jp": "ンッ！？それはデビライザーと{n}虹色のメシアのツノ・・！！{wait}{page}{ea}・・・・・・・{wait}{page}・・・・・・・オマエだ！{wait}{page}おれたちが探しているのは！{wait}{page}オーイ！いたぞー！{wait}{end}",
-  "en": "Hm!? That's a Deviliser and the rainbow Messiah Horn...!!{wait}{page}{ea}.......{wait}{page}.......It's you!{wait}{page}You're the one we've been looking for!{wait}{page}Hey! Over here! I found him!{wait}{end}"
+  "en": "Hm!? That's a Deviliser and the Rainbow Messiah Horn...!!{wait}{page}{ea}.......{wait}{page}.......It's you!{wait}{page}You're the one we've been looking for!{wait}{page}Hey! Over here! I found him!{wait}{end}"
  },
  {
   "id": "B:3C05C",

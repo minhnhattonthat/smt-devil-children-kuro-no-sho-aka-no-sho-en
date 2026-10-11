@@ -2,37 +2,37 @@
  {
   "id": "B:35A64",
   "jp": "　新しい世界を{n}　おれが神になる{end}",
-  "en": ""
+  "en": "Make a new world{n}I'll become God{end}"
  },
  {
   "id": "B:35A88",
   "jp": "無事にたどりつけたみたいだぜ！{n}ここはディープホールだな{wait}{end}",
-  "en": ""
+  "en": "Looks like we made it here in one piece! So this is the Deep Hole.{wait}{end}"
  },
  {
   "id": "B:35AC4",
   "jp": "{ee}きみのせいでぼくたち、全ての{n}主神はひつよう無くなったんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Thanks to you, all of us head gods aren't needed anymore.{wait}{end}"
  },
  {
   "id": "B:35B04",
   "jp": "きみはミライちゃんと{n}けっこんするのかい？{wait}{f0}けっこんはやめておいた方がいい{f0}あれはじごくだ{wait}{f0}ぼくは地上を見に行った時{f0}つくづくそう思ったよ{wait}{end}",
-  "en": ""
+  "en": "Are you going to marry Mirai-chan?{wait}{f0}Better not get married.{f0}It's pure hell.{wait}{f0}When I went to see the surface world,{f0}that's what I really thought.{wait}{end}"
  },
  {
   "id": "B:35B98",
   "jp": "{ee}やあ、とうとうここまで来たね・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, so you've finally come this far...{wait}{end}"
  },
  {
   "id": "B:35BC0",
   "jp": "あれ？・・・{n}今なんかゼットを見たようなふふふ{n}本当にぐうぜんだね！！{wait}{end}",
-  "en": ""
+  "en": "Huh?... I feel like I just saw Zett... Hee hee, what a total coincidence!!{wait}{end}"
  },
  {
   "id": "B:35BE8",
   "jp": "ふふふ{n}本当にぐうぜんだね！！{wait}{end}",
-  "en": ""
+  "en": "Hee hee, what a total coincidence!!{wait}{end}"
  },
  {
   "id": "B:35C0C",
@@ -41,112 +41,112 @@
  {
   "id": "B:35C14",
   "jp": "なんだ！？オレは・・・{n}オレはメシアなのか？{wait}{f0}これは前世のきおくか？{wait}{end}",
-  "en": ""
+  "en": "What!? Am I... Am I the Messiah?{wait}{f0}Are these memories from a past life?{wait}{end}"
  },
  {
   "id": "B:35C60",
   "jp": "かこのきおくがよみがえる{wait}{end}",
-  "en": ""
+  "en": "Memories of the past are coming back.{wait}{end}"
  },
  {
   "id": "B:35C7C",
   "jp": "{ee}とけかけた雪ダルマがある{wait}{end}",
-  "en": ""
+  "en": "{ee}There's a half-melted snowman.{wait}{end}"
  },
  {
   "id": "B:35C9C",
   "jp": "{face:0001}{voice:0089}チョット、待った！！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0089}Hold it right there!!{wait}{end}"
  },
  {
   "id": "B:35CBC",
   "jp": "{ee}{face:003A}ここは仲魔の合体を行う{n}怪しい館だ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003A}This is the Mysterious Mansion, where allies are fused.{wait}{end}"
  },
  {
   "id": "B:35CE8",
   "jp": "{face:0011}ディープホールへ落とされちゃうと{n}二度と助からないわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}Once they drop you into the Deep Hole, you're, like, never getting saved!{wait}{end}"
  },
  {
   "id": "B:35D28",
   "jp": "{face:0011}ワタシ、ダイアナ！これでも{n}とうぞくだんの１人よ！{wait}{page}あなた、いったい何したの？{wait}{page}ふーん、そうなんだ{n}弟さんを探してるのね{wait}{page}それじゃあ、何も悪い事は{n}してないんじゃないの！{wait}{page}だったらどう！ワタシといっしょに{n}逃げ出さない！？{wait}{page}どうせ、ここにいると{n}ディープホールって所に{wait}{f0}落とされておしまいなのよ{wait}{end}",
-  "en": ""
+  "en": "{face:0011}I'm Diana! Believe it or not, I'm one of the thieves' gang!{wait}{page}So what did you even do?{wait}{page}Hmm, I see. You're looking for your little brother.{wait}{page}Then you didn't do anything bad at all!{wait}{page}So how about it! Wanna break out of here with me!?{wait}{page}If you stay here, they'll just drop you into some place called the Deep Hole{wait}{f0}and that's it for you!{wait}{end}"
  },
  {
   "id": "B:35E64",
   "jp": "{ee}私はネコマタの{n}名もないコソドロよ！よろしくね！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a Nekomata, a nameless little thief! Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:35E9C",
   "jp": "{ee}オレはヒッポウの{n}名もないコソドロだ！よろしくな！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a Bi Fang, a nameless little thief! Nice to meet ya!{wait}{end}"
  },
  {
   "id": "B:35ED4",
   "jp": "{ee}オレはヘアリージャックの{n}名もないコソドロッス！{wait}{f0}よろしくッス！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a Hairy Jack, a nameless little thief!{wait}{f0}Nice to meet ya, boss!{wait}{end}"
  },
  {
   "id": "B:35F1C",
   "jp": "{ee}オレはサンドドラゴンの{n}名もないコソドロだよ！よろしく！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm a Sand Dragon, a nameless little thief! Nice to meet you!{wait}{end}"
  },
  {
   "id": "B:35F5C",
   "jp": "ガタ　ドン　ドン　ドン{n}ドドーン　ガラガラ{wait}{end}",
-  "en": ""
+  "en": "Clunk! Bang! Bang! Bang! KA-BOOM! Crash, clatter!{wait}{end}"
  },
  {
   "id": "B:35F8C",
   "jp": "{face:0011}上手く行ったわね{n}さあ早く逃げちゃいましょ！{wait}{end}",
-  "en": ""
+  "en": "{face:0011}We pulled it off! C'mon, let's hurry up and get outta here!{wait}{end}"
  },
  {
   "id": "B:35FC0",
   "jp": "　名前を変える！{n}　そのままでいい！{end}",
-  "en": ""
+  "en": "Change the name!{n}Keep it as is!{end}"
  },
  {
   "id": "B:35FE8",
   "jp": "上手く行ったわね{n}さあ早く行きましょ{wait}{end}",
-  "en": ""
+  "en": "We pulled it off! C'mon, let's hurry up and go!{wait}{end}"
  },
  {
   "id": "B:36010",
   "jp": "{name}はメシアのツノを{n}天に向かってかかげた{wait}{end}",
-  "en": ""
+  "en": "{name} raised the Messiah Horn toward the heavens.{wait}{end}"
  },
  {
   "id": "B:3603C",
   "jp": "{ee}この部屋に白いメシアのツノが{n}かざられています{wait}{end}",
-  "en": ""
+  "en": "{ee}The White Messiah Horn is on display in this room.{wait}{end}"
  },
  {
   "id": "B:36070",
   "jp": "{face:0000}{voice:00D0}これが、白いメシアのツノ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:00D0}So this is the White Messiah Horn...{wait}{end}"
  },
  {
   "id": "B:3609C",
   "jp": "{ee}ツギノシアイニハイル{n}ジュンビハイイデスカ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Are you prepared to enter the next match?{wait}{end}"
  },
  {
   "id": "B:360D0",
   "jp": "{ee}{face:0014}この戦争を終わらせるために{n}１人でも多くの仲間が{wait}{f0}ひつようなのですが・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0014}To end this war, we need as many comrades{wait}{f0}as we can possibly gather, but...{wait}{end}"
  },
  {
   "id": "B:36128",
   "jp": "{ee}{face:0015}自分にひつような物は{n}自分の力で勝ち取るのだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0015}What you need, you win with your own strength!{wait}{end}"
  },
  {
   "id": "B:36160",
   "jp": "{ee}{face:0016}自分にひつような物は{n}自分の力で勝ち取るのだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0016}Whatever one needs, one must seize by one's own power!{wait}{end}"
  },
  {
   "id": "B:36198",
@@ -159,22 +159,22 @@
  {
   "id": "B:361EC",
   "jp": "{face:0014}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{f0}最初のツトメです{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama!{wait}{n}Please give {partner}-dono{f0}this medicine.{wait}{f0}This is my very first duty{f0}as a Demon Lord.{wait}{end}"
  },
  {
   "id": "B:36250",
   "jp": "{face:0016}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{f0}最初のツトメです{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama!{wait}{n}Give {partner}-dono{f0}this medicine.{wait}{f0}This is my first duty{f0}as Demon Lord.{wait}{end}"
  },
  {
   "id": "B:362B4",
   "jp": "ザンネン！お金が足りないようです{wait}{n}お金を持ってまた来て下さい{wait}{end}",
-  "en": ""
+  "en": "Too bad! You don't have enough money.{wait}{n}Please come back when you do.{wait}{end}"
  },
  {
   "id": "B:362F8",
   "jp": "{ee}ここから奥に行った所に{wait}{n}ホテルがあるんですよ{wait}{page}ちょっと休んで{n}行かれてはいかがですか{wait}{end}",
-  "en": ""
+  "en": "{ee}If you go further in from here,{wait}{n}there's a hotel.{wait}{page}Why not stop and rest a bit before you go on?{wait}{end}"
  },
  {
   "id": "B:36358",
@@ -187,7 +187,7 @@
  {
   "id": "B:36398",
   "jp": "{face:002B}{voice:0124}ん！{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:0124}Hm!{wait}{end}"
  },
  {
   "id": "B:363A8",
@@ -196,57 +196,57 @@
  {
   "id": "B:363B8",
   "jp": "{face:002B}{voice:0125}そこにいるのは{n}ケルベロスじゃないのか？{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:0125}Hey, isn't that Cerberus over there?{wait}{end}"
  },
  {
   "id": "B:363EC",
   "jp": "{face:002B}{voice:012A}仕事の邪魔だ{n}むこうへいってな{wait}{end}",
-  "en": ""
+  "en": "{face:002B}{voice:012A}You're getting in the way of my job. Beat it.{wait}{end}"
  },
  {
   "id": "B:36418",
   "jp": "ちょっと・待った！{wait}{end}",
-  "en": ""
+  "en": "Hold it... right there!{wait}{end}"
  },
  {
   "id": "B:36430",
   "jp": "{ee}オヤ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Oh?{wait}{end}"
  },
  {
   "id": "B:3643C",
   "jp": "{ee}誰かの声がする{wait}{end}",
-  "en": ""
+  "en": "{ee}You hear someone's voice.{wait}{end}"
  },
  {
   "id": "B:36450",
   "jp": "{face:00FF}キングライザーを手に入れた！！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the King Riser!!{wait}{end}"
  },
  {
   "id": "B:36478",
   "jp": "{face:00FF}紫のツノを手に入れた{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the Purple Horn!{wait}{end}"
  },
  {
   "id": "B:36494",
   "jp": "{voice:016A}ナガヒサが{n}地上で待ってるんだろ{wait}{page}{voice:016C}その、紫のツノを使えば{n}地上に戻れるはずだよ{wait}{page}{voice:016B}これを、きみにあげるよ{wait}{end}",
-  "en": ""
+  "en": "{voice:016A}Nagahisa's waiting for you on the surface, right?{wait}{page}{voice:016C}If you use that Purple Horn, you should be able to get back to the surface.{wait}{page}{voice:016B}Here, I'll give you this.{wait}{end}"
  },
  {
   "id": "B:36510",
   "jp": "まだ、じゅぎょう中のようだ{wait}{end}",
-  "en": ""
+  "en": "Looks like class is still going on.{wait}{end}"
  },
  {
   "id": "B:36530",
   "jp": "４年　１組{wait}{end}",
-  "en": ""
+  "en": "Grade 4, Class 1{wait}{end}"
  },
  {
   "id": "B:36540",
   "jp": "５年　１組{wait}{end}",
-  "en": ""
+  "en": "Grade 5, Class 1{wait}{end}"
  },
  {
   "id": "B:36550",
@@ -255,12 +255,12 @@
  {
   "id": "B:36570",
   "jp": "６年　１組{wait}{end}",
-  "en": ""
+  "en": "Grade 6, Class 1{wait}{end}"
  },
  {
   "id": "B:36580",
   "jp": "ここはナゾの教室だ！{n}いつもカギがかかっている{wait}{end}",
-  "en": ""
+  "en": "This is the mystery classroom! It's always locked.{wait}{end}"
  },
  {
   "id": "B:365B4",
@@ -269,166 +269,166 @@
  {
   "id": "B:365C8",
   "jp": "校長先生なら{n}教室のカギを持ってるよね{wait}{end}",
-  "en": ""
+  "en": "The principal must have the classroom key, right?{wait}{end}"
  },
  {
   "id": "B:365F4",
   "jp": "{ee}校長先生なら{n}教室のカギを持ってるよね{wait}{end}",
-  "en": ""
+  "en": "{ee}The principal must have the classroom key, right?{wait}{end}"
  },
  {
   "id": "B:36620",
   "jp": "{ee}ナニッ！教室の中から{n}変な音が聞こえるって！{wait}{f0}わかった、{name}君{f0}このカギで教室に入って{wait}{f0}調べて来てくれ！{wait}{page}私が行きたい所だが{n}今、持病のしんけいつうがひどくて・・{wait}{end}",
-  "en": ""
+  "en": "{ee}What!? You hear strange noises coming from inside the classroom!?{wait}{f0}All right, {name}-kun,{f0}take this key and go into the classroom{wait}{f0}and check it out!{wait}{page}I'd love to go myself, but my chronic neuralgia is acting up terribly right now...{wait}{end}"
  },
  {
   "id": "B:366CC",
   "jp": "{name}はカギを使った{wait}{end}",
-  "en": ""
+  "en": "{name} used the key.{wait}{end}"
  },
  {
   "id": "B:366E0",
   "jp": "{ee}{name}君{n}教室の中には{wait}{f0}何があったんだ！？{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}-kun, inside the classroom...{wait}{f0}what did you find!?{wait}{end}"
  },
  {
   "id": "B:36710",
   "jp": "{face:0010}この金色のメシアのツノがあれば{n}ゲートタウンのサークルゲートから{wait}{f0}マーブルランドに行く事ができる{wait}{page}さあ、持って行くがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0010}With this Golden Messiah Horn, from the Circle Gate in Gate Town{wait}{f0}you can travel to Marble Land.{wait}{page}Now, take it with you.{wait}{end}"
  },
  {
   "id": "B:36794",
   "jp": "{ee}さあ！いよいよバトルの始まりだ{n}会場のデビルに話せば{wait}{f0}試合が始まるぜ！！{wait}{end}",
-  "en": ""
+  "en": "{ee}All right! The battle's finally starting! Talk to the Devils in the arena{wait}{f0}and the match will begin!!{wait}{end}"
  },
  {
   "id": "B:367E4",
   "jp": "{ee}大魔王の話を聞いたかい？{wait}{page}まるでちがうデビルのように{n}なったって話さ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you heard about the Great Demon King?{wait}{page}They say he's turned into a totally different Devil!{wait}{end}"
  },
  {
   "id": "B:36834",
   "jp": "{ee}デビライザーをお持ちという事は{n}大魔王様の知り合いなんですね{wait}{f0}大魔王様なら{f0}ダークパレスにおりますよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If you have a Deviliser, you must know the Great Demon King.{wait}{f0}The Great Demon King{f0}is at the Dark Palace.{wait}{end}"
  },
  {
   "id": "B:368A0",
   "jp": "{ee}この間、魔王のやしきから{n}金のリンゴパイを{wait}{f0}盗んだやつがいるんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}The other day, from the Demon Lord's mansion, the Golden Apple Pie...{wait}{f0}somebody stole it!{wait}{end}"
  },
  {
   "id": "B:368E8",
   "jp": "{ee}キングライザーって知ってるかい？{wait}{page}どうやら魔王ヘルの持つ{n}お宝の中にキングクラスの{wait}{f0}強力なデビルを呼び出す{f0}特別なジュウがあるらしいんだ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Ever heard of the King Riser?{wait}{page}Word is, among Demon Lord Hel's treasures, there's...{wait}{f0}a special gun that can summon{f0}powerful King-class Devils!{wait}{end}"
  },
  {
   "id": "B:3697C",
   "jp": "{ee}誰かが魔王ヘルを{n}追い出してくれないかぎり{wait}{f0}おれたちジャックフロストは{f0}救われないんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Unless somebody drives Demon Lord Hel out,{wait}{f0}us Jack Frosts{f0}will never be saved-ho.{wait}{end}"
  },
  {
   "id": "B:369E0",
   "jp": "{ee}フロストタウンなら、この街を出て{n}北のどうくつを抜けた所だホー{wait}{f0}あそこには魔王ヘルの{f0}お城があるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}To get to Frost Town, leave this town and go through the cave to the north-ho.{wait}{f0}That's where Demon Lord Hel's{f0}castle is-ho.{wait}{end}"
  },
  {
   "id": "B:36A50",
   "jp": "{ee}えっ？ダイアナを知らないかって！{n}さっき、街から出ていったホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Huh? Have I seen Diana? She just left town a little while ago-ho.{wait}{end}"
  },
  {
   "id": "B:36A94",
   "jp": "{ee}ダイアナのいるトーゾクだんは{n}ボクたちのために{wait}{f0}ヘルと戦っているんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Diana's thieves' gang is standing up for us{wait}{f0}and fighting Hel-ho.{wait}{end}"
  },
  {
   "id": "B:36AE4",
   "jp": "{ee}メシアのツノをゲートタウンの{n}サークルゲートで使えば{wait}{f0}別の世界を行けるはずです{wait}{end}",
-  "en": ""
+  "en": "{ee}If you use a Messiah Horn at the Circle Gate in Gate Town,{wait}{f0}you should be able to go to another world.{wait}{end}"
  },
  {
   "id": "B:36B3C",
   "jp": "{ee}ブトウ会のしょうひんは、何と！{n}メシアのツノなんだ！{wait}{f0}そこの通路の奥にある部屋に{f0}かざられているから、見てくるといい{wait}{end}",
-  "en": ""
+  "en": "{ee}The prize for the Battle Ball is... get this! A Messiah Horn!{wait}{f0}It's on display in the room at the end of that passage,{f0}so go take a look!{wait}{end}"
  },
  {
   "id": "B:36BB8",
   "jp": "{ee}うわさだけど、デビルチルドレンが{n}このコロシアムに現れたそうだ{wait}{end}",
-  "en": ""
+  "en": "{ee}It's just a rumor, but they say a Devil Child showed up at this Colosseum.{wait}{end}"
  },
  {
   "id": "B:36BFC",
   "jp": "{ee}さっきまでこの村にいた{n}デビルチルドレンは、きずついた{wait}{f0}グリフォンを連れていたぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}The Devil Child who was in this village until a little while ago{wait}{f0}had a wounded Gryphon along.{wait}{end}"
  },
  {
   "id": "B:36C54",
   "jp": "{ee}ちょっと前だが、この村に{n}デビルチルドレンが来ていたんだ{wait}{page}それがなんと女の子なんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}A little while back, a Devil Child came to this village.{wait}{page}And get this, it was a girl!{wait}{end}"
  },
  {
   "id": "B:36CB0",
   "jp": "{ee}メシアのツノを{n}サークルゲートで使えば{wait}{f0}別の魔界に行けるはずだ{wait}{end}",
-  "en": ""
+  "en": "{ee}If you use a Messiah Horn at the Circle Gate,{wait}{f0}you should be able to go to another part of Makai.{wait}{end}"
  },
  {
   "id": "B:36CF8",
   "jp": "{ee}デビルチルドレンがコロシアムに{n}現れたらしい、それも{wait}{f0}ふ　た　り　もだって{wait}{end}",
-  "en": ""
+  "en": "{ee}Word is Devil Children showed up at the Colosseum, and get this...{wait}{f0}T-W-O of them!{wait}{end}"
  },
  {
   "id": "B:36D4C",
   "jp": "{ee}われらシュラ族は強さこそ{n}全てだと考えているのだ{wait}{page}{name}が{n}ブトウ会に優勝すれば{wait}{f0}よろこんで力をかすだろう{wait}{end}",
-  "en": ""
+  "en": "{ee}We of the Sura tribe believe that strength is everything.{wait}{page}If {name} wins the Battle Ball,{wait}{f0}we will gladly lend our power.{wait}{end}"
  },
  {
   "id": "B:36DBC",
   "jp": "{ee}すまないが向かいがわから{n}話しかけてくれ{wait}{end}",
-  "en": ""
+  "en": "{ee}Sorry, but please talk to me from the other side.{wait}{end}"
  },
  {
   "id": "B:36DEC",
   "jp": "ポケットコンピュータを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found a Pocket Computer!{wait}{end}"
  },
  {
   "id": "B:36E10",
   "jp": "{voice:0041}危ないホー！！{n}デビライザーとヴィネコンだホー！{wait}{f0}{voice:0042}虹色のツノまであるホー！！{wait}{page}{voice:0043}誰がこんな物、送ったホー？{wait}{page}{voice:0044}ソレ、ミンナちょうだい、ハヤクー{wait}{end}",
-  "en": ""
+  "en": "{voice:0041}This is bad-ho!! A Deviliser and a Vinecom-ho!{wait}{f0}{voice:0042}There's even a Rainbow Horn-ho!!{wait}{page}{voice:0043}Who sent stuff like this-ho?{wait}{page}{voice:0044}Gimme it, all of it, hurry!{wait}{end}"
  },
  {
   "id": "B:36EB4",
   "jp": "ケンジュウから、声が聞こえる{wait}{page}{voice:0045}メシアヨ！テンニムカッテ{n}ワレヲカカゲ、コールセヨ！！{wait}{end}",
-  "en": ""
+  "en": "A voice is coming from the gun.{wait}{page}{voice:0045}O Messiah! Raise me toward the heavens and call!!{wait}{end}"
  },
  {
   "id": "B:36F14",
   "jp": "{face:0001}そのケンジュウだがな{wait}{page}それはデビライザーといって{wait}{n}{name}が仲魔にした{f0}デビルを呼び出す事ができる{wait}{f0}魔法のケンジュウだぜ！{wait}{page}その中に仲魔を入れておけば{n}戦いが起こった時に{wait}{f0}助けに来てくれるんだぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}About that gun...{wait}{page}It's called a Deviliser,{wait}{n}and with it, {name}, you can call any{f0}Devil you've made your ally.{wait}{f0}It's a magic gun!{wait}{page}If you keep allies inside it, then whenever a fight breaks out,{wait}{f0}they'll come help you out!{wait}{end}"
  },
  {
   "id": "B:36FE4",
   "jp": "{voice:0049}封印をといてくれて{n}助かったぜ、アリガトヨッ！{wait}{end}",
-  "en": ""
+  "en": "{voice:0049}Thanks for breaking my seal, you really saved me! Much obliged!{wait}{end}"
  },
  {
   "id": "B:3701C",
   "jp": "{face:0000}{voice:0086}・・・魔界・・・！{wait}{page}{voice:0087}それじゃあ、ナガヒサも{n}ここにいるはずだな！{wait}{page}{voice:0088}探しに行かなきゃ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0086}...Makai...!{wait}{page}{voice:0087}Then Nagahisa must be here too!{wait}{page}{voice:0088}I've gotta go find him!{wait}{end}"
  },
  {
   "id": "B:37088",
   "jp": "このヴィネコンの事や{wait}{end}",
-  "en": ""
+  "en": "About this Vinecom,{wait}{end}"
  },
  {
   "id": "B:370A0",
   "jp": "この虹色のツノの事だって{wait}{n}ここで聞けば色んな事が{f0}わかるかもしれないからな{wait}{end}",
-  "en": ""
+  "en": "and even this Rainbow Horn...{wait}{n}if we ask around here, we might{f0}find out all kinds of stuff.{wait}{end}"
  },
  {
   "id": "B:370F0",
   "jp": "{face:0001}最後にもう１つ{wait}{n}街の外に出たら{wait}{page}{name}を{n}せなかに乗せる事ができるんだ{wait}{page}乗りたい時は{n}オレの方を向いて話してくれ{wait}{page}{name}じゃあ{n}通れないアナをくぐり抜けたり{wait}{page}がけを登ったりできるからな{wait}{page}ヨシッ！それじゃ出発だ！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}One last thing.{wait}{n}Once we're outside town,{wait}{page}I can carry you on my back, {name}.{wait}{page}When you want to ride, face me and talk to me.{wait}{page}That way we can squeeze through holes you couldn't get through, {name},{wait}{page}and climb up cliffs too.{wait}{page}All right! Let's head out!{wait}{end}"
  }
 ]
