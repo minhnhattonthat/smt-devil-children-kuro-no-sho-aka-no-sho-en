@@ -46,6 +46,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | キングライザー | King Riser | | Kingloc |
 | ヴィネコン | Vinecom | | ViNeCom |
 | ウェブネット | Webnet | | |
+| 属性 / ぞくせい | Element | the status/demon attribute (Sun/Moon/Fire/Water/Wood/Metal/Earth) | Attribute |
 | 仲魔 | ally / partner demon | | nakama |
 | 合体 | fusion / fuse | | |
 | デビル | Devil (demons are "Devils") | | |

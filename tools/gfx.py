@@ -28,14 +28,14 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
 STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite', 'match': 2}
 TITLE_B = [
     {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
-    {'box': (12, 185, 88, 203), 'text': 'New Game', 'kind': 'pixel'},
-    {'box': (12, 203, 88, 223), 'text': 'Continue', 'kind': 'pixel'},
+    {'box': (16, 186, 84, 205), 'text': 'New Game', 'kind': 'pixel'},
+    {'box': (16, 205, 84, 223), 'text': 'Continue', 'kind': 'pixel'},
     STRIP,
 ]
 TITLE_R = [
     {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
-    {'box': (170, 185, 246, 203), 'text': 'New Game', 'kind': 'pixel'},
-    {'box': (170, 203, 246, 223), 'text': 'Continue', 'kind': 'pixel'},
+    {'box': (172, 188, 242, 207), 'text': 'New Game', 'kind': 'pixel'},
+    {'box': (172, 207, 242, 225), 'text': 'Continue', 'kind': 'pixel'},
     STRIP,
 ]
 EDITS = {
@@ -133,13 +133,14 @@ def edit_tim(t, edits):
         if kind == 'sprite':  # key-colour background: clear to the key, draw crisp text in the sprite's colour
             cols = Counter(px[x, y] for y in range(y0, y1) for x in range(x0, x1))
             key = cols.most_common(1)[0][0]
-            ink = next((c for c, _ in cols.most_common() if c != key), (128, 64, 160))
+            tones = sorted((c for c, n in cols.most_common(4) if c != key and n > 20), key=sum)
+            ink, edge = tones[-1], tones[0]  # opaque 2-tone sprite: grey fill (112) + darker outline (64)
             pts = {(x, y) for y in range(y0, y1) for x in range(x0, x1) if px[x, y] != key}
             for q in pts:
                 px[q] = key
             mmask, (ex, ey) = done[e['match']]
             ox, oy = best_offset(pts, mmask)  # sprite pixel + (ox, oy) = menu pixel on screen
-            draw_pixel_text(im, ex - ox, ey - oy, e['text'], ink)
+            draw_pixel_text(im, ex - ox, ey - oy, e['text'], ink, edge)
             continue
         mask = label_mask(im, e['box'])
         colour = max((px[q] for q in mask), key=sum) if mask else (220, 220, 220)
@@ -354,6 +355,40 @@ def draw_battle_buttons(pac):
             x += adv - (1 - gap)
 
 
+# status / battle-UI text labels in the same TXS image (no button body: text on the key index 0).
+# (box, English, body index, shadow index). Gradient labels use 13/11 (light), the command list uses 8/1 (grey).
+STATUS_LABELS = [
+    ((223, 115, 272, 130), 'Next Lv', 13, 11, 2), ((273, 115, 311, 130), 'Class', 13, 11),
+    ((312, 115, 352, 130), 'Element', 13, 11), ((353, 115, 393, 130), 'Race', 13, 11, 4),
+    ((335, 133, 393, 147), 'HP Cost', 13, 11), ((335, 149, 393, 163), 'MP Cost', 13, 11),
+    ((351, 162, 403, 178), 'Surrender', 8, 1), ((351, 178, 403, 194), 'Combo', 8, 1),
+    ((351, 193, 403, 209), 'Go for it!', 8, 1), ((351, 211, 403, 227), 'Call', 8, 1),
+]
+
+
+def draw_status_labels(pac):
+    import font
+    s = Raw4(pac)
+    glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
+    for (x0, y0, x1, y1), text, body, shade, *ox in STATUS_LABELS:
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                s.set(x, y, 0)
+        w = sum(glyphs[font.EN_BASE + ord(c)][1] for c in text) - 1
+        gap = 1 if w <= x1 - x0 else 0
+        w -= (1 - gap) * (len(text) - 1)
+        x = x0 + (2 if body == 8 else 0) + (ox[0] if ox else 0)  # left-aligned like the Japanese labels
+        top = y0 + max(0, (y1 - y0 - 11) // 2) - 3  # glyph row 4 (cap top) lands at y0 + (h - 9) / 2
+        for c in text:
+            px, adv = glyphs[font.EN_BASE + ord(c)]
+            for yy in range(4, 15):
+                for xx in range(16):
+                    v = px[yy][xx]
+                    if v and x + xx < x1 and y0 <= top + yy < y1:
+                        s.set(x + xx, top + yy, body if v == 1 else shade)
+            x += adv - (1 - gap)
+
+
 def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
@@ -361,6 +396,7 @@ def apply(pac):
         quantize_into(t, im, pac, off)
     draw_menu_sheet(pac)
     draw_battle_buttons(pac)
+    draw_status_labels(pac)
 
 
 def main():

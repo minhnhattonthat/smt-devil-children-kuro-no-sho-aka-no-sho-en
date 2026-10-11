@@ -30,6 +30,6 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Done: engine (packed pair/triple English, VWF, 8x8 map, name entry, hooks in B/R/N_MAIN), event repack (88%/87%),
   EXE in-place + speaker-label pool repack, all text translated (events reviewed), graphics: book menu, titles,
   menu-button sheet, battle command buttons (tools/gfx.py). `merge-ok` merges passing ids only.
-- Open: battle screens not emulator-checked; TXS status labels (つぎのレベル クラス ぞくせい しゅぞく, しょうひHP/MP,
-  こうさん/がんばれ) still JP; R-book record names with data prefix (RM:0B13F2..); "Fire" 4-byte slot (BM:0B074C);
-  title "Continue" disabled-sprite look; user decision pending on R:27E18/R:29888 (ホモ joke). Notes: work/tl/reports.md.
+- Open: battle screens not emulator-checked (status labels + command buttons verified in VRAM only); R-book labels
+  RM names fixed via [XXXX] prefix escapes; Fire relocated to cave 2 spare (build.RELOCATE); ホモ joke kept (user ruling).
+  Notes: work/tl/reports.md. Release: xdelta3 vs the .bin (release/ is local, never publish without the user).

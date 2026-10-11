@@ -172,7 +172,7 @@
  {
   "id": "BM:0B004A",
   "jp": "ぞくせい　　で　けんさく{end}",
-  "en": "Search by Attribute{end}",
+  "en": "Search by Element{end}",
   "max": 26
  },
  {
@@ -660,7 +660,7 @@
  {
   "id": "BM:0B0620",
   "jp": "ぞくせい：{end}",
-  "en": "Attribute:{end}",
+  "en": "Element:{end}",
   "max": 12
  },
  {

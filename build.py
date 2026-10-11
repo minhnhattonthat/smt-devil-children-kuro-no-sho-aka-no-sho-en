@@ -178,6 +178,13 @@ def exe_marker(mid, jp, cap):
     return jp
 
 
+# Strings that outgrow their slot move to spare bytes at the end of cave 2 (after the data tables) and their
+# pointer slot is repointed: {EXE: {string offset: [pointer slot file offsets]}}. The element/race/status names
+# live in one pointer table (file 0x960); Fire (ヒ) has only a 4-byte slot.
+RELOCATE = {'B_MAIN.EXE': {0xB074C: [0x990]}, 'R_MAIN.EXE': {0xB0AE0: [0x990]}, 'N_MAIN.EXE': {0xBC190: [0x990]}}
+CAVE2_USED = 476  # bytes used by asm/main.asm in cave 2 (pk_pend 4 + widths 256 + map8 128 + name_tab 87, aligned)
+
+
 def insert_strings(files, name, mode, sub, extract):
     """In-place packed English for EXE/overlay strings (script/<sub>); writes build/files/<name>."""
     import lint
@@ -191,6 +198,7 @@ def insert_strings(files, name, mode, sub, extract):
         import exe
         pool = exe.label_pool(bytes(d))
     pooled = {}
+    moved = []
     for off, ln, cap, jp in extract(bytes(d)):
         mid = '%s:%06X' % (tag, off)
         if mode == 'marker':
@@ -206,8 +214,19 @@ def insert_strings(files, name, mode, sub, extract):
             en = lint.prepare(jp, en)  # dialogue text: wrap like events
         b = text.encode_en(en)
         if len(b) > cap:
-            sys.exit('%s %s: %d bytes > %d' % (name, mid, len(b), cap))
+            slots = RELOCATE.get(name, {}).get(off) if sub == 'exe' else None
+            if not slots:
+                sys.exit('%s %s: %d bytes > %d' % (name, mid, len(b), cap))
+            used = CAVE2_USED + sum(len(x[0]) for x in moved)
+            if used + len(b) > 512:
+                sys.exit('%s: cave 2 spare overflow' % name)
+            moved.append((b, EXE_ADDR[name]['CAVE2'] - 0x8000F800 + used, slots))
+            continue
         d[off:off + cap] = b + bytes(cap - len(b))
+    for b, at, slots in moved:
+        d[at:at + len(b)] = b
+        for slot in slots:
+            struct.pack_into('<I', d, slot, 0x8000F800 + at)
     if pool:
         repack_labels(d, pool, pooled, name)
     (files / name).write_bytes(d)

@@ -549,7 +549,7 @@
  {
   "id": "BM:0AF600",
   "jp": "{face:003A}もしもし、{name}か{n}いい事を教えてやろう{wait}{page}合体の時に起きる{n}魔法のけいしょうだけどな{wait}{page}できたデビルにとって{n}苦手なぞくせいの魔法は{wait}{page}おぼえられない{wait}{page}だからよく考えて{n}合体をするといいぞ！{wait}{end}",
-  "en": "{face:003A}Hello, {name}? Here's a good tip.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an attribute the new Devil is weak to{wait}{page}can't be learned.{wait}{page}So think it through before you fuse!{wait}{end}",
+  "en": "{face:003A}Hello, {name}? Here's a good tip.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an element the new Devil is weak to{wait}{page}can't be learned.{wait}{page}So think it through before you fuse!{wait}{end}",
   "max": 200
  },
  {

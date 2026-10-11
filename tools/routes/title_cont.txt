@@ -1,0 +1,15 @@
+# cold boot -> title -> book menu (Black Book highlighted)
+1500 -
+6 start
+400 -
+6 start
+300 -
+# pick Black Book, wait for the New Game / Continue box (active ~3300 frames later), move the cursor
+6 circle
+3300 -
+6 down
+150 -
+6 up
+150 -
+6 down
+150 -

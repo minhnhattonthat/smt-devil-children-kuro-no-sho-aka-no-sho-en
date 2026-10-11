@@ -4144,7 +4144,7 @@
  {
   "id": "RM:0AF8EC",
   "jp": "{face:003B}もしもし、{name}カ{n}いい事を教えてあげるネ{wait}{page}合体の時に起きる{n}魔法のけいしょうだけどネ{wait}{page}できたデビルにとって{n}苦手なぞくせいの魔法は{wait}{page}おぼえられないネ{wait}{page}だからよく考えて{n}合体をするといいネ！{wait}{end}",
-  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an attribute the new Devil is weak to{wait}{page}can't be learned, yes.{wait}{page}So think it through before you fuse, yes!{wait}{end}",
+  "en": "{face:003B}Hello, {name}? Here's a good tip, yes.{wait}{page}About the spell inheritance that happens in fusion:{wait}{page}spells of an element the new Devil is weak to{wait}{page}can't be learned, yes.{wait}{page}So think it through before you fuse, yes!{wait}{end}",
   "max": 204
  },
  {
@@ -5386,7 +5386,7 @@
  {
   "id": "RM:0B13F2",
   "jp": "！フレスベルク{end}",
-  "en": "！フレスベルク{end}",
+  "en": "[0005]Hresvelgr{end}",
   "max": 18
  },
  {
@@ -5416,7 +5416,7 @@
  {
   "id": "RM:0B147E",
   "jp": "Kパラレル・スス{end}",
-  "en": "Kパラレル・スス{end}",
+  "en": "[002D]Parallel Susu{end}",
   "max": 18
  },
  {
@@ -5498,7 +5498,7 @@
  {
   "id": "RM:0B160E",
   "jp": "９セツナ{end}",
-  "en": "９セツナ{end}",
+  "en": "[0022]Setsuna{end}",
   "max": 10
  },
  {
@@ -5516,7 +5516,7 @@
  {
   "id": "RM:0B165E",
   "jp": "eキンググリフォン{end}",
-  "en": "eキンググリフォン{end}",
+  "en": "[0041]King Gryphon{end}",
   "max": 20
  },
  {
@@ -5538,7 +5538,7 @@
  {
   "id": "RM:0B16EA",
   "jp": "ぉイザナギ{end}",
-  "en": "ぉイザナギ{end}",
+  "en": "[005F]Izanagi{end}",
   "max": 14
  },
  {
@@ -5678,7 +5678,7 @@
  {
   "id": "RM:0B2338",
   "jp": "自分と行動をともにするパートナー{n}木ぞくせいのデビルを使ってくる{n}{n}{end}",
-  "en": "Partner who travels with{n}you. Uses Wood-attribute{n}Devils.{n}{end}",
+  "en": "Partner who travels with{n}you. Uses Wood-element{n}Devils.{n}{end}",
   "max": 72
  },
  {
@@ -5742,7 +5742,7 @@
  {
   "id": "RM:0B5496",
   "jp": "歌敵１人に炎のダメージ{end}",
-  "en": "歌敵１人に炎のダメージ{end}",
+  "en": "[0120]Fire damage to one foe{end}",
   "max": 26
  },
  {
@@ -9574,7 +9574,7 @@
  {
   "id": "NM:00394A",
   "jp": "Kはい{end}",
-  "en": "Kはい{end}",
+  "en": "[002D]Yes{end}",
   "max": 10
  },
  {
