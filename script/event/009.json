@@ -301,42 +301,42 @@
  {
   "id": "B:35594",
   "jp": "{face:0004}{voice:0211}ここに、全てのヒトミが{n}そろっているわ{wait}{page}{voice:0212}ノルンのカギを作って{wait}{end}",
-  "en": "{face:0004}{voice:0211}All of the Eyes are gathered here.{wait}{page}{voice:0212}Let's make the Norn Keys.{wait}{end}"
+  "en": "{face:0004}{voice:0211}All of the Messiah Eyes are gathered here.{wait}{page}{voice:0212}Let's make the Norn Keys.{wait}{end}"
  },
  {
   "id": "B:355EC",
   "jp": "青いノルンのカギができた{wait}{end}",
-  "en": "Made the blue Norn Key!{wait}{end}"
+  "en": "Made the Blue Norn Key!{wait}{end}"
  },
  {
   "id": "B:35608",
   "jp": "金色のノルンのカギができた{wait}{end}",
-  "en": "Made the golden Norn Key!{wait}{end}"
+  "en": "Made the Golden Norn Key!{wait}{end}"
  },
  {
   "id": "B:35628",
   "jp": "白いノルンのカギができた{wait}{end}",
-  "en": "Made the white Norn Key!{wait}{end}"
+  "en": "Made the White Norn Key!{wait}{end}"
  },
  {
   "id": "B:35644",
   "jp": "緑のノルンのカギができた{wait}{end}",
-  "en": "Made the green Norn Key!{wait}{end}"
+  "en": "Made the Green Norn Key!{wait}{end}"
  },
  {
   "id": "B:35660",
   "jp": "赤いノルンのカギができた{wait}{end}",
-  "en": "Made the red Norn Key!{wait}{end}"
+  "en": "Made the Red Norn Key!{wait}{end}"
  },
  {
   "id": "B:3567C",
   "jp": "虹色のノルンのカギができた{wait}{end}",
-  "en": "Made the rainbow Norn Key!{wait}{end}"
+  "en": "Made the Rainbow Norn Key!{wait}{end}"
  },
  {
   "id": "B:3569C",
   "jp": "紫のノルンのカギができた{wait}{end}",
-  "en": "Made the purple Norn Key!{wait}{end}"
+  "en": "Made the Purple Norn Key!{wait}{end}"
  },
  {
   "id": "B:356B8",

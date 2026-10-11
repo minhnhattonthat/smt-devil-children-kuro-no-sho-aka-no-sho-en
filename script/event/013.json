@@ -62,7 +62,7 @@
  {
   "id": "B:3ADA4",
   "jp": "{face:0024}{voice:0228}このとびらの向こうが{n}オルゴールルームです{wait}{page}{voice:0229}そこにある、ノルンのぞうの前で{wait}{page}{voice:022A}ハルマゲドンのプログラムを{n}起動させれば{wait}{page}{voice:022B}この世界を最初から{n}やり直す事が、できるのです{wait}{end}",
-  "en": "{face:0024}{voice:0228}Beyond this door lies the Orgel Room.{wait}{page}{voice:0229}There, before the statue of Norn,{wait}{page}{voice:022A}start the Armageddon program,{wait}{page}{voice:022B}and this world can be remade from the very beginning.{wait}{end}"
+  "en": "{face:0024}{voice:0228}Beyond this door lies the Orgel Room.{wait}{page}{voice:0229}There, before the statue of the Norns,{wait}{page}{voice:022A}start the Armageddon program,{wait}{page}{voice:022B}and this world can be remade from the very beginning.{wait}{end}"
  },
  {
   "id": "B:3AE68",
