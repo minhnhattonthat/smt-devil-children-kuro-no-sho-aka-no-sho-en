@@ -49,7 +49,30 @@ def record_slots(d):
     return out
 
 
-def strings(d, records=True):
+def referenced(d, base=BASE):
+    """Offsets referenced by an aligned 32-bit pointer or a lui + addiu/ori pair (within 16 instructions)."""
+    out = set()
+    end = base + len(d)
+    regs = {}
+    for o in range(0, len(d) - 3, 4):
+        w = struct.unpack_from('<I', d, o)[0]
+        if base <= w < end and not w & 1:
+            out.add(w - base)
+        op = w >> 26
+        if op == 0x0F:
+            regs[(w >> 16) & 31] = ((w & 0xFFFF) << 16, o)
+        elif op in (0x09, 0x0D) and (w >> 21) & 31 in regs:
+            hi, ho = regs[(w >> 21) & 31]
+            lo = w & 0xFFFF
+            if op == 0x09 and lo & 0x8000:
+                lo -= 0x10000
+            v = (hi + lo) & 0xFFFFFFFF
+            if o - ho <= 64 and base <= v < end and not v & 1:
+                out.add(v - base)
+    return out
+
+
+def strings(d, records=True, base=BASE):
     """[(offset, length, capacity, jp)] for text strings in an EXE image."""
     rec = record_slots(d) if records else {}
     in_rec = set()
@@ -61,6 +84,25 @@ def strings(d, records=True):
             found[off] = (n, t)
     for off in rec:
         t, n = text.decode(d, off)
+        found[off] = (n, t)
+    covered = set()
+    ends = set()
+    for off, (n, _) in found.items():
+        covered.update(range(off, off + n))
+        ends.add(off + n)
+    extra = {}  # end offset -> (start, n, text): kanji-only strings the kana-ratio scan misses (e.g. 回復)
+    for off in referenced(d, base):
+        if off in covered or off in found:
+            continue
+        t, n = text.decode(d, off)
+        if off + n in ends:  # same string seen from its leading space / a shared tail
+            continue
+        units = [struct.unpack_from('<H', d, p)[0] for p in range(off, off + n - 2, 2)]
+        if t.endswith('{end}') and n <= 256 and units and all(u < text.NGLYPH or u in text.CTRL for u in units) \
+                and any(0x57 <= u < text.NGLYPH for u in units):
+            if off + n not in extra or off > extra[off + n][0]:  # shared tail: keep the shortest
+                extra[off + n] = (off, n, t)
+    for off, n, t in extra.values():
         found[off] = (n, t)
     out = []
     offs = sorted(found)
@@ -116,7 +158,7 @@ BATTLES = (('BB', 'B_BATTLE.BIN'), ('RB', 'R_BATTLE.BIN'))  # overlays at 0x8017
 def battle_strings(d):
     """Battle overlays hold many data runs that decode as kana: keep real-looking text only."""
     out = []
-    for off, n, cap, jp in strings(d, records=False):
+    for off, n, cap, jp in strings(d, records=False, base=0x80170000):
         units = [struct.unpack_from('<H', d, p)[0] for p in range(off, off + n - 2, 2)]
         glyphs = [u for u in units if u < text.NGLYPH]
         spaced = sum(1 for u in glyphs if u == 0) * 2 >= len(glyphs)  # 'ご　さ　ざ' kana tables
@@ -161,10 +203,43 @@ def dump(chunk=120, sub='exe', files=EXES, extract=None):
     print('%d entries, %d unique, %d files (%d written)' % (len(entries), len(first), len(files), wrote))
 
 
+def append(chunk=120):
+    dest = ROOT / 'script' / 'exe'
+    first, have = {}, set()
+    files = sorted(dest.glob('*.json'))
+    for p in files:
+        for e in json.loads(p.read_text(encoding='utf-8')):
+            have.add(e['id'])
+            if 'jp' in e:
+                first.setdefault(e['jp'], e['id'])
+    entries = []
+    for tag, name in EXES:
+        d = (TREE / name).read_bytes()
+        for off, n, cap, jp in strings(d):
+            mid = '%s:%06X' % (tag, off)
+            if mid in have:
+                continue
+            if jp in first:
+                entries.append({'id': mid, 'same_as': first[jp]})
+            else:
+                first[jp] = mid
+                entries.append({'id': mid, 'jp': jp, 'en': '', 'max': cap})
+    num = int(files[-1].stem) + 1 if files else 0
+    for i in range(0, len(entries), chunk):
+        p = dest / ('%03d.json' % num)
+        p.write_text(json.dumps(entries[i:i + chunk], ensure_ascii=False, indent=1) + '\n', encoding='utf-8',
+                     newline='\n')
+        num += 1
+    print('appended', len(entries), 'entries')
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'stats'
     if cmd == 'dump':
         dump()
+        return
+    if cmd == 'append':  # strings found since the first dump -> new script/exe files (existing ones untouched)
+        append()
         return
     if cmd == 'dump-battle':
         dump(sub='battle', files=BATTLES, extract=battle_strings)

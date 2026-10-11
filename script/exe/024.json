@@ -1,0 +1,526 @@
+[
+ {
+  "id": "BM:001AD8",
+  "same_as": "BM:0019B0"
+ },
+ {
+  "id": "BM:0020D8",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "BM:00227C",
+  "jp": "コ{end}",
+  "en": "",
+  "max": 4
+ },
+ {
+  "id": "BM:003360",
+  "jp": "　回復{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0035F4",
+  "jp": "ゼット　　　　{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:003D34",
+  "jp": "４５６７８９ABCDEFGHIJKLMNOPQRSTU゜盾安暗{end}",
+  "en": "",
+  "max": 64
+ },
+ {
+  "id": "BM:003F38",
+  "jp": "。：？！ー／（＋－×％＃♥★※１２WXacdeghiklqtデフベボマミムャヤュヴ[00FE]引運{end}",
+  "en": "",
+  "max": 92
+ },
+ {
+  "id": "BM:003F94",
+  "jp": "４５６７９ABDEFGKNOPSVYZbfjmnoprsuみピペホポメモユョヨ゜常盾安暗院{end}",
+  "en": "",
+  "max": 92
+ },
+ {
+  "id": "BM:004570",
+  "jp": "：　p　ぴ　夢東{end}",
+  "en": "",
+  "max": 20
+ },
+ {
+  "id": "BM:07B0A4",
+  "jp": "■　♥　＃。■　。ヨ。ラ。リ。ル。レ間{end}",
+  "en": "",
+  "max": 40
+ },
+ {
+  "id": "BM:09DE64",
+  "jp": "開発中{wait}{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0A03FC",
+  "jp": "　セーブ中・・・・・{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0A0514",
+  "jp": "　メダルを何枚かけますか？{n}　　　　５　　　１０　　　２０{end}",
+  "en": "",
+  "max": 60
+ },
+ {
+  "id": "BM:0A05D4",
+  "jp": "　負け・・・{wait}{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0A1BD8",
+  "jp": "　　　　コール　カクニン・・・{speed:001E}{page}　　　　２４３{speed:001E}　ケルベロス{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BM:0A1C1C",
+  "jp": "　　　　コール　カクニン・・・{speed:001E}{page}　　　　２４７{speed:001E}　グリフォン{end}",
+  "en": "",
+  "max": 68
+ },
+ {
+  "id": "BM:0AF0F0",
+  "jp": "・・・・・・話し中です{wait}{end}",
+  "en": "",
+  "max": 28
+ },
+ {
+  "id": "BM:0B074C",
+  "jp": "ヒ{end}",
+  "en": "",
+  "max": 4
+ },
+ {
+  "id": "BM:0B0C14",
+  "jp": "※※ディスク　　※※{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "BM:0B0D40",
+  "jp": "原宿　　　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "BM:0B0EC0",
+  "same_as": "BM:0B0D40"
+ },
+ {
+  "id": "BM:0B4E98",
+  "jp": "暗　　　　　{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0B6228",
+  "jp": "？？？？の部品{end}",
+  "en": "",
+  "max": 16
+ },
+ {
+  "id": "BM:0BE834",
+  "jp": "{face:00FF}{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "BM:0C7D10",
+  "jp": "黒{end}",
+  "en": "",
+  "max": 4
+ },
+ {
+  "id": "RM:001AD8",
+  "same_as": "BM:0019B0"
+ },
+ {
+  "id": "RM:0020D8",
+  "same_as": "BM:005BC8"
+ },
+ {
+  "id": "RM:00227C",
+  "same_as": "BM:00227C"
+ },
+ {
+  "id": "RM:003360",
+  "same_as": "BM:003360"
+ },
+ {
+  "id": "RM:003600",
+  "same_as": "BM:0035F4"
+ },
+ {
+  "id": "RM:003D40",
+  "same_as": "BM:003D34"
+ },
+ {
+  "id": "RM:003F44",
+  "same_as": "BM:003F38"
+ },
+ {
+  "id": "RM:003FA0",
+  "same_as": "BM:003F94"
+ },
+ {
+  "id": "RM:00457C",
+  "same_as": "BM:004570"
+ },
+ {
+  "id": "RM:07B4D8",
+  "same_as": "BM:07B0A4"
+ },
+ {
+  "id": "RM:0A2FA4",
+  "same_as": "BM:09DE64"
+ },
+ {
+  "id": "RM:0A553C",
+  "same_as": "BM:0A03FC"
+ },
+ {
+  "id": "RM:0A5654",
+  "same_as": "BM:0A0514"
+ },
+ {
+  "id": "RM:0A5714",
+  "same_as": "BM:0A05D4"
+ },
+ {
+  "id": "RM:0A6D18",
+  "same_as": "BM:0A1BD8"
+ },
+ {
+  "id": "RM:0A6D5C",
+  "same_as": "BM:0A1C1C"
+ },
+ {
+  "id": "RM:0AF454",
+  "same_as": "BM:0AF0F0"
+ },
+ {
+  "id": "RM:0B0AE0",
+  "same_as": "BM:0B074C"
+ },
+ {
+  "id": "RM:0B0FA8",
+  "same_as": "BM:0B0C14"
+ },
+ {
+  "id": "RM:0B10D4",
+  "same_as": "BM:0B0D40"
+ },
+ {
+  "id": "RM:0B1254",
+  "same_as": "BM:0B0D40"
+ },
+ {
+  "id": "RM:0B5258",
+  "same_as": "BM:0B4E98"
+ },
+ {
+  "id": "RM:0B65E8",
+  "same_as": "BM:0B6228"
+ },
+ {
+  "id": "RM:0BEBF4",
+  "same_as": "BM:0BE834"
+ },
+ {
+  "id": "RM:0C80D0",
+  "same_as": "BM:0C7D10"
+ },
+ {
+  "id": "NM:00206C",
+  "jp": "{fb:FFFF}[00FF]　{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:002100",
+  "jp": "全てのカギができた{wait}{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:002550",
+  "jp": "…　）。－・々：２？DーQ…V）f」x＋げ－だ×へ￥を％セ■ノ★モ０意１界２究３{end}",
+  "en": "",
+  "max": 82
+ },
+ {
+  "id": "NM:002D60",
+  "same_as": "BM:0019B0"
+ },
+ {
+  "id": "NM:003564",
+  "jp": "…　）。－・々：２？DーH／L（Q…V）a「f」x＋げ－だ×ば＝へ￥む々を％エ＃ケ♥セ■ノ★モ０意１界２究３{end}",
+  "en": "",
+  "max": 110
+ },
+ {
+  "id": "NM:00481C",
+  "same_as": "BM:003D34"
+ },
+ {
+  "id": "NM:004A20",
+  "same_as": "BM:003F38"
+ },
+ {
+  "id": "NM:004A7C",
+  "same_as": "BM:003F94"
+ },
+ {
+  "id": "NM:004F9C",
+  "jp": "：　つ　ぴ　{end}",
+  "en": "",
+  "max": 14
+ },
+ {
+  "id": "NM:04C57C",
+  "same_as": "BM:07B0A4"
+ },
+ {
+  "id": "NM:04C8B4",
+  "jp": "間{end}",
+  "en": "",
+  "max": 4
+ },
+ {
+  "id": "NM:04D18C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04D45C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04D5AC",
+  "jp": "■　間{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "NM:04E18C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04E8E0",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04F2C0",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04F880",
+  "jp": "と　D{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "NM:04FC24",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04FD74",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:04FEC4",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:050018",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0501A0",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:051348",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0516EC",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:05172C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:051A4C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:051F7C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052160",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052480",
+  "jp": "と　と　D{end}",
+  "en": "",
+  "max": 12
+ },
+ {
+  "id": "NM:0524CC",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052634",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0528D8",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052AE4",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052CF4",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:052F30",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0532D8",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:053714",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0539CC",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:053A5C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:054234",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:054370",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:054C6C",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:054DC0",
+  "jp": "と　p{end}",
+  "en": "",
+  "max": 8
+ },
+ {
+  "id": "NM:055644",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:055778",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0558B8",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:055D80",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:055EFC",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0562E0",
+  "same_as": "NM:04C8B4"
+ },
+ {
+  "id": "NM:0AD348",
+  "same_as": "BM:09DE64"
+ },
+ {
+  "id": "NM:0AF8E0",
+  "same_as": "BM:0A03FC"
+ },
+ {
+  "id": "NM:0AF9F8",
+  "same_as": "BM:0A0514"
+ },
+ {
+  "id": "NM:0AFAB8",
+  "same_as": "BM:0A05D4"
+ },
+ {
+  "id": "NM:0B10BC",
+  "same_as": "BM:0A1BD8"
+ },
+ {
+  "id": "NM:0B1100",
+  "same_as": "BM:0A1C1C"
+ },
+ {
+  "id": "NM:0BC190",
+  "same_as": "BM:0B074C"
+ },
+ {
+  "id": "NM:0BC784",
+  "same_as": "BM:0B0D40"
+ },
+ {
+  "id": "NM:0BC904",
+  "same_as": "BM:0B0D40"
+ },
+ {
+  "id": "NM:0BDBD4",
+  "same_as": "BM:0B6228"
+ },
+ {
+  "id": "NM:0C4FD4",
+  "same_as": "BM:0BE834"
+ },
+ {
+  "id": "NM:0CB208",
+  "jp": "※※交換　：１P※※{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0CB220",
+  "jp": "※※交換　：２P※※{end}",
+  "en": "",
+  "max": 24
+ },
+ {
+  "id": "NM:0D50A0",
+  "same_as": "BM:0C7D10"
+ }
+]

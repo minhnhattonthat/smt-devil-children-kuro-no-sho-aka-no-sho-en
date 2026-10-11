@@ -8,6 +8,7 @@ build.py calls apply(pac_bytearray).
 """
 import struct
 import sys
+from collections import Counter
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -182,11 +183,142 @@ def quantize_into(t, im, d, base):
             d[base + data_off + y * t['w'] * 2 + x] = cache[c]
 
 
+# ---- 4bpp menu sheet (DEVIL.PAC 0x26D3800, 256x240): palette index 0 = key, 1 white, 2/3 greys, 4-15 button
+# bodies (other CLUT rows shade them). Buttons are 47x16 cells, labels are white text on the key colour.
+MENU_SHEET = 0x026D3800
+BUTTONS = {  # (x0, y0, x1, y1): English
+    (1, 32, 47, 47): 'Vinecom', (49, 32, 95, 47): 'Items', (97, 32, 143, 47): 'Save',
+    (1, 48, 47, 63): 'Magic', (49, 48, 95, 63): 'Settings', (97, 48, 143, 63): 'DeviPhone',
+    (1, 64, 47, 79): 'Status', (49, 64, 95, 79): 'Dismiss', (97, 64, 143, 79): 'Devidas',
+    (1, 80, 47, 95): 'Arrange', (49, 80, 95, 95): 'Options', (97, 80, 143, 95): 'Set',
+    (1, 96, 47, 111): 'Summon', (49, 96, 95, 111): 'Send', (97, 96, 143, 111): 'View',
+    (1, 112, 47, 127): 'Disc', (49, 112, 95, 127): 'Load', (97, 112, 143, 127): 'Map',
+    (1, 128, 71, 143): 'Vine Center', (73, 128, 143, 143): 'Friends',
+    (1, 144, 47, 159): 'Stamina', (49, 144, 95, 159): 'Fighting', (97, 144, 143, 159): 'Mental',
+    (1, 160, 47, 175): 'Deposit', (49, 160, 95, 175): 'Withdraw', (97, 160, 143, 175): 'Start',
+    (1, 176, 47, 191): 'Fast', (49, 176, 95, 191): 'Normal', (97, 176, 143, 191): 'Thorough',
+    (1, 192, 47, 207): 'OK', (49, 192, 95, 207): 'Cancel', (97, 192, 143, 207): 'Reset',
+    (217, 32, 255, 47): 'ABC', (217, 48, 255, 63): 'abc', (217, 64, 255, 79): 'Delete', (217, 80, 255, 95): 'Done',
+}
+LABELS = {  # (x0, y0, x1, y1): English, drawn with the game's 8x8 font
+    (144, 34, 180, 47): 'Race', (144, 49, 180, 62): 'Name', (144, 65, 180, 78): 'Level',
+    (144, 81, 180, 94): 'Element', (144, 97, 180, 110): 'Combo', (144, 113, 180, 126): 'Number',
+    (180, 32, 217, 40): 'Common', (180, 40, 217, 48): 'Elite', (180, 48, 217, 56): 'General', (180, 56, 217, 64): 'King',
+    (180, 72, 217, 80): 'God', (180, 80, 217, 88): 'Akuma', (180, 88, 217, 96): 'Divine', (180, 96, 217, 104): 'Oni',
+    (180, 104, 217, 112): 'Specter', (180, 112, 217, 120): 'Draco', (180, 120, 217, 128): 'Yoma',
+    (180, 128, 217, 136): 'Mutant', (180, 136, 217, 144): 'Boss', (180, 144, 217, 152): 'Beast',
+    (180, 152, 217, 160): 'Combo', (180, 160, 226, 168): 'MP Cost', (180, 168, 226, 176): 'HP Cost',
+    (144, 136, 177, 144): '????', (144, 144, 177, 152): 'Level', (144, 152, 177, 160): 'Number',
+    (144, 160, 177, 168): 'Name', (144, 168, 177, 176): 'Class', (144, 176, 177, 184): 'Race',
+    (144, 184, 177, 192): 'Element', (144, 192, 177, 200): 'Select', (144, 200, 217, 208): 'Search mode',
+    (0, 224, 140, 232): 'X Button / SELECT Button /',
+}
+
+
+class Sheet4:
+    """Index-level access to a 4bpp TIM inside a bytearray."""
+    def __init__(self, pac, off):
+        self.t = tim.parse(bytes(pac[off:off + 0x10000]), 0)
+        self.pac, self.base = pac, off + self.t['end'] - len(self.t['data'])
+        self.row = self.t['w'] * 2
+
+    def get(self, x, y):
+        b = self.pac[self.base + y * self.row + x // 2]
+        return (b >> 4) if x & 1 else b & 15
+
+    def set(self, x, y, v):
+        o = self.base + y * self.row + x // 2
+        b = self.pac[o]
+        self.pac[o] = (b & 0x0F) | (v << 4) if x & 1 else (b & 0xF0) | v
+
+
+def font8(pac):
+    """{ascii: (rows of 8 values 0-3, width)} from the game's 8x8 font (TXS image, glyph per tools/../build map8)."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    import build
+    m = build.map8()
+    out = {}
+    for c in range(0x21, 0x7F):
+        g = m[c]
+        if not g:
+            continue
+        rows = []
+        for yy in range(8):
+            row = []
+            for xx in range(8):
+                lin = ((g >> 5) * 8 + 4 + yy) * 1024 + (g & 31) * 8 - 32 + xx
+                b = pac[0x15D8010 + lin // 2]
+                v = (b >> 4) if lin & 1 else b & 15
+                row.append(v)
+            rows.append(row)
+        cols = [x for x in range(8) if any(r[x] for r in rows)]
+        lo = cols[0] if cols else 0
+        hi = cols[-1] if cols else 2
+        rows = [r[lo:hi + 1] for r in rows]
+        out[chr(c)] = (rows, hi - lo + 1)
+    return out
+
+
+def draw_menu_sheet(pac):
+    import font
+    s = Sheet4(pac, MENU_SHEET)
+    glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
+    for (x0, y0, x1, y1), text in BUTTONS.items():
+        for y in range(y0, y1):  # erase: text pixels take the row's most common body index
+            body = Counter(s.get(x, y) for x in range(x0, x1) if s.get(x, y) >= 4)
+            fill = body.most_common(1)[0][0] if body else 5
+            for x in range(x0, x1):
+                if s.get(x, y) in (1, 2, 3):
+                    s.set(x, y, fill)
+        w = sum(glyphs[font.EN_BASE + ord(c)][1] for c in text) - 1
+        gap = 1 if w <= x1 - x0 - 2 else 0  # tight spacing when the word would not fit the button
+        w -= (1 - gap) * (len(text) - 1)
+        x = x0 + max(1, (x1 - x0 - w) // 2)
+        for c in text:
+            px, adv = glyphs[font.EN_BASE + ord(c)]
+            for yy in range(4, 15):
+                for xx in range(16):
+                    if px[yy][xx] == 1 and x + xx < x1 - 1 and y0 + yy - 1 < y1:
+                        s.set(x + xx, y0 + yy - 1, 1)
+            x += adv - (1 - gap)
+    f5 = font5()
+    for (x0, y0, x1, y1), text in LABELS.items():
+        for y in range(y0, y1):
+            for x in range(x0, x1):
+                if s.get(x, y) in (1, 2, 3):
+                    s.set(x, y, 0)
+        x = x0
+        top = y0 + max(0, (y1 - y0 - 6) // 2)
+        for c in text.upper():
+            if c == ' ':
+                x += 2
+                continue
+            rows = f5[c]
+            for yy, r in enumerate(rows):
+                for xx, ch in enumerate(r):
+                    if ch == '#' and x + xx + 1 < x1:
+                        s.set(x + xx, top + yy, 1)
+                        if s.get(x + xx + 1, top + yy + 1) == 0:
+                            s.set(x + xx + 1, top + yy + 1, 3)
+            x += len(rows[0]) + 1
+
+
+def font5():
+    """font/en5.txt: {char: [row strings]}, 5 rows, '#' = pixel."""
+    out = {}
+    for line in (Path(__file__).resolve().parent.parent / 'font' / 'en5.txt').read_text(encoding='utf-8').splitlines():
+        if line and not line.startswith('#'):
+            c, *rows = line.split(' ')
+            out[c] = rows
+    return out
+
+
 def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
         im = edit_tim(t, edits)
         quantize_into(t, im, pac, off)
+    draw_menu_sheet(pac)
 
 
 def main():
