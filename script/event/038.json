@@ -2,52 +2,52 @@
  {
   "id": "R:47720",
   "jp": "{face:0000}{voice:056C}あっ！世界が{n}もう一度、始まろうとしている！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:056C}Oh! The world's about to begin all over again!{wait}{end}"
  },
  {
   "id": "R:47758",
   "jp": "{face:0003}{voice:056D}やり直すんだ！{n}もう一度、最初から！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:056D}We'll start over! From the very beginning!{wait}{end}"
  },
  {
   "id": "R:47788",
   "jp": "{voice:05B2}わが・・・・・・・・・・・・・・{n}・・・・・・・の時に・・・・のだ{wait}{f0}{voice:05C1}そして・・・・・を・・・させ{f0}・・・なる・・・を・・・・・！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B2}My ..., ..... the .... ..., and at ....... ..... hour, .... .......{wait}{f0}{voice:05C1}Then, ...en the ...... ...,{f0}and ..... .... a ... .....!{wait}{end}"
  },
  {
   "id": "R:47818",
   "jp": "{voice:05B1}わが・・・よ・・・・・・・・・・{n}世界・・・・の時に・・・・のだ{wait}{f0}{voice:05C0}そして・・・・・を・・・させ{f0}・・・なる・・・を・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B1}My ..., ..... the .... ..., and at the world's ..... hour, .... .......{wait}{f0}{voice:05C0}Then, ...en the ...... ...,{f0}and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "R:478A4",
   "jp": "{voice:05B0}わが・・・よ・・・・カギを・・・{n}世界・・・・の時に・・・・のだ{wait}{f0}{voice:05BF}そして・・・・・を目ざめさせ{f0}・・・なる・・・を・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05B0}My ..., ..... the .... Key, and at the world's ..... hour, .... .......{wait}{f0}{voice:05BF}Then, awaken the ...... ...,{f0}and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "R:47930",
   "jp": "{voice:05AF}わが・・・よ・・・・カギを・・・{n}世界・・・・の時に・・あうのだ{wait}{f0}{voice:05BE}そして、ねむる・・を目ざめさせ{f0}・・・なる・・・を・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05AF}My ..., ..... the .... Key, and at the world's ..... hour, .... witness.{wait}{f0}{voice:05BE}Then, awaken the sleeping ...,{f0}and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "R:479BC",
   "jp": "{voice:05AE}わが・・・よ・・・・カギを作り{n}世界・・・・の時に・・あうのだ{wait}{f0}{voice:05BE}そして、ねむる・・を目ざめさせ{f0}・・・なる・・・を・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05AE}My ..., forge the .... Key, and at the world's ..... hour, .... witness.{wait}{f0}{voice:05BE}Then, awaken the sleeping ...,{f0}and ..... open a ... .....!{wait}{end}"
  },
  {
   "id": "R:47A48",
   "jp": "{voice:05AD}わが・・・よ・・・・カギを作り{n}世界の最期の時に・・あうのだ{wait}{f0}{voice:05BD}そして、ねむる・・を目ざめさせ{f0}新たなる・・・を・・開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05AD}My ..., forge the .... Key, and at the world's final hour, .... witness.{wait}{f0}{voice:05BD}Then, awaken the sleeping ...,{f0}and ..... open a new .....!{wait}{end}"
  },
  {
   "id": "R:47AD0",
   "jp": "{voice:05AC}わが娘よ、ノルンのカギを作り{n}世界の最期の時に・・あうのだ{wait}{f0}{voice:05BC}そして、ねむる・・を目ざめさせ{f0}新たなる・・・を切り開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05AC}My daughter, forge the Norn Key, and at the world's final hour, .... witness.{wait}{f0}{voice:05BC}Then, awaken the sleeping ...,{f0}and carve open a new .....!{wait}{end}"
  },
  {
   "id": "R:47B54",
   "jp": "{voice:05AB}わが娘よ、ノルンのカギを作り{n}世界の最期の時に立ち合うのだ{wait}{f0}{voice:05BB}そして、ねむる神を目ざめさせ{f0}新たなる世界を切り開け！{wait}{end}",
-  "en": ""
+  "en": "{voice:05AB}My daughter, forge the Norn Key, and at the world's final hour, bear witness.{wait}{f0}{voice:05BB}Then awaken the sleeping god,{f0}and carve open a new world!{wait}{end}"
  },
  {
   "id": "R:47BD4",
@@ -64,57 +64,57 @@
  {
   "id": "R:47C68",
   "jp": "{face:0001}私がこのあたりで{n}くらしていたころには{wait}{f0}あそこにならんでいるオハカなんか{wait}{f0}なかったのよ{wait}{page}ちょっと調べた方がいいわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}Back when I lived around here,{wait}{f0}those graves lined up over there{wait}{f0}weren't there at all.{wait}{page}We'd better check it out.{wait}{end}"
  },
  {
   "id": "R:47CE8",
   "jp": "{face:0000}{voice:0390}メシアのツノって・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0390}Messiah Horns...?{wait}{end}"
  },
  {
   "id": "R:47D0C",
   "jp": "{face:0045}{voice:0391}メシアのツノが集められると{wait}{n}{voice:0392}世界のめつぼうが始まるという{f0}言い伝えが魔界にはあるのです{wait}{page}{voice:0393}もう１人のデビルチルドレンは{n}メシアのツノを集め{wait}{f0}{voice:0394}この世界を{f0}めつぼうさせようとしているのです{wait}{page}{voice:0395}一度はかれをとらえたのですが{wait}{n}{voice:0396}ろうやから逃げだして、また世界を{f0}めつぼうさせようとしているのです{wait}{page}{voice:0397}・・・・・・私のたのみとは{wait}{page}{voice:0398}かれを倒し、この世界を{n}救ってほしいという事です{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0391}Once the Messiah Horns are gathered,{wait}{n}{voice:0392}the world's destruction will begin.{f0}So says a legend here in Makai.{wait}{page}{voice:0393}The other Devil Child is gathering the Messiah Horns{wait}{f0}{voice:0394}and seeks to bring{f0}this world to destruction.{wait}{page}{voice:0395}We captured him once,{wait}{n}{voice:0396}but he escaped from his prison, and{f0}again he seeks to destroy the world.{wait}{page}{voice:0397}......What I ask of you{wait}{page}{voice:0398}is that you defeat him and save this world.{wait}{end}"
  },
  {
   "id": "R:47EA8",
   "jp": "{ee}これでマーブルランドにも{n}平和が来るぞ{wait}{page}あのデーバ族のわかものは{n}戻って来たのかなあ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Now peace will come to Marble Land, too.{wait}{page}I wonder if that young man from the Deva tribe has come back yet?{wait}{end}"
  },
  {
   "id": "R:47F08",
   "jp": "{ee}デーバ族の村には{n}ニタニタというデビルがいるらしい{wait}{page}いつもニタニタとわらっているが{n}あの村にしかいないデビルだぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}They say there's a Devil called Nitanita in the Deva tribe's village.{wait}{page}It's always grinning away, but you won't find that Devil anywhere else.{wait}{end}"
  },
  {
   "id": "R:47F80",
   "jp": "{ee}ホテルのとなりにある家の息子が{n}戦争を嫌がって逃げだした{wait}{page}どうやらサンドランドに{n}行ったらしいんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}The son from the house next to the hotel hated the war and ran away.{wait}{page}Looks like he went to Sand Land.{wait}{end}"
  },
  {
   "id": "R:47FEC",
   "jp": "{ee}この村に来るとちゅうで{n}マーブルランドから別の魔界に{wait}{f0}行きたがっているデビルを見たか？{wait}{page}あいつはこの間{n}シュラの剣を拾ったそうだ{wait}{end}",
-  "en": ""
+  "en": "{ee}On your way to this village, did you see a Devil who wants to leave Marble Land{wait}{f0}for another part of Makai?{wait}{page}I hear he picked up the Sura Sword the other day.{wait}{end}"
  },
  {
   "id": "R:48078",
   "jp": "{ee}そうか、デーバオーを{n}仲魔にしたのか{wait}{page}あいつののぞみも{n}かなったという事か{wait}{end}",
-  "en": ""
+  "en": "{ee}I see, so you made King Deva your ally.{wait}{page}So his wish came true too, huh.{wait}{end}"
  },
  {
   "id": "R:480CC",
   "jp": "{face:0015}これはまたひどくやられたものだ{wait}{page}{name}！{n}この薬をのませてやれ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}My, you've really taken a beating.{wait}{page}{name}! Here, have it take this medicine.{wait}{end}"
  },
  {
   "id": "R:48110",
   "jp": "{face:0009}{ea}・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{ea}...{wait}{end}"
  },
  {
   "id": "R:48124",
   "jp": "{ee}キミの持ってるしょうひんの{n}白いメシアのヒトミを使えば{wait}{f0}サンドランドに行けるよ{wait}{end}",
-  "en": ""
+  "en": "{ee}If you use the prize you've got, the White Messiah Eye,{wait}{f0}you can go to Sand Land!{wait}{end}"
  },
  {
   "id": "R:4817C",
@@ -163,7 +163,7 @@
  {
   "id": "R:4848C",
   "jp": "コードブレーカーの始めに{n}なんいどを選ぶよな{wait}{page}なんいどとはむずかしさの事だよ{wait}{page}ノーマルは０から５までの{n}数字がかくされていて{wait}{page}ハードは０から９までの{n}数字がかくされているんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "At the start of Code Breaker, you choose a difficulty, right?{wait}{page}Difficulty means how hard it is.{wait}{page}On Normal, the hidden numbers are from 0 to 5,{wait}{page}and on Hard, they're from 0 to 9.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "R:48560",
@@ -172,52 +172,52 @@
  {
   "id": "R:4859C",
   "jp": "ノーマルでやるときは{n}０から５までの数字を{wait}{page}ハードの時は{n}０から９までの数字を{wait}{f0}自由にならべる事ができるんだ{wait}{page}そうしてかくれている数字を{n}当てていくゲームなんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "On Normal, you use the numbers 0 to 5,{wait}{page}and on Hard, the numbers 0 to 9.{wait}{f0}You can line them up however you like.{wait}{page}That's how you guess the hidden numbers.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "R:48664",
   "jp": "かくされた３つの数字は{n}全部ちがう数字なんだ{wait}{page}だから同じ数字は{n}選べないようになっているだろう{wait}{page}そうして３つの数字を選んで{n}決定するとそのけっかが{wait}{f0}画面の右がわに出て来るんだ{wait}{page}上がHITした数だ{wait}{n}HITというのは数と場所が{wait}{f0}当っているという事だ{wait}{page}そして、下はBrowした数だ{wait}{n}Browというのは数は合ってるが{wait}{f0}場所がちがうという数字の事だ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "The three hidden numbers are all different.{wait}{page}So you can't pick the same number twice.{wait}{page}Once you pick three numbers and confirm, the result{wait}{f0}shows up on the right side of the screen.{wait}{page}The top is the number of HITs.{wait}{n}A HIT means the number{wait}{f0}and its place are both right.{wait}{page}And the bottom is the number of BLOWs.{wait}{n}A BLOW means the number's right,{wait}{f0}but it's in the wrong place.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "R:487E8",
   "jp": "最初に入れた数字で{n}HITが１、Browが１だったとすると{wait}{page}場所と数字が{n}当っているのがどれか１つ{wait}{page}数字だけが当っているのが{n}どれか１つあるよという事だ{wait}{page}それを見てどれがHITで{wait}{n}どれがBrowかをスイリして{wait}{f0}２回目の数字を決めるんだ{wait}{page}ここまではわかったかな？{wait}{end}",
-  "en": ""
+  "en": "Say your first numbers got 1 HIT and 1 BLOW.{wait}{page}That means one of them is the right number in the right place,{wait}{page}and one of them is just the right number.{wait}{page}Use that to figure out which is the HIT{wait}{n}and which is the BLOW,{wait}{f0}then choose your second numbers.{wait}{page}Got all that so far?{wait}{end}"
  },
  {
   "id": "R:488FC",
   "jp": "選んだ数字とその場所は{n}そのけっかとともにまいかい{wait}{f0}すぐ下に出て来るだろう{wait}{page}それを見ながらスイリして{n}かくされた数字を当てるんだよ{wait}{page}まあ、試してみるのが１番だよ{wait}{page}けっこうもえるかもしれないぜ{wait}{n}また聞きたくなったら{wait}{f0}いつでも話しかけてくれ{wait}{end}",
-  "en": ""
+  "en": "Each time, the numbers you picked and their places{wait}{f0}show up right below, along with the result.{wait}{page}Look at those, reason it out, and guess the hidden numbers.{wait}{page}Well, the best way to learn is to just try it.{wait}{page}You might get pretty fired up!{wait}{n}If you want to hear it again,{wait}{f0}just talk to me anytime.{wait}{end}"
  },
  {
   "id": "R:489F8",
   "jp": "{face:0003}{voice:05DB}オレは世界を{n}ほろぼそうなんてしていないぞ{wait}{page}{voice:03F1}そうか、オレを追いかけていたのは{n}おまえだったんだ{wait}{page}{voice:05DC}何でこんな事になったんだ？{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05DB}I'm not trying to destroy the world!{wait}{page}{voice:03F1}So it was you who's been chasing me.{wait}{page}{voice:05DC}How did things end up like this?{wait}{end}"
  },
  {
   "id": "R:48A8C",
   "jp": "{face:0000}{voice:05DD}そんな事、私にだって{n}わからないわよ！{wait}{page}{voice:05DE}いろいろ聞きたい事もあるけど{n}話は勝負の後ね！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05DD}How should I know!?{wait}{page}{voice:05DE}I've got lots I want to ask you, but we'll talk after our match!{wait}{end}"
  },
  {
   "id": "R:48AF4",
   "jp": "{face:0000}{voice:05E0}えっ！ナガヒサ君が・・・{n}大魔王にさらわれた！？{wait}{page}{voice:05E1}じゃあ、私はだまされてるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05E0}What!? Nagahisa-kun was... kidnapped by the Great Demon King!?{wait}{page}{voice:05E1}Then... was I tricked?{wait}{end}"
  },
  {
   "id": "R:48B54",
   "jp": "{face:0003}{voice:03FA}セントラルランドで大魔王に{n}会おうとしたオレは{wait}{f0}{voice:03FB}そこで、とつぜんつかまって{f0}アイスランドのろうやに送られたんだ{wait}{page}{voice:03FC}そこで、ダイアナに会って{wait}{n}{voice:03FD}ディープホールへ落とされる前に{f0}ろうやから逃げ出したんだ{wait}{page}{voice:03FE}だけど、まさかおまえが{n}オレを追いかけてるなんて・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:03FA}I went to Central Land to meet the Great Demon King,{wait}{f0}{voice:03FB}but I suddenly got captured there{f0}and sent to the prison in Ice Land.{wait}{page}{voice:03FC}There, I met Diana,{wait}{n}{voice:03FD}and before I got thrown in the Deep Hole,{f0}I escaped from the prison.{wait}{page}{voice:03FE}But I never thought you'd be the one chasing me...{wait}{end}"
  },
  {
   "id": "R:48C74",
   "jp": "{face:0000}{voice:03FF}・・・私は、パパを探しに{n}魔界に来たのよ{wait}{page}{voice:0400}だけど、パパを探して{n}魔界を旅するためには{wait}{f0}{voice:0401}大魔王の許しがひつようだったの{wait}{page}{voice:0402}魔界でパパを探す事を{n}みとめるかわりに{wait}{f0}{voice:0403}デビルチルドレンを追いかけて{wait}{f0}{voice:0404}世界をめつぼうから{f0}救ってくれとたのまれたの{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:03FF}...I came to Makai to look for my dad.{wait}{page}{voice:0400}But to travel through Makai searching for him,{wait}{f0}{voice:0401}I needed the Great Demon King's permission.{wait}{page}{voice:0402}In return for letting me search Makai for my dad,{wait}{f0}{voice:0403}he asked me to chase the Devil Child{wait}{f0}{voice:0404}and save the world{f0}from destruction.{wait}{end}"
  },
  {
   "id": "R:48D88",
   "jp": "{face:0003}{voice:0405}・・・なるほど、お父さんを{n}探しに来たのか・・・{wait}{page}{voice:0406}おれはナガヒサを探しに{n}サンドランドに行ってみるよ{wait}{page}{voice:0407}ナガヒサは天使に助けられて{n}サンドランドに行ったらしいんだ{wait}{page}{voice:0408}おまえもお父さんを探す旅を{n}続けるしかないんじゃないか？{wait}{page}{voice:0409}大魔王が何をたくらんで{n}おれたちを追いかけまわすのか{wait}{page}{voice:040A}何で、おまえにオレを{n}追いかけさせたのかわからないけど{wait}{page}{voice:040B}おたがい、自分のもくてきのために{n}旅を続けるしかないよな{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0405}...I see, so you came looking for your dad...{wait}{page}{voice:0406}I'm going to Sand Land to look for Nagahisa.{wait}{page}{voice:0407}Seems Nagahisa was rescued by an angel and went to Sand Land.{wait}{page}{voice:0408}All you can do is keep up your search for your dad too, right?{wait}{page}{voice:0409}What is the Great Demon King plotting, chasing us around like this?{wait}{page}{voice:040A}And why did he make you come after me? I don't know,{wait}{page}{voice:040B}but we both just have to keep traveling for our own goals.{wait}{end}"
  },
  {
   "id": "R:48F3C",
@@ -258,42 +258,42 @@
  {
   "id": "R:49090",
   "jp": "{voice:0643}オレたちの新しい時代が{n}いま、始まったぞ！{wait}{end}",
-  "en": ""
+  "en": "{voice:0643}Our new era has begun at last!{wait}{end}"
  },
  {
   "id": "R:490C4",
   "jp": "{face:0020}{voice:0644}ヨーヤッタナー{wait}{page}{voice:0645}大したもんやで、ほんまに{n}あんたはエライッ{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:0644}Ya did it!{wait}{page}{voice:0645}That's somethin' else, really. You're a real champ!{wait}{end}"
  },
  {
   "id": "R:49110",
   "jp": "{face:0000}{ea}・・・・・・{wait}{page}ダメッ、カギはわたせないわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{ea}......{wait}{page}No! I can't hand over the key!{wait}{end}"
  },
  {
   "id": "R:49148",
   "jp": "{name}はもらった薬を{n}{partner}に使った！{wait}{end}",
-  "en": ""
+  "en": "{name} used the medicine she'd been given on {partner}!{wait}{end}"
  },
  {
   "id": "R:4916C",
   "jp": "チャクラパフェを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found a Chakra Parfait!{wait}{end}"
  },
  {
   "id": "R:4918C",
   "jp": "チャクラパフェを{n}５コ手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got 5 Chakra Parfaits!{wait}{end}"
  },
  {
   "id": "R:491B4",
   "jp": "７月　１２日　水曜日{n}午前　１１時{wait}{end}",
-  "en": ""
+  "en": "Wednesday, July 12{n}11:00 AM{wait}{end}"
  },
  {
   "id": "R:491DC",
   "jp": "７月　１２日　水曜日{n}午前　１２時{wait}{page}時計が止まっている{n}壊れてしまったようだ{wait}{end}",
-  "en": ""
+  "en": "Wednesday, July 12{n}12:00 PM{wait}{page}The clock has stopped. It seems to be broken.{wait}{end}"
  },
  {
   "id": "R:49230",
@@ -302,7 +302,7 @@
  {
   "id": "R:49274",
   "jp": "{ee}バトルネットって知ってるかい？{n}けっこうハマッちゃうよ！{wait}{page}地下街のヴィネセンターで{n}できるんだぜ！{wait}{page}きみも一度やってみたら？{wait}{end}",
-  "en": ""
+  "en": "{ee}Do you know about Battle Net? It's really addictive!{wait}{page}You can play it at the Vine Center in the underground mall!{wait}{page}Why don't you give it a try?{wait}{end}"
  },
  {
   "id": "R:492FC",

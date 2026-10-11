@@ -74,7 +74,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ゴーストタウン | Ghost Town | | |
 | ゲートタウン / フロストタウン | Gate Town / Frost Town | | |
 | エリューズニル | Eljudnir | Hel's hall | |
-| 怪しい館 | Mysterious Mansion | the fusion lab | |
+| 怪しい館 | Mysterious Mansion | the fusion lab (Black Book) | |
+| 怪しい研究所 | Mysterious Lab | the fusion lab (Red Book) | shady lab |
+| チャクラドリンク / チャクラパフェ | Chakra Drink / Chakra Parfait | items | |
 | サークルゲート | Circle Gate | | |
 | 赤いカギ / 赤いツノ / 紫のツノ / 白いメシアのツノ / 金色のメシアのツノ | Red Key / Red Horn / Purple Horn / White Messiah Horn / Golden Messiah Horn | horns/keys are items: capitalized | |
 | ハーフデビル | half-Devil | | |

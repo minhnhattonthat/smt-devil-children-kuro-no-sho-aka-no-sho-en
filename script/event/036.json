@@ -2,47 +2,47 @@
  {
   "id": "R:40D34",
   "jp": "{face:0017}そうね・・・・・・{wait}{page}ちょっとくやしいけれど{n}デビルチルドレンがこれから{wait}{f0}どうしていくのか・・・{wait}{page}たしかめてみるのも悪くないわね{wait}{end}",
-  "en": ""
+  "en": "{face:0017}Hmm......{wait}{page}It galls me a little, but what the Devil Children{wait}{f0}will do from here on...{wait}{page}it might not be bad to see that for myself.{wait}{end}"
  },
  {
   "id": "R:40DC0",
   "jp": "　仲魔にする{n}　相手にしない{end}",
-  "en": ""
+  "en": "Make her an ally{n}Ignore her{end}"
  },
  {
   "id": "R:40DE0",
   "jp": "{face:0017}そう・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0017}I see...{wait}{end}"
  },
  {
   "id": "R:40DF4",
   "jp": "{face:0017}じゃあ、仲魔にしてもらうわね{wait}{end}",
-  "en": ""
+  "en": "{face:0017}Then I'll join you as your ally.{wait}{end}"
  },
  {
   "id": "R:40E18",
   "jp": "パイモンが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Paimon became your ally!{wait}{end}"
  },
  {
   "id": "R:40E34",
   "jp": "{face:0017}じゃあ仕方ないわね、サヨナラ{wait}{end}",
-  "en": ""
+  "en": "{face:0017}Then it can't be helped. Bye-bye.{wait}{end}"
  },
  {
   "id": "R:40E58",
   "jp": "{face:0017}仲魔がいっぱいのようね{wait}{page}出直して来てよ{wait}{end}",
-  "en": ""
+  "en": "{face:0017}Looks like your allies are full.{wait}{page}Come back another time, okay?{wait}{end}"
  },
  {
   "id": "R:40E88",
   "jp": "{face:0017}どうしたの？戻って来たの？{wait}{end}",
-  "en": ""
+  "en": "{face:0017}What's up? Did you come back?{wait}{end}"
  },
  {
   "id": "R:40EAC",
   "jp": "{ee}{face:004F}{ea}・・・・・・・・{wait}{page}おれは・・・ダレダ？・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004F}{ea}........{wait}{page}Who... am... I?...{wait}{end}"
  },
  {
   "id": "R:40EE8",
@@ -79,12 +79,12 @@
  {
   "id": "R:41124",
   "jp": "{face:004F}{name}、ありがとう{wait}{page}きみがハーピーの所へ{n}行ってくれなかったら{wait}{page}ぼくは一生この森で{n}迷い続けていただろう{wait}{page}どうだろう、ぼくで良ければ{n}仲魔にしてくれないか？{wait}{end}",
-  "en": ""
+  "en": "{face:004F}{name}, thank you.{wait}{page}If you hadn't gone to see Harpy for me,{wait}{page}I'd have wandered lost in this forest for the rest of my life.{wait}{page}What do you say? If you'll have me, will you make me your ally?{wait}{end}"
  },
  {
   "id": "R:411CC",
   "jp": "　そうね、よろしく{n}　いいわよ、気にしないで{end}",
-  "en": ""
+  "en": "Sure, glad to have you{n}It's okay, don't worry about it{end}"
  },
  {
   "id": "R:411FC",
@@ -177,12 +177,12 @@
  {
   "id": "R:41764",
   "jp": "{ee}ありがとう、助かったよ！{wait}{page}デービーパーツが何なのかは{n}ファイアーランドの{wait}{f0}地下工場に行けば{wait}{f0}わかると思うよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Thanks, you saved me!{wait}{page}If you want to know what the DB Parts are, go to Fire Land's{wait}{f0}underground factory,{wait}{f0}and I bet you'll find out.{wait}{end}"
  },
  {
   "id": "R:417DC",
   "jp": "{ee}{face:0051}あのね、ボク１人ぼっちなの{wait}{page}誰か、かわいいネッシーを{n}連れて来てくれないかなあ？{wait}{page}アイスランドのどこかに{n}いるって聞いたんだけど{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0051}You see, I'm all alone.{wait}{page}Won't somebody bring a cute Nessie here for me?{wait}{page}I heard there's one somewhere in Ice Land.{wait}{end}"
  },
  {
   "id": "R:4186C",
@@ -203,7 +203,7 @@
  {
   "id": "R:41978",
   "jp": "{face:0051}連れて来てくれてありがとう{wait}{end}",
-  "en": ""
+  "en": "{face:0051}Thanks for bringing a Nessie here.{wait}{end}"
  },
  {
   "id": "R:4199C",
@@ -228,7 +228,7 @@
  {
   "id": "R:41AD8",
   "jp": "{face:0051}今度こそ、ネッシーといっしょに{n}遊んでもいいよね？{wait}{end}",
-  "en": ""
+  "en": "{face:0051}This time I can play with the Nessie, right?{wait}{end}"
  },
  {
   "id": "R:41B14",
@@ -237,7 +237,7 @@
  {
   "id": "R:41B30",
   "jp": "{face:0052}見つかっちゃったね{wait}{page}ぼくの気配を見破るなんて{n}さすがデビルチルドレンだね！{wait}{page}気に入ったよ{n}きみの仲魔になってあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0052}You found me!{wait}{page}Seeing through my hiding like that... You really are a Devil Child!{wait}{page}I like you. I'll become your ally!{wait}{end}"
  },
  {
   "id": "R:41BB0",
@@ -266,67 +266,67 @@
  {
   "id": "R:41D04",
   "jp": "{voice:0534}・・・セツナ・・・{wait}{end}",
-  "en": ""
+  "en": "{voice:0534}...Setsuna...{wait}{end}"
  },
  {
   "id": "R:41D20",
   "jp": "{face:0009}{voice:0582}あの子がノルンのカギを・・・{n}持って来れば{wait}{f0}{voice:0583}どちらのプログラムを起動させるのか{wait}{f0}{voice:0584}決める事ができるのですね{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0582}So if that girl... brings the Norn Keys,{wait}{f0}{voice:0583}we can decide which program{wait}{f0}{voice:0584}gets activated, can't we?{wait}{end}"
  },
  {
   "id": "R:41DA0",
   "jp": "{face:0009}{voice:0585}ハルマゲドンは、世界をふたたび{n}やり直すためのプログラム{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0585}Armageddon is the program that starts the world over again.{wait}{end}"
  },
  {
   "id": "R:41DE4",
   "jp": "{face:0009}{voice:0586}では、ラグナロクを起動すると{n}どうなるのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0586}Then what happens if Ragnarok is activated?{wait}{end}"
  },
  {
   "id": "R:41E20",
   "jp": "{face:0009}{voice:0587}あなたはハルマゲドンを{n}起こそうとしている{wait}{page}{voice:0588}世界は次の時代を{n}むかえてはいけないのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0587}You are trying to bring about Armageddon.{wait}{page}{voice:0588}Is the world not allowed to move on to the next age?{wait}{end}"
  },
  {
   "id": "R:41E8C",
   "jp": "{face:0009}{voice:0589}新しい時代をむかえる事で{wait}{n}{voice:058A}デビルや人の心が{f0}良くなったりはしないのですか？{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0589}If a new age comes,{wait}{n}{voice:058A}couldn't the hearts of Devils and people{f0}change for the better?{wait}{end}"
  },
  {
   "id": "R:41EE8",
   "jp": "{face:0024}{voice:058B}そのかのうせいは低いでしょう{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:058B}The chances of that are slim.{wait}{end}"
  },
  {
   "id": "R:41F10",
   "jp": "{face:0009}{voice:058C}・・・来たのね{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:058C}...So you've come.{wait}{end}"
  },
  {
   "id": "R:41F2C",
   "jp": "{face:0000}{voice:058D}ラグナロクとハルマゲドン{wait}{n}{voice:058E}どちらも世界の運命を{f0}決めるプログラムよ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:058D}Ragnarok and Armageddon...{wait}{n}{voice:058E}Both are programs that decide{f0}the fate of the world.{wait}{end}"
  },
  {
   "id": "R:41F80",
   "jp": "{face:0000}{voice:058F}エレジーにナガヒサ君、天使たちは{n}今のこの世界にゼツボウして{wait}{f0}{voice:0590}最初からやり直す{f0}ハルマゲドンをのぞんでいる{wait}{page}{voice:0591}けれど、パパは{wait}{page}{voice:0592}世界を次の段階に進めるプログラム{wait}{n}{voice:0593}ラグナロクを{f0}起動させる事をのぞんでいる{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:058F}Elegy, Nagahisa-kun and the angels have lost all hope in the world as it is,{wait}{f0}{voice:0590}so they want to start over from scratch{f0}with Armageddon.{wait}{page}{voice:0591}But my dad...{wait}{page}{voice:0592}wants the program to advance the world...{wait}{n}{voice:0593}he wants Ragnarok{f0}to be activated.{wait}{end}"
  },
  {
   "id": "R:4206C",
   "jp": "{face:0000}{voice:0594}・・・私は・・・{n}どちらをのぞんでるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0594}...And me...? Which one do I want?{wait}{end}"
  },
  {
   "id": "R:420A0",
   "jp": "{face:0009}{voice:0595}・・・あなたのまっすぐな気持ちには{n}かなわないわね{wait}{page}{voice:0596}ラグナロクを起動して{wait}{page}{voice:0597}あなたの信じた新しい世界{n}私も信じてみるわ{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0595}...I'm no match for your honest heart.{wait}{page}{voice:0596}Activate Ragnarok.{wait}{page}{voice:0597}The new world you believe in... I'll try believing in it too.{wait}{end}"
  },
  {
   "id": "R:4212C",
   "jp": "んっ？何やお前{n}デービーパーツ、持ってるやないか{wait}{page}ちょっと、それかしてくれへんか？{wait}{end}",
-  "en": ""
+  "en": "Hm? Hey, you've got DB Parts on ya!{wait}{page}Mind lendin' 'em to me for a bit?{wait}{end}"
  },
  {
   "id": "R:42184",
@@ -335,7 +335,7 @@
  {
   "id": "R:421B0",
   "jp": "おお！そうか、かしてくれるか！{wait}{page}あれっ！？そやけど{n}お前、仲魔がいっぱいやで{wait}{page}それやったらデービーくんを{n}修理してもあかんやないか{wait}{page}仲魔にできるようにしてから{n}戻って来た方がええな！{wait}{end}",
-  "en": ""
+  "en": "Oh! You'll lend 'em to me? Great!{wait}{page}Huh!? But hold on, you've got a full load of allies.{wait}{page}Then there ain't no point in fixin' DB-kun.{wait}{page}Better come back once you've made room for an ally!{wait}{end}"
  },
  {
   "id": "R:42270",
@@ -352,7 +352,7 @@
  {
   "id": "R:42328",
   "jp": "{name}いうたな{wait}{n}デービーくんをかわいがったってな{wait}{end}",
-  "en": ""
+  "en": "You're {name}, right?{wait}{n}Take good care of DB-kun, y'hear?{wait}{end}"
  },
  {
   "id": "R:4235C",
@@ -365,12 +365,12 @@
  {
   "id": "R:423C0",
   "jp": "{ee}またオバケが出たんですって！{wait}{page}いったいどうなってんでしょ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Another ghost showed up, I heard!{wait}{page}What on earth is going on?{wait}{end}"
  },
  {
   "id": "R:42404",
   "jp": "{ee}あなたが今度のオバケを{n}やっつけたんでしょ！{wait}{page}すごいわねー{wait}{end}",
-  "en": ""
+  "en": "{ee}You're the one who beat the latest ghost, aren't you!{wait}{page}That's amazing!{wait}{end}"
  },
  {
   "id": "R:42448",
@@ -431,22 +431,22 @@
  {
   "id": "R:42850",
   "jp": "{face:0023}{voice:0634}ナガヒサの・・エンゼルチルドレンの{n}力を受けとったのですね{wait}{page}{voice:0635}運命は天使の思いとは{n}ちがうものになりましたが{wait}{f0}{voice:0636}私はこれからの世界を{f0}見とどけてみたいのです{wait}{page}{voice:0637}あなたの仲魔として{n}連れて行って下さい{wait}{end}",
-  "en": ""
+  "en": "{face:0023}{voice:0634}So you have received Nagahisa's... the Angel Child's power.{wait}{page}{voice:0635}Fate has turned out differently from what the angels wished,{wait}{f0}{voice:0636}but I would like to see{f0}the world that lies ahead.{wait}{page}{voice:0637}Please take me with you as your ally.{wait}{end}"
  },
  {
   "id": "R:42930",
   "jp": "{face:0023}仲魔がいっぱいではありませんか{wait}{page}ここで待っていますから{n}ヴィネセンターかライザーの中の{wait}{f0}仲魔をへらしてから{wait}{f0}もう一度、来て下さい{wait}{end}",
-  "en": ""
+  "en": "{face:0023}Your allies are full, are they not?{wait}{page}I will wait here. Please reduce the allies in the Vine Center or your Deviliser,{wait}{f0}and then,{wait}{f0}come to me once more.{wait}{end}"
  },
  {
   "id": "R:429C0",
   "jp": "ラファエルが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Raphael became your ally!{wait}{end}"
  },
  {
   "id": "R:429DC",
   "jp": "{ee}{face:0023}戻って来てくれたのですね{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0023}So you have come back to me.{wait}{end}"
  },
  {
   "id": "R:42A00",
@@ -503,7 +503,7 @@
  {
   "id": "R:42C7C",
   "jp": "{face:0028}だが、仲魔がいっぱいのようだな{n}出直して来るがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0028}But it seems your allies are full. Come back another time.{wait}{end}"
  },
  {
   "id": "R:42CB8",
@@ -512,17 +512,17 @@
  {
   "id": "R:42CD4",
   "jp": "{ee}{face:0056}私はデビルの研究家{n}デビダスマスター！{wait}{page}今日は何の用だ？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0056}I am a Devil researcher, the Devidas Master!{wait}{page}What brings you here today?{wait}{end}"
  },
  {
   "id": "R:42D18",
   "jp": "{face:003B}よーこそ、怪しい研究所へ{wait}{page}ワタシはここでデビルの研究を{n}しているパラレル・ススという者ネ{wait}{page}デビルの合体ならこのワタシに{n}まかせておくネ！{wait}{end}",
-  "en": ""
+  "en": "{face:003B}Welcome to the Mysterious Lab!{wait}{page}I research Devils here. The name is Parallel Susu, ne!{wait}{page}When it comes to Devil fusion, leave it all to me, ne!{wait}{end}"
  },
  {
   "id": "R:42DAC",
   "jp": "{face:003A}ようこそ、デビルの訓練所へ！{wait}{page}オレはどんな弱いデビルでも{n}グレートなデビルに育て上げる{wait}{f0}ドクター・フランケンだ！{wait}{page}訓練させるならオレにまかせろ！{wait}{end}",
-  "en": ""
+  "en": "{face:003A}Welcome to the Devil Training Center!{wait}{page}I can raise even the weakest Devil into a GREAT Devil.{wait}{f0}I am Dr. Franken!{wait}{page}If you want training, leave it to me!{wait}{end}"
  },
  {
   "id": "R:42E4C",
@@ -567,7 +567,7 @@
  {
   "id": "R:4320C",
   "jp": "{face:0000}どうしたの？{n}こんなところに一人で？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}What's wrong? What are you doing out here all alone?{wait}{end}"
  },
  {
   "id": "R:43238",
@@ -576,12 +576,12 @@
  {
   "id": "R:432C4",
   "jp": "それなら、いっしょにいきましょ{n}そう・・・がんばってね！{end}",
-  "en": ""
+  "en": "Then let's go together{n}I see... Good luck!{end}"
  },
  {
   "id": "R:43300",
   "jp": "{face:00FF}えっ、いいの？{n}ボクがいると不幸な事が起きるんだよ？{wait}{page}{face:0000}そんなこと気にしないの{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Huh, really? Bad things happen when I'm around, you know?{wait}{page}{face:0000}Don't worry about stuff like that.{wait}{end}"
  },
  {
   "id": "R:4335C",
@@ -602,57 +602,57 @@
  {
   "id": "R:43440",
   "jp": "{face:00FF}やっぱりいっしょにいきましょ{n}なんでもないわ、元気だしてね{end}",
-  "en": ""
+  "en": "{face:00FF}Let's go together after all{n}It's nothing. Cheer up, okay?{end}"
  },
  {
   "id": "R:43480",
   "jp": "{face:00FF}・・・　うん・・・{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}... Yeah...{wait}{end}"
  },
  {
   "id": "R:4349C",
   "jp": "あっ！みつかっちゃった！{wait}{end}",
-  "en": ""
+  "en": "Ah! They found me!{wait}{end}"
  },
  {
   "id": "R:434B8",
   "jp": "{face:0000}何コレ？{n}ちっちゃい♥　かわいいー♥{wait}{end}",
-  "en": ""
+  "en": "{face:0000}What's this? It's so tiny! So cute!{wait}{end}"
  },
  {
   "id": "R:434E4",
   "jp": "{face:0068}コレとはなんだい！{wait}{n}ブラウニーっていうりっぱな名前が{f0}あるんだぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0068}What do you mean, \"this\"!?{wait}{n}I've got a proper name, you know:{f0}Brownie!{wait}{end}"
  },
  {
   "id": "R:43530",
   "jp": "{face:0000}ごめんなさい{n}あんまりかわいくって・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Sorry! You're just too cute...{wait}{end}"
  },
  {
   "id": "R:43560",
   "jp": "{face:0068}でも、キミ、かわいいからいいや{n}仲魔になってあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0068}Well, you're cute, so I'll let it go. I'll be your ally!{wait}{end}"
  },
  {
   "id": "R:4359C",
   "jp": "{face:0068}と思ったら、仲魔がいっぱいだね{n}仲魔をへらしてから、またきてよ{wait}{end}",
-  "en": ""
+  "en": "{face:0068}...Or I would, but your allies are full. Make some room and come back!{wait}{end}"
  },
  {
   "id": "R:435E4",
   "jp": "{face:0068}あ、きてくれたんだね{n}さ、いっしょにいこう{wait}{end}",
-  "en": ""
+  "en": "{face:0068}Oh, you came! Come on, let's go together!{wait}{end}"
  },
  {
   "id": "R:43618",
   "jp": "{face:00FF}ブラウニーが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Brownie became your ally!{wait}{end}"
  },
  {
   "id": "R:43638",
   "jp": "{face:0067}あ、またきてくれたんだね{wait}{end}",
-  "en": ""
+  "en": "{face:0067}Oh, you came back again!{wait}{end}"
  },
  {
   "id": "R:43658",
@@ -697,7 +697,7 @@
  {
   "id": "R:4398C",
   "jp": "フレスベルクが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Hresvelgr became your ally!{wait}{end}"
  },
  {
   "id": "R:439AC",
@@ -710,7 +710,7 @@
  {
   "id": "R:43A60",
   "jp": "デモゴルゴンが仲魔になった！{wait}{end}",
-  "en": ""
+  "en": "Demogorgon became your ally!{wait}{end}"
  },
  {
   "id": "R:43A80",
@@ -735,12 +735,12 @@
  {
   "id": "R:43C40",
   "jp": "{face:0056}そうか・・・{n}ではまた来るといい{wait}{end}",
-  "en": ""
+  "en": "{face:0056}I see... Well then, come again sometime.{wait}{end}"
  },
  {
   "id": "R:43C68",
   "jp": "{face:0056}私が出す５つのクイズに{n}全て正解すれば{wait}{f0}いいものをあげよう！{wait}{page}では始めるぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0056}If you can answer all 5 of my quiz questions correctly,{wait}{f0}I'll give you something nice!{wait}{page}Now, let's begin!{wait}{end}"
  },
  {
   "id": "R:43CC0",
@@ -761,7 +761,7 @@
  {
   "id": "R:43D8C",
   "jp": "{face:0056}正解！{wait}{page}では第２問！{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Correct!{wait}{page}Now, Question 2!{wait}{end}"
  },
  {
   "id": "R:43DAC",
@@ -774,7 +774,7 @@
  {
   "id": "R:43E00",
   "jp": "{face:0056}正解！{wait}{page}では第３問！{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Correct!{wait}{page}Now, Question 3!{wait}{end}"
  },
  {
   "id": "R:43E20",
@@ -787,7 +787,7 @@
  {
   "id": "R:43E8C",
   "jp": "{face:0056}正解！{wait}{page}では第４問！{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Correct!{wait}{page}Now, Question 4!{wait}{end}"
  },
  {
   "id": "R:43EAC",
@@ -800,7 +800,7 @@
  {
   "id": "R:43F0C",
   "jp": "{face:0056}正解！{wait}{page}では第５問！{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Correct!{wait}{page}Now, Question 5!{wait}{end}"
  },
  {
   "id": "R:43F2C",
@@ -813,7 +813,7 @@
  {
   "id": "R:43F98",
   "jp": "{face:0056}おお！全問正解したね！{wait}{page}これがごほうびだ！受けとりなさい{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Oh! You got every question right!{wait}{page}Here's your reward! Take it!{wait}{end}"
  },
  {
   "id": "R:43FDC",
@@ -830,7 +830,7 @@
  {
   "id": "R:4405C",
   "jp": "{face:0056}デビル・ザントマンがせおっている{n}砂をかけられるとどうなる？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}What happens if you get sprinkled with the sand the Devil Sandman carries on his back?{wait}{end}"
  },
  {
   "id": "R:440A0",
@@ -839,7 +839,7 @@
  {
   "id": "R:440D4",
   "jp": "{face:0056}悪いユメを食べてくれる{n}デビルはいったい誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Which Devil eats up bad dreams for you?{wait}{end}"
  },
  {
   "id": "R:44108",
@@ -932,7 +932,7 @@
  {
   "id": "R:44528",
   "jp": "{face:0056}デビル・ミルメコレオはどうして{n}いつもおなかを空かせているの？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Why is the Devil Myrmecoleon always hungry?{wait}{end}"
  },
  {
   "id": "R:44570",
@@ -953,7 +953,7 @@
  {
   "id": "R:44660",
   "jp": "{face:0056}次のデビルの中で{n}うでの数があっているのはどれ？{wait}{end}",
-  "en": ""
+  "en": "{face:0056}Of these Devils, which one has the right number of arms?{wait}{end}"
  },
  {
   "id": "R:44698",
@@ -1014,7 +1014,7 @@
  {
   "id": "R:44954",
   "jp": "　ねむらせる{n}　船をしずめる{n}　仲間を呼ぶ{end}",
-  "en": ""
+  "en": "Put people to sleep{n}Sink ships{n}Call her allies{end}"
  },
  {
   "id": "R:44980",
@@ -1043,12 +1043,12 @@
  {
   "id": "R:44A94",
   "jp": "{face:0056}クイズはもうおしまいだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0056}The quiz is all over now.{wait}{end}"
  },
  {
   "id": "R:44AB4",
   "jp": "{face:0028}{name}{n}ゼブルを呼び出すつもりか？{wait}{page}オレとフェゴールを連れて来ても{n}まだ１つ、とかねばならぬ{wait}{f0}なぞがあるぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}{name}, do you mean to summon Zebul?{wait}{page}Even if you bring Phegor and me along, there's still one more{wait}{f0}riddle you must solve.{wait}{end}"
  },
  {
   "id": "R:44B28",
@@ -1061,12 +1061,12 @@
  {
   "id": "R:44BA8",
   "jp": "{face:0028}{name}{n}ゼブルを呼び出すつもりか？{wait}{page}しかし仲魔がいっぱいで{n}呼び出せたとしてもむだになるぞ{wait}{page}仲魔にできるようにしてから{n}戻って来た方がいいぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0028}{name}, do you mean to summon Zebul?{wait}{page}But your allies are full. Even if you summoned him, it would be for nothing.{wait}{page}You had better come back once you have room for another ally.{wait}{end}"
  },
  {
   "id": "R:44C3C",
   "jp": "{face:0007}{name}{n}{voice:0666}呪文のなぞをといたんだな{wait}{page}{voice:0667}こうなったらぼくも{n}キミの仲魔になるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{name}...{voice:0666}So you solved the riddle of the spell.{wait}{page}{voice:0667}In that case, I'll become your ally too.{wait}{end}"
  },
  {
   "id": "R:44C94",
@@ -1087,7 +1087,7 @@
  {
   "id": "R:44D3C",
   "jp": "女神のぞうの足元に{n}文字がきざまれている{wait}{end}",
-  "en": ""
+  "en": "Letters are carved at the feet of the goddess statue.{wait}{end}"
  },
  {
   "id": "R:44D68",
@@ -1104,7 +1104,7 @@
  {
   "id": "R:44E44",
   "jp": "{face:000D}{voice:066A}私も、大天使ミカエルを{n}むかえる用意をしなくてはな{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:066A}I too must prepare to receive the Archangel Michael.{wait}{end}"
  },
  {
   "id": "R:44E84",
@@ -1117,12 +1117,12 @@
  {
   "id": "R:44EF8",
   "jp": "{face:0024}{voice:066C}ルシファーとゼブル、そして{n}デビルチルドレン{wait}{page}{voice:066D}おたがいに新しい時代を{n}生きて行く事になりましたね{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:066C}Lucifer and Zebul, and the Devil Children...{wait}{page}{voice:066D}It seems each of us will be living on into a new age.{wait}{end}"
  },
  {
   "id": "R:44F6C",
   "jp": "{face:000D}{voice:066E}おまえがわれら三人と{n}ともにあれば{wait}{page}{voice:066F}どこかで{n}ホシガミを呼び出す事ができるのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:066E}As long as you are with the three of us,{wait}{page}{voice:066F}you can summon Hoshigami in a certain place.{wait}{end}"
  },
  {
   "id": "R:44FCC",
@@ -1131,7 +1131,7 @@
  {
   "id": "R:45008",
   "jp": "{face:0024}{voice:0671}そして、ケイヤクの言葉は{wait}{n}{voice:0672}ダークパレスにあるじゅうじかの{f0}だいざにきざまれているはずです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0671}And the words of the contract{wait}{n}{voice:0672}should be carved into the cross-shaped{f0}pedestal in the Dark Palace.{wait}{end}"
  },
  {
   "id": "R:45074",
@@ -1144,11 +1144,11 @@
  {
   "id": "R:450B0",
   "jp": "{face:0024}{voice:0674}ここがラジエルの書に書かれた{n}ホシガミを呼ぶ場所なのです{wait}{page}{voice:0675}ここでケイヤクの言葉を{n}となえれば{wait}{page}{voice:0676}ホシガミがコウリンしてくるのです{wait}{end}",
-  "en": ""
+  "en": "{face:0024}{voice:0674}This is the place written of in the Book of Raziel, where Hoshigami is summoned.{wait}{page}{voice:0675}If you recite the words of the contract here,{wait}{page}{voice:0676}Hoshigami will descend.{wait}{end}"
  },
  {
   "id": "R:45148",
   "jp": "{face:0027}{voice:0677}おひさしぶりです{wait}{page}{voice:0678}この３人とともに{n}私を呼び出したという事は{wait}{page}{voice:0679}この世界のデビルたちをほとんど{n}したがえているという事ですね{wait}{page}{voice:067A}私も仲魔になりましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0677}It has been a long time.{wait}{page}{voice:0678}That you have summoned me together with these three{wait}{page}{voice:0679}means you have brought nearly all the Devils of this world under your command.{wait}{page}{voice:067A}I shall become your ally as well.{wait}{end}"
  }
 ]

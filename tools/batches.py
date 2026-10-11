@@ -20,6 +20,7 @@ import lint  # noqa: E402
 TL = ROOT / 'work' / 'tl'
 EV = ROOT / 'script' / 'event'
 EX = ROOT / 'script' / 'exe'
+BT = ROOT / 'script' / 'battle'
 
 
 def faces():
@@ -74,18 +75,18 @@ def split(nums):
         print(b, len(rows), 'entries,', len(hit), 'terms')
 
 
-def split_exe(nums):
+def split_exe(nums, src=None, prefix='x'):
     """xNNN.tsv from script/exe/NNN.json: id <TAB> max bytes <TAB> Japanese (in-place limit, see lint_exe)."""
     TL.mkdir(parents=True, exist_ok=True)
     terms = glossary_rows()
-    for p in sorted(EX.glob('*.json')):
+    for p in sorted((src or EX).glob('*.json')):
         if nums and p.stem not in nums:
             continue
         rows = ['%s\t%d\t%s' % (e['id'], e['max'], e['jp'])
                 for e in json.loads(p.read_text(encoding='utf-8')) if 'jp' in e and not e.get('en')]
         if not rows:
             continue
-        b = 'x' + p.stem
+        b = prefix + p.stem
         (TL / (b + '.tsv')).write_text('\n'.join(rows) + '\n', encoding='utf-8', newline='\n')
         alljp = ''.join(r.split('\t')[2] for r in rows)
         hit = [r for r in terms if any(j and j in alljp for j in re.split(r'\s*/\s*', r[0]))]
@@ -123,7 +124,7 @@ def check(batch, quiet=False):
     for line in src.read_text(encoding='utf-8').splitlines():
         k, c2, j = line.split('\t', 2)
         jp[k] = j
-        cap[k] = int(c2) if batch.startswith('x') else None
+        cap[k] = int(c2) if batch[0] in 'xy' else None
     try:
         en = read_tsv(TL / (batch + '.out.tsv'))
     except (OSError, ValueError) as e:
@@ -156,7 +157,7 @@ def merge(batch):
         return 1
     en = read_tsv(TL / (batch + '.out.tsv'))
     n = 0
-    for p in sorted(EV.glob('*.json')) + sorted(EX.glob('*.json')):
+    for p in sorted(EV.glob('*.json')) + sorted(EX.glob('*.json')) + sorted(BT.glob('*.json')):
         data = json.loads(p.read_text(encoding='utf-8'))
         hit = 0
         for e in data:
@@ -195,6 +196,9 @@ def main():
         return 0
     if cmd == 'split-exe':
         split_exe(sys.argv[2:])
+        return 0
+    if cmd == 'split-battle':
+        split_exe(sys.argv[2:], BT, 'y')
         return 0
     return {'check': check, 'merge': merge}[cmd](sys.argv[2])
 

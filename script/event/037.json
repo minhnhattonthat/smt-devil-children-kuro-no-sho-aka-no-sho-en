@@ -6,7 +6,7 @@
  {
   "id": "R:45214",
   "jp": "{face:0024}ケイヤクの言葉がちがうようです{wait}{page}出直してきましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0024}The words of the contract seem to be wrong.{wait}{page}Let us come back another time.{wait}{end}"
  },
  {
   "id": "R:45250",
@@ -15,42 +15,42 @@
  {
   "id": "R:452AC",
   "jp": "電話がかかってきた{wait}{end}",
-  "en": ""
+  "en": "You got a phone call.{wait}{end}"
  },
  {
   "id": "R:452C4",
   "jp": "{face:0003}{voice:05C4}もしもし？{n}ケルベロスが変身したんだ！{wait}{page}{voice:05C5}いま、デビホンとヴィネコンを使って{wait}{n}{voice:0481}デスケルベロスの{f0}デビダスデータを送るよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05C4}Hello? Cerberus transformed!{wait}{page}{voice:05C5}Using my DeviPhone and Vinecom,{wait}{n}{voice:0481}I'll send Death Cerberus's{f0}Devidas data!{wait}{end}"
  },
  {
   "id": "R:45354",
   "jp": "デビダスにデスケルベロスが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "Death Cerberus was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "R:45380",
   "jp": "{face:0003}{voice:05C4}もしもし？{n}ケルベロスが変身したんだ！{wait}{page}{voice:05C5}いま、デビホンとヴィネコンを使って{wait}{n}{voice:04B8}ヘルケルベロスの{f0}デビダスデータを送るよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05C4}Hello? Cerberus transformed!{wait}{page}{voice:05C5}Using my DeviPhone and Vinecom,{wait}{n}{voice:04B8}I'll send Hell Cerberus's{f0}Devidas data!{wait}{end}"
  },
  {
   "id": "R:45410",
   "jp": "デビダスにヘルケルベロスが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "Hell Cerberus was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "R:4543C",
   "jp": "{face:0003}{voice:05C4}もしもし？{n}ケルベロスが変身したんだ！{wait}{page}{voice:05C5}いま、デビホンとヴィネコンを使って{wait}{n}{voice:0513}キングケルベロスの{f0}デビダスデータを送るよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05C4}Hello? Cerberus transformed!{wait}{page}{voice:05C5}Using my DeviPhone and Vinecom,{wait}{n}{voice:0513}I'll send King Cerberus's{f0}Devidas data!{wait}{end}"
  },
  {
   "id": "R:454CC",
   "jp": "デビダスにキングケルベロスが{n}登録された！{wait}{end}",
-  "en": ""
+  "en": "King Cerberus was registered in the Devidas!{wait}{end}"
  },
  {
   "id": "R:454FC",
   "jp": "{face:0019}{voice:05F4}もしもし？{n}あたし、イシスよ、おどろいたでしょ{wait}{page}{voice:05F5}あなたにちょっとした{n}おくり物があるの{wait}{page}{voice:05F6}いつでもいいから私の所まで{n}来てちょうだいよ、よろしくね{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05F4}Hello? It's me, Isis. Surprised, aren't you?{wait}{page}{voice:05F5}I've got a little present for you.{wait}{page}{voice:05F6}Come see me whenever you like. I'll be waiting!{wait}{end}"
  },
  {
   "id": "R:455A4",
@@ -67,12 +67,12 @@
  {
   "id": "R:4567C",
   "jp": "{face:0019}{voice:05FA}スフィンクスってふつうでは{n}仲魔にできないデビルなのよ{wait}{page}{voice:05FB}大事に育ててあげてね{n}でないと、きっとこうかいするわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0019}{voice:05FA}A Sphinx is a Devil you normally can't make an ally.{wait}{page}{voice:05FB}Raise it with lots of care. If you don't, you'll surely regret it.{wait}{end}"
  },
  {
   "id": "R:456FC",
   "jp": "{ee}{face:0019}仲魔を入れられるように{n}して来たのね？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}So you've made room for another ally?{wait}{end}"
  },
  {
   "id": "R:4572C",
@@ -81,7 +81,7 @@
  {
   "id": "R:4574C",
   "jp": "{ee}{face:0019}{voice:05FA}スフィンクスってふつうでは{n}仲魔にできないデビルなのよ{wait}{page}{voice:05FB}大事に育ててあげてね{n}でないと、きっとこうかいするわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0019}{voice:05FA}A Sphinx is a Devil you normally can't make an ally.{wait}{page}{voice:05FB}Raise it with lots of care. If you don't, you'll surely regret it.{wait}{end}"
  },
  {
   "id": "R:457D0",
@@ -110,7 +110,7 @@
  {
   "id": "R:458B8",
   "jp": "どうじゃ？ちょっとそのエンブレムと{n}スフィンクスをわしにかさんか？{wait}{end}",
-  "en": ""
+  "en": "How about it? Would you lend me that emblem and your Sphinx for a bit?{wait}{end}"
  },
  {
   "id": "R:45900",
@@ -171,77 +171,77 @@
  {
   "id": "R:45BD0",
   "jp": "{ee}{face:0001}私のせなかに乗れば、ちょっと{n}はなれた場所へとびうつれるわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Ride on my back, and we can fly over to places a little ways off!{wait}{end}"
  },
  {
   "id": "R:45C18",
   "jp": "{ee}{face:0001}３びきのドラゴンに会って{n}材料をもらって来ましょ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's go meet the three dragons and get the ingredients from them!{wait}{end}"
  },
  {
   "id": "R:45C54",
   "jp": "{ee}{face:0001}ベリアルに会いに行きましょ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's go see Belial!{wait}{end}"
  },
  {
   "id": "R:45C7C",
   "jp": "{ee}{face:0001}{name}、気をつけて！{n}何か街の様子が変だわ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}{name}, be careful! Something's weird about this town!{wait}{end}"
  },
  {
   "id": "R:45CB0",
   "jp": "{ee}{face:0001}神社の方からみょうな気配を{n}感じるわ・・・行ってみましょ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I sense something strange over by the shrine... Let's go take a look!{wait}{end}"
  },
  {
   "id": "R:45CF4",
   "jp": "{ee}{face:0001}早く街に戻ってマモンから{n}メシアのヒトミをもらいましょう！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Let's hurry back to town and get the Messiah Eye from Mammon!{wait}{end}"
  },
  {
   "id": "R:45D38",
   "jp": "{ee}{face:0001}天使もひどい事をするわね！{wait}{page}自分だけが正しいだなんて{n}ろくなもんじゃないわよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Those angels do such awful things!{wait}{page}Acting like they're the only ones who are right... that's no good at all.{wait}{end}"
  },
  {
   "id": "R:45D90",
   "jp": "{ee}{face:0001}私に乗れば氷の上だって{n}へっちゃらよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Ride on me, and even ice is no problem!{wait}{end}"
  },
  {
   "id": "R:45DC0",
   "jp": "{ee}{face:0001}・・だ、だいじょうぶ・・{wait}{page}そ、それよりせっかく来たんだし・・{n}ヘルの様子を見に行きましょ・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}...I-I'm fine...{wait}{page}A-Anyway, since we came all this way... let's go check on Hel...{wait}{end}"
  },
  {
   "id": "R:45E28",
   "jp": "{ee}{face:0001}私の事は気にしないで・・{n}早くマーブルランドに行きましょ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}Don't worry about me... Let's hurry to Marble Land...{wait}{end}"
  },
  {
   "id": "R:45E6C",
   "jp": "{face:0001}{voice:040F}ちょっと、いい？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:040F}Hey, got a minute?{wait}{end}"
  },
  {
   "id": "R:45E88",
   "jp": "{face:0001}{voice:0410}このサンドランドは{n}私の生まれた所なのよ{wait}{page}{voice:0411}妹のヒポグリフと{n}遊んでいる時に{wait}{f0}{voice:0412}フレスベルクにだまされて{f0}封印されたのは{wait}{f0}{voice:0413}この街の近くだったの{wait}{page}{voice:0414}ひょっとすると、ヒポグリフは{n}まだ、封印されてるかもしれない{wait}{page}{voice:0415}良かったら少し探してみてよ{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:0410}This Sand Land is where I was born.{wait}{page}{voice:0411}Back when I was playing with my little sister Hippogriff,{wait}{f0}{voice:0412}Hresvelgr tricked me,{f0}and I got sealed away{wait}{f0}{voice:0413}near this town.{wait}{page}{voice:0414}Maybe Hippogriff is still sealed up somewhere.{wait}{page}{voice:0415}If you like, could you look around for her a bit?{wait}{end}"
  },
  {
   "id": "R:45F98",
   "jp": "{ee}{face:0001}ここには妹のヒポグリフが{n}封印されているかもしれないの{wait}{page}良ければ探してちょうだい！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}My little sister Hippogriff might be sealed away somewhere around here.{wait}{page}If you can, please look for her!{wait}{end}"
  },
  {
   "id": "R:45FF8",
   "jp": "{ee}{face:0001}さあ、セントラルランドに{n}戻って来たわよ！{wait}{page}ゆだんしちゃだめよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}All right, we're back in Central Land!{wait}{page}Don't let your guard down!{wait}{end}"
  },
  {
   "id": "R:46044",
   "jp": "{ee}{face:0001}私はどこまででも{n}あなたにつき合うわ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0001}I'll stick with you wherever you go!{wait}{end}"
  },
  {
   "id": "R:46074",
@@ -250,17 +250,17 @@
  {
   "id": "R:460AC",
   "jp": "{ee}街の外に生えている木の上にね{n}コトダマってデビルが住んでるホー{wait}{page}コトダマがいる木に東の方から{n}声をかけると、ときどき{wait}{f0}出て来てくれる事があるんだホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Up in the trees growing outside town lives a Devil called Kotodama-ho!{wait}{page}If you call out to Kotodama's tree from the east side, sometimes{wait}{f0}it'll come out to see you-ho!{wait}{end}"
  },
  {
   "id": "R:4614C",
   "jp": "{ee}セントウで呼び出されるデビルは{n}デビライザーに入れられた{wait}{page}じゅんばんに出て来るホー{n}ヴィネコンのならびかえコマンドを{wait}{f0}使ってならびかえるといいホー{wait}{end}",
-  "en": ""
+  "en": "{ee}The Devils called out in battle come out in the order they were put{wait}{page}into your Deviliser-ho! Use the Vinecom's Arrange command{wait}{f0}to change the order-ho!{wait}{end}"
  },
  {
   "id": "R:461E8",
   "jp": "{ee}いばってたヘルをデビルチルドレンの{n}男の子がこらしめてくれたホー！{wait}{page}おかげでボクらは自由だホー{wait}{end}",
-  "en": ""
+  "en": "{ee}A Devil Child boy taught that bossy Hel a lesson-ho!{wait}{page}Thanks to him, we're free-ho!{wait}{end}"
  },
  {
   "id": "R:46250",
@@ -269,22 +269,22 @@
  {
   "id": "R:462C0",
   "jp": "{ee}ヘルのやつ、デビルチルドレンに{n}逃げられたから大魔王様が{wait}{f0}恐くて城の中で{f0}おびえているらしいんだホー！{wait}{end}",
-  "en": ""
+  "en": "{ee}Hel let the Devil Child get away, so now the Great Demon King{wait}{f0}has him so scared he's{f0}cowering in his castle, I hear-ho!{wait}{end}"
  },
  {
   "id": "R:46330",
   "jp": "{ee}ヒーホー！魔王ヘルが{n}デビルチルドレンの仲魔になった{wait}{page}もう、これで誰にもめいれい{n}されないですむホー{wait}{end}",
-  "en": ""
+  "en": "{ee}Hee-ho! Demon Lord Hel became the Devil Child's ally.{wait}{page}Now nobody can boss us around anymore-ho.{wait}{end}"
  },
  {
   "id": "R:4639C",
   "jp": "{ee}さきほどから部族の王たちが{n}集まっております{wait}{page}ブトウ会に参加するなら{n}会場へ急いで下さい{wait}{end}",
-  "en": ""
+  "en": "{ee}The tribal kings have been gathering for a while now.{wait}{page}If you're entering the Battle Ball, please hurry to the arena.{wait}{end}"
  },
  {
   "id": "R:463FC",
   "jp": "{ee}しまった！もうブトウ会は{n}始まってしまったか！{wait}{end}",
-  "en": ""
+  "en": "{ee}Oh no! Has the Battle Ball already started!?{wait}{end}"
  },
  {
   "id": "R:46430",
@@ -293,42 +293,42 @@
  {
   "id": "R:46490",
   "jp": "{ee}さきほどから部族の王たちが{n}このコロシアムへやって来ているぞ{wait}{end}",
-  "en": ""
+  "en": "{ee}The tribal kings have been arriving at this Colosseum for a while now.{wait}{end}"
  },
  {
   "id": "R:464D4",
   "jp": "{ee}新しい魔王にしたがって{n}これからは仲良くやって行くよ{wait}{end}",
-  "en": ""
+  "en": "{ee}We'll follow the new Demon Lord and get along from now on.{wait}{end}"
  },
  {
   "id": "R:46510",
   "jp": "{ee}もうすぐ、われらの王がここへ{n}やって来るころなんだが・・・{wait}{page}お前、ちょっと様子を{n}見て来てくれないか{wait}{end}",
-  "en": ""
+  "en": "{ee}Our king should be arriving here any minute now, but...{wait}{page}Hey, could you go see what's keeping him?{wait}{end}"
  },
  {
   "id": "R:4657C",
   "jp": "{ee}お前もブトウ会に出るなら{n}早く行った方がいいぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}If you're entering the Battle Ball too, you'd better hurry!{wait}{end}"
  },
  {
   "id": "R:465B4",
   "jp": "{ee}おそいなぁ、そろそろわれらの王が{n}ココへ来るころなんだが・・・{wait}{page}そうだ！お前、ちょっと様子を{n}見て来てくれ！{wait}{end}",
-  "en": ""
+  "en": "{ee}He's late... Our king should be getting here about now, but...{wait}{page}I know! Hey, you, go see what's keeping him!{wait}{end}"
  },
  {
   "id": "R:46628",
   "jp": "{ee}お前も早く行った方が{n}いいんじゃないのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}Shouldn't you hurry along too?{wait}{end}"
  },
  {
   "id": "R:46658",
   "jp": "{ee}大金を持ち歩くと危険だぞ{n}銀行にあずけたらどうだ？{wait}{end}",
-  "en": ""
+  "en": "{ee}Carrying a lot of money around is dangerous. Why not put it in the bank?{wait}{end}"
  },
  {
   "id": "R:46690",
   "jp": "{ee}他の部族も話してみると{n}いがいといいやつばかりだったよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Once I talked to the other tribes, they were all good guys. Who knew?{wait}{end}"
  },
  {
   "id": "R:466CC",
@@ -337,7 +337,7 @@
  {
   "id": "R:46708",
   "jp": "{ee}ここの村へ来るとちゅうで{n}シュラの剣を無くしたデビルに{wait}{f0}会わなかったか？{wait}{page}シュラの剣を無くすなんて{n}ドジなやつだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}On your way to this village, did you run into a Devil{wait}{f0}who lost his Sura Sword?{wait}{page}Losing your Sura Sword... What a klutz.{wait}{end}"
  },
  {
   "id": "R:46784",
@@ -350,32 +350,32 @@
  {
   "id": "R:4680C",
   "jp": "{ee}ここのスタンプ・もうおしたゾ{n}他の場所・行くとイイ{wait}{end}",
-  "en": ""
+  "en": "{ee}This stamp. Already pressed. Other places. Go, good.{wait}{end}"
  },
  {
   "id": "R:46844",
   "jp": "{ee}あんた、グリフォンを連れてるんだね{wait}{page}おれのひいじいさんがわかいころに{n}ともだちだったグリフォンと{wait}{f0}ヒポグリフの姉妹が{wait}{f0}行方不明になっちゃった事が{wait}{f0}あったらしいんだ{wait}{page}ピラミッドのそばの砂漠で{n}遊んでるのを見たのが{wait}{f0}最後だったそうだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Hey, you've got a Gryphon with you.{wait}{page}When my great-grandpa was young, his friends, the Gryphon{wait}{f0}and Hippogriff sisters,{wait}{f0}went missing one day,{wait}{f0}or so I hear.{wait}{page}He saw them playing in the desert by the pyramid,{wait}{f0}and that was the last time.{wait}{end}"
  },
  {
   "id": "R:4693C",
   "jp": "{ee}湖のそばにいる{n}ニスロクと話したかい？{wait}{page}あいつはリンゴパイを作るのが{n}とくいなんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you talked to Nisroc by the lake?{wait}{page}He's great at making apple pies.{wait}{end}"
  },
  {
   "id": "R:46998",
   "jp": "{ee}あんた、金のリンゴパイを{n}作る所を見てたんだろ{wait}{f0}オレに教えてくれよ{wait}{end}",
-  "en": ""
+  "en": "{ee}You watched him make the Golden Apple Pie, right?{wait}{f0}Teach me how!{wait}{end}"
  },
  {
   "id": "R:469E4",
   "jp": "{ee}西にある森に行った？{wait}{page}あそこには心がきずついて{n}きおくを無くしたデビルがいるのよ{wait}{page}あのデビルを助けてくれたら{n}いい事を教えてあげるわ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you been to the forest in the west?{wait}{page}There's a Devil there whose heart was hurt, and it lost its memory.{wait}{page}If you help that Devil, I'll tell you something good.{wait}{end}"
  },
  {
   "id": "R:46A74",
   "jp": "{ee}西の森にいたデビルを{n}助けてあげたのね！{wait}{page}やくそくだから教えてあげる{wait}{page}北の森にある宝箱の{wait}{n}どれかにエンブレムがあるはずなの{wait}{page}そのエンブレムを見つけたら{wait}{n}スフィンクスを連れて{wait}{f0}訓練所に行くといいわ{wait}{page}そしてパートナーを訓練する{n}デビルに話しかけてみるのよ{wait}{page}同じようなエンブレムは{n}セントラルランドにもあるそうよ{wait}{end}",
-  "en": ""
+  "en": "{ee}You helped the Devil in the west forest!{wait}{page}A promise is a promise, so I'll tell you.{wait}{page}In the north forest, one treasure chest{wait}{n}should have an emblem in it.{wait}{page}When you find that emblem,{wait}{n}take Sphinx{wait}{f0}to the training ground.{wait}{page}Then try talking to the Devil who trains partners.{wait}{page}They say there's a similar emblem in Central Land, too.{wait}{end}"
  },
  {
   "id": "R:46BBC",
@@ -384,17 +384,17 @@
  {
   "id": "R:46C20",
   "jp": "{ee}聞いたよ！あのベリアルを{n}こらしめたんだってね！{wait}{page}ほんと、いい気味だよ{wait}{end}",
-  "en": ""
+  "en": "{ee}I heard! You taught that Belial a lesson!{wait}{page}Serves him right!{wait}{end}"
  },
  {
   "id": "R:46C70",
   "jp": "{ee}このまちのまんなかの湖には{n}ネッシーが住んでるのよ！{wait}{page}でも、仲魔がいなくていつも{n}さびしそうにしているの{wait}{end}",
-  "en": ""
+  "en": "{ee}Nessie lives in the lake in the middle of this town!{wait}{page}But Nessie has no allies and always looks so lonely.{wait}{end}"
  },
  {
   "id": "R:46CE0",
   "jp": "{ee}これでネッシーもさびしくないわ{wait}{end}",
-  "en": ""
+  "en": "{ee}Now Nessie won't be lonely anymore.{wait}{end}"
  },
  {
   "id": "R:46D04",
@@ -407,12 +407,12 @@
  {
   "id": "R:46D8C",
   "jp": "{ee}{name}ちゃん！{n}オバケがおそって来るのに{wait}{f0}よく学校に来れたわね{wait}{end}",
-  "en": ""
+  "en": "{ee}{name}-chan! With ghosts attacking,{wait}{f0}I can't believe you made it to school!{wait}{end}"
  },
  {
   "id": "R:46DD0",
   "jp": "{ee}最近、またあの教室から{n}物音がするの・・・私コワーイ{wait}{end}",
-  "en": ""
+  "en": "{ee}Lately I've been hearing noises from that classroom again... So scaaary!{wait}{end}"
  },
  {
   "id": "R:46E0C",
@@ -421,27 +421,27 @@
  {
   "id": "R:46E40",
   "jp": "{ee}大変！{name}ちゃん{wait}{page}また人間が{n}おそわれているのよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}This is bad, {name}-chan!{wait}{page}People are being attacked again!{wait}{end}"
  },
  {
   "id": "R:46E78",
   "jp": "{ee}地下街にいた人たちが{wait}{n}おそわれてオオケガをしたんだって{wait}{end}",
-  "en": ""
+  "en": "{ee}The people in the underground mall{wait}{n}got attacked and badly hurt, I heard.{wait}{end}"
  },
  {
   "id": "R:46EB8",
   "jp": "{ee}学校の中はしずかになったね{wait}{end}",
-  "en": ""
+  "en": "{ee}It's gotten quiet inside the school.{wait}{end}"
  },
  {
   "id": "R:46ED8",
   "jp": "{ee}何だかこのあたりのオバケは{n}いなくなったみたいだよ{wait}{page}でも、大通りの方へ行くと{n}まだいるらしいよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like the ghosts around here are gone.{wait}{page}But I hear there are still some over by the main street.{wait}{end}"
  },
  {
   "id": "R:46F40",
   "jp": "{ee}バトルネットをやりたいのに{n}あの子がいすわってて{wait}{f0}やらせてくれないのよ！{wait}{page}一度ガツンと言ってやろうかしら{wait}{end}",
-  "en": ""
+  "en": "{ee}I wanna play Battle Net, but that kid's hogging it{wait}{f0}and won't give me a turn!{wait}{page}Maybe I oughta tell that kid off once and for all.{wait}{end}"
  },
  {
   "id": "R:46FB4",
@@ -454,7 +454,7 @@
  {
   "id": "R:4701C",
   "jp": "{ee}神社のうらのトリイの下に{n}変なもようが現れたんだよ{wait}{end}",
-  "en": ""
+  "en": "{ee}A strange pattern showed up under the torii behind the shrine.{wait}{end}"
  },
  {
   "id": "R:47054",
@@ -463,7 +463,7 @@
  {
   "id": "R:470AC",
   "jp": "{ee}いらっしゃいませ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Welcome!{wait}{end}"
  },
  {
   "id": "R:470C4",
@@ -472,12 +472,12 @@
  {
   "id": "R:470EC",
   "jp": "{ee}{face:003A}何か外がさわがしいな{n}何かあったのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003A}It's noisy outside. Did something happen?{wait}{end}"
  },
  {
   "id": "R:4711C",
   "jp": "{ee}{face:003B}何が起こってもワタシは{n}ここから動きませんヨ・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:003B}No matter what happens, I will not move from here, no...{wait}{end}"
  },
  {
   "id": "R:47158",
@@ -502,12 +502,12 @@
  {
   "id": "R:472B0",
   "jp": "{ee}ディープホールには恐ろしい{n}デビルがすくっていると聞く・・・{wait}{page}あそこに行って、生きて戻った者は{n}誰もいないらしいぞ！{wait}{end}",
-  "en": ""
+  "en": "{ee}They say a terrifying Devil lurks in the Deep Hole...{wait}{page}Apparently, no one who's gone there has ever come back alive!{wait}{end}"
  },
  {
   "id": "R:4732C",
   "jp": "{ee}やはり、あの大魔王様は{n}ニセモノだったのか！{wait}{end}",
-  "en": ""
+  "en": "{ee}So that Great Demon King really was a fake!{wait}{end}"
  },
  {
   "id": "R:47360",
@@ -516,7 +516,7 @@
  {
   "id": "R:47390",
   "jp": "{ee}あのディープホールへ行くなんて！{n}きみはゆうきがあるんだね{wait}{end}",
-  "en": ""
+  "en": "{ee}You're going to the Deep Hole!? You sure are brave!{wait}{end}"
  },
  {
   "id": "R:473D0",
@@ -529,7 +529,7 @@
  {
   "id": "R:473EC",
   "jp": "{face:0012}{voice:063F}おおっ！やったな{wait}{n}{voice:0640}おめえだったらやると思ってたぜ{wait}{end}",
-  "en": ""
+  "en": "{face:0012}{voice:063F}Whoa! You did it!{wait}{n}{voice:0640}I knew you'd pull it off!{wait}{end}"
  },
  {
   "id": "R:47430",
@@ -550,61 +550,61 @@
  {
   "id": "R:474B8",
   "jp": "{face:0003}{voice:056E}ナガヒサ、となりに住んでる{n}あいつを見なかったか？{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:056E}Nagahisa, have you seen the girl who lives next door?{wait}{end}"
  },
  {
   "id": "R:474F8",
   "jp": "{face:0008}{voice:0571}兄さん、となりの部屋には{n}ずーっと人が住んでないよ{wait}{page}{voice:0572}そんな人{n}ぼく、見た事ないよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0571}Big brother, nobody's lived in the place next door for ages.{wait}{page}{voice:0572}I've never seen anybody like that.{wait}{end}"
  },
  {
   "id": "R:4755C",
   "jp": "{face:0003}{voice:0573}えっ？・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0573}Huh?...{wait}{end}"
  },
  {
   "id": "R:47574",
   "jp": "{face:0008}{voice:0574}兄さん、どうかしてるんじゃない？{wait}{page}{voice:0575}ぼく、ちょっと用事があるんだ{n}また後でね！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0574}Big brother, are you feeling okay?{wait}{page}{voice:0575}I've got something to do. See you later!{wait}{end}"
  },
  {
   "id": "R:475D4",
   "jp": "{face:0003}・・・・・・{wait}{page}{voice:0576}あいつは・・・{n}この世界から消えちゃったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0003}......{wait}{page}{voice:0576}She's... vanished from this world.{wait}{end}"
  },
  {
   "id": "R:4761C",
   "jp": "{face:0000}{voice:0564}光があふれてる！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0564}Light is pouring out everywhere!{wait}{end}"
  },
  {
   "id": "R:47638",
   "jp": "{face:0000}{voice:0565}何もないわ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0565}There's nothing here!{wait}{end}"
  },
  {
   "id": "R:47650",
   "jp": "{face:0000}{voice:0566}セツナ、世界が・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0566}Setsuna, the world...{wait}{end}"
  },
  {
   "id": "R:47670",
   "jp": "{face:0003}{voice:0567}ああ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0567}Yeah...{wait}{end}"
  },
  {
   "id": "R:47688",
   "jp": "{face:0000}{voice:0568}これで・・・良かったの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0568}Was this... really the right thing to do?{wait}{end}"
  },
  {
   "id": "R:476AC",
   "jp": "{face:0003}{voice:0569}それは、これからオレたちが{wait}{n}{voice:056A}何をするかによって{f0}決まるんじゃないか{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0569}Well, that all comes down to{wait}{n}{voice:056A}what we do{f0}from here on, doesn't it?{wait}{end}"
  },
  {
   "id": "R:47700",
   "jp": "{face:0000}{voice:056B}・・・そうね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:056B}...Yeah...{wait}{end}"
  }
 ]

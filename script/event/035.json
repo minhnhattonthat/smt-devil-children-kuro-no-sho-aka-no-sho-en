@@ -2,22 +2,22 @@
  {
   "id": "R:3DDF0",
   "jp": "{face:000D}{voice:0628}私はこの世界を{n}次の時代に進めるプログラム{wait}{page}{voice:0629}ラグナロクを起動させるために{n}魔界でどりょくしてきたのだ{wait}{page}{voice:062A}人間とデビルに{n}新しい時代をあたえ{wait}{page}{voice:062B}次の世界を生きて行くすがたを{n}見てみたかったのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:0628}I have worked for the program that moves this world on to the next age.{wait}{page}{voice:0629}To activate Ragnarok, I have toiled here in Makai.{wait}{page}{voice:062A}I wanted to give humans and Devils a new age{wait}{page}{voice:062B}and see how they would live on in the next world.{wait}{end}"
  },
  {
   "id": "R:3DEC8",
   "jp": "{face:000D}{voice:062C}しかし、これから先は{wait}{page}{voice:062D}この私もお前の決めた事に{n}したがわねばならないのだ{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:062C}But from here on,{wait}{page}{voice:062D}even I must abide by whatever you decide.{wait}{end}"
  },
  {
   "id": "R:3DF24",
   "jp": "{face:000D}{voice:062E}私をお前の仲魔として{n}役立ててくれ！{wait}{end}",
-  "en": ""
+  "en": "{face:000D}{voice:062E}Let me be of use to you as your ally!{wait}{end}"
  },
  {
   "id": "R:3DF54",
   "jp": "{face:0003}{voice:0545}がんばれよ{wait}{page}{voice:0546}このダークパレスのどこかに{wait}{n}{voice:0547}ライトパレスにワープできる{f0}場所があるはずだ{wait}{page}{voice:0548}それからこれをやるよ{wait}{n}{voice:0549}これでキングライザーに入る{f0}仲魔をふやす事ができるぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0545}Good luck!{wait}{page}{voice:0546}Somewhere in this Dark Palace,{wait}{n}{voice:0547}there should be a place{f0}where you can warp to the Light Palace.{wait}{page}{voice:0548}Oh, and take this.{wait}{n}{voice:0549}With this, your King Riser{f0}can hold more allies.{wait}{end}"
  },
  {
   "id": "R:3E018",
@@ -26,7 +26,7 @@
  {
   "id": "R:3E038",
   "jp": "{face:0003}{voice:054A}わすれるなよ{n}運命を決めるのはお前なんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:054A}Don't forget: you're the one who decides your destiny.{wait}{end}"
  },
  {
   "id": "R:3E06C",
@@ -39,7 +39,7 @@
  {
   "id": "R:3E0B0",
   "jp": "{name}は{n}ノルンのカギを全て{wait}{f0}エレジーにわたした！{wait}{end}",
-  "en": ""
+  "en": "{name} handed all of the Norn Keys{wait}{f0}over to Elegy!{wait}{end}"
  },
  {
   "id": "R:3E0E4",
@@ -52,12 +52,12 @@
  {
   "id": "R:3E170",
   "jp": "{face:00FF}エレジーは{n}ノルンのカギを使った{wait}{page}プログラム・ハルマゲドンが{n}起動を始める！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Elegy used the Norn Keys.{wait}{page}Program Armageddon begins to activate!{wait}{end}"
  },
  {
   "id": "R:3E1C8",
   "jp": "{ee}ノルンのぞうがおかれてある{wait}{end}",
-  "en": ""
+  "en": "{ee}A statue of the Norns stands here.{wait}{end}"
  },
  {
   "id": "R:3E1E8",
@@ -66,7 +66,7 @@
  {
   "id": "R:3E238",
   "jp": "{face:0027}{voice:0638}ラグナロクを起動させて{n}私を起こしに来たのは誰？{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0638}Who has activated Ragnarok and come to wake me?{wait}{end}"
  },
  {
   "id": "R:3E274",
@@ -79,12 +79,12 @@
  {
   "id": "R:3E2C8",
   "jp": "　新しい世界を{n}　私が神になる{end}",
-  "en": ""
+  "en": "Make a new world{n}I'll become God{end}"
  },
  {
   "id": "R:3E2E8",
   "jp": "{face:0027}{voice:063B}わかりました！それでは{n}あなたののぞみのままに{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:063B}Very well! Then let it be just as you wish.{wait}{end}"
  },
  {
   "id": "R:3E324",
@@ -97,17 +97,17 @@
  {
   "id": "R:3E368",
   "jp": "{face:0003}{voice:057B}やったな！{n}世界に朝が戻って来たぜ！{wait}{page}{voice:057C}デビルチルドレンの役目は{n}これで終わりだ！{wait}{page}{voice:057D}また会う日を{n}楽しみにしてるぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:057B}We did it! Morning's come back to the world!{wait}{page}{voice:057C}That means the Devil Children's job is done!{wait}{page}{voice:057D}I'm looking forward to the day we meet again!{wait}{end}"
  },
  {
   "id": "R:3E3F4",
   "jp": "{face:0027}{voice:0646}さあ、これであなたの{n}のぞみはかなえられたはず{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0646}There. Your wish should now be granted.{wait}{end}"
  },
  {
   "id": "R:3E430",
   "jp": "{face:0027}最後に、ここのサークルゲートから{wait}{n}ディープホールへ{f0}行けるようにしておいたわ{wait}{page}これから先はデビダスを見て{n}全てのデビルを集めるといいわ{wait}{page}ウェブネットを使わないと{n}集められないデビルもいるわよ{wait}{page}それじゃあガンバッテね！{wait}{end}",
-  "en": ""
+  "en": "{face:0027}One last thing. From the Circle Gate here,{wait}{n}I've made it so you can go{f0}to the Deep Hole.{wait}{page}From now on, check the Devidas and try to collect every Devil.{wait}{page}Some Devils can't be collected without using the Webnet.{wait}{page}Well then, good luck!{wait}{end}"
  },
  {
   "id": "R:3E518",
@@ -116,12 +116,12 @@
  {
   "id": "R:3E554",
   "jp": "{face:0027}{voice:0632}これであなたは{n}ホシガミになりました{wait}{page}{voice:0633}デビルチルドレンとしての{n}役目もまた終わったのです{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0632}With this, you have become Hoshigami.{wait}{page}{voice:0633}Your role as a Devil Child has come to an end as well.{wait}{end}"
  },
  {
   "id": "R:3E5C0",
   "jp": "{face:0027}{voice:062F}これがデビルチルドレンとしての{n}あなたの最後の戦いです{wait}{page}{voice:0630}神になろうという{n}のぞみにふさわしいかどうか{wait}{f0}{voice:0631}私が試してあげましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:062F}This is your final battle as a Devil Child.{wait}{page}{voice:0630}Whether you are worthy of your wish to become a god...{wait}{f0}{voice:0631}I shall put you to the test.{wait}{end}"
  },
  {
   "id": "R:3E654",
@@ -130,7 +130,7 @@
  {
   "id": "R:3E67C",
   "jp": "{face:0027}あなたののぞみのままに{wait}{end}",
-  "en": ""
+  "en": "{face:0027}Just as you wish.{wait}{end}"
  },
  {
   "id": "R:3E69C",
@@ -151,12 +151,12 @@
  {
   "id": "R:3E724",
   "jp": "{ee}{voice:05CD}やあ！{wait}{n}{voice:064A}ずいぶんひさしぶりだな！{wait}{end}",
-  "en": ""
+  "en": "{ee}{voice:05CD}Hey!{wait}{n}{voice:064A}It's been a long time!{wait}{end}"
  },
  {
   "id": "R:3E754",
   "jp": "{ee}マグネタイト持ってる？{wait}{end}",
-  "en": ""
+  "en": "{ee}Got any Magnetite?{wait}{end}"
  },
  {
   "id": "R:3E770",
@@ -173,7 +173,7 @@
  {
   "id": "R:3E82C",
   "jp": "{face:0029}ラグナロクを起動させ{n}新しい時代を始めた{wait}{f0}お前の力を{f0}見せてもらおうか{wait}{end}",
-  "en": ""
+  "en": "{face:0029}You activated Ragnarok and began a new age.{wait}{f0}So let me see{f0}just how strong you are.{wait}{end}"
  },
  {
   "id": "R:3E87C",
@@ -190,12 +190,12 @@
  {
   "id": "R:3E944",
   "jp": "{face:0028}新しい時代が始まろうと{n}戦いは続いて行くのだ{wait}{f0}{name}、勝負だ！{wait}{end}",
-  "en": ""
+  "en": "{face:0028}A new age may be starting, but the fighting goes on!{wait}{f0}{name}, fight me!{wait}{end}"
  },
  {
   "id": "R:3E988",
   "jp": "{face:0028}力、優れたる者よ{wait}{n}奥に進むがいい{wait}{end}",
-  "en": ""
+  "en": "{face:0028}You, who excel in strength,{wait}{n}go on, deeper inside.{wait}{end}"
  },
  {
   "id": "R:3E9B4",
@@ -208,7 +208,7 @@
  {
   "id": "R:3EA44",
   "jp": "{face:0000}{voice:057E}ゼブル・・・？{n}会った事はないはずよね？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:057E}Zebul...? We've never met before, have we?{wait}{end}"
  },
  {
   "id": "R:3EA78",
@@ -229,7 +229,7 @@
  {
   "id": "R:3EB50",
   "jp": "{face:0000}{voice:057F}誰なの、あなたは？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:057F}Who are you, anyway?{wait}{end}"
  },
  {
   "id": "R:3EB70",
@@ -238,22 +238,22 @@
  {
   "id": "R:3EB8C",
   "jp": "{face:0000}{voice:0580}ゼット！あなただったの{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0580}Zett! So it was you!{wait}{end}"
  },
  {
   "id": "R:3EBB0",
   "jp": "{face:0007}{voice:0654}そうだよ{wait}{page}{voice:0655}タカジョー・ゼットは{wait}{n}{voice:0656}ディープホールに住む{f0}このゼブルのかりのすがたさ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0654}That's right.{wait}{page}{voice:0655}Zett Takajo{wait}{n}{voice:0656}is just a temporary form{f0}of me, Zebul, who lives in the Deep Hole.{wait}{end}"
  },
  {
   "id": "R:3EC18",
   "jp": "{face:0000}{voice:0581}パパとラグナロクを{n}起こすために来たのよね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0581}You came to bring about Ragnarok with my dad, didn't you?{wait}{end}"
  },
  {
   "id": "R:3EC50",
   "jp": "{face:0007}{voice:0657}そう、そのために{n}きみを魔界に送り{wait}{f0}{voice:0658}今度の旅を始めさせた{wait}{page}{voice:0659}でも{n}キミがラグナロクを起動するとは{wait}{f0}{voice:065A}決まってはいなかったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0657}Yeah. That's why I sent you to Makai{wait}{f0}{voice:0658}and started you on this journey.{wait}{page}{voice:0659}But whether you'd be the one to activate Ragnarok...{wait}{f0}{voice:065A}that was never decided.{wait}{end}"
  },
  {
   "id": "R:3ECE8",
@@ -262,17 +262,17 @@
  {
   "id": "R:3ED00",
   "jp": "{face:002A}{voice:065B}全てはキミがどう考えるかに{n}まかせるしかなかったんだ{wait}{end}",
-  "en": ""
+  "en": "{face:002A}{voice:065B}It was all up to you and what you'd decide. There was no other way.{wait}{end}"
  },
  {
   "id": "R:3ED40",
   "jp": "{face:0007}{voice:065C}でも、きみはラグナロクを{n}起動させてくれた{wait}{page}{voice:065D}ぼくとキミのお父さんの{n}のぞんだ通りに・・・{wait}{page}{voice:065E}この先、人間とデビルが{n}世界をどうしていくのかは{wait}{f0}{voice:065F}長い時間がたたないと{f0}わからない事だ{wait}{page}{voice:0660}その時にまたきみのような人間と{n}デビルの血を受けついだ誰かが{wait}{f0}{voice:0661}きみと同じような旅を{f0}するにちがいないのだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:065C}But you activated Ragnarok for us.{wait}{page}{voice:065D}Just as your father and I had hoped...{wait}{page}{voice:065E}How humans and Devils will shape the world from here on...{wait}{f0}{voice:065F}that's something{f0}only a long time will tell.{wait}{page}{voice:0660}And when that time comes, someone like you, with both human and Devil blood,{wait}{f0}{voice:0661}is sure to set out{f0}on a journey just like yours.{wait}{end}"
  },
  {
   "id": "R:3EE88",
   "jp": "{face:0007}{voice:0662}ぼくの話はこれで終わりさ{wait}{page}{voice:0663}本当にここまで来てくれて{n}ありがとう{wait}{page}{voice:0664}きみがこの旅で見つけた事を{n}次の世代の子どもたちに{wait}{page}{voice:0665}語りついでくれる事を{n}ぼくたちはのぞんでいるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0662}And that's the end of my story.{wait}{page}{voice:0663}Really, thank you for coming all this way.{wait}{page}{voice:0664}What you found on this journey... pass it on to the next generation of kids.{wait}{page}{voice:0665}That's what we're hoping for.{wait}{end}"
  },
  {
   "id": "R:3EF48",
@@ -281,17 +281,17 @@
  {
   "id": "R:3EF74",
   "jp": "{face:0027}{voice:0647}世界はたった今、新しい時代に向かって{n}動き出したのです{wait}{page}{voice:0648}後は{n}あなたのお好きなように{wait}{end}",
-  "en": ""
+  "en": "{face:0027}{voice:0647}At this very moment, the world has begun to move toward a new age.{wait}{page}{voice:0648}The rest is up to you.{wait}{end}"
  },
  {
   "id": "R:3EFDC",
   "jp": "{face:0008}{voice:054C}世界と自分の運命を{n}決める時が来たようですね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:054C}It seems the time has come to decide the fate of the world, and your own.{wait}{end}"
  },
  {
   "id": "R:3F014",
   "jp": "{face:0008}{voice:0554}世界はもう一度{n}やり直した方がいいのです{wait}{page}{voice:0555}このまま進んでも{n}世界は良くならない・・・{wait}{page}{voice:0556}今こそ、全てを無にするプログラム{wait}{n}{voice:0557}ハルマゲドンを{f0}起こさねば、ならないのです！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0554}The world would be better off starting over once more.{wait}{page}{voice:0555}Even if it goes on like this, the world won't get any better...{wait}{page}{voice:0556}Now, the program that erases everything...{wait}{n}{voice:0557}Armageddon{f0}must be set in motion!{wait}{end}"
  },
  {
   "id": "R:3F0D8",
@@ -312,17 +312,17 @@
  {
   "id": "R:3F14C",
   "jp": "{face:0014}いかがですか？{wait}{page}お父様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0014}How are things?{wait}{page}Have you found your father yet?{wait}{end}"
  },
  {
   "id": "R:3F180",
   "jp": "{face:0015}いかがですか？{wait}{page}お父様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0015}How are things?{wait}{page}Have you found your father yet?{wait}{end}"
  },
  {
   "id": "R:3F1B4",
   "jp": "{face:0016}いかがですか？{wait}{page}お父様は見つかりましたか？{wait}{end}",
-  "en": ""
+  "en": "{face:0016}How are things?{wait}{page}Have you found your father yet?{wait}{end}"
  },
  {
   "id": "R:3F1E8",
@@ -335,27 +335,27 @@
  {
   "id": "R:3F284",
   "jp": "アラッ、仲魔ガイッパイネ{n}ワタシガ、トウロクサレル、バショヲ{wait}{f0}ツクッテカラ、キテヨ{wait}{end}",
-  "en": ""
+  "en": "Oh. Allies are full. Make place for me to be registered,{wait}{f0}then come back.{wait}{end}"
  },
  {
   "id": "R:3F2DC",
   "jp": "{face:004C}と思ったけど{n}仲魔がいっぱいじゃない{wait}{page}ヴィネセンターかライザーの中に{n}空きを作って、戻って来てよ！{wait}{end}",
-  "en": ""
+  "en": "{face:004C}...Or so I thought, but your allies are full!{wait}{page}Make some room in the Vine Center or your Deviliser, then come back!{wait}{end}"
  },
  {
   "id": "R:3F348",
   "jp": "でも、仲魔がいっぱいで{n}登録できないよ{wait}{page}ライザーかヴィネセンターに{n}場所を作ってから{wait}{f0}戻って来てよ{wait}{end}",
-  "en": ""
+  "en": "But your allies are full, so I can't register.{wait}{page}Make some room in your Deviliser or the Vine Center{wait}{f0}and then come back!{wait}{end}"
  },
  {
   "id": "R:3F3B4",
   "jp": "{face:0015}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ライザーかヴィネセンターに{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0015}{name}-sama, your allies are full,{wait}{f0}so I cannot go with you.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{page}I shall ask again another time!{wait}{end}"
  },
  {
   "id": "R:3F444",
   "jp": "ザンネンであります！！{wait}{page}わたくしを登録する場所が{n}ありません{wait}{page}ライザーかヴィネセンターに{n}場所を作って下さい{wait}{end}",
-  "en": ""
+  "en": "Most regrettable, sir!!{wait}{page}There is no room to register me.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{end}"
  },
  {
   "id": "R:3F4B8",
@@ -364,7 +364,7 @@
  {
   "id": "R:3F52C",
   "jp": "アレッ、入る場所がナイデース{wait}{page}ライザーかヴィネセンターに{n}場所を作ってクダサーイ！{wait}{end}",
-  "en": ""
+  "en": "Whoops, there is no room for me, yes!{wait}{page}Please make room in your Deviliser or the Vine Center, pleeease!{wait}{end}"
  },
  {
   "id": "R:3F584",
@@ -373,17 +373,17 @@
  {
   "id": "R:3F5F8",
   "jp": "何だ！仲魔がいっぱいだよ{wait}{page}空きを作ってから、また来てよ{wait}{end}",
-  "en": ""
+  "en": "What! You're full up on allies!{wait}{page}Make some room, then come again!{wait}{end}"
  },
  {
   "id": "R:3F634",
   "jp": "{face:0016}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ライザーかヴィネセンターに{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0016}{name}-sama, your allies are full,{wait}{f0}so I cannot go with you.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{page}I shall ask again another time!{wait}{end}"
  },
  {
   "id": "R:3F6C4",
   "jp": "{face:0014}{name}様{n}仲魔がいっぱいで{wait}{f0}おともする事はできません{wait}{page}ライザーかヴィネセンターに{n}場所を作って下さい{wait}{page}また、あらためておねがいしますぞ{wait}{end}",
-  "en": ""
+  "en": "{face:0014}{name}-sama, your allies are full,{wait}{f0}so I cannot go with you.{wait}{page}Please make room in your Deviliser or the Vine Center.{wait}{page}I shall ask again another time!{wait}{end}"
  },
  {
   "id": "R:3F754",
@@ -392,7 +392,7 @@
  {
   "id": "R:3F788",
   "jp": "　いいえ、そうじゃないの{n}　そう、むかえに来たの{end}",
-  "en": ""
+  "en": "No, that's not it{n}Yes, I came to get you{end}"
  },
  {
   "id": "R:3F7BC",
@@ -445,52 +445,52 @@
  {
   "id": "R:3FA04",
   "jp": "{face:0001}{voice:05C8}何だか、体が熱いわ！{wait}{page}{voice:05C9}体の中から{n}力があふれて来るみたい！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}{voice:05C8}Whoa, my body feels so hot!{wait}{page}{voice:05C9}It's like power's overflowing from deep inside me!{wait}{end}"
  },
  {
   "id": "R:3FA50",
   "jp": "{face:00FF}{partner}がランクアップした！{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{partner} ranked up!{wait}{end}"
  },
  {
   "id": "R:3FA70",
   "jp": "{ee}{face:0010}どうやらデビルチルドレンを{n}とり逃がしてしまったか{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0010}So it seems I've let the Devil Child slip away...{wait}{end}"
  },
  {
   "id": "R:3FAAC",
   "jp": "{face:0010}ヤツをとり逃がした事が{n}大魔王の耳に入れば{wait}{f0}わしもただではすむまい・・・{wait}{page}{name}よ！{n}わしもお前について行こう！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}If word that I let him get away reaches the Great Demon King's ears,{wait}{f0}even I won't get off lightly...{wait}{page}{name}! I shall go with you as well!{wait}{end}"
  },
  {
   "id": "R:3FB24",
   "jp": "　仲魔にする{n}　えんりょする{end}",
-  "en": ""
+  "en": "Make him an ally{n}No, thank you{end}"
  },
  {
   "id": "R:3FB44",
   "jp": "{face:0010}何と！わしをおいてきぼりに{n}するつもりか{wait}{end}",
-  "en": ""
+  "en": "{face:0010}What! You mean to leave me behind!?{wait}{end}"
  },
  {
   "id": "R:3FB74",
   "jp": "{face:0010}仲魔がいっぱいではないか！{wait}{page}ライザーかヴィネセンターに{n}場所を作ってくるのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Your allies are full!{wait}{page}Go make some room in your Deviliser or the Vine Center.{wait}{end}"
  },
  {
   "id": "R:3FBCC",
   "jp": "{face:0010}ではヨロシクたのむぞ！{wait}{end}",
-  "en": ""
+  "en": "{face:0010}Then I leave myself in your hands!{wait}{end}"
  },
  {
   "id": "R:3FBEC",
   "jp": "魔王ヘルが仲魔になった{wait}{end}",
-  "en": ""
+  "en": "Demon Lord Hel became your ally{wait}{end}"
  },
  {
   "id": "R:3FC08",
   "jp": "{ee}おれはこのマーブルランドが{n}嫌になった！{wait}{page}できれば別の魔界に行って{n}力を試したいのだが・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm sick of this Marble Land!{wait}{page}If I could, I'd go to another land of Makai and test my strength, but...{wait}{end}"
  },
  {
   "id": "R:3FC6C",
@@ -507,7 +507,7 @@
  {
   "id": "R:3FD04",
   "jp": "おおっ、そうか{wait}{page}ではおれいに{n}このシュラの剣をさしあげよう{wait}{page}この間そこの山道で{n}拾った物だがな{wait}{end}",
-  "en": ""
+  "en": "Oho, really!{wait}{page}Then as thanks, I'll give you this Sura Sword.{wait}{page}I picked it up on the mountain path over there the other day.{wait}{end}"
  },
  {
   "id": "R:3FD6C",
@@ -564,17 +564,17 @@
  {
   "id": "R:3FFFC",
   "jp": "{ee}このあたりで{n}シュラの剣を見なかったか？{wait}{page}オレのともだちのシュラオーが{n}センシの証である{wait}{f0}シュラの剣を無くして{f0}こまっているんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}Have you seen a Sura Sword around here?{wait}{page}My friend King Sura has lost{wait}{f0}the Sura Sword, the mark of a true warrior,{f0}and he's at his wits' end.{wait}{end}"
  },
  {
   "id": "R:40088",
   "jp": "{ee}シュラオーを仲魔にしたのか！{wait}{page}そうか！シュラの剣を{n}返してやったんだ{wait}{end}",
-  "en": ""
+  "en": "{ee}You made King Sura your ally!?{wait}{page}So! You gave the Sura Sword back to him!{wait}{end}"
  },
  {
   "id": "R:400D4",
   "jp": "シュラオーを仲魔にしたとは{n}大したものだ{wait}{page}オレも仲魔になってやるぞ{wait}{end}",
-  "en": ""
+  "en": "Making King Sura your ally... That's impressive.{wait}{page}I'll become your ally too!{wait}{end}"
  },
  {
   "id": "R:4011C",
@@ -591,7 +591,7 @@
  {
   "id": "R:4017C",
   "jp": "それなら、好きにするがいい{wait}{end}",
-  "en": ""
+  "en": "Then do as you like.{wait}{end}"
  },
  {
   "id": "R:4019C",
@@ -600,17 +600,17 @@
  {
   "id": "R:401F0",
   "jp": "{ee}ぼくは戦争が恐くて{n}マーブルランドから逃げて来たんだ{wait}{page}オヤジ、心配してるだろーな{wait}{end}",
-  "en": ""
+  "en": "{ee}I was scared of the war, so I ran away from Marble Land.{wait}{page}My old man's probably worried about me...{wait}{end}"
  },
  {
   "id": "R:40248",
   "jp": "えっ、マーブルランドの{n}戦争は終わったって！{wait}{page}じゃあ帰っても{n}戦わなくってもいいんだ！{wait}{page}これでオヤジの所へ{n}帰れるよ、どーもアリガトー{wait}{page}マーブルランドに来る事があったら{n}デーバの村にある{wait}{f0}ぼくの家に来てくれよ{wait}{end}",
-  "en": ""
+  "en": "Huh, the war in Marble Land is over!?{wait}{page}Then even if I go back, I won't have to fight!{wait}{page}Now I can go home to my old man. Thanks a bunch!{wait}{page}If you're ever in Marble Land, stop by{wait}{f0}my house in the Deva village!{wait}{end}"
  },
  {
   "id": "R:40324",
   "jp": "{ee}わしの息子はおくびょう者で{n}戦争に行くのが恐いって{wait}{f0}この村から出て行ったんじゃよ{wait}{page}今ごろ、どこで何を{n}している事やら・・・{wait}{end}",
-  "en": ""
+  "en": "{ee}My son is a coward. He was scared of going to war,{wait}{f0}so he left this village.{wait}{page}I wonder where he is now, and what he's doing...{wait}{end}"
  },
  {
   "id": "R:403A8",
@@ -667,12 +667,12 @@
  {
   "id": "R:4068C",
   "jp": "{ee}{face:0007}{voice:05CC}やあ{wait}{page}{voice:05E2}そろそろきみがここへ来るころだと{n}思って待っていたよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}{voice:05CC}Hi.{wait}{page}{voice:05E2}I figured you'd be getting here about now, so I was waiting for you.{wait}{end}"
  },
  {
   "id": "R:406DC",
   "jp": "{face:0000}{voice:040D}いったい、どんな用なの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:040D}So what do you want, anyway?{wait}{end}"
  },
  {
   "id": "R:40700",
@@ -685,37 +685,37 @@
  {
   "id": "R:40768",
   "jp": "{face:0007}{voice:040E}早くお父さんが見つかるといいね{wait}{page}{voice:05E9}何かわかったらそのデビホンに{n}れんらくしてあげるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:040E}I hope you find your father soon.{wait}{page}{voice:05E9}If I find out anything, I'll call you on that DeviPhone.{wait}{end}"
  },
  {
   "id": "R:407CC",
   "jp": "{ee}{face:0007}そろそろピラミッドに{n}行った方がよくないかい{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}Don't you think it's about time you headed to the pyramid?{wait}{end}"
  },
  {
   "id": "R:40804",
   "jp": "緑のメシアのヒトミを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Green Messiah Eye.{wait}{end}"
  },
  {
   "id": "R:40828",
   "jp": "{face:0001}やっぱりヒポグリフだわ！{wait}{page}だいじょうぶ？{wait}{end}",
-  "en": ""
+  "en": "{face:0001}It's Hippogriff, all right!{wait}{page}Are you okay?{wait}{end}"
  },
  {
   "id": "R:4085C",
   "jp": "{face:004C}あーっ、{partner}じゃない！{wait}{end}",
-  "en": ""
+  "en": "{face:004C}Ah! It's {partner}!{wait}{end}"
  },
  {
   "id": "R:40878",
   "jp": "{face:004C}あなたたちが助けてくれたのね{n}ありがとう！{wait}{page}私もあなたたちと{n}いっしょに行くわ、ヨロシクね！{wait}{end}",
-  "en": ""
+  "en": "{face:004C}You guys saved me! Thank you!{wait}{page}I'm coming along with you guys too. Nice to meet you!{wait}{end}"
  },
  {
   "id": "R:408E0",
   "jp": "{ee}{face:004C}私もあなたたちと{n}いっしょに行くわ、ヨロシクね！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:004C}I'm coming along with you guys too. Nice to meet you!{wait}{end}"
  },
  {
   "id": "R:4091C",
@@ -728,7 +728,7 @@
  {
   "id": "R:40954",
   "jp": "{ee}あなたがたはピラミッドに{n}行くつもりですか？{wait}{page}実はともだちがピラミッドに{n}行ったまま帰って来ないんで{wait}{f0}心配していた所なんです{wait}{page}ピラミッドの中には{n}色んなシカケがあるらしいですよ{wait}{page}あなたがたも{n}気をつけた方がいいですよ{wait}{end}",
-  "en": ""
+  "en": "{ee}Are you going to the pyramid?{wait}{page}Actually, a friend of mine went to the pyramid and never came back,{wait}{f0}so I've been worried.{wait}{page}They say there are all kinds of traps inside the pyramid.{wait}{page}You'd better be careful too.{wait}{end}"
  },
  {
   "id": "R:40A3C",
@@ -757,26 +757,26 @@
  {
   "id": "R:40BE8",
   "jp": "{face:0000}あなたは・・・パイモン！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}You're... Paimon!{wait}{end}"
  },
  {
   "id": "R:40C08",
   "jp": "{face:0017}{name}、また会ったわね{wait}{end}",
-  "en": ""
+  "en": "{face:0017}{name}, we meet again.{wait}{end}"
  },
  {
   "id": "R:40C24",
   "jp": "{face:0000}また私の邪魔を{n}するつもりなの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Are you here to get in my way again?{wait}{end}"
  },
  {
   "id": "R:40C4C",
   "jp": "{face:0017}いえっ、もうそのひつようはないわ{wait}{page}あなたを倒す事が{n}できなかったために大魔王は{wait}{f0}私をかいにんしたのよ{wait}{page}おはらい箱ってわけ{wait}{end}",
-  "en": ""
+  "en": "{face:0017}No... there's no need for that anymore.{wait}{page}Because I failed to defeat you,{wait}{f0}the Great Demon King dismissed me.{wait}{page}I got the boot, you might say.{wait}{end}"
  },
  {
   "id": "R:40CD4",
   "jp": "{face:0000}では、魔界しょうぐんパイモンは{n}もういないという事ね{wait}{page}それで、これからどうするつもり？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}So the Makai General Paimon is no more, huh.{wait}{page}So what are you going to do now?{wait}{end}"
  }
 ]

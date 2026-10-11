@@ -2,57 +2,57 @@
  {
   "id": "R:39880",
   "jp": "{ee}{face:001B}オレサマは無敵のドラゴン{n}ダハーカ様だ！{wait}{f0}金のタマゴが欲しいのか？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:001B}I am the invincible dragon, the great Dahaka!{wait}{f0}You want the Golden Egg?{wait}{end}"
  },
  {
   "id": "R:398D0",
   "jp": "{face:001A}これさえ手に入れば{n}エレジーに魔王のざを{wait}{f0}交代させられる事もない！{wait}{page}メシアのヒトミをそうかんたんに{n}わたしてたまるか！！{wait}{page}フフフッ、{name}{wait}{page}大魔王は地上を{n}自分の物にするために{wait}{f0}デビルを送りこんで{wait}{page}人間をほろぼすそうだ{wait}{page}オマエもおとなしく{n}ディープホールでねむるがいい{wait}{end}",
-  "en": ""
+  "en": "{face:001A}Once I have this, Elegy won't be able{wait}{f0}to take my Demon Lord throne away!{wait}{page}You think I'll hand over the Messiah Eye that easily!?{wait}{page}Heh heh heh, {name}...{wait}{page}They say the Great Demon King, to make the surface his own,{wait}{f0}is sending Devils up there{wait}{page}to wipe out the humans.{wait}{page}You'd best go quietly and sleep in the Deep Hole too.{wait}{end}"
  },
  {
   "id": "R:399F0",
   "jp": "カギがかかっている！{wait}{end}",
-  "en": ""
+  "en": "It's locked!{wait}{end}"
  },
  {
   "id": "R:39A08",
   "jp": "{face:0046}どうしても追い出そうってんなら{n}力でおいで！{wait}{end}",
-  "en": ""
+  "en": "{face:0046}If you're set on driving us out, you'll have to use force, dearie!{wait}{end}"
  },
  {
   "id": "R:39A3C",
   "jp": "{face:0046}また来たのかい！{wait}{n}しつこいんだねえ・・・{wait}{page}いっその事、私たちを{n}すみかから追い出したやつらを{wait}{f0}やっつけに行けばいいのに{wait}{end}",
-  "en": ""
+  "en": "{face:0046}Back again, are you!?{wait}{n}My, aren't you a stubborn one...{wait}{page}Why not go after the ones who drove us{wait}{f0}out of our home and beat them up instead?{wait}{end}"
  },
  {
   "id": "R:39AC0",
   "jp": "{ee}いったい、何があったの？{wait}{end}",
-  "en": ""
+  "en": "{ee}What on earth happened?{wait}{end}"
  },
  {
   "id": "R:39AE0",
   "jp": "{face:0008}{ea}・・・・・・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{ea}.........{wait}{end}"
  },
  {
   "id": "R:39AFC",
   "jp": "{face:0008}{voice:04CF}さすがですね{wait}{page}{voice:04D0}私には、まだまだ{n}力が足りないようですね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:04CF}Impressive, as expected.{wait}{page}{voice:04D0}It seems I still lack the power I need.{wait}{end}"
  },
  {
   "id": "R:39B44",
   "jp": "{face:00FF}赤いメシアのヒトミを手に入れた{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}Got the Red Messiah Eye!{wait}{end}"
  },
  {
   "id": "R:39B6C",
   "jp": "グルウウウ・・・・{wait}{end}",
-  "en": ""
+  "en": "Grrrrr....{wait}{end}"
  },
  {
   "id": "R:39B84",
   "jp": "{face:0008}{voice:04D8}この社のうらにあるトリイに{n}サークルゲートがあります{wait}{page}{voice:04D9}そこから魔界に{n}戻る事ができますよ{wait}{page}{voice:04DA}それでは・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:04D8}There's a Circle Gate at the torii behind this shrine.{wait}{page}{voice:04D9}From there, you can return to Makai.{wait}{page}{voice:04DA}Well then...{wait}{end}"
  },
  {
   "id": "R:39C04",
@@ -81,7 +81,7 @@
  {
   "id": "R:39CC0",
   "jp": "{face:0020}{voice:04E9}虹色のメシアのヒトミが{n}欲しいんか？{wait}{page}{voice:0604}わてが持ってるで{wait}{page}{voice:0605}けどこの世界は金が全てや！{wait}{page}{voice:0606}あれはなー{wait}{page}{voice:04EA}こないだわてが２０００マッカで{n}大魔王からこうたもんや{wait}{page}{voice:0607}で、いくら出す？・・・・{wait}{n}{ea}・・・・・・・・・{wait}{page}{voice:0609}１０００００マッカやな！{n}それいじょうはまからへんで！{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:04E9}Ya want the Rainbow Messiah Eye?{wait}{page}{voice:0604}I've got it right here.{wait}{page}{voice:0605}But in this world, money's everything!{wait}{page}{voice:0606}That thing, see...{wait}{page}{voice:04EA}I bought it off the Great Demon King the other day for 2,000 Macca.{wait}{page}{voice:0607}So, how much ya gonna pay?...{wait}{n}{ea}.........{wait}{page}{voice:0609}100,000 Macca! Not a single Macca less!{wait}{end}"
  },
  {
   "id": "R:39DF0",
@@ -90,37 +90,37 @@
  {
   "id": "R:39E24",
   "jp": "{face:0020}{voice:060B}たしかに受けとりましたがな{n}このマモン、ウソは言わへん！{wait}{page}{voice:04EC}そやけど虹色のメシアのヒトミは{wait}{n}{voice:060C}カジノタウンのわての家に{f0}かくしてあるんや{wait}{page}{voice:060F}先に行って待ってるさかい{n}後からきいや{wait}{page}{voice:0610}あんまりおそかったら{n}チャラにすんで{wait}{end}",
-  "en": ""
+  "en": "{face:0020}{voice:060B}Got it, all right. And I, Mammon, don't tell no lies!{wait}{page}{voice:04EC}But that Rainbow Messiah Eye...{wait}{n}{voice:060C}I got it hidden at my place{f0}in Casino Town.{wait}{page}{voice:060F}I'll head on ahead and wait for ya, so come along after.{wait}{page}{voice:0610}Take too long, and the deal's off.{wait}{end}"
  },
  {
   "id": "R:39F1C",
   "jp": "{face:0020}お金、足らへんよ{n}ウソゆーたらコマルガナ！{wait}{end}",
-  "en": ""
+  "en": "{face:0020}You ain't got enough money! Lyin' to me'll get ya in a real pickle!{wait}{end}"
  },
  {
   "id": "R:39F50",
   "jp": "{face:0000}{voice:04ED}どうしたの、これは！？{wait}{n}{voice:04EE}街がメチャメチャに{f0}壊されてるじゃない！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04ED}What happened here!?{wait}{n}{voice:04EE}The whole town's been{f0}smashed to pieces!{wait}{end}"
  },
  {
   "id": "R:39FA4",
   "jp": "{face:0000}{voice:04F3}ふざけないでよ！{wait}{n}{voice:04F4}何が正しくみちびくよ{wait}{page}{voice:04F5}あなたたちのやった事を{n}考えてみなさいよ{wait}{page}{voice:04F6}見て！この街を破壊したのは{n}あなたたちよ！{wait}{page}{voice:04F7}デビルたちをこんなに倒したのも{n}あなたたちじゃないの！{wait}{page}{voice:04F8}許せない！ぜったいに！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:04F3}Don't give me that!{wait}{n}{voice:04F4}\"Guide us the right way\"? Yeah, right!{wait}{page}{voice:04F5}Think about what you've done!{wait}{page}{voice:04F6}Look! You're the ones who destroyed this town!{wait}{page}{voice:04F7}And you're the ones who beat down all these Devils, too!{wait}{page}{voice:04F8}I'll never forgive you! Never!{wait}{end}"
  },
  {
   "id": "R:3A09C",
   "jp": "{ee}何かあったのかなあ？{wait}{n}街からデビルが消えた！{wait}{end}",
-  "en": ""
+  "en": "{ee}I wonder if something happened?{wait}{n}The Devils have vanished from town!{wait}{end}"
  },
  {
   "id": "R:3A0D0",
   "jp": "{ee}も、もうちょっと待ってくれ{wait}{n}もうやめるからさ！{wait}{end}",
-  "en": ""
+  "en": "{ee}J-just wait a little longer!{wait}{n}I'll quit soon, I promise!{wait}{end}"
  },
  {
   "id": "R:3A108",
   "jp": "{ee}みんなダークパレスに{wait}{n}行ったらしい{wait}{end}",
-  "en": ""
+  "en": "{ee}Looks like everyone{wait}{n}went to the Dark Palace.{wait}{end}"
  },
  {
   "id": "R:3A134",
@@ -137,17 +137,17 @@
  {
   "id": "R:3A170",
   "jp": "{face:0008}{voice:054B}このとびらの向こうが{n}オルゴールルームですね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:054B}Beyond this door is the Orgel Room.{wait}{end}"
  },
  {
   "id": "R:3A1A8",
   "jp": "{face:0000}{voice:0558}ナガヒサ君、それは{wait}{n}{voice:0559}あなたたちにとっての{f0}良い世界という事じゃないの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0558}Nagahisa-kun, doesn't that{wait}{n}{voice:0559}just mean a world that's good{f0}for you guys?{wait}{end}"
  },
  {
   "id": "R:3A200",
   "jp": "{face:0009}{voice:055A}ちがうわ！そうじゃないわ{n}みんなにとってよ{wait}{page}{voice:055B}天使たちは{n}ちゃんと考えて決めたのよ{wait}{page}{voice:055C}信じて！{n}ノルンのカギをわたして！{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:055A}No! That's not it! It's for everyone!{wait}{page}{voice:055B}The angels thought it through properly before they decided!{wait}{page}{voice:055C}Trust me! Give me the Norn Keys!{wait}{end}"
  },
  {
   "id": "R:3A28C",
@@ -156,52 +156,52 @@
  {
   "id": "R:3A2A4",
   "jp": "{face:0009}{name}！{wait}{n}ノルンのカギをわたして！{wait}{face:00FF}{end}",
-  "en": ""
+  "en": "{face:0009}{name}!{wait}{n}Give me the Norn Keys!{wait}{face:00FF}{end}"
  },
  {
   "id": "R:3A2D0",
   "jp": "{face:0009}{voice:0577}これが最後の戦いよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:0577}This is the final battle!{wait}{end}"
  },
  {
   "id": "R:3A2F0",
   "jp": "{face:0009}{voice:055D}ありがとう！{n}わかってくれたのね！{wait}{page}{voice:055E}さあ、オルゴールルームに{n}行きましょう{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:055D}Thank you! You understand!{wait}{page}{voice:055E}Come on, let's go to the Orgel Room.{wait}{end}"
  },
  {
   "id": "R:3A34C",
   "jp": "{face:0009}{voice:055F}ここがオルゴールルームよ{wait}{page}{voice:0560}あなたのおかげで{wait}{n}{voice:0561}世界はもう一度{f0}やり直す事ができるわ{wait}{page}{voice:0562}・・・・・・いい？{wait}{page}{voice:0563}ハルマゲドンを起動させるわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0009}{voice:055F}This is the Orgel Room.{wait}{page}{voice:0560}Thanks to you,{wait}{n}{voice:0561}the world can{f0}start over one more time.{wait}{page}{voice:0562}......Ready?{wait}{page}{voice:0563}I'm activating Armageddon!{wait}{end}"
  },
  {
   "id": "R:3A3F4",
   "jp": "ここがこの世界をつくった{n}ホシガミのねむる所ね{wait}{end}",
-  "en": ""
+  "en": "So this is where Hoshigami, who created this world, sleeps.{wait}{end}"
  },
  {
   "id": "R:3A428",
   "jp": "デビルチルドレン・{name}{n}運命にみちびかれて{wait}{page}私を起こしに来たのか{wait}{end}",
-  "en": ""
+  "en": "Devil Child {name}... Guided by fate,{wait}{page}have you come to wake me?{wait}{end}"
  },
  {
   "id": "R:3A46C",
   "jp": "私を起こしに来たのは{n}あなたなのね、{name}{wait}{end}",
-  "en": ""
+  "en": "So it was you who came to wake me, {name}.{wait}{end}"
  },
  {
   "id": "R:3A498",
   "jp": "さあ、何がのぞみなの？{wait}{end}",
-  "en": ""
+  "en": "Now, what is your wish?{wait}{end}"
  },
  {
   "id": "R:3A4B4",
   "jp": "{voice:063B}わかりました！それでは{n}あなたののぞみのままに{wait}{end}",
-  "en": ""
+  "en": "{voice:063B}Very well! Then let it be just as you wish.{wait}{end}"
  },
  {
   "id": "R:3A4EC",
   "jp": "さあ、これであなたの{n}のぞみはかなえられたはず{wait}{page}この後はあなたしだい{wait}{end}",
-  "en": ""
+  "en": "There. Your wish should now be granted.{wait}{page}What happens next is up to you.{wait}{end}"
  },
  {
   "id": "R:3A538",
@@ -214,22 +214,22 @@
  {
   "id": "R:3A580",
   "jp": "これからはあなたが{n}ホシガミとして生きるのです{wait}{end}",
-  "en": ""
+  "en": "From now on, it is you who will live as Hoshigami.{wait}{end}"
  },
  {
   "id": "R:3A5B4",
   "jp": "{face:0007}{voice:05E4}このデビホンを・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05E4}This DeviPhone....{wait}{end}"
  },
  {
   "id": "R:3A5D8",
   "jp": "{face:0007}{voice:05E5}ヴィネコンにつなぐと{wait}{n}{voice:05E6}魔界のどこからでもヴィネセンターに{f0}アクセスできるんだ！{wait}{page}{voice:05E7}使う時はデビホンのコマンドを{n}使えばいいんだよ{wait}{page}{voice:05E8}ただし・・・電波のとどかない{n}所はダメだけどね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:05E5}If you hook it up to the Vinecom,{wait}{n}{voice:05E6}you can access the Vine Center{f0}from anywhere in Makai!{wait}{page}{voice:05E7}When you want to use it, just use the DeviPhone command.{wait}{page}{voice:05E8}Though... it won't work anywhere the signal can't reach...{wait}{end}"
  },
  {
   "id": "R:3A6AC",
   "jp": "今なら通話料無し！{n}たったの２５０００マッカ！！{wait}{f0}とってもべんりデスよ！！{wait}{end}",
-  "en": ""
+  "en": "No call fees, for a limited time! Only 25,000 Macca!!{wait}{f0}It's sooo handy!!{wait}{end}"
  },
  {
   "id": "R:3A6FC",
@@ -238,107 +238,107 @@
  {
   "id": "R:3A718",
   "jp": "{face:000B}{voice:0300}切りさく風の魔法、ザン！！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}{voice:0300}Slicing magic of wind! Zan!!{wait}{end}"
  },
  {
   "id": "R:3A740",
   "jp": "{face:000A}{voice:0301}アブナイ！{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:0301}Look out!{wait}{end}"
  },
  {
   "id": "R:3A758",
   "jp": "{face:0007}{voice:034D}メシアのヒトミよ！{n}おのれの道をてらし出せ！！{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:034D}O Messiah Eye! Light up the path ahead!!{wait}{end}"
  },
  {
   "id": "R:3A794",
   "jp": "{ee}{face:000A}キヲツケロ！{name}！{wait}{page}ソウタガ、クルゾ！{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:000A}Watch out! {name}!{wait}{page}Souta's coming!{wait}{end}"
  },
  {
   "id": "R:3A7C4",
   "jp": "{face:000B}やっぱり来たか！もう一度{n}イタイ思いをさせてやるぜ！{wait}{end}",
-  "en": ""
+  "en": "{face:000B}Knew you'd show up! I'll make you hurt all over again!{wait}{end}"
  },
  {
   "id": "R:3A800",
   "jp": "・・・きのう・・・{n}　　　　　マンションの前{wait}{end}",
-  "en": ""
+  "en": "...Yesterday...{n}Outside the apartment building{wait}{end}"
  },
  {
   "id": "R:3A830",
   "jp": "{face:0003}{voice:0347}ナガヒサを見なかったかい？{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:0347}Have you seen Nagahisa?{wait}{end}"
  },
  {
   "id": "R:3A858",
   "jp": "{face:0000}{voice:05CF}ううん、見てないわ{n}・・・どうかしたの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05CF}No, I haven't. ...Did something happen?{wait}{end}"
  },
  {
   "id": "R:3A88C",
   "jp": "{face:0003}{voice:05D0}さらわれ・・・イヤ、いいや！{n}ごめん、ちょっと急ぐんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{voice:05D0}He got kidnap-- No, never mind! Sorry, I'm in a hurry!{wait}{end}"
  },
  {
   "id": "R:3A8D0",
   "jp": "{face:0000}{voice:05D1}ふーん・・・？？{wait}{n}{voice:05D2}雪はやんだけど外は寒いわよ{wait}{page}{voice:05D3}・・・・気をつけてね{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05D1}Hmm...??{wait}{n}{voice:05D2}The snow's stopped, but it's still cold out.{wait}{page}{voice:05D3}...Be careful, okay?{wait}{end}"
  },
  {
   "id": "R:3A92C",
   "jp": "{face:0000}{voice:0348}・・・じゃあ、あの後で・・・{n}行方不明になったんだわ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0348}...So after that... they went missing.{wait}{end}"
  },
  {
   "id": "R:3A96C",
   "jp": "{face:000A}{voice:02CE}あっ！まずいや！{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02CE}Ah! Uh-oh!{wait}{end}"
  },
  {
   "id": "R:3A988",
   "jp": "{face:000A}{voice:02CF}じゃ、また後でね・・・{wait}{end}",
-  "en": ""
+  "en": "{face:000A}{voice:02CF}Well, see you later...{wait}{end}"
  },
  {
   "id": "R:3A9AC",
   "jp": "{face:0000}{voice:0344}セツナ君とナガヒサ君なら{wait}{n}{voice:0345}となりの部屋に住んでる{f0}男の子たちだわ{wait}{page}{voice:0346}・・・そういえば、きのう・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0344}Setsuna-kun and Nagahisa-kun?{wait}{n}{voice:0345}They're the boys who live{f0}in the apartment next door.{wait}{page}{voice:0346}...Come to think of it, yesterday...{wait}{end}"
  },
  {
   "id": "R:3AA24",
   "jp": "{face:0008}{voice:056F}あいつ？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:056F}Who?{wait}{end}"
  },
  {
   "id": "R:3AA38",
   "jp": "{face:0003}{face:0570}？・・ほら、あの強気な・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0003}{face:0570}?.. You know, the feisty one...{wait}{end}"
  },
  {
   "id": "R:3AA60",
   "jp": "{face:003A}仲魔をきたえていくか？{wait}{end}",
-  "en": ""
+  "en": "{face:003A}Want to train your allies?{wait}{end}"
  },
  {
   "id": "R:3AA80",
   "jp": "{face:0000}あのオリに入ってるのって{n}だれのデビルなの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Whose Devil is that in the cage?{wait}{end}"
  },
  {
   "id": "R:3AAB4",
   "jp": "{face:003A}ああ、あのモアイか{wait}{page}道ばたにすてられてたのを{n}ひろったんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:003A}Oh, that Moai?{wait}{page}I found it abandoned by the side of the road.{wait}{end}"
  },
  {
   "id": "R:3AAFC",
   "jp": "{face:0000}あんなのが道ばたにすてられてたの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Somebody just threw THAT away by the road?{wait}{end}"
  },
  {
   "id": "R:3AB28",
   "jp": "{face:0000}どうでもいいけど、何かあばれてるわよ{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Not that I care, but it's kinda going wild.{wait}{end}"
  },
  {
   "id": "R:3AB54",
@@ -347,7 +347,7 @@
  {
   "id": "R:3AB6C",
   "jp": "{face:003A}何！？{n}どういうことだ？{wait}{end}",
-  "en": ""
+  "en": "{face:003A}What!? What do you mean?{wait}{end}"
  },
  {
   "id": "R:3AB8C",
@@ -360,12 +360,12 @@
  {
   "id": "R:3ABC4",
   "jp": "{face:0000}ほおずりなんてしないで！{n}イタイわよ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}Stop rubbing your cheek on me! That hurts!{wait}{end}"
  },
  {
   "id": "R:3ABF4",
   "jp": "{face:003A}そんなキョウボウなやつは{n}ウチにはおいとけないな{wait}{page}気に入られてるみたいだし{n}つれてってくれ{wait}{end}",
-  "en": ""
+  "en": "{face:003A}I can't keep a vicious thing like that around here.{wait}{page}Looks like it's taken a liking to you, so take it with you.{wait}{end}"
  },
  {
   "id": "R:3AC58",
@@ -374,101 +374,101 @@
  {
   "id": "R:3AC74",
   "jp": "{face:003A}なんだ、仲魔がいっぱいじゃないか{n}仲魔をへらしてからまたきてくれ{wait}{page}ちゃんと引き取りにきてくれよ{n}オレは面倒みきれないぜ{wait}{end}",
-  "en": ""
+  "en": "{face:003A}Hey, you've already got a full load of allies. Come back once you've got fewer of 'em.{wait}{page}And make sure you come back to pick it up, okay? I can't look after it forever.{wait}{end}"
  },
  {
   "id": "R:3ACF4",
   "jp": "{face:003A}やっときてくれたか{wait}{page}ささっ、えんりょしないで{n}つれていってくれ{wait}{end}",
-  "en": ""
+  "en": "{face:003A}So you finally came.{wait}{page}Go on, don't be shy. Take it along with you.{wait}{end}"
  },
  {
   "id": "R:3AD3C",
   "jp": "{face:003A}ちょっと部屋をかたづけるから{n}外に出ててくれないか？{wait}{end}",
-  "en": ""
+  "en": "{face:003A}I gotta tidy up the room a bit. Mind waiting outside?{wait}{end}"
  },
  {
   "id": "R:3AD78",
   "jp": "きず薬を５コ手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got 5 Medicine!{wait}{end}"
  },
  {
   "id": "R:3AD94",
   "jp": "チャクラドリンクを{n}５コ手に入れた！{wait}{end}",
-  "en": ""
+  "en": "Got 5 Chakra Drinks!{wait}{end}"
  },
  {
   "id": "R:3ADBC",
   "jp": "{face:003A}とりあえず、モアイをオリに戻すから{n}外に出ててくれないか？{wait}{end}",
-  "en": ""
+  "en": "{face:003A}For now, I'm putting the Moai back in its cage. Mind waiting outside?{wait}{end}"
  },
  {
   "id": "R:3AE00",
   "jp": "{face:0007}{voice:0349}あの２人も、さっきのきみと同じように{n}デビルにおそわれたんだよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0349}Those two were attacked by Devils too, just like you were a moment ago.{wait}{end}"
  },
  {
   "id": "R:3AE4C",
   "jp": "{face:0000}{voice:034A}セツナ君がデビルに・・？{n}そうなんだ・・・無事だといいけど{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:034A}Setsuna-kun, attacked by Devils..? I see... I hope he's okay.{wait}{end}"
  },
  {
   "id": "R:3AE94",
   "jp": "{face:0007}{voice:032E}ラタトスクがねらっていたのは{n}キミのお母さんの形見だよね{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:032E}What Ratatoskr was after was your mother's keepsake, right?{wait}{end}"
  },
  {
   "id": "R:3AED8",
   "jp": "{face:0000}{voice:032F}死んじゃったママの事{n}知ってるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:032F}You know about my mom... who died?{wait}{end}"
  },
  {
   "id": "R:3AF08",
   "jp": "{face:0007}{voice:0330}うーん、まあね・・・{wait}{n}{voice:0331}それに、行方不明の{f0}お父さんの事もね・・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0330}Well, sort of...{wait}{n}{voice:0331}And about your missing{f0}dad, too....{wait}{end}"
  },
  {
   "id": "R:3AF5C",
   "jp": "{face:0000}{voice:0332}えっ！ほんとに！{wait}{n}{voice:0333}じゃあ、パパが今どこに{f0}いるのかも知ってるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0332}Huh! Really!?{wait}{n}{voice:0333}Then do you know where{f0}my dad is right now, too?{wait}{end}"
  },
  {
   "id": "R:3AFB0",
   "jp": "{face:0007}{voice:0334}きみのお父さんはね{n}魔界のどこかにいるはずなんだ{wait}{page}{voice:0335}それいじょうの事は{n}ぼくにもわからないんだけどね{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0334}Your dad, you see, should be somewhere in Makai.{wait}{page}{voice:0335}Anything more than that, even I don't know.{wait}{end}"
  },
  {
   "id": "R:3B024",
   "jp": "{face:0000}{voice:0336}・・・魔界って・・・？？？{wait}{page}{voice:0337}どうやって行けばいいの？{wait}{page}{voice:0338}教えて！{n}私、パパに会いたいの！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0336}...Makai...???{wait}{page}{voice:0337}How do I get there?{wait}{page}{voice:0338}Tell me! I want to see my dad!{wait}{end}"
  },
  {
   "id": "R:3B094",
   "jp": "{face:0007}{voice:0339}・・・キミの持ってる{n}虹色の宝石・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:0339}...That rainbow jewel you have...{wait}{end}"
  },
  {
   "id": "R:3B0C8",
   "jp": "{face:0007}{voice:033B}そのメシアのヒトミを使えば{wait}{n}{voice:033C}お父さんのいる魔界に{f0}行く事ができるよ{wait}{page}{voice:033D}どうする？{wait}{page}{voice:033E}魔界に行って、お父さんを{n}探してみるかい？{wait}{end}",
-  "en": ""
+  "en": "{face:0007}{voice:033B}If you use that Messiah Eye,{wait}{n}{voice:033C}you can go to Makai,{f0}where your dad is.{wait}{page}{voice:033D}What'll it be?{wait}{page}{voice:033E}Do you want to go to Makai and look for your dad?{wait}{end}"
  },
  {
   "id": "R:3B160",
   "jp": "　とつぜん言われても・・・{n}　モチロン、すぐ行く{end}",
-  "en": ""
+  "en": "This is so sudden...{n}Of course, I'll go right now!{end}"
  },
  {
   "id": "R:3B194",
   "jp": "{face:0007}うーん、そうか・・・{n}・・・まあ、無理もないか{wait}{page}じゃあ、じゅんびができるまで{n}ここで待ってるから・・・{wait}{f0}いつでも戻っておいでよ{wait}{end}",
-  "en": ""
+  "en": "{face:0007}Hmm, I see... ...Well, I can't blame you.{wait}{page}Then I'll wait here until you're ready...{wait}{f0}Come back anytime.{wait}{end}"
  },
  {
   "id": "R:3B220",
   "jp": "{ee}{face:0007}戻って来たのかい？{wait}{page}キミのお父さんは{n}魔界のどこかにいるはずなんだ{wait}{page}お父さんを探しに行くかい？{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0007}You're back?{wait}{page}Your dad should be somewhere in Makai.{wait}{page}Will you go look for your dad?{wait}{end}"
  },
  {
   "id": "R:3B28C",
   "jp": "{ee}私は{partner}{wait}{page}あなたのパートナーよ{n}よろしくね！{wait}{end}",
-  "en": ""
+  "en": "{ee}I'm {partner}!{wait}{page}I'm your partner. Nice to meet you!{wait}{end}"
  }
 ]
