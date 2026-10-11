@@ -54,7 +54,7 @@ def dump_events(chunk):
         p = dest / ('%03d.json' % i)
         if p.exists():
             continue
-        p.write_text(json.dumps(f, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+        p.write_text(json.dumps(f, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
         wrote += 1
     print('%d entries, %d unique, %d files (%d written)' % (len(entries), sum('jp' in e for e in entries),
                                                           len(files), wrote))
