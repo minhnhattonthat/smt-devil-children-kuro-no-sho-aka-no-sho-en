@@ -47,17 +47,17 @@
  {
   "id": "B:2E65C",
   "jp": "{ee}わたし、メッチーと{n}遊ぶのが夢なのよ♥{wait}{page}だれかゆずってくれないかしら{wait}{end}",
-  "en": "{ee}My dream is to play with a Mecchi!{wait}{page}I wonder if somebody would give me one...{wait}{end}"
+  "en": "{ee}My dream is to play with a Mechi!{wait}{page}I wonder if somebody would give me one...{wait}{end}"
  },
  {
   "id": "B:2E6A8",
   "jp": "{ee}グリグリをかわいがってね{wait}{end}",
-  "en": "{ee}Take good care of Guriguri!{wait}{end}"
+  "en": "{ee}Take good care of Gris-gris!{wait}{end}"
  },
  {
   "id": "B:2E6C8",
   "jp": "ヒーホー、それってメッチー！{wait}{n}よければゆずってくれない？{f0}もちろんお礼はするわよ♥{wait}{end}",
-  "en": "Hee-ho, is that a Mecchi!?{wait}{n}Would you be willing to give it to me?{f0}I'll thank you for it, of course!{wait}{end}"
+  "en": "Hee-ho, is that a Mechi!?{wait}{n}Would you be willing to give it to me?{f0}I'll thank you for it, of course!{wait}{end}"
  },
  {
   "id": "B:2E720",
@@ -72,12 +72,12 @@
  {
   "id": "B:2E778",
   "jp": "メッチーと別れた{wait}{end}",
-  "en": "You parted with Mecchi.{wait}{end}"
+  "en": "You parted with Mechi.{wait}{end}"
  },
  {
   "id": "B:2E78C",
   "jp": "グリグリが仲魔になった！{wait}{end}",
-  "en": "Guriguri became your ally!{wait}{end}"
+  "en": "Gris-gris became your ally!{wait}{end}"
  },
  {
   "id": "B:2E7A8",
@@ -182,17 +182,17 @@
  {
   "id": "B:2ED2C",
   "jp": "{ee}ラセツの村のわかものが{n}戦争を恐がって{wait}{f0}逃げ出したそうだ{wait}{page}おくびょうなやつもいるもんだ{wait}{end}",
-  "en": "{ee}They say a young guy from the Rakshasa village got scared of the war{wait}{f0}and ran away.{wait}{page}Some folks sure are chicken.{wait}{end}"
+  "en": "{ee}They say a young guy from the Rasetsu village got scared of the war{wait}{f0}and ran away.{wait}{page}Some folks sure are chicken.{wait}{end}"
  },
  {
   "id": "B:2ED8C",
   "jp": "{ee}これでマーブルランドにも{n}平和がやって来るな{wait}{page}戦争を嫌がって逃げ出した{n}ラセツのわかものも戻って来るよ{wait}{end}",
-  "en": "{ee}Now peace will finally come to Marble Land, too.{wait}{page}That young Rakshasa who ran off to avoid the war will come back, too.{wait}{end}"
+  "en": "{ee}Now peace will finally come to Marble Land, too.{wait}{page}That young Rasetsu who ran off to avoid the war will come back, too.{wait}{end}"
  },
  {
   "id": "B:2EDFC",
   "jp": "{ee}何っ！ラセツのわかものが{n}帰って来たのか{wait}{page}平和になってみると{n}戦いを嫌って逃げ出した{wait}{f0}気持ちも分かる気がするよ{wait}{end}",
-  "en": "{ee}What!? The young Rakshasa came back?{wait}{page}Now that there's peace, running off because he hated fighting...{wait}{f0}I think I kind of get how he felt.{wait}{end}"
+  "en": "{ee}What!? The young Rasetsu came back?{wait}{page}Now that there's peace, running off because he hated fighting...{wait}{f0}I think I kind of get how he felt.{wait}{end}"
  },
  {
   "id": "B:2EE74",
@@ -312,7 +312,7 @@
  {
   "id": "B:2F598",
   "jp": "{ee}優勝オメデトウ{wait}{n}これからサンドランドに行くのか{wait}{page}そう言えばデーバ族の村に{n}行くとちゅうにいるデーバオーに{wait}{f0}会った事はないか？{wait}{page}あいつはマーブルランドを出て{n}その力を試したがっていたぞ{wait}{page}声をかけてやってはどうだ？{wait}{end}",
-  "en": "{ee}Congratulations on your victory.{wait}{n}So you're off to Sand Land next?{wait}{page}Speaking of which, on the way to the Deva village there's Devaoh.{wait}{f0}Have you ever met him?{wait}{page}He was itching to leave Marble Land and test his strength.{wait}{page}Why not go have a word with him?{wait}{end}"
+  "en": "{ee}Congratulations on your victory.{wait}{n}So you're off to Sand Land next?{wait}{page}Speaking of which, on the way to the Deva village there's King Deva.{wait}{f0}Have you ever met him?{wait}{page}He was itching to leave Marble Land and test his strength.{wait}{page}Why not go have a word with him?{wait}{end}"
  },
  {
   "id": "B:2F67C",
