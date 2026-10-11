@@ -24,12 +24,12 @@ CTRL = {
     0xFFEB: ('voice', 1),
     0xFFEE: ('ee', 0),
     0xFFEF: ('face', 1),
-    0xFFEC: ('hero', 0),
+    0xFFEC: ('partner', 0),  # partner's name (0x800E091A); see docs/faces.md
     0xFFED: ('ed', 0),
     0xFFF5: ('f5', 0),
     0xFFF6: ('f6', 0),
     0xFFF7: ('f7', 0),
-    0xFFF8: ('f8', 0),
+    0xFFF8: ('name', 0),     # hero's (player-entered) name
     0xFFF9: ('num', 2),
 }
 CTRL_ENC = {v[0]: (k, v[1]) for k, v in CTRL.items()}

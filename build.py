@@ -81,6 +81,13 @@ def build_font(files):
     for code, (px, adv) in glyphs.items():
         font.put_glyph(pac, code, px)
         widths[code - 0x100] = adv
+    # the GPU samples one row past the 16-row cell: blank row 0 of the (kanji) cells under English glyphs
+    for code in glyphs:
+        below = code + 16
+        if below not in glyphs and (below >> 8) == (code >> 8):
+            blank = font.glyph(pac, below)
+            blank[0] = [0] * 16
+            font.put_glyph(pac, below, blank)
     (files / 'DEVIL.PAC').write_bytes(pac)
     (BUILD / 'en_width.bin').write_bytes(widths)
 
@@ -131,6 +138,7 @@ def marker_text(mid, jp):
 
 def build_event(files, tag, name, mode):
     import events
+    import lint
     import text
     d = (TREE / name).read_bytes()
     msgs = events.messages(d)
@@ -141,7 +149,7 @@ def build_event(files, tag, name, mode):
         if mode == 'marker':
             new[off] = text.encode_en8(marker_text(mid, text.decode(d, off)[0]))
         elif tl.get(mid):
-            new[off] = text.encode_en8(tl[mid])
+            new[off] = text.encode_en8(lint.prepare(text.decode(d, off)[0], tl[mid]))
         else:
             new[off] = d[off:off + n]
     out, st = events.repack(d, msgs, new)

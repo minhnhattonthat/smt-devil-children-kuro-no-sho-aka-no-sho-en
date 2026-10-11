@@ -11,7 +11,7 @@
  },
  {
   "id": "B:3C5B8",
-  "jp": "{face:0011}いいわ、私が街に行って{n}調べてくるわ{wait}{page}それに{f8}の{n}指名手配の様子も{wait}{f0}調べてこなきゃね！{wait}{page}それじゃあ、行ってくるわね！{wait}{end}",
+  "jp": "{face:0011}いいわ、私が街に行って{n}調べてくるわ{wait}{page}それに{name}の{n}指名手配の様子も{wait}{f0}調べてこなきゃね！{wait}{page}それじゃあ、行ってくるわね！{wait}{end}",
   "en": ""
  },
  {
@@ -46,7 +46,7 @@
  },
  {
   "id": "B:3C928",
-  "jp": "{face:0000}アブナイ！{hero}{wait}{end}",
+  "jp": "{face:0000}アブナイ！{partner}{wait}{end}",
   "en": ""
  },
  {
@@ -71,7 +71,7 @@
  },
  {
   "id": "B:3CA1C",
-  "jp": "{face:0018}お前が封印をとかれた{wait}{page}{hero}か・・・・{wait}{end}",
+  "jp": "{face:0018}お前が封印をとかれた{wait}{page}{partner}か・・・・{wait}{end}",
   "en": ""
  },
  {
@@ -101,17 +101,17 @@
  },
  {
   "id": "B:3CCCC",
-  "jp": "{face:0004}{voice:00EB}・・そうなの・・・{wait}{page}{voice:00EC}なぜ、大魔王は・・・？{wait}{page}{ea}・・・・・・・{wait}{page}{voice:00ED}そうだ！{f8}{wait}{page}{voice:00EE}あなた、メシアのツノを{n}集めてるんじゃないの？{wait}{page}{voice:00EF}大魔王は、そう言ってたわ！{wait}{end}",
+  "jp": "{face:0004}{voice:00EB}・・そうなの・・・{wait}{page}{voice:00EC}なぜ、大魔王は・・・？{wait}{page}{ea}・・・・・・・{wait}{page}{voice:00ED}そうだ！{name}{wait}{page}{voice:00EE}あなた、メシアのツノを{n}集めてるんじゃないの？{wait}{page}{voice:00EF}大魔王は、そう言ってたわ！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:3CD88",
-  "jp": "{face:0018}{f8}！{wait}{page}とうとう最期の時が{n}来てしまったようだな{wait}{page}お前をサンドランドへ{n}行かせるわけにはいかないのだ{wait}{end}",
+  "jp": "{face:0018}{name}！{wait}{page}とうとう最期の時が{n}来てしまったようだな{wait}{page}お前をサンドランドへ{n}行かせるわけにはいかないのだ{wait}{end}",
   "en": ""
  },
  {
   "id": "B:3CDF8",
-  "jp": "{face:0018}{f8}！{wait}{page}お前をサンドランドへ{n}行かせるわけにはいかないのだ{wait}{end}",
+  "jp": "{face:0018}{name}！{wait}{page}お前をサンドランドへ{n}行かせるわけにはいかないのだ{wait}{end}",
   "en": ""
  },
  {
@@ -301,7 +301,7 @@
  },
  {
   "id": "B:3DA50",
-  "jp": "{face:0004}お父さんよ{f8}！{wait}{end}",
+  "jp": "{face:0004}お父さんよ{name}！{wait}{end}",
   "en": ""
  },
  {
@@ -376,7 +376,7 @@
  },
  {
   "id": "B:3DF18",
-  "jp": "ようこそバトルネットへ{wait}{page}デビルチルドレン・{f8}{wait}{end}",
+  "jp": "ようこそバトルネットへ{wait}{page}デビルチルドレン・{name}{wait}{end}",
   "en": ""
  },
  {

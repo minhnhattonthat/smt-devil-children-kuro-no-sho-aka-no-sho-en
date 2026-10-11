@@ -1,7 +1,7 @@
 [
  {
   "id": "B:40F1C",
-  "jp": "{face:00FF}{hero}が、ランクアップした！{wait}{end}",
+  "jp": "{face:00FF}{partner}が、ランクアップした！{wait}{end}",
   "en": ""
  },
  {
@@ -11,7 +11,7 @@
  },
  {
   "id": "B:40FF0",
-  "jp": "{ee}ほう、お前がブトウ会で{n}傷勝した{f8}か{wait}{end}",
+  "jp": "{ee}ほう、お前がブトウ会で{n}傷勝した{name}か{wait}{end}",
   "en": ""
  },
  {
@@ -144,7 +144,7 @@
  },
  {
   "id": "B:41604",
-  "jp": "{ee}あっ、{f8}さん{wait}{page}あなたが教えてくれたおかげで{n}家に帰る事ができましたよ{wait}{end}",
+  "jp": "{ee}あっ、{name}さん{wait}{page}あなたが教えてくれたおかげで{n}家に帰る事ができましたよ{wait}{end}",
   "en": ""
  },
  {
@@ -277,42 +277,42 @@
  },
  {
   "id": "B:41CB8",
-  "jp": "{face:0016}{f8}様！{n}いごヨロシクおねがいします！{wait}{end}",
+  "jp": "{face:0016}{name}様！{n}いごヨロシクおねがいします！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41CE4",
-  "jp": "{face:0014}{f8}様！{n}いごヨロシクおねがいします！{wait}{end}",
+  "jp": "{face:0014}{name}様！{n}いごヨロシクおねがいします！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41D10",
-  "jp": "{face:0015}{f8}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
+  "jp": "{face:0015}{name}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41D4C",
-  "jp": "{face:0016}{f8}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
+  "jp": "{face:0016}{name}様！{wait}{n}このマーブルランドは{f0}まかせて下さい！！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41D88",
-  "jp": "{face:0014}{f8}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
+  "jp": "{face:0014}{name}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41DD0",
-  "jp": "{face:0016}{f8}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
+  "jp": "{face:0016}{name}様{n}たとえ、大魔王が敵になっても{wait}{page}われらは味方になりますぞ！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41E18",
-  "jp": "{face:0014}{f8}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
+  "jp": "{face:0014}{name}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41E48",
-  "jp": "{face:0015}{f8}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
+  "jp": "{face:0015}{name}様！{n}もしもの時にはお呼び下さい！！{wait}{end}",
   "en": ""
  },
  {
@@ -321,17 +321,17 @@
  },
  {
   "id": "B:41EC0",
-  "jp": "{face:0015}{f8}様！{wait}{n}この薬を{hero}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{f0}最初のツトメです{wait}{end}",
+  "jp": "{face:0015}{name}様！{wait}{n}この薬を{partner}どのに{f0}お使い下さい{wait}{f0}これが魔王としてのわたくしの{f0}最初のツトメです{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41F24",
-  "jp": "{face:0015}いざ！勝負だ！{n}{f8}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
+  "jp": "{face:0015}いざ！勝負だ！{n}{name}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
   "en": ""
  },
  {
   "id": "B:41F58",
-  "jp": "{face:0016}いざ！勝負だ！{n}{f8}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
+  "jp": "{face:0016}いざ！勝負だ！{n}{name}！{wait}{page}{face:00FF}シアイカイシ！！{wait}{end}",
   "en": ""
  },
  {
@@ -389,7 +389,7 @@
  },
  {
   "id": "B:422B4",
-  "jp": "{face:0018}{f8}、また会ったな{wait}{end}",
+  "jp": "{face:0018}{name}、また会ったな{wait}{end}",
   "en": ""
  },
  {

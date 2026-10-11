@@ -71,12 +71,12 @@
  },
  {
   "id": "B:43E2C",
-  "jp": "{ee}{face:000F}{f8}、戻って来たか{wait}{end}",
+  "jp": "{ee}{face:000F}{name}、戻って来たか{wait}{end}",
   "en": ""
  },
  {
   "id": "B:43E48",
-  "jp": "{ee}{face:0029}{f8}{n}ゼブルを倒したのか！{wait}{end}",
+  "jp": "{ee}{face:0029}{name}{n}ゼブルを倒したのか！{wait}{end}",
   "en": ""
  },
  {
@@ -96,12 +96,12 @@
  },
  {
   "id": "B:43F00",
-  "jp": "{ee}{face:0029}{f8}、戻って来たか{wait}{end}",
+  "jp": "{ee}{face:0029}{name}、戻って来たか{wait}{end}",
   "en": ""
  },
  {
   "id": "B:43F1C",
-  "jp": "{ee}{face:0028}・・・{f8}か{wait}{end}",
+  "jp": "{ee}{face:0028}・・・{name}か{wait}{end}",
   "en": ""
  },
  {
@@ -121,7 +121,7 @@
  },
  {
   "id": "B:43FD0",
-  "jp": "{ee}{face:0028}{f8}、戻って来たか{wait}{end}",
+  "jp": "{ee}{face:0028}{name}、戻って来たか{wait}{end}",
   "en": ""
  },
  {
@@ -216,12 +216,12 @@
  },
  {
   "id": "B:44618",
-  "jp": "{face:0056}おお！とうとう２５０体のデビルを{n}デビダスに登録したのか！？{wait}{page}これはスゴイ事だぞ！{wait}{page}よし、{f8}{n}キミをデビダスマスターとみとめ{wait}{page}デビダスマスターのしょうごうを{n}あたえる事にするぞ{wait}{page}オメデトウ、{f8}{wait}{end}",
+  "jp": "{face:0056}おお！とうとう２５０体のデビルを{n}デビダスに登録したのか！？{wait}{page}これはスゴイ事だぞ！{wait}{page}よし、{name}{n}キミをデビダスマスターとみとめ{wait}{page}デビダスマスターのしょうごうを{n}あたえる事にするぞ{wait}{page}オメデトウ、{name}{wait}{end}",
   "en": ""
  },
  {
   "id": "B:446E8",
-  "jp": "{face:0056}さあ、これで{f8}は{wait}{n}デビダスマスターだ！{wait}{end}",
+  "jp": "{face:0056}さあ、これで{name}は{wait}{n}デビダスマスターだ！{wait}{end}",
   "en": ""
  },
  {

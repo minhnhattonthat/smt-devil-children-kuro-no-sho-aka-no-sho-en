@@ -2,42 +2,42 @@
  {
   "id": "B:26B84",
   "jp": "{ee}開発中{wait}{end}",
-  "en": ""
+  "en": "{ee}Under development.{wait}{end}"
  },
  {
   "id": "B:26B90",
   "jp": "{voice:0000}わが血すじを受けつぐ者よ{n}おのれの運命に目ざめよ{wait}{page}{voice:0001}世界は、お前が目ざめるのを{n}・・・・待っているのだ{wait}{end}",
-  "en": ""
+  "en": "{voice:0000}You who inherit my blood... Awaken to your destiny.{wait}{page}{voice:0001}The world... is waiting for you to awaken.{wait}{end}"
  },
  {
   "id": "B:26C04",
   "jp": "{face:0000}{voice:0002}何の話だ？{n}・・・お前は誰だ！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0002}What are you talking about? ...Who are you!?{wait}{end}"
  },
  {
   "id": "B:26C38",
   "jp": "{face:0000}{voice:0006}・・・夢か・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0006}...A dream...?{wait}{end}"
  },
  {
   "id": "B:26C54",
   "jp": "ノートを手に入れた{wait}{end}",
-  "en": ""
+  "en": "Got the Notebook.{wait}{end}"
  },
  {
   "id": "B:26C6C",
   "jp": "虹色のツノを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found the Rainbow Horn!{wait}{end}"
  },
  {
   "id": "B:26C88",
   "jp": "７月　０９日　日曜日{n}午前　９時{wait}{end}",
-  "en": ""
+  "en": "Sunday, July 9{n}9:00 AM{wait}{end}"
  },
  {
   "id": "B:26CAC",
   "jp": "ノートを見つけた！{wait}{end}",
-  "en": ""
+  "en": "Found the Notebook!{wait}{end}"
  },
  {
   "id": "B:26CC4",
@@ -126,7 +126,7 @@
  },
  {
   "id": "B:27258",
-  "jp": "{f8}さんですね{wait}{n}{voice:0026}おとどけ物は、コレです{wait}{end}",
+  "jp": "{name}さんですね{wait}{n}{voice:0026}おとどけ物は、コレです{wait}{end}",
   "en": ""
  },
  {
@@ -236,7 +236,7 @@
  },
  {
   "id": "B:27710",
-  "jp": "{f8}は箱を開けた！{wait}{end}",
+  "jp": "{name}は箱を開けた！{wait}{end}",
   "en": ""
  },
  {
@@ -366,7 +366,7 @@
  },
  {
   "id": "B:27D6C",
-  "jp": "{ee}やあ！{f8}じゃん！{n}お前、ミライって知ってるか？{wait}{page}あいつ、けっこうケンカつえーぞ{wait}{end}",
+  "jp": "{ee}やあ！{name}じゃん！{n}お前、ミライって知ってるか？{wait}{page}あいつ、けっこうケンカつえーぞ{wait}{end}",
   "en": ""
  },
  {

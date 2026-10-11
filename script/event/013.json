@@ -176,202 +176,202 @@
  {
   "id": "B:3B68C",
   "jp": "{ee}中に入る事ができない{wait}{end}",
-  "en": ""
+  "en": "{ee}You can't go inside.{wait}{end}"
  },
  {
   "id": "B:3B6A8",
   "jp": "そうか、それならべつにいいけどな{wait}{end}",
-  "en": ""
+  "en": "I see. Well, if that's how it is, fine by me.{wait}{end}"
  },
  {
   "id": "B:3B6CC",
   "jp": "{voice:0003}ノルンのカギを探せ！{wait}{page}{voice:0004}そのカギを手に入れて{n}私の所に持ってくるのだ！{wait}{page}{voice:0005}私は・・・・{n}ダークパレスの奥にいる！{wait}{end}",
-  "en": ""
+  "en": "{voice:0003}Find the Norn Key!{wait}{page}{voice:0004}Obtain that key and bring it to me!{wait}{page}{voice:0005}I am... in the depths of the Dark Palace!{wait}{end}"
  },
  {
   "id": "B:3B74C",
   "jp": "{face:0008}{voice:0007}兄さん、やっと起きたんだ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0007}You're finally awake, big brother.{wait}{end}"
  },
  {
   "id": "B:3B770",
   "jp": "{face:00FF}{voice:0009}？？・・・ああ・・・{n}変な夢を、みてたからな{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:0009}Huh?... Oh... I was having a weird dream.{wait}{end}"
  },
  {
   "id": "B:3B7A8",
   "jp": "{face:0008}{voice:000A}外は雪だよ{wait}{page}{voice:000B}まったく、最近は{n}変な事ばかり起こるね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:000A}It's snowing outside.{wait}{page}{voice:000B}Honestly, nothing but weird stuff happens lately.{wait}{end}"
  },
  {
   "id": "B:3B7EC",
   "jp": "{face:0008}{voice:000C}テレビじゃあ、りんじニュースばっかり{n}流してるし・・・・{wait}{f0}{voice:000D}世界中が、おかしくなってるよ{wait}{page}{voice:000E}ぼく、リビングにいるからね{wait}{n}{voice:000F}出かけるんだったら、声をかけてね{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:000C}The TV keeps showing nothing but breaking news...{wait}{f0}{voice:000D}The whole world's going crazy.{wait}{page}{voice:000E}I'll be in the living room.{wait}{n}{voice:000F}If you go out, let me know, okay?{wait}{end}"
  },
  {
   "id": "B:3B8A0",
   "jp": "{ee}{face:0008}{voice:001F}そうそう、おなかがすいているんなら{n}れいぞうこを見てみれば{wait}{page}{voice:0020}とだなの中にも{n}何か入っているかもしれないよ{wait}{end}",
-  "en": ""
+  "en": "{ee}{face:0008}{voice:001F}Oh, right. If you're hungry, take a look in the fridge.{wait}{page}{voice:0020}There might be something in the cupboard, too.{wait}{end}"
  },
  {
   "id": "B:3B91C",
   "jp": "{face:0008}{voice:0021}兄さん、出かけるの？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0021}Are you going out, big brother?{wait}{end}"
  },
  {
   "id": "B:3B93C",
   "jp": "{face:0008}{voice:0023}誰か来たのかな・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0023}I wonder if someone's here...?{wait}{end}"
  },
  {
   "id": "B:3B95C",
   "jp": "{face:0008}{voice:0008}うなされてたみたいだけど{n}だいじょうぶ・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0008}Sounded like you were having a nightmare. Are you okay...?{wait}{end}"
  },
  {
   "id": "B:3B998",
   "jp": "{face:00FF}{voice:0022}ああ・・・{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:0022}Yeah...{wait}{end}"
  },
  {
   "id": "B:3B9B0",
   "jp": "{voice:0032}いてつく氷の魔法！{n}ブフ！！{wait}{end}",
-  "en": ""
+  "en": "{voice:0032}Freezing magic of ice! Bufu!!{wait}{end}"
  },
  {
   "id": "B:3B9D4",
   "jp": "{face:0008}{voice:0036}兄さん！{n}・・・助けて・・・！{wait}{end}",
-  "en": ""
+  "en": "{face:0008}{voice:0036}Big brother! ...Help me...!{wait}{end}"
  },
  {
   "id": "B:3BA00",
   "jp": "{voice:0038}ヒーホー、仕方ないホー{n}そのコ、ボクが連れてくホー{wait}{end}",
-  "en": ""
+  "en": "{voice:0038}Hee-ho, can't be helped-ho! I'm taking this kid with me-ho!{wait}{end}"
  },
  {
   "id": "B:3BA3C",
   "jp": "{face:0000}{voice:0037}まてっ！弟を{n}どこに連れて行くんだ！？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0037}Wait! Where are you taking my brother!?{wait}{end}"
  },
  {
   "id": "B:3BA70",
   "jp": "{face:0000}{voice:0039}！？・・・ナガヒサ！・・・{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0039}!? ...Nagahisa! ...{wait}{end}"
  },
  {
   "id": "B:3BA98",
   "jp": "{face:0000}{voice:0053}・・・パートナー・・・？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0053}...Partner...?{wait}{end}"
  },
  {
   "id": "B:3BABC",
   "jp": "{face:00FF}{voice:0054}そうだ、イニシエのけいやくによって{n}封印をとかれたデビルは{wait}{page}{voice:0055}封印をといた者の{n}パートナーとして{wait}{f0}{voice:0056}自分の力をささげる事になっているのさ{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:0054}That's right. By the ancient contract, a Devil whose seal has been broken{wait}{page}{voice:0055}becomes the partner of the one who broke it,{wait}{f0}{voice:0056}and offers that person its power.{wait}{end}"
  },
  {
   "id": "B:3BB58",
   "jp": "{face:0000}{voice:0057}よくわからないけど・・{wait}{page}{voice:0058}それより、オレの弟が{n}あいつらにさらわれたんだ！{wait}{page}{voice:0059}ナガヒサは、オレにとって{n}たった１人の弟なんだ{wait}{page}{voice:005A}助けに行かなきゃ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0057}I don't really get it...{wait}{page}{voice:0058}More importantly, those guys kidnapped my brother!{wait}{page}{voice:0059}Nagahisa is the only brother I've got.{wait}{page}{voice:005A}I have to go save him!{wait}{end}"
  },
  {
   "id": "B:3BC04",
   "jp": "{face:00FF}{voice:0065}さあな？魔界は{n}デビルの住む世界だ{wait}{page}{voice:0066}人間とデビルは{wait}{page}{voice:0067}地上と魔界に分かれて{n}べつべつに、くらしてきたんだ・・・{wait}{page}{voice:0068}そうかんたんに、行けるとは{n}思えないが・・・・・・{wait}{page}{voice:0069}だがきっと、方法はあるはずだぜ{wait}{end}",
-  "en": ""
+  "en": "{face:00FF}{voice:0065}Who knows? Makai is the world where Devils live.{wait}{page}{voice:0066}Humans and Devils...{wait}{page}{voice:0067}have always lived apart, on the surface and in Makai...{wait}{page}{voice:0068}I doubt getting there will be that easy...{wait}{page}{voice:0069}But there's gotta be a way.{wait}{end}"
  },
  {
   "id": "B:3BCE8",
   "jp": "{face:0004}{voice:006F}あらっ{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:006F}Oh!{wait}{end}"
  },
  {
   "id": "B:3BCFC",
   "jp": "{face:0004}{voice:0070}・・・・どうしたの？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:0070}...What's wrong?{wait}{end}"
  },
  {
   "id": "B:3BD1C",
   "jp": "{face:0000}{voice:0071}ミライか・・・・{n}ナガヒサを見なかったかい？{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:0071}Mirai... Have you seen Nagahisa?{wait}{end}"
  },
  {
   "id": "B:3BD54",
   "jp": "{face:0004}{voice:05CF}ううん、見てないわ{n}・・・どうかしたの？{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:05CF}No, I haven't. ...Did something happen?{wait}{end}"
  },
  {
   "id": "B:3BD88",
   "jp": "{face:0000}{voice:05D0}さらわれ・・・イヤ、いいや！{n}ごめん、ちょっと急ぐんだ！{wait}{end}",
-  "en": ""
+  "en": "{face:0000}{voice:05D0}He got kidnap-- No, never mind! Sorry, I'm in a hurry!{wait}{end}"
  },
  {
   "id": "B:3BDCC",
   "jp": "{face:0004}{voice:05D1}ふーん・・・？？{wait}{n}{voice:05D2}雪はやんだけど、外は寒いわよ{wait}{page}{voice:05D3}・・・・気をつけてね{wait}{end}",
-  "en": ""
+  "en": "{face:0004}{voice:05D1}Hmm...??{wait}{n}{voice:05D2}The snow's stopped, but it's still cold out.{wait}{page}{voice:05D3}...Be careful, okay?{wait}{end}"
  },
  {
   "id": "B:3BE28",
-  "jp": "{ee}おお、{f8}か！{wait}{n}どうした？えっ、ナガヒサ？{wait}{page}さあ、見なかったぞ！{wait}{end}",
-  "en": ""
+  "jp": "{ee}おお、{name}か！{wait}{n}どうした？えっ、ナガヒサ？{wait}{page}さあ、見なかったぞ！{wait}{end}",
+  "en": "{ee}Oh, {name}!{wait}{n}What's up? Huh, Nagahisa?{wait}{page}Nope, haven't seen him!{wait}{end}"
  },
  {
   "id": "B:3BE70",
   "jp": "{ee}オイオイ！{n}まだ信号が赤なんだよ！{wait}{end}",
-  "en": ""
+  "en": "{ee}Whoa, whoa! The light's still red!{wait}{end}"
  },
  {
   "id": "B:3BE98",
   "jp": "{ee}このままだと人間は{n}ほろびるしかない！{wait}{end}",
-  "en": ""
+  "en": "{ee}At this rate, humanity is doomed!{wait}{end}"
  },
  {
   "id": "B:3BEC4",
   "jp": "{ee}ドーシテそんなに{n}急いでるの！？{wait}{end}",
-  "en": ""
+  "en": "{ee}Why are you in such a hurry!?{wait}{end}"
  },
  {
   "id": "B:3BEEC",
   "jp": "{ee}危なくてこどもたちを{n}帰す事ができないの{wait}{end}",
-  "en": ""
+  "en": "{ee}It's too dangerous to send the children home.{wait}{end}"
  },
  {
   "id": "B:3BF1C",
   "jp": "{face:0008}テレビのニュース、見た？{n}あっ、それからファックスも来てるよ{wait}{end}",
-  "en": ""
+  "en": "{face:0008}Did you see the news on TV? Oh, and a fax came, too.{wait}{end}"
  },
  {
   "id": "B:3BF60",
   "jp": "{face:0001}よし！それじゃあ{n}出発するか！{wait}{end}",
-  "en": ""
+  "en": "{face:0001}All right! Let's get going!{wait}{end}"
  },
  {
   "id": "B:3BF88",
-  "jp": "{ee}{face:0001}{f8}、気をつけろよ！{n}ここは魔界だからな！{wait}{end}",
-  "en": ""
+  "jp": "{ee}{face:0001}{name}、気をつけろよ！{n}ここは魔界だからな！{wait}{end}",
+  "en": "{ee}{face:0001}{name}, watch yourself! This is Makai!{wait}{end}"
  },
  {
   "id": "B:3BFBC",
   "jp": "ンッ！？それはデビライザーと{n}虹色のメシアのツノ・・！！{wait}{page}{ea}・・・・・・・{wait}{page}・・・・・・・オマエだ！{wait}{page}おれたちが探しているのは！{wait}{page}オーイ！いたぞー！{wait}{end}",
-  "en": ""
+  "en": "Hm!? That's a Deviliser and the rainbow Messiah Horn...!!{wait}{page}{ea}.......{wait}{page}.......It's you!{wait}{page}You're the one we've been looking for!{wait}{page}Hey! Over here! I found him!{wait}{end}"
  },
  {
   "id": "B:3C05C",
   "jp": "{voice:0094}大魔王様！{wait}{page}{voice:0095}人間のこどもは、ごめいれい通りに{wait}{f0}{voice:0096}アイスランドの魔王{n}ヘル様のもとへ送っておきました{wait}{end}",
-  "en": ""
+  "en": "{voice:0094}My Great Demon King!{wait}{page}{voice:0095}As you ordered, the human child{wait}{f0}{voice:0096}has been delivered to Hel-sama, the Demon Lord of Ice Land.{wait}{end}"
  },
  {
   "id": "B:3C0D0",
   "jp": "{face:0045}{voice:009B}ヘルには、あのこどもをかならず{n}ディープホールへ落とすように{wait}{f0}{voice:009C}めいじておけ！{wait}{page}{voice:009D}あいつのちすじを、受けつぐやつなど{n}おれの計画にはジャマなのだ{wait}{page}{voice:009E}世界の全てを、わが物にする{n}おれの計画にはな{wait}{page}{voice:009F}ナガヒサの方は、誰のこどもか{n}つきとめるまでは生かしておくのだ{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:009B}Order Hel to throw that child into the Deep Hole{wait}{f0}{voice:009C}without fail!{wait}{page}{voice:009D}Anyone who inherits that man's blood is nothing but a nuisance to my plan.{wait}{page}{voice:009E}My plan to make the whole world mine!{wait}{page}{voice:009F}As for Nagahisa, keep him alive until we learn whose child he is.{wait}{end}"
  },
  {
   "id": "B:3C1F0",
   "jp": "かしこまりました！{wait}{page}ヘル様にはかならず{n}ごめいれいを伝えておきます{wait}{end}",
-  "en": ""
+  "en": "Yes, my lord!{wait}{page}I will be sure to pass your orders on to Hel-sama.{wait}{end}"
  },
  {
   "id": "B:3C238",
   "jp": "{face:0045}{voice:0097}よしっ！{wait}{end}",
-  "en": ""
+  "en": "{face:0045}{voice:0097}Good!{wait}{end}"
  },
  {
   "id": "B:3C24C",
@@ -380,7 +380,7 @@
  },
  {
   "id": "B:3C260",
-  "jp": "{face:0011}{f8}{n}あなた、弟さんを{wait}{f0}探してるんだったわね！{wait}{page}ダストがね、魔界に現れた{n}人間の話を聞いたんだって{wait}{page}ダスト、話してあげてよ{wait}{end}",
+  "jp": "{face:0011}{name}{n}あなた、弟さんを{wait}{f0}探してるんだったわね！{wait}{page}ダストがね、魔界に現れた{n}人間の話を聞いたんだって{wait}{page}ダスト、話してあげてよ{wait}{end}",
   "en": ""
  },
  {
@@ -395,7 +395,7 @@
  },
  {
   "id": "B:3C490",
-  "jp": "{face:0012}安心しろ{f8}！{n}さらわれたのがきみの弟なら{wait}{page}かれは逃げ出したそうだ！{wait}{end}",
+  "jp": "{face:0012}安心しろ{name}！{n}さらわれたのがきみの弟なら{wait}{page}かれは逃げ出したそうだ！{wait}{end}",
   "en": ""
  },
  {
