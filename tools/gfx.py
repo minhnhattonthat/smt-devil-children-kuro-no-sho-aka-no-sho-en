@@ -450,11 +450,11 @@ def draw_menu_sheet(pac):
             for x in range(x0, x1):
                 if s.get(x, y) in (1, 2, 3):
                     s.set(x, y, 0)
-        x = x0 + (0 if x0 == 0 else 3)  # the game's cells start ~3 px inside the box: text at x0 lost its first letter
+        x = x0 + (0 if x0 == 0 else 5 if x0 == 180 else 3)  # (180: the tabs show sheet cols 180-184, keep them empty) the game's cells start ~3 px inside the box: text at x0 lost its first letter
         top = y0 + max(0, (y1 - y0 - 6) // 2)
         if x0 == 144 and y0 < 120:  # Devidas search tabs: centred
             w = sum(2 if c == ' ' else len(f5[c][0]) + 1 for c in text.upper()) - 1
-            x = x0 + 3 + max(0, (x1 - x0 - 3 - w) // 2)
+            x = x0 + 2 + max(0, (x1 - x0 - 3 - w) // 2)
         for c in text.upper():
             if c == ' ':
                 x += 2
