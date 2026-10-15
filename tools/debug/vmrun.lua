@@ -11,6 +11,6 @@ L.on_frame(function(n)
     m[o + #OPS] = 0x7E
     ptr = SCRIPT
   end
-  H.call(0x800262F4, ptr)
+  H.call(VM or 0x800262F4, ptr)
   L.log(string.format('vm: %08X', ptr))
 end)

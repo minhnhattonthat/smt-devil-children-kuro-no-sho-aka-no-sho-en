@@ -2,7 +2,7 @@
 -- buffer at +0xA, FFFF-terminated 16-bit units) and log windows that hold kana/kanji codes (0x57-0xFF, 0x180-0x2DF;
 -- 0x100-0x17F are English glyphs, 0x4000+ packed English). Log line: `JP <tag> w<N> <hex units>`.
 -- Load before scene.lua / msgs.lua: they call JPSCAN(tag).
-local WIN, STRIDE = 0x80149B08, 0x3CC
+local WIN, STRIDE = WIN or 0x80149B08, 0x3CC
 function JPSCAN(tag)
   local m = PCSX.getMemPtr()
   for w = 0, 63 do

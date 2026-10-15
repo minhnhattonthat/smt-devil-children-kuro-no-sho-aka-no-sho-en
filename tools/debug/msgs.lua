@@ -30,7 +30,7 @@ L.on_frame(function(n)
     local o = SCRIPT - 0x80000000
     local b = { 0x15, 0, 0, 0, 0x14, 0, id % 256, math.floor(id / 256), 0x16, 0, 0, 0, 0x7E, 0, 0, 0 }
     for k = 1, #b do m[o + k - 1] = b[k] end
-    H.call(0x800262F4, SCRIPT)
+    H.call(VM or 0x800262F4, SCRIPT)
     started, page, last, same, hold = true, 0, nil, 0, 0
     return
   end

@@ -14,6 +14,9 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
+sys.path.insert(0, str(Path(__file__).parent))
+from addrs import ADDR  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 EMU = ROOT / '.claude/skills/translate-retro-game/scripts/emu.py'
 BIOS = ROOT / 'tools/pcsx-redux/bios/SCPH-5500.bin'
@@ -30,7 +33,7 @@ def message_ids(book):
     d = (ROOT / ('work/orig/tree' if JP else 'build/files') / f'{book}_EVENT.BIN').read_bytes()
     seen, ids = set(), []
     for k in range(2100):
-        v = struct.unpack_from('<I', d, TABLE - BASE + 4 * k)[0]
+        v = struct.unpack_from('<I', d, ADDR[book]['ev_table'] - BASE + 4 * k)[0]
         if BASE <= v < BASE + len(d) and v not in seen:
             seen.add(v)
             ids.append(3000 + k)
@@ -42,14 +45,12 @@ def exe_ids(book):
     import re
     sys.path.insert(0, str(ROOT / 'tools'))
     import text
-    f = {'B': 'B_MAIN.EXE', 'R': 'R_MAIN.EXE'}[book]
-    d = (ROOT / 'work/orig/tree' / f).read_bytes()
-    shift = 0 if book == 'B' else 0xC  # R_MAIN is B_MAIN - 0xC
+    d = (ROOT / 'work/orig/tree' / ADDR[book]['main']).read_bytes()
     out, seen = [], set()
     for i in range(2400):  # beyond that the table runs into other data
         if i in (521, 536):  # interactive prompts (Yes/No window, a menu loop): the page loop never ends; see tour scenes
             continue
-        p = struct.unpack_from('<I', d, 0x800CECD4 - shift - 0x80010000 + 0x800 + 4 * i)[0]
+        p = struct.unpack_from('<I', d, ADDR[book]['exe_table'] - 0x80010000 + 0x800 + 4 * i)[0]
         o = p - 0x80010000 + 0x800
         if not 0x80010000 <= p < 0x80010000 + len(d) - 0x800 or p in seen:
             continue
@@ -66,7 +67,8 @@ def run_chunk(k, ids, book, out):
     cue = ROOT / (JP_CUE if JP else 'build/dc_en.cue')
     cmd = [sys.executable, '-X', 'utf8', str(EMU), str(cue), '--out', str(out / f'c{k}'),
            '--bios', str(BIOS), '--state-in', str(ROOT / f'work/states/field_{book}{"_jp" if JP else ""}.sstate'),
-           '--frames', '600000', '--timeout', '3000', '--script', str(ROOT / 'tools/debug/hijack.lua'),
+           '--frames', '600000', '--timeout', '3000', '--var', f"WIN={ADDR[book]['win']:#x}",
+           '--var', f"VM={ADDR[book]['vm']:#x}", '--script', str(ROOT / 'tools/debug/hijack.lua'),
            '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(lua),
            '--script', str(ROOT / 'tools/debug/msgs.lua'), '--var', "TAG='s'"]
     r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=3600)
@@ -122,6 +124,8 @@ def main():
     global OUT, JP
     if a.jp:
         OUT, JP = ROOT / 'work/qa/msgs_jp', True
+    elif a.book == 'R':
+        OUT = ROOT / 'work/qa/msgs_R'
     if not a.check_only:
         ids = [int(x) for x in a.ids.split(',')] if a.ids else message_ids(a.book)[a.first - 1:a.last]
         OUT.mkdir(parents=True, exist_ok=True)

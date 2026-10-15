@@ -15,6 +15,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).parent))
+import rmap  # noqa: E402
+from addrs import ADDR  # noqa: E402
 from scenes import SCENES, BOOKS  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -44,7 +46,9 @@ def run_scene(name, cue, book):
     for p in d.glob('*.png'):
         p.unlink()
     state = sc.get('state', f'work/states/field_{book}{SUF}.sstate')  # a user/bug state (shop, Webnet...) overrides the field one
+    A = ADDR[book]
     extra = ['--state-in', str(ROOT / state), '--frames', str(sc.get('max', 12000)),
+             '--var', f"WIN={A['win']:#x}", '--var', f"VM={A['vm']:#x}",
              '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(ROOT / 'tools/debug/scene.lua'),
              '--var', 'STEPS=' + lua_steps(sc['steps'])]
     if 'ops' in sc:  # a synthetic event script (bytes) or an existing one ('ptr') run by the game's event VM
@@ -55,10 +59,13 @@ def run_scene(name, cue, book):
                   '--var', f"PTR={sc['ptr']:#x}"]
     if 'call' in sc:
         fn, *args = sc['call']
+        if book != 'B':  # scene addresses are B_MAIN's
+            fn = rmap.rmap(fn)[0]
         extra += ['--script', str(ROOT / 'tools/debug/warp.lua'), '--var', f'FN={fn:#x}', '--var', 'AT=10']
         extra += [x for i, a in enumerate(args) for x in ('--var', f'A{i}={a:#x}')]
         if sc.get('poke'):
-            extra += ['--var', 'POKE={' + ','.join(f'[{a:#x}]={v}' for a, v in sc['poke'].items()) + '}']
+            poke = {(A['group'] if a == ADDR['B']['group'] else a): v for a, v in sc['poke'].items()}
+            extra += ['--var', 'POKE={' + ','.join(f'[{a:#x}]={v}' for a, v in poke.items()) + '}']
     r = emu(cue, d, extra, book)
     got = sorted(d.glob('s[0-9]*.png'))
     ok = r.returncode == 0 and len(got) == sc['steps'].count('shot')
@@ -101,11 +108,12 @@ def sheet(group, names):
 
 def regen(book):
     disc = ROOT / (JP_CUE if SUF else 'build/dc_en.cue')
-    route = ROOT / ('tools/routes/load_save.txt' if book == 'B' else 'tools/routes/load_save_red.txt')
-    card = ROOT / BOOKS[book]['card']
+    # Black: the user's save (Continue); Red: a new game mashed to the first field (the classroom), no save needed
+    route = ROOT / ('tools/routes/load_save.txt' if book == 'B' else 'tools/routes/new_red.txt')
+    card = ['--memcard', str(ROOT / BOOKS['B']['card'])] if book == 'B' else []
     out = ROOT / 'work/qa/mkstate'
-    r = emu(disc, out, ['--memcard', str(card), '--route', str(route),
-                        '--state-out', str(ROOT / f'work/states/field_{book}{SUF}.sstate')], book)
+    r = emu(disc, out, card + ['--route', str(route),
+                               '--state-out', str(ROOT / f'work/states/field_{book}{SUF}.sstate')], book)
     print(r.stdout[-300:], r.stderr[-300:])
     return r.returncode
 
@@ -121,6 +129,8 @@ def main():
     global OUT, SUF
     if a.jp:
         OUT, SUF = ROOT / 'work/qa/tour_jp', '_jp'
+    elif a.book == 'R':
+        OUT = ROOT / 'work/qa/tour_R'
     if a.cmd == 'regen':
         return regen(a.book)
     if a.cmd == 'list':
