@@ -279,8 +279,10 @@ vwf_adv:
     .error "code cave overflow"
 .endif
 
-.org CAVE3                      ; third cave (B 0x800D1C00, 576 bytes; the game writes variables at B 0x800D1BB0..BC3, so the cave starts after them)
-jp_map:                         ; a3 = JP glyph (< 0x4000); free: at, v1. 0x19-0x22 digits, 0x23-0x3C A-Z, 0x3D-0x56 a-z
+; Pieces A, B, C: the zero tails of in-place translated text slots (build.place_pieces picks them per EXE; unlike the
+; zero BSS "caves", nothing in the game reads or writes a freed text tail). Sizes: A 0x40, B 0x50, C 0x150.
+.org CAVEA
+jp_map:                        ; a3 = JP glyph (< 0x4000); free: at, v1. 0x19-0x22 digits, 0x23-0x3C A-Z, 0x3D-0x56 a-z
     lui     at, hi(name_flag)
     lbu     v1, lo(name_flag)(at)
     nop
@@ -299,6 +301,10 @@ jp_map:                         ; a3 = JP glyph (< 0x4000); free: at, v1. 0x19-0
 @@done:
     j       DRAW_HEAD2
     ori     v0, zero, 0xFFFD
+.if . > CAVEA_END
+    .error "piece A overflow"
+.endif
+.org CAVEB
 ne_enter:
     lui     at, hi(name_flag)
     ori     v1, zero, 1
@@ -323,7 +329,11 @@ pw_leave:
     sb      zero, lo(name_flag)(at)
     j       NAME_PW_OUT + 8
     nop
-def_a:                          ; default-name fill: v0 = src, a2 = dest (v1 set by the hook's delay slot)
+.if . > CAVEB_END
+    .error "piece B overflow"
+.endif
+.org CAVEC
+def_a:                         ; default-name fill: v0 = src, a2 = dest (v1 set by the hook's delay slot)
     lui     t7, hi(NAME_DEF_RET)
     b       def_name
     ori     t7, t7, lo(NAME_DEF_RET)
@@ -419,8 +429,8 @@ def_name:                       ; v0 = default name, a2 = buffer, v1 = 1 for the
     jr      t7
     sh      at, 0(a2)
 
-.if . > CAVE3_END
-    .error "code cave 3 overflow"
+.if . > CAVEC_END
+    .error "piece C overflow"
 .endif
 
 .org CAVE2                      ; second cave (B 0x800D61FC, 512 bytes, zero in RAM during play): data

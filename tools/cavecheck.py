@@ -26,12 +26,15 @@ CAVE2_SPAN = 0x240  # 0x200 of tables + relocated strings (build.RELOCATE)
 
 
 def caves(exe):
-    """[(name, lo, hi)] of one main EXE from build.EXE_ADDR; hi = end of the bytes actually used in build/files/<exe>
-    (the declared end when not built yet): a game variable in the unused tail is harmless."""
+    """[(name, lo, hi)] of one main EXE: cave 1/2 (build.EXE_ADDR) and the text-tail pieces A/B/C (build/pieces.json);
+    hi = end of the bytes actually used in build/files/<exe> (a game variable in the unused tail is harmless)."""
+    import json
     import build
     a = build.EXE_ADDR[exe]
-    out = [('CAVE', a['CAVE'], a['CAVE_END']), ('CAVE2', a['CAVE2'], a['CAVE2'] + CAVE2_SPAN),
-           ('CAVE3', a['CAVE3'], a['CAVE3_END'])]
+    out = [('CAVE', a['CAVE'], a['CAVE_END']), ('CAVE2', a['CAVE2'], a['CAVE2'] + CAVE2_SPAN)]
+    pj = ROOT / 'build/pieces.json'
+    if pj.exists():
+        out += [('PIECE' + k, lo, hi) for k, (lo, hi) in sorted(json.loads(pj.read_text()).get(exe, {}).items())]
     built = ROOT / 'build/files' / exe
     if not built.exists():
         return out
@@ -43,7 +46,7 @@ def _sx(v):
     return v - 0x10000 if v & 0x8000 else v
 
 
-def scan(path, cvs):
+def scan(path, cvs, base=0x80010000):
     """[(file offset of the lui, target address, cave name, 'FAIL'|'WARN')] without duplicates."""
     d = path.read_bytes()
     n = len(d) // 4
@@ -74,6 +77,22 @@ def scan(path, cvs):
     return [(o, a, nm, lv) for (o, a), (nm, lv) in sorted(out.items())]
 
 
+def scan_words(path, cvs, skip_own, base):
+    """Pointers to a cave in the BUILT file's data (the build repoints strings, so the original tree is no guide).
+    Words inside the caves themselves (our own code and tables) are skipped."""
+    d = path.read_bytes()
+    d = d[0x800:] if path.suffix == '.EXE' else d
+    hits = []
+    for i in range(0, len(d) - 3, 4):
+        w = struct.unpack_from('<I', d, i)[0]
+        if skip_own and any(lo <= base + i < hi for _, lo, hi in skip_own):
+            continue
+        for name, lo, hi in cvs:  # (cave 1/2 pointers are ours: the relocated Fire string, build.RELOCATE)
+            if lo <= w < hi and name.startswith('PIECE'):
+                hits.append((i, w, name, 'FAIL'))
+    return hits
+
+
 def check(verbose=True):
     """Returns the number of FAILs over all books; prints every hit."""
     fails = 0
@@ -83,10 +102,17 @@ def check(verbose=True):
             p = TREE / f
             if not p.exists():
                 continue
-            for off, a, name, lv in scan(p, cvs):
+            for off, a, name, lv in scan(p, cvs, 0x80010000 if f.endswith('.EXE') else 0x80170000):
                 fails += lv == 'FAIL'
                 if verbose and (lv == 'FAIL' or '-v' in sys.argv):  # WARNs (game vars next to a cave) only with -v
                     print(f'{lv} {f} +{off:#x} -> {a:#010x} ({name})')
+            built = ROOT / 'build/files' / f
+            if built.exists():
+                for off, a, name, lv in scan_words(built, cvs, cvs if f.endswith('.EXE') else None,
+                                                   0x80010000 if f.endswith('.EXE') else 0x80170000):
+                    fails += 1
+                    if verbose:
+                        print(f'FAIL {f} (built) +{off:#x} points to {a:#010x} ({name})')
     return fails
 
 

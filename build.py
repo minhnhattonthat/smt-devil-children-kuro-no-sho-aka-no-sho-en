@@ -189,19 +189,52 @@ def map8():
     return bytes(m)
 
 
-# Cave 3 starts 0x5C past the free block: the game keeps variables at B 0x800D1BB0/BBC/BC0 (and R/N equivalents), written
-# in battle (the old start was clobbered -> garbled glyphs, white screen).
-EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
-    'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFCA4,
-                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4,
-                   'CAVE3': 0x800D1C00, 'CAVE3_END': 0x800D1E40},
-    'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800D0064,
-                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8,
-                   'CAVE3': 0x800D1FC0, 'CAVE3_END': 0x800D2200},
-    'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCFF0,
-                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0,
-                   'CAVE3': 0x800DEF4C, 'CAVE3_END': 0x800DF18C},
+# The zero "caves" are the game's BSS. B 0x800D1BA4-0x800D1E40 (old cave 3) is a GTE command queue the game fills in
+# battle: it overwrote our code (garbled glyphs, white screen). Cave 1/2 hold what has to stay there; the rest of the
+# code lives in pieces A/B/C (asm/main.asm), the zero tails of translated text slots (place_pieces).
+EXE_ADDR = {  # per-EXE hook addresses (same code, shifted)
+    'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFBA0,
+                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4},
+    'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800CFF60,
+                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8},
+    'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCEEC,
+                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0},
 }
+PIECES = (('C', 0x150), ('B', 0x50), ('A', 0x40))  # largest first; asm checks the real sizes
+
+
+def place_pieces(files, name):
+    """{'A': (start, end), ...} RAM addresses of the zero tails (in the built image, nonzero in the original) that
+    hold the asm pieces; the largest tail takes the largest piece. Also saved to build/pieces.json for cavecheck."""
+    import json
+    body = (files / name).read_bytes()[0x800:]
+    orig = (ROOT / 'work/orig/tree' / name).read_bytes()[0x800:]
+    runs, s = [], None
+    for i in range(0x1000, min(len(body), 0xD0000) + 1):
+        zero = i < len(body) and body[i] == 0
+        if zero and s is None:
+            s = i
+        elif not zero and s is not None:
+            # only the part up to the last original text byte: what follows may be original zero padding or BSS
+            used = [k for k in range(s, i) if orig[k]]
+            if used:
+                a, z = (s + 3) & ~3, (used[-1] + 1) & ~3
+                if z - a >= 0x40:
+                    runs.append((z - a, a, z))
+            s = None
+    runs.sort(reverse=True)
+    out = {}
+    for (key, size), (n, a, z) in zip(PIECES, runs):
+        if n < size:
+            sys.exit(f'{name}: no free text tail of {size:#x} bytes for piece {key} (largest {n:#x})')
+        out[key] = (0x80010000 + a, 0x80010000 + z)
+    if len(out) < len(PIECES):
+        sys.exit(f'{name}: only {len(runs)} free text tails for {len(PIECES)} pieces')
+    path = BUILD / 'pieces.json'
+    allp = json.loads(path.read_text()) if path.exists() else {}
+    allp[name] = out
+    path.write_text(json.dumps(allp))
+    return out
 
 
 EXE_TAG = {'B_MAIN.EXE': 'BM', 'R_MAIN.EXE': 'RM', 'N_MAIN.EXE': 'NM', 'B_BATTLE.BIN': 'BB', 'R_BATTLE.BIN': 'RB'}
@@ -301,6 +334,8 @@ def build_exe(files, name, mode='normal'):
     name_grid(files / name)
     password_words(files / name)
     eq = [x for k, v in EXE_ADDR[name].items() for x in ('-equ', k, '0x%X' % v)]
+    for key, (a, z) in place_pieces(files, name).items():
+        eq += ['-equ', f'CAVE{key}', '0x%X' % a, '-equ', f'CAVE{key}_END', '0x%X' % z]
     r = subprocess.run([str(ARMIPS), str(ROOT / 'asm' / 'main.asm'), '-strequ', 'EXE', str(files / name),
                         '-strequ', 'WIDTHS', str(BUILD / 'en_width.bin'), '-strequ', 'MAP8_FILE', str(BUILD / 'map8.bin'),
                         '-strequ', 'NAME_TAB_FILE', str(BUILD / 'name_tab.bin')] + eq, capture_output=True, text=True)

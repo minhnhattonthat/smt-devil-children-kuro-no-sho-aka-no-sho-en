@@ -68,8 +68,14 @@ def run_scene(name, cue, book):
             poke = {(A['group'] if a == ADDR['B']['group'] else a): v for a, v in sc['poke'].items()}
             extra += ['--var', 'POKE={' + ','.join(f'[{a:#x}]={v}' for a, v in poke.items()) + '}']
     if os.environ.get('CAVEWATCH'):  # log writes into the code caves (B_MAIN's), see tools/lua/cavewatch.lua
-        extra += ['--script', str(ROOT / 'tools/lua/cavewatch.lua'), '--var',
+        sys.path.insert(0, str(ROOT / 'tools'))
+        import cavecheck  # watch cave 1/2 and the text-tail pieces of this book's EXE
+        w = ','.join('{%d,%d}' % (lo, hi - lo) for _, lo, hi in cavecheck.caves(book + '_MAIN.EXE'))
+        extra += ['--script', str(ROOT / 'tools/lua/cavewatch.lua'), '--var', 'WATCH={' + w + '}', '--var',
                   f'EXE_FILE="{(ROOT / "build/files" / (book + "_MAIN.EXE")).as_posix()}"']
+    if os.environ.get('EXECWATCH'):  # "0xLO-0xHI,..": log any execution inside (slow, --debugger), see tools/lua/execwatch.lua
+        xr = ','.join('{%s,%s}' % tuple(r.split('-')) for r in os.environ['EXECWATCH'].split(','))
+        extra += ['--debugger', '--script', str(ROOT / 'tools/lua/execwatch.lua'), '--var', 'XR={' + xr + '}']
     r = emu(cue, d, extra, book)
     got = sorted(d.glob('s[0-9]*.png'))
     ok = r.returncode == 0 and len(got) == sc['steps'].count('shot')
