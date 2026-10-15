@@ -1,0 +1,12 @@
+[
+ {
+  "id": "BB:02BA50",
+  "jp": "はい{end}",
+  "en": "Yes{end}",
+  "max": 8
+ },
+ {
+  "id": "RB:02BA4C",
+  "same_as": "BB:02BA50"
+ }
+]

@@ -9,6 +9,10 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Tour:     `python -X utf8 tools/debug/tour.py regen` (fresh field state after each build), then `run [name|group]` -> work/qa/tour/sheet_*.png
             (menu, vinecom, battle, name). Scenes: tools/debug/scenes.py (steps, pixel waits, `call` = warp into a game function,
             `state` = a user savestate for shop/Webnet). `--jp` (regen + run) = same tour on the original disc for comparison.
+            Groups: menu vinecom battle name ops groups(scripted battles) demons(277 info screens) events(99 triggers). Every shot also
+            scans open windows for kana (JP report in the run output, work/qa/tour/jp_report.txt).
+            All dialogue: `python -X utf8 tools/debug/msgtour.py --jobs 8` -> work/qa/msgs (every page shot, overflow flags, JP scan);
+            `msgid.py <id>` maps a page name back to its script entry. Details: docs/re/README.md "Scene warps".
 - Saves:    user's card `E:\DuckStation\memcards\dc_en_1.mcd` (copy to work/, pass `--memcard`); routes `tools/routes/load_save.txt` (to field), `load_status.txt` (ally status). emu.py runs muted at 8x speed (~20 s per 10k frames).
 - Release:  (not yet) xdelta3 against the .bin only; never publish without the user.
 

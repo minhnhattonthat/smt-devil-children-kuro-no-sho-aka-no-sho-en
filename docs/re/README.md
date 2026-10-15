@@ -69,7 +69,24 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
   Calling it from the field (CPU hijack, tools/debug/warp.lua) works; the game returns to the field afterwards.
 - Name entry 0x800218D4 and the password screen 0x80020A88 can be called the same way, but draw over the field
   (the garbage bars at the right of the grid are the field's VRAM, not a bug).
-- Not found yet: event runner (the VM lives in B_MAIN near 0x8005E0xx, opcode handlers call B_EVENT), shop entry.
+- **Event VM**: 0x800262F4(a0 = script pointer) runs a script to its 0x7E end op, blocking (loop: opcode table at
+  0x800A9AA8, handlers in B_EVENT 0x8018xxxx / B_MAIN; waits via a callback at 0x80159718+0x24; frame sync 0x8004DF90).
+  The pc is the pointer at 0x800D7BA0. Ops are 4+ bytes `[op][arg8][arg16...]`. Known: 0x14 `[14 00 id16]` show message
+  (id < 3000: B_MAIN pointer table 0x800CECD4, else overlay table 0x801BA0F8 index id-3000), 0x15 open box, 0x16 wait/close,
+  0x28 scripted battle (byte 2 -> 0x800D79D8 = enemy group, calls 0x800523A8(1)), 0x43 choice (prompt id, options id, branch ptr),
+  0x2E demon info screen (`[2E 00 idx 00]`, idx 0-276), 0x44 same via Vine Center, 0x30 name entry, 0x4F password, 0x4E battle type 2.
+  A minimal script showing one message: `15 00 00 00 | 14 00 id16 | 16 00 00 00 | 7E` (tools/debug/msgs.lua).
+- Step triggers (walk onto a tile): per-map table at 0x800CC9CC -> [sub id u32, list ptr u32]... -> entries
+  `x y flag pad ptr32` (8 bytes, x = 0xFF ends), tested every frame by 0x8005D630; 17 maps, 99 distinct scripts.
+- Windows: array 0x80149B08, 64 x 0x3CC (flags word, +4 x, +5 y, +0xA expanded buffer ending FFFD). 0x80034A24(ptr,x,y,style) opens
+  a dialogue window and blocks until it ends (needs the VM loop to draw the box); 0x8003493C only opens it.
+- CPU hijack (tools/debug/hijack.lua): save all registers, set ra to a spin loop in free RAM (0x8014F000), jump to the function;
+  a blocking function runs while the script keeps pressing keys and shooting. LuaJIT in PCSX-Redux dies ('stack overflow')
+  after ~175 hijacks in one run, so tools restart the emulator every ~100 messages.
+- Battle: enemy group = byte 0x800D79D8 before `0x800523A8(1)`; groups 0x00-0x16 and 0x30-0x6D exist (the rest are empty).
+- Shops/bank/training/healing screens (strings BM:001EC0-002360: Deposit, Withdraw, Total cost, Sold out...) are not
+  reached yet; no code references those strings by address (label ids go through a table). Probing VM ops with zero operands
+  (tools/debug/scenes.py `op_*`) opens nothing else; they probably need operands or game flags.
 
 ## Text call graph (B_MAIN)
 - 0x8003479C (215 callers in B_MAIN, 31 in B_BATTLE, 14 in B_EVENT): allocate a 16x16 text window (adv 12) and

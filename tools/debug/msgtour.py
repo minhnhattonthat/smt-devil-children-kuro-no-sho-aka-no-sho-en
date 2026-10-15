@@ -34,7 +34,30 @@ def message_ids(book):
         if BASE <= v < BASE + len(d) and v not in seen:
             seen.add(v)
             ids.append(3000 + k)
-    return ids
+    return exe_ids(book) + ids
+
+
+def exe_ids(book):
+    """Ids below 3000 point into B_MAIN's own message table (0x800CECD4): tutorial, shop, bank talk. Only real text."""
+    import re
+    sys.path.insert(0, str(ROOT / 'tools'))
+    import text
+    f = {'B': 'B_MAIN.EXE', 'R': 'R_MAIN.EXE'}[book]
+    d = (ROOT / 'work/orig/tree' / f).read_bytes()
+    shift = 0 if book == 'B' else 0xC  # R_MAIN is B_MAIN - 0xC
+    out, seen = [], set()
+    for i in range(2400):  # beyond that the table runs into other data
+        if i in (521, 536):  # interactive prompts (Yes/No window, a menu loop): the page loop never ends; see tour scenes
+            continue
+        p = struct.unpack_from('<I', d, 0x800CECD4 - shift - 0x80010000 + 0x800 + 4 * i)[0]
+        o = p - 0x80010000 + 0x800
+        if not 0x80010000 <= p < 0x80010000 + len(d) - 0x800 or p in seen:
+            continue
+        t = text.decode(d, o)[0]
+        if t.endswith('{end}') and len(re.findall('[ぁ-ヿ一-鿿]', t)) >= 3 and '[' not in t[:6]:
+            seen.add(p)
+            out.append(i)
+    return out
 
 
 def run_chunk(k, ids, book, out):
