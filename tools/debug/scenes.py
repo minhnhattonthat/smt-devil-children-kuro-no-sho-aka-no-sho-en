@@ -3,6 +3,8 @@
 steps: button names (`right*3` = three presses), `wait N`, `shot` (take a screenshot here).
 call:  (function, a0, a1..) hijacks the CPU at frame 10 and calls the game function (tools/debug/warp.lua).
 poke:  {addr: byte} written the frame before.
+state: a savestate path (shop, Webnet, anything the warps can't reach) instead of the field state; make it with
+       emu.py --state-out or take the user's, then list the scene here. States keep old RAM: regenerate after builds.
 Grow this list whenever a bug report names a screen it can't reach.
 """
 BOOKS = {'B': {'card': 'work/qa_card.mcd'}, 'R': {'card': 'work/qa_card_red.mcd'}}

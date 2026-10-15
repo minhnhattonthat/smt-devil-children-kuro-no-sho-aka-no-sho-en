@@ -40,7 +40,8 @@ def run_scene(name, cue, book):
     d.mkdir(parents=True, exist_ok=True)
     for p in d.glob('*.png'):
         p.unlink()
-    extra = ['--state-in', str(ROOT / f'work/states/field_{book}{SUF}.sstate'), '--frames', str(sc.get('max', 12000)),
+    state = sc.get('state', f'work/states/field_{book}{SUF}.sstate')  # a user/bug state (shop, Webnet...) overrides the field one
+    extra = ['--state-in', str(ROOT / state), '--frames', str(sc.get('max', 12000)),
              '--script', str(ROOT / 'tools/debug/scene.lua'), '--var', 'STEPS=' + lua_steps(sc['steps'])]
     if 'call' in sc:
         fn, *args = sc['call']
