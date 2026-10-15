@@ -390,6 +390,9 @@ def build(mode='normal'):
         insert_strings(files, ov, mode, 'battle', exe_mod.battle_strings)
     build_event(files, 'B', 'B_EVENT.BIN', mode)
     build_event(files, 'R', 'R_EVENT.BIN', mode)
+    import cavecheck
+    if cavecheck.check():  # the game's own variables sit in a cave: see tools/cavecheck.py
+        sys.exit('build stopped: game code references the patch caves')
     overrides = {p.name: p for p in files.iterdir()}
     make_disc(overrides, BUILD / 'dc_en.bin')
     print('built', BUILD / 'dc_en.bin')

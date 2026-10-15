@@ -7,4 +7,5 @@ ROOT = Path(__file__).resolve().parent.parent
 py = [sys.executable, '-X', 'utf8']
 rc = subprocess.call(py + ['-m', 'pytest', '-q', '-x', str(ROOT / 'tests')], cwd=ROOT)
 rc = rc or subprocess.call(py + [str(ROOT / 'tools' / 'names_check.py')], cwd=ROOT)
+rc = rc or subprocess.call(py + [str(ROOT / 'tools' / 'cavecheck.py')], cwd=ROOT)
 sys.exit(rc)

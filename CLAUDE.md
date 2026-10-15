@@ -31,6 +31,8 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Translation: `python -X utf8 tools/batches.py split|split-exe|check <b>|merge <b>`; brief `docs/translator-brief.md`,
   style `docs/style-reference.md`, speakers `docs/faces.md`, names `docs/names.md`. Fitter: `tools/lint.py "text{end}"`.
 - `build.py marker` = event + EXE markers. QA text sheet: `tools/qa_text.py work/qa/<run>`.
+- Caves (asm CAVE/CAVE2/CAVE3) are game BSS: `tools/cavecheck.py` (build + check.py run it) fails on game refs into the used bytes;
+  `tools/dsstate.py check <DuckStation .sav>` diffs a user savestate's code/caves vs the build (states: %LOCALAPPDATA%/DuckStation/savestates).
 - Savestates hold VRAM: after font changes cold-boot (`--route tools/routes/boot_menu.txt`). `--debugger` runs ~10x slow;
   emu.py timeouts can orphan `pcsx-redux.main` (locks build/dc_en.bin) - check tasklist.
 - Freeze tools/ and font/ while translator agents run (lint/wrap depend on them).
