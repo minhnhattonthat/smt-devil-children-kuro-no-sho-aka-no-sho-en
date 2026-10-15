@@ -189,16 +189,18 @@ def map8():
     return bytes(m)
 
 
+# Cave 3 starts 0x5C past the free block: the game keeps variables at B 0x800D1BB0/BBC/BC0 (and R/N equivalents), written
+# in battle (the old start was clobbered -> garbled glyphs, white screen).
 EXE_ADDR = {  # per-EXE hook addresses (same code, shifted); caves checked zero in the image
     'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFCA4,
                    'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4,
-                   'CAVE3': 0x800D1BA4, 'CAVE3_END': 0x800D1E40},
+                   'CAVE3': 0x800D1C00, 'CAVE3_END': 0x800D1E40},
     'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800D0064,
                    'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8,
-                   'CAVE3': 0x800D1F64, 'CAVE3_END': 0x800D2200},
+                   'CAVE3': 0x800D1FC0, 'CAVE3_END': 0x800D2200},
     'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCFF0,
                    'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0,
-                   'CAVE3': 0x800DEEF0, 'CAVE3_END': 0x800DF18C},
+                   'CAVE3': 0x800DEF4C, 'CAVE3_END': 0x800DF18C},
 }
 
 

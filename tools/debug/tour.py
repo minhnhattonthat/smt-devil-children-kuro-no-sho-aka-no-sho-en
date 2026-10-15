@@ -7,6 +7,7 @@ Output work/qa/tour/<name>/sNN.png and work/qa/tour/sheet_<group>.png (one tile 
 Re-run `regen` after every build that changes code, font or graphics: savestates keep the old RAM and VRAM.
 """
 import argparse
+import os
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -66,6 +67,9 @@ def run_scene(name, cue, book):
         if sc.get('poke'):
             poke = {(A['group'] if a == ADDR['B']['group'] else a): v for a, v in sc['poke'].items()}
             extra += ['--var', 'POKE={' + ','.join(f'[{a:#x}]={v}' for a, v in poke.items()) + '}']
+    if os.environ.get('CAVEWATCH'):  # log writes into the code caves (B_MAIN's), see tools/lua/cavewatch.lua
+        extra += ['--script', str(ROOT / 'tools/lua/cavewatch.lua'), '--var',
+                  f'EXE_FILE="{(ROOT / "build/files" / (book + "_MAIN.EXE")).as_posix()}"']
     r = emu(cue, d, extra, book)
     got = sorted(d.glob('s[0-9]*.png'))
     ok = r.returncode == 0 and len(got) == sc['steps'].count('shot')

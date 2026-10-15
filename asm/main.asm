@@ -279,7 +279,7 @@ vwf_adv:
     .error "code cave overflow"
 .endif
 
-.org CAVE3                      ; third cave (B 0x800D1BA4, 668 bytes, zero in the image and in RAM during play)
+.org CAVE3                      ; third cave (B 0x800D1C00, 576 bytes; the game writes variables at B 0x800D1BB0..BC3, so the cave starts after them)
 jp_map:                         ; a3 = JP glyph (< 0x4000); free: at, v1. 0x19-0x22 digits, 0x23-0x3C A-Z, 0x3D-0x56 a-z
     lui     at, hi(name_flag)
     lbu     v1, lo(name_flag)(at)

@@ -110,3 +110,15 @@ SCENES['web_edit_deep'] = dict(group='webnet', cold=True, card=True, max=12000,
 for _g in range(0x70):
     SCENES[f'bg_{_g:02x}'] = dict(group='groups', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=6000,
                                   steps=['wait 450', 'shot', 'mash circle 16 158 65 164 172', 'wait 20', 'shot'])
+
+# fight a scripted group to the end: confirm spam, shot every ~240 frames (result screen)
+for _g in range(0, 8):
+    SCENES[f'b_win{_g}'] = dict(group='battle', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=9000,
+                                steps=['wait 450'] + ['circle', 'wait 40', 'circle', 'wait 40', 'circle', 'wait 160', 'shot'] * 8)
+
+# dialogue choice (op 0x43: prompt 3031, option list 3239 = "Stop and think it over / Listen a little more")
+SCENES['choice'] = dict(group='ops', ops=[67, 0, 0, 0, 0xD7, 0x0B, 0xA7, 0x0C, 0x3C, 0x91, 0x18, 0x80, 0x16, 0, 0, 0], max=900,
+                        steps=['wait 150', 'shot', 'circle', 'wait 60', 'shot'])
+
+SCENES['v_devidas_end'] = dict(group='vinecom', steps=VINE + ['right*2', 'circle', 'wait 90', 'circle', 'wait 90', 'up', 'wait 20', 'shot',
+                                                              'up*6', 'wait 20', 'shot', 'left', 'wait 20', 'shot', 'right*3', 'wait 20', 'shot'])
