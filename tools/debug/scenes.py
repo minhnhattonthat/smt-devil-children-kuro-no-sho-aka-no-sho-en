@@ -39,7 +39,8 @@ SCENES.update({
 })
 
 # battle: warp into a random encounter, dismiss the intro text, then walk the command menu
-BATTLE = ['mash circle 16 150 189 255 255', 'wait 20']  # press circle until the Fight button is lit
+# press circle until the Fight button is lit (its teal border, the same in the Japanese and English art)
+BATTLE = ['mash circle 16 158 65 164 172', 'wait 20']
 _B = dict(group='battle', call=(0x800523A8, 0))
 SCENES.update({
     'b_command': dict(_B, steps=BATTLE + ['shot']),

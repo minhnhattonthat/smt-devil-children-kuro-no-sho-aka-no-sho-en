@@ -33,6 +33,7 @@ L.on_frame(function(n)
     if n % 4 == 0 and match(p[1], p[2], p[3], p[4], p[5]) then
       i = i + 1 since = 0 tries = 0
     elseif since > LIMIT then
+      L.shot('timeout.png') -- what the screen looked like when the condition never matched
       L.fail('timeout at step ' .. s)
     elseif c == 'mash' and since % 90 == 1 then
       L.press(t[2], 6)

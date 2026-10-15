@@ -32,7 +32,7 @@ _B_MAIN = None
 
 # Strings the kana-ratio scan misses (Latin / digits / symbols dominate): found by their JP opening, in any file.
 FORCED_JP = ('EXP：', '{name}のHPが', 'メダルを何枚かけますか', '負け・・・', 'Pダウンコンボ', 'Pアップコンボ',
-             '{face:0002}なんか、めんどくさくなっちゃった')
+             '{face:0002}なんか、めんどくさくなっちゃった', 'なぞのデビル{end}', '回復　　{end}')
 
 
 def forced(d):

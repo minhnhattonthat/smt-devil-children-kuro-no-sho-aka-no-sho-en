@@ -1,0 +1,22 @@
+[
+ {
+  "id": "BB:00121C",
+  "jp": "なぞのデビル{end}",
+  "en": "Mystery Devil{end}",
+  "max": 16
+ },
+ {
+  "id": "BB:02ACA0",
+  "jp": "回復　　{end}",
+  "en": "Heal{end}",
+  "max": 12
+ },
+ {
+  "id": "RB:00121C",
+  "same_as": "BB:00121C"
+ },
+ {
+  "id": "RB:02ACA0",
+  "same_as": "BB:02ACA0"
+ }
+]
