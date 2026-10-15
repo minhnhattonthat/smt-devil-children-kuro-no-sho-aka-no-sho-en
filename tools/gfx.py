@@ -11,7 +11,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 sys.path.insert(0, str(Path(__file__).parent))
 import tim  # noqa: E402
@@ -28,7 +28,8 @@ MENU = [  # book-select menu: three TIMs, one per highlighted entry; label colou
 STRIP = {'box': (134, 240, 200, 255), 'text': 'Continue', 'kind': 'sprite', 'match': 2}
 TITLE_B = [
     {'kind': 'logo', 'box': (2, 72, 196, 141), 'sub_box': (58, 46, 145, 77), 'text': ('DEVIL', 'CHILDREN'),
-     'text_box': (14, 74, 188, 140), 'sub': [(54, 57, 'Shin Megami Tensei')]},
+     'text_box': (14, 74, 188, 140), 'heading': (59, 57),
+     'lines': [(42, 78, 112, 26), (16, 108, 166, 25)]},
     {'box': (28, 150, 101, 173), 'text': 'Black Book', 'size': 13},
     {'box': (16, 186, 84, 205), 'text': 'New Game', 'kind': 'pixel'},
     {'box': (16, 205, 84, 223), 'text': 'Continue', 'kind': 'pixel'},
@@ -36,7 +37,8 @@ TITLE_B = [
 ]
 TITLE_R = [
     {'kind': 'logo', 'box': (14, 74, 196, 141), 'sub_box': (80, 44, 155, 75), 'text': ('DEVIL', 'CHILDREN'),
-     'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'sub': [(86, 53, 'Shin Megami Tensei')],
+     'text_box': (92, 74, 196, 140), 'ref': (2, 1), 'heading': (96, 59),
+     'lines': [(105, 80, 76, 25), (96, 109, 98, 22)],
      'fix': {'plaque': (90, 82), 'haze_box': (66, 88, 98, 127), 'yellow_x': 80, 'tail_box': (80, 100, 98, 134), 'wing_box': (90, 118, 150, 142),
              'left_box': (14, 72, 46, 146), 'girl_x': 30}},
     {'box': (148, 150, 223, 168), 'text': 'Red Book', 'size': 13},
@@ -45,6 +47,7 @@ TITLE_R = [
     STRIP,
 ]
 EDITS = {
+    0x0156A220: [{'kind': 'main_logo', 'box': (20, 32, 237, 174)}],
     0x01586800: MENU, 0x01596A20: MENU, 0x015A6C40: MENU,
     0x015B7000: TITLE_B, 0x015C7800: TITLE_R,
 }
@@ -161,6 +164,80 @@ def text_mask(text, font, size, at):
     return {(at[0] + x, at[1] + y) for y in range(size[1]) for x in range(size[0]) if m[x, y] >= 128}
 
 
+def logo_line(im, text, box):
+    """Supersampled gold face, inset bevel, thin dark outline and silver rim.
+
+    Keep coverage until the final composite; thresholding the resized mask was
+    the source of the old stair-stepped edges. Quantization still uses the TIM CLUT.
+    """
+    x, y, w, h = box
+    scale, pad = 4, 4
+    f = ImageFont.truetype(str(FONTS / 'impact.ttf'), 160)
+    l, t, r, b = f.getbbox(text)
+    glyph = Image.new('L', (r - l, b - t))
+    ImageDraw.Draw(glyph).text((-l, -t), text, font=f, fill=255)
+    mask = Image.new('L', ((w + pad * 2) * scale, (h + pad * 2) * scale))
+    mask.paste(glyph.resize((w * scale, h * scale), Image.Resampling.LANCZOS), (pad * scale, pad * scale))
+    layer = Image.new('RGB', mask.size)
+    outer = mask.filter(ImageFilter.MaxFilter(17))
+    inner = mask.filter(ImageFilter.MaxFilter(9))
+    layer.paste((152, 152, 160), mask=outer)
+    layer.paste((16, 16, 24), mask=inner)
+    face = Image.new('RGB', mask.size)
+    d = ImageDraw.Draw(face)
+    stops = [(0, (255, 248, 152)), (.35, (255, 208, 24)), (.68, (248, 152, 8)), (1, (200, 64, 8))]
+    for yy in range(h * scale):
+        v = yy / (h * scale - 1)
+        a, b = next((a, b) for a, b in zip(stops, stops[1:]) if a[0] <= v <= b[0])
+        k = (v - a[0]) / (b[0] - a[0])
+        c = tuple(round(aa + (bb - aa) * k) for aa, bb in zip(a[1], b[1]))
+        d.line((0, yy + pad * scale, face.width, yy + pad * scale), fill=c)
+    layer.paste(face, mask=mask)
+    highlight = ImageChops.subtract(mask, ImageChops.offset(mask, scale, scale))
+    shade = ImageChops.subtract(mask, ImageChops.offset(mask, -scale, -scale))
+    layer.paste((255, 240, 136), mask=highlight)
+    layer.paste((128, 48, 8), mask=shade)
+    size = (w + pad * 2, h + pad * 2)
+    im.paste(layer.resize(size, Image.Resampling.LANCZOS), (x - pad, y - pad),
+             outer.resize(size, Image.Resampling.LANCZOS))
+
+
+def logo_heading(im, text, x, y):
+    """Unscaled pixel lettering: ivory with a dark outline, readable over art."""
+    glyphs = font5()
+    mask = Image.new('L', im.size)
+    d = ImageDraw.Draw(mask)
+    for c in text:
+        if c == ' ':
+            x += 3
+            continue
+        rows = glyphs[c]
+        for yy, row in enumerate(rows):
+            for xx, ch in enumerate(row):
+                if ch == '#':
+                    d.point((x + xx, y + yy), fill=255)
+        x += len(rows[0]) + 1
+    im.paste((16, 16, 24), mask=mask.filter(ImageFilter.MaxFilter(3)))
+    im.paste((248, 240, 216), mask=mask)
+
+
+def edit_main_logo(im):
+    """DEVIL.PAC 0x156A220, matched against cold_title VRAM at (512, 0).
+
+    The background is constant across each row (including its dither). Copy
+    clean left-margin pixels with the same parity, leaving copyright and the
+    green-keyed Start sprite below row 240 byte-for-byte intact.
+    """
+    px = im.load()
+    for y in range(32, 174):
+        for x in range(20, 237):
+            px[x, y] = px[x % 2, y]
+    logo_heading(im, 'SHIN MEGAMI TENSEI', 87, 43)
+    logo_line(im, 'DEVIL', (55, 59, 146, 40))
+    logo_line(im, 'CHILDREN', (22, 106, 212, 36))
+    draw_label(im, (27, 152, 229, 174), 'Black Book / Red Book', 14, (232, 232, 240))
+
+
 def fix_art(im, orig, f):
     """Red title: the girl and the monster's tail overlap the old logo. Put the plaque colour back where the logo
     erase left light haze, restore the tail from the original, and wipe logo leftovers on the girl's left."""
@@ -236,11 +313,6 @@ def edit_logo(im, e):
         logo = grow(logo, 3, box) - white
         logo |= {q for q in grow(logo, 4, box) if hsv[q][1] < 0.15 and hsv[q][2] > 0.55}  # grey edge over the white
     logo -= protect
-    # logo gradient by row, from the original fill
-    ys = sorted({y for _, y in fill})
-    rows = {y: [px[q] for q in fill if q[1] == y] for y in ys}
-    grad = [tuple(sum(c[k] for c in rows[y]) // len(rows[y]) for k in range(3)) for y in ys]
-    ink = Counter(px[q] for q in red).most_common(1)[0][0]
     # refill layer by layer from the edge: each pixel copies a random known neighbour (keeps marble speckle / white)
     rnd = random.Random(1)
     todo = set(logo)
@@ -256,28 +328,45 @@ def edit_logo(im, e):
         for q, c in layer.items():
             px[q] = c
         todo -= set(layer)
-    # English logo: each line stretched to the text box width
-    lines = e['text']
-    gap = e.get('gap', 2)
-    lh = (ty1 - ty0 - 8 - gap * (len(lines) - 1)) // len(lines)
-    draw = {}
-    full = (0, 0, im.width, im.height)
-    for i, s in enumerate(lines):
-        ly = ty0 + 4 + i * (lh + gap)
-        m = text_mask(s, str(FONTS / 'impact.ttf'), (tx1 - tx0 - 8, lh), (tx0 + 4, ly))
-        for q in grow(m, 4, full):
-            draw.setdefault(q, (72, 72, 88))
-        for q in grow(m, 2, full):
-            draw[q] = (8, 8, 16)
-        for q in m:
-            draw[q] = grad[min(len(grad) - 1, (q[1] - ly) * len(grad) // lh)]
-    for q, c in draw.items():
-        if q not in protect or q[0] < tx0 + 10:  # left edge: logo wins over stray character pixels
-            px[q] = c
-    for x, y, s in e['sub']:
-        draw_pixel_text(im, x, y, s, ink, (24, 8, 16))
     if 'fix' in e:
         fix_art(im, orig, e['fix'])
+    else:
+        # Black's narrower DEVIL line exposes space previously hidden by the
+        # stretched lettering. Rebuild the plaque/page beneath the entire old
+        # katakana silhouette, not random fragments of its yellow/black edges.
+        op = orig.load()
+        plaque = tuple(sum(op[x, y][k] for x in range(144, 156) for y in range(71, 75)) // 48 for k in range(3))
+        for y in range(72, 144):
+            for x in range(3, 178):
+                if (x, y) in protect and (x >= 170 or (y >= 120 and x >= 110)):
+                    continue
+                px[x, y] = plaque if x >= 54 and y < 138 else op[0, y]
+    clean = im.copy()
+    for s, line_box in zip(e['text'], e['lines']):
+        logo_line(im, s, line_box)
+    logo_heading(im, 'SHIN MEGAMI TENSEI', *e['heading'])
+    # Keep the foreground character pixels above the new lettering.
+    for q in protect:
+        px[q] = clean.getpixel(q)
+    if 'ref' not in e:
+        # Cool's red crest crosses the bottom line. Preserve its original
+        # pixels, including the dark red antialiasing, rather than the refill.
+        crest = {q for q, (h, s, v) in hsv.items() if q[0] >= 110 and q[1] >= 117
+                 and s > .3 and (h < 12 / 360 or h > 330 / 360)}
+        for q in crest | {q for q in protect if q[0] >= 170 or (q[0] >= 110 and q[1] >= 120)}:
+            px[q] = orig.getpixel(q)
+    else:
+        # Veil's pale wings and red tail also sit in front of the logo. White
+        # was excluded from the erase mask, so restore it after compositing too.
+        for key in ('wing_box', 'tail_box'):
+            ax, ay, bx, by = e['fix'][key]
+            for y in range(ay, by):
+                for x in range(ax, bx):
+                    c = orig.getpixel((x, y))
+                    h, s, v = colorsys.rgb_to_hsv(*(k / 255 for k in c))
+                    if ((key == 'wing_box' and s < .3 and v > .75)
+                            or (key == 'tail_box' and (h < 20 / 360 or h > 330 / 360) and s > .3 and v > .25)):
+                        px[x, y] = c
 
 
 def edit_tim(t, edits):
@@ -288,6 +377,9 @@ def edit_tim(t, edits):
     for i, e in enumerate(edits):
         x0, y0, x1, y1 = e['box']
         kind = e.get('kind', 'label')
+        if kind == 'main_logo':
+            edit_main_logo(im)
+            continue
         if kind == 'logo':
             edit_logo(im, e)
             continue
@@ -329,7 +421,7 @@ def best_offset(a, b):
     return best[1]
 
 
-def quantize_into(t, im, d, base):
+def quantize_into(t, im, d, base, box=None):
     """Write im back into the 8bpp TIM pixel data (nearest palette colour). d = the whole file (bytearray)."""
     assert t['bpp'] == 8
     cd = t['clut'][4]
@@ -337,8 +429,9 @@ def quantize_into(t, im, d, base):
     cache = {}
     px = im.load()
     data_off = t['end'] - len(t['data'])
-    for y in range(t['h']):
-        for x in range(t['pw']):
+    x0, y0, x1, y1 = box or (0, 0, t['pw'], t['h'])
+    for y in range(y0, y1):
+        for x in range(x0, x1):
             c = px[x, y]
             if c not in cache:
                 cache[c] = min(range(len(pal)), key=lambda i: sum((pal[i][k] - c[k]) ** 2 for k in range(3)))
@@ -570,7 +663,10 @@ def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
         im = edit_tim(t, edits)
-        quantize_into(t, im, pac, off)
+        # Main title: never remap the copyright/Start pixels, even when two
+        # palette entries have the same RGB but different PS1 transparency bits.
+        box = edits[0]['box'] if edits[0].get('kind') == 'main_logo' else None
+        quantize_into(t, im, pac, off, box)
     draw_menu_sheet(pac)
     draw_menu_sheet(pac, WEB_SHEET, WEB_BUTTONS, WEB_LABELS)
     draw_battle_buttons(pac)

@@ -85,7 +85,7 @@ for _p in TRIGGER_EVENTS:
 # cold boots (no savestate): title, book menu, each book's New Game / Continue box. emu.py needs a card for Continue.
 _BOOT = ['wait 1500', 'shot', 'start', 'wait 400', 'shot', 'start', 'wait 300', 'shot']
 SCENES.update({
-    'cold_title': dict(group='boot', cold=True, max=3000, steps=_BOOT),
+    'cold_title': dict(group='boot', cold=True, max=3000, steps=_BOOT[:5] + ['vram'] + _BOOT[5:]),
     'cold_book_right': dict(group='boot', cold=True, max=3000, steps=_BOOT[:-1] + ['right', 'wait 60', 'shot', 'right',
                                                                                    'wait 60', 'shot']),
     'cold_black_box': dict(group='boot', cold=True, max=8000, steps=_BOOT[:-1] + ['circle', 'wait 3300', 'shot']),
