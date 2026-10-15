@@ -82,6 +82,30 @@ for _p in TRIGGER_EVENTS:
     SCENES[f'ev_{_p:08x}'] = dict(group='events', ptr=_p, max=5000,
                                   steps=['wait 200', 'shot', 'scan'] + ['wait 45', 'scan', 'circle'] * 40 + ['shot'])
 
+# cold boots (no savestate): title, book menu, each book's New Game / Continue box. emu.py needs a card for Continue.
+_BOOT = ['wait 1500', 'shot', 'start', 'wait 400', 'shot', 'start', 'wait 300', 'shot']
+SCENES.update({
+    'cold_title': dict(group='boot', cold=True, max=3000, steps=_BOOT),
+    'cold_book_right': dict(group='boot', cold=True, max=3000, steps=_BOOT[:-1] + ['right', 'wait 60', 'shot', 'right',
+                                                                                   'wait 60', 'shot']),
+    'cold_black_box': dict(group='boot', cold=True, max=8000, steps=_BOOT[:-1] + ['circle', 'wait 3300', 'shot']),
+    'cold_red_box': dict(group='boot', cold=True, max=8000, steps=_BOOT[:-1] + ['right', 'circle', 'wait 3400', 'shot']),
+    'cold_web_box': dict(group='boot', cold=True, max=8000, steps=_BOOT[:-1] + ['down', 'circle', 'wait 3400', 'shot',
+                                                                               'wait 1200', 'shot']),
+})
+
+# Webnet (N book) from a cold boot with the QA card: guide, edit, battle, trade, fusion; every action one scene
+_WEB = _BOOT[:-1] + ['down', 'circle', 'wait 3400']
+for _name, _keys in (('guide', ['circle']), ('edit', ['right', 'circle']), ('battle', ['down', 'circle']),
+                     ('trade', ['down', 'right', 'circle']), ('fusion', ['down', 'right*2', 'circle'])):
+    SCENES[f'web_{_name}'] = dict(group='webnet', cold=True, card=True, max=9000,
+                                  steps=_WEB + ['shot'] + _keys + ['wait 400', 'shot', 'circle', 'wait 300', 'shot'])
+
+SCENES['web_edit_deep'] = dict(group='webnet', cold=True, card=True, max=12000,
+                               steps=_WEB + ['right', 'circle', 'wait 400', 'circle', 'wait 200', 'circle', 'wait 600',
+                                             'shot', 'circle', 'wait 200', 'shot', 'circle', 'wait 200', 'shot',
+                                             'down', 'wait 60', 'shot', 'circle', 'wait 200', 'shot'])
+
 # scripted battles: VM op 0x28 sets the enemy group in 0x800D79D8 and calls 0x800523A8(1); do the same for each id
 for _g in range(0x70):
     SCENES[f'bg_{_g:02x}'] = dict(group='groups', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=6000,

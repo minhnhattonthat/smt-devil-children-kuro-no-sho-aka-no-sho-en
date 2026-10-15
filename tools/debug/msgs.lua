@@ -48,6 +48,11 @@ L.on_frame(function(n)
   same = (h == last) and same + 1 or 0
   last = h
   if same >= 4 then -- stable: typing finished, waiting for the key
+    if page >= 12 then -- an interactive prompt that keeps coming back: tell the driver to restart after this id
+      L.log('loop id ' .. IDS[i])
+      L.finish(3)
+      return
+    end
     L.shot(string.format('%s%04d_%d.png', TAG or 'm', IDS[i], page))
     if JPSCAN then JPSCAN(string.format('%d_%d', IDS[i], page)) end
     page, same, last = page + 1, 0, nil

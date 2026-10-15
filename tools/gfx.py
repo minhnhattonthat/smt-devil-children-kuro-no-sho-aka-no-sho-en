@@ -421,11 +421,23 @@ def font8(pac):
     return out
 
 
-def draw_menu_sheet(pac):
+# The Webnet menu sheet (0x26E3800, same layout and palette): Copy/Erase/... and Guide/Edit/... buttons on the left, and
+# the search-tab labels at the same cells as MENU_SHEET's right half (so LABELS apply, minus the bottom-left hint).
+WEB_SHEET = 0x026E3800
+WEB_BUTTONS = {
+    (1, 16, 71, 31): 'Copy', (1, 32, 71, 47): 'Erase', (1, 48, 71, 63): 'Rearrange', (1, 64, 71, 79): 'Confirm',
+    (1, 80, 71, 95): 'Reset',
+    (1, 112, 47, 127): 'Guide', (1, 128, 47, 143): 'Edit', (1, 144, 47, 159): 'Battle', (1, 160, 47, 175): 'Trade',
+    (1, 176, 47, 191): 'Fusion',
+}
+WEB_LABELS = {k: v for k, v in LABELS.items() if k[0] != 0}
+
+
+def draw_menu_sheet(pac, off=MENU_SHEET, buttons=None, labels=None):
     import font
-    s = Sheet4(pac, MENU_SHEET)
+    s = Sheet4(pac, off)
     glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
-    for (x0, y0, x1, y1), text in BUTTONS.items():
+    for (x0, y0, x1, y1), text in (BUTTONS if buttons is None else buttons).items():
         for y in range(y0, y1):  # erase: text pixels take the row's most common body index
             body = Counter(s.get(x, y) for x in range(x0, x1) if s.get(x, y) >= 4)
             fill = body.most_common(1)[0][0] if body else 5
@@ -445,7 +457,7 @@ def draw_menu_sheet(pac):
                         s.set(x + xx, y0 + yy - 1, 1)
             x += adv - (1 - gap)
     f5 = font5()
-    for (x0, y0, x1, y1), text in LABELS.items():
+    for (x0, y0, x1, y1), text in (LABELS if labels is None else labels).items():
         for y in range(y0, y1):
             for x in range(x0, x1):
                 if s.get(x, y) in (1, 2, 3):
@@ -560,6 +572,7 @@ def apply(pac):
         im = edit_tim(t, edits)
         quantize_into(t, im, pac, off)
     draw_menu_sheet(pac)
+    draw_menu_sheet(pac, WEB_SHEET, WEB_BUTTONS, WEB_LABELS)
     draw_battle_buttons(pac)
     draw_status_labels(pac)
 

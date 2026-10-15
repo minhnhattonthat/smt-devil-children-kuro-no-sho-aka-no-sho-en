@@ -48,7 +48,7 @@ def exe_ids(book):
     d = (ROOT / 'work/orig/tree' / ADDR[book]['main']).read_bytes()
     out, seen = [], set()
     for i in range(2400):  # beyond that the table runs into other data
-        if i in (521, 536):  # interactive prompts (Yes/No window, a menu loop): the page loop never ends; see tour scenes
+        if i in (521, 522, 536, 537):  # interactive prompts (Yes/No window, a menu loop): the page loop never ends; see tour scenes
             continue
         p = struct.unpack_from('<I', d, ADDR[book]['exe_table'] - 0x80010000 + 0x800 + 4 * i)[0]
         o = p - 0x80010000 + 0x800
@@ -62,17 +62,32 @@ def exe_ids(book):
 
 
 def run_chunk(k, ids, book, out):
-    lua = out / f'ids_{k}.lua'
+    """Run ids in one emulator; a prompt that never ends (exit 3, 'loop id N' in the log) is skipped and the rest re-run."""
+    part = 0
+    while ids:
+        name = f'c{k}' if not part else f'c{k}_{part}'
+        rc, tail = run_one(name, ids, book, out)
+        log = out / name / 'log.txt'
+        loops = [int(x.split()[-1]) for x in (log.read_text().splitlines() if log.exists() else []) if x.startswith('loop id')]
+        if rc != 3 or not loops or loops[-1] not in ids:
+            return k, rc, tail
+        ids = ids[ids.index(loops[-1]) + 1:]
+        part += 1
+    return k, 0, 'ok'
+
+
+def run_one(name, ids, book, out):
+    lua = out / f'ids_{name}.lua'
     lua.write_text('IDS={' + ','.join(map(str, ids)) + '}\n')
     cue = ROOT / (JP_CUE if JP else 'build/dc_en.cue')
-    cmd = [sys.executable, '-X', 'utf8', str(EMU), str(cue), '--out', str(out / f'c{k}'),
+    cmd = [sys.executable, '-X', 'utf8', str(EMU), str(cue), '--out', str(out / name),
            '--bios', str(BIOS), '--state-in', str(ROOT / f'work/states/field_{book}{"_jp" if JP else ""}.sstate'),
            '--frames', '600000', '--timeout', '3000', '--var', f"WIN={ADDR[book]['win']:#x}",
            '--var', f"VM={ADDR[book]['vm']:#x}", '--script', str(ROOT / 'tools/debug/hijack.lua'),
            '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(lua),
            '--script', str(ROOT / 'tools/debug/msgs.lua'), '--var', "TAG='s'"]
     r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=3600)
-    return k, r.returncode, (r.stdout + r.stderr)[-200:]
+    return r.returncode, (r.stdout + r.stderr)[-200:]
 
 
 def white_bbox(im):

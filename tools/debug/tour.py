@@ -47,7 +47,7 @@ def run_scene(name, cue, book):
         p.unlink()
     state = sc.get('state', f'work/states/field_{book}{SUF}.sstate')  # a user/bug state (shop, Webnet...) overrides the field one
     A = ADDR[book]
-    extra = ['--state-in', str(ROOT / state), '--frames', str(sc.get('max', 12000)),
+    extra = (['--memcard', str(ROOT / BOOKS['B']['card'])] if sc.get('card') else []) + ([] if sc.get('cold') else ['--state-in', str(ROOT / state)]) + ['--frames', str(sc.get('max', 12000)),
              '--var', f"WIN={A['win']:#x}", '--var', f"VM={A['vm']:#x}",
              '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(ROOT / 'tools/debug/scene.lua'),
              '--var', 'STEPS=' + lua_steps(sc['steps'])]

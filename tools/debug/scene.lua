@@ -25,6 +25,9 @@ L.on_frame(function(n)
   for w in s:gmatch('%S+') do t[#t + 1] = w end
   local c = t[1]
   if c == 'wait' then wait = tonumber(t[2]) i = i + 1
+  elseif c == 'vram' then -- dump video memory (vram.vram.bin in the run folder), to find which sheet a screen draws from
+    L.dump_ppu('vram')
+    i = i + 1
   elseif c == 'scan' then -- JP window scan without a shot
     if JPSCAN then JPSCAN(string.format('f%d', n)) end
     i = i + 1
