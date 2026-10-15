@@ -9,7 +9,8 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Tour:     `python -X utf8 tools/debug/tour.py regen` (fresh field state after each build), then `run [name|group]` -> work/qa/tour/sheet_*.png
             (menu, vinecom, battle, name). Scenes: tools/debug/scenes.py (steps, pixel waits, `call` = warp into a game function,
             `state` = a user savestate for shop/Webnet). `--jp` (regen + run) = same tour on the original disc for comparison.
-            Groups: menu vinecom battle name ops groups(scripted battles) demons(277 info screens) events(99 triggers). Every shot also
+            Groups: menu vinecom battle name ops groups(scripted battles) demons(277 info screens) events(99 triggers) boot webnet
+            (cold boots, no state). Red Book: `regen --book R` then `run ... --book R` / `msgtour.py --book R` (output *_R dirs). Every shot also
             scans open windows for kana (JP report in the run output, work/qa/tour/jp_report.txt).
             All dialogue: `python -X utf8 tools/debug/msgtour.py --jobs 8` -> work/qa/msgs (every page shot, overflow flags, JP scan);
             `msgid.py <id>` maps a page name back to its script entry. Details: docs/re/README.md "Scene warps".
