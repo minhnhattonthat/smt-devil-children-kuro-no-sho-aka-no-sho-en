@@ -6,6 +6,8 @@ Skill: translate-retro-game (H:/translation/smt-devil-children-kuro-no-sho-aka-n
 - Build:    `python -X utf8 build.py`  -> build/dc_en.bin + .cue  (`build.py dump` once; `build.py identity` = byte-identical rebuild)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Smoke:    `python -X utf8 .claude/skills/translate-retro-game/scripts/emu.py build/dc_en.cue --out work/qa/smoke --bios tools/pcsx-redux/bios/SCPH-5500.bin --frames 2400 --smoke`
+- Tour:     `python -X utf8 tools/debug/tour.py regen` (fresh field state after each build), then `run [name|group]` -> work/qa/tour/sheet_*.png
+            (menu, vinecom, battle, name). Scenes: tools/debug/scenes.py (steps, pixel waits, `call` = warp into a game function).
 - Saves:    user's card `E:\DuckStation\memcards\dc_en_1.mcd` (copy to work/, pass `--memcard`); routes `tools/routes/load_save.txt` (to field), `load_status.txt` (ally status). emu.py runs muted at 8x speed (~20 s per 10k frames).
 - Release:  (not yet) xdelta3 against the .bin only; never publish without the user.
 

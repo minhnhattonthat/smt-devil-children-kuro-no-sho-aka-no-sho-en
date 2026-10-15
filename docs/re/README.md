@@ -62,6 +62,15 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
   (ホーリーチルドレン...), 36 bytes each. NAME_SEL / name_map hook it, so typed Latin is stored as 0x100+ASCII.
 - Field-menu money sign = 16x16 glyph 0x12 (♄-like Macca sign; jp.tbl reads it as 々), redrawn by build.macca_mark.
 
+## Scene warps (B_MAIN; tools/debug/)
+- Main loop 0x80026424 switches on mode byte 0x800D7776: 0 = 0x8005F0A8, 1 = field 0x8005A6BC, 2 = overlay (battle).
+  Field loop dispatches on 0x800D7AE2 (0-5). Overlay loads: 0x80032718(0x1ca) main/event, (0x1cc) B_BATTLE.
+- 0x800523A8(a0) = start a battle (a0 -> 0x800D7AE3: 0 random encounter, else scripted); enemy is random.
+  Calling it from the field (CPU hijack, tools/debug/warp.lua) works; the game returns to the field afterwards.
+- Name entry 0x800218D4 and the password screen 0x80020A88 can be called the same way, but draw over the field
+  (the garbage bars at the right of the grid are the field's VRAM, not a bug).
+- Not found yet: event runner (the VM lives in B_MAIN near 0x8005E0xx, opcode handlers call B_EVENT), shop entry.
+
 ## Text call graph (B_MAIN)
 - 0x8003479C (215 callers in B_MAIN, 31 in B_BATTLE, 14 in B_EVENT): allocate a 16x16 text window (adv 12) and
   copy the string with the expander. 0x8003486C: same for the 8x8 font. 0x8003493C: dialogue window.
