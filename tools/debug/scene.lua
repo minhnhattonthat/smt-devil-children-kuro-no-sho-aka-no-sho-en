@@ -25,7 +25,10 @@ L.on_frame(function(n)
   for w in s:gmatch('%S+') do t[#t + 1] = w end
   local c = t[1]
   if c == 'wait' then wait = tonumber(t[2]) i = i + 1
-  elseif c == 'shot' then L.shot(string.format('s%02d.png', nshot)) nshot = nshot + 1 i = i + 1
+  elseif c == 'shot' then
+    L.shot(string.format('s%02d.png', nshot))
+    if JPSCAN then JPSCAN(string.format('s%02d', nshot)) end
+    nshot = nshot + 1 i = i + 1
   elseif c == 'until' or c == 'mash' then
     local k = c == 'mash' and 3 or 2
     local p = nums(t, k)

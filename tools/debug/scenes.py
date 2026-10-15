@@ -64,3 +64,18 @@ SCENES.update({
     'name_demon': dict(group='name', call=(0x800218D4, 2, 0), steps=['wait 150', 'shot']),
     'password': dict(group='name', call=(0x80020A88, 0, 0), steps=['wait 150', 'shot']),
 })
+
+# VM opcode probes (zero operands): which op opens which screen? (event VM handlers: B_MAIN table at 0x800A9AA8)
+for _op in (18, 19, 28, 29, 31, 32, 33, 36, 37, 38, 42, 45, 46, 51, 52, 57, 58, 59, 61, 62, 68, 69, 70, 72, 74, 75, 76, 77):
+    SCENES[f'op_{_op:02d}'] = dict(group='ops', ops=[_op, 0, 0, 0, 0, 0, 0, 0], max=900,
+                                   steps=['wait 120', 'shot', 'wait 250', 'shot'])
+
+# demon info screen (VM op 0x2E, byte 2 = demon index, 277 records): name, stats, class/element/race, skills page
+for _d in range(277):
+    SCENES[f'demon_{_d:03d}'] = dict(group='demons', ops=[46, 0, _d % 256, 0, 0, 0, 0, 0], max=900,
+                                     steps=['wait 150', 'shot', 'right', 'wait 40', 'shot'])
+
+# scripted battles: VM op 0x28 sets the enemy group in 0x800D79D8 and calls 0x800523A8(1); do the same for each id
+for _g in range(0x70):
+    SCENES[f'bg_{_g:02x}'] = dict(group='groups', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=6000,
+                                  steps=['wait 450', 'shot', 'mash circle 16 158 65 164 172', 'wait 20', 'shot'])

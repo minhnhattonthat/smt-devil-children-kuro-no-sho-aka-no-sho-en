@@ -19,6 +19,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 BOX = {'dialog': {'px': 224, 'lines': 2}, 'choice': {'px': 200, 'lines': 6}}
 CURSOR = '[0000]'  # full-width space glyph (12 px) the choice cursor sits in
 MAX_UNITS = 250       # window source buffer: byte index -> 255 halfwords incl. inserted names
+# inserted names in px for wrapping (in-game: a 'Cool' line ran 8 px past the box when names counted as 0);
+# hero names take up to 8 glyphs (default Setsuna 40 px, 8 wide letters 64), partner/demon names 5
+NAME_PX = {'name': 48, 'partner': 32, 'ed': 32, 'f5': 32, 'f6': 32, 'f7': 32}
 NAME_UNITS = {'name': 8, 'partner': 12, 'ed': 12, 'f5': 12, 'f6': 12, 'f7': 12}  # estimated inserted name lengths
 TOKEN = re.compile(r'(\{[^}]*\}|\[[0-9A-F]{4}\])')
 BREAKS = ('page', 'f0')  # codes that start a new box (f0: assumed to clear; see docs/re)
@@ -36,14 +39,19 @@ def text_width(s):
     return 12 * s.count(CURSOR) + sum(w.get(ord(c), 16) for c in s.replace(CURSOR, ''))
 
 
+def line_px(s):
+    """Width of a line with its codes: plain text plus the assumed width of inserted names (NAME_PX)."""
+    return text_width(TOKEN.sub('', s)) + sum(NAME_PX.get(t[1:-1], 0) for t in TOKEN.findall(s))
+
+
 def wrap_page(s, px):
-    """Greedy wrap of one page's plain text (codes kept inline, zero width) -> list of lines."""
+    """Greedy wrap of one page's plain text (codes kept inline, names at NAME_PX) -> list of lines."""
     words = re.split(r'( )', s)
     lines, cur = [], ''
     for i in range(0, len(words), 2):
         word = words[i]
         cand = (cur + ' ' + word) if cur else word
-        if cur and text_width(TOKEN.sub('', cand)) > px:
+        if cur and line_px(cand) > px:
             lines.append(cur)
             cur = word
         else:
@@ -164,12 +172,11 @@ def lint_event(jp, en, box=None, mid=None):
         errs.append('control codes differ: jp %s / en %s' % (''.join(codes(jp)), ''.join(codes(en))))
     w = prepare(jp, en)
     for i, pg in enumerate(pages(w)):
-        text_lines = [TOKEN.sub('', ln) for ln in pg]
         if len(pg) > BOX[box]['lines'] and mid not in allowed_long():
             errs.append('page %d: %d lines > %d (split the box or shorten)' % (i + 1, len(pg), BOX[box]['lines']))
-        for ln in text_lines:
-            if text_width(ln) > BOX[box]['px']:
-                errs.append('line too wide (%dpx): %s' % (text_width(ln), ln))
+        for ln in pg:
+            if line_px(ln) > BOX[box]['px']:
+                errs.append('line too wide (%dpx): %s' % (line_px(ln), TOKEN.sub('', ln)))
     u = units(w)
     if u > MAX_UNITS:
         errs.append('message too long: %d units > %d' % (u, MAX_UNITS))

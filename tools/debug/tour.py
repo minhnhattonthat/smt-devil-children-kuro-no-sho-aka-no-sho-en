@@ -17,6 +17,9 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).parent))
 from scenes import SCENES, BOOKS  # noqa: E402
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 EMU = ROOT / '.claude/skills/translate-retro-game/scripts/emu.py'
 BIOS = ROOT / 'tools/pcsx-redux/bios/SCPH-5500.bin'
@@ -42,7 +45,14 @@ def run_scene(name, cue, book):
         p.unlink()
     state = sc.get('state', f'work/states/field_{book}{SUF}.sstate')  # a user/bug state (shop, Webnet...) overrides the field one
     extra = ['--state-in', str(ROOT / state), '--frames', str(sc.get('max', 12000)),
-             '--script', str(ROOT / 'tools/debug/scene.lua'), '--var', 'STEPS=' + lua_steps(sc['steps'])]
+             '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(ROOT / 'tools/debug/scene.lua'),
+             '--var', 'STEPS=' + lua_steps(sc['steps'])]
+    if 'ops' in sc:  # a synthetic event script (bytes) or an existing one ('ptr') run by the game's event VM
+        extra += ['--script', str(ROOT / 'tools/debug/hijack.lua'), '--script', str(ROOT / 'tools/debug/vmrun.lua'),
+                  '--var', 'OPS={' + ','.join(map(str, sc['ops'])) + '}']
+    if 'ptr' in sc:
+        extra += ['--script', str(ROOT / 'tools/debug/hijack.lua'), '--script', str(ROOT / 'tools/debug/vmrun.lua'),
+                  '--var', f"PTR={sc['ptr']:#x}"]
     if 'call' in sc:
         fn, *args = sc['call']
         extra += ['--script', str(ROOT / 'tools/debug/warp.lua'), '--var', f'FN={fn:#x}', '--var', 'AT=10']
@@ -52,7 +62,19 @@ def run_scene(name, cue, book):
     r = emu(cue, d, extra, book)
     got = sorted(d.glob('s[0-9]*.png'))
     ok = r.returncode == 0 and len(got) == sc['steps'].count('shot')
-    return name, ok, len(got), (r.stdout + r.stderr)[-300:]
+    return name, ok, len(got), (r.stdout + r.stderr)[-300:] + ''.join(jp_lines(d))
+
+
+def jp_lines(d):
+    """Windows with kana/kanji codes logged by jpscan.lua, decoded: ['\\nJP <tag> <text>', ...]."""
+    out = []
+    log = d / 'log.txt'
+    for line in log.read_text(errors='replace').splitlines() if log.exists() else []:
+        if line.startswith('JP '):
+            _, tag, _, *units = line.split()
+            raw = b''.join(int(u, 16).to_bytes(2, 'little') for u in units) + b'\xff\xff'
+            out.append(f'\nJP {tag} {text.decode(raw, 0)[0]}')
+    return out
 
 
 def sheet(group, names):
@@ -107,13 +129,18 @@ def main():
         return 0
     sel = [n for n, s in SCENES.items() if not a.names or n in a.names or s['group'] in a.names]
     cue = ROOT / (JP_CUE if a.jp else 'build/dc_en.cue')
-    bad = 0
+    bad, jp_all = 0, []
     with ThreadPoolExecutor(a.jobs) as ex:
         for name, ok, n, tail in ex.map(lambda n: run_scene(n, cue, a.book), sel):
-            print(('ok  ' if ok else 'FAIL'), name, n, '' if ok else tail)
+            jp = [x for x in tail.splitlines() if x.startswith('JP ')]
+            print(('ok  ' if ok else 'FAIL'), name, n, '' if ok else tail.split('\nJP ')[0], *[f'\n   {x}' for x in jp])
+            jp_all += [f'{name} {x}' for x in jp]
             bad += not ok
     for g in dict.fromkeys(SCENES[n]['group'] for n in sel):
         sheet(g, [n for n in sel if SCENES[n]['group'] == g])
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / 'jp_report.txt').write_text('\n'.join(jp_all) + '\n', encoding='utf-8')
+    print(len(jp_all), 'windows with Japanese text ->', OUT / 'jp_report.txt')
     return 1 if bad else 0
 
 
