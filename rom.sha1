@@ -1,0 +1,3 @@
+# SHA-1 of the supported dump (Redump 62163), in sha1sum format (`sha1sum -c rom.sha1` works too).
+f7a3e476f595e656d5d5788a27aa6beec504a5bc  rom/Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).bin
+c28f061a7aa565401a0106d3907e77945f186b81  rom/Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).cue

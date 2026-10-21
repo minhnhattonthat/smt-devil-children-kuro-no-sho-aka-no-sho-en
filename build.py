@@ -436,5 +436,8 @@ def build(mode='normal'):
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'build'
+    sys.path.insert(0, str(ROOT / 'tools'))
+    import check_rom
+    check_rom.check()
     sys.exit({'dump': lambda: dump() or 0, 'identity': identity, 'build': build,
               'marker': lambda: build('marker')}[cmd]())

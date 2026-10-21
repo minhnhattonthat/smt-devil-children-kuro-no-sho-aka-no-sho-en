@@ -24,7 +24,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import text  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
-EMU = ROOT / '.claude/skills/translate-retro-game/scripts/emu.py'
+# translate-retro-game plugin: $SKILL (the dir holding SKILL.md), else the newest installed copy
+EMU = (Path(os.environ['SKILL']) if os.environ.get('SKILL') else max(
+    (Path.home() / '.claude/plugins/cache/retro-translation/translate-retro-game').glob('*/skills/translate-retro-game'),
+    key=lambda p: p.stat().st_mtime)) / 'scripts/emu.py'
 BIOS = ROOT / 'tools/pcsx-redux/bios/SCPH-5500.bin'
 OUT = ROOT / 'work/qa/tour'
 SUF = ''  # '_jp' with --jp: the original disc, for a side-by-side with the English build
