@@ -112,12 +112,12 @@
  {
   "id": "B:32ACC",
   "jp": "そう・・・ざんねんね{n}　お金が足りないわよ{n}ありがとう♥{n}きっとプレミアがつくわよ！！{wait}{f0}サインも入れておくね♥{wait}{end}",
-  "en": "Oh... Too bad.{n}You don't have enough money.{n}Thank you!{n}It's gonna be a collector's item for sure!!{wait}{f0}I'll sign it for you, too!{wait}{end}"
+  "en": "Oh... Too bad.{wait}{end}"
  },
  {
   "id": "B:32AE4",
   "jp": "お金が足りないわよ{n}ありがとう♥{n}きっとプレミアがつくわよ！！{wait}{f0}サインも入れておくね♥{wait}{end}",
-  "en": "You don't have enough money.{n}Thank you!{n}It's gonna be a collector's item for sure!!{wait}{f0}I'll sign it for you, too!{wait}{end}"
+  "en": "You don't have enough money.{wait}{end}"
  },
  {
   "id": "B:32AF8",

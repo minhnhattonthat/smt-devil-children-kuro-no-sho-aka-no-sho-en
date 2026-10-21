@@ -27,6 +27,7 @@ L.on_frame(function()
   if H.active then
     local r = PCSX.getRegisters()
     if r.pc == SPIN or r.pc == SPIN + 4 then
+      H.ret = r.GPR.n.v0 -- the called function's return value
       for i = 1, 31 do r.GPR.r[i] = saved.r[i] end
       r.pc = saved.pc
       H.active = false

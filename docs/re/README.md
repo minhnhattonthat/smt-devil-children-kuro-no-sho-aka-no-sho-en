@@ -60,6 +60,9 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
   "Setsuna" -> e5 0a 61). Party slots 0x800E0918, stride 38: demon id, nickname 5 units + FFFF.
 - 0x80020A88 (via 0x8002119C) is the password screen, not name entry: input compared with kana words at 0x800A9F04
   (ホーリーチルドレン...), 36 bytes each. NAME_SEL / name_map hook it, so typed Latin is stored as 0x100+ASCII.
+- Password check: 0x8002119C(a0 = answer 0-6) runs the screen, then 0x800210F8 memcmps len*2 bytes (len table
+  0x800A9EF8, needs FFFF right after) -> v0 1/0. Grid: gap column counts as a cell, START = Done, SELECT = case.
+  Probe `tools/lua/call_password.lua` (logs v0; typing HOLYCHILDREN: answer 0 -> 1, answer 1 -> 0, 2026-10-22).
 - Field-menu money sign = 16x16 glyph 0x12 (♄-like Macca sign; jp.tbl reads it as 々), redrawn by build.macca_mark.
 
 ## Scene warps (B_MAIN; tools/debug/)

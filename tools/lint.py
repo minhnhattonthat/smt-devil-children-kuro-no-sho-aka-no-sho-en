@@ -151,7 +151,8 @@ def prepare(jp, en):
 
 @lru_cache(None)
 def allowed_long():
-    """Ids allowed more lines per page (e.g. overlapping pointers into one JP message): tools/lint_allow.txt."""
+    """Ids allowed more lines per page or other control codes (e.g. overlapping pointers into one JP message,
+    cut at their own reply): tools/lint_allow.txt."""
     p = Path(__file__).with_name('lint_allow.txt')
     return frozenset(ln.split()[0] for ln in p.read_text(encoding='utf-8').splitlines()
                      if ln.strip() and not ln.startswith('#')) if p.exists() else frozenset()
@@ -168,7 +169,7 @@ def lint_event(jp, en, box=None, mid=None):
     bad = [c for c in TOKEN.sub('', en) if not 0x20 <= ord(c) < 0x7F]
     if bad:
         errs.append('non-ASCII: %r' % ''.join(sorted(set(bad))))
-    if codes(jp) != codes(en):
+    if codes(jp) != codes(en) and mid not in allowed_long():
         errs.append('control codes differ: jp %s / en %s' % (''.join(codes(jp)), ''.join(codes(en))))
     w = prepare(jp, en)
     for i, pg in enumerate(pages(w)):
