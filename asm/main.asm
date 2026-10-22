@@ -46,6 +46,11 @@ D8_ADV      equ D8_ADV_SITE + 8
 .org VWF_SITE
     j       vwf_adv             ; delay slot keeps the original "addiu t3,t3,0x28"
 
+; --- Demon info / status header: the "EXP" sprite moves 150 -> 156 px so "Tanuki no Namamono" (name x 50) clears it;
+; the EXP value is a u16, right-aligned, at most 5 digits (from x ~195).
+.org EXP_X
+    addiu   v1, zero, 0x9C
+
 ; --- Number insertion ({num}): emit English digits (0x100+ASCII) instead of full-width (ASCII-0x17).
 .org NUM_SITE
     addiu   v0, v0, 0x100

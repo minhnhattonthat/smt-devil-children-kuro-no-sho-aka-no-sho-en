@@ -538,7 +538,7 @@ def draw_menu_sheet(pac, off=MENU_SHEET, buttons=None, labels=None):
                 if s.get(x, y) in (1, 2, 3):
                     s.set(x, y, fill)
         w = sum(glyphs[font.EN_BASE + ord(c)][1] for c in text) - 1
-        xe = x1 - 5 if x1 == 143 else x1  # the search tabs sample the last columns of the right-hand buttons
+        xe = x1 - 2 if x1 == 143 else x1  # the search tabs sample the last columns of the right-hand buttons (JP text ends at 140)
         gap = 1 if w <= xe - x0 - 2 else 0  # tight spacing when the word would not fit the button
         w -= (1 - gap) * (len(text) - 1)
         x = x0 + max(1, (xe - x0 - w) // 2)
@@ -630,7 +630,8 @@ def draw_battle_buttons(pac):
 STATUS_LABELS = [
     ((223, 115, 272, 130), 'Next Lv', 13, 11, 2), ((273, 115, 311, 130), 'Class', 13, 11, -1),
     ((312, 115, 352, 130), 'Element', 13, 11), ((353, 115, 393, 130), 'Race', 13, 11, -1),
-    ((335, 133, 393, 147), 'HP Cost', 13, 11), ((335, 149, 393, 163), 'MP Cost', 13, 11),
+    # Cost labels start 2 px in: the demon-info pentagram sprite samples column 335 (stray "|" marks)
+    ((335, 133, 393, 147), 'HP Cost', 13, 11, 2), ((335, 149, 393, 163), 'MP Cost', 13, 11, 2),
     ((351, 162, 403, 178), 'Surrender', 8, 1), ((351, 178, 403, 194), 'Combo', 8, 1),
     ((351, 193, 403, 209), 'Go for it!', 8, 1), ((351, 211, 403, 227), 'Call', 8, 1),
 ]
@@ -659,6 +660,76 @@ def draw_status_labels(pac):
             x += adv - (1 - gap)
 
 
+# battle status / stat-change pills (DEVIL.PAC 0x37F4800, 4bpp 256x256 at VRAM 512,256): the game draws whole 96x16
+# cells (R_BATTLE sprite uv 96,96 96x16 = Magic Up), so a pill may grow to the cell width. Rows of (left, right) cells;
+# None keeps the original ("Zzz"). Each pill keeps its own border/body colours; text 1 with shadow 3.
+BUFF_SHEET = 0x37F4800
+BUFF_LABELS = [
+    ('Happy', 'Shocked'), ('Frozen', 'Bomb'), ('Muted', 'Confused'), ('Charmed', None), ('Paralyze', 'Poison'),
+    ('Fainted', 'Attack Up'), ('Guard Up', 'Magic Up'), ('Accuracy Up', 'Speed Up'), ('M.Guard Up', 'All Up'),
+    ('Stat Reset', 'Attack Down'), ('Guard Down', 'Magic Down'), ('Accuracy Down', 'Speed Down'),
+    ('M.Guard Down', 'Stat Reset'), ('Stat Up Reset', 'Stat Down Reset'),
+]
+# big stat words over the target (DEVIL.PAC 0x4283800, VRAM 576,256): 64x32 cells, CLUT 9 (navy outline) .. f (lavender)
+BUFF_WORD_SHEET = 0x4283800
+BUFF_WORDS = {(0, 72): 'Magic', (64, 72): 'Attack', (128, 72): 'Guard',
+              (0, 104): 'M.Guard', (64, 104): 'Accuracy', (128, 104): 'All'}
+
+
+def draw_buff_labels(pac):
+    import font
+    s = Sheet4(pac, BUFF_SHEET)
+    glyphs = font.load_en(Path(__file__).resolve().parent.parent / 'font' / 'en16.txt')
+    for r, row in enumerate(BUFF_LABELS):
+        for c, text in enumerate(row):
+            if text is None:
+                continue
+            x0, y0 = 96 * c, 16 * r
+            cols = Counter(s.get(x, y) for y in range(y0 + 1, y0 + 12) for x in range(x0, x0 + 96))
+            border = next(v for v in (s.get(x, y0 + 6) for x in range(x0, x0 + 96)) if v not in (0, 1, 3))  # left edge
+            body = max((v for v in cols if v not in (0, 1, 3, border)), key=cols.get)
+            w = sum(glyphs[font.EN_BASE + ord(ch)][1] for ch in text) - 1
+            gap = 1 if w <= 88 else 0
+            w -= (1 - gap) * (len(text) - 1)
+            left = x0 + (96 - w - 8) // 2  # border, 3 px body, text, 3 px body, border
+            right = left + w + 7
+            for y in range(16):
+                for x in range(x0, x0 + 96):
+                    edge = 2 if y in (2, 10) else 1
+                    v = 0
+                    if y in (1, 11) and left < x < right or 2 <= y <= 10 and left <= x <= right:
+                        v = border if y in (1, 11) or x < left + edge or x > right - edge else body
+                    s.set(x, y0 + y, v)
+            x, top = left + 4, y0 - 3  # glyph row 4 (cap top) on pill row 1, like the Japanese
+            for ch in text:
+                px, adv = glyphs[font.EN_BASE + ord(ch)]
+                for yy in range(4, 15):
+                    for xx in range(16):
+                        if px[yy][xx] and x + xx < x0 + 96:
+                            s.set(x + xx, top + yy, 1 if px[yy][xx] == 1 else 3)
+                x += adv - (1 - gap)
+
+
+def draw_buff_words(pac):
+    s = Sheet4(pac, BUFF_WORD_SHEET)
+    f = ImageFont.truetype(str(FONTS / 'impact.ttf'), 160)
+    for (x0, y0), text in BUFF_WORDS.items():
+        l, t, r, b = f.getbbox(text)
+        k = 0.2  # italic slant, like the kanji
+        g = Image.new('L', (r - l + round(k * (b - t)), b - t))
+        ImageDraw.Draw(g).text((-l, -t), text, font=f, fill=255)
+        g = g.transform(g.size, Image.AFFINE, (1, k, -k * g.height, 0, 1, 0), Image.Resampling.BICUBIC)
+        h = 24
+        w = min(58, round(g.width * h / g.height))
+        m = Image.new('L', (64, 32))
+        m.paste(g.resize((w, h), Image.Resampling.LANCZOS), ((64 - w) // 2, (32 - h) // 2))
+        line = m.point(lambda v: 255 if v >= 64 else 0).filter(ImageFilter.MaxFilter(3)).load()
+        m = m.load()
+        for y in range(32):
+            for x in range(64):
+                s.set(x0 + x, y0 + y, 9 + round(m[x, y] * 6 / 255) if m[x, y] >= 32 else 9 if line[x, y] else 0)
+
+
 def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
@@ -671,6 +742,8 @@ def apply(pac):
     draw_menu_sheet(pac, WEB_SHEET, WEB_BUTTONS, WEB_LABELS)
     draw_battle_buttons(pac)
     draw_status_labels(pac)
+    draw_buff_labels(pac)
+    draw_buff_words(pac)
 
 
 def main():

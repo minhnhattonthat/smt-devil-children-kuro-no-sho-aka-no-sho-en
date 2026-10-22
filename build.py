@@ -194,11 +194,11 @@ def map8():
 # code lives in pieces A/B/C (asm/main.asm), the zero tails of translated text slots (place_pieces).
 EXE_ADDR = {  # per-EXE hook addresses (same code, shifted)
     'B_MAIN.EXE': {'DRAW_HEAD': 0x80033B14, 'NUM_SITE': 0x80034728, 'CAVE': 0x800CF900, 'CAVE_END': 0x800CFBA0,
-                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4},
+                   'CAVE2': 0x800D61FC, 'NAME_SEL': 0x80020EA0, 'NAME_DEF': 0x800212F4, 'EXP_X': 0x8001B7E0},
     'R_MAIN.EXE': {'DRAW_HEAD': 0x80033B0C, 'NUM_SITE': 0x80034720, 'CAVE': 0x800CFCC0, 'CAVE_END': 0x800CFF60,
-                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8},
+                   'CAVE2': 0x800D65BC, 'NAME_SEL': 0x80020E94, 'NAME_DEF': 0x800212E8, 'EXP_X': 0x8001B808},
     'N_MAIN.EXE': {'DRAW_HEAD': 0x8004AF3C, 'NUM_SITE': 0x8004BB50, 'CAVE': 0x800DCC4C, 'CAVE_END': 0x800DCEEC,
-                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0},
+                   'CAVE2': 0x800E3548, 'NAME_SEL': 0x8002214C, 'NAME_DEF': 0x800225A0, 'EXP_X': 0x8001CA8C},
 }
 PIECES = (('C', 0x150), ('B', 0x50), ('A', 0x40))  # largest first; asm checks the real sizes
 
