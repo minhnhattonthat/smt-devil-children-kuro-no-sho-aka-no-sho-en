@@ -1,0 +1,12 @@
+[
+ {
+  "id": "BB:02AC10",
+  "jp": "ネットライザ－コ－ル　　　　　　　　　　　　{end}",
+  "en": "Net Riser Call{end}",
+  "max": 48
+ },
+ {
+  "id": "RB:02AC10",
+  "same_as": "BB:02AC10"
+ }
+]

@@ -36,14 +36,14 @@ FORCED_JP = ('EXP：', '{name}のHPが', 'メダルを何枚かけますか', '�
              'はい{end}',
              # battle overlay: a fleeing enemy's parting line and the ally-list header (their leading ・/※ fail the scan)
              '・・・オボエテロヨ', '・・・今日はかんべん', '・・・おぼえておきなさい', '・・・勝てっこない', '・・・また今度ね',
-             '・・・やってらんねー', '・・・アイテにしてらんない', '※※仲魔　いちらん',
+             '・・・やってらんねー', '・・・アイテにしてらんない', '※※仲魔　いちらん', 'ネットライザ－コ－ル',
              '　戦{end}', '　　　　　　勝{end}', '　　　　　　敗{end}')  # win/loss record labels of the Webnet data list  # the Yes of the nickname Yes/No box (the scan took only the いいえ next to it)
 
 
-def forced(d):
+def forced(d, sigs=FORCED_JP):
     """{offset: (bytes, text)} of FORCED_JP strings in d that end in {end}."""
     out = {}
-    for s in FORCED_JP:
+    for s in sigs:
         sig = text.encode(s)
         i = d.find(sig)
         while i >= 0:
@@ -205,6 +205,25 @@ def battle_strings(d):
     return out
 
 
+EVENTS = (('BE', 'B_EVENT.BIN'), ('RE', 'R_EVENT.BIN'))
+# Event-overlay strings its code addresses directly (the fusion tutorial screen), before the pointer messages that
+# build_event repacks. Whole strings only: short names would split longer strings if forced in the EXEs.
+EVENT_JP = ('全てのカギができた{wait}{end}', '※※合体する仲魔※※{end}', '１体目を　せんたくしてください{end}',
+            '２体目を　せんたくしてください{end}', 'ネコマタ{end}', 'ネクベト{end}', 'デ－バ{end}', 'バステト{end}',
+            'タタリモッケ{end}', 'アンズ－{end}')
+
+
+def event_strings(d):
+    out = []
+    for off, (n, t) in sorted(forced(d, EVENT_JP).items()):
+        if off < 0x1300:  # the overlay's code/data head; its pointer messages start at 0x26B84 (B) / 0x26F24 (R)
+            cap = n
+            while (off + cap) % 4 and d[off + cap] == 0:
+                cap += 1
+            out.append((off, n, cap, t))
+    return out
+
+
 def dump(chunk=120, sub='exe', files=EXES, extract=None):
     dest = ROOT / 'script' / sub
     dest.mkdir(parents=True, exist_ok=True)
@@ -276,6 +295,9 @@ def main():
         return
     if cmd == 'append-battle':
         append(sub='battle', exes=BATTLES, extract=battle_strings)
+        return
+    if cmd == 'append-event':  # event-overlay code strings -> script/battle (built in place like the battle ones)
+        append(sub='battle', exes=EVENTS, extract=event_strings)
         return
     if cmd == 'dump-battle':
         dump(sub='battle', files=BATTLES, extract=battle_strings)

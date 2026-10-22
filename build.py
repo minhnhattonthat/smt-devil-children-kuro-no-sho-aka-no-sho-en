@@ -237,7 +237,8 @@ def place_pieces(files, name):
     return out
 
 
-EXE_TAG = {'B_MAIN.EXE': 'BM', 'R_MAIN.EXE': 'RM', 'N_MAIN.EXE': 'NM', 'B_BATTLE.BIN': 'BB', 'R_BATTLE.BIN': 'RB'}
+EXE_TAG = {'B_MAIN.EXE': 'BM', 'R_MAIN.EXE': 'RM', 'N_MAIN.EXE': 'NM', 'B_BATTLE.BIN': 'BB', 'R_BATTLE.BIN': 'RB',
+           'B_EVENT.BIN': 'BE', 'R_EVENT.BIN': 'RE'}
 
 
 def exe_marker(mid, jp, cap):
@@ -260,11 +261,12 @@ RELOCATE = {'B_MAIN.EXE': {0xB074C: [0x990, 0x5A54]}, 'R_MAIN.EXE': {0xB0AE0: [0
 CAVE2_USED = 476  # bytes used by asm/main.asm in cave 2 (pk_pend 4 + widths 256 + map8 128 + name_tab 87, aligned)
 
 
-def insert_strings(files, name, mode, sub, extract):
-    """In-place packed English for EXE/overlay strings (script/<sub>); writes build/files/<name>."""
+def insert_strings(files, name, mode, sub, extract, src=None):
+    """In-place packed English for EXE/overlay strings (script/<sub>); writes build/files/<name>.
+    src: bytes to patch instead of the original file (an event overlay after its message repack)."""
     import lint
     import text
-    d = bytearray((TREE / name).read_bytes())
+    d = bytearray(src or (TREE / name).read_bytes())
     tl = load_script(sub)
     tag = EXE_TAG[name]
     jp_first = exe_first_ids(sub)
@@ -407,7 +409,8 @@ def build_event(files, tag, name, mode):
         else:
             new[off] = d[off:off + n]
     out, st = events.repack(d, msgs, new)
-    (files / name).write_bytes(out)
+    import exe
+    insert_strings(files, name, mode, 'battle', exe.event_strings, src=bytes(out))  # code-addressed strings
     print('%s: %d/%d bytes (%.0f%%)' % (name, st['used'], st['capacity'], 100 * st['used'] / st['capacity']))
 
 

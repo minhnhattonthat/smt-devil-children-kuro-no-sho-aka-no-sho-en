@@ -65,8 +65,7 @@ SCENES.update({
     'name_hero': dict(group='name', call=(0x800218D4, 0, 0), steps=['wait 150', 'shot', 'select', 'wait 30', 'shot']),
     'name_partner': dict(group='name', call=(0x800218D4, 1, 0), steps=['wait 150', 'shot']),
     'name_demon': dict(group='name', call=(0x800218D4, 2, 0), steps=['wait 150', 'shot']),
-    'password': dict(group='name', call=(0x80020A88, 0, 0), steps=['wait 150', 'shot']),
-})
+    'password': dict(group='name', call=(0x80020A88, 0, 0), steps=['wait 150', 'shot']),})
 
 # VM opcode probes (zero operands): which op opens which screen? (event VM handlers: B_MAIN table at 0x800A9AA8)
 for _op in (18, 19, 28, 29, 31, 32, 33, 36, 37, 38, 42, 45, 46, 51, 52, 57, 58, 59, 61, 62, 68, 69, 70, 72, 74, 75, 76, 77):

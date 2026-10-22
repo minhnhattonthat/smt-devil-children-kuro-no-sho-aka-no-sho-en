@@ -1,0 +1,86 @@
+[
+ {
+  "id": "BE:000B54",
+  "jp": "全てのカギができた{wait}{end}",
+  "en": "All the keys are made!{wait}{end}",
+  "max": 22
+ },
+ {
+  "id": "BE:000E94",
+  "jp": "※※合体する仲魔※※{end}",
+  "en": "**Allies to Fuse**{end}",
+  "max": 24
+ },
+ {
+  "id": "BE:000EB6",
+  "jp": "１体目を　せんたくしてください{end}",
+  "en": "Select the first ally.{end}",
+  "max": 34
+ },
+ {
+  "id": "BE:000ED8",
+  "jp": "２体目を　せんたくしてください{end}",
+  "en": "Select the second ally.{end}",
+  "max": 32
+ },
+ {
+  "id": "BE:000EFC",
+  "jp": "ネコマタ{end}",
+  "en": "Nekomata{end}",
+  "max": 12
+ },
+ {
+  "id": "BE:000F0A",
+  "jp": "ネクベト{end}",
+  "en": "Nekhbet{end}",
+  "max": 10
+ },
+ {
+  "id": "BE:000F18",
+  "jp": "デ－バ{end}",
+  "en": "Deva{end}",
+  "max": 8
+ },
+ {
+  "id": "BE:000F26",
+  "jp": "バステト{end}",
+  "en": "Bastet{end}",
+  "max": 10
+ },
+ {
+  "id": "RE:000A7C",
+  "same_as": "BE:000B54"
+ },
+ {
+  "id": "RE:000DBC",
+  "same_as": "BE:000E94"
+ },
+ {
+  "id": "RE:000DDE",
+  "same_as": "BE:000EB6"
+ },
+ {
+  "id": "RE:000E00",
+  "same_as": "BE:000ED8"
+ },
+ {
+  "id": "RE:000E24",
+  "same_as": "BE:000EFC"
+ },
+ {
+  "id": "RE:000E32",
+  "same_as": "BE:000EFC"
+ },
+ {
+  "id": "RE:000E40",
+  "jp": "タタリモッケ{end}",
+  "en": "Tatari Mokke{end}",
+  "max": 14
+ },
+ {
+  "id": "RE:000E4E",
+  "jp": "アンズ－{end}",
+  "en": "Anzu{end}",
+  "max": 10
+ }
+]
