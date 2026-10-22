@@ -629,7 +629,8 @@ def draw_battle_buttons(pac):
 # (box, English, body index, shadow index). Gradient labels use 13/11 (light), the command list uses 8/1 (grey).
 STATUS_LABELS = [
     ((223, 115, 272, 130), 'Next Lv', 13, 11, 2), ((273, 115, 311, 130), 'Class', 13, 11, -1),
-    ((312, 115, 350, 130), 'Element', 13, 11),  # x1 350: tight spacing, clear of the arrow (JP ends at 348) ((353, 115, 393, 130), 'Race', 13, 11, -1),
+    # Element: x1 350 forces tight spacing, clear of its arrow (JP ends at 348)
+    ((312, 115, 350, 130), 'Element', 13, 11), ((353, 115, 393, 130), 'Race', 13, 11, -1),
     # Cost labels start 2 px in: the demon-info pentagram sprite samples column 335 (stray "|" marks)
     ((335, 133, 393, 147), 'HP Cost', 13, 11, 2), ((335, 149, 393, 163), 'MP Cost', 13, 11, 2),
     ((351, 162, 403, 178), 'Surrender', 8, 1), ((351, 178, 403, 194), 'Combo', 8, 1),
