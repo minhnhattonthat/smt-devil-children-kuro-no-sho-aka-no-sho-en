@@ -274,6 +274,13 @@ def fix_art(im, orig, f):
                 px[x, y] = px[x0 - 2, y]  # page white
 
 
+def tile(op, src, x, y):
+    """Pixel (x, y) of the patch src=(x, y, w, h) of op, mirror-tiled: seamless texture fill."""
+    sx, sy, w, h = src
+    i, j = x % (2 * w), y % (2 * h)
+    return op[sx + min(i, 2 * w - 1 - i), sy + min(j, 2 * h - 1 - j)]
+
+
 LOGO = {}  # logo pixels -> colour from the Black title (edited first), reused to find the same logo under Red's girl
 
 
@@ -330,17 +337,29 @@ def edit_logo(im, e):
         todo -= set(layer)
     if 'fix' in e:
         fix_art(im, orig, e['fix'])
+        # the refill smears flat dark polygons over the marble: re-texture erased plaque pixels
+        op = orig.load()
+        tx0, ty0 = e['text_box'][:2]
+        for x, y in logo | {q for q in white if q[0] >= 150 and q[1] >= ty0}:  # + the ン's white rim, right of the wings
+            h, s, v = colorsys.rgb_to_hsv(*(k / 255 for k in px[x, y]))
+            if (x >= tx0 and y >= ty0) or (v < 0.55 and 200 / 360 <= h <= 300 / 360):
+                px[x, y] = tile(op, (191, 100, 18, 30), x, y)  # clean marble right of the ン
     else:
         # Black's narrower DEVIL line exposes space previously hidden by the
         # stretched lettering. Rebuild the plaque/page beneath the entire old
         # katakana silhouette, not random fragments of its yellow/black edges.
         op = orig.load()
-        plaque = tuple(sum(op[x, y][k] for x in range(144, 156) for y in range(71, 75)) // 48 for k in range(3))
+        plaque = lambda x, y: tile(op, (232, 96, 16, 30), x, y)  # clean camo right of the boy
         for y in range(72, 144):
             for x in range(3, 178):
-                if (x, y) in protect and (x >= 170 or (y >= 120 and x >= 110)):
+                if (x, y) in protect and (x >= 170 or (y >= 120 and x >= 110 and (x, y) not in white)):
                     continue
-                px[x, y] = plaque if x >= 54 and y < 138 else op[10, y]  # col 0 alternates 240/248: stripes
+                px[x, y] = plaque(x, y) if x >= 54 and (y < 138 or x >= 110) else op[10, y]  # col 0 alternates 240/248: stripes
+        for y in range(sy0, 72):  # pink refill left by the red kanji line above
+            for x in range(sx0, sx1):
+                h, s, v = colorsys.rgb_to_hsv(*(k / 255 for k in px[x, y]))
+                if (h < 15 / 360 or h > 330 / 360) and s > 0.12 and v > 0.3:
+                    px[x, y] = plaque(x, y)
     clean = im.copy()
     for s, line_box in zip(e['text'], e['lines']):
         logo_line(im, s, line_box)
@@ -353,12 +372,12 @@ def edit_logo(im, e):
         # pixels, including the dark red antialiasing, rather than the refill.
         crest = {q for q, (h, s, v) in hsv.items() if q[0] >= 110 and q[1] >= 117
                  and s > .3 and (h < 12 / 360 or h > 330 / 360)}
-        for q in crest | {q for q in protect if q[0] >= 170 or (q[0] >= 110 and q[1] >= 120)}:
+        for q in crest | {q for q in protect if q[0] >= 170 or (q[0] >= 110 and q[1] >= 120 and q not in white)}:
             px[q] = orig.getpixel(q)
     else:
         # Veil's pale wings and red tail also sit in front of the logo. White
         # was excluded from the erase mask, so restore it after compositing too.
-        for key in ('wing_box', 'tail_box'):
+        for key in ('wing_box',):
             ax, ay, bx, by = e['fix'][key]
             for y in range(ay, by):
                 for x in range(ax, bx):
