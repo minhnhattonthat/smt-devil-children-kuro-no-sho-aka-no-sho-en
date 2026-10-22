@@ -1,0 +1,32 @@
+[
+ {
+  "id": "NM:0CB8C8",
+  "jp": "！！！{end}",
+  "en": "!!!{end}",
+  "max": 8
+ },
+ {
+  "id": "NM:0CB950",
+  "jp": "・・・！（{f6}）{end}",
+  "en": "...! ({f6}){end}",
+  "max": 16
+ },
+ {
+  "id": "NM:0CB9F4",
+  "same_as": "NM:0CB950"
+ },
+ {
+  "id": "NM:0CBA40",
+  "jp": "{f6}！！{end}",
+  "en": "{f6}!!{end}",
+  "max": 8
+ },
+ {
+  "id": "NM:0CBA48",
+  "same_as": "NM:0CBA40"
+ },
+ {
+  "id": "NM:0CBA60",
+  "same_as": "NM:0CB950"
+ }
+]

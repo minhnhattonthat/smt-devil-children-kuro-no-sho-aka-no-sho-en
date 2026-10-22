@@ -37,6 +37,8 @@ FORCED_JP = ('EXP：', '{name}のHPが', 'メダルを何枚かけますか', '�
              # battle overlay: a fleeing enemy's parting line and the ally-list header (their leading ・/※ fail the scan)
              '・・・オボエテロヨ', '・・・今日はかんべん', '・・・おぼえておきなさい', '・・・勝てっこない', '・・・また今度ね',
              '・・・やってらんねー', '・・・アイテにしてらんない', '※※仲魔　いちらん', 'ネットライザ－コ－ル',
+             # battle cries that are only punctuation around the skill name (no kana for the scan): B/R_BATTLE, N_MAIN
+             '・・・！（{f6}）{end}', '！！！{end}', '{f6}！！{end}',
              '　戦{end}', '　　　　　　勝{end}', '　　　　　　敗{end}')  # win/loss record labels of the Webnet data list  # the Yes of the nickname Yes/No box (the scan took only the いいえ next to it)
 
 
