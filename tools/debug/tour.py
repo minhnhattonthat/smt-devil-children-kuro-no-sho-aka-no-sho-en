@@ -126,7 +126,7 @@ def regen(book):
     # Black: the user's save (Continue); Red: a new game mashed to the first field (the classroom), no save needed
     route = ROOT / ('tools/routes/load_save.txt' if book == 'B' else 'tools/routes/new_red.txt')
     card = ['--memcard', str(ROOT / BOOKS['B']['card'])] if book == 'B' else []
-    out = ROOT / 'work/qa/mkstate'
+    out = ROOT / f'work/qa/mkstate_{book}{SUF}'  # per book: B and R regens can run in parallel
     r = emu(disc, out, card + ['--route', str(route),
                                '--state-out', str(ROOT / f'work/states/field_{book}{SUF}.sstate')], book)
     print(r.stdout[-300:], r.stderr[-300:])
@@ -152,7 +152,8 @@ def main():
         for n, s in SCENES.items():
             print(f"{s['group']:8} {n:16} {s.get('note', '')}")
         return 0
-    sel = [n for n, s in SCENES.items() if not a.names or n in a.names or s['group'] in a.names]
+    sel = [n for n, s in SCENES.items() if (not a.names or n in a.names or s['group'] in a.names)
+           and not ('ptr' in s and a.book != 'B')]  # event pointers are B_EVENT's (R dialogue: msgtour --book R)
     cue = ROOT / (JP_CUE if a.jp else 'build/dc_en.cue')
     bad, jp_all = 0, []
     with ThreadPoolExecutor(a.jobs) as ex:
