@@ -14,3 +14,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-10-11 | Specs and plans | need approval, pre-approved | Pre-approved; report results |
 | D7 | <= 2026-10-11 | ホモ joke | keep, soften | Kept (user ruling) |
 | D8 | <= 2026-10-11 | Release format | xdelta3 vs .bin | xdelta3 against the .bin only; never publish without the user |
+| D9 | 2026-10-22 | Iris CD shop replies (008.json B:32ACC/32AE4): JP strings overlap, so refuse/no-money run into the thanks lines (original bug) | keep fix, revert to faithful run-on | Keep fix: each reply ends at its own line; reads correctly |

@@ -6,7 +6,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **2026-10-22 QA:** B+R tours (menu, vinecom, battle, name, ops, groups) and all dialogue (B 3643 pages, R 6371): no
   Japanese left, only flags are id 0521 (Yes/No waits) and 1353 (bogus pointer). Battle screens + command buttons OK in
   emulator. Password screen verified (tools/lua/call_password.lua). Fixed: Iris CD shop lines 32ACC/32AE4 ran into each
-  other (JP original bug, 4 lines in a 3-line box): each now ends at its own reply. new_red.txt now picks New Game
+  other (JP original bug, 4 lines in a 3-line box): each now ends at its own reply (user kept it, D9). new_red.txt now picks New Game
   (title cursor defaults to Continue). Tour gaps: b_win* scenes lose (JP too) so the victory/EXP screen is unchecked;
   R-book menu scenes navigate wrong (early-game state has fewer menu items).
 - **Done:** engine (packed pair/triple English, VWF, 8x8 map, name entry, hooks in B/R/N_MAIN), event repack (88%/87%),
