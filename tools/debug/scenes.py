@@ -120,6 +120,7 @@ for _g in range(0, 8):
 
 # dialogue choice (op 0x43: prompt 3031, option list 3239 = "Stop and think it over / Listen a little more")
 SCENES['choice'] = dict(group='ops', ops=[67, 0, 0, 0, 0xD7, 0x0B, 0xA7, 0x0C, 0x3C, 0x91, 0x18, 0x80, 0x16, 0, 0, 0], max=900,
+                        b_only=True,  # 0x8018913C is a B_EVENT address
                         steps=['wait 150', 'shot', 'circle', 'wait 60', 'shot'])
 
 SCENES['v_devidas_end'] = dict(group='vinecom', steps=VINE + ['right*2', 'circle', 'wait 90', 'circle', 'wait 90', 'up', 'wait 20', 'shot',

@@ -153,7 +153,7 @@ def main():
             print(f"{s['group']:8} {n:16} {s.get('note', '')}")
         return 0
     sel = [n for n, s in SCENES.items() if (not a.names or n in a.names or s['group'] in a.names)
-           and not ('ptr' in s and a.book != 'B')]  # event pointers are B_EVENT's (R dialogue: msgtour --book R)
+           and not (('ptr' in s or s.get('b_only')) and a.book != 'B')]  # B_EVENT pointers (R dialogue: msgtour --book R)
     cue = ROOT / (JP_CUE if a.jp else 'build/dc_en.cue')
     bad, jp_all = 0, []
     with ThreadPoolExecutor(a.jobs) as ex:

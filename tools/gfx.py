@@ -629,7 +629,7 @@ def draw_battle_buttons(pac):
 # (box, English, body index, shadow index). Gradient labels use 13/11 (light), the command list uses 8/1 (grey).
 STATUS_LABELS = [
     ((223, 115, 272, 130), 'Next Lv', 13, 11, 2), ((273, 115, 311, 130), 'Class', 13, 11, -1),
-    ((312, 115, 352, 130), 'Element', 13, 11), ((353, 115, 393, 130), 'Race', 13, 11, -1),
+    ((312, 115, 350, 130), 'Element', 13, 11),  # x1 350: tight spacing, clear of the arrow (JP ends at 348) ((353, 115, 393, 130), 'Race', 13, 11, -1),
     # Cost labels start 2 px in: the demon-info pentagram sprite samples column 335 (stray "|" marks)
     ((335, 133, 393, 147), 'HP Cost', 13, 11, 2), ((335, 149, 393, 163), 'MP Cost', 13, 11, 2),
     ((351, 162, 403, 178), 'Surrender', 8, 1), ((351, 178, 403, 194), 'Combo', 8, 1),
@@ -730,6 +730,70 @@ def draw_buff_words(pac):
                 s.set(x0 + x, y0 + y, 9 + round(m[x, y] * 6 / 255) if m[x, y] >= 32 else 9 if line[x, y] else 0)
 
 
+# Shock's portrait (demon 196, DEVIL.PAC 0x345C800, 8bpp 128x120): the prank sign it holds reads ドッキリ. A rotated
+# yellow board, corners (54,8) (63,29) (37,47) (28,26); the text runs along the long (28,26)->(54,8) edge.
+SHOCK_TIM = 0x345C800
+SHOCK_SIGN = [(54, 8), (63, 29), (37, 47), (28, 26)]
+
+
+def draw_shock_sign(pac, text=('GOT', 'CHA!')):
+    import math
+    import random
+    t = tim.parse(bytes(pac[SHOCK_TIM:SHOCK_TIM + 0x10000]), 0)
+    im = tim.to_image(t, 0).convert('RGB')
+    px = im.load()
+    cx = sum(p[0] for p in SHOCK_SIGN) / 4
+    cy = sum(p[1] for p in SHOCK_SIGN) / 4
+    inner = [(cx + (x - cx) * 0.92, cy + (y - cy) * 0.92) for x, y in SHOCK_SIGN]  # inside the brown rim
+
+    def inside(x, y, poly):
+        return all((bx - ax) * (y - ay) - (by - ay) * (x - ax) >= 0 for (ax, ay), (bx, by) in zip(poly, poly[1:] + poly[:1]))
+    face = {(x, y) for y in range(56) for x in range(20, 66) if inside(x + .5, y + .5, inner)
+            and px[x, y][0] >= 120 and px[x, y][2] <= 110}  # board colours only: the hand in front stays
+    ink = {q for q in face if px[q][1] < 140}  # red letters and their dark-orange edges
+    rnd, todo = random.Random(1), set(ink)  # refill the letters layer by layer from the yellow around them
+    while todo:
+        layer = {}
+        for x, y in sorted(todo):
+            nb = [q for q in ((x + a, y + b) for a in (-1, 0, 1) for b in (-1, 0, 1)) if q in face and q not in todo]
+            if nb:
+                layer[(x, y)] = px[rnd.choice(nb)]
+        if not layer:
+            break
+        for q, c in layer.items():
+            px[q] = c
+        todo -= set(layer)
+    k = 8  # supersampled lettering, rotated to the board
+    ang = math.degrees(math.atan2(26 - 8, 54 - 28))
+    f = ImageFont.truetype(str(FONTS / 'impact.ttf'), 160)
+    w, h = 24 * k, 9 * k  # one line, in board pixels
+    m = Image.new('L', (w + 2 * h, len(text) * (h + k) + 2 * h))
+    for i, s in enumerate(text):
+        l, tp, r, b = f.getbbox(s)
+        g = Image.new('L', (r - l, b - tp))
+        ImageDraw.Draw(g).text((-l, -tp), s, font=f, fill=255)
+        g = g.resize((min(w, round(g.width * h / g.height)), h), Image.Resampling.LANCZOS)
+        m.paste(g, ((m.width - g.width) // 2, h + i * (h + k)))
+    m = m.rotate(ang, Image.Resampling.BICUBIC, expand=True)
+    m = m.resize((round(m.width / k), round(m.height / k)), Image.Resampling.LANCZOS)
+    ox, oy = round(cx - m.width / 2), round(cy - m.height / 2)
+    red = (208, 0, 0)
+    for y in range(m.height):
+        for x in range(m.width):
+            q = (ox + x, oy + y)
+            a = m.getpixel((x, y)) / 255
+            if q in face and a > 0.15:
+                px[q] = tuple(round(c * (1 - a) + r * a) for c, r in zip(px[q], red))
+    cd = t['clut'][4]
+    pal = [tim.rgb(struct.unpack_from('<H', cd, i * 2)[0]) for i in range(t['clut'][2])]
+    key = px[0, 0]
+    base = SHOCK_TIM + t['end'] - len(t['data'])
+    for q in face:  # nearest palette colour, never the transparent key
+        c = px[q]
+        pac[base + q[1] * t['pw'] + q[0]] = min((i for i in range(len(pal)) if pal[i] != key),
+                                                key=lambda i: sum((pal[i][j] - c[j]) ** 2 for j in range(3)))
+
+
 def apply(pac):
     for off, edits in EDITS.items():
         t = tim.parse(bytes(pac[off:off + 0x20000]), 0)
@@ -744,6 +808,7 @@ def apply(pac):
     draw_status_labels(pac)
     draw_buff_labels(pac)
     draw_buff_words(pac)
+    draw_shock_sign(pac)
 
 
 def main():
