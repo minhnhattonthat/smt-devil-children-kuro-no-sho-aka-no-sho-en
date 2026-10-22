@@ -44,6 +44,7 @@ SCENES.update({
 # press circle until the Fight button is lit (its teal border, the same in the Japanese and English art)
 BATTLE = ['mash circle 16 158 65 164 172', 'wait 20']
 _B = dict(group='battle', call=(0x800523A8, 0))
+WIN = ['circle', 'circle', 'circle'] + ['wait 50', 'shot', 'circle'] * 16  # attack, then a shot per result page
 SCENES.update({
     'b_command': dict(_B, steps=BATTLE + ['shot']),
     'b_fight': dict(_B, steps=BATTLE + ['circle', 'shot']),
@@ -55,6 +56,8 @@ SCENES.update({
     'b_escape': dict(_B, steps=BATTLE + ['right*4', 'circle', 'wait 100', 'shot', 'wait 200', 'shot']),
     'b_attack': dict(_B, steps=BATTLE + ['circle', 'circle', 'circle', 'wait 30', 'shot', 'wait 60', 'shot', 'wait 60',
                                          'shot', 'wait 120', 'shot']),
+    # win: the ally can't die and hits for a kill (god) -> victory / EXP / level-up screens
+    'b_win': dict(_B, god=True, max=9000, steps=BATTLE + WIN),
 })
 
 # name entry / password (B_MAIN 0x800218D4 a0: 0 hero, 1 partner, 2 demon nickname; 0x80020A88 password)
@@ -111,10 +114,10 @@ for _g in range(0x70):
     SCENES[f'bg_{_g:02x}'] = dict(group='groups', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=6000,
                                   steps=['wait 450', 'shot', 'mash circle 16 158 65 164 172', 'wait 20', 'shot'])
 
-# fight a scripted group to the end: confirm spam, shot every ~240 frames (result screen)
+# win a scripted group like b_win: confirm spam, shot every ~240 frames (victory / EXP screens)
 for _g in range(0, 8):
-    SCENES[f'b_win{_g}'] = dict(group='battle', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=9000,
-                                steps=['wait 450'] + ['circle', 'wait 40', 'circle', 'wait 40', 'circle', 'wait 160', 'shot'] * 8)
+    SCENES[f'b_win{_g}'] = dict(group='battle', call=(0x800523A8, 1), poke={0x800D79D8: _g}, max=9000, god=True,
+                                steps=['wait 450'] + BATTLE + WIN)
 
 # dialogue choice (op 0x43: prompt 3031, option list 3239 = "Stop and think it over / Listen a little more")
 SCENES['choice'] = dict(group='ops', ops=[67, 0, 0, 0, 0xD7, 0x0B, 0xA7, 0x0C, 0x3C, 0x91, 0x18, 0x80, 0x16, 0, 0, 0], max=900,

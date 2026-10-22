@@ -1,0 +1,82 @@
+[
+ {
+  "id": "BB:02AC6C",
+  "jp": "※※仲魔　いちらん※※{end}",
+  "en": "**Ally List**{end}",
+  "max": 24
+ },
+ {
+  "id": "BB:02B610",
+  "jp": "・・・オボエテロヨ！{end}",
+  "en": "...JUST YOU WAIT!{end}",
+  "max": 24
+ },
+ {
+  "id": "BB:02B638",
+  "jp": "・・・今日はかんべんしてやる！{end}",
+  "en": "...I'll let you off today!{end}",
+  "max": 32
+ },
+ {
+  "id": "BB:02B658",
+  "jp": "・・・おぼえておきなさい！！{end}",
+  "en": "...You'll regret this!!{end}",
+  "max": 32
+ },
+ {
+  "id": "BB:02B678",
+  "jp": "・・・勝てっこないよ、サヨナラ！{end}",
+  "en": "...I can't win. Bye-bye!{end}",
+  "max": 36
+ },
+ {
+  "id": "BB:02B69C",
+  "jp": "・・・また今度ね、バイバイ！{end}",
+  "en": "...Next time! Bye-bye!{end}",
+  "max": 32
+ },
+ {
+  "id": "BB:02B6BC",
+  "jp": "・・・やってらんねーや！んじゃ！{end}",
+  "en": "...I'm done with this! Later!{end}",
+  "max": 36
+ },
+ {
+  "id": "BB:02B6E0",
+  "jp": "・・・アイテにしてらんないわ！{end}",
+  "en": "...You're not worth my time!{end}",
+  "max": 32
+ },
+ {
+  "id": "RB:02AC6C",
+  "same_as": "BB:02AC6C"
+ },
+ {
+  "id": "RB:02B60C",
+  "same_as": "BB:02B610"
+ },
+ {
+  "id": "RB:02B634",
+  "same_as": "BB:02B638"
+ },
+ {
+  "id": "RB:02B654",
+  "same_as": "BB:02B658"
+ },
+ {
+  "id": "RB:02B674",
+  "same_as": "BB:02B678"
+ },
+ {
+  "id": "RB:02B698",
+  "same_as": "BB:02B69C"
+ },
+ {
+  "id": "RB:02B6B8",
+  "same_as": "BB:02B6BC"
+ },
+ {
+  "id": "RB:02B6DC",
+  "same_as": "BB:02B6E0"
+ }
+]

@@ -87,6 +87,11 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
   a blocking function runs while the script keeps pressing keys and shooting. LuaJIT in PCSX-Redux dies ('stack overflow')
   after ~175 hijacks in one run, so tools restart the emulator every ~100 messages.
 - Battle: enemy group = byte 0x800D79D8 before `0x800523A8(1)`; groups 0x00-0x16 and 0x30-0x6D exist (the rest are empty).
+- Combatants: party slots 0x800E0918 (R 0x800E0CD0), enemy slots 0x80110EC8 (R 0x80111280), both 38 bytes: id u16 +0,
+  max HP +0x0E, max MP +0x10, HP +0x12, MP +0x14, level +0x16, six stat bytes +0x18. The battle's right-hand sprite is
+  the ally (Cool/Veil). An enemy at low HP may run away on its turn (B_BATTLE 0x2B610.. "・・・オボエテロヨ！" lines),
+  which needs a real kill to end the battle: scenes `b_win*` pin the ally's HP and set its stats to 99
+  (tools/lua/godmode.lua, scene key `god`) so the first hit wins.
 - Shops/bank/training/healing screens (strings BM:001EC0-002360: Deposit, Withdraw, Total cost, Sold out...) are not
   reached yet; no code references those strings by address (label ids go through a table). Probing VM ops with zero operands
   (tools/debug/scenes.py `op_*`) opens nothing else; they probably need operands or game flags.

@@ -1,5 +1,5 @@
 -- Scene player for tools/debug/tour.py (condition-based waits; fixed frame counts drift with disc loading and RNG).
--- STEPS: list of strings (global set by --var): 'wait N' | 'KEY[*N]' | 'shot' | 'until X Y R G B' | 'mash KEY X Y R G B'.
+-- STEPS: list of strings (global set by --var): 'wait N' | 'KEY[*N]' | 'shot' | 'ram' |'until X Y R G B' | 'mash KEY X Y R G B'.
 -- Pixels are compared on the 8-bit values of the 5-bit screen colour, tolerance 12 per channel.
 local ffi = require('ffi')
 local GAP, TOL, LIMIT = 40, 12, 3000
@@ -27,6 +27,9 @@ L.on_frame(function(n)
   if c == 'wait' then wait = tonumber(t[2]) i = i + 1
   elseif c == 'vram' then -- dump video memory (vram.vram.bin in the run folder), to find which sheet a screen draws from
     L.dump_ppu('vram')
+    i = i + 1
+  elseif c == 'ram' then -- dump main RAM (ram_fNNNNNN.bin in the run folder), for ramsearch.py
+    L.dump_ram(string.format('ram_f%06d.bin', n))
     i = i + 1
   elseif c == 'scan' then -- JP window scan without a shot
     if JPSCAN then JPSCAN(string.format('f%d', n)) end

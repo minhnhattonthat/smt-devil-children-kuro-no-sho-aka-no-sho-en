@@ -52,7 +52,7 @@ def run_scene(name, cue, book):
     state = sc.get('state', f'work/states/field_{book}{SUF}.sstate')  # a user/bug state (shop, Webnet...) overrides the field one
     A = ADDR[book]
     extra = (['--memcard', str(ROOT / BOOKS['B']['card'])] if sc.get('card') else []) + ([] if sc.get('cold') else ['--state-in', str(ROOT / state)]) + ['--frames', str(sc.get('max', 12000)),
-             '--var', f"WIN={A['win']:#x}", '--var', f"VM={A['vm']:#x}",
+             '--var', f"WIN={A['win']:#x}", '--var', f"VM={A['vm']:#x}", '--var', f"PARTY={A['party']:#x}",
              '--script', str(ROOT / 'tools/debug/jpscan.lua'), '--script', str(ROOT / 'tools/debug/scene.lua'),
              '--var', 'STEPS=' + lua_steps(sc['steps'])]
     if 'ops' in sc:  # a synthetic event script (bytes) or an existing one ('ptr') run by the game's event VM
@@ -70,6 +70,8 @@ def run_scene(name, cue, book):
         if sc.get('poke'):
             poke = {(A['group'] if a == ADDR['B']['group'] else a): v for a, v in sc['poke'].items()}
             extra += ['--var', 'POKE={' + ','.join(f'[{a:#x}]={v}' for a, v in poke.items()) + '}']
+    if sc.get('god'):  # party slot 0 can't die and one-shots enemies (tools/lua/godmode.lua)
+        extra += ['--script', str(ROOT / 'tools/lua/godmode.lua')]
     if os.environ.get('CAVEWATCH'):  # log writes into the code caves (B_MAIN's), see tools/lua/cavewatch.lua
         sys.path.insert(0, str(ROOT / 'tools'))
         import cavecheck  # watch cave 1/2 and the text-tail pieces of this book's EXE
