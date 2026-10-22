@@ -16,7 +16,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
             `msgid.py <id>` maps a page name back to its script entry. Details: docs/re/README.md "Scene warps".
             tour/msgtour find emu.py via `$SKILL`, else the newest installed plugin copy.
 - Saves:    user's card `E:\DuckStation\memcards\dc_en_1.mcd` (copy to work/, pass `--memcard`); routes `tools/routes/load_save.txt` (to field), `load_status.txt` (ally status). emu.py runs muted at 8x speed (~20 s per 10k frames).
-- Release:  (not yet) xdelta3 against the .bin only; never publish without the user.
+- Release:  `python -X utf8 tools/release.py <ver>` -> release/*.zip (xdelta3 vs the .bin + README; needs the QA gate:
+            qa_gate.py init/todo/check work/qa/manifest.tsv, verdicts in work/qa/verdicts). Never publish without the user.
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
