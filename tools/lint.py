@@ -145,8 +145,9 @@ def prepare(jp, en):
     """English as it goes into the build: dialogue auto-wrapped; choices get the cursor indent per option."""
     if form(jp) == 'choice':
         return '{n}'.join(ln if ln.startswith(CURSOR) else CURSOR + ln.lstrip(' ') for ln in en.split('{n}'))
-    # {f0} scrolls the box up one line (seen in-game); as a page break English never overflows after it
-    return wrap(en.replace('{f0}', '{page}'), 'dialog')
+    # {f0} scrolls the box up one line (seen in-game); as a page break English never overflows after it. {page} does
+    # not wait, so a bare {f0} gets a {wait} first: else the text since the last wait is wiped unread (web_guide).
+    return wrap(en.replace('{wait}{f0}', '{wait}{page}').replace('{f0}', '{wait}{page}'), 'dialog')
 
 
 @lru_cache(None)

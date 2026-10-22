@@ -297,7 +297,7 @@ def edit_logo(im, e):
         dark = {q for q in grow(fill, 8, box) if hsv[q][2] < 0.6 and hsv[q][1] < 0.5}
         logo = ((warm & grow(fill, 3, box)) | dark) - white
         for q in [q for q in hsv if q[0] < e['text_box'][0] + 5 and e['text_box'][1] <= q[1] < e['text_box'][3]]:
-            px[q] = px[(x0, q[1])]  # left margin of the logo: plain background
+            px[q] = px[(x0 + 8, q[1])]  # left margin of the logo: plain background (x0 alternates 240/248)
         LOGO.update({q: px[q] for q in logo})
     else:  # same katakana artwork shifted (the kanji line is not): logo where Black's logo colour is still there
         dx, dy = e['ref']
@@ -340,7 +340,7 @@ def edit_logo(im, e):
             for x in range(3, 178):
                 if (x, y) in protect and (x >= 170 or (y >= 120 and x >= 110)):
                     continue
-                px[x, y] = plaque if x >= 54 and y < 138 else op[0, y]
+                px[x, y] = plaque if x >= 54 and y < 138 else op[10, y]  # col 0 alternates 240/248: stripes
     clean = im.copy()
     for s, line_box in zip(e['text'], e['lines']):
         logo_line(im, s, line_box)
