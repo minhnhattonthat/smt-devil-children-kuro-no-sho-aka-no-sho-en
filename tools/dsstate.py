@@ -12,7 +12,6 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'tools'))
 
 CODE_END = 0x800A9000  # EXE text ends before the event-VM opcode table (B_MAIN 0x800A9AA8); R/N similar

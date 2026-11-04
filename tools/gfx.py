@@ -507,8 +507,7 @@ class Sheet4:
 
 
 def font8(pac):
-    """{ascii: (rows of 8 values 0-3, width)} from the game's 8x8 font (TXS image, glyph per tools/../build map8)."""
-    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    """{ascii: (rows of 8 values 0-3, width)} from the game's 8x8 font (TXS image, glyph per build.py map8)."""
     import build
     m = build.map8()
     out = {}

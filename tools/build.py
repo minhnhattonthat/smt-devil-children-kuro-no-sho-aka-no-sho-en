@@ -1,9 +1,9 @@
 """Build entry point.
 
-  python -X utf8 build.py            build build/dc_en.bin + .cue from rom/ + translations
-  python -X utf8 build.py dump       unpack the original disc to work/orig (once)
-  python -X utf8 build.py identity   rebuild the untouched disc and compare SHA-1 with the original
-  python -X utf8 build.py marker     every event message replaced by an [id] marker
+  python -X utf8 tools/build.py            build build/dc_en.bin + .cue from rom/ + translations
+  python -X utf8 tools/build.py dump       unpack the original disc to work/orig (once)
+  python -X utf8 tools/build.py identity   rebuild the untouched disc and compare SHA-1 with the original
+  python -X utf8 tools/build.py marker     every event message replaced by an [id] marker
 """
 import hashlib
 import re
@@ -13,7 +13,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 ROM_CUE = ROOT / 'rom' / 'Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).cue'
 ORIG = ROOT / 'work' / 'orig'
 TREE = ORIG / 'tree'
@@ -415,7 +415,6 @@ def build_event(files, tag, name, mode):
 
 
 def build(mode='normal'):
-    sys.path.insert(0, str(ROOT / 'tools'))
     files = BUILD / 'files'
     if files.exists():
         shutil.rmtree(files)
@@ -439,7 +438,6 @@ def build(mode='normal'):
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'build'
-    sys.path.insert(0, str(ROOT / 'tools'))
     import check_rom
     check_rom.check()
     sys.exit({'dump': lambda: dump() or 0, 'identity': identity, 'build': build,

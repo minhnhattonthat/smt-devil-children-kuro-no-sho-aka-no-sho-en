@@ -2,7 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (QA). Last build: 2026-10-22 playtest pass.
+- **Phase:** 8 (QA). Last build: 2026-10-22 playtest pass; rebuilt 2026-11-04 from `tools/build.py`, byte-identical (sha1 5a45d87a).
+- **2026-11-04 template + emulator:** repo now follows fan-translation-template (D10). PCSX-Redux nightly 30264.20261103.29 in
+  `tools/pcsx/`, BIOS in `tools/bios/`; old build + its other BIOSes in `work/pcsx-redux-old/` (delete when happy). Full B+R
+  tours + all B dialogue ran on it (sheets: `work/qa/redux-30264/`): same text, frames shift (screens arrive earlier), so 195/199
+  sheets differ pixelwise and the QA gate still points at the old-Redux sheets of this same build. Compared by eye: boot, webnet,
+  battle_11, demons_42 only; a new gate over the 30264 sheets needs new verdicts. field_B/R.sstate regenerated on 30264.
 - **2026-10-22 QA:** B+R tours (menu, vinecom, battle, name, ops, groups) and all dialogue (B 3643 pages, R 6371): no
   Japanese left, only flags are id 0521 (Yes/No waits) and 1353 (bogus pointer). Battle screens + command buttons OK in
   emulator. Password screen verified (tools/lua/call_password.lua). Fixed: Iris CD shop lines 32ACC/32AE4 ran into each

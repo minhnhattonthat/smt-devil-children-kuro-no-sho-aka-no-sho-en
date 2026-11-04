@@ -2,10 +2,9 @@
 
   python -X utf8 tools/release.py 1.0        -> release/DevilChildren_BlackRed_EN_v1.0.zip
 
-Run after build.py. Stops unless the dump matches rom.sha1, every QA sheet has a verdict (qa_gate.py check) and the
+Run after tools/build.py. Stops unless the dump matches rom.sha1, every QA sheet has a verdict (qa_gate.py check) and the
 patch re-applied to the clean .bin gives build/dc_en.bin byte for byte."""
 import hashlib
-import os
 import subprocess
 import sys
 import zipfile
@@ -15,13 +14,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 import check_rom  # noqa: E402
+from skill import SCRIPTS  # noqa: E402
 
 ORIG = ROOT / 'rom/Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).bin'
 BUILT = ROOT / 'build/dc_en.bin'
 OUT = ROOT / 'release'
-QA_GATE = (Path(os.environ['SKILL']) if os.environ.get('SKILL') else max(
-    (Path.home() / '.claude/plugins/cache/retro-translation/translate-retro-game').glob('*/skills/translate-retro-game'),
-    key=lambda p: p.stat().st_mtime)) / 'scripts/qa_gate.py'
+QA_GATE = Path(SCRIPTS) / 'qa_gate.py'
 
 README = """Shin Megami Tensei: Devil Children Black Book / Red Book - English translation v{ver}
 =====================================================================================

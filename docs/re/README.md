@@ -65,6 +65,12 @@ Disc: Redump 62163, 1 track MODE2/2352, 254258256 bytes, CRC32 C374E0C6, SHA-1 f
   Probe `tools/lua/call_password.lua` (logs v0; typing HOLYCHILDREN: answer 0 -> 1, answer 1 -> 0, 2026-10-22).
 - Field-menu money sign = 16x16 glyph 0x12 (♄-like Macca sign; jp.tbl reads it as 々), redrawn by build.macca_mark.
 
+## Tour (tools/debug/tour.py)
+- Scenes: tools/debug/scenes.py (steps, pixel waits, `call` = warp into a game function, `state` = a user savestate for shop/Webnet). `--jp` (regen + run) = same tour on the original disc for comparison.
+- Groups: menu vinecom battle name ops groups(scripted battles) demons(277 info screens) events(99 triggers) boot webnet (cold boots, no state).
+- Red Book: `regen --book R` then `run ... --book R` / `msgtour.py --book R` (output *_R dirs).
+- Every shot also scans open windows for kana (JP report in the run output, work/qa/tour/jp_report.txt).
+
 ## Scene warps (B_MAIN; tools/debug/)
 - Main loop 0x80026424 switches on mode byte 0x800D7776: 0 = 0x8005F0A8, 1 = field 0x8005A6BC, 2 = overlay (battle).
   Field loop dispatches on 0x800D7AE2 (0-5). Overlay loads: 0x80032718(0x1ca) main/event, (0x1cc) B_BATTLE.

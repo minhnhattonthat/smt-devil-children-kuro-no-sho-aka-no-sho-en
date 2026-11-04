@@ -9,19 +9,32 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story (Black Book, Red Book, Webnet) | Translated |
+| Menus, items, skills, demons, system messages | Translated |
+| Title screens, logos, book menu, battle graphics | Translated |
+| Name entry and passwords | English letters |
+| Credits | Translated (staff names romanized) |
+
+Known issues: see [Issues](../../issues).
+
 ## What's here
 
 | Path | What it is |
 |---|---|
 | `script/` | Every text block: original Japanese and English. Translation fixes go here. |
 | `glossary.md` | Binding names, terms and style rules. |
-| `build.py`, `tools/` | Python build chain: extract, insert, lint, debug tours. |
+| `tools/` | Python build chain: extract, insert, lint, debug tours, release. |
 | `asm/`, `font/`, `tbl/` | Engine hooks (armips), English glyphs, text tables. |
 | `tests/` | pytest suite (ROM-dependent tests skip when the ROM is absent). |
 | `docs/re/` | Reverse-engineering notes. |
 | `docs/decisions.md`, `docs/status.md` | Rulings with their reasons; current progress and open bugs. |
 | `docs/fonts.md` | Fonts used and their licences. |
 | `AGENTS.md` | Instructions for coding agents (`CLAUDE.md` points to it). |
+| `.claude/agents/` | Subagent types (translator, reviewer, visual QA, playtester) with only the tools each needs. |
 
 ## Build your own patched disc
 
@@ -32,8 +45,8 @@ git clone https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-
 cd smt-devil-children-kuro-no-sho-aka-no-sho
 # copy your dump (Redump 62163) to: rom/Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).bin + .cue
 #   (.bin 254258256 bytes, SHA-1 f7a3e476f595e656d5d5788a27aa6beec504a5bc; the build refuses any other dump, see rom.sha1)
-python -X utf8 build.py dump                           # once: unpack the disc to work/orig
-python -X utf8 build.py                                # -> build/dc_en.bin + .cue
+python -X utf8 tools/build.py dump                     # once: unpack the disc to work/orig
+python -X utf8 tools/build.py                          # -> build/dc_en.bin + .cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 

@@ -6,7 +6,6 @@ sheet_flagged_*.png. A page is flagged when white text pixels reach the box edge
 or when a message got stuck. Ids: 3000 + index in the overlay message table (0x801BA0F8); see msgs.lua.
 """
 import argparse
-import os
 import struct
 import subprocess
 import sys
@@ -18,12 +17,12 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).parent))
 from addrs import ADDR  # noqa: E402
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from skill import SCRIPTS  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
-# translate-retro-game plugin: $SKILL (the dir holding SKILL.md), else the newest installed copy
-EMU = (Path(os.environ['SKILL']) if os.environ.get('SKILL') else max(
-    (Path.home() / '.claude/plugins/cache/retro-translation/translate-retro-game').glob('*/skills/translate-retro-game'),
-    key=lambda p: p.stat().st_mtime)) / 'scripts/emu.py'
-BIOS = ROOT / 'tools/pcsx-redux/bios/SCPH-5500.bin'
+EMU = Path(SCRIPTS) / 'emu.py'
+BIOS = ROOT / 'tools/bios/SCPH-5500.bin'
 OUT = ROOT / 'work/qa/msgs'
 TABLE = 0x801BA0F8
 BASE = 0x80170000

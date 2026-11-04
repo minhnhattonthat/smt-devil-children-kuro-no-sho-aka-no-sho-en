@@ -26,7 +26,7 @@ Boot contact sheets: `work/qa/tour/sheet_boot_0.png` and `sheet_boot_1.png`.
 Validation commands:
 
 ```
-python -X utf8 build.py
+python -X utf8 tools/build.py
 python -X utf8 tools/debug/tour.py run boot
 python -X utf8 tools/check.py
 python -X utf8 tools/check_title_gfx.py work/qa/logos/before_textures --vram work/qa/logos/before/main.vram.bin

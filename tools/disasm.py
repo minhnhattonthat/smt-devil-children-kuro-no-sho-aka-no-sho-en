@@ -1,8 +1,8 @@
 """RE helpers for PS-X EXEs and overlays.
 
-  python -X utf8 tools/re.py dis FILE ADDR [COUNT]        disassemble (ADDR = RAM 0x8xxxxxxx or file offset)
-  python -X utf8 tools/re.py xref FILE TARGET              find lui/addiu|ori|lw.. pairs and jal that build TARGET
-  python -X utf8 tools/re.py find FILE HEX                 find byte pattern, print file offsets + RAM addresses
+  python -X utf8 tools/disasm.py dis FILE ADDR [COUNT]     disassemble (ADDR = RAM 0x8xxxxxxx or file offset)
+  python -X utf8 tools/disasm.py xref FILE TARGET          find lui/addiu|ori|lw.. pairs and jal that build TARGET
+  python -X utf8 tools/disasm.py find FILE HEX             find byte pattern, print file offsets + RAM addresses
 Overlays (*.BIN) have no header: pass --base 0x8xxxxxxx (RAM address of file offset 0).
 """
 import argparse
