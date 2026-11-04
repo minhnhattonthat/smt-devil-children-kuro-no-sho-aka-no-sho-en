@@ -50,4 +50,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:** R-book labels RM names fixed via [XXXX] prefix escapes; Fire relocated to cave 2 spare (build.RELOCATE).
   Field-menu tab "Menu" = EXE string at B/R_MAIN 0x3330 (script/exe/000.json BM:003318, 12-unit data prefix kept as [XXXX]).
   Lua call probe: tools/lua/call_namedef.lua (hijacks the CPU in the field to call a function, logs the buffers).
-- **Waiting on the user:** release (xdelta3 vs the .bin; release/ is local, never publish without the user).
+- **Published 2026-11-04:** v1.0, https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-no-sho-en (D11). Push with the minhnhattonthat token: the active gh account here is another one.
+- **Waiting on the user:** nothing. Later releases: never publish without the user.
