@@ -62,7 +62,7 @@ the project README.
 Known issues
 ------------
 - A few lines the original game never shows (cut text with no pointer to it) stay in Japanese on the disc.
-- Report bugs at https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-no-sho/issues
+- Report bugs at https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-no-sho-en/issues
   (a savestate helps most).
 
 Credits

@@ -41,8 +41,8 @@ Known issues: see [Issues](../../issues).
 Needs Python 3.12+, your own dump of the Japanese game, and mkpsxiso 2.30 + armips in `tools/` (see `AGENTS.md`).
 
 ```sh
-git clone https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-no-sho
-cd smt-devil-children-kuro-no-sho-aka-no-sho
+git clone https://github.com/minhnhattonthat/smt-devil-children-kuro-no-sho-aka-no-sho-en
+cd smt-devil-children-kuro-no-sho-aka-no-sho-en
 # copy your dump (Redump 62163) to: rom/Shin Megami Tensei - Devil Children - Kuro no Sho, Aka no Sho (Japan).bin + .cue
 #   (.bin 254258256 bytes, SHA-1 f7a3e476f595e656d5d5788a27aa6beec504a5bc; the build refuses any other dump, see rom.sha1)
 python -X utf8 tools/build.py dump                     # once: unpack the disc to work/orig

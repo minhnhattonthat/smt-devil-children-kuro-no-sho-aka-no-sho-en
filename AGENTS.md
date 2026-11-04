@@ -17,7 +17,7 @@ Fresh clone: `git config core.hooksPath tools/hooks`.
 - Original disc: `rom/` (Redump 62163; gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Unpacked: `work/orig/tree`. Disc tools: `tools/mkpsxiso-2.30-win64`, armips: `tools/armips`.
 - Emulator: `tools/pcsx/` (PCSX-Redux nightly 30264.20261103.29, gitignored; `$SKILL/scripts/fetch_emu.py pcsx --force` updates it, from https://distrib.app/storage/manifests/pcsx-redux/dev-win-x64/manifest.json). BIOS: `tools/bios/SCPH-5500.bin` (emu.py finds it).
 - Table `tbl/jp.tbl` (16-bit glyph codes). Codec/scan `tools/text.py`. Font sheets `tools/font.py` (fonts: `docs/fonts.md`). Disasm/xref `tools/disasm.py`. Savestate RAM `tools/state.py`. Lua probes `tools/lua/`.
-- Savestates `work/states/` (book_menu, pre_intro). RE notes: `docs/re/README.md`. Research: `docs/research.md`. Glossary: `glossary.md`. Proto patch (cj_iwakura, menus only) in `patch/`: reference only.
+- Savestates `work/states/` (book_menu, pre_intro). RE notes: `docs/re/README.md`. Research: `docs/research.md`. Glossary: `glossary.md`. Proto patch (cj_iwakura, menus only) in `work/proto_patch/` (not in git, someone else's work): reference only.
 - Translation: `python -X utf8 tools/batches.py split|split-exe|check <b>|merge <b>`; brief `docs/translator-brief.md`, style `docs/style-reference.md`, speakers `docs/faces.md`, names `docs/names.md`. Fitter: `tools/lint.py "text{end}"`. QA text sheet: `tools/qa_text.py work/qa/<run>`.
 
 ## Rulings
